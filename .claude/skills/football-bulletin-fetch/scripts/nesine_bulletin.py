@@ -40,7 +40,7 @@ from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
-SURUM = "0.1.0"
+SURUM = "0.2.0"
 TR = ZoneInfo("Europe/Istanbul")
 BURASI = Path(__file__).resolve().parent
 SOZLUK_DOSYASI = BURASI.parent / "data" / "market_sozlugu_v3.json"
@@ -173,6 +173,17 @@ def mac_listesini_bul(veri, yol=("sg", "EA")):
     return (en_iyi or []), en_iyi_yol, True
 
 
+def spor_grubu(e: dict) -> str:
+    """Normalleştirilmiş etkinliğin grubu. Negatif TYPE uzun vadeli pazardır (gözlem: -1 futbol ligleri, -2 basketbol,
+    -23 voleybol); yalnızca -1 futbol uzun vadeli sayılır, diğer negatifler başka sporların uzun vadelisidir."""
+    if e.get("futbol"):
+        return "futbol"
+    t = e.get("type_ham")
+    if isinstance(t, (int, float)) and not isinstance(t, bool) and t < 0:
+        return "futbol_uzun_vadeli" if t == -FUTBOL else f"uzun_vadeli_{int(-t)}"
+    return "spor_belirsiz" if e.get("spor_kodu") is None else f"spor_{e['spor_kodu']}"
+
+
 def spor_kodu(ev: dict):
     """Maç öncesinde TYPE, canlıda GT. -1/0/boş = belirsiz (ör. uzun vadeli 'Şampiyon Kim Olur?')."""
     for k in ("TYPE", "GT"):
@@ -287,7 +298,10 @@ def etkinlik_normallestir(ev: dict, akis: str, sozluk: Sozluk, cekim_tr: datetim
         "karsilasma": f"{ev_adi} - {dep_adi}" if (ev_adi or dep_adi) else (ev.get("ENN") or ev.get("ENO")),
         "etkinlik_adi": ev.get("ENN") or ev.get("ENO"),
         "baslama_tr": bas.isoformat() if bas else None, "baslama_kaynagi": zkaynak,
-        "tarih_saat_celiskisi": celiski, "tarih": ev.get("D"), "saat": ev.get("T"), "mac_mbs": ev.get("MBS"),
+        "tarih_saat_celiskisi": celiski, "tarih": ev.get("D"), "saat": ev.get("T"),
+        "mac_mbs": ev.get("EMBS") if ev.get("EMBS") is not None else ev.get("MBS"),     # Nesine maç MBS'i EMBS'te
+        "mac_mbs_kaynagi": "EMBS" if ev.get("EMBS") is not None else ("MBS" if ev.get("MBS") is not None else None),
+        "type_ham": ev.get("TYPE"),
         "baslama_saati_gecmis": bool(bas and cekim_tr and akis == "mac_oncesi" and bas < cekim_tr),
         "baslamamis_gorunuyor": bool(bas and cekim_tr and akis == "canli" and bas > cekim_tr + timedelta(minutes=10)),
     }
@@ -312,6 +326,7 @@ def etkinlik_normallestir(ev: dict, akis: str, sozluk: Sozluk, cekim_tr: datetim
                 ad = f"market {kimlik}" + (f" ({_g(f)})" if f not in (None, 0) else "")
                 ad_kaynak = "yok"
             ozel = maca_ozel_mi(ad, kayit)
+            ms = mk.get("MS")
             secenekler = []
             for s in mk.get("OCA") or []:
                 if not isinstance(s, dict):
@@ -319,10 +334,14 @@ def etkinlik_normallestir(ev: dict, akis: str, sozluk: Sozluk, cekim_tr: datetim
                 oran, durum = oran_oku(s.get("O"))
                 etiket, e_kaynak = secenek_etiketi(s, kayit, ozel, ev_adi, dep_adi)
                 secenekler.append({"secenek_no": s.get("N"), "secenek_adi": etiket, "secenek_adi_kaynagi": e_kaynak,
-                                   "oran": oran, "oran_ham": s.get("O"), "oran_durumu": durum})
+                                   "oran": oran, "oran_ham": s.get("O"), "oran_durumu": durum,
+                                   "oynanabilirlik": oynanabilirlik(durum, ms),
+                                   "secenek_alternatif_adi": None, "secenek_kodu_no": s.get("NO")})
             marketler.append({
                 "market_blok": blok, "market_sira": sira, "market_tip_id": mtid, "market_json_id": mk.get("ID"),
-                "market_no": mk.get("NO"), "market_mt": mk.get("MT"), "ozel_deger": sov, "market_mbs": mk.get("MBS"),
+                "market_no": mk.get("NO"), "market_mt": mk.get("MT"), "ozel_deger": sov,
+                "ozel_deger2": mk.get("SOV2"), "ozel_deger3": mk.get("SOV3"), "market_durumu": ms,
+                "market_mbs": mk.get("MBS"),
                 "market_adi": ad, "market_adi_kaynagi": ad_kaynak, "sozluk_adi": sozluk_adi,
                 "maca_ozel": ozel, "secenekler": secenekler,
             })
@@ -334,6 +353,15 @@ def etkinlik_normallestir(ev: dict, akis: str, sozluk: Sozluk, cekim_tr: datetim
     if akis == "canli":
         sonuc["canli"] = canli_durum(ev)
     return sonuc
+
+
+def oynanabilirlik(oran_durumu: str, ms) -> str:
+    """Oranın değeri (oran_durumu) ile market durumundan (MS) ayrı bir sonuç. MS'nin anlamı doğrulanana kadar
+    yalnızca MS == 1 ve oran > 1 'oynanabilir' sayılır; MS eksik ya da 1 değilse 'durumu_dogrulanmamis'.
+    Ham oran hiçbir durumda silinmez."""
+    if oran_durumu != "acik":
+        return oran_durumu
+    return "oynanabilir" if ms == 1 and not isinstance(ms, bool) else "durumu_dogrulanmamis"
 
 
 def secenek_etiketi(s: dict, kayit: dict | None, ozel: bool, ev: str, dep: str):
@@ -360,10 +388,13 @@ def _norm(s: str) -> str:
 # ----------------------------------------------------------------------------------------------
 TEMEL_SUTUNLAR = ["akis", "kod", "nid", "spor_kodu", "lig", "lig_ulke", "lig_kodu", "karsilasma", "ev", "deplasman", "etkinlik_adi",
                   "baslama_tr", "tarih", "saat", "mac_mbs", "diger_akista_da_var", "baslama_saati_gecmis",
-                  "baslamamis_gorunuyor", "tarih_saat_celiskisi", "zaman_okunamadi"]
+                  "baslamamis_gorunuyor", "tarih_saat_celiskisi", "zaman_okunamadi", "canli_kodu", "ewma_eslesme",
+                  "isim_celiskisi", "dogrulanmamis_eslesme"]
 MARKET_SUTUNLAR = ["market_blok", "market_sira", "market_tip_id", "market_json_id", "market_no", "market_mt",
-                   "ozel_deger", "market_mbs", "market_adi", "market_adi_kaynagi", "sozluk_adi", "maca_ozel"]
-SECENEK_SUTUNLAR = ["secenek_no", "secenek_adi", "secenek_adi_kaynagi", "oran", "oran_ham", "oran_durumu"]
+                   "ozel_deger", "ozel_deger2", "ozel_deger3", "market_durumu", "market_mbs", "market_adi",
+                   "market_adi_kaynagi", "sozluk_adi", "maca_ozel"]
+SECENEK_SUTUNLAR = ["secenek_no", "secenek_adi", "secenek_adi_kaynagi", "secenek_alternatif_adi", "oran", "oran_ham",
+                    "oran_durumu", "oynanabilirlik"]
 
 
 def satirlar(etkinlikler: list[dict]) -> list[dict]:
@@ -375,7 +406,8 @@ def satirlar(etkinlikler: list[dict]) -> list[dict]:
             mb = {k: m.get(k) for k in MARKET_SUTUNLAR}
             if not m["secenekler"]:
                 out.append({**t, **mb, "secenek_no": None, "secenek_adi": "(seçenek yok)", "secenek_adi_kaynagi": "yok",
-                            "oran": None, "oran_ham": None, "oran_durumu": "secenek_yok"})
+                            "secenek_alternatif_adi": None, "oran": None, "oran_ham": None,
+                            "oran_durumu": "secenek_yok", "oynanabilirlik": "secenek_yok"})
             for s in m["secenekler"]:
                 out.append({**t, **mb, **{k: s.get(k) for k in SECENEK_SUTUNLAR}})
     return out
@@ -472,6 +504,29 @@ def akisi_dogrula(rapor: Rapor, akis: str, meta: dict, ham_etkinlik: list, yol: 
         rapor.ekle("UYARI", akis, "ASIRI_ORAN", "Futbol maçlarında 1000'den büyük oran.", len(asiri), asiri[:5])
     rapor.ekle("BILGI", akis, "ORAN_DURUMLARI", "Seçenek oran durumları", sum(durumlar.values()), durumlar)
     futbol = [e for e in etkinlikler if e["futbol"]]
+    ms_say: dict = {}
+    oyn: dict = {}
+    for e in futbol:
+        for m in e["marketler"]:
+            ms_say[str(m["market_durumu"])] = ms_say.get(str(m["market_durumu"]), 0) + 1
+            for s in m["secenekler"]:
+                oyn[s["oynanabilirlik"]] = oyn.get(s["oynanabilirlik"], 0) + 1
+    rapor.ekle("BILGI", akis, "MARKET_DURUMU", "Futbol marketlerinin MS dağılımı (anlamı doğrulanmadı; yalnızca MS=1 "
+               "oynanabilir sayılır).", sum(ms_say.values()), ms_say)
+    rapor.ekle("BILGI", akis, "OYNANABILIRLIK", "Futbol seçeneklerinin oynanabilirlik dağılımı.", sum(oyn.values()), oyn)
+    if oyn.get("durumu_dogrulanmamis"):
+        rapor.ekle("UYARI", akis, "DURUMU_DOGRULANMAMIS_ORAN", "Oranı olan ama market durumu MS≠1 ya da eksik olan seçenek; "
+                   "oynanabilir gösterilmedi, ham oran korundu.", oyn["durumu_dogrulanmamis"])
+    anahtar_say: dict = {}
+    for e in futbol:
+        for m in e["marketler"]:
+            k1 = (e["kod"], m["market_tip_id"], m["ozel_deger"])
+            anahtar_say.setdefault(k1, set()).add((m["ozel_deger2"], m["ozel_deger3"], m["market_json_id"]))
+    tekrar_k = [k for k, v in anahtar_say.items() if len(v) > 1]
+    sov23 = sum(1 for k in tekrar_k if len({x[:2] for x in anahtar_say[k]}) == len(anahtar_say[k]))
+    if tekrar_k:
+        rapor.ekle("BILGI", akis, "MARKET_ANAHTARI", "Aynı (maç, MTID, SOV) birden çok markette; SOV2/SOV3 bunların bir "
+                   "kısmını ayırıyor, benzersiz anahtar market_json_id.", len(tekrar_k), {"sov2_sov3_ile_ayrisan": sov23})
     ad_say = {"json": 0, "sozluk": 0, "yok": 0}
     for e in futbol:
         for m in e["marketler"]:
@@ -551,7 +606,8 @@ def genis_tablo(satir_listesi: list[dict]):
     def ad(r, seviye):
         a = f"{r['market_adi']} | {r['secenek_adi']}"
         if seviye >= 1:
-            a += f" [{r['market_tip_id']}|{r['ozel_deger']}|N{r['secenek_no']}]"
+            ek = "" if r.get("ozel_deger2") is None and r.get("ozel_deger3") is None else f"|{r.get('ozel_deger2')}-{r.get('ozel_deger3')}"
+            a += f" [{r['market_tip_id']}|{r['ozel_deger']}{ek}|N{r['secenek_no']}]"
         if seviye >= 2:
             a += f" [{r['market_blok']}{r['market_sira']}]"
         if len(a) > BASLIK_SINIRI:                       # Excel başlığı sessizce kesilmesin: kısalt + benzersiz özet
@@ -580,25 +636,34 @@ def genis_tablo(satir_listesi: list[dict]):
             c = f"{c} #{sira_ek[c]}"
         if c not in sutunlar:
             sutunlar.append(c)
-        satir[c] = r["oran"] if r["oran"] is not None else {"kapali": "-", "secenek_yok": "seçenek yok"}.get(
-            r["oran_durumu"], f"({r['oran_durumu']}: {r['oran_ham']})")
+        if r["oran"] is not None and r.get("oynanabilirlik") == "oynanabilir":
+            satir[c] = r["oran"]
+        elif r["oran"] is not None:                       # oran var, market durumu doğrulanmamış: sayı gibi gösterme
+            satir[c] = f"? {_g(r['oran'])}"
+        else:
+            satir[c] = {"kapali": "-", "secenek_yok": "seçenek yok"}.get(
+                r["oran_durumu"], f"({r['oran_durumu']}: {r['oran_ham']})")
         hucre += 1
     return sutunlar, list(tablo.values()), hucre
 
 
 def excel_yaz(dosya: Path, akis: str, etkinlikler: list[dict], diger: list[dict], filtre_disi: list[dict],
-              rapor: Rapor, marketsiz: list[dict], kaynak: dict) -> dict:
+              rapor: Rapor, marketsiz: list[dict], kaynak: dict, ekstra_sayfalar: dict | None = None) -> dict:
     import pandas as pd
     from openpyxl import load_workbook
 
     sayac: dict = {}
     futbol = [e for e in etkinlikler if e["futbol"]]
-    belirsiz = [e for e in diger if e["spor_kodu"] is None]
+    belirsiz = [e for e in diger if spor_grubu(e) == "spor_belirsiz"]
+    futbol_uzun = [e for e in diger if spor_grubu(e) == "futbol_uzun_vadeli"]
     uzun = satirlar(futbol)
     ozet = [{**{k: e.get(k) for k in TEMEL_SUTUNLAR},
              "market_sayisi": len(e["marketler"]),
              "secenek_sayisi": sum(len(m["secenekler"]) for m in e["marketler"]),
              "acik_oran": sum(1 for m in e["marketler"] for s in m["secenekler"] if s["oran"] is not None),
+             "oynanabilir_oran": sum(1 for m in e["marketler"] for s in m["secenekler"] if s["oynanabilirlik"] == "oynanabilir"),
+             "durumu_dogrulanmamis_oran": sum(1 for m in e["marketler"] for s in m["secenekler"]
+                                              if s["oynanabilirlik"] == "durumu_dogrulanmamis"),
              "isimsiz_market": sum(1 for m in e["marketler"] if m["market_adi_kaynagi"] == "yok")} for e in futbol]
     sayfalar: list[tuple[str, list[dict], list[str] | None]] = [("ozet", ozet, None)]
     uzun_sutunlar = TEMEL_SUTUNLAR + MARKET_SUTUNLAR + SECENEK_SUTUNLAR
@@ -623,8 +688,13 @@ def excel_yaz(dosya: Path, akis: str, etkinlikler: list[dict], diger: list[dict]
                        **{f"aday_{k}": f"{v['deger']} ({v['alan']})" for k, v in c["adaylar"].items()},
                        **{f"alan.{k}": v for k, v in c["alanlar"].items()}})
         sayfalar.append(("canli_durum", cd, None))
+    if futbol_uzun:
+        sayfalar.append(("futbol_uzun_vadeli", satirlar(futbol_uzun), uzun_sutunlar))
     if belirsiz:
         sayfalar.append(("spor_belirsiz", satirlar(belirsiz), uzun_sutunlar))
+    for ad_, veri_ in (ekstra_sayfalar or {}).items():
+        if veri_:
+            sayfalar.append((ad_, veri_, None))
     if marketsiz:
         sayfalar.append(("marketsiz_maclar", [{k: e.get(k) for k in TEMEL_SUTUNLAR} for e in marketsiz], None))
     if filtre_disi:
@@ -719,6 +789,145 @@ def govdeyi_coz(akis: str, cekim: dict, rapor: Rapor):
         return None
 
 
+_GENEL_TOKEN = {"fc", "ac", "us", "ca", "cf", "sc", "cd", "ud", "sd", "afc", "fk", "sk", "club", "the", "de", "la",
+                "las", "los", "el", "al", "y"}
+
+
+def _tokenler(ad) -> set:
+    import unicodedata
+    s = unicodedata.normalize("NFKD", str(ad or "")).encode("ascii", "ignore").decode().casefold()
+    return {t for t in re.split(r"[^a-z0-9]+", s) if t and t not in _GENEL_TOKEN}
+
+
+def takim_adi_karsilastir(a, b) -> str:
+    """'ayni' | 'yazim_farki' (kısaltma/ek farkı; doğrulanmamış) | 'celiski' (ortak sözcük yok) | 'bilinmiyor'.
+    Hangi adın doğru olduğuna karar VERMEZ."""
+    if not a or not b:
+        return "bilinmiyor"
+    if _norm(a) == _norm(b):
+        return "ayni"
+    ta, tb = _tokenler(a), _tokenler(b)
+    if not ta or not tb:
+        return "bilinmiyor"
+    if ta == tb:
+        return "yazim_farki"
+    kucuk, buyuk = (ta, tb) if len(ta) <= len(tb) else (tb, ta)
+    if all(any(y == x or y.startswith(x) or x.startswith(y) for y in buyuk) for x in kucuk):
+        return "yazim_farki"
+    return "celiski"
+
+
+def mac_adi_karsilastir(a: dict, b: dict) -> dict:
+    ev, dep = takim_adi_karsilastir(a.get("ev"), b.get("ev")), takim_adi_karsilastir(a.get("deplasman"), b.get("deplasman"))
+    genel = "celiski" if "celiski" in (ev, dep) else ("yazim_farki" if "yazim_farki" in (ev, dep) else
+                                                      ("ayni" if ev == dep == "ayni" else "bilinmiyor"))
+    return {"ev": ev, "deplasman": dep, "sonuc": genel}
+
+
+def _ad_saat(e: dict):
+    return (_norm(e.get("ev") or ""), _norm(e.get("deplasman") or ""), e.get("baslama_tr"))
+
+
+def ewma_esle(ewma: list[dict], mac_oncesi: list[dict], canli: list[dict]) -> list[dict]:
+    """EWMA (marketsiz) kayıtlarını oranlı maç öncesi maçlarla eşleştirir: önce NID (= maç öncesi C ya da NID),
+    yoksa birebir takım adları + başlama saati. Eşleşen kayıt yeni maç sayılmaz; maç öncesi maça 'canli_kodu'
+    olarak bağlanır. NID'siz ad+saat eşleşmesi, ad çelişkisi ya da saat farkı 'belirsiz' işaretlenir."""
+    kod = {e["kod"]: e for e in mac_oncesi}
+    nid = {e["nid"]: e for e in mac_oncesi if e.get("nid") is not None}
+    ad_saat: dict = {}
+    for e in mac_oncesi:
+        ad_saat.setdefault(_ad_saat(e), []).append(e)
+    canli_kodlar = {e["kod"] for e in canli} | {e.get("nid") for e in canli}
+    sonuc = []
+    for w in ewma:
+        aday, yontem, notlar = None, None, []
+        if w.get("nid") in kod:
+            aday, yontem = kod[w["nid"]], "NID=C"
+        elif w.get("nid") in nid:
+            aday, yontem = nid[w["nid"]], "NID"
+        if aday is None:
+            ad_aday = ad_saat.get(_ad_saat(w), [])
+            if len(ad_aday) == 1:
+                aday, yontem = ad_aday[0], "ad+saat"
+                notlar.append("NID maç öncesi bir maça uymuyor; yalnızca birebir ad ve saatle eşleşti")
+            elif len(ad_aday) > 1:
+                yontem = "belirsiz_coklu"
+                notlar.append(f"{len(ad_aday)} aday maç")
+        karsi = mac_adi_karsilastir(w, aday) if aday else None
+        if aday and aday.get("baslama_tr") != w.get("baslama_tr"):
+            notlar.append(f"başlama saati farklı: {aday.get('baslama_tr')} / {w.get('baslama_tr')}")
+        belirsiz = bool(aday) and (yontem == "ad+saat" or karsi["sonuc"] == "celiski"
+                                   or aday.get("baslama_tr") != w.get("baslama_tr"))
+        durum = ("belirsiz_coklu" if yontem == "belirsiz_coklu" else "ayri_mac" if aday is None
+                 else "eslesti_belirsiz" if belirsiz else "eslesti")
+        if aday:
+            aday["canli_kodu"] = w["kod"]
+            aday["ewma_eslesme"] = yontem
+            if karsi["sonuc"] == "celiski":
+                aday["isim_celiskisi"] = True
+            if belirsiz:
+                aday["dogrulanmamis_eslesme"] = True
+        sonuc.append({"ewma_kod": w["kod"], "ewma_nid": w.get("nid"), "ewma_ev": w.get("ev"), "ewma_deplasman": w.get("deplasman"),
+                      "ewma_lig": w.get("lig"), "ewma_baslama_tr": w.get("baslama_tr"), "durum": durum, "yontem": yontem,
+                      "eslesen_kod": aday["kod"] if aday else None, "eslesen_ev": aday.get("ev") if aday else None,
+                      "eslesen_deplasman": aday.get("deplasman") if aday else None,
+                      "ad_karsilastirma_ev": karsi["ev"] if karsi else None,
+                      "ad_karsilastirma_deplasman": karsi["deplasman"] if karsi else None,
+                      "ad_sonucu": karsi["sonuc"] if karsi else None,
+                      "canli_akista": w["kod"] in canli_kodlar, "not": "; ".join(notlar) or None})
+    return sonuc
+
+
+def canli_ad_kontrol(mac_oncesi: list[dict], canli: list[dict]) -> list[dict]:
+    """Aynı kimliğe (C/NID) bağlı canlı ve maç öncesi kayıtların takım adlarını karşılaştırır. Karar vermez, raporlar."""
+    idx: dict = {}
+    for e in mac_oncesi:
+        for k in (e["kod"], e.get("nid")):
+            if k is not None:
+                idx.setdefault(k, e)
+    out = []
+    for c in canli:
+        p = idx.get(c.get("nid")) or idx.get(c["kod"])
+        if not p:
+            continue
+        karsi = mac_adi_karsilastir(p, c)
+        if karsi["sonuc"] in ("celiski", "yazim_farki"):
+            for e in (p, c):
+                if karsi["sonuc"] == "celiski":
+                    e["isim_celiskisi"] = True
+                    e["dogrulanmamis_eslesme"] = True
+            out.append({"kaynak": "mac_oncesi ↔ canli", "kod_1": p["kod"], "ad_1": p.get("karsilasma"),
+                        "kod_2": c["kod"], "ad_2": c.get("karsilasma"), "ev": karsi["ev"], "deplasman": karsi["deplasman"],
+                        "sonuc": karsi["sonuc"], "baslama_1": p.get("baslama_tr"), "baslama_2": c.get("baslama_tr")})
+    return out
+
+
+def nsn_adlarini_uygula(veri, etkinlikler: list[dict]) -> dict:
+    """nsnBultenNames: C=3 -> seçenek kısa adı (EID, MID=market ID, ON=seçenek N); C=1/4 -> ev/deplasman kısa adı.
+    Yalnızca anahtarları birebir tutan kayıtlar 'secenek_alternatif_adi' olarak yazılır; eksik etiket DOLDURULMAZ."""
+    nsn = ((veri.get("nsn") or {}).get("nsnBultenNames") or []) if isinstance(veri, dict) else []
+    sec = {(x.get("EID"), x.get("MID"), x.get("ON")): x.get("N") for x in nsn if isinstance(x, dict) and x.get("C") == 3}
+    takim = {}
+    for x in nsn:
+        if isinstance(x, dict) and x.get("C") in (1, 4):
+            takim.setdefault(x.get("EID"), {})["ev_kisa" if x.get("C") == 1 else "dep_kisa"] = x.get("HN") or x.get("AN")
+    s = {"kayit": len(nsn), "secenek_kaydi": len(sec), "uygulanan_secenek": 0, "isimsiz_secenege_katki": 0,
+         "takim_kaydi": sum(len(v) for v in takim.values()), "uygulanan_takim": 0}
+    for e in etkinlikler:
+        if e["kod"] in takim:
+            e["alternatif_adlar"] = takim[e["kod"]]
+            s["uygulanan_takim"] += len(takim[e["kod"]])
+        for m in e["marketler"]:
+            for o in m["secenekler"]:
+                n = sec.get((e["kod"], m["market_json_id"], o["secenek_no"]))
+                if n:
+                    o["secenek_alternatif_adi"] = n
+                    s["uygulanan_secenek"] += 1
+                    s["isimsiz_secenege_katki"] += o["secenek_adi_kaynagi"] == "yok"
+    s["eslesmeyen_secenek_kaydi"] = s["secenek_kaydi"] - s["uygulanan_secenek"]
+    return s
+
+
 def _kimlikler(ev: dict) -> set:
     return {x for x in (ev.get("C"), ev.get("NID")) if x is not None}
 
@@ -756,6 +965,10 @@ def isle(cekimler: dict, cikti: Path, pencere=None, sozluk: Sozluk | None = None
         ligsiz = sum(1 for e in ets if e["futbol"] and not e["lig"])
         if ligsiz:
             rapor.ekle("UYARI", akis, "LIG_ADI_YOK", "Lig adı bulunamayan futbol etkinliği (LN yok, LA'da eşleşme yok).", ligsiz)
+        ns = nsn_adlarini_uygula(veri, ets + marketsiz[akis])
+        if ns["kayit"]:
+            rapor.ekle("BILGI", akis, "NSN_ADLAR", "nsnBultenNames: yalnızca kısa/alternatif adlar; anahtarı birebir tutanlar "
+                       "'secenek_alternatif_adi' olarak yazıldı, isimsiz seçenek doldurulmadı.", ns["kayit"], ns)
         ham_listeler[akis] = (liste, yol, yedek)
         etkinlik_akis[akis] = ets
         kaynaklar[akis].update({"etkinlik_yolu": yol, "yedek_arama": yedek, "ham_etkinlik_sayisi": len(liste)})
@@ -770,6 +983,44 @@ def isle(cekimler: dict, cikti: Path, pencere=None, sozluk: Sozluk | None = None
         if n:
             rapor.ekle("BILGI", "genel", "IKI_AKISTA", "Hem maç öncesi hem canlı akışta görünen futbol maçı "
                        "(ikisinde de korundu, işaretlendi).", n)
+    on_fb = [e for e in etkinlik_akis.get("mac_oncesi", []) if e["futbol"]]
+    cl_fb = [e for e in etkinlik_akis.get("canli", []) if e["futbol"]]
+    ewma_kayit = []
+    if marketsiz.get("mac_oncesi"):
+        mf = [e for e in marketsiz["mac_oncesi"] if e["futbol"]]
+        ewma_kayit = ewma_esle(mf, on_fb, cl_fb)
+        ayri = {k["ewma_kod"] for k in ewma_kayit if k["durum"] in ("ayri_mac", "belirsiz_coklu")}
+        marketsiz["mac_oncesi"] = [e for e in marketsiz["mac_oncesi"] if not e["futbol"] or e["kod"] in ayri]
+        d = _say(k["durum"] for k in ewma_kayit)
+        rapor.ekle("BILGI", "mac_oncesi", "EWMA_ESLESME", "Marketsiz (EWMA) futbol kayıtları: oranlı maça bağlananlar yeni "
+                   "maç sayılmadı ('ewma_eslesmeler' sayfası).", len(ewma_kayit), {"durum": d, "yontem": _say(k["yontem"] for k in ewma_kayit)})
+        bel = [k for k in ewma_kayit if k["durum"] in ("eslesti_belirsiz", "belirsiz_coklu")]
+        if bel:
+            rapor.ekle("UYARI", "mac_oncesi", "BELIRSIZ_ESLESME", "Kesin olmayan EWMA eşleşmesi; ilgili maç "
+                       "'dogrulanmamis_eslesme' ile işaretlendi.", len(bel),
+                       [{k: x[k] for k in ("ewma_kod", "eslesen_kod", "yontem", "ad_sonucu", "not")} for x in bel])
+    isim_farklari = [{"kaynak": "EWMA ↔ mac_oncesi", "kod_1": k["eslesen_kod"],
+                      "ad_1": f"{k['eslesen_ev']} - {k['eslesen_deplasman']}", "kod_2": k["ewma_kod"],
+                      "ad_2": f"{k['ewma_ev']} - {k['ewma_deplasman']}", "ev": k["ad_karsilastirma_ev"],
+                      "deplasman": k["ad_karsilastirma_deplasman"], "sonuc": k["ad_sonucu"],
+                      "baslama_1": None, "baslama_2": k["ewma_baslama_tr"]}
+                     for k in ewma_kayit if k["ad_sonucu"] in ("celiski", "yazim_farki")]
+    isim_farklari += canli_ad_kontrol(on_fb, cl_fb)
+    cel = [x for x in isim_farklari if x["sonuc"] == "celiski"]
+    if cel:
+        rapor.ekle("UYARI", "genel", "ISIM_CELISKISI", "Aynı maç kimliğine bağlı kayıtlarda farklı takım (ortak sözcük yok). "
+                   "Hangisinin doğru olduğu seçilmedi; maç 'dogrulanmamis_eslesme' ile işaretlendi, kupona alınmamalı.",
+                   len(cel), [{k: x[k] for k in ("kaynak", "kod_1", "ad_1", "kod_2", "ad_2")} for x in cel])
+    yaz = [x for x in isim_farklari if x["sonuc"] == "yazim_farki"]
+    if yaz:
+        rapor.ekle("BILGI", "genel", "ISIM_YAZIM_FARKI", "Aynı maçta takım adı yazım/kısaltma farkı (doğrulanmamış).", len(yaz))
+    gercek_on = len(on_fb) + sum(1 for k in ewma_kayit if k["durum"] == "ayri_mac")
+    ortak = sum(1 for e in cl_fb if e.get("diger_akista_da_var"))
+    rapor.ekle("BILGI", "genel", "GERCEK_MAC_SAYISI", "Farklı futbol maçı sayısı (EWMA tekrarları ve iki akıştaki ortaklar "
+               "bir kez sayıldı).", gercek_on + len(cl_fb) - ortak,
+               {"mac_oncesi_oranli": len(on_fb), "mac_oncesi_yalnizca_marketsiz": gercek_on - len(on_fb),
+                "mac_oncesi_toplam": gercek_on, "canli": len(cl_fb), "iki_akista_ortak": ortak,
+                "belirsiz_ewma": sum(1 for k in ewma_kayit if k["durum"] == "belirsiz_coklu")})
     ozet = {"surum": SURUM, "olusturma_tr": datetime.now(TR).isoformat(timespec="seconds"),
             "sozluk": {"dosya": sozluk.yol.name, "sha256": sozluk.sha256, "kod_sayisi": sozluk.kod_sayisi},
             "pencere_tr": [p.isoformat() for p in pencere] if pencere else None, "akislar": {}}
@@ -789,17 +1040,28 @@ def isle(cekimler: dict, cikti: Path, pencere=None, sozluk: Sozluk | None = None
         _onceki_karsilastir(rapor, akis, onceki, kaynaklar[akis], len(futbol))
         normal = {"kaynak": kaynaklar[akis], "pencere_tr": ozet["pencere_tr"],
                   "futbol": [_json_temiz(e) for e in futbol],
-                  "spor_belirsiz": [_json_temiz(e) for e in diger if e["spor_kodu"] is None],
+                  "futbol_uzun_vadeli": [_json_temiz(e) for e in diger if spor_grubu(e) == "futbol_uzun_vadeli"],
+                  "spor_belirsiz": [_json_temiz(e) for e in diger if spor_grubu(e) == "spor_belirsiz"],
                   "diger_spor_sayilari": _say(e["spor_kodu"] for e in diger if e["spor_kodu"] is not None),
+                  "diger_uzun_vadeli_sayilari": _say(spor_grubu(e) for e in diger
+                                                     if spor_grubu(e).startswith("uzun_vadeli_")),
                   "filtre_disi_kodlar": [e["kod"] for e in disari],
-                  "marketsiz_futbol": [_json_temiz(e) for e in marketsiz.get(akis, []) if e["futbol"]]}
+                  "marketsiz_futbol": [_json_temiz(e) for e in marketsiz.get(akis, []) if e["futbol"]],
+                  "ewma_eslesmeler": ewma_kayit if akis == "mac_oncesi" else [],
+                  "isim_farklari": [x for x in isim_farklari
+                                    if akis == "mac_oncesi" or x["kaynak"].endswith("canli")]}
+        fu = sum(1 for e in diger if spor_grubu(e) == "futbol_uzun_vadeli")
+        if fu:
+            rapor.ekle("BILGI", akis, "FUTBOL_UZUN_VADELI", "TYPE=-1 futbol uzun vadeli pazarları ('futbol_uzun_vadeli' "
+                       "sayfası; maç sayısına katılmadı).", fu)
         mfutbol = [e for e in marketsiz.get(akis, []) if e["futbol"]]
         if marketsiz.get(akis):
             rapor.ekle("BILGI", akis, "MARKETSIZ_MAC", "Bültende marketsiz listelenen etkinlik (EWMA); futbol olanlar "
                        "'marketsiz_maclar' sayfasında.", len(mfutbol), {"tum_sporlar": len(marketsiz[akis])})
         (cikti / f"{akis}.json").write_text(json.dumps(normal, ensure_ascii=False, indent=1, default=str), encoding="utf-8")
         ex = excel_yaz(cikti / f"{akis}.xlsx", akis, secilen, diger, disari, rapor, mfutbol,
-                       {k: v for k, v in kaynaklar[akis].items() if k != "etkinlik_alanlari"})
+                       {k: v for k, v in kaynaklar[akis].items() if k != "etkinlik_alanlari"},
+                       {"ewma_eslesmeler": normal["ewma_eslesmeler"], "isim_farklari": normal["isim_farklari"]})
         ozet["akislar"][akis] = {**ex, "json": str(cikti / f"{akis}.json")}
     for akis in kaynaklar:
         if akis not in etkinlik_akis:

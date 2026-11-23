@@ -26,9 +26,9 @@ python3 .claude/skills/football-bulletin-fetch/scripts/nesine_bulletin.py cek
 ```bash
 python3 -m unittest discover -s tests -v
 ```
-33 test, ağsız (A1–A10): canlı sınıflandırma, canlı market adları, maça özel etiket koruması, spor ayrımı,
+41 test, ağsız (A1–A11): canlı sınıflandırma, canlı market adları, maça özel etiket koruması, spor ayrımı,
 çizgi/handikap adları, TR tarih filtresi, yapı doğrulaması, sözlük bütünlüğü, Excel'de seçenek kaybı olmaması,
-lig adları ve marketsiz maçlar.
+lig adları, marketsiz maçlar ve veri bütünlüğü (EMBS, MS durumu, SOV2/SOV3, EWMA eşleştirme, futbol uzun vadeli, alternatif adlar).
 
 ## Ağ ve güvenlik kuralları
 - Yalnızca `cdnbulten.nesine.com` ve `bulten.nesine.com`; her akış için tek GET; dürüst User-Agent.

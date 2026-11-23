@@ -17,7 +17,9 @@ Kişisel futbol araştırma ve bağımsız olasılık analizi sistemi. Yalnızca
 3. Ücretli API kullanma; paket yükleme (mevcut kütüphaneler: requests, pandas, numpy, openpyxl, xlsxwriter).
 4. Bahis oranlarını olasılık modelinin girdisi yapma. Oranlar yalnızca dondurulmuş bağımsız tahminden SONRA karşılaştırılır.
 5. Her veri için kaynak, veri tarihi ve doğrulama zamanı göster; veri yoksa sayı uydurma, "veri yok" de.
-6. Kullanıcı açıkça istemeden kupon hazırlama ve bütün maçları ayrıntılı analiz etmeye başlama.
+6. Kullanıcı açıkça istemeden kupon hazırlama ve bütün maçları ayrıntılı analiz etmeye başlama. Kupon istense bile
+   `dogrulanmamis_eslesme` / `isim_celiskisi` işaretli maçları ve `oynanabilirlik` değeri `oynanabilir` olmayan
+   oranları (ör. `durumu_dogrulanmamis`, market durumu MS≠1 ya da eksik) kupona alma; nedenini kullanıcıya söyle.
 7. Hiçbir pazara doğrulanmamış "yüksek güven" verme.
 
 ## Çıktılar

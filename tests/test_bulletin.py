@@ -235,12 +235,17 @@ class A4SporAyrimi(Temel):
                {"C": 2677952, "TYPE": -1, "GT": -1, "ENN": "MLS - Şampiyon Kim Olur?", "D": "18.12.2026", "T": "03:00",
                 "ESD": 1797552000000, "MSA": [{"ID": 1, "NO": 10760, "MN": "Şampiyon Kim Olur?", "SOV": 0.0,
                                                "OCA": [op(1, 11, "Chicago Fire"), op(2, 1, "LA Galaxy")]}]}]
+        pre.append({"C": 777, "HN": "Bilinmeyen", "AN": "Spor", "ESD": 1797552000000,     # TYPE/GT yok: gerçekten belirsiz
+                    "MA": [{"MTID": 1, "SOV": 0, "OCA": [op(1, 2.0)]}]})
         ozet, out = self.isle(cekim(govde(pre)))
         d = json.loads((out / "mac_oncesi.json").read_text())
-        self.assertEqual(len(d["spor_belirsiz"]), 1)
-        self.assertEqual(d["spor_belirsiz"][0]["marketler"][0]["secenekler"][1]["oran_durumu"], "kapali")
+        # 0. aşama kararı: TYPE=-1 futbol uzun vadeli pazarı ayrı tutulur, diğer sporlarla karışmaz
+        self.assertEqual(len(d["futbol_uzun_vadeli"]), 1)
+        self.assertEqual(d["futbol_uzun_vadeli"][0]["marketler"][0]["secenekler"][1]["oran_durumu"], "kapali")
+        self.assertEqual([e["kod"] for e in d["spor_belirsiz"]], [777])
         from openpyxl import load_workbook
         wb = load_workbook(out / "mac_oncesi.xlsx", read_only=True)
+        self.assertIn("futbol_uzun_vadeli", wb.sheetnames)
         self.assertIn("spor_belirsiz", wb.sheetnames)
         wb.close()
 
@@ -496,6 +501,171 @@ class A10LigVeMarketsiz(Temel):
         self.assertEqual(wb["marketsiz_maclar"].max_row - 1, 1)
         wb.close()
         self.assertEqual(self.kodlar(out, "mac_oncesi"), {1})                       # analiz kümesine karışmaz
+
+
+class A11VeriButunlugu(Temel):
+    """0. aşama: EMBS, MS durumu, SOV2/SOV3, EWMA eşleştirme, futbol uzun vadeli, nsnBultenNames, ad çelişkileri."""
+    bas = datetime(2026, 11, 24, 21, 0, tzinfo=TR)
+
+    def excel(self, out, akis, sayfa):
+        from openpyxl import load_workbook
+        wb = load_workbook(out / f"{akis}.xlsx", read_only=True)
+        it = wb[sayfa].iter_rows(values_only=True)
+        bas = next(it)
+        rows = [dict(zip(bas, r)) for r in it]
+        wb.close()
+        return rows
+
+    def test_embs_mac_mbs(self):
+        a = nb.etkinlik_normallestir(ev(1, ma=[ms_market()], EMBS=3), "mac_oncesi", self.sozluk, CEKIM_TR)
+        b = nb.etkinlik_normallestir(ev(2, ma=[ms_market()], MBS=2), "mac_oncesi", self.sozluk, CEKIM_TR)
+        c = nb.etkinlik_normallestir(ev(3, ma=[ms_market()]), "mac_oncesi", self.sozluk, CEKIM_TR)
+        self.assertEqual((a["mac_mbs"], a["mac_mbs_kaynagi"]), (3, "EMBS"))
+        self.assertEqual((b["mac_mbs"], b["mac_mbs_kaynagi"]), (2, "MBS"))
+        self.assertEqual((c["mac_mbs"], c["mac_mbs_kaynagi"]), (None, None))
+        ozet, out = self.isle(cekim(govde([ev(1, bas=self.bas, ma=[ms_market()], EMBS=3)])))
+        self.assertEqual({r["mac_mbs"] for r in self.excel(out, "mac_oncesi", "tum_oranlar")}, {3})
+
+    def test_ms_oynanabilirlik_ham_oran_korunur(self):
+        pre = [ev(1, bas=self.bas, ma=[mk(1, 0.0, [op(1, 2.1), op(2, 1.0), op(3, 3.6)], MS=1),
+                                       mk(11, 2.5, [op(1, 1.9), op(2, 1.85)], MS=0),
+                                       mk(11, 3.5, [op(1, 1.5), op(2, 2.4)], MS=-2),
+                                       mk(11, 1.5, [op(1, 3.1), op(2, 1.3)])])]                       # MS yok
+        ozet, out = self.isle(cekim(govde(pre)))
+        ms = {(m["market_tip_id"], m["ozel_deger"]): m for m in json.loads((out / "mac_oncesi.json").read_text())["futbol"][0]["marketler"]}
+        self.assertEqual([s["oynanabilirlik"] for s in ms[(1, 0.0)]["secenekler"]], ["oynanabilir", "kapali", "oynanabilir"])
+        for k, ms_beklenen in (((11, 2.5), 0), ((11, 3.5), -2), ((11, 1.5), None)):
+            self.assertEqual(ms[k]["market_durumu"], ms_beklenen)
+            self.assertEqual({s["oynanabilirlik"] for s in ms[k]["secenekler"]}, {"durumu_dogrulanmamis"})
+            self.assertTrue(all(s["oran"] is not None and s["oran_ham"] is not None for s in ms[k]["secenekler"]))   # ham oran silinmedi
+        uzun = self.excel(out, "mac_oncesi", "tum_oranlar")
+        self.assertEqual(len(uzun), 9)
+        self.assertEqual(sum(r["oynanabilirlik"] == "durumu_dogrulanmamis" for r in uzun), 6)
+        genis = self.excel(out, "mac_oncesi", "maclar_genis")[0]
+        self.assertEqual(genis["2,5 Gol Alt/Üst | Alt"], "? 1.9")                           # sayı gibi gösterilmez
+        self.assertEqual(genis["Maç Sonucu | MS 1"], 2.1)
+        oz = self.excel(out, "mac_oncesi", "ozet")[0]
+        self.assertEqual((oz["oynanabilir_oran"], oz["durumu_dogrulanmamis_oran"]), (2, 6))
+        self.assertEqual(self.kayit(ozet, "DURUMU_DOGRULANMAMIS_ORAN")[0]["sayi"], 6)
+        self.assertEqual(self.kayit(ozet, "MARKET_DURUMU")[0]["sayi"], 4)
+
+    def test_sov2_sov3_ve_market_anahtari(self):
+        live = [ev(5, typ=None, gt=1, bas=datetime(2026, 11, 24, 18, 0, tzinfo=TR), ma=[
+            {"ID": 1, "MTID": 561, "SOV": 0.0, "SOV2": 61.0, "SOV3": 70.0, "MS": 1, "MN": "61-70 dk. Korner", "OCA": [op(1, 2.0), op(2, 1.7)]},
+            {"ID": 2, "MTID": 561, "SOV": 0.0, "SOV2": 71.0, "SOV3": 80.0, "MS": 1, "MN": "71-80 dk. Korner", "OCA": [op(1, 2.2), op(2, 1.6)]},
+            {"ID": 3, "MTID": 56, "SOV": 0.0, "MS": 1, "MN": "Maçın Geri Kalanı 0:0", "OCA": [op(1, 3.0)]},
+            {"ID": 4, "MTID": 56, "SOV": 0.0, "MS": 1, "MN": "Maçın Geri Kalanı 0:0", "OCA": [op(1, 3.5)]}])]   # yalnızca ID ayırıyor
+        ozet, out = self.isle(canli=cekim(govde(live), akis="canli"))
+        ms = json.loads((out / "canli.json").read_text())["futbol"][0]["marketler"]
+        self.assertEqual([(m["ozel_deger2"], m["ozel_deger3"]) for m in ms[:2]], [(61.0, 70.0), (71.0, 80.0)])
+        k = self.kayit(ozet, "MARKET_ANAHTARI")[0]
+        self.assertEqual((k["sayi"], json.loads(k["ornek"])["sov2_sov3_ile_ayrisan"]), (2, 1))
+        uzun = self.excel(out, "canli", "tum_oranlar")
+        self.assertEqual(len(uzun), 6)
+        self.assertEqual({r["ozel_deger2"] for r in uzun}, {61.0, 71.0, None})
+        baslik = list(self.excel(out, "canli", "maclar_genis")[0].keys())
+        self.assertEqual(len(baslik), len(set(baslik)))
+        self.assertFalse([r for r in ozet["dogrulama"] if r["seviye"] == "KRITIK"])
+
+    def test_takim_adi_karsilastir(self):
+        k = nb.takim_adi_karsilastir
+        self.assertEqual(k("AD Ceuta", "AD Ceuta"), "ayni")
+        self.assertEqual(k("Chelmsford C.", "Chelmsford City"), "yazim_farki")
+        self.assertEqual(k("Maidst. Utd", "Maidstone Utd"), "yazim_farki")
+        self.assertEqual(k("C. Lecco", "Lecco"), "yazim_farki")
+        self.assertEqual(k("CA Juventud De Las Piedras", "Juventud de Las Piedras"), "yazim_farki")
+        self.assertEqual(k("Monterosi T.", "Guidonia"), "celiski")
+        self.assertEqual(k(None, "X"), "bilinmiyor")
+
+    def ewma_veri(self):
+        b = self.bas
+        ea = [ev(100, "Brentford", "Everton", bas=b, ma=[ms_market()]),
+              ev(101, "Chelmsford C.", "Maidst. Utd", bas=b, ma=[ms_market()]),
+              ev(102, "US Grosseto", "Monterosi T.", bas=b, ma=[ms_market()]),
+              ev(103, "Nantes", "Grenoble", bas=b, ma=[ms_market()])]
+        w = lambda c, nid, h, a, **k: {"C": c, "NID": nid, "TYPE": 1, "HN": h, "AN": a, "ESD": ms(b), "LN": "L", **k}
+        ewma = [w(900, 100, "Brentford", "Everton"),                     # NID=C, aynı ad
+                w(901, 101, "Chelmsford City", "Maidstone Utd"),         # NID=C, yazım farkı
+                w(902, 102, "Grosseto", "Guidonia"),                     # NID=C, çelişki
+                w(903, 555, "Nantes", "Grenoble"),                       # NID uymuyor, ad+saat
+                w(904, 904, "Coleraine Gençler", "Larne Olympic Gençler"),  # gerçekten ayrı
+                {"C": 905, "NID": 905, "TYPE": 137, "HN": "X", "AN": "Y", "ESD": ms(b)}]   # başka spor
+        live = [ev(902, "Grosseto", "Guidonia", typ=None, gt=1, bas=b, ma=[ms_market()], NID=102)]
+        live[0]["NID"] = 102
+        return json.dumps({"sg": {"EA": ea, "EWMA": ewma}}).encode(), govde(live)
+
+    def test_ewma_eslestirme_tekrar_yok(self):
+        pre, live = self.ewma_veri()
+        ozet, out = self.isle(cekim(pre), cekim(live, akis="canli"))
+        d = json.loads((out / "mac_oncesi.json").read_text())
+        es = {k["ewma_kod"]: k for k in d["ewma_eslesmeler"]}
+        self.assertEqual({k: (v["durum"], v["yontem"], v["eslesen_kod"]) for k, v in es.items()}, {
+            900: ("eslesti", "NID=C", 100), 901: ("eslesti", "NID=C", 101), 902: ("eslesti_belirsiz", "NID=C", 102),
+            903: ("eslesti_belirsiz", "ad+saat", 103), 904: ("ayri_mac", None, None)})
+        self.assertEqual(es[901]["ad_sonucu"], "yazim_farki")
+        self.assertEqual(es[902]["ad_sonucu"], "celiski")
+        self.assertTrue(es[902]["canli_akista"])
+        self.assertEqual([e["kod"] for e in d["marketsiz_futbol"]], [904])            # yalnızca gerçekten ayrı olan
+        f = {e["kod"]: e for e in d["futbol"]}
+        self.assertEqual(f[100]["canli_kodu"], 900)
+        self.assertTrue(f[102]["isim_celiskisi"] and f[102]["dogrulanmamis_eslesme"])
+        self.assertTrue(f[103]["dogrulanmamis_eslesme"])
+        self.assertFalse(f[101].get("dogrulanmamis_eslesme"))
+        g = self.kayit(ozet, "GERCEK_MAC_SAYISI")[0]
+        self.assertEqual(g["sayi"], 5)                                                # 4 oranlı + 1 ayrı; canlı ortak tek sayıldı
+        self.assertEqual(json.loads(g["ornek"])["iki_akista_ortak"], 1)
+        cel = self.kayit(ozet, "ISIM_CELISKISI")[0]
+        self.assertEqual(cel["sayi"], 2)                                              # EWMA↔maç öncesi ve canlı↔maç öncesi
+        self.assertTrue(self.kayit(ozet, "BELIRSIZ_ESLESME"))
+        self.assertEqual(len(self.excel(out, "mac_oncesi", "ewma_eslesmeler")), 5)
+        self.assertEqual(len(self.excel(out, "mac_oncesi", "marketsiz_maclar")), 1)
+        cf = json.loads((out / "canli.json").read_text())["futbol"][0]
+        self.assertTrue(cf["isim_celiskisi"] and cf["dogrulanmamis_eslesme"])
+
+    def test_diger_uzun_vadeli_karismaz(self):
+        pre = [ev(1, bas=self.bas, ma=[ms_market()]),
+               {"C": 2, "TYPE": -1, "GT": -1, "ENN": "Süper Lig - Şampiyon Kim Olur?", "ESD": ms(self.bas),
+                "MSA": [{"ID": 9, "MN": "Şampiyon Kim Olur?", "SOV": 0, "MS": 1, "OCA": [op(1, 2.5, "Galatasaray")]}]},
+               {"C": 3, "TYPE": -2, "GT": -2, "ENN": "Euroleague - Şampiyon Kim Olur?", "ESD": ms(self.bas),
+                "MSA": [{"ID": 8, "MN": "Şampiyon Kim Olur?", "SOV": 0, "OCA": [op(1, 4.0, "X")]}]}]
+        ozet, out = self.isle(cekim(govde(pre)))
+        d = json.loads((out / "mac_oncesi.json").read_text())
+        self.assertEqual([e["kod"] for e in d["futbol_uzun_vadeli"]], [2])
+        self.assertEqual(d["spor_belirsiz"], [])
+        self.assertEqual(d["diger_uzun_vadeli_sayilari"], {"uzun_vadeli_2": 1})
+        self.assertEqual(self.kodlar(out, "mac_oncesi"), {1})
+        self.assertEqual(len(self.excel(out, "mac_oncesi", "futbol_uzun_vadeli")), 1)
+
+    def test_nsn_adlari_etiket_uydurmaz(self):
+        b = self.bas
+        e1 = ev(10, "Galatasaray", "Fenerbahçe", bas=b, ma=[
+            {"ID": 50, "MTID": 99999, "SOV": 0, "MS": 1, "OCA": [op(1, 2.0), op(2, 3.0, "Uzun Ad")]}])
+        nsn = {"nsnBultenNames": [{"C": 3, "EID": 10, "MID": 50, "ON": 2, "N": "Kısa Ad", "NID": 10},
+                                  {"C": 3, "EID": 10, "MID": 50, "ON": 1, "N": "Tahmin Edilemez", "NID": 10},
+                                  {"C": 3, "EID": 10, "MID": 777, "ON": 1, "N": "Eşleşmez", "NID": 10},
+                                  {"C": 1, "EID": 10, "HN": "G.Saray", "NID": 10},
+                                  {"C": 4, "EID": 10, "AN": "F.Bahçe", "NID": 10}]}
+        ozet, out = self.isle(cekim(json.dumps({"sg": {"EA": [e1]}, "nsn": nsn}).encode()))
+        e = json.loads((out / "mac_oncesi.json").read_text())["futbol"][0]
+        s1, s2 = e["marketler"][0]["secenekler"]
+        self.assertEqual((s1["secenek_adi"], s1["secenek_adi_kaynagi"], s1["secenek_alternatif_adi"]),
+                         ("seçenek 1", "yok", "Tahmin Edilemez"))                     # ana etiket DOLDURULMADI
+        self.assertEqual((s2["secenek_adi"], s2["secenek_alternatif_adi"]), ("Uzun Ad", "Kısa Ad"))
+        self.assertEqual(e["alternatif_adlar"], {"ev_kisa": "G.Saray", "dep_kisa": "F.Bahçe"})
+        k = json.loads(self.kayit(ozet, "NSN_ADLAR")[0]["ornek"])
+        self.assertEqual((k["uygulanan_secenek"], k["isimsiz_secenege_katki"], k["eslesmeyen_secenek_kaydi"]), (2, 1, 1))
+
+    def test_excel_json_ham_tutarliligi(self):
+        """Her ham seçenek (maç, blok, sıra, N) JSON'da ve Excel'de tam bir kez, aynı oran ve MS ile."""
+        pre, live = self.ewma_veri()
+        ozet, out = self.isle(cekim(pre), cekim(live, akis="canli"))
+        for akis, g in (("mac_oncesi", pre), ("canli", live)):
+            raw = json.loads(g)["sg"]["EA"]
+            ham = {(e["C"], b, i, s["N"]): (s["O"], m.get("MS")) for e in raw if e.get("TYPE") == 1 or e.get("GT") == 1
+                   for b in ("MA", "MSA") for i, m in enumerate(e.get(b) or []) for s in m.get("OCA") or []}
+            ex = {(r["kod"], r["market_blok"], r["market_sira"], r["secenek_no"]): (r["oran_ham"], r["market_durumu"])
+                  for r in self.excel(out, akis, "tum_oranlar")}
+            self.assertEqual(ham, ex, akis)
 
 
 if __name__ == "__main__":
