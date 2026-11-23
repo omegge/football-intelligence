@@ -358,6 +358,17 @@ class B6Bagimsizlik(Temel):
         for k in http.KAYNAKLAR.values():
             self.assertFalse([h for h in k["hostlar"] if "nesine" in h])
 
+    def test_mk1_oran_bagimsizligi_kurali_kayitli(self):
+        """MK-1 değişmez modelleme kuralı CLAUDE.md ve docs/MODEL_KURALLARI.md içinde bulunmalı."""
+        claude = (KOK / "CLAUDE.md").read_text(encoding="utf-8")
+        kural = (KOK / "docs" / "MODEL_KURALLARI.md").read_text(encoding="utf-8")
+        for metin in (claude, kural):
+            self.assertIn("MK-1", metin)
+        for ifade in ("KESİNLİKLE kullanılmaz", "SHA-256", "ANCAK SONRA", "uydurulmaz"):
+            self.assertIn(ifade, claude)
+        for ifade in ("kalibre", "dondur", "fiyat oranı", "hesaplanamaz"):
+            self.assertIn(ifade, kural)
+
     def test_footy_skills_kodu_kopyalanmadi(self):
         imzalar = ("advocate_check", "note_check", "football.oracle", "facts.py", "run_collection", "launch_browser")
         for p in list((KOK / "lib").rglob("*.py")) + list((KOK / ".claude").rglob("*.py")):
