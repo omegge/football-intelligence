@@ -1,0 +1,21 @@
+# Çekim çıktıları (ham JSON, düzenlenmiş JSON, Excel) depoya girmez
+output/
+*.xlsx
+*.xls
+ham/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Yerel ayarlar ve gizli bilgiler
+.claude/settings.local.json
+.env
+.env.*
+*.cookie
+cookies*.json
+
+# Notebook'un çalışma anında ürettiği dosyalar
+market_sozlugu_v3.json.bak
+kesif.json

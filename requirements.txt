@@ -1,0 +1,7 @@
+# Football Intelligence - bülten çekici bağımlılıkları
+# Claude Code bulut ortamında bunlar ZATEN kurulu; proje kuralı gereği orada paket yüklenmez.
+# Yalnızca başka bir makinede çalıştırırken gerekir. Test edilen sürümler yorumda.
+# Python >= 3.11 (zoneinfo, tür ipuçları); 3.13.18 ile test edildi.
+pandas>=2.2      # 3.0.5 ile test edildi
+openpyxl>=3.1    # 3.1.5 ile test edildi
+# Ağ erişimi için standart kütüphane (urllib) kullanılır; requests, scipy, playwright GEREKMEZ.
