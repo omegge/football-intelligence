@@ -26,7 +26,9 @@ python3 .claude/skills/football-bulletin-fetch/scripts/nesine_bulletin.py cek
 ```bash
 python3 -m unittest discover -s tests -v
 ```
-41 test, ağsız (A1–A11): canlı sınıflandırma, canlı market adları, maça özel etiket koruması, spor ayrımı,
+61 test, ağsız. Araştırma altyapısı (B1–B6, `tests/test_altyapi.py`): kanıt kaydı, takım adı eşleme, oransız
+araştırma girdisi, HTTP katmanı, ClubElo/football-data okuyucuları, Nesine'den bağımsızlık; ayrıntı `docs/ALTYAPI.md`.
+Bülten (A1–A11, `tests/test_bulletin.py`): canlı sınıflandırma, canlı market adları, maça özel etiket koruması, spor ayrımı,
 çizgi/handikap adları, TR tarih filtresi, yapı doğrulaması, sözlük bütünlüğü, Excel'de seçenek kaybı olmaması,
 lig adları, marketsiz maçlar ve veri bütünlüğü (EMBS, MS durumu, SOV2/SOV3, EWMA eşleştirme, futbol uzun vadeli, alternatif adlar).
 
@@ -40,9 +42,11 @@ lig adları, marketsiz maçlar ve veri bütünlüğü (EMBS, MS durumu, SOV2/SOV
 | Yol | İçerik |
 |---|---|
 | `.claude/skills/football-bulletin-fetch/` | Beceri: `SKILL.md`, `scripts/nesine_bulletin.py`, `data/market_sozlugu_v3.json` (104 kod, 190 anahtar) |
-| `tests/test_bulletin.py` | Otomatik testler |
+| `lib/fi/` | Araştırma altyapısı: kanıt kaydı, takım adı eşleme, oransız girdi, HTTP, kaynak okuyucuları |
+| `veri/takim_eslemeleri.json` | Kullanıcı onaylı takım adı eşlemeleri |
+| `tests/` | Otomatik testler (`test_bulletin.py`, `test_altyapi.py`) |
 | `kaynak/nesine_gunluk_3.ipynb` | Orijinal Colab not defteri (değiştirilmeden; sözlük testleri buna karşı yapılır) |
-| `docs/` | Veri şeması |
+| `docs/` | Veri şeması, altyapı, veri kaynakları ve erişim durumu |
 | `output/` | Çekim çıktıları (git dışı) |
 
 ## Bilinen sınırlar (23.11.2026 ilk gerçek çekim)
