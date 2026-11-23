@@ -115,9 +115,101 @@ Kurallar:
   savunma hataları, kötü deplasman serisi), sürpriz koşulları (motivasyon farkı, fikstür sıkışıklığı, hava/zemin,
   taktik uyumsuzluk), taktik eşleşmeler — hepsi MK-1'e uygun, oranlardan bağımsız.
 
-## Ortam: kaldırılması önerilen ağ izinleri (henüz UYGULANMADI)
+## Kaynak araştırması — üçüncü tur (23.11.2026; okuma, erişim testi ve raporlama)
+
+### İki katmanlı mimari (kullanıcı kararı)
+- **Katman 1 — istatistik ve tarihsel veri:** yalnızca izinli API'ler ve açık lisanslı veri setleri; Elo/gol modelleri,
+  rakip gücüne göre son 5–10 maç, iç saha/deplasman, bulunabilirse şut/korner/kart/oyuncu, kronolojik backtest ve
+  kalibrasyon. Eksik veri uydurulmaz; her çıktıda veri güncelliği ve lig kapsamı yazılır.
+- **Katman 2 — güncel haber ve takım istihbaratı:** toplu otomatik veri toplama yok; Claude'un web arama aracıyla
+  maç bazında araştırma (resmî kulüp/federasyon açıklamaları, basın toplantıları, sakat/cezalı/kadro dışı, muhtemel ve
+  kesin 11 ayrımı, antrenman, rotasyon, yorgunluk, seyahat, güvenilir medya, favorinin gizli zayıflıkları, rakibin
+  taktik avantajları).
+- **Kanıt kuralları (Katman 2):** haber başlığı ya da arama özeti tek başına kesin kanıt DEĞİLDİR. Her önemli sakatlık,
+  ceza, kadro ve teknik direktör açıklamasında yayın tarihi, kaynak ve gerçek içerik doğrulanır (gerekirse sayfanın
+  kendisi okunur; bunun için tek seferlik host izni gerekebilir). Maç başladıktan sonra yayımlanan içerik maç öncesi
+  analizde kullanılmaz. Tarihi doğrulanamayan haber kesin bilgi gibi sunulmaz (`tahmin`/`dogrulanamadi`).
+- **Entegrasyon:** katmanlar ayrı çalışır, yalnızca doğrulanmış veriler analizde birleştirilir; haber araştırması
+  istatistik modelinin geçmiş verilerle kalibrasyonunun yerine geçmez. MK-1 geçerlidir; kupon yalnızca açık talep.
+
+### Web araştırma araçlarının durumu
+- **Web arama: KULLANILABİLİR** — ortamın host izinlerinden bağımsız çalıştı (1 test + 10 doğrulama araması).
+- **Sayfa okuma:** ortamın host iznine tabi (ClubElo denemesinde izinsiz alan adları çözülemedi).
+- Arama sonuçlarında farklı sezonlar karışık çıkıyor (ör. J.League'de 2015 tarihli haberler) → tarih doğrulaması zorunlu.
+
+### Erişim izni ile yeniden kullanım izni ayrı değerlendirilir
+
+| Kaynak | Otomatik erişim (robots.txt) | Yeniden kullanım / lisans | Sonuç |
+|---|---|---|---|
+| UEFA (`www.uefa.com`) | Genel erişim açık; **`/disciplinary/*` bütün botlara kapalı** | Kullanım koşulları sayfası henüz okunmadı → yeniden kullanım izni **bilinmiyor** | Maç bazında okuma/atıf; toplu kopyalama yok; disiplin sayfaları otomatik okunmaz |
+| FIFA (`www.fifa.com`, `inside.fifa.com`) | Genel erişim açık (arama/arşiv filtreleri ve `/api/` kapalı) | Koşullar okunmadı → **bilinmiyor** | Maç bazında okuma/atıf |
+| TFF (`www.tff.org`) | robots.txt yok (404) | "Kopya Hakları": kişisel ve ticari olmayan kullanım serbest; izin alınmadan ve kaynak gösterilmeden kopyalanamaz, çoğaltılamaz, yeniden yayımlanamaz, başka bilgisayara yüklenemez | Bilgi doğrulama ve kaynak gösterme; toplu indirme/çoğaltma yok |
+| OpenLigaDB | API robots.txt yok; site robots.txt API'yi öneriyor | Veri **ODbL 1.0** (atıf; türetilmiş veritabanı paylaşılırsa aynı lisans); API kullanım koşulları ayrı | Entegrasyona uygun |
+| football-data.org | robots.txt yalnızca `dotbot`'u engelliyor | Genel Koşullar (1 Haziran 2018): anahtar tek uygulamaya bağlı ve gizli; açık kaynak depolara konamaz; atıf zorunlu; abonelik bitince veri artık kullanılamaz | Entegrasyona uygun (ücretsiz anahtar ile) |
+
+### Doğrulanan kaynaklar
+- **OpenLigaDB** — koşullar: `www.openligadb.de/en/terms-of-use` (İngilizce çeviri; bağlayıcı olan Almanca metin).
+  Hobi/uzman uygulamalar için; adil kullanım: `getlastchangedate` ile ucuz kontrol, maç dışında günde birkaç istek,
+  canlı maçta lig başına en fazla 30–60 sn'de bir istek, önbellek, 429/5xx'te üstel bekleme; anlamlı User-Agent
+  ("uygulama adı ve iletişim yolu" öneriliyor — **zorunlu değil, "please"**). Kullanıcı kararı: kişisel bilgi içermeyen
+  proje User-Agent'ı. **Tek anahtarsız örnek istek** (`getavailableleagues`): HTTP 200, JSON, 849 lig-sezon kaydı
+  (`leagueId, leagueName, leagueShortcut, leagueSeason, sport`); topluluk girişi — çok sayıda test/kopya lig var
+  ("Testliga", "BLClaude" vb.), doğru kısaltma seçilmeli. Güçlü kapsam: Almanya (Bundesliga, alt ligler, bölgesel
+  ligler, DFB-Pokal), Şampiyonlar/Avrupa/Konferans Ligi 2026/27, Dünya Kupası 2026. Öncelikli alt liglerin hiçbiri yok.
+  Güncellik bu tek istekle ölçülmedi.
+- **football-data.org** — ücretsiz plan ("Free Plan is Free Forever"): 12 yarışma (Premier League, Championship,
+  Bundesliga, Serie A, La Liga, Ligue 1, Eredivisie, Primeira Liga, Brezilya Serie A, Şampiyonlar Ligi, Avrupa
+  Şampiyonası, Dünya Kupası); **skorlar ve fikstür gecikmeli**, puan tabloları; dakikada 10 istek. Anahtarsız erişim:
+  günde 100 istek, yalnızca bölge/yarışma listesi. Kadro, gol atan, kart → ücretli ("Free + Deep Data" 29 €/ay).
+  Kapsam tablosuna göre (sütun eşlemesi ücretsiz 12 yarışmayla tutarlı, başlıklar tam okunamadı): J1, Serie B,
+  Segunda División, Rusya RFPL, Avrupa Ligi → 49 €; **Süper Lig**, Ukrayna Premier Liha → 99 €; **J2, Serie C (A/B/C
+  grupları)**, TFF 1. Lig, Portekiz Liga 2 → 199 €; AFC Şampiyonlar Ligi, Sırbistan, Suudi Arabistan, Mısır,
+  Bulgaristan → listede yok. Ücretli plan BAŞLATILMAYACAK.
+- **martj42/international_results** (GitHub, git klonu) — **CC0 1.0**; 50.093 milli maç (1872 → son skor 2026-11-17),
+  son commit 2026-11-23; `results.csv` (tarih, takımlar, skor, turnuva, şehir, ülke, tarafsız saha), `goalscorers.csv`,
+  `shootouts.csv`. Kulüp maçı yok → yalnızca milli takımlar.
+
+### Lig bazında istatistik boşlukları (açıkça)
+| Lig | Katman 1 (istatistik/sonuç) | Katman 2 (haber, resmî kaynak) |
+|---|---|---|
+| UEFA Şampiyonlar Ligi | football-data.org ücretsiz (gecikmeli skor), OpenLigaDB, OpenFootball (2024-25'e kadar) | uefa.com (disiplin sayfaları hariç) |
+| **Japonya J1** | **Ücretsiz güncel kaynak YOK** (football-data.org 49 €; OpenFootball yalnızca 2025'e kadar, 3 sezon) | jleague.co / jleague.jp (İngilizce sakatlık haberleri) |
+| **Japonya J2** | **YOK** (football-data.org 199 €; OpenFootball'da hiç yok) | jleague.co / jleague.jp |
+| **İtalya Serie B** | Ücretsiz güncel kaynak YOK (49 €); OpenFootball it.2 2025-26'ya kadar kısmi | legab.it (resmî belgeler FIGC'de) |
+| **İtalya Serie C** | **YOK** (199 €; OpenFootball'da hiç yok) | lega-pro.com |
+| **Türkiye Süper Lig** | **Ücretsiz güncel kaynak YOK** (football-data.org 99 €; OpenFootball 2025-26 Kasım 2025'te kesik, 2021–24 yok) | TFF (manuel, kopyalama yok) |
+| AFC Şampiyonlar Ligi | YOK | the-afc.com |
+| Ukrayna Premier Ligi | YOK (99 €) | upl.ua |
+| Rusya Ulusal Ligi / Kupa | YOK | 1fnl.ru; Kupa'nın resmî sitesi doğrulanamadı |
+| Sırbistan Superliga | YOK | superliga.rs |
+| Suudi Arabistan 1. Lig, Mısır Premier Lig | YOK | resmî site doğrulanamadı |
+| Bulgaristan 2. Lig, Segunda RFEF, İsviçre alt ligleri, National League, Portekiz U23 | YOK | resmî alan adları doğrulanamadı |
+
+→ Bu liglerde bağımsız olasılık modeli için yeterli güncel veri yoktur; sonuç **"hesaplanamaz"** ya da yalnızca nitel
+Katman 2 değerlendirmesidir. Haber araştırması bu boşluğu istatistik yerine geçerek kapatmaz.
+
+### Sınıflandırma
+- **Entegrasyona uygun:** OpenFootball (tarihsel/backtest), OpenLigaDB (Almanya + UEFA kulüp turnuvaları),
+  martj42/international_results (milli takımlar), football-data.org ücretsiz plan (kullanıcı onaylı ücretsiz anahtarla;
+  12 yarışma, gecikmeli).
+- **Yalnızca manuel araştırmaya uygun (Katman 2, web arama, maç bazında):** UEFA, FIFA, TFF, J.League, AFC, UPL,
+  FNL, Sırbistan Superliga, Lega B, Lega Pro, kulüp siteleri, güvenilir medya.
+- **Koşulları belirsiz:** Suudi Arabistan ve Mısır ligleri, Bulgaristan 2. Lig, Segunda RFEF, İsviçre alt ligleri,
+  National League, Portekiz U23, Rusya Kupası (resmî kaynak doğrulanamadı); UEFA ve FIFA'nın yeniden kullanım koşulları
+  (sayfalar okunmadı).
+- **Kullanılmayacak:** football-data.co.uk, ClubElo, open-matchday, StatsBomb (pasif); datahub.io futbol aynaları
+  (football-data.co.uk verisinin dolaylı aktarımı); transfermarkt-datasets (Transfermarkt koşulları); Sofascore,
+  FotMob, 365scores, xscores, Soccerway, BetExplorer (bot koruması / koşullar / bahis); bahis sitelerine bağlı
+  sakatlık listeleri (sportsgambler, injuriesandsuspensions — tarihsiz ya da eski).
+
+### Ortam (23.11.2026)
+İzinli hostlar: `cdnbulten.nesine.com`, `bulten.nesine.com`, `www.openligadb.de`, `api.openligadb.de`,
+`www.football-data.org`, `docs.football-data.org`, `www.uefa.com`, `documents.uefa.com`, `www.fifa.com`,
+`inside.fifa.com`, `www.tff.org` (son dokuzu kullanıcı onayıyla, şimdilik kalıcı). `api.football-data.org` henüz yok.
+
+## Ortam: kaldırılan ağ izinleri (UYGULANDI, 23.11.2026, kullanıcı onayıyla)
 `football-intelligence` ortamından `api.clubelo.com`, `clubelo.com`, `www.football-data.co.uk`,
-`football-data.co.uk` çıkarılsın; geriye `cdnbulten.nesine.com`, `bulten.nesine.com` kalsın. Kullanıcı onayı bekleniyor.
+`football-data.co.uk` çıkarıldı. Güncel liste için yukarıdaki "Ortam (23.11.2026)" bölümüne bakın.
 
 ## Notlar
 - football-data `notes.txt`: sütunlar arasında `HxG`/`AxG` (beklenen gol) ve `HFKC`/`AFKC` (serbest vuruş) da var;
