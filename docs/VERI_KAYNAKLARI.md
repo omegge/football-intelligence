@@ -66,6 +66,23 @@ Kullanıcı kararı (23.11.2026): football-data.co.uk ve ClubElo **pasif**. Okuy
   zaten kapsam dışı; oran verisinin kaynağı/hakları da belirsiz.
 - **Karar:** izin belirsiz + kısıtlı kaynağın dolaylı aktarımı → **hiçbir alanı kullanılmaz** (yalnızca skor alanları
   bile; çünkü skorlar da ESPN/Soccerway satırlarından gelebiliyor ve alan kökeni ayrıştırılamıyor).
+- **Son denetim (23.11.2026, salt okunur, yalnızca kendi denetim scripti; oran dosyalarının içeriği okunmadı):**
+  - Yarışma: **75** klasör = `LEAGUE_INDEX.md` 75 satır; 9.839 sonuç satırı; son maç 2026-11-23; son derleme
+    2026-11-23 06:42 UTC.
+  - **Türkiye:** yalnızca `TUR_1_super-lig` (alt lig yok): 107 sonuç (2026-08-14 … 2026-11-22), 199 fikstür;
+    dizinde kaynak "fixturedownload + ESPN + fd.co.uk", satırların tamamı `fixturedl` etiketli; buna rağmen 99'unda
+    İY/şut/kart, 107'sinde korner ve yarı bazında korner dolu.
+  - **Alan doluluğu (sonuç satırlarının %'si):** MS 100; İY 22,8; şut / isabetli / faul / sarı / kırmızı 21,2;
+    korner 22,3; yarı korner 16,3; gol dakikası 9,1.
+  - **Dizine göre sağlayıcı → lig sayısı:** Soccerway 43, ESPN 41, fd.co.uk 19, fixturedownload 17, OpenLigaDB 3.
+  - **FotMob kaynak belirsizliği:** README yarı bazında korneri FotMob'a bağlıyor; ancak `LEAGUE_INDEX.md`'de FotMob
+    hiçbir ligde geçmiyor, yarı korner verisi ise **13 ligde** dolu (Süper Lig dahil) → beyan edilmemiş kaynak.
+  - **Köken sorunları:** alan düzeyinde kaynak bilgisi yok; birleştirme hattı gizli; football-data.co.uk (yapay
+    zekâ/bot kısıtlı) istatistikleri 19 ligde başka etiketler altında; ESPN/FotMob/Soccerway koşulları doğrulanmadı.
+  - **Oran dosyaları:** 45 ligde 180 dosya (`odds_1x2`, `odds_markets`, `odds_fixtures`, `over25`) — MK-1 gereği
+    hiçbir koşulda model girdisi olmaz.
+  - **Nihai karar (kullanıcı onaylı):** open-matchday **kullanılmaz**; hiçbir verisi Football Intelligence modellerine,
+    kanıt kaydına ya da backtest'e girmez.
 - **Doğrudan değerlendirilebilecek ayrı adaylar (henüz incelenmedi, ayrı izin gerekir):** OpenLigaDB (Almanya
   ligleri, topluluk API'si) ve fixturedownload.com (fikstür/sonuç). Her biri kendi koşullarıyla, doğrudan kaynağından.
 
@@ -111,5 +128,7 @@ Kurallar:
   (`DOGRULANMIS_BICIM = False`).
 
 ## Şimdilik kullanılmayanlar
+**open-matchday** (alan kökeni belirsiz, kısıtlı kaynakların dolaylı aktarımı — kalıcı ret); **football-data.co.uk,
+ClubElo, StatsBomb** (pasif, kullanıcı kararı); **OpenLigaDB, fixturedownload.com** (henüz incelenmedi, ayrı aşama);
 Understat, FBref (kullanıcı kararı); Sofascore, Squawka (bot koruması / tarayıcı gerektirir); FotMob (imzalı istek
 başlıkları); Transfermarkt (otomatik veri toplama yasağı); 365scores, SoccerDesk, Statsultra (koşullar belirsiz).
