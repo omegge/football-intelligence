@@ -12,6 +12,9 @@ Tarih bütünlüğü (veri doğruluğu önceliği):
   yazılı TEKİL kayıtlarla düzeltilir (lig + sezon + takımlar + tam skor + ilk yarı + kaynak tarih tam eşleşmeli).
   Genel/otomatik bir yıl kuralı yoktur. Eşleşmeyen ya da kaynakta artık bulunmayan kayıt hata verir.
 - Uygulanan her düzeltme `kaynak["tarih_duzeltmeleri"]` içinde döner.
+- Kaynakta skoru BOŞ kalmış bitmiş maçlar yalnızca `veri/skor_tamamlamalari.json` içindeki, iki kaynağın tam skorda
+  uyuştuğu kanıtlı kayıtlarla tamamlanır (lig + sezon + tarih + takımlar tam eşleşmeli). Kaynakta skor varsa ve kayıtla
+  aynıysa ikinci kez uygulanmaz; farklıysa okuma durur. Uygulananlar `kaynak["skor_tamamlamalari"]` içinde döner.
 - Düzeltmeden sonra kalan sert tutarsızlıklar (sezon yılları dışında tarih, 1. haftanın ilk maçından önce oynanmış
   maç, aynı sezonda mükerrer ev–deplasman eşleşmesi) `VeriTutarsizligi` ile okumayı durdurur. Hafta sırası
   terslikleri (ertelemelerde olağan) yalnızca uyarı olarak `kaynak["tarih_uyarilari"]`na yazılır.
@@ -29,6 +32,7 @@ from ..takim_adlari import normallestir
 
 KOK = Path(__file__).resolve().parents[3] / "output" / "kaynak_veri" / "openfootball-football.json"
 DUZELTME_DOSYASI = Path(__file__).resolve().parents[3] / "veri" / "tarih_duzeltmeleri.json"
+SKOR_DOSYASI = Path(__file__).resolve().parents[3] / "veri" / "skor_tamamlamalari.json"
 SEZON_DESENI = re.compile(r"\d{4}(-\d{2})?")
 HAFTA_DESENI = re.compile(r"(\d+)")
 
@@ -37,10 +41,14 @@ class VeriTutarsizligi(ValueError):
     """Kaynak veride düzeltilmemiş sert tutarsızlık; okuma durdurulur (sessizce devam edilmez)."""
 
 
-def duzeltmeleri_yukle(yol: Path | None) -> list[dict]:
+def duzeltmeleri_yukle(yol: Path | None, anahtar: str = "duzeltmeler") -> list[dict]:
     if yol is None or not Path(yol).exists():
         return []
-    return json.loads(Path(yol).read_text(encoding="utf-8"))["duzeltmeler"]
+    return json.loads(Path(yol).read_text(encoding="utf-8"))[anahtar]
+
+
+def _ozet(yol: Path | None) -> str | None:
+    return hashlib.sha256(Path(yol).read_bytes()).hexdigest() if yol and Path(yol).exists() else None
 
 
 def _hafta(tur) -> int | None:
@@ -107,7 +115,8 @@ def commit_kimligi(kok: Path) -> str | None:
 
 
 def lig_oku(lig: str, kok: Path = KOK, sezonlar: list[str] | None = None,
-            duzeltmeler: Path | None = DUZELTME_DOSYASI) -> tuple[list[dict], dict]:
+            duzeltmeler: Path | None = DUZELTME_DOSYASI,
+            skor_tamamlamalari: Path | None = SKOR_DOSYASI) -> tuple[list[dict], dict]:
     """Bir ligin bütün (ya da seçili) sezonlarındaki SKORLU maçları tarih sırasıyla döndürür.
     Dönüş: (maclar, kaynak). Takım anahtarı `normallestir(ad)`; ham ad da saklanır.
     Kayıtlı tarih düzeltmeleri uygulanır; sert tutarsızlık kalırsa `VeriTutarsizligi`."""
@@ -116,6 +125,9 @@ def lig_oku(lig: str, kok: Path = KOK, sezonlar: list[str] | None = None,
     duz = {(d["lig"], d["sezon"], d["ev_ad"], d["dep_ad"], tuple(d["skor"]),
             tuple(d["ilk_yari"]) if d.get("ilk_yari") else None): d for d in duzeltmeleri_yukle(duzeltmeler)}
     uygulanan, zaten_dogru, okunan_sezonlar = [], [], set()
+    tam = {(k["lig"], k["sezon"], k["tarih"], k["ev_ad"], k["dep_ad"]): k
+           for k in duzeltmeleri_yukle(skor_tamamlamalari, "tamamlamalar")}
+    tamamlanan, kaynakta_skorlu = [], []
     for d in sorted(p for p in kok.iterdir() if p.is_dir() and SEZON_DESENI.fullmatch(p.name)):
         if sezonlar and d.name not in sezonlar:
             continue
@@ -127,6 +139,17 @@ def lig_oku(lig: str, kok: Path = KOK, sezonlar: list[str] | None = None,
         okunan_sezonlar.add(d.name)
         for i, m in enumerate(_maclar(json.loads(ham))):
             ft = _skor(m, "ft")
+            sk = tam.get((lig, d.name, m.get("date"), m.get("team1"), m.get("team2")))
+            if sk is not None:
+                if ft is None:
+                    ft = list(sk["skor"])
+                    m = {**m, "score": {"ft": ft, "ht": sk.get("ilk_yari")}}
+                    tamamlanan.append({k: sk[k] for k in ("sezon", "tarih", "ev_ad", "dep_ad", "skor")})
+                elif list(ft) == list(sk["skor"]):
+                    kaynakta_skorlu.append(sk)
+                else:
+                    raise VeriTutarsizligi(f"skor kaydı kaynakla çelişiyor: {d.name} {m['team1']} – {m['team2']} "
+                                           f"kaynak {ft}, kayıt {sk['skor']}")
             if not ft or not m.get("date") or not m.get("team1") or not m.get("team2"):
                 atlanan += 1
                 continue
@@ -151,6 +174,10 @@ def lig_oku(lig: str, kok: Path = KOK, sezonlar: list[str] | None = None,
     beklenen = sum(1 for k in duz.values() if k["lig"] == lig and k["sezon"] in okunan_sezonlar)
     if kullanilan != beklenen:
         raise VeriTutarsizligi(f"{lig}: {beklenen} düzeltme kaydından yalnızca {kullanilan} tanesi kaynakta bulundu")
+    beklenen_skor = sum(1 for k in tam.values() if k["lig"] == lig and k["sezon"] in okunan_sezonlar)
+    if len(tamamlanan) + len(kaynakta_skorlu) != beklenen_skor:
+        raise VeriTutarsizligi(f"{lig}: {beklenen_skor} skor kaydından yalnızca "
+                               f"{len(tamamlanan) + len(kaynakta_skorlu)} tanesi kaynakta bulundu")
     sert, uyari = tarih_denetimi(maclar)
     if sert:
         raise VeriTutarsizligi(f"{lig}: {len(sert)} düzeltilmemiş tarih tutarsızlığı: " + "; ".join(sert[:5]))
@@ -159,8 +186,9 @@ def lig_oku(lig: str, kok: Path = KOK, sezonlar: list[str] | None = None,
               "commit": commit_kimligi(kok), "dosya_sha256": dosyalar, "skorsuz_atlanan": atlanan,
               "mac_sayisi": len(maclar), "son_mac_tarihi": maclar[-1]["tarih"] if maclar else None,
               "tarih_duzeltmeleri": uygulanan, "kaynakta_duzelmis_kayit": len(zaten_dogru),
-              "duzeltme_dosyasi_sha256": (hashlib.sha256(Path(duzeltmeler).read_bytes()).hexdigest()
-                                          if duzeltmeler and Path(duzeltmeler).exists() else None),
+              "duzeltme_dosyasi_sha256": _ozet(duzeltmeler),
+              "skor_tamamlamalari": tamamlanan, "kaynakta_skorlu_kayit": len(kaynakta_skorlu),
+              "skor_dosyasi_sha256": _ozet(skor_tamamlamalari),
               "tarih_uyarilari": uyari}
     return maclar, kaynak
 

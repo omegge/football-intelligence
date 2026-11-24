@@ -96,6 +96,45 @@ class V2KayitliDuzeltme(Ortak):
         self.assertEqual(maclar[-1]["tarih"], "2020-07-01")
 
 
+class V4SkorTamamlama(Ortak):
+    def kayit(self, **degis):
+        k = {"lig": "en.1", "sezon": "2019-20", "tarih": "2019-08-24", "ev_ad": "B FC", "dep_ad": "A FC",
+             "skor": [2, 1], "ilk_yari": [1, 0], "kanit": {"kaynak_1": {}, "kaynak_2": {}}}
+        k.update(degis)
+        yol = self.tmp / "skor.json"
+        yol.write_text(json.dumps({"tamamlamalar": [k]}), encoding="utf-8")
+        return yol
+
+    def skorsuz(self, skor=None):
+        m = {"round": "Matchday 3", "date": "2019-08-24", "team1": "B FC", "team2": "A FC"}
+        if skor:
+            m["score"] = {"ft": skor}
+        self.yaz(SEZON[:4] + [m])
+
+    def test_yalnizca_bos_skor_tam_eslesmeyle_tamamlanir(self):
+        self.skorsuz()
+        maclar, kaynak = lig_oku("en.1", self.tmp / "kaynak", duzeltmeler=None, skor_tamamlamalari=None)
+        self.assertEqual((len(maclar), kaynak["skorsuz_atlanan"]), (4, 1))   # kayıtsız: atlanır, uydurulmaz
+        maclar, kaynak = lig_oku("en.1", self.tmp / "kaynak", duzeltmeler=None, skor_tamamlamalari=self.kayit())
+        son = maclar[-1]
+        self.assertEqual((son["ev_gol"], son["dep_gol"], son["iy_ev"]), (2, 1, 1))
+        self.assertEqual(len(kaynak["skor_tamamlamalari"]), 1)
+        self.assertEqual(kaynak["skorsuz_atlanan"], 0)
+
+    def test_celiskili_ya_da_bulunamayan_kayit_durdurur(self):
+        self.skorsuz(skor=[0, 0])
+        with self.assertRaises(VeriTutarsizligi):                         # kaynakta farklı skor var
+            lig_oku("en.1", self.tmp / "kaynak", duzeltmeler=None, skor_tamamlamalari=self.kayit())
+        self.skorsuz()
+        with self.assertRaises(VeriTutarsizligi):                         # tarih tutmuyor → kayıt bulunamaz
+            lig_oku("en.1", self.tmp / "kaynak", duzeltmeler=None, skor_tamamlamalari=self.kayit(tarih="2019-08-25"))
+
+    def test_kaynakta_ayni_skor_varsa_ikinci_kez_uygulanmaz(self):
+        self.skorsuz(skor=[2, 1])
+        _, kaynak = lig_oku("en.1", self.tmp / "kaynak", duzeltmeler=None, skor_tamamlamalari=self.kayit())
+        self.assertEqual((kaynak["skor_tamamlamalari"], kaynak["kaynakta_skorlu_kayit"]), ([], 1))
+
+
 @unittest.skipUnless((openfootball.KOK / "2019-20" / "en.1.json").exists(), "yerel OpenFootball klonu yok")
 class V3GercekVeri(unittest.TestCase):
     def test_kayitli_duzeltmeler_kanitli_ve_dort_lig_temiz(self):
@@ -107,6 +146,15 @@ class V3GercekVeri(unittest.TestCase):
         for lig in ("en.1", "de.1", "es.1", "it.1"):
             maclar, kaynak = lig_oku(lig)                                # sert tutarsızlık kalırsa hata verir
             self.assertEqual(len(kaynak["tarih_duzeltmeleri"]), 66 if lig == "en.1" else 0)
+            self.assertEqual(len(kaynak["skor_tamamlamalari"]), 10 if lig in ("es.1", "it.1") else 0)
+            bitmis = {s for s in {m["sezon"] for m in maclar} if s <= "2025-26"}
+            for s in bitmis:                                             # bitmiş sezonlar tam çift devre
+                n = len({t for m in maclar if m["sezon"] == s for t in (m["ev"], m["dep"])})
+                self.assertEqual(sum(1 for m in maclar if m["sezon"] == s), n * (n - 1), f"{lig} {s}")
+        sk = json.loads(openfootball.SKOR_DOSYASI.read_text(encoding="utf-8"))["tamamlamalar"]
+        self.assertEqual(len(sk), 20)
+        for k in sk:                                                     # iki kaynak kanıtı zorunlu
+            self.assertTrue(k["kanit"]["kaynak_1"]["mac_id"] and k["kanit"]["kaynak_2"]["satir"])
             for s in {m["sezon"] for m in maclar}:
                 ms = sorted(m["tarih"] for m in maclar if m["sezon"] == s)
                 self.assertGreaterEqual(ms[0][:4], s[:4])

@@ -1,0 +1,766 @@
+{
+ "aciklama": "OpenFootball football.json'da skorsuz kalan bitmiş maçlar. Kaynak dosyalar DEĞİŞTİRİLMEZ; okuyucu yalnızca kaynakta skor YOKKEN ve lig+sezon+tarih+takımlar tam eşleşince uygular. Her kayıt iki kaynağın tam skorda uyuşmasını gerektirir; tahmin yoktur.",
+ "olusturma": "2026-11-24",
+ "tamamlamalar": [
+  {
+   "lig": "es.1",
+   "sezon": "2024-25",
+   "tur": "Matchday 38",
+   "tarih": "2025-05-23",
+   "ev_ad": "Real Betis Balompié",
+   "dep_ad": "Valencia CF",
+   "kaynak_skor": null,
+   "skor": [
+    1,
+    1
+   ],
+   "ilk_yari": [
+    1,
+    0
+   ],
+   "kanit": {
+    "kaynak_1": {
+     "ad": "football-data.org v4 (ücretsiz plan)",
+     "yarisma": "PD",
+     "mac_id": 498984,
+     "durum": "FINISHED",
+     "sure_turu": "REGULAR",
+     "baslama_utc": "2025-05-23T19:00:00+00:00",
+     "son_guncelleme": "2025-06-08T20:20:24Z",
+     "yanit_sha256": "fa8a9764190ad0c8154754c59d03c18f937b0cac1c74ba5f881d156476930b64",
+     "erisim_utc": "2026-11-24T00:47:16+00:00",
+     "atif": "Football data provided by the Football-Data.org API"
+    },
+    "kaynak_2": {
+     "ad": "openfootball/espana 2024-25/1-liga.txt",
+     "commit": "80035a93dd4920985af52aa097a54a6fb888563b",
+     "satir": 659,
+     "metin": "21:00  Real Betis Balompié     v Valencia CF              1-1 (1-0)"
+    },
+    "ilk_yari_notu": null
+   }
+  },
+  {
+   "lig": "es.1",
+   "sezon": "2024-25",
+   "tur": "Matchday 38",
+   "tarih": "2025-05-24",
+   "ev_ad": "Real Madrid CF",
+   "dep_ad": "Real Sociedad de Fútbol",
+   "kaynak_skor": null,
+   "skor": [
+    2,
+    0
+   ],
+   "ilk_yari": [
+    1,
+    0
+   ],
+   "kanit": {
+    "kaynak_1": {
+     "ad": "football-data.org v4 (ücretsiz plan)",
+     "yarisma": "PD",
+     "mac_id": 498991,
+     "durum": "FINISHED",
+     "sure_turu": "REGULAR",
+     "baslama_utc": "2025-05-24T14:15:00+00:00",
+     "son_guncelleme": "2025-06-08T20:20:24Z",
+     "yanit_sha256": "fa8a9764190ad0c8154754c59d03c18f937b0cac1c74ba5f881d156476930b64",
+     "erisim_utc": "2026-11-24T00:47:16+00:00",
+     "atif": "Football data provided by the Football-Data.org API"
+    },
+    "kaynak_2": {
+     "ad": "openfootball/espana 2024-25/1-liga.txt",
+     "commit": "80035a93dd4920985af52aa097a54a6fb888563b",
+     "satir": 661,
+     "metin": "16:15  Real Madrid CF          v Real Sociedad de Fútbol  2-0 (1-0)"
+    },
+    "ilk_yari_notu": null
+   }
+  },
+  {
+   "lig": "es.1",
+   "sezon": "2024-25",
+   "tur": "Matchday 38",
+   "tarih": "2025-05-24",
+   "ev_ad": "CD Leganés",
+   "dep_ad": "Real Valladolid CF",
+   "kaynak_skor": null,
+   "skor": [
+    3,
+    0
+   ],
+   "ilk_yari": [
+    3,
+    0
+   ],
+   "kanit": {
+    "kaynak_1": {
+     "ad": "football-data.org v4 (ücretsiz plan)",
+     "yarisma": "PD",
+     "mac_id": 498985,
+     "durum": "FINISHED",
+     "sure_turu": "REGULAR",
+     "baslama_utc": "2025-05-24T16:30:00+00:00",
+     "son_guncelleme": "2025-06-08T20:20:24Z",
+     "yanit_sha256": "fa8a9764190ad0c8154754c59d03c18f937b0cac1c74ba5f881d156476930b64",
+     "erisim_utc": "2026-11-24T00:47:16+00:00",
+     "atif": "Football data provided by the Football-Data.org API"
+    },
+    "kaynak_2": {
+     "ad": "openfootball/espana 2024-25/1-liga.txt",
+     "commit": "80035a93dd4920985af52aa097a54a6fb888563b",
+     "satir": 662,
+     "metin": "18:30  CD Leganés              v Real Valladolid CF       3-0 (3-0)"
+    },
+    "ilk_yari_notu": null
+   }
+  },
+  {
+   "lig": "es.1",
+   "sezon": "2024-25",
+   "tur": "Matchday 38",
+   "tarih": "2025-05-24",
+   "ev_ad": "RCD Espanyol de Barcelona",
+   "dep_ad": "UD Las Palmas",
+   "kaynak_skor": null,
+   "skor": [
+    2,
+    0
+   ],
+   "ilk_yari": [
+    0,
+    0
+   ],
+   "kanit": {
+    "kaynak_1": {
+     "ad": "football-data.org v4 (ücretsiz plan)",
+     "yarisma": "PD",
+     "mac_id": 498992,
+     "durum": "FINISHED",
+     "sure_turu": "REGULAR",
+     "baslama_utc": "2025-05-24T16:30:00+00:00",
+     "son_guncelleme": "2025-06-08T20:20:24Z",
+     "yanit_sha256": "fa8a9764190ad0c8154754c59d03c18f937b0cac1c74ba5f881d156476930b64",
+     "erisim_utc": "2026-11-24T00:47:16+00:00",
+     "atif": "Football data provided by the Football-Data.org API"
+    },
+    "kaynak_2": {
+     "ad": "openfootball/espana 2024-25/1-liga.txt",
+     "commit": "80035a93dd4920985af52aa097a54a6fb888563b",
+     "satir": 663,
+     "metin": "RCD Espanyol de Barcelona v UD Las Palmas            2-0 (0-0)"
+    },
+    "ilk_yari_notu": null
+   }
+  },
+  {
+   "lig": "es.1",
+   "sezon": "2024-25",
+   "tur": "Matchday 38",
+   "tarih": "2025-05-24",
+   "ev_ad": "Deportivo Alavés",
+   "dep_ad": "CA Osasuna",
+   "kaynak_skor": null,
+   "skor": [
+    1,
+    1
+   ],
+   "ilk_yari": [
+    0,
+    0
+   ],
+   "kanit": {
+    "kaynak_1": {
+     "ad": "football-data.org v4 (ücretsiz plan)",
+     "yarisma": "PD",
+     "mac_id": 498986,
+     "durum": "FINISHED",
+     "sure_turu": "REGULAR",
+     "baslama_utc": "2025-05-24T19:00:00+00:00",
+     "son_guncelleme": "2025-06-08T20:20:24Z",
+     "yanit_sha256": "fa8a9764190ad0c8154754c59d03c18f937b0cac1c74ba5f881d156476930b64",
+     "erisim_utc": "2026-11-24T00:47:16+00:00",
+     "atif": "Football data provided by the Football-Data.org API"
+    },
+    "kaynak_2": {
+     "ad": "openfootball/espana 2024-25/1-liga.txt",
+     "commit": "80035a93dd4920985af52aa097a54a6fb888563b",
+     "satir": 664,
+     "metin": "21:00  Deportivo Alavés        v CA Osasuna               1-1 (0-0)"
+    },
+    "ilk_yari_notu": null
+   }
+  },
+  {
+   "lig": "es.1",
+   "sezon": "2024-25",
+   "tur": "Matchday 38",
+   "tarih": "2025-05-24",
+   "ev_ad": "Getafe CF",
+   "dep_ad": "RC Celta de Vigo",
+   "kaynak_skor": null,
+   "skor": [
+    1,
+    2
+   ],
+   "ilk_yari": [
+    1,
+    1
+   ],
+   "kanit": {
+    "kaynak_1": {
+     "ad": "football-data.org v4 (ücretsiz plan)",
+     "yarisma": "PD",
+     "mac_id": 498987,
+     "durum": "FINISHED",
+     "sure_turu": "REGULAR",
+     "baslama_utc": "2025-05-24T19:00:00+00:00",
+     "son_guncelleme": "2025-06-08T20:20:24Z",
+     "yanit_sha256": "fa8a9764190ad0c8154754c59d03c18f937b0cac1c74ba5f881d156476930b64",
+     "erisim_utc": "2026-11-24T00:47:16+00:00",
+     "atif": "Football data provided by the Football-Data.org API"
+    },
+    "kaynak_2": {
+     "ad": "openfootball/espana 2024-25/1-liga.txt",
+     "commit": "80035a93dd4920985af52aa097a54a6fb888563b",
+     "satir": 665,
+     "metin": "Getafe CF               v RC Celta de Vigo         1-2 (1-1)"
+    },
+    "ilk_yari_notu": null
+   }
+  },
+  {
+   "lig": "es.1",
+   "sezon": "2024-25",
+   "tur": "Matchday 38",
+   "tarih": "2025-05-24",
+   "ev_ad": "Rayo Vallecano de Madrid",
+   "dep_ad": "RCD Mallorca",
+   "kaynak_skor": null,
+   "skor": [
+    0,
+    0
+   ],
+   "ilk_yari": [
+    0,
+    0
+   ],
+   "kanit": {
+    "kaynak_1": {
+     "ad": "football-data.org v4 (ücretsiz plan)",
+     "yarisma": "PD",
+     "mac_id": 498990,
+     "durum": "FINISHED",
+     "sure_turu": "REGULAR",
+     "baslama_utc": "2025-05-24T19:00:00+00:00",
+     "son_guncelleme": "2025-06-08T20:20:24Z",
+     "yanit_sha256": "fa8a9764190ad0c8154754c59d03c18f937b0cac1c74ba5f881d156476930b64",
+     "erisim_utc": "2026-11-24T00:47:16+00:00",
+     "atif": "Football data provided by the Football-Data.org API"
+    },
+    "kaynak_2": {
+     "ad": "openfootball/espana 2024-25/1-liga.txt",
+     "commit": "80035a93dd4920985af52aa097a54a6fb888563b",
+     "satir": 666,
+     "metin": "Rayo Vallecano de Madrid v RCD Mallorca             0-0"
+    },
+    "ilk_yari_notu": "ilk yarı yalnızca kaynak 1'de var"
+   }
+  },
+  {
+   "lig": "es.1",
+   "sezon": "2024-25",
+   "tur": "Matchday 38",
+   "tarih": "2025-05-25",
+   "ev_ad": "Girona FC",
+   "dep_ad": "Club Atlético de Madrid",
+   "kaynak_skor": null,
+   "skor": [
+    0,
+    4
+   ],
+   "ilk_yari": [
+    0,
+    0
+   ],
+   "kanit": {
+    "kaynak_1": {
+     "ad": "football-data.org v4 (ücretsiz plan)",
+     "yarisma": "PD",
+     "mac_id": 498988,
+     "durum": "FINISHED",
+     "sure_turu": "REGULAR",
+     "baslama_utc": "2025-05-25T12:00:00+00:00",
+     "son_guncelleme": "2025-06-08T20:20:24Z",
+     "yanit_sha256": "fa8a9764190ad0c8154754c59d03c18f937b0cac1c74ba5f881d156476930b64",
+     "erisim_utc": "2026-11-24T00:47:16+00:00",
+     "atif": "Football data provided by the Football-Data.org API"
+    },
+    "kaynak_2": {
+     "ad": "openfootball/espana 2024-25/1-liga.txt",
+     "commit": "80035a93dd4920985af52aa097a54a6fb888563b",
+     "satir": 668,
+     "metin": "14:00  Girona FC               v Club Atlético de Madrid  0-4 (0-0)"
+    },
+    "ilk_yari_notu": null
+   }
+  },
+  {
+   "lig": "es.1",
+   "sezon": "2024-25",
+   "tur": "Matchday 38",
+   "tarih": "2025-05-25",
+   "ev_ad": "Villarreal CF",
+   "dep_ad": "Sevilla FC",
+   "kaynak_skor": null,
+   "skor": [
+    4,
+    2
+   ],
+   "ilk_yari": [
+    3,
+    1
+   ],
+   "kanit": {
+    "kaynak_1": {
+     "ad": "football-data.org v4 (ücretsiz plan)",
+     "yarisma": "PD",
+     "mac_id": 498989,
+     "durum": "FINISHED",
+     "sure_turu": "REGULAR",
+     "baslama_utc": "2025-05-25T14:15:00+00:00",
+     "son_guncelleme": "2025-06-08T20:20:24Z",
+     "yanit_sha256": "fa8a9764190ad0c8154754c59d03c18f937b0cac1c74ba5f881d156476930b64",
+     "erisim_utc": "2026-11-24T00:47:16+00:00",
+     "atif": "Football data provided by the Football-Data.org API"
+    },
+    "kaynak_2": {
+     "ad": "openfootball/espana 2024-25/1-liga.txt",
+     "commit": "80035a93dd4920985af52aa097a54a6fb888563b",
+     "satir": 669,
+     "metin": "16:15  Villarreal CF           v Sevilla FC               4-2 (3-1)"
+    },
+    "ilk_yari_notu": null
+   }
+  },
+  {
+   "lig": "es.1",
+   "sezon": "2024-25",
+   "tur": "Matchday 38",
+   "tarih": "2025-05-25",
+   "ev_ad": "Athletic Club",
+   "dep_ad": "FC Barcelona",
+   "kaynak_skor": null,
+   "skor": [
+    0,
+    3
+   ],
+   "ilk_yari": [
+    0,
+    2
+   ],
+   "kanit": {
+    "kaynak_1": {
+     "ad": "football-data.org v4 (ücretsiz plan)",
+     "yarisma": "PD",
+     "mac_id": 498983,
+     "durum": "FINISHED",
+     "sure_turu": "REGULAR",
+     "baslama_utc": "2025-05-25T19:00:00+00:00",
+     "son_guncelleme": "2025-06-08T20:20:24Z",
+     "yanit_sha256": "fa8a9764190ad0c8154754c59d03c18f937b0cac1c74ba5f881d156476930b64",
+     "erisim_utc": "2026-11-24T00:47:16+00:00",
+     "atif": "Football data provided by the Football-Data.org API"
+    },
+    "kaynak_2": {
+     "ad": "openfootball/espana 2024-25/1-liga.txt",
+     "commit": "80035a93dd4920985af52aa097a54a6fb888563b",
+     "satir": 670,
+     "metin": "21:00  Athletic Club           v FC Barcelona             0-3 (0-2)"
+    },
+    "ilk_yari_notu": null
+   }
+  },
+  {
+   "lig": "it.1",
+   "sezon": "2024-25",
+   "tur": "Matchday 38",
+   "tarih": "2025-05-23",
+   "ev_ad": "Como 1907",
+   "dep_ad": "FC Internazionale Milano",
+   "kaynak_skor": null,
+   "skor": [
+    0,
+    2
+   ],
+   "ilk_yari": [
+    0,
+    1
+   ],
+   "kanit": {
+    "kaynak_1": {
+     "ad": "football-data.org v4 (ücretsiz plan)",
+     "yarisma": "SA",
+     "mac_id": 503415,
+     "durum": "FINISHED",
+     "sure_turu": "REGULAR",
+     "baslama_utc": "2025-05-23T18:45:00+00:00",
+     "son_guncelleme": "2025-06-08T20:20:25Z",
+     "yanit_sha256": "beab5b89b172543b3ec2cedaa9899e619c0d28f5852ce39f484763f9d9d6496a",
+     "erisim_utc": "2026-11-24T00:47:22+00:00",
+     "atif": "Football data provided by the Football-Data.org API"
+    },
+    "kaynak_2": {
+     "ad": "openfootball/italy 2024-25/1-seriea.txt",
+     "commit": "48954d163c312aa705efacb64f771267031fe6eb",
+     "satir": 633,
+     "metin": "20:45  Como 1907               v FC Internazionale Milano  0-2 (0-1)"
+    },
+    "ilk_yari_notu": null
+   }
+  },
+  {
+   "lig": "it.1",
+   "sezon": "2024-25",
+   "tur": "Matchday 38",
+   "tarih": "2025-05-23",
+   "ev_ad": "SSC Napoli",
+   "dep_ad": "Cagliari Calcio",
+   "kaynak_skor": null,
+   "skor": [
+    2,
+    0
+   ],
+   "ilk_yari": [
+    1,
+    0
+   ],
+   "kanit": {
+    "kaynak_1": {
+     "ad": "football-data.org v4 (ücretsiz plan)",
+     "yarisma": "SA",
+     "mac_id": 503419,
+     "durum": "FINISHED",
+     "sure_turu": "REGULAR",
+     "baslama_utc": "2025-05-23T18:45:00+00:00",
+     "son_guncelleme": "2025-06-08T20:20:25Z",
+     "yanit_sha256": "beab5b89b172543b3ec2cedaa9899e619c0d28f5852ce39f484763f9d9d6496a",
+     "erisim_utc": "2026-11-24T00:47:22+00:00",
+     "atif": "Football data provided by the Football-Data.org API"
+    },
+    "kaynak_2": {
+     "ad": "openfootball/italy 2024-25/1-seriea.txt",
+     "commit": "48954d163c312aa705efacb64f771267031fe6eb",
+     "satir": 634,
+     "metin": "SSC Napoli              v Cagliari Calcio          2-0 (1-0)"
+    },
+    "ilk_yari_notu": null
+   }
+  },
+  {
+   "lig": "it.1",
+   "sezon": "2024-25",
+   "tur": "Matchday 38",
+   "tarih": "2025-05-24",
+   "ev_ad": "Bologna FC 1909",
+   "dep_ad": "Genoa CFC",
+   "kaynak_skor": null,
+   "skor": [
+    1,
+    3
+   ],
+   "ilk_yari": [
+    0,
+    3
+   ],
+   "kanit": {
+    "kaynak_1": {
+     "ad": "football-data.org v4 (ücretsiz plan)",
+     "yarisma": "SA",
+     "mac_id": 503414,
+     "durum": "FINISHED",
+     "sure_turu": "REGULAR",
+     "baslama_utc": "2025-05-24T16:00:00+00:00",
+     "son_guncelleme": "2025-06-08T20:20:25Z",
+     "yanit_sha256": "beab5b89b172543b3ec2cedaa9899e619c0d28f5852ce39f484763f9d9d6496a",
+     "erisim_utc": "2026-11-24T00:47:22+00:00",
+     "atif": "Football data provided by the Football-Data.org API"
+    },
+    "kaynak_2": {
+     "ad": "openfootball/italy 2024-25/1-seriea.txt",
+     "commit": "48954d163c312aa705efacb64f771267031fe6eb",
+     "satir": 636,
+     "metin": "18:00  Bologna FC 1909         v Genoa CFC                1-3 (0-3)"
+    },
+    "ilk_yari_notu": null
+   }
+  },
+  {
+   "lig": "it.1",
+   "sezon": "2024-25",
+   "tur": "Matchday 38",
+   "tarih": "2025-05-24",
+   "ev_ad": "AC Milan",
+   "dep_ad": "AC Monza",
+   "kaynak_skor": null,
+   "skor": [
+    2,
+    0
+   ],
+   "ilk_yari": [
+    0,
+    0
+   ],
+   "kanit": {
+    "kaynak_1": {
+     "ad": "football-data.org v4 (ücretsiz plan)",
+     "yarisma": "SA",
+     "mac_id": 503418,
+     "durum": "FINISHED",
+     "sure_turu": "REGULAR",
+     "baslama_utc": "2025-05-24T18:45:00+00:00",
+     "son_guncelleme": "2025-06-08T20:20:25Z",
+     "yanit_sha256": "beab5b89b172543b3ec2cedaa9899e619c0d28f5852ce39f484763f9d9d6496a",
+     "erisim_utc": "2026-11-24T00:47:22+00:00",
+     "atif": "Football data provided by the Football-Data.org API"
+    },
+    "kaynak_2": {
+     "ad": "openfootball/italy 2024-25/1-seriea.txt",
+     "commit": "48954d163c312aa705efacb64f771267031fe6eb",
+     "satir": 637,
+     "metin": "20:45  AC Milan                v AC Monza                 2-0 (0-0)"
+    },
+    "ilk_yari_notu": null
+   }
+  },
+  {
+   "lig": "it.1",
+   "sezon": "2024-25",
+   "tur": "Matchday 38",
+   "tarih": "2025-05-25",
+   "ev_ad": "Atalanta BC",
+   "dep_ad": "Parma Calcio 1913",
+   "kaynak_skor": null,
+   "skor": [
+    2,
+    3
+   ],
+   "ilk_yari": [
+    2,
+    0
+   ],
+   "kanit": {
+    "kaynak_1": {
+     "ad": "football-data.org v4 (ücretsiz plan)",
+     "yarisma": "SA",
+     "mac_id": 503413,
+     "durum": "FINISHED",
+     "sure_turu": "REGULAR",
+     "baslama_utc": "2025-05-25T18:45:00+00:00",
+     "son_guncelleme": "2025-06-08T20:20:25Z",
+     "yanit_sha256": "beab5b89b172543b3ec2cedaa9899e619c0d28f5852ce39f484763f9d9d6496a",
+     "erisim_utc": "2026-11-24T00:47:22+00:00",
+     "atif": "Football data provided by the Football-Data.org API"
+    },
+    "kaynak_2": {
+     "ad": "openfootball/italy 2024-25/1-seriea.txt",
+     "commit": "48954d163c312aa705efacb64f771267031fe6eb",
+     "satir": 639,
+     "metin": "20:45  Atalanta BC             v Parma Calcio 1913        2-3 (2-0)"
+    },
+    "ilk_yari_notu": null
+   }
+  },
+  {
+   "lig": "it.1",
+   "sezon": "2024-25",
+   "tur": "Matchday 38",
+   "tarih": "2025-05-25",
+   "ev_ad": "Empoli FC",
+   "dep_ad": "Hellas Verona FC",
+   "kaynak_skor": null,
+   "skor": [
+    1,
+    2
+   ],
+   "ilk_yari": [
+    1,
+    1
+   ],
+   "kanit": {
+    "kaynak_1": {
+     "ad": "football-data.org v4 (ücretsiz plan)",
+     "yarisma": "SA",
+     "mac_id": 503416,
+     "durum": "FINISHED",
+     "sure_turu": "REGULAR",
+     "baslama_utc": "2025-05-25T18:45:00+00:00",
+     "son_guncelleme": "2025-06-08T20:20:25Z",
+     "yanit_sha256": "beab5b89b172543b3ec2cedaa9899e619c0d28f5852ce39f484763f9d9d6496a",
+     "erisim_utc": "2026-11-24T00:47:22+00:00",
+     "atif": "Football data provided by the Football-Data.org API"
+    },
+    "kaynak_2": {
+     "ad": "openfootball/italy 2024-25/1-seriea.txt",
+     "commit": "48954d163c312aa705efacb64f771267031fe6eb",
+     "satir": 640,
+     "metin": "Empoli FC               v Hellas Verona FC         1-2 (1-1)"
+    },
+    "ilk_yari_notu": null
+   }
+  },
+  {
+   "lig": "it.1",
+   "sezon": "2024-25",
+   "tur": "Matchday 38",
+   "tarih": "2025-05-25",
+   "ev_ad": "SS Lazio",
+   "dep_ad": "US Lecce",
+   "kaynak_skor": null,
+   "skor": [
+    0,
+    1
+   ],
+   "ilk_yari": [
+    0,
+    1
+   ],
+   "kanit": {
+    "kaynak_1": {
+     "ad": "football-data.org v4 (ücretsiz plan)",
+     "yarisma": "SA",
+     "mac_id": 503417,
+     "durum": "FINISHED",
+     "sure_turu": "REGULAR",
+     "baslama_utc": "2025-05-25T18:45:00+00:00",
+     "son_guncelleme": "2025-06-08T20:20:25Z",
+     "yanit_sha256": "beab5b89b172543b3ec2cedaa9899e619c0d28f5852ce39f484763f9d9d6496a",
+     "erisim_utc": "2026-11-24T00:47:22+00:00",
+     "atif": "Football data provided by the Football-Data.org API"
+    },
+    "kaynak_2": {
+     "ad": "openfootball/italy 2024-25/1-seriea.txt",
+     "commit": "48954d163c312aa705efacb64f771267031fe6eb",
+     "satir": 641,
+     "metin": "SS Lazio                v US Lecce                 0-1 (0-1)"
+    },
+    "ilk_yari_notu": null
+   }
+  },
+  {
+   "lig": "it.1",
+   "sezon": "2024-25",
+   "tur": "Matchday 38",
+   "tarih": "2025-05-25",
+   "ev_ad": "Torino FC",
+   "dep_ad": "AS Roma",
+   "kaynak_skor": null,
+   "skor": [
+    0,
+    2
+   ],
+   "ilk_yari": [
+    0,
+    1
+   ],
+   "kanit": {
+    "kaynak_1": {
+     "ad": "football-data.org v4 (ücretsiz plan)",
+     "yarisma": "SA",
+     "mac_id": 503420,
+     "durum": "FINISHED",
+     "sure_turu": "REGULAR",
+     "baslama_utc": "2025-05-25T18:45:00+00:00",
+     "son_guncelleme": "2025-06-08T20:20:25Z",
+     "yanit_sha256": "beab5b89b172543b3ec2cedaa9899e619c0d28f5852ce39f484763f9d9d6496a",
+     "erisim_utc": "2026-11-24T00:47:22+00:00",
+     "atif": "Football data provided by the Football-Data.org API"
+    },
+    "kaynak_2": {
+     "ad": "openfootball/italy 2024-25/1-seriea.txt",
+     "commit": "48954d163c312aa705efacb64f771267031fe6eb",
+     "satir": 642,
+     "metin": "Torino FC               v AS Roma                  0-2 (0-1)"
+    },
+    "ilk_yari_notu": null
+   }
+  },
+  {
+   "lig": "it.1",
+   "sezon": "2024-25",
+   "tur": "Matchday 38",
+   "tarih": "2025-05-25",
+   "ev_ad": "Udinese Calcio",
+   "dep_ad": "ACF Fiorentina",
+   "kaynak_skor": null,
+   "skor": [
+    2,
+    3
+   ],
+   "ilk_yari": [
+    1,
+    0
+   ],
+   "kanit": {
+    "kaynak_1": {
+     "ad": "football-data.org v4 (ücretsiz plan)",
+     "yarisma": "SA",
+     "mac_id": 503421,
+     "durum": "FINISHED",
+     "sure_turu": "REGULAR",
+     "baslama_utc": "2025-05-25T18:45:00+00:00",
+     "son_guncelleme": "2025-06-08T20:20:25Z",
+     "yanit_sha256": "beab5b89b172543b3ec2cedaa9899e619c0d28f5852ce39f484763f9d9d6496a",
+     "erisim_utc": "2026-11-24T00:47:22+00:00",
+     "atif": "Football data provided by the Football-Data.org API"
+    },
+    "kaynak_2": {
+     "ad": "openfootball/italy 2024-25/1-seriea.txt",
+     "commit": "48954d163c312aa705efacb64f771267031fe6eb",
+     "satir": 643,
+     "metin": "Udinese Calcio          v ACF Fiorentina           2-3 (1-0)"
+    },
+    "ilk_yari_notu": null
+   }
+  },
+  {
+   "lig": "it.1",
+   "sezon": "2024-25",
+   "tur": "Matchday 38",
+   "tarih": "2025-05-25",
+   "ev_ad": "Venezia FC",
+   "dep_ad": "Juventus FC",
+   "kaynak_skor": null,
+   "skor": [
+    2,
+    3
+   ],
+   "ilk_yari": [
+    1,
+    2
+   ],
+   "kanit": {
+    "kaynak_1": {
+     "ad": "football-data.org v4 (ücretsiz plan)",
+     "yarisma": "SA",
+     "mac_id": 503422,
+     "durum": "FINISHED",
+     "sure_turu": "REGULAR",
+     "baslama_utc": "2025-05-25T18:45:00+00:00",
+     "son_guncelleme": "2025-06-08T20:20:25Z",
+     "yanit_sha256": "beab5b89b172543b3ec2cedaa9899e619c0d28f5852ce39f484763f9d9d6496a",
+     "erisim_utc": "2026-11-24T00:47:22+00:00",
+     "atif": "Football data provided by the Football-Data.org API"
+    },
+    "kaynak_2": {
+     "ad": "openfootball/italy 2024-25/1-seriea.txt",
+     "commit": "48954d163c312aa705efacb64f771267031fe6eb",
+     "satir": 644,
+     "metin": "Venezia FC              v Juventus FC              2-3 (1-2)"
+    },
+    "ilk_yari_notu": null
+   }
+  }
+ ]
+}

@@ -54,6 +54,42 @@ Protokol:
   model bu beş maça göre ayarlanmaz.
 - **E. Kurallar:** MK-1 (Nesine oranları yok), gerçek yayın tarihi doğrulaması, eksik veri → "hesaplanamaz", kupon yok.
 
+## Veri bütünlüğü (24.11.2026)
+- en.1 2019-20: yılı hatalı 66 maç (Temmuz 2020, kaynakta 2019) okuyucu katmanında kanıtlı kayıtlarla düzeltildi
+  (`veri/tarih_duzeltmeleri.json`; kanıt: openfootball/england özgün metnindeki haftanın günü). İkinci bağımsız kaynak
+  (resmî Premier League arşivi) ile doğrulama BEKLİYOR — host izni gerekiyor.
+- es.1 / it.1 2024-25: skorsuz 38. hafta (10+10 maç) iki kaynağın tam uyuşmasıyla tamamlandı
+  (`veri/skor_tamamlamalari.json`; football-data.org + openfootball/espana, openfootball/italy).
+- Okuyucu düzeltilmemiş sert tarih tutarsızlığında durur (`VeriTutarsizligi`). Rapor: `output/veri_butunlugu/`.
+
+## SONRAKİ AŞAMA KAPSAMI: Güncel internet araştırması (Katman 2) — KULLANICI GEREKSİNİMİ, UNUTULMAYACAK
+Nihai hedefte güncel internet araştırması istatistiksel modelleme kadar önemlidir. Henüz GELİŞTİRİLMEDİ; mevcut veri
+düzeltme ve D aşaması tamamlandıktan sonra, kullanıcı onayıyla başlanır.
+
+Kapsam (maç öncesi):
+- Resmî kulüp ve federasyon haberleri.
+- Yerel ve uluslararası spor basını, takım muhabirleri.
+- Sakatlıklar, cezalılar, kadro, beklenen ve kesin ilk 11.
+- Son antrenmanlar, seyahat, rotasyon, yorgunluk.
+- Teknik direktör ve oyuncu açıklamaları.
+- Motivasyon, puan ihtiyacı, fikstür yoğunluğu.
+- Rakiplerin oyun tarzı ve taktik eşleşmeler.
+- X, Reddit ve taraftar forumlarındaki doğrulanabilir haber ADAYLARI (tek başına kanıt değildir).
+- Karşı senaryo: favorinin neden kazanamayabileceğine dair özel araştırma.
+
+Kayıt kuralları (her önemli bilgi için `Kanit` kaydı):
+- Kaynak URL'si, yayın zamanı (orijinal sayfadan doğrulanmış), erişim zamanı, doğrulama düzeyi, hangi tahminleri
+  etkileyebileceği (ör. 1X2, gol beklentisi, belirli takımın hücum/savunması).
+- Arama motoru özetleri ASLA kanıt sayılmaz; resmî kaynak ve orijinal haber metni mümkün olduğunca doğrulanır.
+  Sayfa okumak için gereken her host kullanıcı onayıyla açılır; bot koruması/erişim engeli aşılmaz.
+- Maç öncesi kayıt, sonuç görülmeden SHA-256 + zaman damgasıyla dondurulur.
+
+Modele etki (yalnızca yazılı rapor değil):
+- Yeterli veri ve geçmiş doğrulama olduğunda haber kategorilerinin (ör. kilit oyuncu eksikliği, rotasyon) model
+  tahminleri üzerindeki etkisi kronolojik backtest ve kalibrasyonla ölçülür; doğrulanmadan modele eklenmez.
+- Doğrulanmış etki modeli yokken haber yalnızca nitel not olarak raporlanır; olasılık uydurulmaz.
+- MK-1 geçerli: olasılıklar Nesine oranlarından bağımsız üretilir; oranlar ancak tahmin dondurulduktan sonra açılır.
+
 ## Doğrulanmamış varsayımlar
 - Yeni çıkan takım önseli: hücum ×0.8, savunma ×1.2 (gol modeli); Elo'da düşen takımların ortalaması.
 - Sıralı lojistik yeniden kestirimi için en az 200 geçmiş maç eşiği.
