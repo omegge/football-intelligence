@@ -48,19 +48,21 @@ class SiraliLojistik:
         p_ad = _sigmoid(self.theta2 - self.beta * x)
         return {"H": 1 - p_ad, "D": p_ad - p_a, "A": p_a}
 
-    def kestir(self, veri: list[tuple[float, str]]):
-        if len(veri) < 200:
+    def kestir(self, veri: list[tuple[float, str]], en_az: int = 200):
+        """En az `en_az` geçmiş maç yoksa varsayılan parametreler kalır (eşik keyfîdir; raporda belirtilir)."""
+        if len(veri) < en_az:
             return self
+        import numpy as np
+        xs = np.array([x for x, _ in veri])
+        ys = np.array([{"A": 0, "D": 1, "H": 2}[y] for _, y in veri])
+
         def nll(p):
             t1, gap, b = p
             t2 = t1 + abs(gap)
-            s = 0.0
-            for x, y in veri:
-                pa = _sigmoid(t1 - b * x)
-                pad = _sigmoid(t2 - b * x)
-                pr = {"A": pa, "D": pad - pa, "H": 1 - pad}[y]
-                s -= math.log(max(pr, 1e-12))
-            return s
+            pa = 1 / (1 + np.exp(-(t1 - b * xs)))
+            pad = 1 / (1 + np.exp(-(t2 - b * xs)))
+            pr = np.choose(ys, [pa, pad - pa, 1 - pad])
+            return -float(np.sum(np.log(np.clip(pr, 1e-12, None))))
         (t1, gap, b), _ = nelder_mead(nll, [self.theta1, self.theta2 - self.theta1, self.beta], adim=0.3)
         self.theta1, self.theta2, self.beta, self.ornek = t1, t1 + abs(gap), b, len(veri)
         return self

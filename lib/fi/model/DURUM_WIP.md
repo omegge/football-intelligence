@@ -1,31 +1,40 @@
-# DURUM: YARIM ÇALIŞMA (WIP) — TAMAMLANMADI, TEST EDİLMEDİ
+# DURUM: PROTOTİP TAMAMLANDI — KULLANICI ONAYI BEKLİYOR (main'e alınmadı)
 
-Tarih: 23.11.2026. Bu klasördeki model kodu ve `lib/fi/kaynaklar/openfootball.py` **hiç çalıştırılmadı** (yalnızca
-sözdizimi kontrolü yapıldı), **testi yok** ve **tahmin üretmek için kullanılmamalı**. `main` dalına alınmadan önce
-tamamlanması, testlerinin yazılması ve backtest sonuçlarının kullanıcıya sunulması gerekir.
+Güncelleme: 24.11.2026. Kapsam: tek lig (İngiltere Premier Lig, OpenFootball `en.1`), yalnızca tarihsel backtest.
+Bu modeller canlı tahmin ya da kupon için kullanılmaz; yalnızca geçmiş maçlardaki başarı ölçülür.
 
 ## Dosyalar
 | Dosya | Durum |
 |---|---|
-| `lib/fi/kaynaklar/openfootball.py` | OpenFootball JSON okuyucusu + veri anlık görüntüsü (commit, dosya SHA-256). Test yok. Takım adı normalleştirmesinin sezon içinde çakışma üretmediği doğrulanmadı. |
-| `lib/fi/model/__init__.py` | Paket açıklaması; `pazar_destegi()` korner/kart/oyuncu/özel pazarlar için "hesaplanamaz" döndürür. Test yok. |
-| `lib/fi/model/optim.py` | Bağımlılıksız Nelder–Mead ve altın oran araması (scipy kurulu değil). Test yok. |
-| `lib/fi/model/elo.py` | Özgün Elo (gol farkı çarpanı, ev avantajı, sezon başı ortalamaya çekme, yeni takıma düşenlerin ortalaması) + sıralı lojistik 1X2 dönüşümü (yalnızca geçmiş sezonlarla kestirim). Test yok; hiperparametreler (K=20, H=60, λ=0.2) doğrulanmadı; sıralı lojistik kestirimi saf Python döngüsü — hızı ölçülmedi. |
-| `lib/fi/model/goller.py` | Zaman ağırlıklı, cezalandırılmış Poisson (IRLS) + Dixon–Coles ρ (iki aşamalı). Test yok; ξ, pencere, ceza ve yeni takım önseli (hücum ×0.8, savunma ×1.2 — DOĞRULANMAMIŞ VARSAYIM) ayarlanmadı. |
+| `lib/fi/kaynaklar/openfootball.py` | OpenFootball okuyucusu + anlık görüntü (commit, dosya SHA-256). Test: D1. |
+| `lib/fi/model/__init__.py` | `pazar_destegi()`: korner/kart/oyuncu → "hesaplanamaz". Test: D5. |
+| `lib/fi/model/optim.py` | Nelder–Mead, altın oran (scipy yok). Test: D2. |
+| `lib/fi/model/elo.py` | Özgün Elo + sıralı lojistik 1X2 (numpy ile vektörleştirildi). Test: D3. |
+| `lib/fi/model/goller.py` | Poisson / Dixon–Coles; **ρ sınır hatası DÜZELTİLDİ** (`rho_sinirlari`); `PoissonGorunumu`. Test: D4. |
+| `lib/fi/model/metrikler.py` | Log-loss, Brier, RPS, kalibrasyon/ECE, bootstrap, AUC. Test: D6. |
+| `lib/fi/model/surpriz.py` | Model favorisine göre sürpriz alarmı, yanlış alarm oranı; favori serisi × rakip gücü. Test: D7. |
+| `lib/fi/model/backtest.py` | Yürüyen test motoru, sızıntı denetimleri, MK-1 oran reddi. Test: D5. |
+| `lib/fi/model/calistir.py` | Prototip komut satırı (ayar → doğrulama → test → ek test 2026-27). |
 
-## Bilinen sorunlar (düzeltilecek)
-1. `goller.py` — Dixon–Coles ρ üst sınırı hesabına yanlışlıkla `1/λ_ev` ve `1/λ_dep` eklenmiş; bunlar alt sınır
-   koşullarıdır. Doğru kısıtlar: ρ < 1, ρ < 1/(λ_ev·λ_dep), ρ > −1/λ_ev, ρ > −1/λ_dep.
-2. `goller.py` — her kestirimde yoğun tasarım matrisi kuruluyor; backtest süresi ölçülmedi.
-3. `elo.py` — sıralı lojistik parametrelerinin sezon başında yeniden kestirimi için en az 200 geçmiş maç şartı keyfî.
+## Backtest sonucu (24.11.2026, `en.1`, kullanıcı tarafından kabul edildi)
+- Test 2022-23…2025-26 (1.520 maç) log-loss: taban 1,067 · Elo 0,984 · Poisson 0,983 · Dixon–Coles 0,983
+  (tabana göre −0,084, %95 GA −0,105/−0,065). Elo/Poisson/Dixon–Coles arasındaki fark ihmal edilebilir.
+- Ek test 2026-27 (110 maç, 50'si OpenFootball, 60'ı football-data.org): fark anlamlı değil.
+- Bilinen sapmalar: güçlü deplasman favorilerinde aşırı güven (%70–80 tahmin → %61 gerçekleşen, n=33);
+  yeni çıkan takımlara karşı aşırı güvenli tahminler; beraberlik hiçbir maçta en olası sonuç değil; 2020-21 ve
+  2025-26'da performans düşüşü.
 
-## Henüz yazılmayanlar
-- `metrikler.py` (log-loss, Brier, RPS, kalibrasyon, bootstrap), `surpriz.py` (sürpriz tespiti, yanlış alarm oranı, AUC),
-  `backtest.py` (yürüyen test motoru + sızıntı denetimleri), `calistir.py` (prototip komut satırı).
-- `tests/test_model.py` (sentetik veriyle parametre geri kazanımı, olasılık toplamları, sızıntı/karıştırma testleri,
-  MK-1 oran reddi, "hesaplanamaz" pazarlar).
-- Prototip backtest: İngiltere Premier Lig (`en.1`), 2010-11 ısınma; ayar 2011-12–2017-18; doğrulama 2018-19–2020-21;
-  test 2021-22–2025-26 (2026-27 eksik sezon dahil değil).
+## ⚠ SÜRPRİZ TAHMİNLERİ HENÜZ GÜVENİLİR DEĞİL
+Model favorisinin kaybetmesini ayırt etme gücü zayıf (AUC: Dixon–Coles 0,60, Elo 0,64). En iyi eşikte (zayıf tarafın
+kazanma olasılığı ≥ %25) 46 alarmın yalnızca 13'ü doğru çıktı (isabet %28, yanlış alarm oranı %72, yakalama %10).
+Bu çıktılar sürpriz uyarısı, favori eleme ya da kupon için KULLANILMAMALIDIR. Favori galibiyet serisinin model
+olasılığına ek bilgi kattığına dair kanıt bulunamadı (bütün farklar güven aralığı içinde; güçlü rakip grubu n=25).
+
+## Doğrulanmamış varsayımlar
+- Yeni çıkan takım önseli: hücum ×0.8, savunma ×1.2 (gol modeli); Elo'da düşen takımların ortalaması.
+- Sıralı lojistik yeniden kestirimi için en az 200 geçmiş maç eşiği.
+- Ceza katsayısı (2.0) ve 3 yıllık pencere ayarlanmadı; yalnızca ξ ve Elo (K, ev avantajı, sezon çekimi) ayar döneminde seçildi.
+- Elo yalnızca lig maçlarını görür (kupa/Avrupa maçları yok); kadro, sakatlık, haber bilgisi yok.
 
 ## Kurallar
-MK-1 geçerli: Nesine oranları hiçbir model girdisine giremez. Veri kaynağı yalnızca OpenFootball (CC0, git klonu).
+MK-1: Nesine oranları hiçbir model girdisine giremez (backtest motoru oran alanlı girdiyi reddeder).
