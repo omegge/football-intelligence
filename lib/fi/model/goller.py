@@ -84,6 +84,7 @@ def pazarlar(m: np.ndarray) -> dict:
     return {"H": float(m[i > j].sum()), "D": float(np.trace(m)), "A": float(m[i < j].sum()),
             "ust25": float(m[(i + j) >= 3].sum()), "alt25": float(m[(i + j) <= 2].sum()),
             "kg_var": float(m[1:, 1:].sum()), "kg_yok": float(1 - m[1:, 1:].sum()),
+            "skor_0_0": float(m[0, 0]), "skor_1_0": float(m[1, 0]), "skor_0_1": float(m[0, 1]), "skor_1_1": float(m[1, 1]),
             "beklenen_ev": float((m.sum(axis=1) * np.arange(n)).sum()),
             "beklenen_dep": float((m.sum(axis=0) * np.arange(n)).sum())}
 

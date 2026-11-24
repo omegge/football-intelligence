@@ -266,3 +266,75 @@ class D8Bagimsizlik(Temel):
 
 if __name__ == "__main__":
     unittest.main(verbosity=2)
+
+
+class D9DegerlendirmeVeOnKayit(Temel):
+    """D aşaması yardımcıları: kümeli bootstrap, eşleştirilmiş karşılaştırma, düşük skor sayımı, yeni takım önseli,
+    önceden kayıt (SHA-256) kilidi ve Elo dönüşümünün yalnızca geçmiş sezonlarla kestirilmesi."""
+
+    def test_kume_bootstrap_ve_eslestirilmis(self):
+        from fi.model.degerlendirme import eslestirilmis, kume_bootstrap
+        r = kume_bootstrap(np.full(40, 0.25), [f"g{i // 4}" for i in range(40)])
+        self.assertEqual((r["n_mac"], r["n_kume"]), (40, 10))
+        self.assertAlmostEqual(r["alt95"], 0.25)
+        self.assertAlmostEqual(r["ust95"], 0.25)
+        iyi, kotu = {"H": 0.8, "D": 0.1, "A": 0.1}, {"H": 0.4, "D": 0.3, "A": 0.3}
+        kay = [{"sonuc": "H", "tarih": f"2020-01-{i % 9 + 1:02d}", "sezon": "2019-20" if i < 10 else "2020-21",
+                "tahmin": {"a": iyi, "b": kotu}} for i in range(20)]
+        e = eslestirilmis(kay, "a", "b")
+        self.assertLess(e["ust95"], 0)
+        self.assertEqual((e["a_iyi_sezon"], e["sezon_sayisi"]), (2, 2))
+
+    def test_dusuk_skor_sayimi(self):
+        from fi.model.degerlendirme import dusuk_skor_analizi
+        p = pazarlar(skor_matrisi(1.2, 1.0, -0.1))
+        kay = [{"ev_gol": e, "dep_gol": d, "sonuc": sonuc_kodu({"ev_gol": e, "dep_gol": d}),
+                "tahmin": {"poisson": p, "dixon_coles": p}} for e, d in ((0, 0), (1, 1), (2, 0), (0, 1))]
+        r = dusuk_skor_analizi(kay)["poisson"]
+        self.assertEqual((r["0_0"]["gerceklesen"], r["1_1"]["gerceklesen"], r["0_1"]["gerceklesen"]), (1, 1, 1))
+        self.assertAlmostEqual(r["0_0"]["beklenen"], round(4 * p["skor_0_0"], 1))
+        self.assertEqual(r["beraberlik"]["gerceklesen"], 2)
+
+    def test_yeni_takim_onseli_yalnizca_verilen_sezonlar(self):
+        from fi.model.degerlendirme import yeni_takim_onseli
+        maclar, _ = sentetik_lig(sezon_sayisi=2, takim=8, tohum=4)
+        s1, s2 = sorted({m["sezon"] for m in maclar})
+        # 2. sezonda t0 ligden çıkar, zayıf "yeni" takımı gelir (çok az atar, çok yer)
+        rng = np.random.default_rng(9)
+        for m in maclar:
+            if m["sezon"] == s2 and "t0" in (m["ev"], m["dep"]):
+                yeni_ev = m["ev"] == "t0"
+                m["ev" if yeni_ev else "dep"] = "yeni"
+                m["ev_gol" if yeni_ev else "dep_gol"] = int(rng.poisson(0.5))
+                m["dep_gol" if yeni_ev else "ev_gol"] = int(rng.poisson(2.5))
+        r = yeni_takim_onseli(maclar, [s2])
+        self.assertEqual((r["n_takim"], r["sezonlar"]), (1, [s2]))
+        self.assertLess(r["hucum"], 1.0)
+        self.assertGreater(r["savunma"], 1.0)
+        self.assertEqual(yeni_takim_onseli(maclar, [s1])["n_takim"], 0)   # ilk sezonun öncesi yok → önsel kestirilmez
+
+    def test_on_kayit_ozeti_tutmazsa_dogrulama_calismaz(self):
+        from fi.model import d_asamasi
+        eski = (d_asamasi.ON_KAYIT, d_asamasi.ON_KAYIT_OZET)
+        try:
+            d_asamasi.ON_KAYIT, d_asamasi.ON_KAYIT_OZET = self.tmp / "k.md", self.tmp / "k.sha256"
+            with self.assertRaises(SystemExit):                          # kayıt yok
+                d_asamasi.main(["dogrulama"])
+            d_asamasi.ON_KAYIT.write_text("- Seçilen önsel varyantı: `V0_sabit`\n", encoding="utf-8")
+            d_asamasi.ON_KAYIT_OZET.write_text("0" * 64 + "  k.md\n", encoding="utf-8")
+            with self.assertRaises(SystemExit) as cm:                    # özet tutmuyor
+                d_asamasi.main(["dogrulama"])
+            self.assertIn("SHA-256", str(cm.exception))
+        finally:
+            d_asamasi.ON_KAYIT, d_asamasi.ON_KAYIT_OZET = eski
+
+    def test_elo_donusumu_yalnizca_gecmis_sezonlardan(self):
+        maclar, _ = sentetik_lig(sezon_sayisi=3, takim=16, tohum=2)
+        sezonlar = sorted({m["sezon"] for m in maclar})
+        e = EloModeli()
+        for s in sezonlar:
+            e.sezon_basla(s, {t for m in maclar if m["sezon"] == s for t in (m["ev"], m["dep"])})
+            gecmis_n = sum(1 for m in maclar if m["sezon"] < s)
+            self.assertEqual(e.donusum.ornek if gecmis_n >= 200 else 0, gecmis_n if gecmis_n >= 200 else 0)
+            for m in sorted((m for m in maclar if m["sezon"] == s), key=lambda m: m["tarih"]):
+                e.sonuc_isle(m)

@@ -1,0 +1,1731 @@
+{
+ "aciklama": "OpenFootball football.json kaynak dosyası DEĞİŞTİRİLMEZ; düzeltme okuyucu katmanında, yalnızca bu kayıtlarla ve tam eşleşmeyle uygulanır. Genel yıl kuralı YOKTUR.",
+ "olusturma": "2026-11-24",
+ "dogrulama_girisimleri": [
+  {
+   "kaynak": "football-data.org v4 (ücretsiz plan)",
+   "sonuc": "HTTP 403 — 2019-20 sezonu ücretsiz plan dışı; yeniden denenmedi (2026-11-24T00:41:02Z)"
+  },
+  {
+   "kaynak": "openfootball/england özgün metin",
+   "sonuc": "66 maç haftanın günüyle doğrulandı",
+   "not": "Aynı projenin özgün kaynağıdır (tam bağımsız değildir); hata JSON'a dönüştürmede yıl atamasından kaynaklanıyor: metinde yıl yok, Temmuz ayı sezonun başlangıç yılına atanmış."
+  }
+ ],
+ "kaynak_dosya": {
+  "yol": "2019-20/en.1.json",
+  "sha256": "9e1695f85ce5553f762e809dea357ec0a95838939be89569060a83c4e98a302d"
+ },
+ "duzeltmeler": [
+  {
+   "lig": "en.1",
+   "sezon": "2019-20",
+   "tur": "Matchday 32",
+   "ev_ad": "AFC Bournemouth",
+   "dep_ad": "Newcastle United",
+   "skor": [
+    1,
+    4
+   ],
+   "ilk_yari": [
+    0,
+    2
+   ],
+   "kaynak_tarih": "2019-07-01",
+   "duzeltilmis_tarih": "2020-07-01",
+   "kanit": {
+    "dosya": "openfootball/england 2019-20/1-premierleague.txt",
+    "commit": "9ee7a0c351805c99cc334478a9bf04b7d0432fec",
+    "gun_satiri": 517,
+    "gun_metni": "Wed Jul 1",
+    "mac_satiri": 518,
+    "mac_metni": "18:00  AFC Bournemouth          1-4 (0-2)  Newcastle United",
+    "gerekce": "Wed Jul 1: Wed yalnızca 2020 yılında tutuyor; sezon aralığı 2019-08-09…2020-07-26"
+   }
+  },
+  {
+   "lig": "en.1",
+   "sezon": "2019-20",
+   "tur": "Matchday 32",
+   "ev_ad": "Arsenal FC",
+   "dep_ad": "Norwich City",
+   "skor": [
+    4,
+    0
+   ],
+   "ilk_yari": [
+    2,
+    0
+   ],
+   "kaynak_tarih": "2019-07-01",
+   "duzeltilmis_tarih": "2020-07-01",
+   "kanit": {
+    "dosya": "openfootball/england 2019-20/1-premierleague.txt",
+    "commit": "9ee7a0c351805c99cc334478a9bf04b7d0432fec",
+    "gun_satiri": 517,
+    "gun_metni": "Wed Jul 1",
+    "mac_satiri": 519,
+    "mac_metni": "Arsenal FC               4-0 (2-0)  Norwich City",
+    "gerekce": "Wed Jul 1: Wed yalnızca 2020 yılında tutuyor; sezon aralığı 2019-08-09…2020-07-26"
+   }
+  },
+  {
+   "lig": "en.1",
+   "sezon": "2019-20",
+   "tur": "Matchday 32",
+   "ev_ad": "Everton FC",
+   "dep_ad": "Leicester City",
+   "skor": [
+    2,
+    1
+   ],
+   "ilk_yari": [
+    2,
+    0
+   ],
+   "kaynak_tarih": "2019-07-01",
+   "duzeltilmis_tarih": "2020-07-01",
+   "kanit": {
+    "dosya": "openfootball/england 2019-20/1-premierleague.txt",
+    "commit": "9ee7a0c351805c99cc334478a9bf04b7d0432fec",
+    "gun_satiri": 517,
+    "gun_metni": "Wed Jul 1",
+    "mac_satiri": 520,
+    "mac_metni": "Everton FC               2-1 (2-0)  Leicester City",
+    "gerekce": "Wed Jul 1: Wed yalnızca 2020 yılında tutuyor; sezon aralığı 2019-08-09…2020-07-26"
+   }
+  },
+  {
+   "lig": "en.1",
+   "sezon": "2019-20",
+   "tur": "Matchday 32",
+   "ev_ad": "West Ham United",
+   "dep_ad": "Chelsea FC",
+   "skor": [
+    3,
+    2
+   ],
+   "ilk_yari": [
+    1,
+    1
+   ],
+   "kaynak_tarih": "2019-07-01",
+   "duzeltilmis_tarih": "2020-07-01",
+   "kanit": {
+    "dosya": "openfootball/england 2019-20/1-premierleague.txt",
+    "commit": "9ee7a0c351805c99cc334478a9bf04b7d0432fec",
+    "gun_satiri": 517,
+    "gun_metni": "Wed Jul 1",
+    "mac_satiri": 521,
+    "mac_metni": "20:15  West Ham United          3-2 (1-1)  Chelsea FC",
+    "gerekce": "Wed Jul 1: Wed yalnızca 2020 yılında tutuyor; sezon aralığı 2019-08-09…2020-07-26"
+   }
+  },
+  {
+   "lig": "en.1",
+   "sezon": "2019-20",
+   "tur": "Matchday 32",
+   "ev_ad": "Manchester City",
+   "dep_ad": "Liverpool FC",
+   "skor": [
+    4,
+    0
+   ],
+   "ilk_yari": [
+    3,
+    0
+   ],
+   "kaynak_tarih": "2019-07-02",
+   "duzeltilmis_tarih": "2020-07-02",
+   "kanit": {
+    "dosya": "openfootball/england 2019-20/1-premierleague.txt",
+    "commit": "9ee7a0c351805c99cc334478a9bf04b7d0432fec",
+    "gun_satiri": 522,
+    "gun_metni": "Thu Jul 2",
+    "mac_satiri": 523,
+    "mac_metni": "20:15  Manchester City          4-0 (3-0)  Liverpool FC",
+    "gerekce": "Thu Jul 2: Thu yalnızca 2020 yılında tutuyor; sezon aralığı 2019-08-09…2020-07-26"
+   }
+  },
+  {
+   "lig": "en.1",
+   "sezon": "2019-20",
+   "tur": "Matchday 32",
+   "ev_ad": "Sheffield United",
+   "dep_ad": "Tottenham Hotspur",
+   "skor": [
+    3,
+    1
+   ],
+   "ilk_yari": [
+    1,
+    0
+   ],
+   "kaynak_tarih": "2019-07-02",
+   "duzeltilmis_tarih": "2020-07-02",
+   "kanit": {
+    "dosya": "openfootball/england 2019-20/1-premierleague.txt",
+    "commit": "9ee7a0c351805c99cc334478a9bf04b7d0432fec",
+    "gun_satiri": 522,
+    "gun_metni": "Thu Jul 2",
+    "mac_satiri": 524,
+    "mac_metni": "18:00  Sheffield United         3-1 (1-0)  Tottenham Hotspur",
+    "gerekce": "Thu Jul 2: Thu yalnızca 2020 yılında tutuyor; sezon aralığı 2019-08-09…2020-07-26"
+   }
+  },
+  {
+   "lig": "en.1",
+   "sezon": "2019-20",
+   "tur": "Matchday 33",
+   "ev_ad": "Norwich City",
+   "dep_ad": "Brighton & Hove Albion",
+   "skor": [
+    0,
+    1
+   ],
+   "ilk_yari": [
+    0,
+    1
+   ],
+   "kaynak_tarih": "2019-07-04",
+   "duzeltilmis_tarih": "2020-07-04",
+   "kanit": {
+    "dosya": "openfootball/england 2019-20/1-premierleague.txt",
+    "commit": "9ee7a0c351805c99cc334478a9bf04b7d0432fec",
+    "gun_satiri": 528,
+    "gun_metni": "Sat Jul 4",
+    "mac_satiri": 529,
+    "mac_metni": "12:30  Norwich City             0-1 (0-1)  Brighton & Hove Albion",
+    "gerekce": "Sat Jul 4: Sat yalnızca 2020 yılında tutuyor; sezon aralığı 2019-08-09…2020-07-26"
+   }
+  },
+  {
+   "lig": "en.1",
+   "sezon": "2019-20",
+   "tur": "Matchday 33",
+   "ev_ad": "Leicester City",
+   "dep_ad": "Crystal Palace",
+   "skor": [
+    3,
+    0
+   ],
+   "ilk_yari": [
+    0,
+    0
+   ],
+   "kaynak_tarih": "2019-07-04",
+   "duzeltilmis_tarih": "2020-07-04",
+   "kanit": {
+    "dosya": "openfootball/england 2019-20/1-premierleague.txt",
+    "commit": "9ee7a0c351805c99cc334478a9bf04b7d0432fec",
+    "gun_satiri": 528,
+    "gun_metni": "Sat Jul 4",
+    "mac_satiri": 530,
+    "mac_metni": "15:00  Leicester City           3-0 (0-0)  Crystal Palace",
+    "gerekce": "Sat Jul 4: Sat yalnızca 2020 yılında tutuyor; sezon aralığı 2019-08-09…2020-07-26"
+   }
+  },
+  {
+   "lig": "en.1",
+   "sezon": "2019-20",
+   "tur": "Matchday 33",
+   "ev_ad": "Manchester United",
+   "dep_ad": "AFC Bournemouth",
+   "skor": [
+    5,
+    2
+   ],
+   "ilk_yari": [
+    3,
+    1
+   ],
+   "kaynak_tarih": "2019-07-04",
+   "duzeltilmis_tarih": "2020-07-04",
+   "kanit": {
+    "dosya": "openfootball/england 2019-20/1-premierleague.txt",
+    "commit": "9ee7a0c351805c99cc334478a9bf04b7d0432fec",
+    "gun_satiri": 528,
+    "gun_metni": "Sat Jul 4",
+    "mac_satiri": 531,
+    "mac_metni": "Manchester United        5-2 (3-1)  AFC Bournemouth",
+    "gerekce": "Sat Jul 4: Sat yalnızca 2020 yılında tutuyor; sezon aralığı 2019-08-09…2020-07-26"
+   }
+  },
+  {
+   "lig": "en.1",
+   "sezon": "2019-20",
+   "tur": "Matchday 33",
+   "ev_ad": "Wolverhampton Wanderers",
+   "dep_ad": "Arsenal FC",
+   "skor": [
+    0,
+    2
+   ],
+   "ilk_yari": [
+    0,
+    1
+   ],
+   "kaynak_tarih": "2019-07-04",
+   "duzeltilmis_tarih": "2020-07-04",
+   "kanit": {
+    "dosya": "openfootball/england 2019-20/1-premierleague.txt",
+    "commit": "9ee7a0c351805c99cc334478a9bf04b7d0432fec",
+    "gun_satiri": 528,
+    "gun_metni": "Sat Jul 4",
+    "mac_satiri": 532,
+    "mac_metni": "17:30  Wolverhampton Wanderers  0-2 (0-1)  Arsenal FC",
+    "gerekce": "Sat Jul 4: Sat yalnızca 2020 yılında tutuyor; sezon aralığı 2019-08-09…2020-07-26"
+   }
+  },
+  {
+   "lig": "en.1",
+   "sezon": "2019-20",
+   "tur": "Matchday 33",
+   "ev_ad": "Chelsea FC",
+   "dep_ad": "Watford FC",
+   "skor": [
+    3,
+    0
+   ],
+   "ilk_yari": [
+    2,
+    0
+   ],
+   "kaynak_tarih": "2019-07-04",
+   "duzeltilmis_tarih": "2020-07-04",
+   "kanit": {
+    "dosya": "openfootball/england 2019-20/1-premierleague.txt",
+    "commit": "9ee7a0c351805c99cc334478a9bf04b7d0432fec",
+    "gun_satiri": 528,
+    "gun_metni": "Sat Jul 4",
+    "mac_satiri": 533,
+    "mac_metni": "20:00  Chelsea FC               3-0 (2-0)  Watford FC",
+    "gerekce": "Sat Jul 4: Sat yalnızca 2020 yılında tutuyor; sezon aralığı 2019-08-09…2020-07-26"
+   }
+  },
+  {
+   "lig": "en.1",
+   "sezon": "2019-20",
+   "tur": "Matchday 33",
+   "ev_ad": "Newcastle United",
+   "dep_ad": "West Ham United",
+   "skor": [
+    2,
+    2
+   ],
+   "ilk_yari": [
+    1,
+    1
+   ],
+   "kaynak_tarih": "2019-07-05",
+   "duzeltilmis_tarih": "2020-07-05",
+   "kanit": {
+    "dosya": "openfootball/england 2019-20/1-premierleague.txt",
+    "commit": "9ee7a0c351805c99cc334478a9bf04b7d0432fec",
+    "gun_satiri": 534,
+    "gun_metni": "Sun Jul 5",
+    "mac_satiri": 535,
+    "mac_metni": "14:15  Newcastle United         2-2 (1-1)  West Ham United",
+    "gerekce": "Sun Jul 5: Sun yalnızca 2020 yılında tutuyor; sezon aralığı 2019-08-09…2020-07-26"
+   }
+  },
+  {
+   "lig": "en.1",
+   "sezon": "2019-20",
+   "tur": "Matchday 33",
+   "ev_ad": "Liverpool FC",
+   "dep_ad": "Aston Villa",
+   "skor": [
+    2,
+    0
+   ],
+   "ilk_yari": [
+    0,
+    0
+   ],
+   "kaynak_tarih": "2019-07-05",
+   "duzeltilmis_tarih": "2020-07-05",
+   "kanit": {
+    "dosya": "openfootball/england 2019-20/1-premierleague.txt",
+    "commit": "9ee7a0c351805c99cc334478a9bf04b7d0432fec",
+    "gun_satiri": 534,
+    "gun_metni": "Sun Jul 5",
+    "mac_satiri": 536,
+    "mac_metni": "16:30  Liverpool FC             2-0 (0-0)  Aston Villa",
+    "gerekce": "Sun Jul 5: Sun yalnızca 2020 yılında tutuyor; sezon aralığı 2019-08-09…2020-07-26"
+   }
+  },
+  {
+   "lig": "en.1",
+   "sezon": "2019-20",
+   "tur": "Matchday 33",
+   "ev_ad": "Southampton FC",
+   "dep_ad": "Manchester City",
+   "skor": [
+    1,
+    0
+   ],
+   "ilk_yari": [
+    1,
+    0
+   ],
+   "kaynak_tarih": "2019-07-05",
+   "duzeltilmis_tarih": "2020-07-05",
+   "kanit": {
+    "dosya": "openfootball/england 2019-20/1-premierleague.txt",
+    "commit": "9ee7a0c351805c99cc334478a9bf04b7d0432fec",
+    "gun_satiri": 534,
+    "gun_metni": "Sun Jul 5",
+    "mac_satiri": 537,
+    "mac_metni": "19:00  Southampton FC           1-0 (1-0)  Manchester City",
+    "gerekce": "Sun Jul 5: Sun yalnızca 2020 yılında tutuyor; sezon aralığı 2019-08-09…2020-07-26"
+   }
+  },
+  {
+   "lig": "en.1",
+   "sezon": "2019-20",
+   "tur": "Matchday 33",
+   "ev_ad": "Burnley FC",
+   "dep_ad": "Sheffield United",
+   "skor": [
+    1,
+    1
+   ],
+   "ilk_yari": [
+    1,
+    0
+   ],
+   "kaynak_tarih": "2019-07-05",
+   "duzeltilmis_tarih": "2020-07-05",
+   "kanit": {
+    "dosya": "openfootball/england 2019-20/1-premierleague.txt",
+    "commit": "9ee7a0c351805c99cc334478a9bf04b7d0432fec",
+    "gun_satiri": 534,
+    "gun_metni": "Sun Jul 5",
+    "mac_satiri": 538,
+    "mac_metni": "12:00  Burnley FC               1-1 (1-0)  Sheffield United",
+    "gerekce": "Sun Jul 5: Sun yalnızca 2020 yılında tutuyor; sezon aralığı 2019-08-09…2020-07-26"
+   }
+  },
+  {
+   "lig": "en.1",
+   "sezon": "2019-20",
+   "tur": "Matchday 33",
+   "ev_ad": "Tottenham Hotspur",
+   "dep_ad": "Everton FC",
+   "skor": [
+    1,
+    0
+   ],
+   "ilk_yari": [
+    1,
+    0
+   ],
+   "kaynak_tarih": "2019-07-06",
+   "duzeltilmis_tarih": "2020-07-06",
+   "kanit": {
+    "dosya": "openfootball/england 2019-20/1-premierleague.txt",
+    "commit": "9ee7a0c351805c99cc334478a9bf04b7d0432fec",
+    "gun_satiri": 539,
+    "gun_metni": "Mon Jul 6",
+    "mac_satiri": 540,
+    "mac_metni": "20:00  Tottenham Hotspur        1-0 (1-0)  Everton FC",
+    "gerekce": "Mon Jul 6: Mon yalnızca 2020 yılında tutuyor; sezon aralığı 2019-08-09…2020-07-26"
+   }
+  },
+  {
+   "lig": "en.1",
+   "sezon": "2019-20",
+   "tur": "Matchday 34",
+   "ev_ad": "Watford FC",
+   "dep_ad": "Norwich City",
+   "skor": [
+    2,
+    1
+   ],
+   "ilk_yari": [
+    1,
+    1
+   ],
+   "kaynak_tarih": "2019-07-07",
+   "duzeltilmis_tarih": "2020-07-07",
+   "kanit": {
+    "dosya": "openfootball/england 2019-20/1-premierleague.txt",
+    "commit": "9ee7a0c351805c99cc334478a9bf04b7d0432fec",
+    "gun_satiri": 544,
+    "gun_metni": "Tue Jul 7",
+    "mac_satiri": 545,
+    "mac_metni": "18:00  Watford FC               2-1 (1-1)  Norwich City",
+    "gerekce": "Tue Jul 7: Tue yalnızca 2020 yılında tutuyor; sezon aralığı 2019-08-09…2020-07-26"
+   }
+  },
+  {
+   "lig": "en.1",
+   "sezon": "2019-20",
+   "tur": "Matchday 34",
+   "ev_ad": "Arsenal FC",
+   "dep_ad": "Leicester City",
+   "skor": [
+    1,
+    1
+   ],
+   "ilk_yari": [
+    1,
+    0
+   ],
+   "kaynak_tarih": "2019-07-07",
+   "duzeltilmis_tarih": "2020-07-07",
+   "kanit": {
+    "dosya": "openfootball/england 2019-20/1-premierleague.txt",
+    "commit": "9ee7a0c351805c99cc334478a9bf04b7d0432fec",
+    "gun_satiri": 544,
+    "gun_metni": "Tue Jul 7",
+    "mac_satiri": 546,
+    "mac_metni": "20:15  Arsenal FC               1-1 (1-0)  Leicester City",
+    "gerekce": "Tue Jul 7: Tue yalnızca 2020 yılında tutuyor; sezon aralığı 2019-08-09…2020-07-26"
+   }
+  },
+  {
+   "lig": "en.1",
+   "sezon": "2019-20",
+   "tur": "Matchday 34",
+   "ev_ad": "Crystal Palace",
+   "dep_ad": "Chelsea FC",
+   "skor": [
+    2,
+    3
+   ],
+   "ilk_yari": [
+    1,
+    2
+   ],
+   "kaynak_tarih": "2019-07-07",
+   "duzeltilmis_tarih": "2020-07-07",
+   "kanit": {
+    "dosya": "openfootball/england 2019-20/1-premierleague.txt",
+    "commit": "9ee7a0c351805c99cc334478a9bf04b7d0432fec",
+    "gun_satiri": 544,
+    "gun_metni": "Tue Jul 7",
+    "mac_satiri": 547,
+    "mac_metni": "18:00  Crystal Palace           2-3 (1-2)  Chelsea FC",
+    "gerekce": "Tue Jul 7: Tue yalnızca 2020 yılında tutuyor; sezon aralığı 2019-08-09…2020-07-26"
+   }
+  },
+  {
+   "lig": "en.1",
+   "sezon": "2019-20",
+   "tur": "Matchday 34",
+   "ev_ad": "Manchester City",
+   "dep_ad": "Newcastle United",
+   "skor": [
+    5,
+    0
+   ],
+   "ilk_yari": [
+    2,
+    0
+   ],
+   "kaynak_tarih": "2019-07-08",
+   "duzeltilmis_tarih": "2020-07-08",
+   "kanit": {
+    "dosya": "openfootball/england 2019-20/1-premierleague.txt",
+    "commit": "9ee7a0c351805c99cc334478a9bf04b7d0432fec",
+    "gun_satiri": 548,
+    "gun_metni": "Wed Jul 8",
+    "mac_satiri": 549,
+    "mac_metni": "18:00  Manchester City          5-0 (2-0)  Newcastle United",
+    "gerekce": "Wed Jul 8: Wed yalnızca 2020 yılında tutuyor; sezon aralığı 2019-08-09…2020-07-26"
+   }
+  },
+  {
+   "lig": "en.1",
+   "sezon": "2019-20",
+   "tur": "Matchday 34",
+   "ev_ad": "Sheffield United",
+   "dep_ad": "Wolverhampton Wanderers",
+   "skor": [
+    1,
+    0
+   ],
+   "ilk_yari": [
+    0,
+    0
+   ],
+   "kaynak_tarih": "2019-07-08",
+   "duzeltilmis_tarih": "2020-07-08",
+   "kanit": {
+    "dosya": "openfootball/england 2019-20/1-premierleague.txt",
+    "commit": "9ee7a0c351805c99cc334478a9bf04b7d0432fec",
+    "gun_satiri": 548,
+    "gun_metni": "Wed Jul 8",
+    "mac_satiri": 550,
+    "mac_metni": "Sheffield United         1-0 (0-0)  Wolverhampton Wanderers",
+    "gerekce": "Wed Jul 8: Wed yalnızca 2020 yılında tutuyor; sezon aralığı 2019-08-09…2020-07-26"
+   }
+  },
+  {
+   "lig": "en.1",
+   "sezon": "2019-20",
+   "tur": "Matchday 34",
+   "ev_ad": "West Ham United",
+   "dep_ad": "Burnley FC",
+   "skor": [
+    0,
+    1
+   ],
+   "ilk_yari": [
+    0,
+    1
+   ],
+   "kaynak_tarih": "2019-07-08",
+   "duzeltilmis_tarih": "2020-07-08",
+   "kanit": {
+    "dosya": "openfootball/england 2019-20/1-premierleague.txt",
+    "commit": "9ee7a0c351805c99cc334478a9bf04b7d0432fec",
+    "gun_satiri": 548,
+    "gun_metni": "Wed Jul 8",
+    "mac_satiri": 551,
+    "mac_metni": "West Ham United          0-1 (0-1)  Burnley FC",
+    "gerekce": "Wed Jul 8: Wed yalnızca 2020 yılında tutuyor; sezon aralığı 2019-08-09…2020-07-26"
+   }
+  },
+  {
+   "lig": "en.1",
+   "sezon": "2019-20",
+   "tur": "Matchday 34",
+   "ev_ad": "Brighton & Hove Albion",
+   "dep_ad": "Liverpool FC",
+   "skor": [
+    1,
+    3
+   ],
+   "ilk_yari": [
+    1,
+    2
+   ],
+   "kaynak_tarih": "2019-07-08",
+   "duzeltilmis_tarih": "2020-07-08",
+   "kanit": {
+    "dosya": "openfootball/england 2019-20/1-premierleague.txt",
+    "commit": "9ee7a0c351805c99cc334478a9bf04b7d0432fec",
+    "gun_satiri": 548,
+    "gun_metni": "Wed Jul 8",
+    "mac_satiri": 552,
+    "mac_metni": "20:15  Brighton & Hove Albion   1-3 (1-2)  Liverpool FC",
+    "gerekce": "Wed Jul 8: Wed yalnızca 2020 yılında tutuyor; sezon aralığı 2019-08-09…2020-07-26"
+   }
+  },
+  {
+   "lig": "en.1",
+   "sezon": "2019-20",
+   "tur": "Matchday 34",
+   "ev_ad": "Everton FC",
+   "dep_ad": "Southampton FC",
+   "skor": [
+    1,
+    1
+   ],
+   "ilk_yari": [
+    1,
+    1
+   ],
+   "kaynak_tarih": "2019-07-09",
+   "duzeltilmis_tarih": "2020-07-09",
+   "kanit": {
+    "dosya": "openfootball/england 2019-20/1-premierleague.txt",
+    "commit": "9ee7a0c351805c99cc334478a9bf04b7d0432fec",
+    "gun_satiri": 553,
+    "gun_metni": "Thu Jul 9",
+    "mac_satiri": 554,
+    "mac_metni": "18:00  Everton FC               1-1 (1-1)  Southampton FC",
+    "gerekce": "Thu Jul 9: Thu yalnızca 2020 yılında tutuyor; sezon aralığı 2019-08-09…2020-07-26"
+   }
+  },
+  {
+   "lig": "en.1",
+   "sezon": "2019-20",
+   "tur": "Matchday 34",
+   "ev_ad": "Aston Villa",
+   "dep_ad": "Manchester United",
+   "skor": [
+    0,
+    3
+   ],
+   "ilk_yari": [
+    0,
+    2
+   ],
+   "kaynak_tarih": "2019-07-09",
+   "duzeltilmis_tarih": "2020-07-09",
+   "kanit": {
+    "dosya": "openfootball/england 2019-20/1-premierleague.txt",
+    "commit": "9ee7a0c351805c99cc334478a9bf04b7d0432fec",
+    "gun_satiri": 553,
+    "gun_metni": "Thu Jul 9",
+    "mac_satiri": 555,
+    "mac_metni": "20:15  Aston Villa              0-3 (0-2)  Manchester United",
+    "gerekce": "Thu Jul 9: Thu yalnızca 2020 yılında tutuyor; sezon aralığı 2019-08-09…2020-07-26"
+   }
+  },
+  {
+   "lig": "en.1",
+   "sezon": "2019-20",
+   "tur": "Matchday 34",
+   "ev_ad": "AFC Bournemouth",
+   "dep_ad": "Tottenham Hotspur",
+   "skor": [
+    0,
+    0
+   ],
+   "ilk_yari": null,
+   "kaynak_tarih": "2019-07-09",
+   "duzeltilmis_tarih": "2020-07-09",
+   "kanit": {
+    "dosya": "openfootball/england 2019-20/1-premierleague.txt",
+    "commit": "9ee7a0c351805c99cc334478a9bf04b7d0432fec",
+    "gun_satiri": 553,
+    "gun_metni": "Thu Jul 9",
+    "mac_satiri": 556,
+    "mac_metni": "18:00  AFC Bournemouth          0-0  Tottenham Hotspur",
+    "gerekce": "Thu Jul 9: Thu yalnızca 2020 yılında tutuyor; sezon aralığı 2019-08-09…2020-07-26"
+   }
+  },
+  {
+   "lig": "en.1",
+   "sezon": "2019-20",
+   "tur": "Matchday 35",
+   "ev_ad": "Watford FC",
+   "dep_ad": "Newcastle United",
+   "skor": [
+    2,
+    1
+   ],
+   "ilk_yari": [
+    0,
+    1
+   ],
+   "kaynak_tarih": "2019-07-11",
+   "duzeltilmis_tarih": "2020-07-11",
+   "kanit": {
+    "dosya": "openfootball/england 2019-20/1-premierleague.txt",
+    "commit": "9ee7a0c351805c99cc334478a9bf04b7d0432fec",
+    "gun_satiri": 560,
+    "gun_metni": "Sat Jul 11",
+    "mac_satiri": 561,
+    "mac_metni": "12:30  Watford FC               2-1 (0-1)  Newcastle United",
+    "gerekce": "Sat Jul 11: Sat yalnızca 2020 yılında tutuyor; sezon aralığı 2019-08-09…2020-07-26"
+   }
+  },
+  {
+   "lig": "en.1",
+   "sezon": "2019-20",
+   "tur": "Matchday 35",
+   "ev_ad": "Liverpool FC",
+   "dep_ad": "Burnley FC",
+   "skor": [
+    1,
+    1
+   ],
+   "ilk_yari": [
+    1,
+    0
+   ],
+   "kaynak_tarih": "2019-07-11",
+   "duzeltilmis_tarih": "2020-07-11",
+   "kanit": {
+    "dosya": "openfootball/england 2019-20/1-premierleague.txt",
+    "commit": "9ee7a0c351805c99cc334478a9bf04b7d0432fec",
+    "gun_satiri": 560,
+    "gun_metni": "Sat Jul 11",
+    "mac_satiri": 562,
+    "mac_metni": "15:00  Liverpool FC             1-1 (1-0)  Burnley FC",
+    "gerekce": "Sat Jul 11: Sat yalnızca 2020 yılında tutuyor; sezon aralığı 2019-08-09…2020-07-26"
+   }
+  },
+  {
+   "lig": "en.1",
+   "sezon": "2019-20",
+   "tur": "Matchday 35",
+   "ev_ad": "Sheffield United",
+   "dep_ad": "Chelsea FC",
+   "skor": [
+    3,
+    0
+   ],
+   "ilk_yari": [
+    2,
+    0
+   ],
+   "kaynak_tarih": "2019-07-11",
+   "duzeltilmis_tarih": "2020-07-11",
+   "kanit": {
+    "dosya": "openfootball/england 2019-20/1-premierleague.txt",
+    "commit": "9ee7a0c351805c99cc334478a9bf04b7d0432fec",
+    "gun_satiri": 560,
+    "gun_metni": "Sat Jul 11",
+    "mac_satiri": 563,
+    "mac_metni": "17:30  Sheffield United         3-0 (2-0)  Chelsea FC",
+    "gerekce": "Sat Jul 11: Sat yalnızca 2020 yılında tutuyor; sezon aralığı 2019-08-09…2020-07-26"
+   }
+  },
+  {
+   "lig": "en.1",
+   "sezon": "2019-20",
+   "tur": "Matchday 35",
+   "ev_ad": "Brighton & Hove Albion",
+   "dep_ad": "Manchester City",
+   "skor": [
+    0,
+    5
+   ],
+   "ilk_yari": [
+    0,
+    2
+   ],
+   "kaynak_tarih": "2019-07-11",
+   "duzeltilmis_tarih": "2020-07-11",
+   "kanit": {
+    "dosya": "openfootball/england 2019-20/1-premierleague.txt",
+    "commit": "9ee7a0c351805c99cc334478a9bf04b7d0432fec",
+    "gun_satiri": 560,
+    "gun_metni": "Sat Jul 11",
+    "mac_satiri": 564,
+    "mac_metni": "20:00  Brighton & Hove Albion   0-5 (0-2)  Manchester City",
+    "gerekce": "Sat Jul 11: Sat yalnızca 2020 yılında tutuyor; sezon aralığı 2019-08-09…2020-07-26"
+   }
+  },
+  {
+   "lig": "en.1",
+   "sezon": "2019-20",
+   "tur": "Matchday 35",
+   "ev_ad": "Norwich City",
+   "dep_ad": "West Ham United",
+   "skor": [
+    0,
+    4
+   ],
+   "ilk_yari": [
+    0,
+    2
+   ],
+   "kaynak_tarih": "2019-07-11",
+   "duzeltilmis_tarih": "2020-07-11",
+   "kanit": {
+    "dosya": "openfootball/england 2019-20/1-premierleague.txt",
+    "commit": "9ee7a0c351805c99cc334478a9bf04b7d0432fec",
+    "gun_satiri": 560,
+    "gun_metni": "Sat Jul 11",
+    "mac_satiri": 565,
+    "mac_metni": "12:30  Norwich City             0-4 (0-2)  West Ham United",
+    "gerekce": "Sat Jul 11: Sat yalnızca 2020 yılında tutuyor; sezon aralığı 2019-08-09…2020-07-26"
+   }
+  },
+  {
+   "lig": "en.1",
+   "sezon": "2019-20",
+   "tur": "Matchday 35",
+   "ev_ad": "Wolverhampton Wanderers",
+   "dep_ad": "Everton FC",
+   "skor": [
+    3,
+    0
+   ],
+   "ilk_yari": [
+    1,
+    0
+   ],
+   "kaynak_tarih": "2019-07-12",
+   "duzeltilmis_tarih": "2020-07-12",
+   "kanit": {
+    "dosya": "openfootball/england 2019-20/1-premierleague.txt",
+    "commit": "9ee7a0c351805c99cc334478a9bf04b7d0432fec",
+    "gun_satiri": 566,
+    "gun_metni": "Sun Jul 12",
+    "mac_satiri": 567,
+    "mac_metni": "12:00  Wolverhampton Wanderers  3-0 (1-0)  Everton FC",
+    "gerekce": "Sun Jul 12: Sun yalnızca 2020 yılında tutuyor; sezon aralığı 2019-08-09…2020-07-26"
+   }
+  },
+  {
+   "lig": "en.1",
+   "sezon": "2019-20",
+   "tur": "Matchday 35",
+   "ev_ad": "Aston Villa",
+   "dep_ad": "Crystal Palace",
+   "skor": [
+    2,
+    0
+   ],
+   "ilk_yari": [
+    1,
+    0
+   ],
+   "kaynak_tarih": "2019-07-12",
+   "duzeltilmis_tarih": "2020-07-12",
+   "kanit": {
+    "dosya": "openfootball/england 2019-20/1-premierleague.txt",
+    "commit": "9ee7a0c351805c99cc334478a9bf04b7d0432fec",
+    "gun_satiri": 566,
+    "gun_metni": "Sun Jul 12",
+    "mac_satiri": 568,
+    "mac_metni": "14:15  Aston Villa              2-0 (1-0)  Crystal Palace",
+    "gerekce": "Sun Jul 12: Sun yalnızca 2020 yılında tutuyor; sezon aralığı 2019-08-09…2020-07-26"
+   }
+  },
+  {
+   "lig": "en.1",
+   "sezon": "2019-20",
+   "tur": "Matchday 35",
+   "ev_ad": "Tottenham Hotspur",
+   "dep_ad": "Arsenal FC",
+   "skor": [
+    2,
+    1
+   ],
+   "ilk_yari": [
+    1,
+    1
+   ],
+   "kaynak_tarih": "2019-07-12",
+   "duzeltilmis_tarih": "2020-07-12",
+   "kanit": {
+    "dosya": "openfootball/england 2019-20/1-premierleague.txt",
+    "commit": "9ee7a0c351805c99cc334478a9bf04b7d0432fec",
+    "gun_satiri": 566,
+    "gun_metni": "Sun Jul 12",
+    "mac_satiri": 569,
+    "mac_metni": "16:30  Tottenham Hotspur        2-1 (1-1)  Arsenal FC",
+    "gerekce": "Sun Jul 12: Sun yalnızca 2020 yılında tutuyor; sezon aralığı 2019-08-09…2020-07-26"
+   }
+  },
+  {
+   "lig": "en.1",
+   "sezon": "2019-20",
+   "tur": "Matchday 35",
+   "ev_ad": "AFC Bournemouth",
+   "dep_ad": "Leicester City",
+   "skor": [
+    4,
+    1
+   ],
+   "ilk_yari": [
+    0,
+    1
+   ],
+   "kaynak_tarih": "2019-07-12",
+   "duzeltilmis_tarih": "2020-07-12",
+   "kanit": {
+    "dosya": "openfootball/england 2019-20/1-premierleague.txt",
+    "commit": "9ee7a0c351805c99cc334478a9bf04b7d0432fec",
+    "gun_satiri": 566,
+    "gun_metni": "Sun Jul 12",
+    "mac_satiri": 570,
+    "mac_metni": "19:00  AFC Bournemouth          4-1 (0-1)  Leicester City",
+    "gerekce": "Sun Jul 12: Sun yalnızca 2020 yılında tutuyor; sezon aralığı 2019-08-09…2020-07-26"
+   }
+  },
+  {
+   "lig": "en.1",
+   "sezon": "2019-20",
+   "tur": "Matchday 35",
+   "ev_ad": "Manchester United",
+   "dep_ad": "Southampton FC",
+   "skor": [
+    2,
+    2
+   ],
+   "ilk_yari": [
+    2,
+    1
+   ],
+   "kaynak_tarih": "2019-07-13",
+   "duzeltilmis_tarih": "2020-07-13",
+   "kanit": {
+    "dosya": "openfootball/england 2019-20/1-premierleague.txt",
+    "commit": "9ee7a0c351805c99cc334478a9bf04b7d0432fec",
+    "gun_satiri": 571,
+    "gun_metni": "Mon Jul 13",
+    "mac_satiri": 572,
+    "mac_metni": "20:00  Manchester United        2-2 (2-1)  Southampton FC",
+    "gerekce": "Mon Jul 13: Mon yalnızca 2020 yılında tutuyor; sezon aralığı 2019-08-09…2020-07-26"
+   }
+  },
+  {
+   "lig": "en.1",
+   "sezon": "2019-20",
+   "tur": "Matchday 36",
+   "ev_ad": "Chelsea FC",
+   "dep_ad": "Norwich City",
+   "skor": [
+    1,
+    0
+   ],
+   "ilk_yari": [
+    1,
+    0
+   ],
+   "kaynak_tarih": "2019-07-14",
+   "duzeltilmis_tarih": "2020-07-14",
+   "kanit": {
+    "dosya": "openfootball/england 2019-20/1-premierleague.txt",
+    "commit": "9ee7a0c351805c99cc334478a9bf04b7d0432fec",
+    "gun_satiri": 576,
+    "gun_metni": "Tue Jul 14",
+    "mac_satiri": 577,
+    "mac_metni": "20:15  Chelsea FC               1-0 (1-0)  Norwich City",
+    "gerekce": "Tue Jul 14: Tue yalnızca 2020 yılında tutuyor; sezon aralığı 2019-08-09…2020-07-26"
+   }
+  },
+  {
+   "lig": "en.1",
+   "sezon": "2019-20",
+   "tur": "Matchday 36",
+   "ev_ad": "Manchester City",
+   "dep_ad": "AFC Bournemouth",
+   "skor": [
+    2,
+    1
+   ],
+   "ilk_yari": [
+    2,
+    0
+   ],
+   "kaynak_tarih": "2019-07-15",
+   "duzeltilmis_tarih": "2020-07-15",
+   "kanit": {
+    "dosya": "openfootball/england 2019-20/1-premierleague.txt",
+    "commit": "9ee7a0c351805c99cc334478a9bf04b7d0432fec",
+    "gun_satiri": 578,
+    "gun_metni": "Wed Jul 15",
+    "mac_satiri": 579,
+    "mac_metni": "18:00  Manchester City          2-1 (2-0)  AFC Bournemouth",
+    "gerekce": "Wed Jul 15: Wed yalnızca 2020 yılında tutuyor; sezon aralığı 2019-08-09…2020-07-26"
+   }
+  },
+  {
+   "lig": "en.1",
+   "sezon": "2019-20",
+   "tur": "Matchday 36",
+   "ev_ad": "Newcastle United",
+   "dep_ad": "Tottenham Hotspur",
+   "skor": [
+    1,
+    3
+   ],
+   "ilk_yari": [
+    0,
+    1
+   ],
+   "kaynak_tarih": "2019-07-15",
+   "duzeltilmis_tarih": "2020-07-15",
+   "kanit": {
+    "dosya": "openfootball/england 2019-20/1-premierleague.txt",
+    "commit": "9ee7a0c351805c99cc334478a9bf04b7d0432fec",
+    "gun_satiri": 578,
+    "gun_metni": "Wed Jul 15",
+    "mac_satiri": 580,
+    "mac_metni": "Newcastle United         1-3 (0-1)  Tottenham Hotspur",
+    "gerekce": "Wed Jul 15: Wed yalnızca 2020 yılında tutuyor; sezon aralığı 2019-08-09…2020-07-26"
+   }
+  },
+  {
+   "lig": "en.1",
+   "sezon": "2019-20",
+   "tur": "Matchday 36",
+   "ev_ad": "Arsenal FC",
+   "dep_ad": "Liverpool FC",
+   "skor": [
+    2,
+    1
+   ],
+   "ilk_yari": [
+    2,
+    1
+   ],
+   "kaynak_tarih": "2019-07-15",
+   "duzeltilmis_tarih": "2020-07-15",
+   "kanit": {
+    "dosya": "openfootball/england 2019-20/1-premierleague.txt",
+    "commit": "9ee7a0c351805c99cc334478a9bf04b7d0432fec",
+    "gun_satiri": 578,
+    "gun_metni": "Wed Jul 15",
+    "mac_satiri": 581,
+    "mac_metni": "20:15  Arsenal FC               2-1 (2-1)  Liverpool FC",
+    "gerekce": "Wed Jul 15: Wed yalnızca 2020 yılında tutuyor; sezon aralığı 2019-08-09…2020-07-26"
+   }
+  },
+  {
+   "lig": "en.1",
+   "sezon": "2019-20",
+   "tur": "Matchday 36",
+   "ev_ad": "Burnley FC",
+   "dep_ad": "Wolverhampton Wanderers",
+   "skor": [
+    1,
+    1
+   ],
+   "ilk_yari": [
+    0,
+    0
+   ],
+   "kaynak_tarih": "2019-07-15",
+   "duzeltilmis_tarih": "2020-07-15",
+   "kanit": {
+    "dosya": "openfootball/england 2019-20/1-premierleague.txt",
+    "commit": "9ee7a0c351805c99cc334478a9bf04b7d0432fec",
+    "gun_satiri": 578,
+    "gun_metni": "Wed Jul 15",
+    "mac_satiri": 582,
+    "mac_metni": "18:00  Burnley FC               1-1 (0-0)  Wolverhampton Wanderers",
+    "gerekce": "Wed Jul 15: Wed yalnızca 2020 yılında tutuyor; sezon aralığı 2019-08-09…2020-07-26"
+   }
+  },
+  {
+   "lig": "en.1",
+   "sezon": "2019-20",
+   "tur": "Matchday 36",
+   "ev_ad": "Everton FC",
+   "dep_ad": "Aston Villa",
+   "skor": [
+    1,
+    1
+   ],
+   "ilk_yari": [
+    0,
+    0
+   ],
+   "kaynak_tarih": "2019-07-16",
+   "duzeltilmis_tarih": "2020-07-16",
+   "kanit": {
+    "dosya": "openfootball/england 2019-20/1-premierleague.txt",
+    "commit": "9ee7a0c351805c99cc334478a9bf04b7d0432fec",
+    "gun_satiri": 583,
+    "gun_metni": "Thu Jul 16",
+    "mac_satiri": 584,
+    "mac_metni": "18:00  Everton FC               1-1 (0-0)  Aston Villa",
+    "gerekce": "Thu Jul 16: Thu yalnızca 2020 yılında tutuyor; sezon aralığı 2019-08-09…2020-07-26"
+   }
+  },
+  {
+   "lig": "en.1",
+   "sezon": "2019-20",
+   "tur": "Matchday 36",
+   "ev_ad": "Leicester City",
+   "dep_ad": "Sheffield United",
+   "skor": [
+    2,
+    0
+   ],
+   "ilk_yari": [
+    1,
+    0
+   ],
+   "kaynak_tarih": "2019-07-16",
+   "duzeltilmis_tarih": "2020-07-16",
+   "kanit": {
+    "dosya": "openfootball/england 2019-20/1-premierleague.txt",
+    "commit": "9ee7a0c351805c99cc334478a9bf04b7d0432fec",
+    "gun_satiri": 583,
+    "gun_metni": "Thu Jul 16",
+    "mac_satiri": 585,
+    "mac_metni": "Leicester City           2-0 (1-0)  Sheffield United",
+    "gerekce": "Thu Jul 16: Thu yalnızca 2020 yılında tutuyor; sezon aralığı 2019-08-09…2020-07-26"
+   }
+  },
+  {
+   "lig": "en.1",
+   "sezon": "2019-20",
+   "tur": "Matchday 36",
+   "ev_ad": "Crystal Palace",
+   "dep_ad": "Manchester United",
+   "skor": [
+    0,
+    2
+   ],
+   "ilk_yari": [
+    0,
+    1
+   ],
+   "kaynak_tarih": "2019-07-16",
+   "duzeltilmis_tarih": "2020-07-16",
+   "kanit": {
+    "dosya": "openfootball/england 2019-20/1-premierleague.txt",
+    "commit": "9ee7a0c351805c99cc334478a9bf04b7d0432fec",
+    "gun_satiri": 583,
+    "gun_metni": "Thu Jul 16",
+    "mac_satiri": 586,
+    "mac_metni": "20:15  Crystal Palace           0-2 (0-1)  Manchester United",
+    "gerekce": "Thu Jul 16: Thu yalnızca 2020 yılında tutuyor; sezon aralığı 2019-08-09…2020-07-26"
+   }
+  },
+  {
+   "lig": "en.1",
+   "sezon": "2019-20",
+   "tur": "Matchday 36",
+   "ev_ad": "Southampton FC",
+   "dep_ad": "Brighton & Hove Albion",
+   "skor": [
+    1,
+    1
+   ],
+   "ilk_yari": [
+    0,
+    1
+   ],
+   "kaynak_tarih": "2019-07-16",
+   "duzeltilmis_tarih": "2020-07-16",
+   "kanit": {
+    "dosya": "openfootball/england 2019-20/1-premierleague.txt",
+    "commit": "9ee7a0c351805c99cc334478a9bf04b7d0432fec",
+    "gun_satiri": 583,
+    "gun_metni": "Thu Jul 16",
+    "mac_satiri": 587,
+    "mac_metni": "Southampton FC           1-1 (0-1)  Brighton & Hove Albion",
+    "gerekce": "Thu Jul 16: Thu yalnızca 2020 yılında tutuyor; sezon aralığı 2019-08-09…2020-07-26"
+   }
+  },
+  {
+   "lig": "en.1",
+   "sezon": "2019-20",
+   "tur": "Matchday 36",
+   "ev_ad": "West Ham United",
+   "dep_ad": "Watford FC",
+   "skor": [
+    3,
+    1
+   ],
+   "ilk_yari": [
+    3,
+    0
+   ],
+   "kaynak_tarih": "2019-07-17",
+   "duzeltilmis_tarih": "2020-07-17",
+   "kanit": {
+    "dosya": "openfootball/england 2019-20/1-premierleague.txt",
+    "commit": "9ee7a0c351805c99cc334478a9bf04b7d0432fec",
+    "gun_satiri": 588,
+    "gun_metni": "Fri Jul 17",
+    "mac_satiri": 589,
+    "mac_metni": "20:00  West Ham United          3-1 (3-0)  Watford FC",
+    "gerekce": "Fri Jul 17: Fri yalnızca 2020 yılında tutuyor; sezon aralığı 2019-08-09…2020-07-26"
+   }
+  },
+  {
+   "lig": "en.1",
+   "sezon": "2019-20",
+   "tur": "Matchday 37",
+   "ev_ad": "Norwich City",
+   "dep_ad": "Burnley FC",
+   "skor": [
+    0,
+    2
+   ],
+   "ilk_yari": [
+    0,
+    1
+   ],
+   "kaynak_tarih": "2019-07-18",
+   "duzeltilmis_tarih": "2020-07-18",
+   "kanit": {
+    "dosya": "openfootball/england 2019-20/1-premierleague.txt",
+    "commit": "9ee7a0c351805c99cc334478a9bf04b7d0432fec",
+    "gun_satiri": 593,
+    "gun_metni": "Sat Jul 18",
+    "mac_satiri": 594,
+    "mac_metni": "17:30  Norwich City             0-2 (0-1)  Burnley FC",
+    "gerekce": "Sat Jul 18: Sat yalnızca 2020 yılında tutuyor; sezon aralığı 2019-08-09…2020-07-26"
+   }
+  },
+  {
+   "lig": "en.1",
+   "sezon": "2019-20",
+   "tur": "Matchday 37",
+   "ev_ad": "Tottenham Hotspur",
+   "dep_ad": "Leicester City",
+   "skor": [
+    3,
+    0
+   ],
+   "ilk_yari": [
+    3,
+    0
+   ],
+   "kaynak_tarih": "2019-07-19",
+   "duzeltilmis_tarih": "2020-07-19",
+   "kanit": {
+    "dosya": "openfootball/england 2019-20/1-premierleague.txt",
+    "commit": "9ee7a0c351805c99cc334478a9bf04b7d0432fec",
+    "gun_satiri": 595,
+    "gun_metni": "Sun Jul 19",
+    "mac_satiri": 596,
+    "mac_metni": "16:00  Tottenham Hotspur        3-0 (3-0)  Leicester City",
+    "gerekce": "Sun Jul 19: Sun yalnızca 2020 yılında tutuyor; sezon aralığı 2019-08-09…2020-07-26"
+   }
+  },
+  {
+   "lig": "en.1",
+   "sezon": "2019-20",
+   "tur": "Matchday 37",
+   "ev_ad": "AFC Bournemouth",
+   "dep_ad": "Southampton FC",
+   "skor": [
+    0,
+    2
+   ],
+   "ilk_yari": [
+    0,
+    1
+   ],
+   "kaynak_tarih": "2019-07-19",
+   "duzeltilmis_tarih": "2020-07-19",
+   "kanit": {
+    "dosya": "openfootball/england 2019-20/1-premierleague.txt",
+    "commit": "9ee7a0c351805c99cc334478a9bf04b7d0432fec",
+    "gun_satiri": 595,
+    "gun_metni": "Sun Jul 19",
+    "mac_satiri": 597,
+    "mac_metni": "14:00  AFC Bournemouth          0-2 (0-1)  Southampton FC",
+    "gerekce": "Sun Jul 19: Sun yalnızca 2020 yılında tutuyor; sezon aralığı 2019-08-09…2020-07-26"
+   }
+  },
+  {
+   "lig": "en.1",
+   "sezon": "2019-20",
+   "tur": "Matchday 37",
+   "ev_ad": "Brighton & Hove Albion",
+   "dep_ad": "Newcastle United",
+   "skor": [
+    0,
+    0
+   ],
+   "ilk_yari": null,
+   "kaynak_tarih": "2019-07-20",
+   "duzeltilmis_tarih": "2020-07-20",
+   "kanit": {
+    "dosya": "openfootball/england 2019-20/1-premierleague.txt",
+    "commit": "9ee7a0c351805c99cc334478a9bf04b7d0432fec",
+    "gun_satiri": 598,
+    "gun_metni": "Mon Jul 20",
+    "mac_satiri": 599,
+    "mac_metni": "18:00  Brighton & Hove Albion   0-0  Newcastle United",
+    "gerekce": "Mon Jul 20: Mon yalnızca 2020 yılında tutuyor; sezon aralığı 2019-08-09…2020-07-26"
+   }
+  },
+  {
+   "lig": "en.1",
+   "sezon": "2019-20",
+   "tur": "Matchday 37",
+   "ev_ad": "Sheffield United",
+   "dep_ad": "Everton FC",
+   "skor": [
+    0,
+    1
+   ],
+   "ilk_yari": [
+    0,
+    0
+   ],
+   "kaynak_tarih": "2019-07-20",
+   "duzeltilmis_tarih": "2020-07-20",
+   "kanit": {
+    "dosya": "openfootball/england 2019-20/1-premierleague.txt",
+    "commit": "9ee7a0c351805c99cc334478a9bf04b7d0432fec",
+    "gun_satiri": 598,
+    "gun_metni": "Mon Jul 20",
+    "mac_satiri": 600,
+    "mac_metni": "Sheffield United         0-1 (0-0)  Everton FC",
+    "gerekce": "Mon Jul 20: Mon yalnızca 2020 yılında tutuyor; sezon aralığı 2019-08-09…2020-07-26"
+   }
+  },
+  {
+   "lig": "en.1",
+   "sezon": "2019-20",
+   "tur": "Matchday 37",
+   "ev_ad": "Wolverhampton Wanderers",
+   "dep_ad": "Crystal Palace",
+   "skor": [
+    2,
+    0
+   ],
+   "ilk_yari": [
+    1,
+    0
+   ],
+   "kaynak_tarih": "2019-07-20",
+   "duzeltilmis_tarih": "2020-07-20",
+   "kanit": {
+    "dosya": "openfootball/england 2019-20/1-premierleague.txt",
+    "commit": "9ee7a0c351805c99cc334478a9bf04b7d0432fec",
+    "gun_satiri": 598,
+    "gun_metni": "Mon Jul 20",
+    "mac_satiri": 601,
+    "mac_metni": "20:15  Wolverhampton Wanderers  2-0 (1-0)  Crystal Palace",
+    "gerekce": "Mon Jul 20: Mon yalnızca 2020 yılında tutuyor; sezon aralığı 2019-08-09…2020-07-26"
+   }
+  },
+  {
+   "lig": "en.1",
+   "sezon": "2019-20",
+   "tur": "Matchday 37",
+   "ev_ad": "Aston Villa",
+   "dep_ad": "Arsenal FC",
+   "skor": [
+    1,
+    0
+   ],
+   "ilk_yari": [
+    1,
+    0
+   ],
+   "kaynak_tarih": "2019-07-21",
+   "duzeltilmis_tarih": "2020-07-21",
+   "kanit": {
+    "dosya": "openfootball/england 2019-20/1-premierleague.txt",
+    "commit": "9ee7a0c351805c99cc334478a9bf04b7d0432fec",
+    "gun_satiri": 602,
+    "gun_metni": "Tue Jul 21",
+    "mac_satiri": 603,
+    "mac_metni": "20:15  Aston Villa              1-0 (1-0)  Arsenal FC",
+    "gerekce": "Tue Jul 21: Tue yalnızca 2020 yılında tutuyor; sezon aralığı 2019-08-09…2020-07-26"
+   }
+  },
+  {
+   "lig": "en.1",
+   "sezon": "2019-20",
+   "tur": "Matchday 37",
+   "ev_ad": "Watford FC",
+   "dep_ad": "Manchester City",
+   "skor": [
+    0,
+    4
+   ],
+   "ilk_yari": [
+    0,
+    2
+   ],
+   "kaynak_tarih": "2019-07-21",
+   "duzeltilmis_tarih": "2020-07-21",
+   "kanit": {
+    "dosya": "openfootball/england 2019-20/1-premierleague.txt",
+    "commit": "9ee7a0c351805c99cc334478a9bf04b7d0432fec",
+    "gun_satiri": 602,
+    "gun_metni": "Tue Jul 21",
+    "mac_satiri": 604,
+    "mac_metni": "18:00  Watford FC               0-4 (0-2)  Manchester City",
+    "gerekce": "Tue Jul 21: Tue yalnızca 2020 yılında tutuyor; sezon aralığı 2019-08-09…2020-07-26"
+   }
+  },
+  {
+   "lig": "en.1",
+   "sezon": "2019-20",
+   "tur": "Matchday 37",
+   "ev_ad": "Manchester United",
+   "dep_ad": "West Ham United",
+   "skor": [
+    1,
+    1
+   ],
+   "ilk_yari": [
+    0,
+    1
+   ],
+   "kaynak_tarih": "2019-07-22",
+   "duzeltilmis_tarih": "2020-07-22",
+   "kanit": {
+    "dosya": "openfootball/england 2019-20/1-premierleague.txt",
+    "commit": "9ee7a0c351805c99cc334478a9bf04b7d0432fec",
+    "gun_satiri": 605,
+    "gun_metni": "Wed Jul 22",
+    "mac_satiri": 606,
+    "mac_metni": "18:00  Manchester United        1-1 (0-1)  West Ham United",
+    "gerekce": "Wed Jul 22: Wed yalnızca 2020 yılında tutuyor; sezon aralığı 2019-08-09…2020-07-26"
+   }
+  },
+  {
+   "lig": "en.1",
+   "sezon": "2019-20",
+   "tur": "Matchday 37",
+   "ev_ad": "Liverpool FC",
+   "dep_ad": "Chelsea FC",
+   "skor": [
+    5,
+    3
+   ],
+   "ilk_yari": [
+    3,
+    1
+   ],
+   "kaynak_tarih": "2019-07-22",
+   "duzeltilmis_tarih": "2020-07-22",
+   "kanit": {
+    "dosya": "openfootball/england 2019-20/1-premierleague.txt",
+    "commit": "9ee7a0c351805c99cc334478a9bf04b7d0432fec",
+    "gun_satiri": 605,
+    "gun_metni": "Wed Jul 22",
+    "mac_satiri": 607,
+    "mac_metni": "20:15  Liverpool FC             5-3 (3-1)  Chelsea FC",
+    "gerekce": "Wed Jul 22: Wed yalnızca 2020 yılında tutuyor; sezon aralığı 2019-08-09…2020-07-26"
+   }
+  },
+  {
+   "lig": "en.1",
+   "sezon": "2019-20",
+   "tur": "Matchday 38",
+   "ev_ad": "Arsenal FC",
+   "dep_ad": "Watford FC",
+   "skor": [
+    3,
+    2
+   ],
+   "ilk_yari": [
+    3,
+    1
+   ],
+   "kaynak_tarih": "2019-07-26",
+   "duzeltilmis_tarih": "2020-07-26",
+   "kanit": {
+    "dosya": "openfootball/england 2019-20/1-premierleague.txt",
+    "commit": "9ee7a0c351805c99cc334478a9bf04b7d0432fec",
+    "gun_satiri": 611,
+    "gun_metni": "Sun Jul 26",
+    "mac_satiri": 612,
+    "mac_metni": "16:00  Arsenal FC               3-2 (3-1)  Watford FC",
+    "gerekce": "Sun Jul 26: Sun yalnızca 2020 yılında tutuyor; sezon aralığı 2019-08-09…2020-07-26"
+   }
+  },
+  {
+   "lig": "en.1",
+   "sezon": "2019-20",
+   "tur": "Matchday 38",
+   "ev_ad": "Burnley FC",
+   "dep_ad": "Brighton & Hove Albion",
+   "skor": [
+    1,
+    2
+   ],
+   "ilk_yari": [
+    1,
+    1
+   ],
+   "kaynak_tarih": "2019-07-26",
+   "duzeltilmis_tarih": "2020-07-26",
+   "kanit": {
+    "dosya": "openfootball/england 2019-20/1-premierleague.txt",
+    "commit": "9ee7a0c351805c99cc334478a9bf04b7d0432fec",
+    "gun_satiri": 611,
+    "gun_metni": "Sun Jul 26",
+    "mac_satiri": 613,
+    "mac_metni": "Burnley FC               1-2 (1-1)  Brighton & Hove Albion",
+    "gerekce": "Sun Jul 26: Sun yalnızca 2020 yılında tutuyor; sezon aralığı 2019-08-09…2020-07-26"
+   }
+  },
+  {
+   "lig": "en.1",
+   "sezon": "2019-20",
+   "tur": "Matchday 38",
+   "ev_ad": "Chelsea FC",
+   "dep_ad": "Wolverhampton Wanderers",
+   "skor": [
+    2,
+    0
+   ],
+   "ilk_yari": [
+    2,
+    0
+   ],
+   "kaynak_tarih": "2019-07-26",
+   "duzeltilmis_tarih": "2020-07-26",
+   "kanit": {
+    "dosya": "openfootball/england 2019-20/1-premierleague.txt",
+    "commit": "9ee7a0c351805c99cc334478a9bf04b7d0432fec",
+    "gun_satiri": 611,
+    "gun_metni": "Sun Jul 26",
+    "mac_satiri": 614,
+    "mac_metni": "Chelsea FC               2-0 (2-0)  Wolverhampton Wanderers",
+    "gerekce": "Sun Jul 26: Sun yalnızca 2020 yılında tutuyor; sezon aralığı 2019-08-09…2020-07-26"
+   }
+  },
+  {
+   "lig": "en.1",
+   "sezon": "2019-20",
+   "tur": "Matchday 38",
+   "ev_ad": "Crystal Palace",
+   "dep_ad": "Tottenham Hotspur",
+   "skor": [
+    1,
+    1
+   ],
+   "ilk_yari": [
+    0,
+    1
+   ],
+   "kaynak_tarih": "2019-07-26",
+   "duzeltilmis_tarih": "2020-07-26",
+   "kanit": {
+    "dosya": "openfootball/england 2019-20/1-premierleague.txt",
+    "commit": "9ee7a0c351805c99cc334478a9bf04b7d0432fec",
+    "gun_satiri": 611,
+    "gun_metni": "Sun Jul 26",
+    "mac_satiri": 615,
+    "mac_metni": "Crystal Palace           1-1 (0-1)  Tottenham Hotspur",
+    "gerekce": "Sun Jul 26: Sun yalnızca 2020 yılında tutuyor; sezon aralığı 2019-08-09…2020-07-26"
+   }
+  },
+  {
+   "lig": "en.1",
+   "sezon": "2019-20",
+   "tur": "Matchday 38",
+   "ev_ad": "Everton FC",
+   "dep_ad": "AFC Bournemouth",
+   "skor": [
+    1,
+    3
+   ],
+   "ilk_yari": [
+    1,
+    2
+   ],
+   "kaynak_tarih": "2019-07-26",
+   "duzeltilmis_tarih": "2020-07-26",
+   "kanit": {
+    "dosya": "openfootball/england 2019-20/1-premierleague.txt",
+    "commit": "9ee7a0c351805c99cc334478a9bf04b7d0432fec",
+    "gun_satiri": 611,
+    "gun_metni": "Sun Jul 26",
+    "mac_satiri": 616,
+    "mac_metni": "Everton FC               1-3 (1-2)  AFC Bournemouth",
+    "gerekce": "Sun Jul 26: Sun yalnızca 2020 yılında tutuyor; sezon aralığı 2019-08-09…2020-07-26"
+   }
+  },
+  {
+   "lig": "en.1",
+   "sezon": "2019-20",
+   "tur": "Matchday 38",
+   "ev_ad": "Leicester City",
+   "dep_ad": "Manchester United",
+   "skor": [
+    0,
+    2
+   ],
+   "ilk_yari": [
+    0,
+    0
+   ],
+   "kaynak_tarih": "2019-07-26",
+   "duzeltilmis_tarih": "2020-07-26",
+   "kanit": {
+    "dosya": "openfootball/england 2019-20/1-premierleague.txt",
+    "commit": "9ee7a0c351805c99cc334478a9bf04b7d0432fec",
+    "gun_satiri": 611,
+    "gun_metni": "Sun Jul 26",
+    "mac_satiri": 617,
+    "mac_metni": "Leicester City           0-2 (0-0)  Manchester United",
+    "gerekce": "Sun Jul 26: Sun yalnızca 2020 yılında tutuyor; sezon aralığı 2019-08-09…2020-07-26"
+   }
+  },
+  {
+   "lig": "en.1",
+   "sezon": "2019-20",
+   "tur": "Matchday 38",
+   "ev_ad": "Manchester City",
+   "dep_ad": "Norwich City",
+   "skor": [
+    5,
+    0
+   ],
+   "ilk_yari": [
+    2,
+    0
+   ],
+   "kaynak_tarih": "2019-07-26",
+   "duzeltilmis_tarih": "2020-07-26",
+   "kanit": {
+    "dosya": "openfootball/england 2019-20/1-premierleague.txt",
+    "commit": "9ee7a0c351805c99cc334478a9bf04b7d0432fec",
+    "gun_satiri": 611,
+    "gun_metni": "Sun Jul 26",
+    "mac_satiri": 618,
+    "mac_metni": "Manchester City          5-0 (2-0)  Norwich City",
+    "gerekce": "Sun Jul 26: Sun yalnızca 2020 yılında tutuyor; sezon aralığı 2019-08-09…2020-07-26"
+   }
+  },
+  {
+   "lig": "en.1",
+   "sezon": "2019-20",
+   "tur": "Matchday 38",
+   "ev_ad": "Newcastle United",
+   "dep_ad": "Liverpool FC",
+   "skor": [
+    1,
+    3
+   ],
+   "ilk_yari": [
+    1,
+    1
+   ],
+   "kaynak_tarih": "2019-07-26",
+   "duzeltilmis_tarih": "2020-07-26",
+   "kanit": {
+    "dosya": "openfootball/england 2019-20/1-premierleague.txt",
+    "commit": "9ee7a0c351805c99cc334478a9bf04b7d0432fec",
+    "gun_satiri": 611,
+    "gun_metni": "Sun Jul 26",
+    "mac_satiri": 619,
+    "mac_metni": "Newcastle United         1-3 (1-1)  Liverpool FC",
+    "gerekce": "Sun Jul 26: Sun yalnızca 2020 yılında tutuyor; sezon aralığı 2019-08-09…2020-07-26"
+   }
+  },
+  {
+   "lig": "en.1",
+   "sezon": "2019-20",
+   "tur": "Matchday 38",
+   "ev_ad": "Southampton FC",
+   "dep_ad": "Sheffield United",
+   "skor": [
+    3,
+    1
+   ],
+   "ilk_yari": [
+    0,
+    1
+   ],
+   "kaynak_tarih": "2019-07-26",
+   "duzeltilmis_tarih": "2020-07-26",
+   "kanit": {
+    "dosya": "openfootball/england 2019-20/1-premierleague.txt",
+    "commit": "9ee7a0c351805c99cc334478a9bf04b7d0432fec",
+    "gun_satiri": 611,
+    "gun_metni": "Sun Jul 26",
+    "mac_satiri": 620,
+    "mac_metni": "Southampton FC           3-1 (0-1)  Sheffield United",
+    "gerekce": "Sun Jul 26: Sun yalnızca 2020 yılında tutuyor; sezon aralığı 2019-08-09…2020-07-26"
+   }
+  },
+  {
+   "lig": "en.1",
+   "sezon": "2019-20",
+   "tur": "Matchday 38",
+   "ev_ad": "West Ham United",
+   "dep_ad": "Aston Villa",
+   "skor": [
+    1,
+    1
+   ],
+   "ilk_yari": [
+    0,
+    0
+   ],
+   "kaynak_tarih": "2019-07-26",
+   "duzeltilmis_tarih": "2020-07-26",
+   "kanit": {
+    "dosya": "openfootball/england 2019-20/1-premierleague.txt",
+    "commit": "9ee7a0c351805c99cc334478a9bf04b7d0432fec",
+    "gun_satiri": 611,
+    "gun_metni": "Sun Jul 26",
+    "mac_satiri": 621,
+    "mac_metni": "West Ham United          1-1 (0-0)  Aston Villa",
+    "gerekce": "Sun Jul 26: Sun yalnızca 2020 yılında tutuyor; sezon aralığı 2019-08-09…2020-07-26"
+   }
+  }
+ ]
+}
