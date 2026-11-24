@@ -143,6 +143,8 @@ class V3GercekVeri(unittest.TestCase):
         for k in d["duzeltmeler"]:
             self.assertTrue(k["kanit"]["gun_metni"] and k["kanit"]["commit"] and k["kanit"]["mac_satiri"])
             self.assertEqual(k["duzeltilmis_tarih"][4:], k["kaynak_tarih"][4:])   # yalnızca yıl farklı, gün/ay aynı
+            self.assertEqual(k["bagimsiz_dogrulama"]["durum"], "dogrulandi")      # ikinci kaynak (Wikipedia)
+            self.assertTrue(k["bagimsiz_dogrulama"]["maddeler"])
         for lig in ("en.1", "de.1", "es.1", "it.1"):
             maclar, kaynak = lig_oku(lig)                                # sert tutarsızlık kalırsa hata verir
             self.assertEqual(len(kaynak["tarih_duzeltmeleri"]), 66 if lig == "en.1" else 0)
