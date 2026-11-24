@@ -30,6 +30,30 @@ kazanma olasılığı ≥ %25) 46 alarmın yalnızca 13'ü doğru çıktı (isab
 Bu çıktılar sürpriz uyarısı, favori eleme ya da kupon için KULLANILMAMALIDIR. Favori galibiyet serisinin model
 olasılığına ek bilgi kattığına dair kanıt bulunamadı (bütün farklar güven aralığı içinde; güçlü rakip grubu n=25).
 
+## Plan: Tarihsel Sürpriz Vakaları (ayrı test bölümü; ana modele eklenmez)
+Vaka listesi (kullanıcı tarafından verildi):
+1. 22.10.2022 Nottingham Forest 1-0 Liverpool (Premier League)
+2. 29.10.2022 Liverpool 1-2 Leeds United (Premier League)
+3. 12.11.2022 Manchester City 1-2 Brentford (Premier League)
+4. 14.11.2026 Portekiz 1-4 Danimarka (milli takımlar)
+5. 14.11.2026 Romanya 2-1 Polonya (milli takımlar)
+
+Protokol:
+- **A. Kör test:** analiz zamanı maç başlangıcından önceye sabitlenir; yalnızca o zamana kadarki sonuçlar ve yayın tarihi
+  maç öncesi olarak DOĞRULANMIŞ haber/kadro bilgisi kullanılır; sonuç ve maç sonrası içerik girdilerden çıkarılır.
+  Elo / Poisson / Dixon–Coles olasılıkları (favori kazanır / beraberlik / favori kaybeder) ayrı gösterilir.
+  Milli takım maçları Premier League kulüp modeliyle TAHMİN EDİLMEZ → ayrı, test edilmiş milli takım modeli olmadan
+  olasılık "hesaplanamaz".
+- **B. Önceden görülebilen işaretler:** favorinin rakip gücüne göre düzeltilmiş son 5–10 maçı, yanıltıcı seri/skorlar,
+  eksikler/rotasyon/yorgunluk, motivasyon/fikstür, teknik direktör açıklamaları, rakibin taktik avantajı. Her bilgi
+  kaynak + yayın tarihiyle; doğrulanamayan bilgi uydurulmaz.
+- **C. Sonuç sonrası:** maç öncesi kayıt önce SHA-256 + zaman damgasıyla dondurulur, sonra sonuç açılır; öngörülebilir
+  zayıflıklar ile yalnızca maç sonrası açıklanabilenler ayrılır; aşırı güven ve sürpriz uyarısının doğruluğu raporlanır.
+- **D. Örneklem yanlılığı:** bu beş maç yalnızca VAKA ANALİZİDİR; aynı dönemlerden benzer olasılıklı ve sürpriz
+  yaşanmayan favori maçları karşılaştırma grubudur; başarı ölçümü yalnızca bütün kronolojik test maçlarında yapılır;
+  model bu beş maça göre ayarlanmaz.
+- **E. Kurallar:** MK-1 (Nesine oranları yok), gerçek yayın tarihi doğrulaması, eksik veri → "hesaplanamaz", kupon yok.
+
 ## Doğrulanmamış varsayımlar
 - Yeni çıkan takım önseli: hücum ×0.8, savunma ×1.2 (gol modeli); Elo'da düşen takımların ortalaması.
 - Sıralı lojistik yeniden kestirimi için en az 200 geçmiş maç eşiği.
