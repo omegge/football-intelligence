@@ -90,6 +90,84 @@ Modele etki (yalnızca yazılı rapor değil):
 - Doğrulanmış etki modeli yokken haber yalnızca nitel not olarak raporlanır; olasılık uydurulmaz.
 - MK-1 geçerli: olasılıklar Nesine oranlarından bağımsız üretilir; oranlar ancak tahmin dondurulduktan sonra açılır.
 
+## SONRAKİ AŞAMA KAPSAMI: Alt Ligler ve Özel Marketler Altyapısı — KULLANICI GEREKSİNİMİ (mimari; henüz uygulanmadı)
+Nihai hedef: Nesine bültenindeki mümkün olduğunca çok lig ve pazar. Yeni lige veri çekme ya da model geliştirme, ayrı
+onay olmadan başlamaz; Katman 2 haber pilotu (16 maç) önceliğini korur.
+
+Gereksinimler:
+1. **Modüler kaynak sistemi.** Her kaynak bir bağdaştırıcıdır (mevcut `kaynaklar/` düzeni). Her lig × kaynak için ayrı
+   bir yeterlilik kartı tutulur:
+   - kapsanan sezonlar, maç sayısı, skor ve ilk yarı oranı;
+   - korner, kart, oyuncu, olay dakikası alanlarının bulunup bulunmadığı;
+   - güncellik (son maç tarihi, gecikme);
+   - bilinen eksikler ve tutarsızlıklar (tarih denetimi, `VeriTutarsizligi`).
+2. **Ayrı matematiksel olay tanımları.** Her pazar, maçın sonuç değişkenleri üzerinde bir olay olarak tanımlanır. Gol
+   ve devre pazarları skor ile iki devre skorunun ortak dağılımı üzerinde tanımlanır (ilk yarı / ikinci yarı gol
+   istatistikleri SONRAKİ AŞAMADA ÖNCELİKLİ). Ayrıca korner, kart, oyuncu
+   (gol, asist, kart), zaman aralığı (ör. 0–15. dakika golü) ve birleşik pazarlar (ör. MS + Alt/Üst, İY/MS) için ayrı
+   olay tanımları vardır. Nesine pazar sözlüğü (`market_sozlugu_v3.json`, 104 kod) bu olay tanımlarına eşlenir.
+   Eşlenemeyen kod "tanımsız" sayılır.
+3. **Veri gereksinimleri tablosu.** Pazar → gereken istatistikler → en az veri miktarı (maç, sezon) → doğrulanmış model
+   gerekip gerekmediği. Örnekler:
+   - İY/MS → devre skorları;
+   - korner → takım başına korner sayıları;
+   - oyuncu → dakika, ilk 11 ve olay verisi.
+4. **Hesaplanamaz.** Gereksinim karşılanmıyorsa ya da modelin geçmiş kalibrasyonu yoksa sonuç "hesaplanamaz" olur
+   (`model.pazar_destegi` genişletilir). Olasılık uydurulmaz.
+5. **Belirsizlik ayrıca ölçülür.** Kaynaklar: az maç, yeni ya da düşen takım, kadro belirsizliği, eksik haber.
+   - Parametre belirsizliği bootstrap/posterior ile, model belirsizliği alternatif modellerin farkıyla ölçülür.
+   - Raporda olasılık aralığı ve bir "veri yeterliliği" düzeyi verilir. Aralık çok genişse "hesaplanamaz" denir.
+   - Belirsizlik kalibrasyonu da backtest'le denetlenir.
+6. **Olay ailesine göre ayrı modeller ve pazarlar arası tutarlılık (kullanıcı düzeltmesi, 25.11.2026).**
+   - Gol, korner, kart ve oyuncu pazarları doğrulanmamış TEK bir olasılık dağılımından hesaplanmaz.
+   - Her olay ailesinin kendi modeli vardır ve her model o aile için ayrıca backtest ve kalibrasyonla doğrulanır:
+     - gol: skor ve devre skoru modeli;
+     - korner: sayım modeli;
+     - kart: sayım/hakem etkili model;
+     - oyuncu: dakika ve olay modeli.
+   - Aile içindeki pazarlar o ailenin ortak dağılımından türetilir. Örnekler: MS, Alt/Üst ve İY/MS gol modelinden;
+     korner Alt/Üst ve handikap korner modelinden.
+   - Aileler arası birleşik pazarlarda (ör. MS + korner Alt/Üst, oyuncu golü + MS) bağımlılık ayrıca modellenir ve
+     doğrulanır (ör. kopula ya da ortak gizli değişken, ortak geçmiş veriden kestirilmiş korelasyon). Doğrulanmış bir
+     bağımlılık modeli yoksa birleşik pazar "hesaplanamaz" olur. Bağımsızlık varsayılmaz.
+   - Otomatik matematiksel tutarlılık denetimleri:
+     - tamamlayıcı olayların toplamı 1;
+     - alt küme olayın olasılığı üst küme olaydan büyük değil (ör. 2-1 ≤ MS1);
+     - birleşik pazar olasılığı en fazla, içerdiği her tek pazarın olasılığı kadar (Fréchet sınırları:
+       max(0, P(A)+P(B)−1) ≤ P(A∩B) ≤ min(P(A), P(B)));
+     - aynı olayın farklı ailelerdeki tahminleri (ör. gol modelinden ve oyuncu modelinden "takım gol atar") birbiriyle
+       karşılaştırılır; uyumsuzluk raporlanır.
+7. **MK-1.** Bütün olasılıklar Nesine oranlarından tamamen bağımsız hesaplanır. Oran alanı içeren girdi model ve
+   kanıt katmanında reddedilir (mevcut `girdi.oransiz_mi` ve `kanit` denetimleri genişletilir).
+8. **Dondur, sonra karşılaştır.** Tahmin SHA-256 ve zaman damgasıyla dondurulduktan SONRA fiyat karşılaştırması yapılır
+   (model olasılığı ve fiyattan türetilen oran yan yana). Fiyat oranları gerçek ya da koşullu olasılık olarak sunulmaz;
+   modeli düzeltmek için kullanılmaz.
+9. **Genişleyebilirlik.** Yeni lig ya da pazar eklemek yalnızca şu adımları gerektirir: yeni kaynak bağdaştırıcısı,
+   yeterlilik kartı, olay tanımı ve gereksinim satırı. Ardından o lig ya da pazar için ayrı bir backtest yapılır.
+   Kapsam tablosu otomatik üretilir.
+10. **Kaynak künyesi.** Her kaynak için kaydedilir:
+    - lisans ve yeniden kullanım izni (erişim izninden ayrı);
+    - kullanım koşullarının okunma tarihi;
+    - güncellik;
+    - kapsanan lig ve sezonlar;
+    - bilinen eksikler.
+
+    Mevcut `docs/VERI_KAYNAKLARI.md` lig boşluk tablosu bu künyeye taşınır.
+
+Öncelik sırası (öneri):
+1. **Önce, haber pilotuyla çakışmadan:** olay tanımları, pazarlar arası tutarlılık denetimleri ve "hesaplanamaz"
+   kuralının genişletilmesi. Bunlar mevcut veriyle (4 lig, skor ve ilk yarı) yapılabilir. İlk yarı ve ikinci yarı gol
+   aşamasıyla birleşir: İY/MS, devre Alt/Üst, "hangi yarı daha çok gol".
+2. **Kaynak künyesi ve lig yeterlilik kartları:** Mevcut kaynaklar için (OpenFootball, football-data.org, OpenLigaDB,
+   martj42). Ağ isteği gerekmez.
+3. **Nesine bültenindeki liglerin kapsam eşlemesi:** Bülten ligleri kaynak kartlarına eşlenir; hangi ligde hangi
+   pazarın hesaplanabileceğini gösteren bir matris çıkar.
+4. **Belirsizlik ölçümü:** Önce 4 büyük ligde; ardından düşük veri koşullarının simülasyonu (az maç, yeni takım).
+5. **Yeni alt lig verisi** (kullanıcı onayıyla): OpenFootball'daki ikinci ligler (en.2, de.2, es.2, it.2 vb.) lisans
+   açısından en kolay aday. Her biri için ayrı backtest.
+6. **Korner, kart ve oyuncu pazarları:** Lisans açısından uygun, ücretsiz ve yapılandırılmış bir kaynak bulunana kadar
+   "hesaplanamaz". Kaynak araştırması ayrı onayla yapılır.
+
 ## Doğrulanmamış varsayımlar
 - Yeni çıkan takım önseli: hücum ×0.8, savunma ×1.2 (gol modeli); Elo'da düşen takımların ortalaması.
 - Sıralı lojistik yeniden kestirimi için en az 200 geçmiş maç eşiği.
