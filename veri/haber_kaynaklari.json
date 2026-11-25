@@ -1,0 +1,643 @@
+{
+ "aciklama": "Haber kaynağı kaydı (pilot 25.11.2026). 40 host: pilot için açılanlar. 'engelli' 15 host izin listesinden kaldırıldı (25.11.2026, kullanıcı onayı); kayıtta kalır ki okuyucu asla istek atmasın. İzin listesi değişikliği yalnızca kullanıcı onayıyla.",
+ "hostlar": [
+  {
+   "host": "www.brentfordfc.com",
+   "tur": "resmi_kulup",
+   "sinif": "kullanilabilir",
+   "gerekce": "koşullar görüntülemeye izin veriyor; otomatik okuma yasağı yok",
+   "lig": "en.1",
+   "kulup": "Brentford FC",
+   "yayinci_grubu": "www.brentfordfc.com",
+   "kimlik_isaretleri": [
+    "wikipedia",
+    "ana_sayfa_basligi"
+   ],
+   "kosul_url": "https://www.brentfordfc.com/en/terms-and-conditions",
+   "kosul_ozeti": null,
+   "robots_ai_engeli": false,
+   "kontrol_utc": "2026-11-25T17:21:06+00:00"
+  },
+  {
+   "host": "www.manutd.com",
+   "tur": "resmi_kulup",
+   "sinif": "belirsiz",
+   "gerekce": "kullanım koşulları sayfası 403 — koşullar doğrulanamadı",
+   "lig": "en.1",
+   "kulup": "Manchester United FC",
+   "yayinci_grubu": "www.manutd.com",
+   "kimlik_isaretleri": [
+    "wikipedia",
+    "ana_sayfa_basligi"
+   ],
+   "kosul_url": "https://www.manutd.com/en/help/website-terms-of-use",
+   "kosul_ozeti": null,
+   "robots_ai_engeli": false,
+   "kontrol_utc": "2026-11-25T17:20:57+00:00"
+  },
+  {
+   "host": "www.tottenhamhotspur.com",
+   "tur": "resmi_kulup",
+   "sinif": "engelli",
+   "gerekce": "koşullar 4.6.3: bot/crawler/spider ile veri toplama yasak",
+   "lig": "en.1",
+   "kulup": "Tottenham Hotspur FC",
+   "yayinci_grubu": "www.tottenhamhotspur.com",
+   "kimlik_isaretleri": [
+    "wikipedia",
+    "ana_sayfa_basligi"
+   ],
+   "kosul_url": "https://www.tottenhamhotspur.com/information/terms-and-conditions",
+   "kosul_ozeti": null,
+   "robots_ai_engeli": false,
+   "kontrol_utc": "2026-11-25T17:21:01+00:00"
+  },
+  {
+   "host": "www.brightonandhovealbion.com",
+   "tur": "resmi_kulup",
+   "sinif": "belirsiz",
+   "gerekce": "koşullar sayfası yalnızca JavaScript — okunamadı; kimlik tek işaret",
+   "lig": "en.1",
+   "kulup": "Brighton & Hove Albion FC",
+   "yayinci_grubu": "www.brightonandhovealbion.com",
+   "kimlik_isaretleri": [
+    "ana_sayfa_basligi"
+   ],
+   "kosul_url": null,
+   "kosul_ozeti": null,
+   "robots_ai_engeli": false,
+   "kontrol_utc": "2026-11-25T17:21:11+00:00"
+  },
+  {
+   "host": "www.sufc.co.uk",
+   "tur": "resmi_kulup",
+   "sinif": "belirsiz",
+   "gerekce": "içerik yalnızca JavaScript; koşullar bulunamadı; kimlik tek işaret (Wikipedia)",
+   "lig": "en.1",
+   "kulup": "Sheffield United FC",
+   "yayinci_grubu": "www.sufc.co.uk",
+   "kimlik_isaretleri": [
+    "wikipedia"
+   ],
+   "kosul_url": null,
+   "kosul_ozeti": null,
+   "robots_ai_engeli": false,
+   "kontrol_utc": "2026-11-25T17:21:13+00:00"
+  },
+  {
+   "host": "www.nottinghamforest.co.uk",
+   "tur": "resmi_kulup",
+   "sinif": "belirsiz",
+   "gerekce": "içerik yalnızca JavaScript; alan adı doğrulanamadı (Wikidata çözülmedi)",
+   "lig": "en.1",
+   "kulup": "Nottingham Forest FC",
+   "yayinci_grubu": "www.nottinghamforest.co.uk",
+   "kimlik_isaretleri": [],
+   "kosul_url": null,
+   "kosul_ozeti": null,
+   "robots_ai_engeli": false,
+   "kontrol_utc": "2026-11-25T17:21:16+00:00"
+  },
+  {
+   "host": "www.bundesliga.com",
+   "tur": "resmi_lig",
+   "sinif": "engelli",
+   "gerekce": "koşullar: otomatik programlar/botlar içeriğe erişemez; TDM hakkı saklı (UrhG §44b)",
+   "lig": "de.1",
+   "kulup": null,
+   "yayinci_grubu": "www.bundesliga.com",
+   "kimlik_isaretleri": [],
+   "kosul_url": "https://www.bundesliga.com/en/bundesliga/info/legal-notices",
+   "kosul_ozeti": null,
+   "robots_ai_engeli": false,
+   "kontrol_utc": "2026-11-25T17:21:18+00:00"
+  },
+  {
+   "host": "www.bayer04.de",
+   "tur": "resmi_kulup",
+   "sinif": "kullanilabilir",
+   "gerekce": "impressum: çoğaltma yazılı izne bağlı; okuma yasağı yok",
+   "lig": "de.1",
+   "kulup": "Bayer 04 Leverkusen",
+   "yayinci_grubu": "www.bayer04.de",
+   "kimlik_isaretleri": [
+    "wikipedia",
+    "ana_sayfa_basligi"
+   ],
+   "kosul_url": "https://www.bayer04.de/de-de/page/impressum",
+   "kosul_ozeti": null,
+   "robots_ai_engeli": false,
+   "kontrol_utc": "2026-11-25T17:21:22+00:00"
+  },
+  {
+   "host": "www.scfreiburg.com",
+   "tur": "resmi_kulup",
+   "sinif": "kullanilabilir",
+   "gerekce": "impressum/AGB: otomatik okuma yasağı yok",
+   "lig": "de.1",
+   "kulup": "SC Freiburg",
+   "yayinci_grubu": "www.scfreiburg.com",
+   "kimlik_isaretleri": [
+    "wikipedia",
+    "ana_sayfa_basligi"
+   ],
+   "kosul_url": "https://www.scfreiburg.com/impressum/",
+   "kosul_ozeti": null,
+   "robots_ai_engeli": false,
+   "kontrol_utc": "2026-11-25T17:21:26+00:00"
+  },
+  {
+   "host": "www.tsg-hoffenheim.de",
+   "tur": "resmi_kulup",
+   "sinif": "engelli",
+   "gerekce": "HTTP 403 — sunucu dürüst User-Agent'ı reddediyor",
+   "lig": "de.1",
+   "kulup": "TSG 1899 Hoffenheim",
+   "yayinci_grubu": "www.tsg-hoffenheim.de",
+   "kimlik_isaretleri": [
+    "wikipedia"
+   ],
+   "kosul_url": null,
+   "kosul_ozeti": null,
+   "robots_ai_engeli": null,
+   "kontrol_utc": "2026-11-25T17:21:32+00:00"
+  },
+  {
+   "host": "www.fcstpauli.com",
+   "tur": "resmi_kulup",
+   "sinif": "engelli",
+   "gerekce": "robots.txt: anthropic-ai/ClaudeBot/Claude-Web için Disallow: /",
+   "lig": "de.1",
+   "kulup": "FC St. Pauli 1910",
+   "yayinci_grubu": "www.fcstpauli.com",
+   "kimlik_isaretleri": [
+    "wikipedia",
+    "ana_sayfa_basligi"
+   ],
+   "kosul_url": "https://www.fcstpauli.com/impressum",
+   "kosul_ozeti": null,
+   "robots_ai_engeli": true,
+   "kontrol_utc": "2026-11-25T17:21:34+00:00"
+  },
+  {
+   "host": "www.eintracht.de",
+   "tur": "resmi_kulup",
+   "sinif": "kullanilabilir",
+   "gerekce": "nutzungsbedingungen/impressum: özel kullanım; otomatik okuma yasağı yok",
+   "lig": "de.1",
+   "kulup": "Eintracht Frankfurt",
+   "yayinci_grubu": "www.eintracht.de",
+   "kimlik_isaretleri": [
+    "wikipedia",
+    "ana_sayfa_basligi"
+   ],
+   "kosul_url": "https://www.eintracht.de/nutzungsbedingungen/",
+   "kosul_ozeti": null,
+   "robots_ai_engeli": false,
+   "kontrol_utc": "2026-11-25T17:21:44+00:00"
+  },
+  {
+   "host": "en.eintracht.de",
+   "tur": "resmi_kulup",
+   "sinif": "kullanilabilir",
+   "gerekce": "koşullar: yalnızca özel amaçlı kullanım, ticari kullanım yok",
+   "lig": "de.1",
+   "kulup": "Eintracht Frankfurt",
+   "yayinci_grubu": "en.eintracht.de",
+   "kimlik_isaretleri": [
+    "wikipedia",
+    "ana_sayfa_basligi"
+   ],
+   "kosul_url": "https://en.eintracht.de/terms-conditions-of-use/",
+   "kosul_ozeti": null,
+   "robots_ai_engeli": false,
+   "kontrol_utc": "2026-11-25T17:21:49+00:00"
+  },
+  {
+   "host": "www.fcaugsburg.de",
+   "tur": "resmi_kulup",
+   "sinif": "dogrulanmamis",
+   "gerekce": "koşullar uygun; kimlik tek işaret (Wikipedia Wikidata'ya yönlendiriyor)",
+   "lig": "de.1",
+   "kulup": "FC Augsburg",
+   "yayinci_grubu": "www.fcaugsburg.de",
+   "kimlik_isaretleri": [
+    "ana_sayfa_basligi"
+   ],
+   "kosul_url": "https://www.fcaugsburg.de/page/impressum-179",
+   "kosul_ozeti": null,
+   "robots_ai_engeli": false,
+   "kontrol_utc": "2026-11-25T17:21:54+00:00"
+  },
+  {
+   "host": "www.sv98.de",
+   "tur": "resmi_kulup",
+   "sinif": "kullanilabilir",
+   "gerekce": "impressum: çoğaltma/dağıtım izne bağlı; okuma yasağı yok",
+   "lig": "de.1",
+   "kulup": "SV Darmstadt 98",
+   "yayinci_grubu": "www.sv98.de",
+   "kimlik_isaretleri": [
+    "wikipedia",
+    "ana_sayfa_basligi"
+   ],
+   "kosul_url": "https://www.sv98.de/impressum/",
+   "kosul_ozeti": null,
+   "robots_ai_engeli": false,
+   "kontrol_utc": "2026-11-25T17:21:59+00:00"
+  },
+  {
+   "host": "www.vfl-wolfsburg.de",
+   "tur": "resmi_kulup",
+   "sinif": "kullanilabilir",
+   "gerekce": "impressum: çoğaltma izne bağlı; okuma yasağı yok",
+   "lig": "de.1",
+   "kulup": "VfL Wolfsburg",
+   "yayinci_grubu": "www.vfl-wolfsburg.de",
+   "kimlik_isaretleri": [
+    "wikipedia",
+    "ana_sayfa_basligi"
+   ],
+   "kosul_url": "https://www.vfl-wolfsburg.de/allgemeines/impressum",
+   "kosul_ozeti": null,
+   "robots_ai_engeli": false,
+   "kontrol_utc": "2026-11-25T17:22:04+00:00"
+  },
+  {
+   "host": "www.realmadrid.com",
+   "tur": "resmi_kulup",
+   "sinif": "engelli",
+   "gerekce": "aviso legal: otomatik betik/screen scraping ve sistematik veri toplama yasak",
+   "lig": "es.1",
+   "kulup": "Real Madrid CF",
+   "yayinci_grubu": "www.realmadrid.com",
+   "kimlik_isaretleri": [
+    "wikipedia",
+    "ana_sayfa_basligi"
+   ],
+   "kosul_url": "https://www.realmadrid.com/es-ES/legal/aviso-legal",
+   "kosul_ozeti": null,
+   "robots_ai_engeli": false,
+   "kontrol_utc": "2026-11-25T17:22:33+00:00"
+  },
+  {
+   "host": "www.fcbarcelona.es",
+   "tur": "resmi_kulup",
+   "sinif": "dogrulanmamis",
+   "gerekce": "koşullar uygun (özel kullanım); kimlik tek işaret (.es Wikipedia'da yok)",
+   "lig": "es.1",
+   "kulup": "FC Barcelona",
+   "yayinci_grubu": "www.fcbarcelona.es",
+   "kimlik_isaretleri": [
+    "ana_sayfa_basligi"
+   ],
+   "kosul_url": "https://www.fcbarcelona.es/es/aviso-legal",
+   "kosul_ozeti": null,
+   "robots_ai_engeli": false,
+   "kontrol_utc": "2026-11-25T17:22:38+00:00"
+  },
+  {
+   "host": "www.fcbarcelona.com",
+   "tur": "resmi_kulup",
+   "sinif": "kullanilabilir",
+   "gerekce": "legal notices: özel, kâr amacı gütmeyen kullanım; sistem yükleyen robot yasağı",
+   "lig": "es.1",
+   "kulup": "FC Barcelona",
+   "yayinci_grubu": "www.fcbarcelona.com",
+   "kimlik_isaretleri": [
+    "wikipedia",
+    "ana_sayfa_basligi"
+   ],
+   "kosul_url": "https://www.fcbarcelona.com/en/legal-notices",
+   "kosul_ozeti": null,
+   "robots_ai_engeli": false,
+   "kontrol_utc": "2026-11-25T17:22:41+00:00"
+  },
+  {
+   "host": "www.cdleganes.com",
+   "tur": "resmi_kulup",
+   "sinif": "engelli",
+   "gerekce": "términos: otomatik betik/screen scraping yasak",
+   "lig": "es.1",
+   "kulup": "CD Leganés",
+   "yayinci_grubu": "www.cdleganes.com",
+   "kimlik_isaretleri": [
+    "wikipedia",
+    "ana_sayfa_basligi"
+   ],
+   "kosul_url": "https://www.cdleganes.com/terminos-y-condiciones",
+   "kosul_ozeti": null,
+   "robots_ai_engeli": false,
+   "kontrol_utc": "2026-11-25T17:22:46+00:00"
+  },
+  {
+   "host": "www.realvalladolid.es",
+   "tur": "resmi_kulup",
+   "sinif": "kullanilabilir",
+   "gerekce": "aviso legal: çoğaltma izne bağlı; okuma yasağı yok (sayfalarda yayın tarihi yok)",
+   "lig": "es.1",
+   "kulup": "Real Valladolid CF",
+   "yayinci_grubu": "www.realvalladolid.es",
+   "kimlik_isaretleri": [
+    "wikipedia",
+    "ana_sayfa_basligi"
+   ],
+   "kosul_url": "https://www.realvalladolid.es/aviso-legal",
+   "kosul_ozeti": null,
+   "robots_ai_engeli": false,
+   "kontrol_utc": "2026-11-25T17:22:51+00:00"
+  },
+  {
+   "host": "www.athletic-club.eus",
+   "tur": "resmi_kulup",
+   "sinif": "engelli",
+   "gerekce": "HTTP 403 — sunucu dürüst User-Agent'ı reddediyor",
+   "lig": "es.1",
+   "kulup": "Athletic Club",
+   "yayinci_grubu": "www.athletic-club.eus",
+   "kimlik_isaretleri": [
+    "wikipedia"
+   ],
+   "kosul_url": null,
+   "kosul_ozeti": null,
+   "robots_ai_engeli": null,
+   "kontrol_utc": "2026-11-25T17:22:55+00:00"
+  },
+  {
+   "host": "osasuna.es",
+   "tur": "resmi_kulup",
+   "sinif": "kullanilabilir",
+   "gerekce": "aviso legal: çoğaltma izne bağlı; okuma yasağı yok",
+   "lig": "es.1",
+   "kulup": "CA Osasuna",
+   "yayinci_grubu": "osasuna.es",
+   "kimlik_isaretleri": [
+    "wikipedia",
+    "ana_sayfa_basligi"
+   ],
+   "kosul_url": "https://www.osasuna.es/aviso-legal",
+   "kosul_ozeti": null,
+   "robots_ai_engeli": false,
+   "kontrol_utc": "2026-11-25T17:22:56+00:00"
+  },
+  {
+   "host": "www.osasuna.es",
+   "tur": "resmi_kulup",
+   "sinif": "kullanilabilir",
+   "gerekce": "osasuna.es ile aynı site (Wikipedia: www.osasuna.es)",
+   "lig": "es.1",
+   "kulup": "CA Osasuna",
+   "yayinci_grubu": "www.osasuna.es",
+   "kimlik_isaretleri": [
+    "wikipedia",
+    "ana_sayfa_basligi"
+   ],
+   "kosul_url": null,
+   "kosul_ozeti": null,
+   "robots_ai_engeli": false,
+   "kontrol_utc": "2026-11-25"
+  },
+  {
+   "host": "www.juventus.com",
+   "tur": "resmi_kulup",
+   "sinif": "belirsiz",
+   "gerekce": "koşullar sayfası yalnızca JavaScript — okunamadı",
+   "lig": "it.1",
+   "kulup": "Juventus FC",
+   "yayinci_grubu": "www.juventus.com",
+   "kimlik_isaretleri": [
+    "wikipedia",
+    "ana_sayfa_basligi"
+   ],
+   "kosul_url": "https://www.juventus.com/it/termini-e-condizioni",
+   "kosul_ozeti": null,
+   "robots_ai_engeli": false,
+   "kontrol_utc": "2026-11-25T17:23:01+00:00"
+  },
+  {
+   "host": "www.asroma.com",
+   "tur": "resmi_kulup",
+   "sinif": "dogrulanmamis",
+   "gerekce": "koşullar: özel, ticari olmayan kullanım lisansı; kimlik tek işaret (Wikidata)",
+   "lig": "it.1",
+   "kulup": "AS Roma",
+   "yayinci_grubu": "www.asroma.com",
+   "kimlik_isaretleri": [
+    "ana_sayfa_basligi"
+   ],
+   "kosul_url": "https://www.asroma.com/en/terms-and-conditions",
+   "kosul_ozeti": null,
+   "robots_ai_engeli": false,
+   "kontrol_utc": "2026-11-25T17:23:09+00:00"
+  },
+  {
+   "host": "www.sslazio.it",
+   "tur": "resmi_kulup",
+   "sinif": "engelli",
+   "gerekce": "robots.txt: ClaudeBot/anthropic-ai için Disallow: /",
+   "lig": "it.1",
+   "kulup": "SS Lazio",
+   "yayinci_grubu": "www.sslazio.it",
+   "kimlik_isaretleri": [
+    "ana_sayfa_basligi"
+   ],
+   "kosul_url": "https://www.sslazio.it/it/termini-condizioni",
+   "kosul_ozeti": null,
+   "robots_ai_engeli": true,
+   "kontrol_utc": "2026-11-25T17:23:14+00:00"
+  },
+  {
+   "host": "www.ussalernitana1919.it",
+   "tur": "resmi_kulup",
+   "sinif": "belirsiz",
+   "gerekce": "yanıt yok (bağlantı hatası)",
+   "lig": "it.1",
+   "kulup": "US Salernitana 1919",
+   "yayinci_grubu": "www.ussalernitana1919.it",
+   "kimlik_isaretleri": [
+    "wikipedia"
+   ],
+   "kosul_url": null,
+   "kosul_ozeti": null,
+   "robots_ai_engeli": null,
+   "kontrol_utc": "2026-11-25T17:23:20+00:00"
+  },
+  {
+   "host": "www.acmonza.com",
+   "tur": "resmi_kulup",
+   "sinif": "belirsiz",
+   "gerekce": "kullanım koşulları sayfası bulunamadı",
+   "lig": "it.1",
+   "kulup": "AC Monza",
+   "yayinci_grubu": "www.acmonza.com",
+   "kimlik_isaretleri": [
+    "wikipedia",
+    "ana_sayfa_basligi"
+   ],
+   "kosul_url": "https://www.acmonza.com/pdf/ACMonza_MyMonza_InfoPrivacy_SitoWeb_App_2novembre2026.pdf",
+   "kosul_ozeti": null,
+   "robots_ai_engeli": false,
+   "kontrol_utc": "2026-11-25T17:23:23+00:00"
+  },
+  {
+   "host": "sscnapoli.it",
+   "tur": "resmi_kulup",
+   "sinif": "engelli",
+   "gerekce": "termini 5.3: hizmetlere otomatik araçlarla erişim yasak",
+   "lig": "it.1",
+   "kulup": "SSC Napoli",
+   "yayinci_grubu": "sscnapoli.it",
+   "kimlik_isaretleri": [
+    "ana_sayfa_basligi"
+   ],
+   "kosul_url": null,
+   "kosul_ozeti": null,
+   "robots_ai_engeli": false,
+   "kontrol_utc": "2026-11-25"
+  },
+  {
+   "host": "www.sscnapoli.it",
+   "tur": "resmi_kulup",
+   "sinif": "engelli",
+   "gerekce": "sscnapoli.it ile aynı site ve koşullar",
+   "lig": "it.1",
+   "kulup": "SSC Napoli",
+   "yayinci_grubu": "www.sscnapoli.it",
+   "kimlik_isaretleri": [
+    "ana_sayfa_basligi"
+   ],
+   "kosul_url": "https://sscnapoli.it/termini-di-servizio",
+   "kosul_ozeti": null,
+   "robots_ai_engeli": false,
+   "kontrol_utc": "2026-11-25T17:23:28+00:00"
+  },
+  {
+   "host": "www.sassuolocalcio.it",
+   "tur": "resmi_kulup",
+   "sinif": "engelli",
+   "gerekce": "bot doğrulaması / erişim engeli işareti",
+   "lig": "it.1",
+   "kulup": "US Sassuolo Calcio",
+   "yayinci_grubu": "www.sassuolocalcio.it",
+   "kimlik_isaretleri": [
+    "ana_sayfa_basligi"
+   ],
+   "kosul_url": null,
+   "kosul_ozeti": null,
+   "robots_ai_engeli": null,
+   "kontrol_utc": "2026-11-25T17:23:34+00:00"
+  },
+  {
+   "host": "www.thestar.co.uk",
+   "tur": "yerel_basin",
+   "sinif": "kullanilabilir",
+   "gerekce": "koşullar: çoğaltma/başka sistemde saklama yasak; okuma serbest (içerik saklanmıyor)",
+   "lig": "en.1",
+   "kulup": null,
+   "yayinci_grubu": "Iconic Media Group",
+   "kimlik_isaretleri": [],
+   "kosul_url": "https://www.thestar.co.uk/website-terms-conditions",
+   "kosul_ozeti": null,
+   "robots_ai_engeli": false,
+   "kontrol_utc": "2026-11-25T17:23:37+00:00"
+  },
+  {
+   "host": "www.sussexexpress.co.uk",
+   "tur": "yerel_basin",
+   "sinif": "kullanilabilir",
+   "gerekce": "koşullar: çoğaltma/başka sistemde saklama yasak; okuma serbest (içerik saklanmıyor)",
+   "lig": "en.1",
+   "kulup": null,
+   "yayinci_grubu": "Iconic Media Group",
+   "kimlik_isaretleri": [],
+   "kosul_url": "https://www.sussexexpress.co.uk/website-terms-conditions",
+   "kosul_ozeti": null,
+   "robots_ai_engeli": false,
+   "kontrol_utc": "2026-11-25T17:23:42+00:00"
+  },
+  {
+   "host": "www.hessenschau.de",
+   "tur": "yerel_basin",
+   "sinif": "engelli",
+   "gerekce": "robots.txt: claudebot için Disallow: /",
+   "lig": "de.1",
+   "kulup": null,
+   "yayinci_grubu": "hr",
+   "kimlik_isaretleri": [],
+   "kosul_url": null,
+   "kosul_ozeti": null,
+   "robots_ai_engeli": true,
+   "kontrol_utc": "2026-11-25T17:23:46+00:00"
+  },
+  {
+   "host": "www.kicker.de",
+   "tur": "ulusal_basin",
+   "sinif": "engelli",
+   "gerekce": "robots.txt: ClaudeBot/Claude-SearchBot/anthropic-ai/Claude-Web Disallow: /; ana sayfa 403",
+   "lig": "de.1",
+   "kulup": null,
+   "yayinci_grubu": "kicker",
+   "kimlik_isaretleri": [],
+   "kosul_url": null,
+   "kosul_ozeti": null,
+   "robots_ai_engeli": true,
+   "kontrol_utc": "2026-11-25T17:23:49+00:00"
+  },
+  {
+   "host": "www.noticiasdenavarra.com",
+   "tur": "yerel_basin",
+   "sinif": "engelli",
+   "gerekce": "HTTP 406 — sunucu reddediyor",
+   "lig": "es.1",
+   "kulup": null,
+   "yayinci_grubu": "Grupo Noticias",
+   "kimlik_isaretleri": [],
+   "kosul_url": null,
+   "kosul_ozeti": null,
+   "robots_ai_engeli": null,
+   "kontrol_utc": "2026-11-25T17:23:50+00:00"
+  },
+  {
+   "host": "www.deia.eus",
+   "tur": "yerel_basin",
+   "sinif": "engelli",
+   "gerekce": "HTTP 406 — sunucu reddediyor",
+   "lig": "es.1",
+   "kulup": null,
+   "yayinci_grubu": "Grupo Noticias",
+   "kimlik_isaretleri": [],
+   "kosul_url": null,
+   "kosul_ozeti": null,
+   "robots_ai_engeli": null,
+   "kontrol_utc": "2026-11-25T17:23:52+00:00"
+  },
+  {
+   "host": "sport.sky.it",
+   "tur": "ulusal_basin",
+   "sinif": "belirsiz",
+   "gerekce": "ana sayfa 'Error' döndürdü",
+   "lig": "it.1",
+   "kulup": null,
+   "yayinci_grubu": "Sky Italia",
+   "kimlik_isaretleri": [],
+   "kosul_url": null,
+   "kosul_ozeti": null,
+   "robots_ai_engeli": false,
+   "kontrol_utc": "2026-11-25T17:23:54+00:00"
+  },
+  {
+   "host": "www.corrieredellosport.it",
+   "tur": "ulusal_basin",
+   "sinif": "kullanilabilir",
+   "gerekce": "nota legale: çoğaltma/yeniden dağıtım yasak; okuma serbest (içerik saklanmıyor)",
+   "lig": "it.1",
+   "kulup": null,
+   "yayinci_grubu": "Corriere dello Sport",
+   "kimlik_isaretleri": [],
+   "kosul_url": "https://www.corrieredellosport.it/widget/utility/2017/10/30-33143936/nota_legale",
+   "kosul_ozeti": null,
+   "robots_ai_engeli": false,
+   "kontrol_utc": "2026-11-25T17:23:56+00:00"
+  }
+ ]
+}

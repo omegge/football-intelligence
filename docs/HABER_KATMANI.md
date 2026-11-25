@@ -1,8 +1,11 @@
 # Katman 2 — Güncel ve tarihsel haber araştırması: teknik tasarım (taslak, 24.11.2026)
 
-Durum: **TASARIM.** Kod yazılmadı. Haberler modele otomatik olarak girmez. Bu belge `docs/VERI_KAYNAKLARI.md`
-"İki katmanlı mimari" bölümünün ve `lib/fi/model/DURUM_WIP.md` içindeki "Sonraki aşama kapsamı" maddesinin teknik
-karşılığıdır.
+Durum: **İLK UYGULAMA (25.11.2026)** — `lib/fi/haber/` (kaynak kaydı ve uyum sınıflandırması, iki işaretle kulüp
+kimliği, güvenli okuyucu, yayın zamanı ↔ başlama karşılaştırması, yapılandırılmış kanıt + durum kayıtları, tarihsel/güncel
+oturumlar) ve `veri/haber_kaynaklari.json` (40 host). Testler: `tests/test_haber.py` (ağsız). Haberler modele OTOMATİK
+GİRMEZ; nicel etki her zaman "hesaplanamaz". Aşağıdaki tasarımdan farkı: aynı gün saati doğrulanmamış içerik
+maç öncesi DOĞRULANMIŞ kanıt sayılmaz (durum kaydı olur). Bu belge `docs/VERI_KAYNAKLARI.md` "İki katmanlı mimari"
+bölümünün ve `lib/fi/model/DURUM_WIP.md` içindeki "Sonraki aşama kapsamı" maddesinin teknik karşılığıdır.
 
 ## 1. Amaç ve sınırlar
 - **Amaç:** Belirli bir maç için maç öncesinde bilinebilen takım istihbaratını toplamak, kaynağıyla birlikte kaydetmek
