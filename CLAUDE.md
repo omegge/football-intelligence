@@ -8,6 +8,7 @@ Kişisel futbol araştırma ve bağımsız olasılık analizi sistemi. Yalnızca
 | "Güncel futbol bültenini çek" | `football-bulletin-fetch` becerisi: maç öncesi + canlı bülten → Excel + JSON, dosyaları gönder |
 | "Canlı bülteni çek" | aynı beceri, `--akis canli` |
 | "… tarihli bülteni çek" | aynı beceri, `--tarih` ya da `--baslangic/--bitis` (TR saati) |
+| "Arayüzü aç" | `PYTHONPATH=lib python3 -m uygulama` → http://127.0.0.1:8765 (ayrıntı `docs/V1_ARAYUZ.md`) |
 
 (Maç analizi, model, oran karşılaştırması ve backtest becerileri henüz eklenmedi.)
 
