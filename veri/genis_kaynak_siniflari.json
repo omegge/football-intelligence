@@ -1,0 +1,28 @@
+{
+ "aciklama": "Geniş araştırma için kaynak SINIFI (güvenilirlik katmanı) kaydı. Okuma izni bu dosyada VERİLMEZ: sayfa ancak veri/haber_kaynaklari.json'da 'kullanilabilir' ise açılır; diğer hostlarda yalnızca web arama özeti + bağlantı saklanır. Sınıflar kaynağın türüdür, tek tek haberin doğruluğunu göstermez.",
+ "guncelleme": "2026-11-26",
+ "hostlar": {
+  "www.bbc.com": "ulusal_basin", "www.bbc.co.uk": "ulusal_basin", "www.skysports.com": "ulusal_basin",
+  "www.theguardian.com": "ulusal_basin", "www.theathletic.com": "ulusal_basin", "www.nytimes.com": "ulusal_basin",
+  "www.marca.com": "ulusal_basin", "as.com": "ulusal_basin", "www.mundodeportivo.com": "ulusal_basin",
+  "www.gazzetta.it": "ulusal_basin", "www.corrieredellosport.it": "ulusal_basin", "www.kicker.de": "ulusal_basin",
+  "www.lequipe.fr": "ulusal_basin", "www.ojogo.pt": "ulusal_basin", "www.record.pt": "ulusal_basin",
+  "www.voetbalinternational.nl": "ulusal_basin", "www.aa.com.tr": "haber_ajansi", "www.reuters.com": "haber_ajansi",
+  "apnews.com": "haber_ajansi", "www.hampshirechronicle.co.uk": "yerel_basin", "www.dailyecho.co.uk": "yerel_basin",
+  "www.gazettelive.co.uk": "yerel_basin", "www.northernecho.co.uk": "yerel_basin",
+  "www.whoscored.com": "istatistik_platformu", "fbref.com": "istatistik_platformu", "understat.com": "istatistik_platformu",
+  "www.sofascore.com": "istatistik_platformu", "www.fotmob.com": "istatistik_platformu",
+  "www.transfermarkt.com": "istatistik_platformu",
+  "www.sportsmole.co.uk": "onizleme_tahmin_sitesi", "www.forebet.com": "onizleme_tahmin_sitesi",
+  "www.whoscored.com/preview": "onizleme_tahmin_sitesi", "www.sportskeeda.com": "onizleme_tahmin_sitesi",
+  "www.reddit.com": "forum_topluluk", "old.reddit.com": "forum_topluluk"
+ },
+ "otomatik_okuma_notlari": {
+  "www.reddit.com": "Kullanıcı sözleşmesi ve robots.txt otomatik erişimi kısıtlıyor (bu oturumda yeniden denetlenmedi): sayfa açılmaz, yalnızca arama özeti.",
+  "www.sofascore.com": "bot koruması (önceki karar): açılmaz",
+  "www.fotmob.com": "imzalı istek başlıkları (önceki karar): açılmaz",
+  "www.transfermarkt.com": "otomatik veri toplama yasağı (önceki karar): açılmaz",
+  "fbref.com": "kullanıcı kararı: kullanılmaz", "understat.com": "kullanıcı kararı: kullanılmaz",
+  "www.theathletic.com": "ödeme duvarı: içerik açılmaz, yalnızca arama özeti"
+ }
+}

@@ -1,0 +1,374 @@
+{
+ "aciklama": "Fikstür hizalaması kanıtı (27.11 bülteni ↔ football-data.org 2026-27, season=2026). Hiçbiri onaylı değildir; 'guclu_aday' için takım adı eşlemesi ayrıca onaylanmalıdır (ör. Nesine 'Paris' = Paris FC, PSG değil).",
+ "adaylar": [
+  {
+   "nesine_lig": "İngiltere Championship",
+   "nesine_yarisma_kimligi": [
+    52
+   ],
+   "ulke": [
+    "ENG"
+   ],
+   "kaynak": "football-data.org",
+   "kaynak_kodu": "ELC",
+   "kaynak_lig": "en.2",
+   "sezon": "2026-27",
+   "fd_takim_sayisi": 24,
+   "nesine_mac": 1,
+   "hizali_mac": 1,
+   "tek_aday_mac": 0,
+   "hizasiz_mac": 0,
+   "kanit": {
+    "hizali": [
+     {
+      "nesine": "Southampton - Middlesbrough",
+      "nesine_kod": 3331002,
+      "fd": "Southampton FC - Middlesbrough FC",
+      "fd_id": 561968,
+      "utc": "2026-11-27T20:00",
+      "takim_eslesmesi": [
+       "kesin",
+       "kesin"
+      ]
+     }
+    ],
+    "tek_aday_dakika": [],
+    "hizasiz": []
+   },
+   "fd_sha256": "3d89dba8f696d089185209a4d283f8923e40d2d2ddc75d9f7392658c9e9efb28",
+   "durum": "kesin_eslesme_adayi",
+   "onay": "kullanıcı onayı bekliyor",
+   "not": "Fikstür hizalaması = aynı başlama dakikası + iki takım. Takım benzerliği tek başına kanıt değil."
+  },
+  {
+   "nesine_lig": "İngiltere Premier Lig",
+   "nesine_yarisma_kimligi": [
+    43
+   ],
+   "ulke": [
+    "ENG"
+   ],
+   "kaynak": "football-data.org",
+   "kaynak_kodu": "PL",
+   "kaynak_lig": "en.1",
+   "sezon": "2026-27",
+   "fd_takim_sayisi": 20,
+   "nesine_mac": 1,
+   "hizali_mac": 0,
+   "tek_aday_mac": 1,
+   "hizasiz_mac": 0,
+   "kanit": {
+    "hizali": [],
+    "tek_aday_dakika": [
+     {
+      "nesine": "Nottingham F. - Chelsea",
+      "utc": "2026-11-27T20:00",
+      "ayni_dakika_fd_maci": 1,
+      "tek_aday": "Nottingham Forest FC - Chelsea FC",
+      "fd_id": 560658,
+      "takim_eslesmesi": [
+       "ad_onayi_gerekli",
+       "kesin"
+      ]
+     }
+    ],
+    "hizasiz": []
+   },
+   "fd_sha256": "02d66e62a4ea245bcdf6e4925fc752b53659115df22e9f7f365e3daea2e886a9",
+   "durum": "guclu_aday_takim_adi_onayi_gerekli",
+   "onay": "kullanıcı onayı bekliyor",
+   "not": "Fikstür hizalaması = aynı başlama dakikası + iki takım. Takım benzerliği tek başına kanıt değil."
+  },
+  {
+   "nesine_lig": "Almanya Bundesliga",
+   "nesine_yarisma_kimligi": [
+    45
+   ],
+   "ulke": [
+    "DE"
+   ],
+   "kaynak": "football-data.org",
+   "kaynak_kodu": "BL1",
+   "kaynak_lig": "de.1",
+   "sezon": "2026-27",
+   "fd_takim_sayisi": 18,
+   "nesine_mac": 1,
+   "hizali_mac": 0,
+   "tek_aday_mac": 1,
+   "hizasiz_mac": 0,
+   "kanit": {
+    "hizali": [],
+    "tek_aday_dakika": [
+     {
+      "nesine": "Werder Bremen - M'gladbach",
+      "utc": "2026-11-27T19:30",
+      "ayni_dakika_fd_maci": 1,
+      "tek_aday": "SV Werder Bremen - Borussia Mönchengladbach",
+      "fd_id": 565869,
+      "takim_eslesmesi": [
+       "benzer",
+       "ad_onayi_gerekli"
+      ]
+     }
+    ],
+    "hizasiz": []
+   },
+   "fd_sha256": "f3cbf42f43fb079b88be65f161e581718978ff64d5019840f1c5c9c6ce17a9e8",
+   "durum": "guclu_aday_takim_adi_onayi_gerekli",
+   "onay": "kullanıcı onayı bekliyor",
+   "not": "Fikstür hizalaması = aynı başlama dakikası + iki takım. Takım benzerliği tek başına kanıt değil."
+  },
+  {
+   "nesine_lig": "İtalya Serie A",
+   "nesine_yarisma_kimligi": [
+    143
+   ],
+   "ulke": [
+    "IT"
+   ],
+   "kaynak": "football-data.org",
+   "kaynak_kodu": "SA",
+   "kaynak_lig": "it.1",
+   "sezon": "2026-27",
+   "fd_takim_sayisi": 20,
+   "nesine_mac": 1,
+   "hizali_mac": 0,
+   "tek_aday_mac": 1,
+   "hizasiz_mac": 0,
+   "kanit": {
+    "hizali": [],
+    "tek_aday_dakika": [
+     {
+      "nesine": "Venezia - Bologna",
+      "utc": "2026-11-27T19:45",
+      "ayni_dakika_fd_maci": 1,
+      "tek_aday": "Venezia FC - Bologna FC 1909",
+      "fd_id": 558515,
+      "takim_eslesmesi": [
+       "kesin",
+       "ad_onayi_gerekli"
+      ]
+     }
+    ],
+    "hizasiz": []
+   },
+   "fd_sha256": "8905ae3a0337731ee1c76b66a533b42ccb9589a650a9ecd995c33a0de9868c66",
+   "durum": "guclu_aday_takim_adi_onayi_gerekli",
+   "onay": "kullanıcı onayı bekliyor",
+   "not": "Fikstür hizalaması = aynı başlama dakikası + iki takım. Takım benzerliği tek başına kanıt değil."
+  },
+  {
+   "nesine_lig": "İspanya La Liga",
+   "nesine_yarisma_kimligi": [
+    129
+   ],
+   "ulke": [
+    "ES"
+   ],
+   "kaynak": "football-data.org",
+   "kaynak_kodu": "PD",
+   "kaynak_lig": "es.1",
+   "sezon": "2026-27",
+   "fd_takim_sayisi": 20,
+   "nesine_mac": 1,
+   "hizali_mac": 0,
+   "tek_aday_mac": 1,
+   "hizasiz_mac": 0,
+   "kanit": {
+    "hizali": [],
+    "tek_aday_dakika": [
+     {
+      "nesine": "Levante - Santander",
+      "utc": "2026-11-27T20:00",
+      "ayni_dakika_fd_maci": 1,
+      "tek_aday": "Levante UD - Real Racing Club de Santander",
+      "fd_id": 564765,
+      "takim_eslesmesi": [
+       "kesin",
+       "ad_onayi_gerekli"
+      ]
+     }
+    ],
+    "hizasiz": []
+   },
+   "fd_sha256": "13b6d71b9323e8eb2309f0dfcec6c01efc1da5a3207418d9fbc9b0b8e7ce4b1e",
+   "durum": "guclu_aday_takim_adi_onayi_gerekli",
+   "onay": "kullanıcı onayı bekliyor",
+   "not": "Fikstür hizalaması = aynı başlama dakikası + iki takım. Takım benzerliği tek başına kanıt değil."
+  },
+  {
+   "nesine_lig": "Fransa Ligue 1",
+   "nesine_yarisma_kimligi": [
+    381
+   ],
+   "ulke": [
+    "FR"
+   ],
+   "kaynak": "football-data.org",
+   "kaynak_kodu": "FL1",
+   "kaynak_lig": "fr.1",
+   "sezon": "2026-27",
+   "fd_takim_sayisi": 18,
+   "nesine_mac": 1,
+   "hizali_mac": 0,
+   "tek_aday_mac": 1,
+   "hizasiz_mac": 0,
+   "kanit": {
+    "hizali": [],
+    "tek_aday_dakika": [
+     {
+      "nesine": "Brest - Paris",
+      "utc": "2026-11-27T19:45",
+      "ayni_dakika_fd_maci": 1,
+      "tek_aday": "Stade Brestois 29 - Paris FC",
+      "fd_id": 559616,
+      "takim_eslesmesi": [
+       "ad_onayi_gerekli",
+       "kesin"
+      ]
+     }
+    ],
+    "hizasiz": []
+   },
+   "fd_sha256": "70147c8cdc12cfa279b9cabd1d5e6839f928478ab400f3190e4c6a03a55f7151",
+   "durum": "guclu_aday_takim_adi_onayi_gerekli",
+   "onay": "kullanıcı onayı bekliyor",
+   "not": "Fikstür hizalaması = aynı başlama dakikası + iki takım. Takım benzerliği tek başına kanıt değil."
+  },
+  {
+   "nesine_lig": "Hollanda Eredivisie",
+   "nesine_yarisma_kimligi": [
+    322
+   ],
+   "ulke": [
+    "NL"
+   ],
+   "kaynak": "football-data.org",
+   "kaynak_kodu": "DED",
+   "kaynak_lig": "nl.1",
+   "sezon": "2026-27",
+   "fd_takim_sayisi": 18,
+   "nesine_mac": 1,
+   "hizali_mac": 0,
+   "tek_aday_mac": 1,
+   "hizasiz_mac": 0,
+   "kanit": {
+    "hizali": [],
+    "tek_aday_dakika": [
+     {
+      "nesine": "Groningen - Willem II",
+      "utc": "2026-11-27T19:00",
+      "ayni_dakika_fd_maci": 1,
+      "tek_aday": "FC Groningen - Willem II Tilburg",
+      "fd_id": 558820,
+      "takim_eslesmesi": [
+       "kesin",
+       "ad_onayi_gerekli"
+      ]
+     }
+    ],
+    "hizasiz": []
+   },
+   "fd_sha256": "04590a824fe21e4dd9b05a8bda552f538ad6f226a20b6d2e6e03b8b6be6b616e",
+   "durum": "guclu_aday_takim_adi_onayi_gerekli",
+   "onay": "kullanıcı onayı bekliyor",
+   "not": "Fikstür hizalaması = aynı başlama dakikası + iki takım. Takım benzerliği tek başına kanıt değil."
+  },
+  {
+   "nesine_lig": "Portekiz Premier Lig",
+   "nesine_yarisma_kimligi": [
+    566
+   ],
+   "ulke": [
+    "PT"
+   ],
+   "kaynak": "football-data.org",
+   "kaynak_kodu": "PPL",
+   "kaynak_lig": "pt.1",
+   "sezon": "2026-27",
+   "fd_takim_sayisi": 18,
+   "nesine_mac": 1,
+   "hizali_mac": 0,
+   "tek_aday_mac": 0,
+   "hizasiz_mac": 1,
+   "kanit": {
+    "hizali": [],
+    "tek_aday_dakika": [],
+    "hizasiz": [
+     {
+      "nesine": "Maritimo - N. Madeira",
+      "utc": "2026-11-27T20:15",
+      "ayni_dakika_fd_maci": 1
+     }
+    ]
+   },
+   "fd_sha256": "66d0a0f3a31ec8b7e6e25c2fdeed68695629d7aab50e3f0dc259cb301f6ca269",
+   "durum": "uyusmuyor",
+   "onay": "kullanıcı onayı bekliyor",
+   "not": "Fikstür hizalaması = aynı başlama dakikası + iki takım. Takım benzerliği tek başına kanıt değil."
+  },
+  {
+   "nesine_lig": "Hollanda 1. Lig",
+   "nesine_yarisma_kimligi": [
+    681
+   ],
+   "ulke": [
+    "NL"
+   ],
+   "kaynak": "football-data.org",
+   "kaynak_kodu": "DED",
+   "kaynak_lig": "nl.1",
+   "sezon": "2026-27",
+   "fd_takim_sayisi": 18,
+   "nesine_mac": 7,
+   "hizali_mac": 0,
+   "tek_aday_mac": 0,
+   "hizasiz_mac": 7,
+   "kanit": {
+    "hizali": [],
+    "tek_aday_dakika": [],
+    "hizasiz": [
+     {
+      "nesine": "VVV Venlo - Waalwijk",
+      "utc": "2026-11-27T19:00",
+      "ayni_dakika_fd_maci": 1
+     },
+     {
+      "nesine": "Jong Ajax - Heracles",
+      "utc": "2026-11-27T19:00",
+      "ayni_dakika_fd_maci": 1
+     },
+     {
+      "nesine": "Dordrecht - Vitesse",
+      "utc": "2026-11-27T19:00",
+      "ayni_dakika_fd_maci": 1
+     },
+     {
+      "nesine": "Jong AZ Alkmaar - TOP Oss",
+      "utc": "2026-11-27T19:00",
+      "ayni_dakika_fd_maci": 1
+     },
+     {
+      "nesine": "Jong Utrecht - Almere City",
+      "utc": "2026-11-27T19:00",
+      "ayni_dakika_fd_maci": 1
+     },
+     {
+      "nesine": "Maastricht - Jong PSV",
+      "utc": "2026-11-27T19:00",
+      "ayni_dakika_fd_maci": 1
+     },
+     {
+      "nesine": "NAC Breda - Den Bosch",
+      "utc": "2026-11-27T19:00",
+      "ayni_dakika_fd_maci": 1
+     }
+    ]
+   },
+   "fd_sha256": "04590a824fe21e4dd9b05a8bda552f538ad6f226a20b6d2e6e03b8b6be6b616e",
+   "durum": "uyusmuyor",
+   "onay": "kullanıcı onayı bekliyor",
+   "not": "Fikstür hizalaması = aynı başlama dakikası + iki takım. Takım benzerliği tek başına kanıt değil."
+  }
+ ]
+}

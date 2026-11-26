@@ -86,8 +86,14 @@ class H1KaynakUyum(Temel):
     def test_depo_kaydi_40_host(self):
         k = KaynakKaydi.yukle()
         say = {s: len(v) for s, v in k.sinifa_gore().items()}
-        self.assertEqual(sum(say.values()), 41)            # pilotun 40 hostu + fctwente.nl (26.11.2026)
-        self.assertEqual(say, {"kullanilabilir": 14, "dogrulanmamis": 3, "engelli": 15, "belirsiz": 9})
+        # pilotun 40 hostu + fctwente.nl + 26.11.2026 kullanıcı onaylı denetim (6 host)
+        self.assertEqual(sum(say.values()), 47)
+        self.assertEqual(say, {"kullanilabilir": 17, "dogrulanmamis": 5, "engelli": 16, "belirsiz": 9})
+        self.assertTrue(k.okunabilir_mi("www.southamptonfc.com"))
+        self.assertFalse(k.okunabilir_mi("www.gazettelive.co.uk"))   # robots.txt AI ajanlarını engelliyor
+        self.assertTrue(k.get("www.gazettelive.co.uk").robots_ai_engeli)
+        self.assertFalse(k.okunabilir_mi("www.mfc.co.uk"))           # kimlik iki işaretle doğrulanamadı
+        self.assertFalse(k.okunabilir_mi("www.dailyecho.co.uk"))     # kayıtta yok → kapalı
         self.assertFalse(k.okunabilir_mi("fctwente.nl"))   # koşullar bulunamadı → okunmaz
         for h in ("www.bundesliga.com", "www.fcstpauli.com", "www.realmadrid.com", "www.kicker.de", "www.tsg-hoffenheim.de"):
             self.assertFalse(k.okunabilir_mi(h), h)

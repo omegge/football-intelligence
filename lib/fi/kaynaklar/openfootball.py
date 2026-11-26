@@ -56,8 +56,14 @@ def _hafta(tur) -> int | None:
     return int(m.group(1)) if m else None
 
 
-def tarih_denetimi(maclar: list[dict]) -> tuple[list[str], list[str]]:
-    """Dönüş: (sert sorunlar, uyarılar). Yalnızca maç listesine bakar; kaynak dosyaya dokunmaz."""
+# Lig biçimi gereği aynı ev–deplasman eşleşmesinin bir sezonda en çok kaç kez oynandığı (varsayılan 1).
+# İskoçya (33+5), Avusturya (22+10 / eski 36 hafta), İsviçre (36 hafta), Macaristan (33 hafta): aynı ev sahibiyle 2 maç.
+ESLESME_UST_SINIRI = {"sco.1": 2, "at.1": 2, "at.2": 2, "ch.1": 2, "ch.2": 2, "hu.1": 2}
+
+
+def tarih_denetimi(maclar: list[dict], ust_sinir: int = 1) -> tuple[list[str], list[str]]:
+    """Dönüş: (sert sorunlar, uyarılar). Yalnızca maç listesine bakar; kaynak dosyaya dokunmaz.
+    ust_sinir: lig biçimine göre aynı ev–deplasman eşleşmesinin aynı aşamada izin verilen en çok tekrarı."""
     sert, uyari = [], []
     sezonlar: dict[str, list] = {}
     for m in maclar:
@@ -76,8 +82,18 @@ def tarih_denetimi(maclar: list[dict]) -> tuple[list[str], list[str]]:
                                 f"({min(ilk)}) önce")
         c: dict = {}
         for m in ms:
-            c[(m["ev"], m["dep"])] = c.get((m["ev"], m["dep"]), 0) + 1
-        sert += [f"{s}: {e} – {d} mükerrer ({n}×)" for (e, d), n in c.items() if n > 1]
+            c.setdefault((m["ev"], m["dep"]), []).append(m.get("tur"))
+        for (e, d), turlar in c.items():
+            if len(turlar) < 2:
+                continue
+            # Kupa: aynı eşleşme FARKLI turlarda (ör. 'Group H' ve 'Quarterfinals') meşrudur. Lig haftaları arasında
+            # ya da aynı turda tekrar ise serttir.
+            # Aşama = tur adının rakamsız hali ('League, Matchday 1' → 'league, matchday'; 'Playoffs, Matchday 1' →
+            # 'playoffs, matchday'). Aynı aşamada tekrar (lig haftaları dahil) ya da aynı tur adı tekrarı serttir.
+            asamalar = [re.sub(r"\d+", "", t or "").strip().casefold() for t in turlar]
+            asama_sayisi = max(asamalar.count(a) for a in set(asamalar))
+            if asama_sayisi > ust_sinir or len(set(turlar)) < len(turlar):
+                sert.append(f"{s}: {e} – {d} mükerrer ({len(turlar)}×)")
         hafta: dict[int, list] = {}
         for m in ms:
             if _hafta(m.get("tur")) is not None:
@@ -178,7 +194,7 @@ def lig_oku(lig: str, kok: Path = KOK, sezonlar: list[str] | None = None,
     if len(tamamlanan) + len(kaynakta_skorlu) != beklenen_skor:
         raise VeriTutarsizligi(f"{lig}: {beklenen_skor} skor kaydından yalnızca "
                                f"{len(tamamlanan) + len(kaynakta_skorlu)} tanesi kaynakta bulundu")
-    sert, uyari = tarih_denetimi(maclar)
+    sert, uyari = tarih_denetimi(maclar, ESLESME_UST_SINIRI.get(lig, 1))
     if sert:
         raise VeriTutarsizligi(f"{lig}: {len(sert)} düzeltilmemiş tarih tutarsızlığı: " + "; ".join(sert[:5]))
     maclar.sort(key=lambda m: (m["tarih"], m["saat"] or "", m["ev"]))

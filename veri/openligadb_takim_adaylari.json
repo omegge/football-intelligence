@@ -1,0 +1,266 @@
+{
+ "aciklama": "OpenLigaDB (Almanca ad) → Nesine adı ADAYLARI. Kanıt: aynı UTC başlama dakikası ve aynı anda başlayan Nesine maç sayısı. Hiçbiri onaylı değildir; ad benzerliği kanıt sayılmaz.",
+ "uretim_utc": "2026-11-26T16:59:00+00:00",
+ "adaylar": [
+  {
+   "openligadb_adi": "Union Saint-Gilloise",
+   "openligadb_takim_id": 4825,
+   "nesine_adi": "U. S. Gilloise",
+   "kanit": {
+    "utc_baslama": "2026-11-26T17:45",
+    "openligadb_mac_id": 87843,
+    "nesine_mac_kodu": 3326603,
+    "ayni_anda_baslayan_nesine_maci": 17,
+    "karsilasma_belirleyici": "ortak ad: ['Lech Poznan']"
+   },
+   "durum": "onay_bekliyor"
+  },
+  {
+   "openligadb_adi": "Lech Poznan",
+   "openligadb_takim_id": 449,
+   "nesine_adi": "Lech Poznan",
+   "kanit": {
+    "utc_baslama": "2026-11-26T17:45",
+    "openligadb_mac_id": 87843,
+    "nesine_mac_kodu": 3326603,
+    "ayni_anda_baslayan_nesine_maci": 17,
+    "karsilasma_belirleyici": "ortak ad: ['Lech Poznan']"
+   },
+   "durum": "onay_bekliyor"
+  },
+  {
+   "openligadb_adi": "Celta Vigo",
+   "openligadb_takim_id": 2175,
+   "nesine_adi": "Celta Vigo",
+   "kanit": {
+    "utc_baslama": "2026-11-26T17:45",
+    "openligadb_mac_id": 87844,
+    "nesine_mac_kodu": 3326649,
+    "ayni_anda_baslayan_nesine_maci": 17,
+    "karsilasma_belirleyici": "ortak ad: ['Celta Vigo']"
+   },
+   "durum": "onay_bekliyor"
+  },
+  {
+   "openligadb_adi": "AFC Bournemouth",
+   "openligadb_takim_id": 2942,
+   "nesine_adi": "Bournemouth",
+   "kanit": {
+    "utc_baslama": "2026-11-26T17:45",
+    "openligadb_mac_id": 87844,
+    "nesine_mac_kodu": 3326649,
+    "ayni_anda_baslayan_nesine_maci": 17,
+    "karsilasma_belirleyici": "ortak ad: ['Celta Vigo']"
+   },
+   "durum": "onay_bekliyor"
+  },
+  {
+   "openligadb_adi": "Sparta Prag",
+   "openligadb_takim_id": 4199,
+   "nesine_adi": "Sparta Prag",
+   "kanit": {
+    "utc_baslama": "2026-11-26T20:00",
+    "openligadb_mac_id": 87845,
+    "nesine_mac_kodu": 3326611,
+    "ayni_anda_baslayan_nesine_maci": 20,
+    "karsilasma_belirleyici": "ortak ad: ['AZ Alkmaar', 'Sparta Prag']"
+   },
+   "durum": "onay_bekliyor"
+  },
+  {
+   "openligadb_adi": "AZ Alkmaar",
+   "openligadb_takim_id": 727,
+   "nesine_adi": "AZ Alkmaar",
+   "kanit": {
+    "utc_baslama": "2026-11-26T20:00",
+    "openligadb_mac_id": 87845,
+    "nesine_mac_kodu": 3326611,
+    "ayni_anda_baslayan_nesine_maci": 20,
+    "karsilasma_belirleyici": "ortak ad: ['AZ Alkmaar', 'Sparta Prag']"
+   },
+   "durum": "onay_bekliyor"
+  },
+  {
+   "openligadb_adi": "Ferencváros Budapest",
+   "openligadb_takim_id": 5250,
+   "nesine_adi": "Ferencvaros",
+   "kanit": {
+    "utc_baslama": "2026-11-26T20:00",
+    "openligadb_mac_id": 87847,
+    "nesine_mac_kodu": 3326534,
+    "ayni_anda_baslayan_nesine_maci": 20,
+    "karsilasma_belirleyici": "ortak ad: ['NK Celje']"
+   },
+   "durum": "onay_bekliyor"
+  },
+  {
+   "openligadb_adi": "NK Celje",
+   "openligadb_takim_id": 8885,
+   "nesine_adi": "NK Celje",
+   "kanit": {
+    "utc_baslama": "2026-11-26T20:00",
+    "openligadb_mac_id": 87847,
+    "nesine_mac_kodu": 3326534,
+    "ayni_anda_baslayan_nesine_maci": 20,
+    "karsilasma_belirleyici": "ortak ad: ['NK Celje']"
+   },
+   "durum": "onay_bekliyor"
+  },
+  {
+   "openligadb_adi": "NEC Nijmegen",
+   "openligadb_takim_id": 443,
+   "nesine_adi": "NEC Nijmegen",
+   "kanit": {
+    "utc_baslama": "2026-11-26T20:00",
+    "openligadb_mac_id": 87849,
+    "nesine_mac_kodu": 3326546,
+    "ayni_anda_baslayan_nesine_maci": 20,
+    "karsilasma_belirleyici": "ortak ad: ['NEC Nijmegen']"
+   },
+   "durum": "onay_bekliyor"
+  },
+  {
+   "openligadb_adi": "Stade Rennes",
+   "openligadb_takim_id": 4639,
+   "nesine_adi": "Rennes",
+   "kanit": {
+    "utc_baslama": "2026-11-26T20:00",
+    "openligadb_mac_id": 87849,
+    "nesine_mac_kodu": 3326546,
+    "ayni_anda_baslayan_nesine_maci": 20,
+    "karsilasma_belirleyici": "ortak ad: ['NEC Nijmegen']"
+   },
+   "durum": "onay_bekliyor"
+  },
+  {
+   "openligadb_adi": "FK Kairat",
+   "openligadb_takim_id": 7082,
+   "nesine_adi": "K. Almaty",
+   "kanit": {
+    "utc_baslama": "2026-11-26T15:30",
+    "openligadb_mac_id": 88333,
+    "nesine_mac_kodu": 3326467,
+    "ayni_anda_baslayan_nesine_maci": 1,
+    "karsilasma_belirleyici": "tek maç"
+   },
+   "durum": "onay_bekliyor"
+  },
+  {
+   "openligadb_adi": "Mjällby AIF",
+   "openligadb_takim_id": 8899,
+   "nesine_adi": "Mjallby",
+   "kanit": {
+    "utc_baslama": "2026-11-26T15:30",
+    "openligadb_mac_id": 88333,
+    "nesine_mac_kodu": 3326467,
+    "ayni_anda_baslayan_nesine_maci": 1,
+    "karsilasma_belirleyici": "tek maç"
+   },
+   "durum": "onay_bekliyor"
+  },
+  {
+   "openligadb_adi": "Brann",
+   "openligadb_takim_id": 1476,
+   "nesine_adi": "Brann",
+   "kanit": {
+    "utc_baslama": "2026-11-26T17:45",
+    "openligadb_mac_id": 88342,
+    "nesine_mac_kodu": 3326541,
+    "ayni_anda_baslayan_nesine_maci": 17,
+    "karsilasma_belirleyici": "ortak ad: ['AGF Aarhus', 'Brann']"
+   },
+   "durum": "onay_bekliyor"
+  },
+  {
+   "openligadb_adi": "AGF Aarhus",
+   "openligadb_takim_id": 8896,
+   "nesine_adi": "AGF Aarhus",
+   "kanit": {
+    "utc_baslama": "2026-11-26T17:45",
+    "openligadb_mac_id": 88342,
+    "nesine_mac_kodu": 3326541,
+    "ayni_anda_baslayan_nesine_maci": 17,
+    "karsilasma_belirleyici": "ortak ad: ['AGF Aarhus', 'Brann']"
+   },
+   "durum": "onay_bekliyor"
+  },
+  {
+   "openligadb_adi": "Hajduk Split",
+   "openligadb_takim_id": 1218,
+   "nesine_adi": "Hajduk Split",
+   "kanit": {
+    "utc_baslama": "2026-11-26T20:00",
+    "openligadb_mac_id": 88345,
+    "nesine_mac_kodu": 3326568,
+    "ayni_anda_baslayan_nesine_maci": 20,
+    "karsilasma_belirleyici": "ortak ad: ['Hajduk Split']"
+   },
+   "durum": "onay_bekliyor"
+  },
+  {
+   "openligadb_adi": "VV Sint-Truiden",
+   "openligadb_takim_id": 8905,
+   "nesine_adi": "St. Truidense",
+   "kanit": {
+    "utc_baslama": "2026-11-26T20:00",
+    "openligadb_mac_id": 88345,
+    "nesine_mac_kodu": 3326568,
+    "ayni_anda_baslayan_nesine_maci": 20,
+    "karsilasma_belirleyici": "ortak ad: ['Hajduk Split']"
+   },
+   "durum": "onay_bekliyor"
+  },
+  {
+   "openligadb_adi": "KAA Gent",
+   "openligadb_takim_id": 1207,
+   "nesine_adi": "KAA Gent",
+   "kanit": {
+    "utc_baslama": "2026-11-26T20:00",
+    "openligadb_mac_id": 88347,
+    "nesine_mac_kodu": 3326651,
+    "ayni_anda_baslayan_nesine_maci": 20,
+    "karsilasma_belirleyici": "ortak ad: ['KAA Gent']"
+   },
+   "durum": "onay_bekliyor"
+  },
+  {
+   "openligadb_adi": "Roter Stern Belgrad",
+   "openligadb_takim_id": 4606,
+   "nesine_adi": "Kızıl Yıldız",
+   "kanit": {
+    "utc_baslama": "2026-11-26T20:00",
+    "openligadb_mac_id": 88347,
+    "nesine_mac_kodu": 3326651,
+    "ayni_anda_baslayan_nesine_maci": 20,
+    "karsilasma_belirleyici": "ortak ad: ['KAA Gent']"
+   },
+   "durum": "onay_bekliyor"
+  },
+  {
+   "openligadb_adi": "ZSKA Sofia",
+   "openligadb_takim_id": 1227,
+   "nesine_adi": "CSKA Sofya",
+   "kanit": {
+    "utc_baslama": "2026-11-26T20:00",
+    "openligadb_mac_id": 88348,
+    "nesine_mac_kodu": 3326609,
+    "ayni_anda_baslayan_nesine_maci": 20,
+    "karsilasma_belirleyici": "ortak ad: ['Trabzonspor']"
+   },
+   "durum": "onay_bekliyor"
+  },
+  {
+   "openligadb_adi": "Trabzonspor",
+   "openligadb_takim_id": 320,
+   "nesine_adi": "Trabzonspor",
+   "kanit": {
+    "utc_baslama": "2026-11-26T20:00",
+    "openligadb_mac_id": 88348,
+    "nesine_mac_kodu": 3326609,
+    "ayni_anda_baslayan_nesine_maci": 20,
+    "karsilasma_belirleyici": "ortak ad: ['Trabzonspor']"
+   },
+   "durum": "onay_bekliyor"
+  }
+ ]
+}

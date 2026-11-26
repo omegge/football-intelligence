@@ -1,0 +1,29 @@
+{
+ "aciklama": "MAÇA ÖZEL takım adı adayları. Yalnızca belirtilen Nesine maç kodu için geçerli; kısa ad (ör. 'Paris') başka maçlara otomatik uygulanmaz. Onay bekliyor.",
+ "adaylar": [
+  {
+   "nesine_mac": "nesine:3331253",
+   "nesine_karsilasma": "Brest - Paris",
+   "nesine_lig": "Fransa Ligue 1 [381]",
+   "baslama_tr": "2026-11-27T22:45:00+03:00",
+   "fd_mac_id": 559616,
+   "fd_karsilasma": "Stade Brestois 29 - Paris FC",
+   "utc": "2026-11-27T19:45",
+   "eslemeler": [
+    {
+     "nesine_adi": "Brest",
+     "aday": "Stade Brestois 29",
+     "kanit": "aynı dakikada tek FL1 maçı; ev sahibi tarafı"
+    },
+    {
+     "nesine_adi": "Paris",
+     "aday": "Paris FC",
+     "kanit": "aynı dakikada tek FL1 maçı; deplasman tarafı birebir 'Paris FC' — PSG değil"
+    }
+   ],
+   "durum": "onay_bekliyor",
+   "not": "Lig eşlemesi (Ligue 1 [381] → fr.1) de onaylı değil; ikisi birlikte onaylanmadan tahmin yapılmaz.",
+   "uretim_utc": "2026-11-26T21:09:39+00:00"
+  }
+ ]
+}

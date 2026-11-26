@@ -1,5 +1,5 @@
 {
- "aciklama": "Haber kaynağı kaydı (pilot 25.11.2026). 40 host: pilot için açılanlar. 'engelli' 15 host izin listesinden kaldırıldı (25.11.2026, kullanıcı onayı); kayıtta kalır ki okuyucu asla istek atmasın. İzin listesi değişikliği yalnızca kullanıcı onayıyla. 26.11.2026: fctwente.nl kullanıcı onayıyla izin listesine eklendi; koşullar bulunamadığı için 'belirsiz'.",
+ "aciklama": "26.11.2026: kullanıcı onaylı 7 host denetlendi (dailyecho.co.uk getirme aracınca reddedildi, kayda alınmadı)",
  "hostlar": [
   {
    "host": "www.brentfordfc.com",
@@ -654,6 +654,100 @@
    "kosul_ozeti": null,
    "robots_ai_engeli": false,
    "kontrol_utc": "2026-11-26T00:00:00+00:00"
+  },
+  {
+   "host": "www.southamptonfc.com",
+   "tur": "resmi_kulup",
+   "sinif": "kullanilabilir",
+   "gerekce": "robots.txt AI ajanlarını engellemiyor; koşullarda otomatik erişim yasağı bulunmadı (EN tarayıcı)",
+   "lig": "en.2",
+   "kulup": "Southampton FC",
+   "yayinci_grubu": "www.southamptonfc.com",
+   "kimlik_isaretleri": [
+    "wikipedia",
+    "ana_sayfa_basligi"
+   ],
+   "kosul_url": "https://www.southamptonfc.com/en/terms-and-conditions",
+   "kosul_ozeti": null,
+   "robots_ai_engeli": false,
+   "kontrol_utc": "2026-11-26T21:06:24+00:00"
+  },
+  {
+   "host": "www.fcgroningen.nl",
+   "tur": "resmi_kulup",
+   "sinif": "kullanilabilir",
+   "gerekce": "robots.txt yok (404); algemene voorwaarden'da otomatik erişim/scrape/TDM ifadesi yok (NL tarama)",
+   "lig": "nl.1",
+   "kulup": "FC Groningen",
+   "yayinci_grubu": "www.fcgroningen.nl",
+   "kimlik_isaretleri": [
+    "wikipedia",
+    "ana_sayfa_basligi"
+   ],
+   "kosul_url": "https://www.fcgroningen.nl/algemene-voorwaarden",
+   "kosul_ozeti": null,
+   "robots_ai_engeli": false,
+   "kontrol_utc": "2026-11-26T21:06:24+00:00"
+  },
+  {
+   "host": "www.thefa.com",
+   "tur": "resmi_federasyon",
+   "sinif": "kullanilabilir",
+   "gerekce": "robots.txt AI ajanlarını engellemiyor (yalnızca teknik yollar); koşullarda otomatik erişim yasağı bulunmadı",
+   "lig": null,
+   "kulup": null,
+   "yayinci_grubu": "www.thefa.com",
+   "kimlik_isaretleri": [
+    "ana_sayfa_basligi"
+   ],
+   "kosul_url": "https://www.thefa.com/about-football-association/terms-and-conditions",
+   "kosul_ozeti": null,
+   "robots_ai_engeli": false,
+   "kontrol_utc": "2026-11-26T21:06:24+00:00"
+  },
+  {
+   "host": "www.willem-ii.nl",
+   "tur": "resmi_kulup",
+   "sinif": "dogrulanmamis",
+   "gerekce": "robots/koşullar engel göstermiyor ama ikinci kimlik işareti alınamadı (Wikipedia 429)",
+   "lig": "nl.1",
+   "kulup": "Willem II",
+   "yayinci_grubu": "www.willem-ii.nl",
+   "kimlik_isaretleri": [
+    "ana_sayfa_basligi"
+   ],
+   "kosul_url": "https://www.willem-ii.nl/algemene-voorwaarden",
+   "kosul_ozeti": null,
+   "robots_ai_engeli": false,
+   "kontrol_utc": "2026-11-26T21:06:24+00:00"
+  },
+  {
+   "host": "www.mfc.co.uk",
+   "tur": "resmi_kulup",
+   "sinif": "dogrulanmamis",
+   "gerekce": "robots/koşullar engel göstermiyor; ana sayfa başlığı boş (JS), Wikipedia 429 → kimlik doğrulanamadı",
+   "lig": "en.2",
+   "kulup": "Middlesbrough FC",
+   "yayinci_grubu": "www.mfc.co.uk",
+   "kimlik_isaretleri": [],
+   "kosul_url": "https://www.mfc.co.uk/terms-and-conditions",
+   "kosul_ozeti": null,
+   "robots_ai_engeli": false,
+   "kontrol_utc": "2026-11-26T21:06:24+00:00"
+  },
+  {
+   "host": "www.gazettelive.co.uk",
+   "tur": "yerel_basin",
+   "sinif": "engelli",
+   "gerekce": "robots.txt ClaudeBot, anthropic-ai, Claude-Web için kısıt içeriyor → sayfa okunmaz, yalnızca arama özeti",
+   "lig": null,
+   "kulup": null,
+   "yayinci_grubu": "Reach plc",
+   "kimlik_isaretleri": [],
+   "kosul_url": null,
+   "kosul_ozeti": null,
+   "robots_ai_engeli": true,
+   "kontrol_utc": "2026-11-26T21:06:24+00:00"
   }
  ]
 }

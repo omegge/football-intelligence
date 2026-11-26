@@ -119,3 +119,19 @@ Oranlardan türetilmiş bilgi bu sürecin hiçbir adımına girmez (MK-1).
 - `cok_kaynak` için iki farklı yayıncı alan adı gerekir.
 - Nesine ya da bahis alan adları reddedilir.
 - Model olasılık dosyası haber kanıtlarından önce dondurulmuş olmalıdır (zaman damgası sırası).
+
+## Geniş (açık internet) araştırma — `lib/fi/haber/genis.py` (26.11.2026)
+Kullanıcı talimatıyla haber araştırması resmî sitelerle sınırlı değildir: ulusal/yerel basın, muhabirler, basın
+toplantıları, istatistik platformları, bağımsız analistler, önizleme/tahmin siteleri ve topluluklar (Reddit vb.).
+- **Sınıf ≠ izin.** `veri/genis_kaynak_siniflari.json` yalnızca kaynak türünü (A resmî · B basın/ajans/muhabir/
+  istatistik · C analist/önizleme · D forum/bilinmeyen · E arama özeti) verir. Sayfa ancak `haber_kaynaklari.json`'da
+  `kullanilabilir` ise açılır; diğerlerinde web arama özeti + bağlantı + zaman saklanır. Koruma/koşul aşılmaz;
+  uzun metin kopyalanmaz (özet ≤ 300 karakter).
+- **Kanıt zinciri:** aynı ilk kaynak ya da yayıncı grubu = tek zincir. Düzeyler: resmi · iki_bagimsiz (≥2 zincir, biri
+  ≤ B) · dogrulanmadi · celiskili · mac_oncesi_kanit_yok. Arama özeti tek başına doğrulamaz.
+- **Zaman turları:** T-24s, T-6s, T-90dk (ilk 11), diger; her kayıtta araştırma zamanı; turlar arası durum değişimi
+  raporlanır. Maçtan sonra ya da saatsiz maç günü yayını maç öncesi bilgi sayılmaz.
+- **Dış görüş karantinası:** `DisGorus` (beklenen sonuç, sportif gerekçe, sitenin yüzde/oranları) model girdisi olamaz
+  (`model_girdisi_denetle`); favori yalnızca bağımsız modelden belirlenir.
+- **Rapor:** `mac_raporu` + `rapor_md` → 10 bölüm (madde 8). Bulunamayan bilgi uydurulmaz; arama günlüğü raporda.
+- Pilot: `output/arastirma/genis_pilot/sou_mid_20261127/` — 4 arama, bu maça ait güncel haber/önizleme bulunamadı.

@@ -49,6 +49,44 @@ def karsilastirma_adi(ad: str | None) -> str | None:
         return None
     t = ad.replace("ı", "i").replace("İ", "I")
     return _sade(t)
+ARAYUZ_DOGRULAMA_DOSYASI = Path(__file__).resolve().parent.parent / "data" / "market_arayuz_dogrulamalari.json"
+
+
+def arayuz_dogrulamalari(yol: Path = ARAYUZ_DOGRULAMA_DOSYASI) -> dict:
+    return json.loads(Path(yol).read_text(encoding="utf-8"))["kodlar"] if Path(yol).exists() else {}
+
+
+def periyot(market_adi: str | None, adsiz: bool = False) -> str:
+    """Market adından değerlendirme periyodu (çıkarım; kaynak alanı 'market_adi'). Adsız market: 'bilinmiyor'."""
+    if adsiz or not market_adi:
+        return "bilinmiyor"
+    a = market_adi
+    if "Uzt." in a:
+        return "uzatma_dahil"
+    iy = bool(re.search(r"1\. ?Yarı|1\.Y|İlk Yarı|İY ", a))
+    ikinci = bool(re.search(r"2\. ?Yarı|2\.Y", a))
+    coklu = bool(re.search(r"İki Yarı|Yarıda|Yarıyı|Hangi Yarı|Gol Olacak Yarı", a)) or (iy and ("Maç" in a or ikinci))
+    if coklu:
+        return "coklu_periyot"
+    if iy:
+        return "ilk_yari"
+    if ikinci:
+        return "ikinci_yari"
+    return "mac"
+
+
+def dogrulama_seviyesi(market_kodu, cizgi, ad_kaynagi: str, aday: dict | None, dogrulamalar: dict) -> str:
+    """arayuz_referansi > arayuz_kodu_farkli_cizgi > sozluk > bulten_adi > aday > adsiz."""
+    if ad_kaynagi == "yok":
+        return "aday" if aday else "adsiz"
+    d = dogrulamalar.get(str(market_kodu))
+    if d and cizgi in d["cizgiler"]:
+        return "arayuz_referansi"
+    if d:
+        return "arayuz_kodu_farkli_cizgi"
+    return "sozluk" if ad_kaynagi == "sozluk" else "bulten_adi"
+
+
 HANDIKAP_AD = re.compile(r"\((\d+(?:[.,]\d+)?):(\d+(?:[.,]\d+)?)\)")
 
 
@@ -89,6 +127,7 @@ def disa_aktar(bulten_klasoru: Path, mac_kodlari: list[int]) -> dict:
     kaynak = json.loads((bk / "kaynak.json").read_text(encoding="utf-8"))
     ham_ea = {e.get("C"): e for e in (ham.get("sg") or {}).get("EA", [])}
     adaylar = aday_eslemeleri()
+    dogrulamalar = arayuz_dogrulamalari()
     norm_ea = {e["kod"]: e for e in norm["futbol"]}
     km = kaynak["kaynaklar"]["mac_oncesi"]
     out = {"cekim": {"url": km["url"], "cekim_utc": km["cekim_utc"], "cekim_tr": km["cekim_tr"],
@@ -143,7 +182,12 @@ def disa_aktar(bulten_klasoru: Path, mac_kodlari: list[int]) -> dict:
                               "sozluk_adi": m["sozluk_adi"], "cizgi": hm.get("SOV"), "maca_ozel": m["maca_ozel"],
                               "market_durumu_MS": hm.get("MS"), "market_mbs": hm.get("MBS"),
                               "aktif": hm.get("MS") == 1, "handikap": hk, "adsiz": m["market_adi_kaynagi"] == "yok",
-                              "aday": aday, "secenekler": secenekler,
+                              "aday": aday,
+                              "periyot": periyot(m["market_adi"], m["market_adi_kaynagi"] == "yok"),
+                              "periyot_kaynagi": "market_adi (çıkarım)",
+                              "dogrulama_seviyesi": dogrulama_seviyesi(m["market_tip_id"], hm.get("SOV"),
+                                                                       m["market_adi_kaynagi"], aday, dogrulamalar),
+                              "secenekler": secenekler,
                               "ham_ek_alanlar": {k: hm[k] for k in ("MN", "INM", "HM", "BM", "VT") if k in hm}})
             if m["market_adi_kaynagi"] == "yok":
                 denetim["sozlukte_olmayan_market"].append({"market_kodu": m["market_tip_id"], "cizgi": hm.get("SOV"),
@@ -185,7 +229,7 @@ def disa_aktar(bulten_klasoru: Path, mac_kodlari: list[int]) -> dict:
               for m in marketler if "Karşılıklı" in (m["market_adi"] or "") and re.search(r"Yarı|1\.Y|2\.Y", m["market_adi"] or "")]
         out["maclar"].append({
             "mac_kodu": kod, "ev": ne["ev"], "deplasman": ne["deplasman"], "karsilasma": ne["karsilasma"],
-            "turnuva": ne["lig"], "baslama_tr": ne["baslama_tr"], "ham_ad": he.get("ENO"),
+            "turnuva": ne["lig"], "turnuva_kodu": ne.get("lig_kodu"), "baslama_tr": ne["baslama_tr"], "ham_ad": he.get("ENO"),
             "sayilar": {"market_grubu": len(marketler), "benzersiz_market_turu": len({m["market_kodu"] for m in marketler}),
                         "benzersiz_market_ve_cizgi": len({(m["market_kodu"], m["cizgi"]) for m in marketler}),
                         "toplam_secenek": sum(len(m["secenekler"]) for m in marketler),

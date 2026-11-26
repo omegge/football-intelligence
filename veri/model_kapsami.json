@@ -1,0 +1,767 @@
+{
+ "aciklama": "Günlük olasılık kapsamı. Kapsam dışı market = hesaplanamaz. Bu dosya değerlendirme çıktılarından üretilir; elle düzenlenmez.",
+ "uretim_utc": "2026-11-26T17:16:15+00:00",
+ "kaynaklar": {
+  "e_v1": {
+   "yol": "output/model/e_asamasi_20261126_161011/sonuc.json",
+   "sha256": "ef6b3d839c4d9ec6b29c1fa5bd106fca080373c091cccd17f169b378c9563534"
+  },
+  "denetim": {
+   "yol": "output/model/denetim_20261126_170417/sonuc.json",
+   "sha256": "6e45b552bac3a61b7a262a2237c4bf278f5092c669630afc8154661ab42e57df"
+  },
+  "e2_sinama": {
+   "yol": "output/model/e2_sinama_20261126_171536/sonuc.json",
+   "sha256": "7a170a6f5b56b7688e33068dda679c50966accca5ae27290ae7af9ddaf51224f"
+  }
+ },
+ "devre_marketleri": "hesaplanamaz (F-v2 ve F2: 62 seçenekten yalnızca 3'ü kuralları geçti — İY/MS X/2, 587 '2.', 779 '0:1' — çoklu karşılaştırma riski nedeniyle ikinci ileriye dönük doğrulamaya kadar kapsam dışı; iş akışında devre modeli yok)",
+ "korner_kart_oyuncu": "hesaplanamaz (G/I veri yok; H lig ortalamasını geçmiyor)",
+ "ligler_arasi": "hesaplanamaz (D: M1 > B1 sezon kümeli GA 0'ı içeriyor; büyük-5 farkı eksik)",
+ "modeller": {
+  "poisson_E": {
+   "tanim": "GolModeli ξ=0,003, pencere 1095, ceza 2,0, önsel 0,8/1,2; Poisson",
+   "spec": {
+    "ceza": 2.0
+   },
+   "degerlendirme_ligleri": [
+    "fr.1",
+    "nl.1",
+    "pt.1",
+    "de.2",
+    "es.2"
+   ],
+   "marketler": {
+    "MS_1": {
+     "kapsamda": false,
+     "nedenler": [
+      "lig ECE > 0,04: {'es.2': 0.0439}"
+     ]
+    },
+    "MS_X": {
+     "kapsamda": false,
+     "nedenler": [
+      "havuz ECE 0.021 > 0,02"
+     ]
+    },
+    "MS_2": {
+     "kapsamda": false,
+     "nedenler": [
+      "2 kutuda sapma > 0,05",
+      "lig ECE > 0,04: {'es.2': 0.0517}"
+     ]
+    },
+    "CS_1X": {
+     "kapsamda": false,
+     "nedenler": [
+      "2 kutuda sapma > 0,05",
+      "lig ECE > 0,04: {'es.2': 0.0517}"
+     ]
+    },
+    "CS_12": {
+     "kapsamda": false,
+     "nedenler": [
+      "havuz ECE 0.021 > 0,02"
+     ]
+    },
+    "CS_X2": {
+     "kapsamda": false,
+     "nedenler": [
+      "lig ECE > 0,04: {'es.2': 0.0439}"
+     ]
+    },
+    "KG_var": {
+     "kapsamda": false,
+     "nedenler": [
+      "tabanı geçmiyor (lig-sezon GA [0.00205, 0.00702])",
+      "havuz ECE 0.042 > 0,02",
+      "4 kutuda sapma > 0,05",
+      "lig ECE > 0,04: {'es.2': 0.0672, 'fr.1': 0.0528, 'nl.1': 0.0406, 'pt.1': 0.0503}"
+     ]
+    },
+    "KG_yok": {
+     "kapsamda": false,
+     "nedenler": [
+      "tabanı geçmiyor (lig-sezon GA [0.00205, 0.00702])",
+      "havuz ECE 0.042 > 0,02",
+      "4 kutuda sapma > 0,05",
+      "lig ECE > 0,04: {'es.2': 0.0672, 'fr.1': 0.0528, 'nl.1': 0.0406, 'pt.1': 0.0503}"
+     ]
+    },
+    "tek": {
+     "kapsamda": false,
+     "nedenler": [
+      "tabanı geçmiyor (lig-sezon GA [-0.00117, 0.00063])"
+     ]
+    },
+    "cift": {
+     "kapsamda": false,
+     "nedenler": [
+      "tabanı geçmiyor (lig-sezon GA [-0.00117, 0.00063])"
+     ]
+    },
+    "aralik_0_1": {
+     "kapsamda": false,
+     "nedenler": [
+      "tabanı geçmiyor (lig-sezon GA [-0.00192, 0.00482])",
+      "havuz ECE 0.033 > 0,02",
+      "3 kutuda sapma > 0,05",
+      "lig ECE > 0,04: {'de.2': 0.0441, 'es.2': 0.0574}"
+     ]
+    },
+    "aralik_2_3": {
+     "kapsamda": false,
+     "nedenler": [
+      "tabanı geçmiyor (lig-sezon GA [-0.00065, 0.00179])",
+      "2 kutuda sapma > 0,05"
+     ]
+    },
+    "aralik_4_5": {
+     "kapsamda": false,
+     "nedenler": [
+      "tabanı geçmiyor (lig-sezon GA [-0.00032, 0.0051])",
+      "havuz ECE 0.026 > 0,02",
+      "2 kutuda sapma > 0,05"
+     ]
+    },
+    "aralik_6p": {
+     "kapsamda": false,
+     "nedenler": [
+      "tabanı geçmiyor (lig-sezon GA [-0.00271, 0.00406])",
+      "2 kutuda sapma > 0,05"
+     ]
+    },
+    "H-1_1": {
+     "kapsamda": false,
+     "nedenler": [
+      "3 kutuda sapma > 0,05"
+     ]
+    },
+    "H-1_X": {
+     "kapsamda": true,
+     "nedenler": []
+    },
+    "H-1_2": {
+     "kapsamda": false,
+     "nedenler": [
+      "lig ECE > 0,04: {'es.2': 0.0439}"
+     ]
+    },
+    "AU0.5_alt": {
+     "kapsamda": false,
+     "nedenler": [
+      "tabanı geçmiyor (lig-sezon GA [-0.0015, 0.00271])",
+      "1 kutuda sapma > 0,05"
+     ]
+    },
+    "AU0.5_ust": {
+     "kapsamda": false,
+     "nedenler": [
+      "tabanı geçmiyor (lig-sezon GA [-0.0015, 0.00271])",
+      "1 kutuda sapma > 0,05"
+     ]
+    },
+    "AU1.5_alt": {
+     "kapsamda": false,
+     "nedenler": [
+      "tabanı geçmiyor (lig-sezon GA [-0.00192, 0.00482])",
+      "havuz ECE 0.033 > 0,02",
+      "3 kutuda sapma > 0,05",
+      "lig ECE > 0,04: {'de.2': 0.0441, 'es.2': 0.0574}"
+     ]
+    },
+    "AU1.5_ust": {
+     "kapsamda": false,
+     "nedenler": [
+      "tabanı geçmiyor (lig-sezon GA [-0.00192, 0.00482])",
+      "havuz ECE 0.033 > 0,02",
+      "3 kutuda sapma > 0,05",
+      "lig ECE > 0,04: {'de.2': 0.0441, 'es.2': 0.0574}"
+     ]
+    },
+    "AU2.5_alt": {
+     "kapsamda": false,
+     "nedenler": [
+      "tabanı geçmiyor (lig-sezon GA [-0.00323, 0.00505])",
+      "havuz ECE 0.049 > 0,02",
+      "6 kutuda sapma > 0,05",
+      "lig ECE > 0,04: {'de.2': 0.0775, 'es.2': 0.0636, 'fr.1': 0.0457, 'nl.1': 0.0544}"
+     ]
+    },
+    "AU2.5_ust": {
+     "kapsamda": false,
+     "nedenler": [
+      "tabanı geçmiyor (lig-sezon GA [-0.00323, 0.00505])",
+      "havuz ECE 0.049 > 0,02",
+      "6 kutuda sapma > 0,05",
+      "lig ECE > 0,04: {'de.2': 0.0775, 'es.2': 0.0636, 'fr.1': 0.0457, 'nl.1': 0.0544}"
+     ]
+    },
+    "AU3.5_alt": {
+     "kapsamda": false,
+     "nedenler": [
+      "tabanı geçmiyor (lig-sezon GA [-0.00133, 0.00779])",
+      "havuz ECE 0.043 > 0,02",
+      "6 kutuda sapma > 0,05",
+      "lig ECE > 0,04: {'de.2': 0.0586, 'es.2': 0.0537, 'nl.1': 0.0556, 'pt.1': 0.0451}"
+     ]
+    },
+    "AU3.5_ust": {
+     "kapsamda": false,
+     "nedenler": [
+      "tabanı geçmiyor (lig-sezon GA [-0.00133, 0.00779])",
+      "havuz ECE 0.043 > 0,02",
+      "6 kutuda sapma > 0,05",
+      "lig ECE > 0,04: {'de.2': 0.0586, 'es.2': 0.0537, 'nl.1': 0.0556, 'pt.1': 0.0451}"
+     ]
+    },
+    "AU4.5_alt": {
+     "kapsamda": false,
+     "nedenler": [
+      "tabanı geçmiyor (lig-sezon GA [-0.00448, 0.00416])",
+      "havuz ECE 0.029 > 0,02",
+      "4 kutuda sapma > 0,05",
+      "lig ECE > 0,04: {'de.2': 0.043, 'nl.1': 0.0461}"
+     ]
+    },
+    "AU4.5_ust": {
+     "kapsamda": false,
+     "nedenler": [
+      "tabanı geçmiyor (lig-sezon GA [-0.00448, 0.00416])",
+      "havuz ECE 0.029 > 0,02",
+      "4 kutuda sapma > 0,05",
+      "lig ECE > 0,04: {'de.2': 0.043, 'nl.1': 0.0461}"
+     ]
+    },
+    "ev0.5_alt": {
+     "kapsamda": false,
+     "nedenler": [
+      "havuz ECE 0.020 > 0,02",
+      "2 kutuda sapma > 0,05",
+      "lig ECE > 0,04: {'es.2': 0.0579}"
+     ]
+    },
+    "ev0.5_ust": {
+     "kapsamda": false,
+     "nedenler": [
+      "havuz ECE 0.020 > 0,02",
+      "2 kutuda sapma > 0,05",
+      "lig ECE > 0,04: {'es.2': 0.0579}"
+     ]
+    },
+    "dep0.5_alt": {
+     "kapsamda": false,
+     "nedenler": [
+      "havuz ECE 0.029 > 0,02",
+      "2 kutuda sapma > 0,05",
+      "lig ECE > 0,04: {'de.2': 0.0439, 'es.2': 0.0591}"
+     ]
+    },
+    "dep0.5_ust": {
+     "kapsamda": false,
+     "nedenler": [
+      "havuz ECE 0.029 > 0,02",
+      "2 kutuda sapma > 0,05",
+      "lig ECE > 0,04: {'de.2': 0.0439, 'es.2': 0.0591}"
+     ]
+    },
+    "ev1.5_alt": {
+     "kapsamda": false,
+     "nedenler": [
+      "havuz ECE 0.028 > 0,02",
+      "2 kutuda sapma > 0,05",
+      "lig ECE > 0,04: {'de.2': 0.0483, 'es.2': 0.0566}"
+     ]
+    },
+    "ev1.5_ust": {
+     "kapsamda": false,
+     "nedenler": [
+      "havuz ECE 0.028 > 0,02",
+      "2 kutuda sapma > 0,05",
+      "lig ECE > 0,04: {'de.2': 0.0483, 'es.2': 0.0566}"
+     ]
+    },
+    "dep1.5_alt": {
+     "kapsamda": false,
+     "nedenler": [
+      "havuz ECE 0.028 > 0,02",
+      "3 kutuda sapma > 0,05",
+      "lig ECE > 0,04: {'de.2': 0.0416}"
+     ]
+    },
+    "dep1.5_ust": {
+     "kapsamda": false,
+     "nedenler": [
+      "havuz ECE 0.028 > 0,02",
+      "3 kutuda sapma > 0,05",
+      "lig ECE > 0,04: {'de.2': 0.0416}"
+     ]
+    },
+    "ev2.5_alt": {
+     "kapsamda": false,
+     "nedenler": [
+      "2 kutuda sapma > 0,05"
+     ]
+    },
+    "ev2.5_ust": {
+     "kapsamda": false,
+     "nedenler": [
+      "2 kutuda sapma > 0,05"
+     ]
+    },
+    "dep2.5_alt": {
+     "kapsamda": false,
+     "nedenler": [
+      "4 kutuda sapma > 0,05"
+     ]
+    },
+    "dep2.5_ust": {
+     "kapsamda": false,
+     "nedenler": [
+      "4 kutuda sapma > 0,05"
+     ]
+    },
+    "MS1_AU2.5_alt": {
+     "kapsamda": true,
+     "nedenler": []
+    },
+    "MS1_AU2.5_ust": {
+     "kapsamda": false,
+     "nedenler": [
+      "2 kutuda sapma > 0,05"
+     ]
+    },
+    "MS1_KG_var": {
+     "kapsamda": false,
+     "nedenler": [
+      "1 kutuda sapma > 0,05"
+     ]
+    },
+    "MS1_KG_yok": {
+     "kapsamda": false,
+     "nedenler": [
+      "2 kutuda sapma > 0,05",
+      "lig ECE > 0,04: {'es.2': 0.0479}"
+     ]
+    },
+    "MSX_AU2.5_alt": {
+     "kapsamda": false,
+     "nedenler": [
+      "tabanı geçmiyor (lig-sezon GA [-0.00566, 0.00017])"
+     ]
+    },
+    "MSX_AU2.5_ust": {
+     "kapsamda": false,
+     "nedenler": [
+      "tabanı geçmiyor (lig-sezon GA [0.00014, 0.00445])"
+     ]
+    },
+    "MSX_KG_var": {
+     "kapsamda": false,
+     "nedenler": [
+      "tabanı geçmiyor (lig-sezon GA [-0.00401, 0.00049])",
+      "havuz ECE 0.023 > 0,02"
+     ]
+    },
+    "MSX_KG_yok": {
+     "kapsamda": false,
+     "nedenler": [
+      "tabanı geçmiyor (lig-sezon GA [-0.0015, 0.00271])",
+      "1 kutuda sapma > 0,05"
+     ]
+    },
+    "MS2_AU2.5_alt": {
+     "kapsamda": true,
+     "nedenler": []
+    },
+    "MS2_AU2.5_ust": {
+     "kapsamda": false,
+     "nedenler": [
+      "2 kutuda sapma > 0,05"
+     ]
+    },
+    "MS2_KG_var": {
+     "kapsamda": true,
+     "nedenler": []
+    },
+    "MS2_KG_yok": {
+     "kapsamda": false,
+     "nedenler": [
+      "2 kutuda sapma > 0,05"
+     ]
+    },
+    "skor_0_0": {
+     "kapsamda": false,
+     "nedenler": [
+      "tabanı geçmiyor (lig-sezon GA [-0.0015, 0.00271])",
+      "1 kutuda sapma > 0,05"
+     ]
+    },
+    "skor_1_0": {
+     "kapsamda": false,
+     "nedenler": [
+      "tabanı geçmiyor (lig-sezon GA [-0.00432, 0.00148])",
+      "1 kutuda sapma > 0,05"
+     ]
+    },
+    "skor_0_1": {
+     "kapsamda": true,
+     "nedenler": []
+    },
+    "skor_1_1": {
+     "kapsamda": true,
+     "nedenler": []
+    },
+    "skor_2_0": {
+     "kapsamda": true,
+     "nedenler": []
+    },
+    "skor_0_2": {
+     "kapsamda": true,
+     "nedenler": []
+    },
+    "skor_2_1": {
+     "kapsamda": true,
+     "nedenler": []
+    },
+    "skor_1_2": {
+     "kapsamda": true,
+     "nedenler": []
+    },
+    "skor_2_2": {
+     "kapsamda": false,
+     "nedenler": [
+      "tabanı geçmiyor (lig-sezon GA [-0.00026, 0.00365])"
+     ]
+    }
+   }
+  },
+  "E2_aday": {
+   "tanim": "E2 seçilen aday M3 {'ceza': 16.0, 'w': 0.65, 'b': 0.0} (ON_KAYIT_E2)",
+   "spec": {
+    "ceza": 16.0,
+    "w": 0.65,
+    "b": 0.0
+   },
+   "degerlendirme_ligleri": [
+    "at.1",
+    "be.1",
+    "en.2",
+    "gr.1",
+    "sco.1",
+    "tr.1"
+   ],
+   "marketler": {
+    "MS_1": {
+     "kapsamda": false,
+     "nedenler": [
+      "kalibre"
+     ]
+    },
+    "MS_X": {
+     "kapsamda": true,
+     "nedenler": []
+    },
+    "MS_2": {
+     "kapsamda": false,
+     "nedenler": [
+      "kalibre"
+     ]
+    },
+    "CS_1X": {
+     "kapsamda": false,
+     "nedenler": [
+      "kalibre"
+     ]
+    },
+    "CS_12": {
+     "kapsamda": true,
+     "nedenler": []
+    },
+    "CS_X2": {
+     "kapsamda": false,
+     "nedenler": [
+      "kalibre"
+     ]
+    },
+    "KG_var": {
+     "kapsamda": true,
+     "nedenler": []
+    },
+    "KG_yok": {
+     "kapsamda": true,
+     "nedenler": []
+    },
+    "tek": {
+     "kapsamda": false,
+     "nedenler": [
+      "bilgi_tasiyor"
+     ]
+    },
+    "cift": {
+     "kapsamda": false,
+     "nedenler": [
+      "bilgi_tasiyor"
+     ]
+    },
+    "aralik_0_1": {
+     "kapsamda": false,
+     "nedenler": [
+      "kalibre"
+     ]
+    },
+    "aralik_2_3": {
+     "kapsamda": false,
+     "nedenler": [
+      "bilgi_tasiyor",
+      "kalibre"
+     ]
+    },
+    "aralik_4_5": {
+     "kapsamda": false,
+     "nedenler": [
+      "kalibre"
+     ]
+    },
+    "aralik_6p": {
+     "kapsamda": false,
+     "nedenler": [
+      "bilgi_tasiyor"
+     ]
+    },
+    "H-1_1": {
+     "kapsamda": false,
+     "nedenler": [
+      "kalibre"
+     ]
+    },
+    "H-1_X": {
+     "kapsamda": true,
+     "nedenler": []
+    },
+    "H-1_2": {
+     "kapsamda": false,
+     "nedenler": [
+      "kalibre"
+     ]
+    },
+    "AU0.5_alt": {
+     "kapsamda": false,
+     "nedenler": [
+      "bilgi_tasiyor"
+     ]
+    },
+    "AU0.5_ust": {
+     "kapsamda": false,
+     "nedenler": [
+      "bilgi_tasiyor"
+     ]
+    },
+    "AU1.5_alt": {
+     "kapsamda": false,
+     "nedenler": [
+      "kalibre"
+     ]
+    },
+    "AU1.5_ust": {
+     "kapsamda": false,
+     "nedenler": [
+      "kalibre"
+     ]
+    },
+    "AU2.5_alt": {
+     "kapsamda": false,
+     "nedenler": [
+      "kalibre"
+     ]
+    },
+    "AU2.5_ust": {
+     "kapsamda": false,
+     "nedenler": [
+      "kalibre"
+     ]
+    },
+    "AU3.5_alt": {
+     "kapsamda": false,
+     "nedenler": [
+      "kalibre"
+     ]
+    },
+    "AU3.5_ust": {
+     "kapsamda": false,
+     "nedenler": [
+      "kalibre"
+     ]
+    },
+    "AU4.5_alt": {
+     "kapsamda": true,
+     "nedenler": []
+    },
+    "AU4.5_ust": {
+     "kapsamda": true,
+     "nedenler": []
+    },
+    "ev0.5_alt": {
+     "kapsamda": true,
+     "nedenler": []
+    },
+    "ev0.5_ust": {
+     "kapsamda": true,
+     "nedenler": []
+    },
+    "dep0.5_alt": {
+     "kapsamda": false,
+     "nedenler": [
+      "kalibre"
+     ]
+    },
+    "dep0.5_ust": {
+     "kapsamda": false,
+     "nedenler": [
+      "kalibre"
+     ]
+    },
+    "ev1.5_alt": {
+     "kapsamda": false,
+     "nedenler": [
+      "kalibre"
+     ]
+    },
+    "ev1.5_ust": {
+     "kapsamda": false,
+     "nedenler": [
+      "kalibre"
+     ]
+    },
+    "dep1.5_alt": {
+     "kapsamda": false,
+     "nedenler": [
+      "kalibre"
+     ]
+    },
+    "dep1.5_ust": {
+     "kapsamda": false,
+     "nedenler": [
+      "kalibre"
+     ]
+    },
+    "ev2.5_alt": {
+     "kapsamda": true,
+     "nedenler": []
+    },
+    "ev2.5_ust": {
+     "kapsamda": true,
+     "nedenler": []
+    },
+    "dep2.5_alt": {
+     "kapsamda": false,
+     "nedenler": [
+      "kalibre"
+     ]
+    },
+    "dep2.5_ust": {
+     "kapsamda": false,
+     "nedenler": [
+      "kalibre"
+     ]
+    },
+    "MS1_AU2.5_alt": {
+     "kapsamda": false,
+     "nedenler": [
+      "kalibre"
+     ]
+    },
+    "MS1_AU2.5_ust": {
+     "kapsamda": false,
+     "nedenler": [
+      "kalibre"
+     ]
+    },
+    "MS1_KG_var": {
+     "kapsamda": true,
+     "nedenler": []
+    },
+    "MS1_KG_yok": {
+     "kapsamda": false,
+     "nedenler": [
+      "kalibre"
+     ]
+    },
+    "MSX_AU2.5_alt": {
+     "kapsamda": true,
+     "nedenler": []
+    },
+    "MSX_AU2.5_ust": {
+     "kapsamda": true,
+     "nedenler": []
+    },
+    "MSX_KG_var": {
+     "kapsamda": true,
+     "nedenler": []
+    },
+    "MSX_KG_yok": {
+     "kapsamda": false,
+     "nedenler": [
+      "bilgi_tasiyor"
+     ]
+    },
+    "MS2_AU2.5_alt": {
+     "kapsamda": true,
+     "nedenler": []
+    },
+    "MS2_AU2.5_ust": {
+     "kapsamda": false,
+     "nedenler": [
+      "kalibre"
+     ]
+    },
+    "MS2_KG_var": {
+     "kapsamda": true,
+     "nedenler": []
+    },
+    "MS2_KG_yok": {
+     "kapsamda": true,
+     "nedenler": []
+    },
+    "skor_0_0": {
+     "kapsamda": false,
+     "nedenler": [
+      "bilgi_tasiyor"
+     ]
+    },
+    "skor_1_0": {
+     "kapsamda": true,
+     "nedenler": []
+    },
+    "skor_0_1": {
+     "kapsamda": true,
+     "nedenler": []
+    },
+    "skor_1_1": {
+     "kapsamda": true,
+     "nedenler": []
+    },
+    "skor_2_0": {
+     "kapsamda": true,
+     "nedenler": []
+    },
+    "skor_0_2": {
+     "kapsamda": true,
+     "nedenler": []
+    },
+    "skor_2_1": {
+     "kapsamda": true,
+     "nedenler": []
+    },
+    "skor_1_2": {
+     "kapsamda": true,
+     "nedenler": []
+    },
+    "skor_2_2": {
+     "kapsamda": true,
+     "nedenler": []
+    }
+   }
+  }
+ }
+}

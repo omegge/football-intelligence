@@ -224,3 +224,19 @@ Katman 2 değerlendirmesidir. Haber araştırması bu boşluğu istatistik yerin
 ClubElo, StatsBomb** (pasif, kullanıcı kararı); **OpenLigaDB, fixturedownload.com** (henüz incelenmedi, ayrı aşama);
 Understat, FBref (kullanıcı kararı); Sofascore, Squawka (bot koruması / tarayıcı gerektirir); FotMob (imzalı istek
 başlıkları); Transfermarkt (otomatik veri toplama yasağı); 365scores, SoccerDesk, Statsultra (koşullar belirsiz).
+
+## OpenLigaDB istek kaydı (26.11.2026, adil kullanım)
+User-Agent: `FootballIntelligence/0.3.0 (kisisel arastirma; istek uzerine)` (kişisel bilgi yok). Toplam 6 istek, aralarında
+≥5 sn; yanıtlar `output/onbellek/openligadb/` altında (git dışı), SHA-256 ile:
+`getavailableleagues` (849 kayıt), `getmatchdata/uecl2026/2026` (108 maç, 54 biten), `uel2026/2026` (144/72),
+`ucl2026/2026` (32 yer tutucu, 0 biten — KULLANILAMAZ), `ucl/2026` (144/90, son 2026-11-25), `bl3/2026` (380/140).
+Bulgular: UEFA kupaları topluluk girişi, sezon başına birden çok kısmi kayıt; takım adları Almanca ('AC Mailand',
+'FC Kopenhagen') → yalnızca kullanıcı onaylı eşleme; gol dakikası bazı kayıtlarda boş.
+
+## football-data.org ücretsiz plan — 26.11.2026 denetimi
+- 9 istek (ELC, PL, BL1, SA, PD, FL1, DED, PPL, CL; `season=2026`), hepsi HTTP 200; anahtar ortam proxy'sinde (kod görmez).
+- **Uzun tarih aralığı sorgusu eksik dönüyor:** ELC `dateFrom=2026-08-01&dateTo=2026-11-26&status=FINISHED` → 80 maç
+  (haftalar 12–17 tam, 1–11 neredeyse boş); `season=2026` → 204 biten maç (17 hafta × 12). `matchday=5` → 12/12.
+  Yalnızca `season=` (ya da `matchday=`) kullanılır (`lib/fi/kaynaklar/guncel.py`). Eski `calistir.fdorg_ekle`
+  tarih aralığı kullanıyordu → sonuçları eksik olabilir, kullanılmaz.
+- OpenFootball ile çakışan 513 maçta maç sonu + ilk yarı skoru %100 aynı. Eşlenemeyen: "Vitória SC" (pt.1).

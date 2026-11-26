@@ -1,0 +1,1336 @@
+{
+ "aciklama": "ADAY kayıtlar; hiçbiri onaylı değildir. Onay için veri/lig_eslemeleri.json'a kullanıcı kararı yazılır.",
+ "uretim_utc": "2026-11-26T16:58:44+00:00",
+ "adaylar": [
+  {
+   "nesine_lig": "Fransa Ligue 2",
+   "nesine_lig_kodu": 614,
+   "ulke": "FR",
+   "nesine_takim_sayisi": 4,
+   "bultenler": [
+    "bulten_20261123_223950",
+    "bulten_20261123_231906"
+   ],
+   "en_iyi_aday": null,
+   "kanit_gucu": "aday_yok",
+   "durum": "onay_bekliyor",
+   "karsilastirma": [
+    {
+     "kaynak_lig": "fr.1",
+     "kadro_sezonu": "2026-27",
+     "eslesen": 0,
+     "oran": 0.0,
+     "ornekler": [],
+     "benzerlik_onerisi": 0,
+     "benzerlik_orani": 0.0
+    },
+    {
+     "kaynak_lig": "fr.2",
+     "kadro_sezonu": "2025-26",
+     "eslesen": 0,
+     "oran": 0.0,
+     "ornekler": [],
+     "benzerlik_onerisi": 0,
+     "benzerlik_orani": 0.0
+    }
+   ],
+   "not": "Takım sayısı az ya da örtüşme yetersiz: eşleme önerilmez."
+  },
+  {
+   "nesine_lig": "Fransa Ulusal Lig",
+   "nesine_lig_kodu": 1310,
+   "ulke": "FR",
+   "nesine_takim_sayisi": 3,
+   "bultenler": [
+    "bulten_20261123_223950",
+    "bulten_20261123_231906"
+   ],
+   "en_iyi_aday": null,
+   "kanit_gucu": "aday_yok",
+   "durum": "onay_bekliyor",
+   "karsilastirma": [
+    {
+     "kaynak_lig": "fr.1",
+     "kadro_sezonu": "2026-27",
+     "eslesen": 0,
+     "oran": 0.0,
+     "ornekler": [],
+     "benzerlik_onerisi": 0,
+     "benzerlik_orani": 0.0
+    },
+    {
+     "kaynak_lig": "fr.2",
+     "kadro_sezonu": "2025-26",
+     "eslesen": 0,
+     "oran": 0.0,
+     "ornekler": [],
+     "benzerlik_onerisi": 0,
+     "benzerlik_orani": 0.0
+    }
+   ],
+   "not": "Takım sayısı az ya da örtüşme yetersiz: eşleme önerilmez."
+  },
+  {
+   "nesine_lig": "Portekiz U23 Next Gen Ligi",
+   "nesine_lig_kodu": 78382,
+   "ulke": "PT",
+   "nesine_takim_sayisi": 14,
+   "bultenler": [
+    "bulten_20261123_223950",
+    "bulten_20261123_231906"
+   ],
+   "en_iyi_aday": "pt.1",
+   "kanit_gucu": "zayif_aday",
+   "durum": "onay_bekliyor",
+   "karsilastirma": [
+    {
+     "kaynak_lig": "pt.1",
+     "kadro_sezonu": "2026-27",
+     "eslesen": 0,
+     "oran": 0.0,
+     "ornekler": [],
+     "benzerlik_onerisi": 3,
+     "benzerlik_orani": 0.214
+    }
+   ],
+   "not": "Takım sayısı az ya da örtüşme yetersiz: eşleme önerilmez."
+  },
+  {
+   "nesine_lig": "İngiltere 1. Lig",
+   "nesine_lig_kodu": 24,
+   "ulke": "ENG",
+   "nesine_takim_sayisi": 10,
+   "bultenler": [
+    "bulten_20261123_223950",
+    "bulten_20261123_231906",
+    "bulten_20261126_024029",
+    "bulten_20261126_030249"
+   ],
+   "en_iyi_aday": "en.3",
+   "kanit_gucu": "zayif_aday",
+   "durum": "onay_bekliyor",
+   "karsilastirma": [
+    {
+     "kaynak_lig": "en.3",
+     "kadro_sezonu": "2025-26",
+     "eslesen": 3,
+     "oran": 0.3,
+     "ornekler": [
+      [
+       "Barnsley",
+       "Barnsley FC"
+      ],
+      [
+       "Blackpool",
+       "Blackpool FC"
+      ],
+      [
+       "Stevenage",
+       "Stevenage FC"
+      ]
+     ],
+     "benzerlik_onerisi": 3,
+     "benzerlik_orani": 0.3
+    },
+    {
+     "kaynak_lig": "en.4",
+     "kadro_sezonu": "2025-26",
+     "eslesen": 1,
+     "oran": 0.1,
+     "ornekler": [
+      [
+       "Bromley",
+       "Bromley FC"
+      ]
+     ],
+     "benzerlik_onerisi": 1,
+     "benzerlik_orani": 0.1
+    },
+    {
+     "kaynak_lig": "en.1",
+     "kadro_sezonu": "2026-27",
+     "eslesen": 0,
+     "oran": 0.0,
+     "ornekler": [],
+     "benzerlik_onerisi": 0,
+     "benzerlik_orani": 0.0
+    },
+    {
+     "kaynak_lig": "en.2",
+     "kadro_sezonu": "2026-27",
+     "eslesen": 0,
+     "oran": 0.0,
+     "ornekler": [],
+     "benzerlik_onerisi": 0,
+     "benzerlik_orani": 0.0
+    }
+   ],
+   "not": "Takım sayısı az ya da örtüşme yetersiz: eşleme önerilmez."
+  },
+  {
+   "nesine_lig": "İngiltere 2. Lig",
+   "nesine_lig_kodu": 12,
+   "ulke": "ENG",
+   "nesine_takim_sayisi": 4,
+   "bultenler": [
+    "bulten_20261123_223950",
+    "bulten_20261123_231906"
+   ],
+   "en_iyi_aday": "en.4",
+   "kanit_gucu": "zayif_aday",
+   "durum": "onay_bekliyor",
+   "karsilastirma": [
+    {
+     "kaynak_lig": "en.4",
+     "kadro_sezonu": "2025-26",
+     "eslesen": 2,
+     "oran": 0.5,
+     "ornekler": [
+      [
+       "Barnet",
+       "Barnet FC"
+      ],
+      [
+       "Crawley Town",
+       "Crawley Town"
+      ]
+     ],
+     "benzerlik_onerisi": 2,
+     "benzerlik_orani": 0.5
+    },
+    {
+     "kaynak_lig": "en.3",
+     "kadro_sezonu": "2025-26",
+     "eslesen": 1,
+     "oran": 0.25,
+     "ornekler": [
+      [
+       "Port Vale",
+       "Port Vale FC"
+      ]
+     ],
+     "benzerlik_onerisi": 1,
+     "benzerlik_orani": 0.25
+    },
+    {
+     "kaynak_lig": "en.1",
+     "kadro_sezonu": "2026-27",
+     "eslesen": 0,
+     "oran": 0.0,
+     "ornekler": [],
+     "benzerlik_onerisi": 0,
+     "benzerlik_orani": 0.0
+    },
+    {
+     "kaynak_lig": "en.2",
+     "kadro_sezonu": "2026-27",
+     "eslesen": 0,
+     "oran": 0.0,
+     "ornekler": [],
+     "benzerlik_onerisi": 0,
+     "benzerlik_orani": 0.0
+    }
+   ],
+   "not": "Takım sayısı az ya da örtüşme yetersiz: eşleme önerilmez."
+  },
+  {
+   "nesine_lig": "İngiltere Championship",
+   "nesine_lig_kodu": 52,
+   "ulke": "ENG",
+   "nesine_takim_sayisi": 24,
+   "bultenler": [
+    "bulten_20261123_223950",
+    "bulten_20261123_231906"
+   ],
+   "en_iyi_aday": "en.2",
+   "kanit_gucu": "guclu_aday",
+   "durum": "onay_bekliyor",
+   "karsilastirma": [
+    {
+     "kaynak_lig": "en.2",
+     "kadro_sezonu": "2026-27",
+     "eslesen": 15,
+     "oran": 0.625,
+     "ornekler": [
+      [
+       "Bristol City",
+       "Bristol City FC"
+      ],
+      [
+       "Burnley",
+       "Burnley FC"
+      ],
+      [
+       "Cardiff City",
+       "Cardiff City FC"
+      ],
+      [
+       "Derby County",
+       "Derby County FC"
+      ],
+      [
+       "Lincoln City",
+       "Lincoln City FC"
+      ],
+      [
+       "Middlesbrough",
+       "Middlesbrough FC"
+      ]
+     ],
+     "benzerlik_onerisi": 13,
+     "benzerlik_orani": 0.542
+    },
+    {
+     "kaynak_lig": "en.3",
+     "kadro_sezonu": "2025-26",
+     "eslesen": 2,
+     "oran": 0.083,
+     "ornekler": [
+      [
+       "Cardiff City",
+       "Cardiff City"
+      ],
+      [
+       "Lincoln City",
+       "Lincoln City"
+      ]
+     ],
+     "benzerlik_onerisi": 2,
+     "benzerlik_orani": 0.083
+    },
+    {
+     "kaynak_lig": "en.1",
+     "kadro_sezonu": "2026-27",
+     "eslesen": 0,
+     "oran": 0.0,
+     "ornekler": [],
+     "benzerlik_onerisi": 0,
+     "benzerlik_orani": 0.0
+    },
+    {
+     "kaynak_lig": "en.4",
+     "kadro_sezonu": "2025-26",
+     "eslesen": 0,
+     "oran": 0.0,
+     "ornekler": [],
+     "benzerlik_onerisi": 0,
+     "benzerlik_orani": 0.0
+    }
+   ],
+   "not": "Kadro sezonu eski olabilir (terfi/düşme); güçlü aday bile kullanıcı onayı olmadan kullanılmaz."
+  },
+  {
+   "nesine_lig": "İngiltere Güney Ligi, Güney",
+   "nesine_lig_kodu": 2665,
+   "ulke": "ENG",
+   "nesine_takim_sayisi": 10,
+   "bultenler": [
+    "bulten_20261123_223950",
+    "bulten_20261123_231906"
+   ],
+   "en_iyi_aday": null,
+   "kanit_gucu": "aday_yok",
+   "durum": "onay_bekliyor",
+   "karsilastirma": [
+    {
+     "kaynak_lig": "en.1",
+     "kadro_sezonu": "2026-27",
+     "eslesen": 0,
+     "oran": 0.0,
+     "ornekler": [],
+     "benzerlik_onerisi": 0,
+     "benzerlik_orani": 0.0
+    },
+    {
+     "kaynak_lig": "en.2",
+     "kadro_sezonu": "2026-27",
+     "eslesen": 0,
+     "oran": 0.0,
+     "ornekler": [],
+     "benzerlik_onerisi": 0,
+     "benzerlik_orani": 0.0
+    },
+    {
+     "kaynak_lig": "en.3",
+     "kadro_sezonu": "2025-26",
+     "eslesen": 0,
+     "oran": 0.0,
+     "ornekler": [],
+     "benzerlik_onerisi": 0,
+     "benzerlik_orani": 0.0
+    },
+    {
+     "kaynak_lig": "en.4",
+     "kadro_sezonu": "2025-26",
+     "eslesen": 0,
+     "oran": 0.0,
+     "ornekler": [],
+     "benzerlik_onerisi": 0,
+     "benzerlik_orani": 0.0
+    }
+   ],
+   "not": "Takım sayısı az ya da örtüşme yetersiz: eşleme önerilmez."
+  },
+  {
+   "nesine_lig": "İngiltere Güney Ligi, Merkez",
+   "nesine_lig_kodu": 2667,
+   "ulke": "ENG",
+   "nesine_takim_sayisi": 8,
+   "bultenler": [
+    "bulten_20261123_223950",
+    "bulten_20261123_231906"
+   ],
+   "en_iyi_aday": null,
+   "kanit_gucu": "aday_yok",
+   "durum": "onay_bekliyor",
+   "karsilastirma": [
+    {
+     "kaynak_lig": "en.1",
+     "kadro_sezonu": "2026-27",
+     "eslesen": 0,
+     "oran": 0.0,
+     "ornekler": [],
+     "benzerlik_onerisi": 0,
+     "benzerlik_orani": 0.0
+    },
+    {
+     "kaynak_lig": "en.2",
+     "kadro_sezonu": "2026-27",
+     "eslesen": 0,
+     "oran": 0.0,
+     "ornekler": [],
+     "benzerlik_onerisi": 0,
+     "benzerlik_orani": 0.0
+    },
+    {
+     "kaynak_lig": "en.3",
+     "kadro_sezonu": "2025-26",
+     "eslesen": 0,
+     "oran": 0.0,
+     "ornekler": [],
+     "benzerlik_onerisi": 0,
+     "benzerlik_orani": 0.0
+    },
+    {
+     "kaynak_lig": "en.4",
+     "kadro_sezonu": "2025-26",
+     "eslesen": 0,
+     "oran": 0.0,
+     "ornekler": [],
+     "benzerlik_onerisi": 0,
+     "benzerlik_orani": 0.0
+    }
+   ],
+   "not": "Takım sayısı az ya da örtüşme yetersiz: eşleme önerilmez."
+  },
+  {
+   "nesine_lig": "İngiltere Isthmian Ligi",
+   "nesine_lig_kodu": 2666,
+   "ulke": "ENG",
+   "nesine_takim_sayisi": 6,
+   "bultenler": [
+    "bulten_20261123_223950",
+    "bulten_20261123_231906"
+   ],
+   "en_iyi_aday": null,
+   "kanit_gucu": "aday_yok",
+   "durum": "onay_bekliyor",
+   "karsilastirma": [
+    {
+     "kaynak_lig": "en.1",
+     "kadro_sezonu": "2026-27",
+     "eslesen": 0,
+     "oran": 0.0,
+     "ornekler": [],
+     "benzerlik_onerisi": 0,
+     "benzerlik_orani": 0.0
+    },
+    {
+     "kaynak_lig": "en.2",
+     "kadro_sezonu": "2026-27",
+     "eslesen": 0,
+     "oran": 0.0,
+     "ornekler": [],
+     "benzerlik_onerisi": 0,
+     "benzerlik_orani": 0.0
+    },
+    {
+     "kaynak_lig": "en.3",
+     "kadro_sezonu": "2025-26",
+     "eslesen": 0,
+     "oran": 0.0,
+     "ornekler": [],
+     "benzerlik_onerisi": 0,
+     "benzerlik_orani": 0.0
+    },
+    {
+     "kaynak_lig": "en.4",
+     "kadro_sezonu": "2025-26",
+     "eslesen": 0,
+     "oran": 0.0,
+     "ornekler": [],
+     "benzerlik_onerisi": 0,
+     "benzerlik_orani": 0.0
+    }
+   ],
+   "not": "Takım sayısı az ya da örtüşme yetersiz: eşleme önerilmez."
+  },
+  {
+   "nesine_lig": "İngiltere Kuzey Premier Ligi",
+   "nesine_lig_kodu": 2646,
+   "ulke": "ENG",
+   "nesine_takim_sayisi": 2,
+   "bultenler": [
+    "bulten_20261123_223950",
+    "bulten_20261123_231906"
+   ],
+   "en_iyi_aday": null,
+   "kanit_gucu": "aday_yok",
+   "durum": "onay_bekliyor",
+   "karsilastirma": [
+    {
+     "kaynak_lig": "en.1",
+     "kadro_sezonu": "2026-27",
+     "eslesen": 0,
+     "oran": 0.0,
+     "ornekler": [],
+     "benzerlik_onerisi": 0,
+     "benzerlik_orani": 0.0
+    },
+    {
+     "kaynak_lig": "en.2",
+     "kadro_sezonu": "2026-27",
+     "eslesen": 0,
+     "oran": 0.0,
+     "ornekler": [],
+     "benzerlik_onerisi": 0,
+     "benzerlik_orani": 0.0
+    },
+    {
+     "kaynak_lig": "en.3",
+     "kadro_sezonu": "2025-26",
+     "eslesen": 0,
+     "oran": 0.0,
+     "ornekler": [],
+     "benzerlik_onerisi": 0,
+     "benzerlik_orani": 0.0
+    },
+    {
+     "kaynak_lig": "en.4",
+     "kadro_sezonu": "2025-26",
+     "eslesen": 0,
+     "oran": 0.0,
+     "ornekler": [],
+     "benzerlik_onerisi": 0,
+     "benzerlik_orani": 0.0
+    }
+   ],
+   "not": "Takım sayısı az ya da örtüşme yetersiz: eşleme önerilmez."
+  },
+  {
+   "nesine_lig": "İngiltere Premier Lig",
+   "nesine_lig_kodu": 43,
+   "ulke": "ENG",
+   "nesine_takim_sayisi": 2,
+   "bultenler": [
+    "bulten_20261123_223950",
+    "bulten_20261123_231906"
+   ],
+   "en_iyi_aday": "en.1",
+   "kanit_gucu": "zayif_aday",
+   "durum": "onay_bekliyor",
+   "karsilastirma": [
+    {
+     "kaynak_lig": "en.1",
+     "kadro_sezonu": "2026-27",
+     "eslesen": 2,
+     "oran": 1.0,
+     "ornekler": [
+      [
+       "Brentford",
+       "Brentford FC"
+      ],
+      [
+       "Everton",
+       "Everton FC"
+      ]
+     ],
+     "benzerlik_onerisi": 2,
+     "benzerlik_orani": 1.0
+    },
+    {
+     "kaynak_lig": "en.2",
+     "kadro_sezonu": "2026-27",
+     "eslesen": 0,
+     "oran": 0.0,
+     "ornekler": [],
+     "benzerlik_onerisi": 0,
+     "benzerlik_orani": 0.0
+    },
+    {
+     "kaynak_lig": "en.3",
+     "kadro_sezonu": "2025-26",
+     "eslesen": 0,
+     "oran": 0.0,
+     "ornekler": [],
+     "benzerlik_onerisi": 0,
+     "benzerlik_orani": 0.0
+    },
+    {
+     "kaynak_lig": "en.4",
+     "kadro_sezonu": "2025-26",
+     "eslesen": 0,
+     "oran": 0.0,
+     "ornekler": [],
+     "benzerlik_onerisi": 0,
+     "benzerlik_orani": 0.0
+    }
+   ],
+   "not": "Takım sayısı az ya da örtüşme yetersiz: eşleme önerilmez."
+  },
+  {
+   "nesine_lig": "İngiltere Profesyonel Gelişim Ligi",
+   "nesine_lig_kodu": 33362,
+   "ulke": "ENG",
+   "nesine_takim_sayisi": 2,
+   "bultenler": [
+    "bulten_20261123_223950",
+    "bulten_20261123_231906"
+   ],
+   "en_iyi_aday": "en.1",
+   "kanit_gucu": "zayif_aday",
+   "durum": "onay_bekliyor",
+   "karsilastirma": [
+    {
+     "kaynak_lig": "en.1",
+     "kadro_sezonu": "2026-27",
+     "eslesen": 0,
+     "oran": 0.0,
+     "ornekler": [],
+     "benzerlik_onerisi": 1,
+     "benzerlik_orani": 0.5
+    },
+    {
+     "kaynak_lig": "en.2",
+     "kadro_sezonu": "2026-27",
+     "eslesen": 0,
+     "oran": 0.0,
+     "ornekler": [],
+     "benzerlik_onerisi": 0,
+     "benzerlik_orani": 0.0
+    },
+    {
+     "kaynak_lig": "en.3",
+     "kadro_sezonu": "2025-26",
+     "eslesen": 0,
+     "oran": 0.0,
+     "ornekler": [],
+     "benzerlik_onerisi": 0,
+     "benzerlik_orani": 0.0
+    },
+    {
+     "kaynak_lig": "en.4",
+     "kadro_sezonu": "2025-26",
+     "eslesen": 0,
+     "oran": 0.0,
+     "ornekler": [],
+     "benzerlik_onerisi": 0,
+     "benzerlik_orani": 0.0
+    }
+   ],
+   "not": "Takım sayısı az ya da örtüşme yetersiz: eşleme önerilmez."
+  },
+  {
+   "nesine_lig": "İngiltere Trophy Kupası, Güney",
+   "nesine_lig_kodu": 10006,
+   "ulke": "ENG",
+   "nesine_takim_sayisi": 2,
+   "bultenler": [
+    "bulten_20261123_223950",
+    "bulten_20261123_231906"
+   ],
+   "en_iyi_aday": null,
+   "kanit_gucu": "aday_yok",
+   "durum": "onay_bekliyor",
+   "karsilastirma": [
+    {
+     "kaynak_lig": "en.1",
+     "kadro_sezonu": "2026-27",
+     "eslesen": 0,
+     "oran": 0.0,
+     "ornekler": [],
+     "benzerlik_onerisi": 0,
+     "benzerlik_orani": 0.0
+    },
+    {
+     "kaynak_lig": "en.2",
+     "kadro_sezonu": "2026-27",
+     "eslesen": 0,
+     "oran": 0.0,
+     "ornekler": [],
+     "benzerlik_onerisi": 0,
+     "benzerlik_orani": 0.0
+    },
+    {
+     "kaynak_lig": "en.3",
+     "kadro_sezonu": "2025-26",
+     "eslesen": 0,
+     "oran": 0.0,
+     "ornekler": [],
+     "benzerlik_onerisi": 0,
+     "benzerlik_orani": 0.0
+    },
+    {
+     "kaynak_lig": "en.4",
+     "kadro_sezonu": "2025-26",
+     "eslesen": 0,
+     "oran": 0.0,
+     "ornekler": [],
+     "benzerlik_onerisi": 0,
+     "benzerlik_orani": 0.0
+    }
+   ],
+   "not": "Takım sayısı az ya da örtüşme yetersiz: eşleme önerilmez."
+  },
+  {
+   "nesine_lig": "İngiltere Trophy Kupası, Kuzey",
+   "nesine_lig_kodu": 10005,
+   "ulke": "ENG",
+   "nesine_takim_sayisi": 6,
+   "bultenler": [
+    "bulten_20261123_223950",
+    "bulten_20261123_231906"
+   ],
+   "en_iyi_aday": "en.4",
+   "kanit_gucu": "zayif_aday",
+   "durum": "onay_bekliyor",
+   "karsilastirma": [
+    {
+     "kaynak_lig": "en.4",
+     "kadro_sezonu": "2025-26",
+     "eslesen": 1,
+     "oran": 0.167,
+     "ornekler": [
+      [
+       "Salford City",
+       "Salford City"
+      ]
+     ],
+     "benzerlik_onerisi": 1,
+     "benzerlik_orani": 0.167
+    },
+    {
+     "kaynak_lig": "en.1",
+     "kadro_sezonu": "2026-27",
+     "eslesen": 0,
+     "oran": 0.0,
+     "ornekler": [],
+     "benzerlik_onerisi": 1,
+     "benzerlik_orani": 0.167
+    },
+    {
+     "kaynak_lig": "en.2",
+     "kadro_sezonu": "2026-27",
+     "eslesen": 0,
+     "oran": 0.0,
+     "ornekler": [],
+     "benzerlik_onerisi": 0,
+     "benzerlik_orani": 0.0
+    },
+    {
+     "kaynak_lig": "en.3",
+     "kadro_sezonu": "2025-26",
+     "eslesen": 0,
+     "oran": 0.0,
+     "ornekler": [],
+     "benzerlik_onerisi": 0,
+     "benzerlik_orani": 0.0
+    }
+   ],
+   "not": "Takım sayısı az ya da örtüşme yetersiz: eşleme önerilmez."
+  },
+  {
+   "nesine_lig": "İngiltere U21 Premier Lig Kupası",
+   "nesine_lig_kodu": 10220,
+   "ulke": "ENG",
+   "nesine_takim_sayisi": 10,
+   "bultenler": [
+    "bulten_20261123_223950",
+    "bulten_20261123_231906",
+    "bulten_20261126_024029",
+    "bulten_20261126_030249"
+   ],
+   "en_iyi_aday": "en.1",
+   "kanit_gucu": "zayif_aday",
+   "durum": "onay_bekliyor",
+   "karsilastirma": [
+    {
+     "kaynak_lig": "en.1",
+     "kadro_sezonu": "2026-27",
+     "eslesen": 0,
+     "oran": 0.0,
+     "ornekler": [],
+     "benzerlik_onerisi": 1,
+     "benzerlik_orani": 0.1
+    },
+    {
+     "kaynak_lig": "en.2",
+     "kadro_sezonu": "2026-27",
+     "eslesen": 0,
+     "oran": 0.0,
+     "ornekler": [],
+     "benzerlik_onerisi": 1,
+     "benzerlik_orani": 0.1
+    },
+    {
+     "kaynak_lig": "en.3",
+     "kadro_sezonu": "2025-26",
+     "eslesen": 0,
+     "oran": 0.0,
+     "ornekler": [],
+     "benzerlik_onerisi": 0,
+     "benzerlik_orani": 0.0
+    },
+    {
+     "kaynak_lig": "en.4",
+     "kadro_sezonu": "2025-26",
+     "eslesen": 0,
+     "oran": 0.0,
+     "ornekler": [],
+     "benzerlik_onerisi": 0,
+     "benzerlik_orani": 0.0
+    }
+   ],
+   "not": "Takım sayısı az ya da örtüşme yetersiz: eşleme önerilmez."
+  },
+  {
+   "nesine_lig": "İngiltere Ulusal Lig",
+   "nesine_lig_kodu": 401,
+   "ulke": "ENG",
+   "nesine_takim_sayisi": 24,
+   "bultenler": [
+    "bulten_20261123_223950",
+    "bulten_20261123_231906"
+   ],
+   "en_iyi_aday": "en.4",
+   "kanit_gucu": "zayif_aday",
+   "durum": "onay_bekliyor",
+   "karsilastirma": [
+    {
+     "kaynak_lig": "en.4",
+     "kadro_sezonu": "2025-26",
+     "eslesen": 1,
+     "oran": 0.042,
+     "ornekler": [
+      [
+       "Barrow",
+       "Barrow AFC"
+      ]
+     ],
+     "benzerlik_onerisi": 1,
+     "benzerlik_orani": 0.042
+    },
+    {
+     "kaynak_lig": "en.1",
+     "kadro_sezonu": "2026-27",
+     "eslesen": 0,
+     "oran": 0.0,
+     "ornekler": [],
+     "benzerlik_onerisi": 0,
+     "benzerlik_orani": 0.0
+    },
+    {
+     "kaynak_lig": "en.2",
+     "kadro_sezonu": "2026-27",
+     "eslesen": 0,
+     "oran": 0.0,
+     "ornekler": [],
+     "benzerlik_onerisi": 0,
+     "benzerlik_orani": 0.0
+    },
+    {
+     "kaynak_lig": "en.3",
+     "kadro_sezonu": "2025-26",
+     "eslesen": 0,
+     "oran": 0.0,
+     "ornekler": [],
+     "benzerlik_onerisi": 0,
+     "benzerlik_orani": 0.0
+    }
+   ],
+   "not": "Takım sayısı az ya da örtüşme yetersiz: eşleme önerilmez."
+  },
+  {
+   "nesine_lig": "İngiltere Ulusal Lig, Güney",
+   "nesine_lig_kodu": 140,
+   "ulke": "ENG",
+   "nesine_takim_sayisi": 22,
+   "bultenler": [
+    "bulten_20261123_223950",
+    "bulten_20261123_231906"
+   ],
+   "en_iyi_aday": null,
+   "kanit_gucu": "aday_yok",
+   "durum": "onay_bekliyor",
+   "karsilastirma": [
+    {
+     "kaynak_lig": "en.1",
+     "kadro_sezonu": "2026-27",
+     "eslesen": 0,
+     "oran": 0.0,
+     "ornekler": [],
+     "benzerlik_onerisi": 0,
+     "benzerlik_orani": 0.0
+    },
+    {
+     "kaynak_lig": "en.2",
+     "kadro_sezonu": "2026-27",
+     "eslesen": 0,
+     "oran": 0.0,
+     "ornekler": [],
+     "benzerlik_onerisi": 0,
+     "benzerlik_orani": 0.0
+    },
+    {
+     "kaynak_lig": "en.3",
+     "kadro_sezonu": "2025-26",
+     "eslesen": 0,
+     "oran": 0.0,
+     "ornekler": [],
+     "benzerlik_onerisi": 0,
+     "benzerlik_orani": 0.0
+    },
+    {
+     "kaynak_lig": "en.4",
+     "kadro_sezonu": "2025-26",
+     "eslesen": 0,
+     "oran": 0.0,
+     "ornekler": [],
+     "benzerlik_onerisi": 0,
+     "benzerlik_orani": 0.0
+    }
+   ],
+   "not": "Takım sayısı az ya da örtüşme yetersiz: eşleme önerilmez."
+  },
+  {
+   "nesine_lig": "İngiltere Ulusal Lig, Kuzey",
+   "nesine_lig_kodu": 134,
+   "ulke": "ENG",
+   "nesine_takim_sayisi": 24,
+   "bultenler": [
+    "bulten_20261123_223950",
+    "bulten_20261123_231906"
+   ],
+   "en_iyi_aday": "en.4",
+   "kanit_gucu": "zayif_aday",
+   "durum": "onay_bekliyor",
+   "karsilastirma": [
+    {
+     "kaynak_lig": "en.4",
+     "kadro_sezonu": "2025-26",
+     "eslesen": 0,
+     "oran": 0.0,
+     "ornekler": [],
+     "benzerlik_onerisi": 1,
+     "benzerlik_orani": 0.042
+    },
+    {
+     "kaynak_lig": "en.1",
+     "kadro_sezonu": "2026-27",
+     "eslesen": 0,
+     "oran": 0.0,
+     "ornekler": [],
+     "benzerlik_onerisi": 0,
+     "benzerlik_orani": 0.0
+    },
+    {
+     "kaynak_lig": "en.2",
+     "kadro_sezonu": "2026-27",
+     "eslesen": 0,
+     "oran": 0.0,
+     "ornekler": [],
+     "benzerlik_onerisi": 0,
+     "benzerlik_orani": 0.0
+    },
+    {
+     "kaynak_lig": "en.3",
+     "kadro_sezonu": "2025-26",
+     "eslesen": 0,
+     "oran": 0.0,
+     "ornekler": [],
+     "benzerlik_onerisi": 0,
+     "benzerlik_orani": 0.0
+    }
+   ],
+   "not": "Takım sayısı az ya da örtüşme yetersiz: eşleme önerilmez."
+  },
+  {
+   "nesine_lig": "İskoçya Challenge Kupası, PO",
+   "nesine_lig_kodu": 59181,
+   "ulke": "SCO",
+   "nesine_takim_sayisi": 16,
+   "bultenler": [
+    "bulten_20261123_223950",
+    "bulten_20261123_231906"
+   ],
+   "en_iyi_aday": "sco.1",
+   "kanit_gucu": "zayif_aday",
+   "durum": "onay_bekliyor",
+   "karsilastirma": [
+    {
+     "kaynak_lig": "sco.1",
+     "kadro_sezonu": "2025-26",
+     "eslesen": 1,
+     "oran": 0.062,
+     "ornekler": [
+      [
+       "Livingston",
+       "Livingston FC"
+      ]
+     ],
+     "benzerlik_onerisi": 1,
+     "benzerlik_orani": 0.062
+    }
+   ],
+   "not": "Takım sayısı az ya da örtüşme yetersiz: eşleme önerilmez."
+  },
+  {
+   "nesine_lig": "İskoçya Premiership",
+   "nesine_lig_kodu": 149,
+   "ulke": "SCO",
+   "nesine_takim_sayisi": 4,
+   "bultenler": [
+    "bulten_20261123_223950",
+    "bulten_20261123_231906"
+   ],
+   "en_iyi_aday": "sco.1",
+   "kanit_gucu": "guclu_aday",
+   "durum": "onay_bekliyor",
+   "karsilastirma": [
+    {
+     "kaynak_lig": "sco.1",
+     "kadro_sezonu": "2025-26",
+     "eslesen": 4,
+     "oran": 1.0,
+     "ornekler": [
+      [
+       "Aberdeen",
+       "Aberdeen FC"
+      ],
+      [
+       "Dundee",
+       "Dundee FC"
+      ],
+      [
+       "Hibernian",
+       "Hibernian FC"
+      ],
+      [
+       "Rangers",
+       "Rangers FC"
+      ]
+     ],
+     "benzerlik_onerisi": 4,
+     "benzerlik_orani": 1.0
+    }
+   ],
+   "not": "Kadro sezonu eski olabilir (terfi/düşme); güçlü aday bile kullanıcı onayı olmadan kullanılmaz."
+  },
+  {
+   "nesine_lig": "İspanya 2. Lig",
+   "nesine_lig_kodu": 1951,
+   "ulke": "ES",
+   "nesine_takim_sayisi": 2,
+   "bultenler": [
+    "bulten_20261123_223950",
+    "bulten_20261123_231906"
+   ],
+   "en_iyi_aday": "es.2",
+   "kanit_gucu": "zayif_aday",
+   "durum": "onay_bekliyor",
+   "karsilastirma": [
+    {
+     "kaynak_lig": "es.2",
+     "kadro_sezonu": "2025-26",
+     "eslesen": 2,
+     "oran": 1.0,
+     "ornekler": [
+      [
+       "AD Ceuta",
+       "AD Ceuta FC"
+      ],
+      [
+       "Almeria",
+       "UD Almería"
+      ]
+     ],
+     "benzerlik_onerisi": 2,
+     "benzerlik_orani": 1.0
+    },
+    {
+     "kaynak_lig": "es.1",
+     "kadro_sezonu": "2026-27",
+     "eslesen": 0,
+     "oran": 0.0,
+     "ornekler": [],
+     "benzerlik_onerisi": 0,
+     "benzerlik_orani": 0.0
+    }
+   ],
+   "not": "Takım sayısı az ya da örtüşme yetersiz: eşleme önerilmez."
+  },
+  {
+   "nesine_lig": "İspanya La Liga",
+   "nesine_lig_kodu": 129,
+   "ulke": "ES",
+   "nesine_takim_sayisi": 2,
+   "bultenler": [
+    "bulten_20261123_223950",
+    "bulten_20261123_231906"
+   ],
+   "en_iyi_aday": "es.1",
+   "kanit_gucu": "zayif_aday",
+   "durum": "onay_bekliyor",
+   "karsilastirma": [
+    {
+     "kaynak_lig": "es.1",
+     "kadro_sezonu": "2026-27",
+     "eslesen": 2,
+     "oran": 1.0,
+     "ornekler": [
+      [
+       "Elche",
+       "Elche CF"
+      ],
+      [
+       "Levante",
+       "Levante UD"
+      ]
+     ],
+     "benzerlik_onerisi": 2,
+     "benzerlik_orani": 1.0
+    },
+    {
+     "kaynak_lig": "es.2",
+     "kadro_sezonu": "2025-26",
+     "eslesen": 0,
+     "oran": 0.0,
+     "ornekler": [],
+     "benzerlik_onerisi": 0,
+     "benzerlik_orani": 0.0
+    }
+   ],
+   "not": "Takım sayısı az ya da örtüşme yetersiz: eşleme önerilmez."
+  },
+  {
+   "nesine_lig": "İspanya Segunda RFEF",
+   "nesine_lig_kodu": 10063,
+   "ulke": "ES",
+   "nesine_takim_sayisi": 2,
+   "bultenler": [
+    "bulten_20261123_223950",
+    "bulten_20261123_231906"
+   ],
+   "en_iyi_aday": null,
+   "kanit_gucu": "aday_yok",
+   "durum": "onay_bekliyor",
+   "karsilastirma": [
+    {
+     "kaynak_lig": "es.1",
+     "kadro_sezonu": "2026-27",
+     "eslesen": 0,
+     "oran": 0.0,
+     "ornekler": [],
+     "benzerlik_onerisi": 0,
+     "benzerlik_orani": 0.0
+    },
+    {
+     "kaynak_lig": "es.2",
+     "kadro_sezonu": "2025-26",
+     "eslesen": 0,
+     "oran": 0.0,
+     "ornekler": [],
+     "benzerlik_onerisi": 0,
+     "benzerlik_orani": 0.0
+    }
+   ],
+   "not": "Takım sayısı az ya da örtüşme yetersiz: eşleme önerilmez."
+  },
+  {
+   "nesine_lig": "İsviçre Yükselme 1.Ligi",
+   "nesine_lig_kodu": 2935,
+   "ulke": "CH",
+   "nesine_takim_sayisi": 2,
+   "bultenler": [
+    "bulten_20261123_223950",
+    "bulten_20261123_231906"
+   ],
+   "en_iyi_aday": "ch.2",
+   "kanit_gucu": "zayif_aday",
+   "durum": "onay_bekliyor",
+   "karsilastirma": [
+    {
+     "kaynak_lig": "ch.2",
+     "kadro_sezonu": "2020-21",
+     "eslesen": 1,
+     "oran": 0.5,
+     "ornekler": [
+      [
+       "Schaffhausen",
+       "FC Schaffhausen"
+      ]
+     ],
+     "benzerlik_onerisi": 1,
+     "benzerlik_orani": 0.5
+    },
+    {
+     "kaynak_lig": "ch.1",
+     "kadro_sezonu": "2020-21",
+     "eslesen": 0,
+     "oran": 0.0,
+     "ornekler": [],
+     "benzerlik_onerisi": 0,
+     "benzerlik_orani": 0.0
+    }
+   ],
+   "not": "Takım sayısı az ya da örtüşme yetersiz: eşleme önerilmez."
+  },
+  {
+   "nesine_lig": "İtalya Serie A",
+   "nesine_lig_kodu": 143,
+   "ulke": "IT",
+   "nesine_takim_sayisi": 2,
+   "bultenler": [
+    "bulten_20261123_223950",
+    "bulten_20261123_231906"
+   ],
+   "en_iyi_aday": "it.2",
+   "kanit_gucu": "zayif_aday",
+   "durum": "onay_bekliyor",
+   "karsilastirma": [
+    {
+     "kaynak_lig": "it.2",
+     "kadro_sezonu": "2025-26",
+     "eslesen": 1,
+     "oran": 0.5,
+     "ornekler": [
+      [
+       "AC Monza",
+       "AC Monza"
+      ]
+     ],
+     "benzerlik_onerisi": 1,
+     "benzerlik_orani": 0.5
+    },
+    {
+     "kaynak_lig": "it.1",
+     "kadro_sezonu": "2026-27",
+     "eslesen": 1,
+     "oran": 0.5,
+     "ornekler": [
+      [
+       "AC Monza",
+       "AC Monza"
+      ]
+     ],
+     "benzerlik_onerisi": 0,
+     "benzerlik_orani": 0.0
+    }
+   ],
+   "not": "Takım sayısı az ya da örtüşme yetersiz: eşleme önerilmez."
+  },
+  {
+   "nesine_lig": "İtalya Serie B",
+   "nesine_lig_kodu": 1774,
+   "ulke": "IT",
+   "nesine_takim_sayisi": 20,
+   "bultenler": [
+    "bulten_20261123_223950",
+    "bulten_20261123_231906"
+   ],
+   "en_iyi_aday": "it.2",
+   "kanit_gucu": "guclu_aday",
+   "durum": "onay_bekliyor",
+   "karsilastirma": [
+    {
+     "kaynak_lig": "it.2",
+     "kadro_sezonu": "2025-26",
+     "eslesen": 9,
+     "oran": 0.45,
+     "ornekler": [
+      [
+       "AC Cesena",
+       "Cesena FC"
+      ],
+      [
+       "Catanzaro",
+       "US Catanzaro"
+      ],
+      [
+       "Empoli",
+       "Empoli FC"
+      ],
+      [
+       "Juve Stabia",
+       "Juve Stabia"
+      ],
+      [
+       "Modena",
+       "Modena FC"
+      ],
+      [
+       "Padova",
+       "Calcio Padova"
+      ]
+     ],
+     "benzerlik_onerisi": 10,
+     "benzerlik_orani": 0.5
+    },
+    {
+     "kaynak_lig": "it.1",
+     "kadro_sezonu": "2026-27",
+     "eslesen": 0,
+     "oran": 0.0,
+     "ornekler": [],
+     "benzerlik_onerisi": 0,
+     "benzerlik_orani": 0.0
+    }
+   ],
+   "not": "Kadro sezonu eski olabilir (terfi/düşme); güçlü aday bile kullanıcı onayı olmadan kullanılmaz."
+  },
+  {
+   "nesine_lig": "İtalya Serie C",
+   "nesine_lig_kodu": 10096,
+   "ulke": "IT",
+   "nesine_takim_sayisi": 8,
+   "bultenler": [
+    "bulten_20261123_223950",
+    "bulten_20261123_231906"
+   ],
+   "en_iyi_aday": "it.1",
+   "kanit_gucu": "zayif_aday",
+   "durum": "onay_bekliyor",
+   "karsilastirma": [
+    {
+     "kaynak_lig": "it.1",
+     "kadro_sezonu": "2026-27",
+     "eslesen": 0,
+     "oran": 0.0,
+     "ornekler": [],
+     "benzerlik_onerisi": 1,
+     "benzerlik_orani": 0.125
+    },
+    {
+     "kaynak_lig": "it.2",
+     "kadro_sezonu": "2025-26",
+     "eslesen": 0,
+     "oran": 0.0,
+     "ornekler": [],
+     "benzerlik_onerisi": 0,
+     "benzerlik_orani": 0.0
+    }
+   ],
+   "not": "Takım sayısı az ya da örtüşme yetersiz: eşleme önerilmez."
+  }
+ ]
+}

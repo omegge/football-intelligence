@@ -1,0 +1,33 @@
+{
+ "aciklama": "Nesine lig adı → izinli kaynak lig kodu. YALNIZCA kullanıcı onaylı kayıtlar. Benzer ada bakılarak otomatik kayıt eklenmez (ör. 'İngiltere 1. Lig' Championship mi League One mı, arayüzle doğrulanmalı).",
+ "eslemeler": [
+  {
+   "nesine_lig": "İngiltere Championship",
+   "nesine_yarisma_kimligi": 52,
+   "ulke": "ENG",
+   "kaynak_lig": "en.2",
+   "kaynak": "football-data.org ELC (season=2026) + OpenFootball en.2",
+   "sezon": "2026-27",
+   "kanit": {
+    "yontem": "fikstür hizalaması",
+    "hizali_mac": [
+     {
+      "nesine": "Southampton - Middlesbrough",
+      "nesine_kod": 3331002,
+      "fd": "Southampton FC - Middlesbrough FC",
+      "fd_id": 561968,
+      "utc": "2026-11-27T20:00",
+      "takim_eslesmesi": [
+       "kesin",
+       "kesin"
+      ]
+     }
+    ],
+    "kanit_dosyasi_sha256": "5c7d9084f43c93a0bfe70f1bf12b8870efe95ece649fdb69968a743afea9f8a4"
+   },
+   "onaylayan": "kullanici",
+   "onay_utc": "2026-11-26T18:16:55+00:00",
+   "not": "Yalnızca bu Nesine yarışma kimliği (52) için. Takım adı eşlemeleri ayrıca kesin/onaylı olmalıdır."
+  }
+ ]
+}

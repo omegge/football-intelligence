@@ -1,0 +1,791 @@
+{
+ "aciklama": "Nesine arayüzünden kullanıcının yapıştırdığı referansla ADIYLA eşleşen market kodları (kod+çizgi). Yalnızca bu iki maçta görülen çizgiler doğrulanmıştır; adsız ve aday kodlar (ör. 329) burada YOKTUR. Bu dosya market_sozlugu_v3.json'u değiştirmez.",
+ "referans": {
+  "tarih": "2026-11-26",
+  "maclar": [
+   3326567,
+   3326548
+  ],
+  "cekim_ham_sha256": "ef89b8254ae1589cc25f11f87549aad75633129b0e67b1cd26f4ed9608060c74",
+  "referans_dosyalari": [
+   {
+    "ad": "kullanici_referans_20261126.txt",
+    "sha256": "03b863de46584b5ee09851a926c15968272c12492c5a82aa9f8172998ae7fa91"
+   },
+   {
+    "ad": "referans_inter_escaldes_kopenhag.txt",
+    "sha256": "49d21e10f650898f642c5c76338a3d90ea8e59c133a720e8e151572c4aaa9537"
+   },
+   {
+    "ad": "referans_olympiakos_milan.txt",
+    "sha256": "62def911dbf42d7b813f5e19953e31a2413a7da6ada8831de592fdd97224ca74"
+   }
+  ],
+  "sonuc": "referans 1.203 seçenek; adla eşleşen 1.201; adsız aday 2; gerçek eksik 0",
+  "haric": "MS=0 olan 457/0,5 ve 224 (arayüzde görünmüyor; referansta yok)"
+ },
+ "kodlar": {
+  "1": {
+   "cizgiler": [
+    0.0
+   ],
+   "maclar": [
+    3326548,
+    3326567
+   ],
+   "ad_ornegi": "Maç Sonucu"
+  },
+  "3": {
+   "cizgiler": [
+    0.0
+   ],
+   "maclar": [
+    3326548,
+    3326567
+   ],
+   "ad_ornegi": "Çifte Şans"
+  },
+  "5": {
+   "cizgiler": [
+    0.0
+   ],
+   "maclar": [
+    3326548,
+    3326567
+   ],
+   "ad_ornegi": "İlk Yarı/Maç Sonucu"
+  },
+  "7": {
+   "cizgiler": [
+    0.0
+   ],
+   "maclar": [
+    3326548,
+    3326567
+   ],
+   "ad_ornegi": "1. Yarı Sonucu"
+  },
+  "8": {
+   "cizgiler": [
+    0.0
+   ],
+   "maclar": [
+    3326548,
+    3326567
+   ],
+   "ad_ornegi": "1. Yarı Çifte Şans"
+  },
+  "9": {
+   "cizgiler": [
+    0.0
+   ],
+   "maclar": [
+    3326548,
+    3326567
+   ],
+   "ad_ornegi": "2. Yarı Sonucu"
+  },
+  "11": {
+   "cizgiler": [
+    1.5
+   ],
+   "maclar": [
+    3326548,
+    3326567
+   ],
+   "ad_ornegi": "1,5 Gol Alt/Üst"
+  },
+  "12": {
+   "cizgiler": [
+    2.5
+   ],
+   "maclar": [
+    3326548,
+    3326567
+   ],
+   "ad_ornegi": "2,5 Gol Alt/Üst"
+  },
+  "13": {
+   "cizgiler": [
+    3.5
+   ],
+   "maclar": [
+    3326548,
+    3326567
+   ],
+   "ad_ornegi": "3,5 Gol Alt/Üst"
+  },
+  "14": {
+   "cizgiler": [
+    1.5
+   ],
+   "maclar": [
+    3326548,
+    3326567
+   ],
+   "ad_ornegi": "1. Yarı 1,5 Gol Alt/Üst"
+  },
+  "15": {
+   "cizgiler": [
+    2.5
+   ],
+   "maclar": [
+    3326548,
+    3326567
+   ],
+   "ad_ornegi": "1. Yarı 2,5 Gol Alt/Üst"
+  },
+  "20": {
+   "cizgiler": [
+    1.5
+   ],
+   "maclar": [
+    3326548,
+    3326567
+   ],
+   "ad_ornegi": "Ev Sahibi 1,5 Gol Alt/Üst"
+  },
+  "29": {
+   "cizgiler": [
+    1.5
+   ],
+   "maclar": [
+    3326548,
+    3326567
+   ],
+   "ad_ornegi": "Deplasman 1,5 Gol Alt/Üst"
+  },
+  "38": {
+   "cizgiler": [
+    0.0
+   ],
+   "maclar": [
+    3326548,
+    3326567
+   ],
+   "ad_ornegi": "Karşılıklı Gol"
+  },
+  "43": {
+   "cizgiler": [
+    0.0
+   ],
+   "maclar": [
+    3326548,
+    3326567
+   ],
+   "ad_ornegi": "Toplam Gol Aralığı"
+  },
+  "48": {
+   "cizgiler": [
+    0.0
+   ],
+   "maclar": [
+    3326548,
+    3326567
+   ],
+   "ad_ornegi": "En Çok Gol Olacak Yarı"
+  },
+  "49": {
+   "cizgiler": [
+    0.0
+   ],
+   "maclar": [
+    3326548,
+    3326567
+   ],
+   "ad_ornegi": "Tek/Çift"
+  },
+  "155": {
+   "cizgiler": [
+    4.5,
+    5.5
+   ],
+   "maclar": [
+    3326548,
+    3326567
+   ],
+   "ad_ornegi": "4,5 Gol Alt/Üst"
+  },
+  "207": {
+   "cizgiler": [
+    0.5
+   ],
+   "maclar": [
+    3326567
+   ],
+   "ad_ornegi": "0,5 Gol Alt/Üst"
+  },
+  "209": {
+   "cizgiler": [
+    0.5
+   ],
+   "maclar": [
+    3326548,
+    3326567
+   ],
+   "ad_ornegi": "1. Yarı 0,5 Gol Alt/Üst"
+  },
+  "212": {
+   "cizgiler": [
+    0.5
+   ],
+   "maclar": [
+    3326548,
+    3326567
+   ],
+   "ad_ornegi": "Ev Sahibi 0,5 Gol Alt/Üst"
+  },
+  "216": {
+   "cizgiler": [
+    7.5,
+    8.5,
+    9.5,
+    10.5,
+    11.5
+   ],
+   "maclar": [
+    3326548,
+    3326567
+   ],
+   "ad_ornegi": "10,5 Korner Alt/Üst"
+  },
+  "218": {
+   "cizgiler": [
+    3.5,
+    4.5,
+    5.5
+   ],
+   "maclar": [
+    3326548,
+    3326567
+   ],
+   "ad_ornegi": "1. Yarı 3,5 Korner Alt/Üst"
+  },
+  "220": {
+   "cizgiler": [
+    0.0
+   ],
+   "maclar": [
+    3326548,
+    3326567
+   ],
+   "ad_ornegi": "En Çok Korner"
+  },
+  "222": {
+   "cizgiler": [
+    0.0
+   ],
+   "maclar": [
+    3326548,
+    3326567
+   ],
+   "ad_ornegi": "1. Yarı En Çok Korner"
+  },
+  "224": {
+   "cizgiler": [
+    1.0
+   ],
+   "maclar": [
+    3326567
+   ],
+   "ad_ornegi": "İlk Korner"
+  },
+  "256": {
+   "cizgiler": [
+    0.5
+   ],
+   "maclar": [
+    3326567
+   ],
+   "ad_ornegi": "Deplasman 0,5 Gol Alt/Üst"
+  },
+  "268": {
+   "cizgiler": [
+    -1.0,
+    1.0,
+    2.0,
+    3.0
+   ],
+   "maclar": [
+    3326548,
+    3326567
+   ],
+   "ad_ornegi": "Handikaplı Maç Sonucu (0:1)"
+  },
+  "272": {
+   "cizgiler": [
+    3.5,
+    4.5
+   ],
+   "maclar": [
+    3326548,
+    3326567
+   ],
+   "ad_ornegi": "Maç Sonucu ve 4,5 Alt/Üst"
+  },
+  "291": {
+   "cizgiler": [
+    0.0
+   ],
+   "maclar": [
+    3326548,
+    3326567
+   ],
+   "ad_ornegi": "İlk Golü Hangi Takım Atar?"
+  },
+  "295": {
+   "cizgiler": [
+    0.0
+   ],
+   "maclar": [
+    3326548,
+    3326567
+   ],
+   "ad_ornegi": "Ev Sahibi İki Yarıda da Gol"
+  },
+  "296": {
+   "cizgiler": [
+    0.0
+   ],
+   "maclar": [
+    3326548,
+    3326567
+   ],
+   "ad_ornegi": "Deplasman İki Yarıda da Gol"
+  },
+  "299": {
+   "cizgiler": [
+    0.0
+   ],
+   "maclar": [
+    3326548,
+    3326567
+   ],
+   "ad_ornegi": "Korner Tek/Çift"
+  },
+  "301": {
+   "cizgiler": [
+    3.5,
+    4.5,
+    5.5
+   ],
+   "maclar": [
+    3326567
+   ],
+   "ad_ornegi": "5,5 Kart Puanı Alt/Üst"
+  },
+  "326": {
+   "cizgiler": [
+    2.5
+   ],
+   "maclar": [
+    3326548,
+    3326567
+   ],
+   "ad_ornegi": "Ev Sahibi 2,5 Gol Alt/Üst"
+  },
+  "328": {
+   "cizgiler": [
+    2.5
+   ],
+   "maclar": [
+    3326548,
+    3326567
+   ],
+   "ad_ornegi": "Deplasman 2,5 Gol Alt/Üst"
+  },
+  "338": {
+   "cizgiler": [
+    0.0
+   ],
+   "maclar": [
+    3326548,
+    3326567
+   ],
+   "ad_ornegi": "Toplam Korner Aralığı"
+  },
+  "340": {
+   "cizgiler": [
+    0.0
+   ],
+   "maclar": [
+    3326548,
+    3326567
+   ],
+   "ad_ornegi": "1. Yarı Korner Aralığı"
+  },
+  "342": {
+   "cizgiler": [
+    1.5
+   ],
+   "maclar": [
+    3326548,
+    3326567
+   ],
+   "ad_ornegi": "Maç Sonucu ve 1,5 Alt/Üst"
+  },
+  "343": {
+   "cizgiler": [
+    2.5
+   ],
+   "maclar": [
+    3326548,
+    3326567
+   ],
+   "ad_ornegi": "Maç Sonucu ve 2,5 Alt/Üst"
+  },
+  "414": {
+   "cizgiler": [
+    0.0
+   ],
+   "maclar": [
+    3326548,
+    3326567
+   ],
+   "ad_ornegi": "Maç Sonucu ve Karşılıklı Gol"
+  },
+  "416": {
+   "cizgiler": [
+    0.0
+   ],
+   "maclar": [
+    3326548,
+    3326567
+   ],
+   "ad_ornegi": "1. Yarı Sonucu ve 1. Yarı Karşılıklı Gol"
+  },
+  "446": {
+   "cizgiler": [
+    2.5
+   ],
+   "maclar": [
+    3326548,
+    3326567
+   ],
+   "ad_ornegi": "2,5 Alt/Üst ve Karşılıklı Gol"
+  },
+  "450": {
+   "cizgiler": [
+    0.0
+   ],
+   "maclar": [
+    3326548,
+    3326567
+   ],
+   "ad_ornegi": "1. Yarı Tek/Çift"
+  },
+  "452": {
+   "cizgiler": [
+    0.0
+   ],
+   "maclar": [
+    3326548,
+    3326567
+   ],
+   "ad_ornegi": "1. Yarı Karşılıklı Gol"
+  },
+  "455": {
+   "cizgiler": [
+    0.5
+   ],
+   "maclar": [
+    3326548,
+    3326567
+   ],
+   "ad_ornegi": "Ev Sahibi 1.Y 0,5 Gol Alt/Üst"
+  },
+  "457": {
+   "cizgiler": [
+    0.5,
+    1.5
+   ],
+   "maclar": [
+    3326548,
+    3326567
+   ],
+   "ad_ornegi": "Deplasman 1.Y 0,5 Gol Alt/Üst"
+  },
+  "459": {
+   "cizgiler": [
+    1.5
+   ],
+   "maclar": [
+    3326548,
+    3326567
+   ],
+   "ad_ornegi": "1.Y Sonucu ve 1.Y 1,5 Alt/Üst"
+  },
+  "528": {
+   "cizgiler": [
+    0.0
+   ],
+   "maclar": [
+    3326548,
+    3326567
+   ],
+   "ad_ornegi": "İki Yarı da 1,5 Alt"
+  },
+  "529": {
+   "cizgiler": [
+    0.0
+   ],
+   "maclar": [
+    3326548,
+    3326567
+   ],
+   "ad_ornegi": "İki Yarı da 1,5 Üst"
+  },
+  "571": {
+   "cizgiler": [
+    0.0
+   ],
+   "maclar": [
+    3326548,
+    3326567
+   ],
+   "ad_ornegi": "İlk Yarı / Maç Skoru"
+  },
+  "584": {
+   "cizgiler": [
+    0.0
+   ],
+   "maclar": [
+    3326548,
+    3326567
+   ],
+   "ad_ornegi": "Ev Sahibi Herhangi Bir Yarıyı Kazanır"
+  },
+  "585": {
+   "cizgiler": [
+    0.0
+   ],
+   "maclar": [
+    3326548,
+    3326567
+   ],
+   "ad_ornegi": "Deplasman Herhangi Bir Yarıyı Kazanır"
+  },
+  "586": {
+   "cizgiler": [
+    0.0
+   ],
+   "maclar": [
+    3326548,
+    3326567
+   ],
+   "ad_ornegi": "Ev Sahibi Hangi Yarıda Daha Çok Gol Atar?"
+  },
+  "587": {
+   "cizgiler": [
+    0.0
+   ],
+   "maclar": [
+    3326548,
+    3326567
+   ],
+   "ad_ornegi": "Deplasman Hangi Yarıda Daha Çok Gol Atar?"
+  },
+  "588": {
+   "cizgiler": [
+    0.0
+   ],
+   "maclar": [
+    3326548,
+    3326567
+   ],
+   "ad_ornegi": "Hangi Takım Kaç Farkla Kazanır?"
+  },
+  "591": {
+   "cizgiler": [
+    0.0
+   ],
+   "maclar": [
+    3326548,
+    3326567
+   ],
+   "ad_ornegi": "Ev Sahibi Her İki Yarıyı da Kazanır"
+  },
+  "592": {
+   "cizgiler": [
+    0.0
+   ],
+   "maclar": [
+    3326548,
+    3326567
+   ],
+   "ad_ornegi": "Deplasman Her İki Yarıyı da Kazanır"
+  },
+  "593": {
+   "cizgiler": [
+    0.0
+   ],
+   "maclar": [
+    3326548,
+    3326567
+   ],
+   "ad_ornegi": "Penaltı Olur Mu?"
+  },
+  "599": {
+   "cizgiler": [
+    0.0
+   ],
+   "maclar": [
+    3326548,
+    3326567
+   ],
+   "ad_ornegi": "2. Yarı Karşılıklı Gol"
+  },
+  "601": {
+   "cizgiler": [
+    2.5,
+    5.5
+   ],
+   "maclar": [
+    3326548,
+    3326567
+   ],
+   "ad_ornegi": "Ev Sahibi 5,5 Korner Alt/Üst"
+  },
+  "602": {
+   "cizgiler": [
+    3.5,
+    5.5
+   ],
+   "maclar": [
+    3326548,
+    3326567
+   ],
+   "ad_ornegi": "Deplasman 3,5 Korner Alt/Üst"
+  },
+  "603": {
+   "cizgiler": [
+    0.0
+   ],
+   "maclar": [
+    3326567
+   ],
+   "ad_ornegi": "Hangi Takım Daha Çok Kart Puanı Alır?"
+  },
+  "701": {
+   "cizgiler": [
+    0.0
+   ],
+   "maclar": [
+    3326548,
+    3326567
+   ],
+   "ad_ornegi": "Oyuncu Gol Atar"
+  },
+  "702": {
+   "cizgiler": [
+    0.0
+   ],
+   "maclar": [
+    3326548,
+    3326567
+   ],
+   "ad_ornegi": "Oyuncu İlk Golü Atar"
+  },
+  "709": {
+   "cizgiler": [
+    0.0
+   ],
+   "maclar": [
+    3326567
+   ],
+   "ad_ornegi": "Oyuncu Kart Görür (Uzt. Dahil)"
+  },
+  "712": {
+   "cizgiler": [
+    0.0
+   ],
+   "maclar": [
+    3326567
+   ],
+   "ad_ornegi": "Oyuncu Asist Yapar (Uzt. Dahil)"
+  },
+  "714": {
+   "cizgiler": [
+    0.0
+   ],
+   "maclar": [
+    3326567
+   ],
+   "ad_ornegi": "Oyuncu Kaleyi Bulan Şut Çeker (Uzt. Dahil)"
+  },
+  "740": {
+   "cizgiler": [
+    0.0
+   ],
+   "maclar": [
+    3326567
+   ],
+   "ad_ornegi": "Oyuncu Şut Çeker (Uzt. Dahil)"
+  },
+  "777": {
+   "cizgiler": [
+    0.0
+   ],
+   "maclar": [
+    3326548,
+    3326567
+   ],
+   "ad_ornegi": "Maç Skoru"
+  },
+  "779": {
+   "cizgiler": [
+    0.0
+   ],
+   "maclar": [
+    3326548,
+    3326567
+   ],
+   "ad_ornegi": "1. Yarı Skoru"
+  },
+  "798": {
+   "cizgiler": [
+    -2.5,
+    -1.5,
+    -0.5,
+    1.5,
+    2.5,
+    3.5
+   ],
+   "maclar": [
+    3326548,
+    3326567
+   ],
+   "ad_ornegi": "Korner Handikap (0:2,5)"
+  },
+  "799": {
+   "cizgiler": [
+    -0.5,
+    1.5
+   ],
+   "maclar": [
+    3326548,
+    3326567
+   ],
+   "ad_ornegi": "1. Yarı Korner Handikap (0:0,5)"
+  },
+  "800": {
+   "cizgiler": [
+    1.5
+   ],
+   "maclar": [
+    3326567
+   ],
+   "ad_ornegi": "1. Yarı 1,5 Kart Puanı Alt/Üst"
+  },
+  "801": {
+   "cizgiler": [
+    0.0
+   ],
+   "maclar": [
+    3326548,
+    3326567
+   ],
+   "ad_ornegi": "1. Yarı / 2. Yarı Karşılıklı Gol"
+  }
+ }
+}
