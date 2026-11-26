@@ -1,6 +1,6 @@
 ---
 name: football-bulletin-fetch
-description: Nesine futbol bültenini (maç öncesi ve canlı) istek üzerine çeker; bütün erişilebilir futbol liglerini, marketleri ve oranları ham JSON, düzenlenmiş JSON ve Excel olarak kaydeder. Kullanıcı "Güncel futbol bültenini çek", "bülteni çek", "canlı bülteni çek" ya da belirli bir gün/saat aralığı için bülten istediğinde kullan. Analiz yapmaz, olasılık üretmez, kupon hazırlamaz.
+description: Nesine futbol bültenini (maç öncesi ve canlı) istek üzerine çeker; bütün erişilebilir futbol liglerini, marketleri, seçenekleri ve oranları ham JSON, düzenlenmiş JSON ve Excel olarak zaman damgalı yeni klasöre kaydeder ve seçilen Türkiye gününün maç listesini sohbette sunar. Kullanıcı "Bülteni çek", "Bugünün bültenini yenile", "Nesine maçlarını getir", "Güncel futbol bültenini çek", "canlı bülteni çek" ya da belirli bir gün için bülten istediğinde kullan. Analiz yapmaz, olasılık üretmez, kupon hazırlamaz.
 ---
 
 # Futbol bülteni çekme
@@ -10,11 +10,24 @@ Kaynak: kullanıcının Colab not defteri `kaynak/nesine_gunluk_3.ipynb` (104 ma
 ## Kurallar
 - Yalnızca kullanıcı istediğinde çalıştır. Zamanlanmış ya da tekrarlayan çekim kurma.
 - Her akış için TEK istek. Hostlar yalnızca `cdnbulten.nesine.com` ve `bulten.nesine.com`. User-Agent dürüst (FootballIntelligence/…); tarayıcı kimliğine bürünme, Playwright/Selenium/çerez/başka adres deneme.
-- Erişim engellenirse (401/403/429, HTML doğrulama sayfası, ortam proxy'si 403) DUR ve raporla. Engeli aşmaya çalışma, tekrar deneme.
+- Erişim engellenirse (401/403/429, HTML doğrulama sayfası, ortam proxy'si 403) DUR ve raporla. Engeli aşmaya çalışma, tekrar deneme. Yalnızca bağlantı hatasında (yanıt hiç gelmediyse) sohbet komutu en fazla 2 kez yeniden dener.
 - Bahis oranlarından olasılık üretme. Bülten çekmek hiçbir maç analizini ya da kuponu başlatmaz.
 - Maç öncesi ve canlı veri ayrı dosyalardır; canlı sınıflandırma akışa göredir.
 
-## Çalıştırma (proje kökünden)
+## Sohbetten çalıştırma (varsayılan yol)
+"Bülteni çek", "bugünün bültenini yenile" ya da "Nesine maçlarını getir" isteğinde:
+```
+PYTHONPATH=lib python3 -m uygulama.sohbet bulten [--gun YYYY-AA-GG] [--zorla]
+```
+- Gün verilmezse bugün (TR) kullanılır. Çekim penceresi yalnızca o gün 00:00–23:59 (TR). Ertesi gün 00:00–03:00 arasındaki maçlar o güne dahil edilmez ve sayıları raporlanır.
+- Her çekim yeni bir `output/bulten_YYYYAAGG_SSDDss/` klasörüne yazılır; eskisinin üzerine yazılmaz.
+- Aynı gün için son başarılı çekim 10 dakikadan yeniyse Nesine'ye yeniden istek gönderilmez. Kullanıcı açıkça yenileme isterse `--zorla`.
+- **Yeniden deneme:** Yalnızca bağlantı hatasında (`BAGLANTI`) 15 sn ve 45 sn arayla en fazla 2 kez. Erişim engelinde (`ERISIM_ENGELI`: 401/403/429, HTML) hiç yeniden denenmez; durulur ve raporlanır.
+- **Çıktı:** durum, çekim zamanı, maç / market / seçenek / oynanabilir seçenek sayıları, uyarılar, lig özeti ve maç tablosu (oransız: kod, saat, lig, maç, bağımsız model durumu). Bunu sohbette sun ve kullanıcıya ilgilendiği maçları seçebileceğini söyle.
+- Bütün marketler ve özel marketler, `market_sozlugu_v3.json` ile adlandırılmış olarak, düzenlenmiş JSON ve Excel'de korunur.
+- Maç listesi: `maclar [--gun] [--lig METİN] [--ara METİN] [--hepsi]`.
+
+## Doğrudan betik (gelişmiş)
 ```
 python3 .claude/skills/football-bulletin-fetch/scripts/nesine_bulletin.py cek
 ```

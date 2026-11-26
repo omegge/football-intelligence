@@ -82,7 +82,7 @@ def bagimsiz_tahmin(mac: dict, lig_maclari: list[dict] | None, kaynak_lig: str |
     oransiz_mi(mac, "mac")
     kapsam_veri, kapsam_sha = kapsam or kapsam_yukle()
     if model_adi is None:      # ligde ileriye dönük sınanmış model öncelikli (E2), yoksa E Poisson
-        model_adi = next((ad for ad in ("E2_aday", "poisson_E") if ad in kapsam_veri["modeller"]
+        model_adi = next((ad for ad in ("E3", "E2_aday", "poisson_E") if ad in kapsam_veri["modeller"]
                           and kaynak_lig in kapsam_veri["modeller"][ad]["degerlendirme_ligleri"]), "poisson_E")
     model = kapsam_veri["modeller"][model_adi]
     spec = model.get("spec", {"ceza": 2.0})
@@ -146,6 +146,11 @@ def bagimsiz_tahmin(mac: dict, lig_maclari: list[dict] | None, kaynak_lig: str |
         T2 = max(mu * (1 + spec["b"]) + spec["w"] * (T - mu), 0.2)
         lh, la = lh * T2 / T, la * T2 / T
         sonuc["lig_ortalamasi_365"] = mu
+    if spec.get("A"):                      # E3: zaman sıralı güç farkı ölçeği γ ve ev kayması δ (ON_KAYIT_E3)
+        from .model import e3 as E3
+        gd = E3.canli_gamma_delta(kaynak_lig, baslama.date().isoformat())
+        lh, la = E3.donustur(lh, la, gd["gamma"], gd["delta"])
+        sonuc["e3_duzeltmesi"] = gd
     mtr = skor_matrisi(lh, la, 0.0)
     p = market_olasiliklari(mtr)
     hata = tutarlilik_denetimi(p, mtr)

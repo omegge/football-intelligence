@@ -1,6 +1,6 @@
 {
  "aciklama": "Günlük olasılık kapsamı. Kapsam dışı market = hesaplanamaz. Bu dosya değerlendirme çıktılarından üretilir; elle düzenlenmez.",
- "uretim_utc": "2026-11-26T17:16:15+00:00",
+ "uretim_utc": "2026-11-26T22:35:19+00:00",
  "kaynaklar": {
   "e_v1": {
    "yol": "output/model/e_asamasi_20261126_161011/sonuc.json",
@@ -13,6 +13,10 @@
   "e2_sinama": {
    "yol": "output/model/e2_sinama_20261126_171536/sonuc.json",
    "sha256": "7a170a6f5b56b7688e33068dda679c50966accca5ae27290ae7af9ddaf51224f"
+  },
+  "e3_sinama": {
+   "yol": "output/model/e3/e3_sinama_20261126_223416/sonuc.json",
+   "sha256": "dd47e39cd685a28674b9a03bf0ff31c43a1179b0e198b30ef00287e9650a2eb8"
   }
  },
  "devre_marketleri": "hesaplanamaz (F-v2 ve F2: 62 seçenekten yalnızca 3'ü kuralları geçti — İY/MS X/2, 587 '2.', 779 '0:1' — çoklu karşılaştırma riski nedeniyle ikinci ileriye dönük doğrulamaya kadar kapsam dışı; iş akışında devre modeli yok)",
@@ -760,6 +764,316 @@
     "skor_2_2": {
      "kapsamda": true,
      "nedenler": []
+    }
+   }
+  },
+  "E3": {
+   "tanim": "E3 E2+A: E2 (ceza 16, w 0,65, b 0) + zaman sıralı güç farkı ölçeği γ ve ev kayması δ (aynı ligin önceki 730 günü; ON_KAYIT_E3)",
+   "spec": {
+    "ceza": 16.0,
+    "w": 0.65,
+    "b": 0.0,
+    "A": true,
+    "K": null,
+    "s": 0.0
+   },
+   "degerlendirme_ligleri": [
+    "de.1",
+    "en.1",
+    "en.3",
+    "en.4",
+    "es.1",
+    "fr.2",
+    "it.1",
+    "it.2"
+   ],
+   "marketler": {
+    "MS_1": {
+     "kapsamda": true,
+     "nedenler": []
+    },
+    "MS_X": {
+     "kapsamda": false,
+     "nedenler": [
+      "kalibre"
+     ]
+    },
+    "MS_2": {
+     "kapsamda": true,
+     "nedenler": []
+    },
+    "CS_1X": {
+     "kapsamda": true,
+     "nedenler": []
+    },
+    "CS_12": {
+     "kapsamda": false,
+     "nedenler": [
+      "kalibre"
+     ]
+    },
+    "CS_X2": {
+     "kapsamda": true,
+     "nedenler": []
+    },
+    "KG_var": {
+     "kapsamda": false,
+     "nedenler": [
+      "bilgi_tasiyor",
+      "kalibre"
+     ]
+    },
+    "KG_yok": {
+     "kapsamda": false,
+     "nedenler": [
+      "bilgi_tasiyor",
+      "kalibre"
+     ]
+    },
+    "tek": {
+     "kapsamda": false,
+     "nedenler": [
+      "bilgi_tasiyor"
+     ]
+    },
+    "cift": {
+     "kapsamda": false,
+     "nedenler": [
+      "bilgi_tasiyor"
+     ]
+    },
+    "aralik_0_1": {
+     "kapsamda": false,
+     "nedenler": [
+      "kalibre"
+     ]
+    },
+    "aralik_2_3": {
+     "kapsamda": false,
+     "nedenler": [
+      "bilgi_tasiyor"
+     ]
+    },
+    "aralik_4_5": {
+     "kapsamda": true,
+     "nedenler": []
+    },
+    "aralik_6p": {
+     "kapsamda": true,
+     "nedenler": []
+    },
+    "H-1_1": {
+     "kapsamda": true,
+     "nedenler": []
+    },
+    "H-1_X": {
+     "kapsamda": true,
+     "nedenler": []
+    },
+    "H-1_2": {
+     "kapsamda": true,
+     "nedenler": []
+    },
+    "AU0.5_alt": {
+     "kapsamda": true,
+     "nedenler": []
+    },
+    "AU0.5_ust": {
+     "kapsamda": true,
+     "nedenler": []
+    },
+    "AU1.5_alt": {
+     "kapsamda": false,
+     "nedenler": [
+      "kalibre"
+     ]
+    },
+    "AU1.5_ust": {
+     "kapsamda": false,
+     "nedenler": [
+      "kalibre"
+     ]
+    },
+    "AU2.5_alt": {
+     "kapsamda": true,
+     "nedenler": []
+    },
+    "AU2.5_ust": {
+     "kapsamda": true,
+     "nedenler": []
+    },
+    "AU3.5_alt": {
+     "kapsamda": false,
+     "nedenler": [
+      "kalibre"
+     ]
+    },
+    "AU3.5_ust": {
+     "kapsamda": false,
+     "nedenler": [
+      "kalibre"
+     ]
+    },
+    "AU4.5_alt": {
+     "kapsamda": true,
+     "nedenler": []
+    },
+    "AU4.5_ust": {
+     "kapsamda": true,
+     "nedenler": []
+    },
+    "ev0.5_alt": {
+     "kapsamda": true,
+     "nedenler": []
+    },
+    "ev0.5_ust": {
+     "kapsamda": true,
+     "nedenler": []
+    },
+    "dep0.5_alt": {
+     "kapsamda": false,
+     "nedenler": [
+      "kalibre"
+     ]
+    },
+    "dep0.5_ust": {
+     "kapsamda": false,
+     "nedenler": [
+      "kalibre"
+     ]
+    },
+    "ev1.5_alt": {
+     "kapsamda": false,
+     "nedenler": [
+      "kalibre"
+     ]
+    },
+    "ev1.5_ust": {
+     "kapsamda": false,
+     "nedenler": [
+      "kalibre"
+     ]
+    },
+    "dep1.5_alt": {
+     "kapsamda": true,
+     "nedenler": []
+    },
+    "dep1.5_ust": {
+     "kapsamda": true,
+     "nedenler": []
+    },
+    "ev2.5_alt": {
+     "kapsamda": true,
+     "nedenler": []
+    },
+    "ev2.5_ust": {
+     "kapsamda": true,
+     "nedenler": []
+    },
+    "dep2.5_alt": {
+     "kapsamda": true,
+     "nedenler": []
+    },
+    "dep2.5_ust": {
+     "kapsamda": true,
+     "nedenler": []
+    },
+    "MS1_AU2.5_alt": {
+     "kapsamda": true,
+     "nedenler": []
+    },
+    "MS1_AU2.5_ust": {
+     "kapsamda": false,
+     "nedenler": [
+      "kalibre"
+     ]
+    },
+    "MS1_KG_var": {
+     "kapsamda": true,
+     "nedenler": []
+    },
+    "MS1_KG_yok": {
+     "kapsamda": false,
+     "nedenler": [
+      "kalibre"
+     ]
+    },
+    "MSX_AU2.5_alt": {
+     "kapsamda": true,
+     "nedenler": []
+    },
+    "MSX_AU2.5_ust": {
+     "kapsamda": false,
+     "nedenler": [
+      "bilgi_tasiyor"
+     ]
+    },
+    "MSX_KG_var": {
+     "kapsamda": false,
+     "nedenler": [
+      "bilgi_tasiyor",
+      "kalibre"
+     ]
+    },
+    "MSX_KG_yok": {
+     "kapsamda": true,
+     "nedenler": []
+    },
+    "MS2_AU2.5_alt": {
+     "kapsamda": true,
+     "nedenler": []
+    },
+    "MS2_AU2.5_ust": {
+     "kapsamda": true,
+     "nedenler": []
+    },
+    "MS2_KG_var": {
+     "kapsamda": true,
+     "nedenler": []
+    },
+    "MS2_KG_yok": {
+     "kapsamda": false,
+     "nedenler": [
+      "kalibre"
+     ]
+    },
+    "skor_0_0": {
+     "kapsamda": true,
+     "nedenler": []
+    },
+    "skor_1_0": {
+     "kapsamda": true,
+     "nedenler": []
+    },
+    "skor_0_1": {
+     "kapsamda": true,
+     "nedenler": []
+    },
+    "skor_1_1": {
+     "kapsamda": true,
+     "nedenler": []
+    },
+    "skor_2_0": {
+     "kapsamda": true,
+     "nedenler": []
+    },
+    "skor_0_2": {
+     "kapsamda": true,
+     "nedenler": []
+    },
+    "skor_2_1": {
+     "kapsamda": true,
+     "nedenler": []
+    },
+    "skor_1_2": {
+     "kapsamda": true,
+     "nedenler": []
+    },
+    "skor_2_2": {
+     "kapsamda": false,
+     "nedenler": [
+      "bilgi_tasiyor"
+     ]
     }
    }
   }

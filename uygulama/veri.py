@@ -33,7 +33,15 @@ def _json(yol: Path):
 def bultenler(kok: Path = OUTPUT) -> list[Path]:
     """Maç öncesi bülteni olan çekim klasörleri, yeniden eskiye."""
     return sorted((p for p in Path(kok).glob("bulten_*") if BULTEN_DESENI.fullmatch(p.name)
-                   and (p / "mac_oncesi.json").exists()), key=lambda p: p.name, reverse=True)
+                   and (p / "mac_oncesi.json").exists() and not _basarisiz(p)), key=lambda p: p.name, reverse=True)
+
+
+def _basarisiz(klasor: Path) -> bool:
+    d = Path(klasor) / "dogrulama.json"
+    try:
+        return d.exists() and json.loads(d.read_text(encoding="utf-8")).get("durum") == "BASARISIZ"
+    except ValueError:
+        return True
 
 
 def bulten_bilgisi(klasor: Path) -> dict:
@@ -266,7 +274,7 @@ def haber_raporlari(kod: int, kok: Path = OUTPUT / "arastirma" / "genis_pilot") 
                 out.append({"surum": d.name, "rapor": j, "iddialar": ham.get("iddialar", []),
                             "kayit_utc": ham.get("kayit_utc"),
                             "turlar_md": (d / "TURLAR.md").read_text(encoding="utf-8") if (d / "TURLAR.md").exists() else None})
-    return out
+    return sorted(out, key=lambda r: r.get("kayit_utc") or "", reverse=True)
 
 
 def haber_tazeligi(rapor: dict, baslama_tr: str, simdi: datetime | None = None) -> dict:

@@ -29,6 +29,14 @@ class IslemHatasi(RuntimeError):
     pass
 
 
+class BultenHatasi(IslemHatasi):
+    """Bülten çekimi başarısız; `kodlar` dogrulama.json'daki KRITIK kodlar (ör. BAGLANTI, ERISIM_ENGELI)."""
+
+    def __init__(self, mesaj: str, kodlar: list[str], klasor: str | None):
+        super().__init__(mesaj)
+        self.kodlar, self.klasor = kodlar, klasor
+
+
 def _tek_seferde(f):
     def sarmal(*a, **k):
         if not KILIT.acquire(blocking=False):
@@ -42,6 +50,21 @@ def _tek_seferde(f):
     return sarmal
 
 
+def fd_istemcisi():
+    """football-data.org istemcisi. FD_TOKEN ortam değişkeni varsa (bulut) X-Auth-Token başlığını bağlantı açıcı ekler;
+    yoksa (Claude ortamı) başlık eklenmez, ağ vekili ekler. Anahtar kayda ya da günlüğe yazılmaz."""
+    import os
+    from fi.kaynaklar import footballdataorg as F
+    anahtar = os.environ.get("FD_TOKEN")
+    if not anahtar:
+        return F.FdorgIstemcisi()
+
+    def acici(istek, zaman_asimi):
+        istek.add_header("X-Auth-Token", anahtar)
+        return F._varsayilan_acici(istek, zaman_asimi)
+    return F.FdorgIstemcisi(onbellek=V.OUTPUT / "onbellek" / "footballdataorg", acici=acici)
+
+
 def _bulten_dogrulama():
     spec = importlib.util.spec_from_file_location("bulten_dogrulama", BETIK_KLASORU / "bulten_dogrulama.py")
     mod = importlib.util.module_from_spec(spec)
@@ -53,7 +76,7 @@ def _bulten_dogrulama():
 @_tek_seferde
 def guncel_veri_cek(istemci=None, kok: Path | None = None) -> dict:
     from fi.kaynaklar import guncel as G
-    r = G.guncelle(istemci=istemci, kok=kok or V.OUTPUT / "guncel")
+    r = G.guncelle(istemci=istemci or fd_istemcisi(), kok=kok or V.OUTPUT / "guncel")
     return {"islem": "güncel veri", "utc": r["utc"], "yarisma": len(r["yarismalar"]), "sorunlu": r["sorunlu"],
             "son_biten": {k: v["son_biten_utc"] for k, v in r["yarismalar"].items()}}
 
@@ -71,7 +94,12 @@ def bulten_cek(gun: str | None = None, cikti: Path = V.OUTPUT, zaman_asimi: int 
     p = subprocess.run(komut, capture_output=True, text=True, timeout=zaman_asimi, cwd=V.KOK)
     klasor = next((s.split("Çıktı klasörü:")[1].strip() for s in p.stdout.splitlines() if "Çıktı klasörü:" in s), None)
     if p.returncode != 0 or not klasor:
-        raise IslemHatasi(f"bülten çekilemedi (çıkış {p.returncode}): {(p.stderr or p.stdout)[-600:]}")
+        kodlar = []
+        if klasor and (Path(klasor) / "dogrulama.json").exists():
+            d = json.loads((Path(klasor) / "dogrulama.json").read_text(encoding="utf-8"))
+            kodlar = sorted({k.get("kod") for k in d.get("kayitlar", []) if k.get("seviye") == "KRITIK"})
+        raise BultenHatasi(f"bülten çekilemedi (çıkış {p.returncode}; kritik: {', '.join(kodlar) or 'bilinmiyor'}): "
+                           f"{(p.stderr or p.stdout)[-400:]}", kodlar, Path(klasor).name if klasor else None)
     return {"islem": "bülten", "gun": g.isoformat(), "klasor": Path(klasor).name, "cikti": p.stdout[-1500:]}
 
 
@@ -104,7 +132,7 @@ def dondur_mac(kod: int, lig_maclari: list[dict] | None = None, lig_raporu: dict
         raise IslemHatasi(f"bağımsız tahmin hazırlanamaz: {hz['neden']}")
     if lig_maclari is None:
         from fi.kaynaklar.guncel import lig_guncel
-        lig_maclari, lig_raporu = lig_guncel(hz["kaynak_lig"])
+        lig_maclari, lig_raporu = lig_guncel(hz["kaynak_lig"], fd_istemcisi())
     satir = {k: mac[k] for k in ("mac_id", "karsilasma", "lig", "baslama_tr", "ev", "deplasman")}
     t = I.bagimsiz_tahmin(satir, lig_maclari, hz["kaynak_lig"])
     if t["durum"] != "hesaplandi":

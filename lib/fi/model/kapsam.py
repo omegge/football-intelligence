@@ -45,7 +45,8 @@ def e_poisson_kapsami(e_v1: Path, denetim: Path) -> dict:
     return out
 
 
-def kayit_uret(e_v1: Path, denetim: Path, e2_sinama: Path | None = None, hedef: Path = KAYIT) -> dict:
+def kayit_uret(e_v1: Path, denetim: Path, e2_sinama: Path | None = None, hedef: Path = KAYIT,
+               e3_sinama: Path | None = None) -> dict:
     e = e_poisson_kapsami(e_v1, denetim)
     modeller = {"poisson_E": {"tanim": "GolModeli ξ=0,003, pencere 1095, ceza 2,0, önsel 0,8/1,2; Poisson",
                               "spec": {"ceza": 2.0},
@@ -63,6 +64,19 @@ def kayit_uret(e_v1: Path, denetim: Path, e2_sinama: Path | None = None, hedef: 
                                                  [k for k in ("bilgi_tasiyor", "kalibre") if not r.get(k)] or
                                                  [r.get("karar", "")]} for a, r in s["marketler"].items()}}
         kaynaklar["e2_sinama"] = {"yol": str(Path(e2_sinama).resolve().relative_to(KOK)), "sha256": _sha(e2_sinama)}
+    if e3_sinama:
+        s = json.loads(Path(e3_sinama).read_text())
+        asil = s["asil"]
+        modeller["E3"] = {"tanim": f"E3 {s['secilen']['ad']}: E2 (ceza 16, w 0,65, b 0) + zaman sıralı güç farkı ölçeği "
+                                   "γ ve ev kayması δ (aynı ligin önceki 730 günü; ON_KAYIT_E3)",
+                          "spec": {"ceza": 16.0, "w": 0.65, "b": 0.0, "A": bool(s["secilen"]["A"]),
+                                   "K": s["secilen"]["K"], "s": s["secilen"]["s"]},
+                          "degerlendirme_ligleri": sorted(asil["lig_mac"]),
+                          "marketler": {a: {"kapsamda": bool(r.get("gunluk_kapsam")),
+                                            "nedenler": [] if r.get("gunluk_kapsam") else
+                                            [k for k in ("bilgi_tasiyor", "kalibre") if not r.get(k)] or
+                                            [r.get("karar", "")]} for a, r in asil["marketler"].items()}}
+        kaynaklar["e3_sinama"] = {"yol": str(Path(e3_sinama).resolve().relative_to(KOK)), "sha256": _sha(e3_sinama)}
     kayit = {"aciklama": "Günlük olasılık kapsamı. Kapsam dışı market = hesaplanamaz. Bu dosya değerlendirme "
                          "çıktılarından üretilir; elle düzenlenmez.",
              "uretim_utc": datetime.now(timezone.utc).isoformat(timespec="seconds"), "kaynaklar": kaynaklar,
