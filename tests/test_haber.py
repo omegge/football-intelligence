@@ -86,8 +86,9 @@ class H1KaynakUyum(Temel):
     def test_depo_kaydi_40_host(self):
         k = KaynakKaydi.yukle()
         say = {s: len(v) for s, v in k.sinifa_gore().items()}
-        self.assertEqual(sum(say.values()), 40)
-        self.assertEqual(say, {"kullanilabilir": 14, "dogrulanmamis": 3, "engelli": 15, "belirsiz": 8})
+        self.assertEqual(sum(say.values()), 41)            # pilotun 40 hostu + fctwente.nl (26.11.2026)
+        self.assertEqual(say, {"kullanilabilir": 14, "dogrulanmamis": 3, "engelli": 15, "belirsiz": 9})
+        self.assertFalse(k.okunabilir_mi("fctwente.nl"))   # koşullar bulunamadı → okunmaz
         for h in ("www.bundesliga.com", "www.fcstpauli.com", "www.realmadrid.com", "www.kicker.de", "www.tsg-hoffenheim.de"):
             self.assertFalse(k.okunabilir_mi(h), h)
         self.assertTrue(k.okunabilir_mi("www.brentfordfc.com"))
@@ -334,6 +335,80 @@ class H7PilotUyumu(Temel):
             host = s["kaynak_url"].split("/")[2]
             self.assertIsNotNone(kk.get(host), host)
             self.assertIn(kk.get(host).sinif, ("kullanilabilir",), host)
+
+
+NAV = "<div class=\"menu\">" + " ".join(f"<a>Menü {i}</a>" for i in range(900)) + "</div>"   # <nav> etiketi olmayan uzun menü (scfreiburg.com tipi)
+
+
+class H8MakaleTarihi(Temel):
+    def test_uzun_menude_baslik_cevresindeki_tarih(self):
+        h = (f'<html><head><title>"Elversberg kann hilfreich sein" | SC Freiburg</title></head><body>{NAV}'
+             '<p>Live-Radio "Elversberg kann hilfreich sein" Zum Matchcenter Männer 25.11.2026 --> In der Ligaphase '
+             'empfängt der Sport-Club am Donnerstag Twente.</p><p>' + "Text " * 200 + '</p>'
+             '<div>Ähnliche Artikel 24.11.2026 Anderer Bericht</div></body></html>')
+        metin, _ = sayfa.govde_metni(h)
+        self.assertGreater(metin.find("25.11.2026"), 3000)          # eski 3000 karakter sınırının dışında
+        self.assertEqual(sayfa.gorunur_tarihler(metin), [])          # eski davranış (hata) belgelendi
+        t, kaynak_ = sayfa.makale_tarihleri(h, metin)
+        self.assertEqual((t, kaynak_), (["2026-11-25"], "makale_basligi_cevresi"))
+
+    def test_article_etiketi_ve_geri_donus(self):
+        h = f'<html><head><title>X</title></head><body>{NAV}<article><h1>Vorschau auf das Spiel</h1><p>12.12.2025</p></article></body></html>'
+        metin, _ = sayfa.govde_metni(h)
+        self.assertEqual(sayfa.makale_tarihleri(h, metin), (["2025-12-12"], "article_etiketi"))
+        h2 = "<html><body><p>23.11.2023 kurz</p></body></html>"
+        self.assertEqual(sayfa.makale_tarihleri(h2, sayfa.govde_metni(h2)[0])[1], "ilk_3000_karakter")
+
+    def test_kenar_cubugu_tarihi_alinmaz(self):
+        h = (f'<html><head><title>Vorschau Twente | SC</title></head><body>{NAV}<p>Vorschau Twente ohne Datum. '
+             + "Text " * 300 + '</p><div>Mehr News 24.11.2026 Andere Meldung</div></body></html>')
+        metin, _ = sayfa.govde_metni(h)
+        self.assertNotIn("2026-11-24", sayfa.makale_tarihleri(h, metin)[0])
+
+
+class H9KategoriDurumlari(Temel):
+    def test_dort_durum_acikca_ayrilir(self):
+        o = AramaOturumu("tarihsel", "o9", kok=self.tmp)
+        o.mac_ekle("t:1", "2024-03-10T16:30:00+00:00")
+        o.kanit_ekle(haber_kaniti(girdi(), kayit_ornegi(), E))                      # sakatlik → kanit_var
+        o.durum_ekle(DurumKaydi("t:1", "ceza", "aranip_bulunamadi", "okundu, bilgi yok"))
+        o.durum_ekle(DurumKaydi("t:1", "kadro", "erisim_engeli", "kaynak engelli"))
+        o.durum_ekle(DurumKaydi("t:1", "td_aciklama", "dogrulanamadi", "yalnızca video"))
+        o.durum_ekle(DurumKaydi("t:1", "fikstur", "baska_kayitta", "istatistik dosyasında"))
+        o.durum_ekle(DurumKaydi("t:1", "taktik", "ayni_gun_saat_yok", "saat yok"))
+        d = {k: v["durum"] for k, v in o.kategori_durumlari("t:1").items()}
+        self.assertEqual(d["sakatlik"], "kanit_var")
+        self.assertEqual(d["ceza"], "aranip_bulunamadi")
+        self.assertEqual(d["kadro"], "erisim_engeli")
+        self.assertEqual(d["td_aciklama"], "dogrulanamadi")
+        self.assertEqual(d["fikstur"], "baska_kayitta")
+        self.assertEqual(d["taktik"], "dogrulanamadi")              # yalnızca ret kodu → doğrulanamadı
+        self.assertEqual(d["rotasyon"], "arastirilmadi")             # hiç kayıt yok → araştırılmadı
+        r = json.loads((self.tmp / "tarihsel" / "o9" / "oturum.json").read_text()) if o.dondur() else None
+        self.assertEqual(r["maclar"]["t:1"]["kategori_durumlari"]["rotasyon"]["durum"], "arastirilmadi")
+        with self.assertRaises(ValueError):
+            DurumKaydi("t:1", "kadro", "bilinmeyen_durum", "x")
+
+
+class H10EslemeVeDondurma(Temel):
+    def test_twente_onayli_esleme(self):
+        from fi.takim_adlari import TakimEslestirici
+        r = TakimEslestirici().eslestir("Twente", "openfootball:nl.1", ["FC Twente '65", "AFC Ajax", "PSV"], ulke="NL")
+        self.assertEqual((r.durum, r.kaynak_adi), ("onayli", "FC Twente '65"))
+        r = TakimEslestirici().eslestir("Twente", "openfootball:nl.1", ["AFC Ajax", "PSV"], ulke="NL")
+        self.assertNotEqual(r.durum, "onayli")                     # onaylı ad aday listesinde yoksa kabul edilmez
+
+    @unittest.skipUnless((KOK / "output/arastirma/guncel/freiburg_twente_20261126/1_tahmin_dondurma.json").exists(),
+                         "güncel pilot dosyaları yok")
+    def test_freiburg_twente_dondurmalari_baslamadan_once(self):
+        from datetime import datetime
+        B = datetime.fromisoformat("2026-11-26T20:00:00+00:00")
+        t = json.loads((KOK / "output/arastirma/guncel/freiburg_twente_20261126/1_tahmin_dondurma.json").read_text())
+        h = json.loads((KOK / "output/arastirma/guncel/freiburg_twente_20261126_haber/dondurma.json").read_text())
+        tz = datetime.fromisoformat(t["dondurma_utc"].replace("Z", "+00:00"))
+        hz = datetime.fromisoformat(h["dondurma_utc"])
+        self.assertLess(tz, hz)            # tahmin haberden önce
+        self.assertLess(hz, B)             # ikisi de başlamadan önce → ileriye dönük test sayılabilir
 
 
 if __name__ == "__main__":

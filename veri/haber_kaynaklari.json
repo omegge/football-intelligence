@@ -1,5 +1,5 @@
 {
- "aciklama": "Haber kaynağı kaydı (pilot 25.11.2026). 40 host: pilot için açılanlar. 'engelli' 15 host izin listesinden kaldırıldı (25.11.2026, kullanıcı onayı); kayıtta kalır ki okuyucu asla istek atmasın. İzin listesi değişikliği yalnızca kullanıcı onayıyla.",
+ "aciklama": "Haber kaynağı kaydı (pilot 25.11.2026). 40 host: pilot için açılanlar. 'engelli' 15 host izin listesinden kaldırıldı (25.11.2026, kullanıcı onayı); kayıtta kalır ki okuyucu asla istek atmasın. İzin listesi değişikliği yalnızca kullanıcı onayıyla. 26.11.2026: fctwente.nl kullanıcı onayıyla izin listesine eklendi; koşullar bulunamadığı için 'belirsiz'.",
  "hostlar": [
   {
    "host": "www.brentfordfc.com",
@@ -638,6 +638,22 @@
    "kosul_ozeti": null,
    "robots_ai_engeli": false,
    "kontrol_utc": "2026-11-25T17:23:56+00:00"
+  },
+  {
+   "host": "fctwente.nl",
+   "tur": "resmi_kulup",
+   "sinif": "belirsiz",
+   "gerekce": "kullanım koşulları sayfası bulunamadı (ana sayfa, sitemap ve /algemene-voorwaarden 404); robots.txt her şeye izin veriyor; bot işareti yanlış pozitif (form reCAPTCHA anahtarı)",
+   "lig": "nl.1",
+   "kulup": "FC Twente '65",
+   "yayinci_grubu": "fctwente.nl",
+   "kimlik_isaretleri": [
+    "ana_sayfa_basligi"
+   ],
+   "kosul_url": null,
+   "kosul_ozeti": null,
+   "robots_ai_engeli": false,
+   "kontrol_utc": "2026-11-26T00:00:00+00:00"
   }
  ]
 }

@@ -23,8 +23,17 @@ from .zaman import GECERLI
 KATEGORILER = ("kadro", "ilk11_beklenen", "ilk11_kesin", "sakatlik", "ceza", "td_aciklama", "td_degisimi",
                "td_cezasi", "oyuncu_aciklama", "antrenman", "rotasyon", "yorgunluk", "seyahat", "fikstur",
                "motivasyon", "taktik", "karsi_senaryo")
-DURUMLAR = ("kaynak_yok", "erisim_engeli", "dogrulanamadi", "mac_sonrasi", "ayni_gun_saat_yok", "tarih_yok",
-            "guncelleme_mac_sonrasi", "aranip_bulunamadi", "arama_ozeti_kanit_degil")
+# Kategori durumları (açıkça ayrılır):
+#   aranip_bulunamadi : erişilebilir kaynaklar okundu, bu kategoride bilgi YOK
+#   erisim_engeli     : kaynak engelli / koşulları belirsiz / doğrulanmamış (okunmadı)
+#   kaynak_yok        : bu takım için kayıtlı ve izinli hiçbir kaynak yok
+#   dogrulanamadi     : bilgi bulundu ama doğrulanamadı (video, tarihsiz sayfa, tek işaret …)
+#   arastirilmadi     : bu kategori hiç araştırılmadı (bütçe / kapsam dışı)
+#   baska_kayitta     : bilgi haber kaydında değil, başka dondurulmuş kayıtta (ör. istatistik/fikstür dosyası)
+#   zaman ret kodları : mac_sonrasi, ayni_gun_saat_yok, tarih_yok, guncelleme_mac_sonrasi
+DURUMLAR = ("aranip_bulunamadi", "erisim_engeli", "kaynak_yok", "dogrulanamadi", "arastirilmadi", "baska_kayitta",
+            "mac_sonrasi", "ayni_gun_saat_yok", "tarih_yok", "guncelleme_mac_sonrasi", "arama_ozeti_kanit_degil")
+RET_KODLARI = ("mac_sonrasi", "ayni_gun_saat_yok", "tarih_yok", "guncelleme_mac_sonrasi", "arama_ozeti_kanit_degil")
 NICEL_ETKI = "hesaplanamaz"
 
 

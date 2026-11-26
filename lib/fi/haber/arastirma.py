@@ -16,7 +16,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from ..kanit import Kanit, KanitDeposu
-from .kanit_kaydi import KATEGORILER, DurumKaydi
+from .kanit_kaydi import KATEGORILER, RET_KODLARI, DurumKaydi
 
 KOK = Path(__file__).resolve().parents[3] / "output" / "arastirma"
 KONTROL_LISTESI = ("kadro", "sakatlik", "ceza", "td_aciklama", "rotasyon", "fikstur", "motivasyon", "taktik",
@@ -87,11 +87,31 @@ class AramaOturumu:
     def eksik_kategoriler(self, mac_id: str) -> list[str]:
         return [c for c in KONTROL_LISTESI if c not in self.maclar[mac_id]["kapatilan"]]
 
+    def kategori_durumlari(self, mac_id: str) -> dict:
+        """Kontrol listesindeki her kategori için TEK açık durum + ayrıntılar.
+        Öncelik: kanit_var > dogrulanamadi > aranip_bulunamadi > baska_kayitta > erisim_engeli > kaynak_yok >
+        (yalnızca ret kodları varsa) dogrulanamadi > hiçbir kayıt yoksa arastirilmadi."""
+        kanit_konular = {k.konu for k in self.depo.oku() if k.mac_id == mac_id}
+        sira = ("dogrulanamadi", "aranip_bulunamadi", "baska_kayitta", "erisim_engeli", "kaynak_yok", "arastirilmadi")
+        out = {}
+        for c in KONTROL_LISTESI:
+            ds = [d for d in self.durumlar if d.mac_id == mac_id and d.kategori == c]
+            if c in kanit_konular:
+                durum = "kanit_var"
+            elif not ds:
+                durum = "arastirilmadi"
+            else:
+                kodlar = {d.durum for d in ds}
+                durum = next((k for k in sira if k in kodlar), "dogrulanamadi" if kodlar & set(RET_KODLARI) else "arastirilmadi")
+            out[c] = {"durum": durum, "ayrinti": [{"durum": d.durum, "aciklama": d.aciklama} for d in ds]}
+        return out
+
     def dondur(self) -> dict:
         rapor = {"etiket": ETIKET[self.mod], "mod": self.mod, "olusturma_utc": self.simdi,
                  "tahmin_sha256": self.tahmin_sha256,
                  "maclar": {k: {"baslama_utc": v["baslama_utc"], "kesim_zamani": v["kesim_zamani"],
-                                "aranmadi": self.eksik_kategoriler(k)} for k, v in self.maclar.items()},
+                                "arastirilmadi": self.eksik_kategoriler(k),
+                                "kategori_durumlari": self.kategori_durumlari(k)} for k, v in self.maclar.items()},
                  "durumlar": [asdict(d) for d in self.durumlar],
                  "kanit_ozeti": self.depo.ozet()}
         js = json.dumps(rapor, ensure_ascii=False, indent=1, sort_keys=True)

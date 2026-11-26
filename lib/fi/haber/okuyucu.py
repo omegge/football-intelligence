@@ -41,6 +41,7 @@ class SayfaSonucu:
     baslik: str | None = None
     zaman_adaylari: dict = field(default_factory=dict)
     gorunur_tarihler: list = field(default_factory=list)
+    gorunur_tarih_kaynagi: str | None = None
     metin: str = ""
     kenar_kesildi: bool = False
     yalnizca_js: bool = False
@@ -125,6 +126,6 @@ class GuvenliOkuyucu:
         sonuc.baslik = sayfa.baslik(s)
         sonuc.zaman_adaylari = sayfa.zaman_adaylari(s)
         sonuc.metin, sonuc.kenar_kesildi = metin, kesildi
-        sonuc.gorunur_tarihler = sayfa.gorunur_tarihler(metin)
+        sonuc.gorunur_tarihler, sonuc.gorunur_tarih_kaynagi = sayfa.makale_tarihleri(s, metin)
         sonuc.yalnizca_js = sayfa.yalnizca_js_mi(s, metin)
         return sonuc

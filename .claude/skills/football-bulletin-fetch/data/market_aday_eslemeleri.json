@@ -1,0 +1,17 @@
+{
+ "aciklama": "Sözlükte OLMAYAN market kodları için ADAY adlar. Bu dosya market_sozlugu_v3.json'u DEĞİŞTİRMEZ; çekici ve dışa aktarım market adını değiştirmez, yalnızca 'aday_adi' alanı ekler. Bir aday ancak en az iki farklı maçta bağımsız arayüz referansıyla doğrulandıktan ve kullanıcı onayıyla sözlüğe taşınabilir.",
+ "adaylar": {
+  "329": {
+   "aday_ad_sablonu": "Deplasman {cizgi} Gol Alt/Üst",
+   "aday_secenekler": {"1": "Alt", "2": "Üst"},
+   "durum": "aday",
+   "gereken_dogrulama_sayisi": 2,
+   "kanitlar": [
+    {"tarih": "2026-11-26", "mac_kodu": 3326548, "mac": "Inter Escaldes - Kopenhag", "cizgi": 3.5,
+     "cekim_utc": "2026-11-26T00:02:49+00:00", "referans": "kullanıcının Nesine arayüzü kopyası (saat bilinmiyor)",
+     "eslesme": "referanstaki 'Deplasman 3,5 Gol Alt/Üst' Alt 1.15 / Üst 3.12 = çekimde 329/3,5 seçenek 1 = 1.15, seçenek 2 = 3.12; maçta eşleşmeyen başka market yok"}
+   ],
+   "not": "326 'Ev Sahibi {cizgi} Gol Alt/Üst' ile simetrik olduğu düşünülüyor; bu bir varsayımdır, kanıt değildir."
+  }
+ }
+}
