@@ -21,7 +21,7 @@ description: Nesine bültenindeki bütün maçları tarayıp yüksek oranlı ama
 - Oranlar hiçbir modele girmez.
 
 ## Görev düzeni
-CLAUDE.md "Araştırma görevi düzeni" önceliklidir: aday seçimi ve önceliklendirme kullanıcıya sorulmadan içeride yapılır; Türkiye ligleri otomatik dışarıda bırakılmaz (ayrı bölüm); Türkiye dışı en fazla 10 maç; yöntem CLAUDE.md "Araştırma yöntemi"; yalnızca nihai sonuçlar sunulur.
+CLAUDE.md "Araştırma görevi düzeni" önceliklidir: aday seçimi ve önceliklendirme kullanıcıya sorulmadan içeride yapılır; Türkiye ligleri varsayılan olarak hariç (kullanıcı isterse ayrı bölüm); Türkiye dışı en fazla 10 maç; yöntem CLAUDE.md "Araştırma yöntemi"; yalnızca nihai sonuçlar sunulur.
 
 ## 0. Kapsam (kullanıcı kuralı, 27.11)
 - Bütün bülten ön taramadan geçer. Yalnızca modeli olan maçlara odaklanılmaz.

@@ -41,7 +41,7 @@ Kullanıcı bir araştırma görevi verdiğinde süreç baştan sona Claude tara
 
 **Akış:**
 1. Nesine bültenini çek (`sohbet bulten`) ve bütün maçları Python ile içeride ön tara: market derinliği, bağımsız model/veri kapsamı, özel marketler.
-2. **Türkiye ligleri otomatik dışarıda bırakılmaz**; ön taramaya ve seçime diğer liglerle aynı ölçütle girer, ayrı bölümde sunulur. Yalnızca kullanıcı o görev için isterse çıkarılır. Çekilen maç sayısı ile taranan sayı farklıysa nedeni tek satırda yazılır (başlamış maç, özel/haftalık kayıt vb.).
+2. **Türkiye ligleri varsayılan olarak hariç tutulur** (kullanıcı kuralı, 27.11 son). Kullanıcı bir görevde isterse ayrı bölümde incelenir. Çekilen maç sayısı ile taranan sayı farklıysa nedeni tek satırda yazılır (Türkiye hariç, başlamış maç, özel/haftalık kayıt vb.).
 3. Türkiye dışından en dikkat çekici **10 maça kadar** seç ve derinlemesine araştır:
    - haber, sakatlık ve ceza;
    - güncel durum ve taktik;
@@ -54,6 +54,8 @@ Kullanıcı bir araştırma görevi verdiğinde süreç baştan sona Claude tara
 5. Güçlü gerekçesi olmayan aday elenir. Sayıyı doldurmak için zayıf aday eklenmez; daha az aday varsa bu açıkça söylenir.
 6. **Çıktı yalnızca nihai sonuç:** market, seçenek, oran (çekim saatiyle), lehte ve aleyhte kanıt, kaynaklar, belirsizlikler, varsa bağımsız olasılık. Çalışmayan veri kaynakları tek satırda belirtilir. Kupon yok.
 7. **Verimlilik:** büyük veri Python'da işlenir, sohbete yalnızca özet gelir. Yeni kod ya da test yalnızca kullanıcı isterse.
+
+**Yeni oturum başında (bir kez, kısa):** hafızanın SessionStart ile geri yüklendiğini doğrula (`sohbet hafiza`); daha önce açılamayan 2–3 resmî kulüp/istatistik sayfasıyla `web-fetch` erişimini dene. Çalışıyorsa kaynakları tam sayfadan oku; çalışmıyorsa arama ve alternatif güvenilir kaynaklarla devam et. Yeni kaynak ekleme çalışması yapılmaz (47 host yeterli).
 
 **Araştırma yöntemi (varsayılan, 27.11):**
 - Keşif yapan araştırmacı gibi çalış: hipotez kur, kanıt ara, karşıt kanıtı özellikle ara; daha güçlü market ya da maç çıkarsa yön değiştir. Yalnızca model kapsamındaki maçlarla sınırlanma.
