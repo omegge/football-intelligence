@@ -58,11 +58,16 @@ def gunun_maclari(fikstur: dict, gun: str) -> list[dict]:
 
 
 # --------------------------------------------------------------------------------------------- 2-3. kapsam ve olasılık
-def lig_eslemesi(nesine_lig: str, yol: Path = LIG_ESLEME) -> str | None:
+def lig_eslemesi(nesine_lig: str, yol: Path = LIG_ESLEME, lig_kodu=None) -> str | None:
+    """Onaylı eşleme. `lig_kodu` (Nesine yarışma kimliği) verilirse onaylı kimlikle AYNI olmalı; aynı ada sahip başka
+    bir yarışma (ör. Hollanda 1. Lig [681] ≠ Eredivisie [322]) asla eşlenmez."""
     if not Path(yol).exists():
         return None
     for k in json.loads(Path(yol).read_text(encoding="utf-8")).get("eslemeler", []):
         if k["nesine_lig"] == nesine_lig:
+            if lig_kodu is not None and k.get("nesine_yarisma_kimligi") is not None \
+                    and str(lig_kodu) != str(k["nesine_yarisma_kimligi"]):
+                return None
             return k["kaynak_lig"]
     return None
 

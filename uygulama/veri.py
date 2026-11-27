@@ -109,7 +109,7 @@ def mac_bul(kod: int, kok: Path = OUTPUT) -> tuple[dict | None, Path | None]:
 # ------------------------------------------------------------------------------------------------ hazırlık
 def hazirlik_ozeti(mac: dict) -> dict:
     """Olasılık hesaplamadan, maçın bağımsız tahmin kapısındaki ilk engeli (lig eşlemesi + model kapsamı)."""
-    kaynak_lig = I.lig_eslemesi(mac["lig"]) if mac.get("lig") else None
+    kaynak_lig = I.lig_eslemesi(mac["lig"], lig_kodu=mac.get("lig_kodu")) if mac.get("lig") else None
     kapsam, _ = I.kapsam_yukle()
     modeller = [ad for ad, m in kapsam["modeller"].items() if kaynak_lig in m.get("degerlendirme_ligleri", [])]
     if kaynak_lig is None:

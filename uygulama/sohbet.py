@@ -18,6 +18,10 @@ Proje kökünden:  PYTHONPATH=lib python3 -m uygulama.sohbet <komut> [seçenekle
   surpriz     KOD                                   sürpriz bağlamı: bağımsız favori, tarihsel taban oranları, pilot bulguları
   haber-kaydet DOSYA.json                           sohbette yapılan araştırmayı haber katmanına kaydet (doğrulama seviyeleriyle)
   performans                                        donmuş tahmin arşivi ve puanlama
+  hafiza      [--guncelle]                           araştırma hafızası: çıkarım, sonuçlar, manifest (silme yok)
+  temizle     [--uygula]                             bülten saklama planı; --uygula yalnızca kullanıcı açıkça isterse
+  hafiza-dali hazirla|geri                          oturumlar arası hafıza: yerel özel veri dalına commit (push yok) /
+                                                     origin'deki daldan üzerine yazmadan geri yükleme
 
 MK-1: Oranlar yalnızca `tara`, `marketler` (dondurmadan sonra) ve `karsilastir` çıktısında görünür; hiçbiri modele girmez.
 """
@@ -526,6 +530,73 @@ def performans() -> int:
     return 0
 
 
+# ------------------------------------------------------------------------------------------------ hafıza ve saklama
+def hafiza(guncelle_: bool) -> int:
+    from . import hafiza as H
+    if guncelle_:
+        r = H.guncelle()
+        _yaz(f"Hafıza güncellendi: {r['bulten']} bülten tarandı, {r['yeni_dosya']} yeni dosya, {r['hafiza_maci']} hafıza maçı, "
+             f"{r['sonuc']} sonuç; manifest {r['manifest']['dosya']} dosya ({r['manifest']['bayt'] // 1024} KB). Hiçbir şey silinmedi.")
+    kod = H.hafiza_kodlari()
+    _yaz(f"\n## Araştırma hafızası — {len(kod)} maç")
+    _yaz("| Kod | Nedenler | Anlık görüntü | Sonuç |")
+    _yaz("|---|---|---|---|")
+    for k, n in sorted(kod.items()):
+        d = V.OUTPUT / "hafiza" / "maclar" / str(k)
+        snap = len([x for x in d.glob("bulten_*.json") if "__" not in x.name]) if d.exists() else 0
+        son = json.loads((d / "sonuc.json").read_text())["skor_normal_sure"] if (d / "sonuc.json").exists() else "—"
+        _yaz(f"| {k} | {', '.join(n)} | {snap} | {son} |")
+    return 0
+
+
+def temizle(uygula_: bool) -> int:
+    from . import hafiza as H
+    p = H.plan()
+    sil = [x for x in p if x["karar"] == "sil"]
+    _yaz(f"## Bülten saklama planı (son {H.SAKLAMA_GUN} gün tutulur; aynı gün eski kopya {H.AYNI_GUN_SAAT} saat sonra)")
+    _yaz("| Klasör | Çekim (TR) | MB | Karar | Neden |")
+    _yaz("|---|---|---|---|---|")
+    for x in p:
+        _yaz(f"| {x['klasor']} | {x['cekim_tr'][:16]} | {x['mb']} | **{x['karar']}** | {x['neden']} |")
+    _yaz(f"\nSilinebilir: {len(sil)} klasör, {sum(x['mb'] for x in sil):.0f} MB. Korunan (dokunulmaz): {', '.join(H.KORUNAN)}.")
+    if not uygula_:
+        _yaz("Bu yalnızca PLANDIR; hiçbir dosya silinmedi. Uygulamak için kullanıcı açıkça istemeli: `temizle --uygula` "
+             "(her silmeden önce hafızaya çıkarım yapılır).")
+        return 0
+    r = H.uygula()
+    _yaz(f"Silinen {len(r['silinen'])} klasör; atlanan {len(r['atlanan'])}: {r['atlanan']}. Manifest {r['manifest']}.")
+    return 0
+
+
+def hafiza_dali(islem: str, sessiz: bool = False) -> int:
+    from . import hafiza as H
+    if islem == "geri" and sessiz:          # SessionStart: bağlama yalnızca TEK satır özet; içerik yüklenmez
+        try:
+            r = H.dal_geri()
+            ek = "" if (V.KOK / "output" / "kaynak_veri" / "openfootball-football.json").exists() else \
+                " Model verisi yok: gerekirse `KUR_PIP=0 bash deploy/kur.sh`."
+            print(f"[Football Intelligence] Araştırma hafızası geri yüklendi: {r['yazilan']} yeni, {r['ayni']} mevcut dosya, "
+                  f"{len(r['cakisma'])} çakışma (üzerine yazılmadı).{ek}")
+        except Exception as e:                     # oturum başlangıcını asla bozma
+            print(f"[Football Intelligence] Hafıza geri yüklenemedi ({type(e).__name__}); çalışma etkilenmez.")
+        return 0
+    if islem == "hazirla":
+        H.guncelle()
+        r = H.dal_hazirla()
+        _yaz(f"Yerel `{r['dal']}` dalı {'güncellendi' if r['degisiklik'] else 'zaten güncel'}: {r['dosya']} dosya, commit "
+             f"`{r['commit'][:7]}`. PUSH YAPILMADI; uzaktaki özel depoya göndermek kullanıcı onayı ister "
+             f"(`git push origin {r['dal']}`).")
+    else:
+        try:
+            r = H.dal_geri()
+        except RuntimeError as e:
+            _yaz(f"Hafıza dalı alınamadı: {e}")
+            return 1
+        _yaz(f"Hafıza geri yüklendi ({r['kaynak']}): {r['yazilan']} yeni dosya, {r['ayni']} aynı; çakışma {len(r['cakisma'])} "
+             "(yerel dosyaların üzerine yazılmadı).")
+    return 0
+
+
 def main(argv=None) -> int:
     a = argparse.ArgumentParser(prog="uygulama.sohbet", description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     alt = a.add_subparsers(dest="komut", required=True)
@@ -539,12 +610,17 @@ def main(argv=None) -> int:
     p = alt.add_parser("karsilastir"); p.add_argument("ifade"); p.add_argument("--zorla-cekim", action="store_true")
     alt.add_parser("haber-kaydet").add_argument("dosya")
     alt.add_parser("performans")
+    alt.add_parser("hafiza").add_argument("--guncelle", action="store_true")
+    alt.add_parser("temizle").add_argument("--uygula", action="store_true")
+    p = alt.add_parser("hafiza-dali"); p.add_argument("islem", choices=["hazirla", "geri"]); p.add_argument("--sessiz", action="store_true")
     x = a.parse_args(argv)
     return {"bulten": lambda: bulten(x.gun, x.zorla), "maclar": lambda: maclar(x.gun, x.lig, x.ara, x.hepsi),
             "tara": lambda: tara(x.gun, x.min_oran, x.maks_oran, x.market, x.lig, x.sinir),
             "mac": lambda: mac(x.ifade), "dondur": lambda: dondur(x.ifade), "marketler": lambda: marketler(x.ifade),
             "surpriz": lambda: surpriz(x.ifade), "karsilastir": lambda: karsilastir(x.ifade, x.zorla_cekim),
-            "haber-kaydet": lambda: haber_kaydet(x.dosya), "performans": performans}[x.komut]()
+            "haber-kaydet": lambda: haber_kaydet(x.dosya), "performans": performans,
+            "hafiza": lambda: hafiza(x.guncelle), "temizle": lambda: temizle(x.uygula),
+            "hafiza-dali": lambda: hafiza_dali(x.islem, x.sessiz)}[x.komut]()
 
 
 if __name__ == "__main__":

@@ -165,6 +165,13 @@ class Kapsam(unittest.TestCase):
         self.assertFalse(e3["marketler"]["KG_var"]["kapsamda"])
         self.assertEqual(k["modeller"]["E2_aday"]["degerlendirme_ligleri"], ["at.1", "be.1", "en.2", "gr.1", "sco.1", "tr.1"])
 
+    def test_k4_hollanda_ligleri_karismaz(self):
+        self.assertEqual(I.lig_eslemesi("Hollanda Eredivisie", lig_kodu=322), "nl.1")
+        self.assertIsNone(I.lig_eslemesi("Hollanda Eredivisie", lig_kodu=681))     # kimlik uyuşmazsa eşlenmez
+        self.assertIsNone(I.lig_eslemesi("Hollanda 1. Lig", lig_kodu=681))
+        from fi import eslemeler as ES
+        self.assertNotIn("Hollanda 1. Lig", ES.FD_ADAYLARI)
+
     def test_k2_on_kayit_degismedi(self):
         from fi.model import e3
         self.assertTrue(e3.on_kayit_dogrula().startswith("d267e98b"))

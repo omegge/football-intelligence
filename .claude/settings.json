@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "cd \"$CLAUDE_PROJECT_DIR\" && PYTHONPATH=lib timeout 60 python3 -m uygulama.sohbet hafiza-dali geri --sessiz 2>/dev/null || true",
+            "timeout": 90
+          }
+        ]
+      }
+    ]
+  }
+}

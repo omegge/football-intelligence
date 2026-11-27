@@ -28,6 +28,143 @@
    "onaylayan": "kullanici",
    "onay_utc": "2026-11-26T18:16:55+00:00",
    "not": "Yalnızca bu Nesine yarışma kimliği (52) için. Takım adı eşlemeleri ayrıca kesin/onaylı olmalıdır."
+  },
+  {
+   "nesine_lig": "İngiltere Premier Lig",
+   "nesine_yarisma_kimligi": 43,
+   "ulke": "ENG",
+   "kaynak_lig": "en.1",
+   "kaynak": "football-data.org PL (season=2026) + OpenFootball en.1",
+   "sezon": "2026-27",
+   "kanit": {
+    "yontem": "fikstür hizalaması, iki günlük bülten",
+    "nesine_mac": 4,
+    "otomatik_hizali": 2,
+    "tek_aday_dakika": 1,
+    "ad_farki_nedeniyle_elle_dogrulanan": 1,
+    "her_mac_ayni_dakika_ayni_iki_kulup": true,
+    "kanit_dosyasi": "veri/lig_esleme_kanitlari_20261127.json",
+    "kanit_dosyasi_sha256": "3f62dc9efa6181cd9e3ce932d77df13103475c6cfaf720287dc952e978f5e8ce"
+   },
+   "onaylayan": "kullanici (27.11.2026: 'kaynak kanıtları ve takım kimlikleri doğruysa onaylıyorum')",
+   "onay_utc": "2026-11-27T01:53:31+00:00",
+   "not": "Yalnızca bu Nesine yarışma kimliği (43) için. Takım adı eşlemeleri ayrıca kesin/onaylı olmalıdır."
+  },
+  {
+   "nesine_lig": "Almanya Bundesliga",
+   "nesine_yarisma_kimligi": 45,
+   "ulke": "DE",
+   "kaynak_lig": "de.1",
+   "kaynak": "football-data.org BL1 (season=2026) + OpenFootball de.1",
+   "sezon": "2026-27",
+   "kanit": {
+    "yontem": "fikstür hizalaması, iki günlük bülten",
+    "nesine_mac": 6,
+    "otomatik_hizali": 0,
+    "tek_aday_dakika": 1,
+    "ad_farki_nedeniyle_elle_dogrulanan": 5,
+    "her_mac_ayni_dakika_ayni_iki_kulup": true,
+    "kanit_dosyasi": "veri/lig_esleme_kanitlari_20261127.json",
+    "kanit_dosyasi_sha256": "3f62dc9efa6181cd9e3ce932d77df13103475c6cfaf720287dc952e978f5e8ce"
+   },
+   "onaylayan": "kullanici (27.11.2026: 'kaynak kanıtları ve takım kimlikleri doğruysa onaylıyorum')",
+   "onay_utc": "2026-11-27T01:53:31+00:00",
+   "not": "Yalnızca bu Nesine yarışma kimliği (45) için. Takım adı eşlemeleri ayrıca kesin/onaylı olmalıdır."
+  },
+  {
+   "nesine_lig": "İtalya Serie A",
+   "nesine_yarisma_kimligi": 143,
+   "ulke": "IT",
+   "kaynak_lig": "it.1",
+   "kaynak": "football-data.org SA (season=2026) + OpenFootball it.1",
+   "sezon": "2026-27",
+   "kanit": {
+    "yontem": "fikstür hizalaması, iki günlük bülten",
+    "nesine_mac": 4,
+    "otomatik_hizali": 0,
+    "tek_aday_dakika": 3,
+    "ad_farki_nedeniyle_elle_dogrulanan": 1,
+    "her_mac_ayni_dakika_ayni_iki_kulup": true,
+    "kanit_dosyasi": "veri/lig_esleme_kanitlari_20261127.json",
+    "kanit_dosyasi_sha256": "3f62dc9efa6181cd9e3ce932d77df13103475c6cfaf720287dc952e978f5e8ce"
+   },
+   "onaylayan": "kullanici (27.11.2026: 'kaynak kanıtları ve takım kimlikleri doğruysa onaylıyorum')",
+   "onay_utc": "2026-11-27T01:53:31+00:00",
+   "not": "Yalnızca bu Nesine yarışma kimliği (143) için. Takım adı eşlemeleri ayrıca kesin/onaylı olmalıdır."
+  },
+  {
+   "nesine_lig": "İspanya La Liga",
+   "nesine_yarisma_kimligi": 129,
+   "ulke": "ES",
+   "kaynak_lig": "es.1",
+   "kaynak": "football-data.org PD (season=2026) + OpenFootball es.1",
+   "sezon": "2026-27",
+   "kanit": {
+    "yontem": "fikstür hizalaması, iki günlük bülten",
+    "nesine_mac": 5,
+    "otomatik_hizali": 0,
+    "tek_aday_dakika": 4,
+    "ad_farki_nedeniyle_elle_dogrulanan": 1,
+    "her_mac_ayni_dakika_ayni_iki_kulup": true,
+    "kanit_dosyasi": "veri/lig_esleme_kanitlari_20261127.json",
+    "kanit_dosyasi_sha256": "3f62dc9efa6181cd9e3ce932d77df13103475c6cfaf720287dc952e978f5e8ce"
+   },
+   "onaylayan": "kullanici (27.11.2026: 'kaynak kanıtları ve takım kimlikleri doğruysa onaylıyorum')",
+   "onay_utc": "2026-11-27T01:53:31+00:00",
+   "not": "Yalnızca bu Nesine yarışma kimliği (129) için. Takım adı eşlemeleri ayrıca kesin/onaylı olmalıdır."
+  },
+  {
+   "nesine_lig": "Fransa Ligue 1",
+   "nesine_yarisma_kimligi": 381,
+   "ulke": "FR",
+   "kaynak_lig": "fr.1",
+   "kaynak": "football-data.org FL1 (season=2026) + OpenFootball fr.1",
+   "sezon": "2026-27",
+   "kanit": {
+    "yontem": "fikstür hizalaması, iki günlük bülten",
+    "nesine_mac": 6,
+    "otomatik_hizali": 0,
+    "tek_aday_dakika": 1,
+    "ad_farki_nedeniyle_elle_dogrulanan": 5,
+    "her_mac_ayni_dakika_ayni_iki_kulup": true,
+    "kanit_dosyasi": "veri/lig_esleme_kanitlari_20261127.json",
+    "kanit_dosyasi_sha256": "3f62dc9efa6181cd9e3ce932d77df13103475c6cfaf720287dc952e978f5e8ce"
+   },
+   "onaylayan": "kullanici (27.11.2026: 'kaynak kanıtları ve takım kimlikleri doğruysa onaylıyorum')",
+   "onay_utc": "2026-11-27T01:53:31+00:00",
+   "not": "Yalnızca bu Nesine yarışma kimliği (381) için. Takım adı eşlemeleri ayrıca kesin/onaylı olmalıdır."
+  },
+  {
+   "nesine_lig": "Hollanda Eredivisie",
+   "nesine_yarisma_kimligi": 322,
+   "ulke": "NL",
+   "kaynak_lig": "nl.1",
+   "kaynak": "football-data.org DED (season=2026) + OpenFootball nl.1",
+   "sezon": "2026-27",
+   "kanit": {
+    "yontem": "fikstür hizalaması, iki günlük bülten",
+    "nesine_mac": 4,
+    "otomatik_hizali": 1,
+    "tek_aday_dakika": 1,
+    "ad_farki_nedeniyle_elle_dogrulanan": 2,
+    "her_mac_ayni_dakika_ayni_iki_kulup": true,
+    "kanit_dosyasi": "veri/lig_esleme_kanitlari_20261127.json",
+    "kanit_dosyasi_sha256": "3f62dc9efa6181cd9e3ce932d77df13103475c6cfaf720287dc952e978f5e8ce"
+   },
+   "onaylayan": "kullanici (27.11.2026: 'kaynak kanıtları ve takım kimlikleri doğruysa onaylıyorum')",
+   "onay_utc": "2026-11-27T01:53:31+00:00",
+   "not": "Yalnızca bu Nesine yarışma kimliği (322) için. Takım adı eşlemeleri ayrıca kesin/onaylı olmalıdır."
+  }
+ ],
+ "reddedilen": [
+  {
+   "nesine_lig": "Hollanda 1. Lig",
+   "nesine_yarisma_kimligi": 681,
+   "aday_kaynak_lig": "nl.1",
+   "karar": "reddedildi",
+   "neden": "Eerste Divisie (2. kademe); Eredivisie (nl.1/DED) değil. 27.11 iki günlük fikstür hizalaması: 8 maçın 0'ı DED ile hizalandı. Ücretsiz kaynakta bu lig yok.",
+   "kanit_dosyasi": "veri/lig_esleme_kanitlari_20261127.json",
+   "tarih": "2026-11-27"
   }
  ]
 }

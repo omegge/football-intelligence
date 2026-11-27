@@ -6,5 +6,757 @@
   "ulke": "NL",
   "onaylayan": "kullanici (25.11.2026; kimlik: nl.1'de tek 'twente' takımı, football-data.org DED adı aynı, Wikipedia 2026–27 FC Twente maddesi)",
   "tarih": "2026-11-26T00:01:08+00:00"
+ },
+ {
+  "nesine_adi": "Bayern Münih",
+  "kaynak": "openfootball:de.1",
+  "kaynak_adi": "FC Bayern München",
+  "ulke": "DE",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 565874 2026-11-28T14:30 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "Bayern Münih",
+  "kaynak": "football-data.org:de.1",
+  "kaynak_adi": "FC Bayern München",
+  "ulke": "DE",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 565874 2026-11-28T14:30 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "E. Frankfurt",
+  "kaynak": "openfootball:de.1",
+  "kaynak_adi": "Eintracht Frankfurt",
+  "ulke": "DE",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 565870 2026-11-28T17:30 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "E. Frankfurt",
+  "kaynak": "football-data.org:de.1",
+  "kaynak_adi": "Eintracht Frankfurt",
+  "ulke": "DE",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 565870 2026-11-28T17:30 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "Elversberg",
+  "kaynak": "openfootball:de.1",
+  "kaynak_adi": "SV 07 Elversberg",
+  "ulke": "DE",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 565866 2026-11-28T14:30 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "Elversberg",
+  "kaynak": "football-data.org:de.1",
+  "kaynak_adi": "SV 07 Elversberg",
+  "ulke": "DE",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 565866 2026-11-28T14:30 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "Hamburg",
+  "kaynak": "openfootball:de.1",
+  "kaynak_adi": "Hamburger SV",
+  "ulke": "DE",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 565874 2026-11-28T14:30 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "Hamburg",
+  "kaynak": "football-data.org:de.1",
+  "kaynak_adi": "Hamburger SV",
+  "ulke": "DE",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 565874 2026-11-28T14:30 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "Köln",
+  "kaynak": "openfootball:de.1",
+  "kaynak_adi": "1. FC Köln",
+  "ulke": "DE",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 565866 2026-11-28T14:30 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "Köln",
+  "kaynak": "football-data.org:de.1",
+  "kaynak_adi": "1. FC Köln",
+  "ulke": "DE",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 565866 2026-11-28T14:30 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "M'gladbach",
+  "kaynak": "openfootball:de.1",
+  "kaynak_adi": "Borussia Mönchengladbach",
+  "ulke": "DE",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 565869 2026-11-27T19:30 (bulten_20261127_014429), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "M'gladbach",
+  "kaynak": "football-data.org:de.1",
+  "kaynak_adi": "Borussia Mönchengladbach",
+  "ulke": "DE",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 565869 2026-11-27T19:30 (bulten_20261127_014429), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "Mainz",
+  "kaynak": "openfootball:de.1",
+  "kaynak_adi": "1. FSV Mainz 05",
+  "ulke": "DE",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 565867 2026-11-28T14:30 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "Mainz",
+  "kaynak": "football-data.org:de.1",
+  "kaynak_adi": "1. FSV Mainz 05",
+  "ulke": "DE",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 565867 2026-11-28T14:30 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "Paderborn",
+  "kaynak": "openfootball:de.1",
+  "kaynak_adi": "SC Paderborn 07",
+  "ulke": "DE",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 565868 2026-11-28T14:30 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "Paderborn",
+  "kaynak": "football-data.org:de.1",
+  "kaynak_adi": "SC Paderborn 07",
+  "ulke": "DE",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 565868 2026-11-28T14:30 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "Stuttgart",
+  "kaynak": "openfootball:de.1",
+  "kaynak_adi": "VfB Stuttgart",
+  "ulke": "DE",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 565870 2026-11-28T17:30 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "Stuttgart",
+  "kaynak": "football-data.org:de.1",
+  "kaynak_adi": "VfB Stuttgart",
+  "ulke": "DE",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 565870 2026-11-28T17:30 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "Union Berlin",
+  "kaynak": "openfootball:de.1",
+  "kaynak_adi": "1. FC Union Berlin",
+  "ulke": "DE",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 565867 2026-11-28T14:30 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "Union Berlin",
+  "kaynak": "football-data.org:de.1",
+  "kaynak_adi": "1. FC Union Berlin",
+  "ulke": "DE",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 565867 2026-11-28T14:30 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "Werder Bremen",
+  "kaynak": "openfootball:de.1",
+  "kaynak_adi": "SV Werder Bremen",
+  "ulke": "DE",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 565869 2026-11-27T19:30 (bulten_20261127_014429), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "Werder Bremen",
+  "kaynak": "football-data.org:de.1",
+  "kaynak_adi": "SV Werder Bremen",
+  "ulke": "DE",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 565869 2026-11-27T19:30 (bulten_20261127_014429), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "Coventry",
+  "kaynak": "openfootball:en.1",
+  "kaynak_adi": "Coventry City FC",
+  "ulke": "ENG",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 560652 2026-11-28T15:00 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "Coventry",
+  "kaynak": "football-data.org:en.1",
+  "kaynak_adi": "Coventry City FC",
+  "ulke": "ENG",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 560652 2026-11-28T15:00 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "Man. Utd",
+  "kaynak": "openfootball:en.1",
+  "kaynak_adi": "Manchester United FC",
+  "ulke": "ENG",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 560655 2026-11-28T15:00 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "Man. Utd",
+  "kaynak": "football-data.org:en.1",
+  "kaynak_adi": "Manchester United FC",
+  "ulke": "ENG",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 560655 2026-11-28T15:00 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "Nottingham F.",
+  "kaynak": "openfootball:en.1",
+  "kaynak_adi": "Nottingham Forest FC",
+  "ulke": "ENG",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 560658 2026-11-27T20:00 (bulten_20261127_014429), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "Nottingham F.",
+  "kaynak": "football-data.org:en.1",
+  "kaynak_adi": "Nottingham Forest FC",
+  "ulke": "ENG",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 560658 2026-11-27T20:00 (bulten_20261127_014429), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "Birmingham",
+  "kaynak": "openfootball:en.2",
+  "kaynak_adi": "Birmingham City FC",
+  "ulke": "ENG",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 561970 2026-11-28T15:00 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "Birmingham",
+  "kaynak": "football-data.org:en.2",
+  "kaynak_adi": "Birmingham City FC",
+  "ulke": "ENG",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 561970 2026-11-28T15:00 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "Blackburn R.",
+  "kaynak": "openfootball:en.2",
+  "kaynak_adi": "Blackburn Rovers FC",
+  "ulke": "ENG",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 561969 2026-11-28T12:30 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "Blackburn R.",
+  "kaynak": "football-data.org:en.2",
+  "kaynak_adi": "Blackburn Rovers FC",
+  "ulke": "ENG",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 561969 2026-11-28T12:30 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "Bolton",
+  "kaynak": "openfootball:en.2",
+  "kaynak_adi": "Bolton Wanderers FC",
+  "ulke": "ENG",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 561970 2026-11-28T15:00 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "Bolton",
+  "kaynak": "football-data.org:en.2",
+  "kaynak_adi": "Bolton Wanderers FC",
+  "ulke": "ENG",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 561970 2026-11-28T15:00 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "Charlton",
+  "kaynak": "openfootball:en.2",
+  "kaynak_adi": "Charlton Athletic FC",
+  "ulke": "ENG",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 561969 2026-11-28T12:30 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "Charlton",
+  "kaynak": "football-data.org:en.2",
+  "kaynak_adi": "Charlton Athletic FC",
+  "ulke": "ENG",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 561969 2026-11-28T12:30 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "Preston",
+  "kaynak": "openfootball:en.2",
+  "kaynak_adi": "Preston North End FC",
+  "ulke": "ENG",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 561973 2026-11-28T12:30 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "Preston",
+  "kaynak": "football-data.org:en.2",
+  "kaynak_adi": "Preston North End FC",
+  "ulke": "ENG",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 561973 2026-11-28T12:30 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "QPR",
+  "kaynak": "openfootball:en.2",
+  "kaynak_adi": "Queens Park Rangers FC",
+  "ulke": "ENG",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 561966 2026-11-28T15:00 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "QPR",
+  "kaynak": "football-data.org:en.2",
+  "kaynak_adi": "Queens Park Rangers FC",
+  "ulke": "ENG",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 561966 2026-11-28T15:00 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "W. Bromwich",
+  "kaynak": "openfootball:en.2",
+  "kaynak_adi": "West Bromwich Albion FC",
+  "ulke": "ENG",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 561975 2026-11-28T15:00 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "W. Bromwich",
+  "kaynak": "football-data.org:en.2",
+  "kaynak_adi": "West Bromwich Albion FC",
+  "ulke": "ENG",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 561975 2026-11-28T15:00 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "West Ham",
+  "kaynak": "openfootball:en.2",
+  "kaynak_adi": "West Ham United FC",
+  "ulke": "ENG",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 561974 2026-11-28T15:00 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "West Ham",
+  "kaynak": "football-data.org:en.2",
+  "kaynak_adi": "West Ham United FC",
+  "ulke": "ENG",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 561974 2026-11-28T15:00 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "Wolverhampton",
+  "kaynak": "openfootball:en.2",
+  "kaynak_adi": "Wolverhampton Wanderers FC",
+  "ulke": "ENG",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 561972 2026-11-28T12:30 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "Wolverhampton",
+  "kaynak": "football-data.org:en.2",
+  "kaynak_adi": "Wolverhampton Wanderers FC",
+  "ulke": "ENG",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 561972 2026-11-28T12:30 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "Alaves",
+  "kaynak": "openfootball:es.1",
+  "kaynak_adi": "Deportivo Alavés",
+  "ulke": "ES",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 564762 2026-11-28T20:00 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "Alaves",
+  "kaynak": "football-data.org:es.1",
+  "kaynak_adi": "Deportivo Alavés",
+  "ulke": "ES",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 564762 2026-11-28T20:00 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "Ath Bilbao",
+  "kaynak": "openfootball:es.1",
+  "kaynak_adi": "Athletic Club",
+  "ulke": "ES",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 564767 2026-11-28T15:15 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "Ath Bilbao",
+  "kaynak": "football-data.org:es.1",
+  "kaynak_adi": "Athletic Club",
+  "ulke": "ES",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 564767 2026-11-28T15:15 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "Atl Madrid",
+  "kaynak": "openfootball:es.1",
+  "kaynak_adi": "Club Atlético de Madrid",
+  "ulke": "ES",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 564759 2026-11-28T17:30 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "Atl Madrid",
+  "kaynak": "football-data.org:es.1",
+  "kaynak_adi": "Club Atlético de Madrid",
+  "ulke": "ES",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 564759 2026-11-28T17:30 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "Real Betis",
+  "kaynak": "openfootball:es.1",
+  "kaynak_adi": "Real Betis Balompié",
+  "ulke": "ES",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 564760 2026-11-28T13:00 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "Real Betis",
+  "kaynak": "football-data.org:es.1",
+  "kaynak_adi": "Real Betis Balompié",
+  "ulke": "ES",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 564760 2026-11-28T13:00 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "Santander",
+  "kaynak": "openfootball:es.1",
+  "kaynak_adi": "Real Racing Club de Santander",
+  "ulke": "ES",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 564765 2026-11-27T20:00 (bulten_20261127_014429), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "Santander",
+  "kaynak": "football-data.org:es.1",
+  "kaynak_adi": "Real Racing Club de Santander",
+  "ulke": "ES",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 564765 2026-11-27T20:00 (bulten_20261127_014429), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "Vallecano",
+  "kaynak": "openfootball:es.1",
+  "kaynak_adi": "Rayo Vallecano de Madrid",
+  "ulke": "ES",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 564760 2026-11-28T13:00 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "Vallecano",
+  "kaynak": "football-data.org:es.1",
+  "kaynak_adi": "Rayo Vallecano de Madrid",
+  "ulke": "ES",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 564760 2026-11-28T13:00 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "Angers",
+  "kaynak": "openfootball:fr.1",
+  "kaynak_adi": "Angers SCO",
+  "ulke": "FR",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 559612 2026-11-28T16:15 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "Angers",
+  "kaynak": "football-data.org:fr.1",
+  "kaynak_adi": "Angers SCO",
+  "ulke": "FR",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 559612 2026-11-28T16:15 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "Brest",
+  "kaynak": "openfootball:fr.1",
+  "kaynak_adi": "Stade Brestois 29",
+  "ulke": "FR",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 559616 2026-11-27T19:45 (bulten_20261127_014429), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "Brest",
+  "kaynak": "football-data.org:fr.1",
+  "kaynak_adi": "Stade Brestois 29",
+  "ulke": "FR",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 559616 2026-11-27T19:45 (bulten_20261127_014429), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "Lille",
+  "kaynak": "openfootball:fr.1",
+  "kaynak_adi": "Lille OSC",
+  "ulke": "FR",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 559617 2026-11-28T19:45 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "Lille",
+  "kaynak": "football-data.org:fr.1",
+  "kaynak_adi": "Lille OSC",
+  "ulke": "FR",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 559617 2026-11-28T19:45 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "Nice",
+  "kaynak": "openfootball:fr.1",
+  "kaynak_adi": "OGC Nice",
+  "ulke": "FR",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 559620 2026-11-28T19:45 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "Nice",
+  "kaynak": "football-data.org:fr.1",
+  "kaynak_adi": "OGC Nice",
+  "ulke": "FR",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 559620 2026-11-28T19:45 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "PSG",
+  "kaynak": "openfootball:fr.1",
+  "kaynak_adi": "Paris Saint-Germain FC",
+  "ulke": "FR",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 559614 2026-11-28T19:45 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "PSG",
+  "kaynak": "football-data.org:fr.1",
+  "kaynak_adi": "Paris Saint-Germain FC",
+  "ulke": "FR",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 559614 2026-11-28T19:45 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "RC Lens",
+  "kaynak": "openfootball:fr.1",
+  "kaynak_adi": "Racing Club de Lens",
+  "ulke": "FR",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 559612 2026-11-28T16:15 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "RC Lens",
+  "kaynak": "football-data.org:fr.1",
+  "kaynak_adi": "Racing Club de Lens",
+  "ulke": "FR",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 559612 2026-11-28T16:15 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "Strasbourg",
+  "kaynak": "openfootball:fr.1",
+  "kaynak_adi": "RC Strasbourg Alsace",
+  "ulke": "FR",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 559613 2026-11-28T19:45 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "Strasbourg",
+  "kaynak": "football-data.org:fr.1",
+  "kaynak_adi": "RC Strasbourg Alsace",
+  "ulke": "FR",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 559613 2026-11-28T19:45 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "Troyes",
+  "kaynak": "openfootball:fr.1",
+  "kaynak_adi": "ES Troyes AC",
+  "ulke": "FR",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 559620 2026-11-28T19:45 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "Troyes",
+  "kaynak": "football-data.org:fr.1",
+  "kaynak_adi": "ES Troyes AC",
+  "ulke": "FR",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 559620 2026-11-28T19:45 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "Bologna",
+  "kaynak": "openfootball:it.1",
+  "kaynak_adi": "Bologna FC 1909",
+  "ulke": "IT",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 558515 2026-11-27T19:45 (bulten_20261127_014429), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "Bologna",
+  "kaynak": "football-data.org:it.1",
+  "kaynak_adi": "Bologna FC 1909",
+  "ulke": "IT",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 558515 2026-11-27T19:45 (bulten_20261127_014429), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "Genoa",
+  "kaynak": "openfootball:it.1",
+  "kaynak_adi": "Genoa CFC",
+  "ulke": "IT",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 558518 2026-11-28T19:45 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "Genoa",
+  "kaynak": "football-data.org:it.1",
+  "kaynak_adi": "Genoa CFC",
+  "ulke": "IT",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 558518 2026-11-28T19:45 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "Inter",
+  "kaynak": "openfootball:it.1",
+  "kaynak_adi": "FC Internazionale Milano",
+  "ulke": "IT",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 558518 2026-11-28T19:45 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "Inter",
+  "kaynak": "football-data.org:it.1",
+  "kaynak_adi": "FC Internazionale Milano",
+  "ulke": "IT",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 558518 2026-11-28T19:45 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "Lazio",
+  "kaynak": "openfootball:it.1",
+  "kaynak_adi": "SS Lazio",
+  "ulke": "IT",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 558514 2026-11-28T17:00 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "Lazio",
+  "kaynak": "football-data.org:it.1",
+  "kaynak_adi": "SS Lazio",
+  "ulke": "IT",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 558514 2026-11-28T17:00 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "Parma",
+  "kaynak": "openfootball:it.1",
+  "kaynak_adi": "Parma Calcio 1913",
+  "ulke": "IT",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 558513 2026-11-28T14:00 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "Parma",
+  "kaynak": "football-data.org:it.1",
+  "kaynak_adi": "Parma Calcio 1913",
+  "ulke": "IT",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 558513 2026-11-28T14:00 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "Excelsior",
+  "kaynak": "openfootball:nl.1",
+  "kaynak_adi": "SBV Excelsior",
+  "ulke": "NL",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 558825 2026-11-28T15:30 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "Excelsior",
+  "kaynak": "football-data.org:nl.1",
+  "kaynak_adi": "SBV Excelsior",
+  "ulke": "NL",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 558825 2026-11-28T15:30 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "S. Rotterdam",
+  "kaynak": "openfootball:nl.1",
+  "kaynak_adi": "Sparta Rotterdam",
+  "ulke": "NL",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 558819 2026-11-28T20:00 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "S. Rotterdam",
+  "kaynak": "football-data.org:nl.1",
+  "kaynak_adi": "Sparta Rotterdam",
+  "ulke": "NL",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 558819 2026-11-28T20:00 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "SC Cambuur",
+  "kaynak": "openfootball:nl.1",
+  "kaynak_adi": "SC Cambuur-Leeuwarden",
+  "ulke": "NL",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 558819 2026-11-28T20:00 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "SC Cambuur",
+  "kaynak": "football-data.org:nl.1",
+  "kaynak_adi": "SC Cambuur-Leeuwarden",
+  "ulke": "NL",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 558819 2026-11-28T20:00 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "Telstar",
+  "kaynak": "openfootball:nl.1",
+  "kaynak_adi": "Telstar 1963",
+  "ulke": "NL",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 558825 2026-11-28T15:30 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "Telstar",
+  "kaynak": "football-data.org:nl.1",
+  "kaynak_adi": "Telstar 1963",
+  "ulke": "NL",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 558825 2026-11-28T15:30 (bulten_20261127_010045), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "Willem II",
+  "kaynak": "openfootball:nl.1",
+  "kaynak_adi": "Willem II Tilburg",
+  "ulke": "NL",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 558820 2026-11-27T19:00 (bulten_20261127_014429), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
+ },
+ {
+  "nesine_adi": "Willem II",
+  "kaynak": "football-data.org:nl.1",
+  "kaynak_adi": "Willem II Tilburg",
+  "ulke": "NL",
+  "onaylayan": "kullanici koşullu onay 27.11.2026; fikstür hizalaması fd 558820 2026-11-27T19:00 (bulten_20261127_014429), kimlik elle denetlendi; kanıt lig_esleme_kanitlari_20261127.json 3f62dc9efa61",
+  "tarih": "2026-11-27T01:53:31+00:00"
  }
 ]

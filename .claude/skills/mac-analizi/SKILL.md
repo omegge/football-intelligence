@@ -27,6 +27,7 @@ Komutlar proje kökünden çalıştırılır: `PYTHONPATH=lib python3 -m uygulam
   - Olasılık (model) ile fiyat cazibesi ayrı değerlendirilir.
 
 ## Adımlar
+0. **Hafıza:** `sohbet hafiza` ve aynı takımlar için `output/arastirma/genis_pilot/` altındaki önceki araştırmalar. Eski bulgular tarihleriyle "geçmiş" olarak ayrılır.
 1. **Maçı eşleştir:** `mac KOD` ya da `mac "takım adı"`. Bültende yoksa önce `bulten --gun YYYY-AA-GG` çalıştır (football-bulletin-fetch).
    - Maç başladıysa maç öncesi analiz yapılmaz. Canlı skor, dakika ve kırmızı kart web aramasıyla doğrulanır.
 2. **Bağımsız model durumu:** `mac` çıktısında hazırlanabilir / takım onayı gerekli / hesaplanamaz bilgisi var.
@@ -49,5 +50,6 @@ Komutlar proje kökünden çalıştırılır: `PYTHONPATH=lib python3 -m uygulam
 - **E3:** en.1, de.1, it.1, es.1, en.3, en.4, fr.2, it.2. 38 market; MS 1/2, ÇŞ, 2,5 Alt/Üst dahil (ON_KAYIT_E3, 15.994 maçlık tek sınama).
 - **E2:** en.2, at.1, be.1, sco.1, tr.1, gr.1. 26 market; MS 1/2 ve 2,5 Alt/Üst hariç.
 - **Poisson E:** fr.1, nl.1, pt.1, de.2, es.2. 10 market.
-- **Lig onayı:** Kullanımda yalnızca `veri/lig_eslemeleri.json`'daki onaylı ligler geçerli; şu an yalnızca İngiltere Championship → en.2.
+- **Lig onayı:** Kullanımda yalnızca `veri/lig_eslemeleri.json`'daki onaylı ligler geçerli. 27.11 itibarıyla 7 lig onaylı: Championship → en.2, Premier Lig → en.1, Bundesliga → de.1, Serie A → it.1, La Liga → es.1, Ligue 1 → fr.1, Eredivisie → nl.1. Kanıt: `veri/lig_esleme_kanitlari_20261127.json`. Portekiz onaysız.
+- **Model yoksa** araştırma DURMAZ: haber, istatistik, taktik ve yerel basınla nitel analiz yapılır; yüzde verilmez.
 - **Kapsam dışı:** Diğer ligler, Avrupa kupaları, millî maçlar, korner, kart, oyuncu ve devre marketleri. Bunlar **hesaplanamaz**.

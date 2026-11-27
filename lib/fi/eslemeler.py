@@ -139,7 +139,9 @@ if __name__ == "__main__":
 FD_ADAYLARI = {"İngiltere Championship": ("ELC", "en.2"), "İngiltere Premier Lig": ("PL", "en.1"),
                "Almanya Bundesliga": ("BL1", "de.1"), "İtalya Serie A": ("SA", "it.1"), "İspanya La Liga": ("PD", "es.1"),
                "Fransa Ligue 1": ("FL1", "fr.1"), "Hollanda Eredivisie": ("DED", "nl.1"),
-               "Portekiz Premier Lig": ("PPL", "pt.1"), "Hollanda 1. Lig": ("DED", "nl.1")}
+               "Portekiz Premier Lig": ("PPL", "pt.1")}
+# "Hollanda 1. Lig" [681] = Eerste Divisie: football-data.org ücretsiz planında yok; DED (Eredivisie) ile eşlenmez
+# (27.11 kanıtı: 8 maçın 0'ı Eredivisie fikstürüyle hizalandı). veri/lig_eslemeleri.json "reddedilen".
 
 
 def fikstur_hizalama(nesine_maclari: list[dict], fd_maclari: list[dict]) -> dict:

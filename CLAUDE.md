@@ -22,6 +22,9 @@ Nesine bülteni ana maç havuzudur. Web arayüzü (`uygulama/sunucu.py`) ve Rend
 | "En ilginç sürpriz sinyali", "favori zorlanır mı" | `surpriz-analizi` (`sohbet surpriz`) |
 | "Bu maçın marketlerini incele", "200'den fazla marketi incele", "eşdeğer marketlerde en yüksek fiyat" | `market-incele` (`sohbet karsilastir`, `sohbet marketler`) |
 | "Tahmin performansı", "arşiv" | `tahmin-performansi` (`sohbet performans`) |
+| "Araştırma hafızası", "önceki araştırmalar" | `sohbet hafiza [--guncelle]` (çıkarım, sonuç, manifest; silme yok) |
+| "Eski bültenleri temizle" | `sohbet temizle` (yalnızca plan); `--uygula` YALNIZCA kullanıcı açıkça isterse |
+| "Hafızayı kaydet / geri getir" | `sohbet hafiza-dali hazirla` (yerel özel dal; push kullanıcı onayıyla) / `hafiza-dali geri` |
 | "Arayüzü aç" (yalnızca açıkça istenirse) | `PYTHONPATH=lib python3 -m uygulama` (yerel, `docs/V1_ARAYUZ.md`) |
 
 Oran tarafsızlığı:
@@ -50,5 +53,9 @@ Oran tarafsızlığı:
    oranları (ör. `durumu_dogrulanmamis`, market durumu MS≠1 ya da eksik) kupona alma; nedenini kullanıcıya söyle.
 7. Hiçbir pazara doğrulanmamış "yüksek güven" verme.
 
-## Çıktılar
-`output/` git dışıdır. Şimdilik dosyalar kullanıcıya indirilebilir olarak gönderilir; kalıcı arşiv daha sonra.
+## Çıktılar ve araştırma hafızası
+`output/` git dışıdır.
+- **Kalıcı araştırma hafızası:** `output/hafiza/`, `output/tahminler/`, `output/arastirma/`, `output/raporlar/`.
+- **Bültenler geçicidir.** Son 3 gün tutulur; daha eski tam bültenler ancak hafızaya çıkarım ve SHA-256 doğrulamasından sonra, kullanıcı isterse silinir.
+- **Oturumlar arası:** aynı özel depoda kod içermeyen `arastirma-hafizasi` dalı. Push kullanıcı onayıyla yapılır.
+- **Hafıza dalına girmeyenler:** ham bülten, Excel, önbellek ve kaydedilmiş ham web sayfaları (gömülü üçüncü taraf anahtarları içerebilir).

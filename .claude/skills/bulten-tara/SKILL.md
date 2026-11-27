@@ -20,6 +20,16 @@ description: Nesine bültenindeki bütün maçları tarayıp yüksek oranlı ama
 - Favori ve sürpriz adayı oranla BELİRLENMEZ (MK-1). Favori yalnızca bağımsız modelden ya da bağımsız sezon verisinden belirlenir.
 - Oranlar hiçbir modele girmez.
 
+## 0. Kapsam (kullanıcı kuralı, 27.11)
+- Bütün bülten ön taramadan geçer. Yalnızca modeli olan maçlara odaklanılmaz.
+- Modeli olmayan maçlarda da haber, istatistik, sakatlık, taktik, yerel basın, tahmin siteleri, analistler, Reddit ve başka bahis sitelerinin oranları araştırılır.
+- Varsayılan fiyat süzgeci YOK; yalnızca kullanıcı isterse uygulanır.
+- Hem beklenmedik sürprizler hem de beklenen sonuçla uyumlu ama yüksek fiyatlı özel marketler incelenir.
+- **Başka bahis sitelerinin oranları:** yalnızca piyasa görüşü. Kaynak, zaman ve site adıyla verilir; marj içerir; ASLA olasılık ya da model girdisi değildir. Bulunamazsa "veri yok".
+- **Güncellik:** her bilginin yayın zamanı doğrulanır. Tarihsiz ya da eski sezon sonucu güncel bilgi gibi kullanılmaz (27.11 testinde arama sonuçlarının çoğu eski sezondandı).
+- **Dil:** yerel kaynaklar ülkenin dilinde aranır: Almanca (Kicker, Bild, kulüp sitesi), İtalyanca (Gazzetta, Corriere dello Sport, TuttoMercatoWeb), İspanyolca (Marca, AS, Mundo Deportivo, yerel gazete), Fransızca (L'Équipe, Ouest-France, Le Parisien), Hollandaca (VI, Dagblad van het Noorden, Brabants Dagblad), Portekizce (Record, A Bola, O Jogo), Türkçe ve diğerleri. Aramada maçın TARİHİ ve takım adları birlikte kullanılır.
+- **Hafıza:** önce `sohbet hafiza` ile aynı takımlar hakkındaki önceki araştırmalara bakılır (`output/arastirma/genis_pilot/`, `output/hafiza/`). Eski bulgu yeni gibi sunulmaz.
+
 ## 1. Bülten
 - Bugünün ya da istenen günün başarılı bülteni yoksa ya da eskiyse önce `PYTHONPATH=lib python3 -m uygulama.sohbet bulten --gun YYYY-AA-GG` çalıştır.
 - Bülten yaşını raporda HER ZAMAN göster.

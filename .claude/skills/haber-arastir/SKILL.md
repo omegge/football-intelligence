@@ -20,6 +20,13 @@ description: Bir futbol maçı için haber, sakatlık, ceza, ilk 11, teknik dire
   - Aynı ilk kaynağı kopyalayan sayfalar tek zincirdir.
 - **Tur:** T−24s / T−6s / T−90dk (`mac` çıktısında şu anki tur yazar). Eski tur "GÜNCEL DEĞİL" sayılır.
 
+## Güncellik ve dil
+- Her aramaya maçın tarihini ya da haftasını ekle. Sonuçların yayın tarihini kontrol et.
+- Eski sezon sayfaları ve önceki eşleşmeler "geçmiş bağlam" olarak etiketlenir; güncel kadro haberi sayılmaz.
+- Yerel basın ülkenin dilinde aranır (ör. "Werder Gladbach Aufstellung Verletzte", "Venezia Bologna probabili formazioni", "Levante Racing convocatoria", "Groningen Willem II opstelling blessures").
+- Muhabir ve kulüp hesapları kaynak sınıfıyla kaydedilir.
+- Başka bahis sitelerinin oranları ve tahmin yüzdeleri yalnızca `karantina_sayilar` ve "piyasa görüşü" olarak tutulur.
+
 ## Arama planı (maç başına 6–12 arama; hepsi raporda listelenir)
 1. `{Ev} {Dep} team news injuries {tarih}`, `{Ev} press conference {TD adı}`, `{Dep} press conference`
 2. Yerel basın: kulübün şehir gazetesi ve kulübün resmi sitesi.

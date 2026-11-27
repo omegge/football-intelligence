@@ -1,0 +1,1257 @@
+{
+ "uretim_utc": "2026-11-27T01:53:31+00:00",
+ "yontem": "iki bülten (27.11 bulten_20261127_014429, 28.11 bulten_20261127_010045) × football-data.org season=2026; aynı UTC dakikası + iki kulüp; kimlik çiftleri tek tek elle denetlendi",
+ "ligler": {
+  "İngiltere Championship": {
+   "hizali": [
+    {
+     "nesine": "Southampton - Middlesbrough",
+     "nesine_kod": 3331002,
+     "fd": "Southampton FC - Middlesbrough FC",
+     "fd_id": 561968,
+     "utc": "2026-11-27T20:00",
+     "takim_eslesmesi": [
+      "kesin",
+      "kesin"
+     ]
+    },
+    {
+     "nesine": "Wrexham - Portsmouth",
+     "nesine_kod": 3331672,
+     "fd": "Wrexham AFC - Portsmouth FC",
+     "fd_id": 561965,
+     "utc": "2026-11-28T15:00",
+     "takim_eslesmesi": [
+      "kesin",
+      "kesin"
+     ]
+    },
+    {
+     "nesine": "Millwall - Burnley",
+     "nesine_kod": 3333015,
+     "fd": "Millwall FC - Burnley FC",
+     "fd_id": 561967,
+     "utc": "2026-11-28T15:00",
+     "takim_eslesmesi": [
+      "kesin",
+      "kesin"
+     ]
+    },
+    {
+     "nesine": "Derby County - Watford",
+     "nesine_kod": 3333437,
+     "fd": "Derby County FC - Watford FC",
+     "fd_id": 561971,
+     "utc": "2026-11-28T15:00",
+     "takim_eslesmesi": [
+      "kesin",
+      "kesin"
+     ]
+    }
+   ],
+   "tek": [],
+   "hizasiz": [
+    {
+     "nesine": "Lincoln City - Wolverhampton",
+     "utc": "2026-11-28T12:30",
+     "ayni_dakika_fd_maci": 3
+    },
+    {
+     "nesine": "QPR - Sheffield Utd",
+     "utc": "2026-11-28T15:00",
+     "ayni_dakika_fd_maci": 7
+    },
+    {
+     "nesine": "Blackburn R. - Charlton",
+     "utc": "2026-11-28T12:30",
+     "ayni_dakika_fd_maci": 3
+    },
+    {
+     "nesine": "W. Bromwich - Bristol City",
+     "utc": "2026-11-28T15:00",
+     "ayni_dakika_fd_maci": 7
+    },
+    {
+     "nesine": "Preston - Norwich City",
+     "utc": "2026-11-28T12:30",
+     "ayni_dakika_fd_maci": 3
+    },
+    {
+     "nesine": "West Ham - Stoke City",
+     "utc": "2026-11-28T15:00",
+     "ayni_dakika_fd_maci": 7
+    },
+    {
+     "nesine": "Birmingham - Bolton",
+     "utc": "2026-11-28T15:00",
+     "ayni_dakika_fd_maci": 7
+    }
+   ],
+   "kod": [
+    52
+   ],
+   "ulke": [
+    "ENG"
+   ],
+   "kaynak_lig": "en.2",
+   "fd_kod": "ELC",
+   "fd_sha": [
+    "1a16fdc347c26f8b41f3dfd7b7253f530e1cdb0eef3df0c2e4fb114a6d0a54fa"
+   ],
+   "bulten": [
+    "bulten_20261127_014429",
+    "bulten_20261127_010045"
+   ]
+  },
+  "İngiltere Premier Lig": {
+   "hizali": [
+    {
+     "nesine": "Ipswich Town - Aston Villa",
+     "nesine_kod": 3332074,
+     "fd": "Ipswich Town FC - Aston Villa FC",
+     "fd_id": 560653,
+     "utc": "2026-11-28T17:30",
+     "takim_eslesmesi": [
+      "kesin",
+      "kesin"
+     ]
+    },
+    {
+     "nesine": "Man. Utd - Brentford",
+     "nesine_kod": 3332317,
+     "fd": "Manchester United FC - Brentford FC",
+     "fd_id": 560655,
+     "utc": "2026-11-28T15:00",
+     "takim_eslesmesi": [
+      "benzer",
+      "kesin"
+     ]
+    }
+   ],
+   "tek": [
+    {
+     "nesine": "Nottingham F. - Chelsea",
+     "utc": "2026-11-27T20:00",
+     "ayni_dakika_fd_maci": 1,
+     "tek_aday": "Nottingham Forest FC - Chelsea FC",
+     "fd_id": 560658,
+     "takim_eslesmesi": [
+      "ad_onayi_gerekli",
+      "kesin"
+     ]
+    }
+   ],
+   "hizasiz": [
+    {
+     "nesine": "Leeds Utd - Coventry",
+     "utc": "2026-11-28T15:00",
+     "ayni_dakika_fd_maci": 2
+    }
+   ],
+   "kod": [
+    43
+   ],
+   "ulke": [
+    "ENG"
+   ],
+   "kaynak_lig": "en.1",
+   "fd_kod": "PL",
+   "fd_sha": [
+    "8f3495efb54240c1dbcbcbdd0f657e4eef41c66e4c7787f04572cc880d073a45"
+   ],
+   "bulten": [
+    "bulten_20261127_014429",
+    "bulten_20261127_010045"
+   ]
+  },
+  "Almanya Bundesliga": {
+   "hizali": [],
+   "tek": [
+    {
+     "nesine": "Werder Bremen - M'gladbach",
+     "utc": "2026-11-27T19:30",
+     "ayni_dakika_fd_maci": 1,
+     "tek_aday": "SV Werder Bremen - Borussia Mönchengladbach",
+     "fd_id": 565869,
+     "takim_eslesmesi": [
+      "benzer",
+      "ad_onayi_gerekli"
+     ]
+    }
+   ],
+   "hizasiz": [
+    {
+     "nesine": "Köln - Elversberg",
+     "utc": "2026-11-28T14:30",
+     "ayni_dakika_fd_maci": 4
+    },
+    {
+     "nesine": "Stuttgart - E. Frankfurt",
+     "utc": "2026-11-28T17:30",
+     "ayni_dakika_fd_maci": 1
+    },
+    {
+     "nesine": "Mainz - Union Berlin",
+     "utc": "2026-11-28T14:30",
+     "ayni_dakika_fd_maci": 4
+    },
+    {
+     "nesine": "Paderborn - Schalke 04",
+     "utc": "2026-11-28T14:30",
+     "ayni_dakika_fd_maci": 4
+    },
+    {
+     "nesine": "Hamburg - Bayern Münih",
+     "utc": "2026-11-28T14:30",
+     "ayni_dakika_fd_maci": 4
+    }
+   ],
+   "kod": [
+    45
+   ],
+   "ulke": [
+    "DE"
+   ],
+   "kaynak_lig": "de.1",
+   "fd_kod": "BL1",
+   "fd_sha": [
+    "4aa54e5df04b69a11c317ba0f9133be98f0b5a4947de29d0fb6fbc371405fa30"
+   ],
+   "bulten": [
+    "bulten_20261127_014429",
+    "bulten_20261127_010045"
+   ]
+  },
+  "İtalya Serie A": {
+   "hizali": [],
+   "tek": [
+    {
+     "nesine": "Venezia - Bologna",
+     "utc": "2026-11-27T19:45",
+     "ayni_dakika_fd_maci": 1,
+     "tek_aday": "Venezia FC - Bologna FC 1909",
+     "fd_id": 558515,
+     "takim_eslesmesi": [
+      "kesin",
+      "ad_onayi_gerekli"
+     ]
+    },
+    {
+     "nesine": "Frosinone - Parma",
+     "utc": "2026-11-28T14:00",
+     "ayni_dakika_fd_maci": 1,
+     "tek_aday": "Frosinone Calcio - Parma Calcio 1913",
+     "fd_id": 558513,
+     "takim_eslesmesi": [
+      "kesin",
+      "ad_onayi_gerekli"
+     ]
+    },
+    {
+     "nesine": "Torino - Lazio",
+     "utc": "2026-11-28T17:00",
+     "ayni_dakika_fd_maci": 1,
+     "tek_aday": "Torino FC - SS Lazio",
+     "fd_id": 558514,
+     "takim_eslesmesi": [
+      "kesin",
+      "ad_onayi_gerekli"
+     ]
+    }
+   ],
+   "hizasiz": [
+    {
+     "nesine": "Inter - Genoa",
+     "utc": "2026-11-28T19:45",
+     "ayni_dakika_fd_maci": 1
+    }
+   ],
+   "kod": [
+    143
+   ],
+   "ulke": [
+    "IT"
+   ],
+   "kaynak_lig": "it.1",
+   "fd_kod": "SA",
+   "fd_sha": [
+    "8d5e672ccaaa88d29b9bafa5f5638701f281a0d6de44347fd223aa66f2542595"
+   ],
+   "bulten": [
+    "bulten_20261127_014429",
+    "bulten_20261127_010045"
+   ]
+  },
+  "İspanya La Liga": {
+   "hizali": [],
+   "tek": [
+    {
+     "nesine": "Levante - Santander",
+     "utc": "2026-11-27T20:00",
+     "ayni_dakika_fd_maci": 1,
+     "tek_aday": "Levante UD - Real Racing Club de Santander",
+     "fd_id": 564765,
+     "takim_eslesmesi": [
+      "kesin",
+      "ad_onayi_gerekli"
+     ]
+    },
+    {
+     "nesine": "Real Madrid - Alaves",
+     "utc": "2026-11-28T20:00",
+     "ayni_dakika_fd_maci": 1,
+     "tek_aday": "Real Madrid CF - Deportivo Alavés",
+     "fd_id": 564762,
+     "takim_eslesmesi": [
+      "kesin",
+      "ad_onayi_gerekli"
+     ]
+    },
+    {
+     "nesine": "Malaga - Ath Bilbao",
+     "utc": "2026-11-28T15:15",
+     "ayni_dakika_fd_maci": 1,
+     "tek_aday": "Málaga CF - Athletic Club",
+     "fd_id": 564767,
+     "takim_eslesmesi": [
+      "kesin",
+      "ad_onayi_gerekli"
+     ]
+    },
+    {
+     "nesine": "Elche - Atl Madrid",
+     "utc": "2026-11-28T17:30",
+     "ayni_dakika_fd_maci": 1,
+     "tek_aday": "Elche CF - Club Atlético de Madrid",
+     "fd_id": 564759,
+     "takim_eslesmesi": [
+      "kesin",
+      "ad_onayi_gerekli"
+     ]
+    }
+   ],
+   "hizasiz": [
+    {
+     "nesine": "Real Betis - Vallecano",
+     "utc": "2026-11-28T13:00",
+     "ayni_dakika_fd_maci": 1
+    }
+   ],
+   "kod": [
+    129
+   ],
+   "ulke": [
+    "ES"
+   ],
+   "kaynak_lig": "es.1",
+   "fd_kod": "PD",
+   "fd_sha": [
+    "b9d6f60e1d13807c9cc6610aa2838706b7618dcfad91bacb4eb8b13d0222c1d3"
+   ],
+   "bulten": [
+    "bulten_20261127_014429",
+    "bulten_20261127_010045"
+   ]
+  },
+  "Fransa Ligue 1": {
+   "hizali": [],
+   "tek": [
+    {
+     "nesine": "Brest - Paris",
+     "utc": "2026-11-27T19:45",
+     "ayni_dakika_fd_maci": 1,
+     "tek_aday": "Stade Brestois 29 - Paris FC",
+     "fd_id": 559616,
+     "takim_eslesmesi": [
+      "ad_onayi_gerekli",
+      "kesin"
+     ]
+    }
+   ],
+   "hizasiz": [
+    {
+     "nesine": "Le Havre - Strasbourg",
+     "utc": "2026-11-28T19:45",
+     "ayni_dakika_fd_maci": 4
+    },
+    {
+     "nesine": "Le Mans - Lille",
+     "utc": "2026-11-28T19:45",
+     "ayni_dakika_fd_maci": 4
+    },
+    {
+     "nesine": "Nice - Troyes",
+     "utc": "2026-11-28T19:45",
+     "ayni_dakika_fd_maci": 4
+    },
+    {
+     "nesine": "Angers - RC Lens",
+     "utc": "2026-11-28T16:15",
+     "ayni_dakika_fd_maci": 1
+    },
+    {
+     "nesine": "PSG - Lorient",
+     "utc": "2026-11-28T19:45",
+     "ayni_dakika_fd_maci": 4
+    }
+   ],
+   "kod": [
+    381
+   ],
+   "ulke": [
+    "FR"
+   ],
+   "kaynak_lig": "fr.1",
+   "fd_kod": "FL1",
+   "fd_sha": [
+    "0b99f39787843b445c0432de3fb51e3b63afc13a26f4e9759bc489b87b9c6f1f"
+   ],
+   "bulten": [
+    "bulten_20261127_014429",
+    "bulten_20261127_010045"
+   ]
+  },
+  "Hollanda Eredivisie": {
+   "hizali": [
+    {
+     "nesine": "PSV - Go Ahead Eagles",
+     "nesine_kod": 3331469,
+     "fd": "PSV - Go Ahead Eagles",
+     "fd_id": 558826,
+     "utc": "2026-11-28T17:45",
+     "takim_eslesmesi": [
+      "kesin",
+      "kesin"
+     ]
+    }
+   ],
+   "tek": [
+    {
+     "nesine": "Groningen - Willem II",
+     "utc": "2026-11-27T19:00",
+     "ayni_dakika_fd_maci": 1,
+     "tek_aday": "FC Groningen - Willem II Tilburg",
+     "fd_id": 558820,
+     "takim_eslesmesi": [
+      "kesin",
+      "ad_onayi_gerekli"
+     ]
+    }
+   ],
+   "hizasiz": [
+    {
+     "nesine": "SC Cambuur - S. Rotterdam",
+     "utc": "2026-11-28T20:00",
+     "ayni_dakika_fd_maci": 1
+    },
+    {
+     "nesine": "Excelsior - Telstar",
+     "utc": "2026-11-28T15:30",
+     "ayni_dakika_fd_maci": 1
+    }
+   ],
+   "kod": [
+    322
+   ],
+   "ulke": [
+    "NL"
+   ],
+   "kaynak_lig": "nl.1",
+   "fd_kod": "DED",
+   "fd_sha": [
+    "99e43f8551d97f9b240fd6e9bfec95e9494d41e80a137a7f52e162ec5299156d"
+   ],
+   "bulten": [
+    "bulten_20261127_014429",
+    "bulten_20261127_010045"
+   ]
+  },
+  "Portekiz Premier Lig": {
+   "hizali": [
+    {
+     "nesine": "Arouca - Rio Ave",
+     "nesine_kod": 3332533,
+     "fd": "FC Arouca - Rio Ave FC",
+     "fd_id": 567362,
+     "utc": "2026-11-28T15:30",
+     "takim_eslesmesi": [
+      "kesin",
+      "kesin"
+     ]
+    },
+    {
+     "nesine": "Moreirense - Santa Clara",
+     "nesine_kod": 3332820,
+     "fd": "Moreirense FC - CD Santa Clara",
+     "fd_id": 567357,
+     "utc": "2026-11-28T15:30",
+     "takim_eslesmesi": [
+      "kesin",
+      "kesin"
+     ]
+    }
+   ],
+   "tek": [
+    {
+     "nesine": "A. de Viseu - Alverca",
+     "utc": "2026-11-28T18:00",
+     "ayni_dakika_fd_maci": 1,
+     "tek_aday": "Académico de Viseu FC - FC Alverca",
+     "fd_id": 567364,
+     "takim_eslesmesi": [
+      "ad_onayi_gerekli",
+      "kesin"
+     ]
+    }
+   ],
+   "hizasiz": [
+    {
+     "nesine": "Maritimo - N. Madeira",
+     "utc": "2026-11-27T20:15",
+     "ayni_dakika_fd_maci": 1
+    },
+    {
+     "nesine": "V. Guimaraes - Estrela",
+     "utc": "2026-11-28T20:30",
+     "ayni_dakika_fd_maci": 1
+    }
+   ],
+   "kod": [
+    566
+   ],
+   "ulke": [
+    "PT"
+   ],
+   "kaynak_lig": "pt.1",
+   "fd_kod": "PPL",
+   "fd_sha": [
+    "b1116236088c09c1242c7828b7e0a25e2901e0333073bb55726e34b6114dd2f0"
+   ],
+   "bulten": [
+    "bulten_20261127_014429",
+    "bulten_20261127_010045"
+   ]
+  },
+  "Hollanda 1. Lig": {
+   "hizali": [],
+   "tek": [],
+   "hizasiz": [
+    {
+     "nesine": "VVV Venlo - Waalwijk",
+     "utc": "2026-11-27T19:00",
+     "ayni_dakika_fd_maci": 1
+    },
+    {
+     "nesine": "Jong Ajax - Heracles",
+     "utc": "2026-11-27T19:00",
+     "ayni_dakika_fd_maci": 1
+    },
+    {
+     "nesine": "Dordrecht - Vitesse",
+     "utc": "2026-11-27T19:00",
+     "ayni_dakika_fd_maci": 1
+    },
+    {
+     "nesine": "Jong AZ Alkmaar - TOP Oss",
+     "utc": "2026-11-27T19:00",
+     "ayni_dakika_fd_maci": 1
+    },
+    {
+     "nesine": "Jong Utrecht - Almere City",
+     "utc": "2026-11-27T19:00",
+     "ayni_dakika_fd_maci": 1
+    },
+    {
+     "nesine": "Maastricht - Jong PSV",
+     "utc": "2026-11-27T19:00",
+     "ayni_dakika_fd_maci": 1
+    },
+    {
+     "nesine": "NAC Breda - Den Bosch",
+     "utc": "2026-11-27T19:00",
+     "ayni_dakika_fd_maci": 1
+    },
+    {
+     "nesine": "Emmen - Helmond",
+     "utc": "2026-11-28T15:30",
+     "ayni_dakika_fd_maci": 1
+    }
+   ],
+   "kod": [
+    681
+   ],
+   "ulke": [
+    "NL"
+   ],
+   "kaynak_lig": "nl.1",
+   "fd_kod": "DED",
+   "fd_sha": [
+    "99e43f8551d97f9b240fd6e9bfec95e9494d41e80a137a7f52e162ec5299156d"
+   ],
+   "bulten": [
+    "bulten_20261127_014429",
+    "bulten_20261127_010045"
+   ]
+  }
+ },
+ "takim_ciftleri": [
+  {
+   "lig": "de.1",
+   "nesine": "Bayern Münih",
+   "fd": "FC Bayern München",
+   "kanit": [
+    [
+     "FC Bayern München",
+     565874,
+     "2026-11-28T14:30",
+     "bulten_20261127_010045",
+     3333436
+    ]
+   ]
+  },
+  {
+   "lig": "de.1",
+   "nesine": "E. Frankfurt",
+   "fd": "Eintracht Frankfurt",
+   "kanit": [
+    [
+     "Eintracht Frankfurt",
+     565870,
+     "2026-11-28T17:30",
+     "bulten_20261127_010045",
+     3332452
+    ]
+   ]
+  },
+  {
+   "lig": "de.1",
+   "nesine": "Elversberg",
+   "fd": "SV 07 Elversberg",
+   "kanit": [
+    [
+     "SV 07 Elversberg",
+     565866,
+     "2026-11-28T14:30",
+     "bulten_20261127_010045",
+     3331712
+    ]
+   ]
+  },
+  {
+   "lig": "de.1",
+   "nesine": "Hamburg",
+   "fd": "Hamburger SV",
+   "kanit": [
+    [
+     "Hamburger SV",
+     565874,
+     "2026-11-28T14:30",
+     "bulten_20261127_010045",
+     3333436
+    ]
+   ]
+  },
+  {
+   "lig": "de.1",
+   "nesine": "Köln",
+   "fd": "1. FC Köln",
+   "kanit": [
+    [
+     "1. FC Köln",
+     565866,
+     "2026-11-28T14:30",
+     "bulten_20261127_010045",
+     3331712
+    ]
+   ]
+  },
+  {
+   "lig": "de.1",
+   "nesine": "M'gladbach",
+   "fd": "Borussia Mönchengladbach",
+   "kanit": [
+    [
+     "Borussia Mönchengladbach",
+     565869,
+     "2026-11-27T19:30",
+     "bulten_20261127_014429",
+     3331036
+    ]
+   ]
+  },
+  {
+   "lig": "de.1",
+   "nesine": "Mainz",
+   "fd": "1. FSV Mainz 05",
+   "kanit": [
+    [
+     "1. FSV Mainz 05",
+     565867,
+     "2026-11-28T14:30",
+     "bulten_20261127_010045",
+     3332478
+    ]
+   ]
+  },
+  {
+   "lig": "de.1",
+   "nesine": "Paderborn",
+   "fd": "SC Paderborn 07",
+   "kanit": [
+    [
+     "SC Paderborn 07",
+     565868,
+     "2026-11-28T14:30",
+     "bulten_20261127_010045",
+     3333138
+    ]
+   ]
+  },
+  {
+   "lig": "de.1",
+   "nesine": "Stuttgart",
+   "fd": "VfB Stuttgart",
+   "kanit": [
+    [
+     "VfB Stuttgart",
+     565870,
+     "2026-11-28T17:30",
+     "bulten_20261127_010045",
+     3332452
+    ]
+   ]
+  },
+  {
+   "lig": "de.1",
+   "nesine": "Union Berlin",
+   "fd": "1. FC Union Berlin",
+   "kanit": [
+    [
+     "1. FC Union Berlin",
+     565867,
+     "2026-11-28T14:30",
+     "bulten_20261127_010045",
+     3332478
+    ]
+   ]
+  },
+  {
+   "lig": "de.1",
+   "nesine": "Werder Bremen",
+   "fd": "SV Werder Bremen",
+   "kanit": [
+    [
+     "SV Werder Bremen",
+     565869,
+     "2026-11-27T19:30",
+     "bulten_20261127_014429",
+     3331036
+    ]
+   ]
+  },
+  {
+   "lig": "en.1",
+   "nesine": "Coventry",
+   "fd": "Coventry City FC",
+   "kanit": [
+    [
+     "Coventry City FC",
+     560652,
+     "2026-11-28T15:00",
+     "bulten_20261127_010045",
+     3333001
+    ]
+   ]
+  },
+  {
+   "lig": "en.1",
+   "nesine": "Man. Utd",
+   "fd": "Manchester United FC",
+   "kanit": [
+    [
+     "Manchester United FC",
+     560655,
+     "2026-11-28T15:00",
+     "bulten_20261127_010045",
+     3332317
+    ]
+   ]
+  },
+  {
+   "lig": "en.1",
+   "nesine": "Nottingham F.",
+   "fd": "Nottingham Forest FC",
+   "kanit": [
+    [
+     "Nottingham Forest FC",
+     560658,
+     "2026-11-27T20:00",
+     "bulten_20261127_014429",
+     3331459
+    ]
+   ]
+  },
+  {
+   "lig": "en.2",
+   "nesine": "Birmingham",
+   "fd": "Birmingham City FC",
+   "kanit": [
+    [
+     "Birmingham City FC",
+     561970,
+     "2026-11-28T15:00",
+     "bulten_20261127_010045",
+     3333355
+    ]
+   ]
+  },
+  {
+   "lig": "en.2",
+   "nesine": "Blackburn R.",
+   "fd": "Blackburn Rovers FC",
+   "kanit": [
+    [
+     "Blackburn Rovers FC",
+     561969,
+     "2026-11-28T12:30",
+     "bulten_20261127_010045",
+     3332528
+    ]
+   ]
+  },
+  {
+   "lig": "en.2",
+   "nesine": "Bolton",
+   "fd": "Bolton Wanderers FC",
+   "kanit": [
+    [
+     "Bolton Wanderers FC",
+     561970,
+     "2026-11-28T15:00",
+     "bulten_20261127_010045",
+     3333355
+    ]
+   ]
+  },
+  {
+   "lig": "en.2",
+   "nesine": "Charlton",
+   "fd": "Charlton Athletic FC",
+   "kanit": [
+    [
+     "Charlton Athletic FC",
+     561969,
+     "2026-11-28T12:30",
+     "bulten_20261127_010045",
+     3332528
+    ]
+   ]
+  },
+  {
+   "lig": "en.2",
+   "nesine": "Preston",
+   "fd": "Preston North End FC",
+   "kanit": [
+    [
+     "Preston North End FC",
+     561973,
+     "2026-11-28T12:30",
+     "bulten_20261127_010045",
+     3332936
+    ]
+   ]
+  },
+  {
+   "lig": "en.2",
+   "nesine": "QPR",
+   "fd": "Queens Park Rangers FC",
+   "kanit": [
+    [
+     "Queens Park Rangers FC",
+     561966,
+     "2026-11-28T15:00",
+     "bulten_20261127_010045",
+     3332438
+    ]
+   ]
+  },
+  {
+   "lig": "en.2",
+   "nesine": "W. Bromwich",
+   "fd": "West Bromwich Albion FC",
+   "kanit": [
+    [
+     "West Bromwich Albion FC",
+     561975,
+     "2026-11-28T15:00",
+     "bulten_20261127_010045",
+     3332851
+    ]
+   ]
+  },
+  {
+   "lig": "en.2",
+   "nesine": "West Ham",
+   "fd": "West Ham United FC",
+   "kanit": [
+    [
+     "West Ham United FC",
+     561974,
+     "2026-11-28T15:00",
+     "bulten_20261127_010045",
+     3333187
+    ]
+   ]
+  },
+  {
+   "lig": "en.2",
+   "nesine": "Wolverhampton",
+   "fd": "Wolverhampton Wanderers FC",
+   "kanit": [
+    [
+     "Wolverhampton Wanderers FC",
+     561972,
+     "2026-11-28T12:30",
+     "bulten_20261127_010045",
+     3331850
+    ]
+   ]
+  },
+  {
+   "lig": "es.1",
+   "nesine": "Alaves",
+   "fd": "Deportivo Alavés",
+   "kanit": [
+    [
+     "Deportivo Alavés",
+     564762,
+     "2026-11-28T20:00",
+     "bulten_20261127_010045",
+     3336882
+    ]
+   ]
+  },
+  {
+   "lig": "es.1",
+   "nesine": "Ath Bilbao",
+   "fd": "Athletic Club",
+   "kanit": [
+    [
+     "Athletic Club",
+     564767,
+     "2026-11-28T15:15",
+     "bulten_20261127_010045",
+     3337343
+    ]
+   ]
+  },
+  {
+   "lig": "es.1",
+   "nesine": "Atl Madrid",
+   "fd": "Club Atlético de Madrid",
+   "kanit": [
+    [
+     "Club Atlético de Madrid",
+     564759,
+     "2026-11-28T17:30",
+     "bulten_20261127_010045",
+     3337368
+    ]
+   ]
+  },
+  {
+   "lig": "es.1",
+   "nesine": "Real Betis",
+   "fd": "Real Betis Balompié",
+   "kanit": [
+    [
+     "Real Betis Balompié",
+     564760,
+     "2026-11-28T13:00",
+     "bulten_20261127_010045",
+     3336006
+    ]
+   ]
+  },
+  {
+   "lig": "es.1",
+   "nesine": "Santander",
+   "fd": "Real Racing Club de Santander",
+   "kanit": [
+    [
+     "Real Racing Club de Santander",
+     564765,
+     "2026-11-27T20:00",
+     "bulten_20261127_014429",
+     3336789
+    ]
+   ]
+  },
+  {
+   "lig": "es.1",
+   "nesine": "Vallecano",
+   "fd": "Rayo Vallecano de Madrid",
+   "kanit": [
+    [
+     "Rayo Vallecano de Madrid",
+     564760,
+     "2026-11-28T13:00",
+     "bulten_20261127_010045",
+     3336006
+    ]
+   ]
+  },
+  {
+   "lig": "fr.1",
+   "nesine": "Angers",
+   "fd": "Angers SCO",
+   "kanit": [
+    [
+     "Angers SCO",
+     559612,
+     "2026-11-28T16:15",
+     "bulten_20261127_010045",
+     3333155
+    ]
+   ]
+  },
+  {
+   "lig": "fr.1",
+   "nesine": "Brest",
+   "fd": "Stade Brestois 29",
+   "kanit": [
+    [
+     "Stade Brestois 29",
+     559616,
+     "2026-11-27T19:45",
+     "bulten_20261127_014429",
+     3331253
+    ]
+   ]
+  },
+  {
+   "lig": "fr.1",
+   "nesine": "Lille",
+   "fd": "Lille OSC",
+   "kanit": [
+    [
+     "Lille OSC",
+     559617,
+     "2026-11-28T19:45",
+     "bulten_20261127_010045",
+     3331908
+    ]
+   ]
+  },
+  {
+   "lig": "fr.1",
+   "nesine": "Nice",
+   "fd": "OGC Nice",
+   "kanit": [
+    [
+     "OGC Nice",
+     559620,
+     "2026-11-28T19:45",
+     "bulten_20261127_010045",
+     3332780
+    ]
+   ]
+  },
+  {
+   "lig": "fr.1",
+   "nesine": "PSG",
+   "fd": "Paris Saint-Germain FC",
+   "kanit": [
+    [
+     "Paris Saint-Germain FC",
+     559614,
+     "2026-11-28T19:45",
+     "bulten_20261127_010045",
+     3333157
+    ]
+   ]
+  },
+  {
+   "lig": "fr.1",
+   "nesine": "RC Lens",
+   "fd": "Racing Club de Lens",
+   "kanit": [
+    [
+     "Racing Club de Lens",
+     559612,
+     "2026-11-28T16:15",
+     "bulten_20261127_010045",
+     3333155
+    ]
+   ]
+  },
+  {
+   "lig": "fr.1",
+   "nesine": "Strasbourg",
+   "fd": "RC Strasbourg Alsace",
+   "kanit": [
+    [
+     "RC Strasbourg Alsace",
+     559613,
+     "2026-11-28T19:45",
+     "bulten_20261127_010045",
+     3331481
+    ]
+   ]
+  },
+  {
+   "lig": "fr.1",
+   "nesine": "Troyes",
+   "fd": "ES Troyes AC",
+   "kanit": [
+    [
+     "ES Troyes AC",
+     559620,
+     "2026-11-28T19:45",
+     "bulten_20261127_010045",
+     3332780
+    ]
+   ]
+  },
+  {
+   "lig": "it.1",
+   "nesine": "Bologna",
+   "fd": "Bologna FC 1909",
+   "kanit": [
+    [
+     "Bologna FC 1909",
+     558515,
+     "2026-11-27T19:45",
+     "bulten_20261127_014429",
+     3331070
+    ]
+   ]
+  },
+  {
+   "lig": "it.1",
+   "nesine": "Genoa",
+   "fd": "Genoa CFC",
+   "kanit": [
+    [
+     "Genoa CFC",
+     558518,
+     "2026-11-28T19:45",
+     "bulten_20261127_010045",
+     3332414
+    ]
+   ]
+  },
+  {
+   "lig": "it.1",
+   "nesine": "Inter",
+   "fd": "FC Internazionale Milano",
+   "kanit": [
+    [
+     "FC Internazionale Milano",
+     558518,
+     "2026-11-28T19:45",
+     "bulten_20261127_010045",
+     3332414
+    ]
+   ]
+  },
+  {
+   "lig": "it.1",
+   "nesine": "Lazio",
+   "fd": "SS Lazio",
+   "kanit": [
+    [
+     "SS Lazio",
+     558514,
+     "2026-11-28T17:00",
+     "bulten_20261127_010045",
+     3332876
+    ]
+   ]
+  },
+  {
+   "lig": "it.1",
+   "nesine": "Parma",
+   "fd": "Parma Calcio 1913",
+   "kanit": [
+    [
+     "Parma Calcio 1913",
+     558513,
+     "2026-11-28T14:00",
+     "bulten_20261127_010045",
+     3332378
+    ]
+   ]
+  },
+  {
+   "lig": "nl.1",
+   "nesine": "Excelsior",
+   "fd": "SBV Excelsior",
+   "kanit": [
+    [
+     "SBV Excelsior",
+     558825,
+     "2026-11-28T15:30",
+     "bulten_20261127_010045",
+     3332343
+    ]
+   ]
+  },
+  {
+   "lig": "nl.1",
+   "nesine": "S. Rotterdam",
+   "fd": "Sparta Rotterdam",
+   "kanit": [
+    [
+     "Sparta Rotterdam",
+     558819,
+     "2026-11-28T20:00",
+     "bulten_20261127_010045",
+     3331905
+    ]
+   ]
+  },
+  {
+   "lig": "nl.1",
+   "nesine": "SC Cambuur",
+   "fd": "SC Cambuur-Leeuwarden",
+   "kanit": [
+    [
+     "SC Cambuur-Leeuwarden",
+     558819,
+     "2026-11-28T20:00",
+     "bulten_20261127_010045",
+     3331905
+    ]
+   ]
+  },
+  {
+   "lig": "nl.1",
+   "nesine": "Telstar",
+   "fd": "Telstar 1963",
+   "kanit": [
+    [
+     "Telstar 1963",
+     558825,
+     "2026-11-28T15:30",
+     "bulten_20261127_010045",
+     3332343
+    ]
+   ]
+  },
+  {
+   "lig": "nl.1",
+   "nesine": "Willem II",
+   "fd": "Willem II Tilburg",
+   "kanit": [
+    [
+     "Willem II Tilburg",
+     558820,
+     "2026-11-27T19:00",
+     "bulten_20261127_014429",
+     3330843
+    ]
+   ]
+  }
+ ]
+}

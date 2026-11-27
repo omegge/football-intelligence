@@ -52,10 +52,19 @@ class GE(unittest.TestCase):
         d = json.loads(Path(KP.KOK / "veri" / "lig_esleme_adaylari.json").read_text())
         self.assertTrue(all(a["durum"] == "onay_bekliyor" for a in d["adaylar"]))
         onayli = json.loads((KP.KOK / "veri" / "lig_eslemeleri.json").read_text())["eslemeler"]
-        # yalnızca kullanıcının açıkça onayladığı ve kanıtlı kayıtlar (26.11: Championship [52] → en.2)
-        self.assertTrue(all(e["onaylayan"] == "kullanici" and e["kanit"]["hizali_mac"] for e in onayli))
+        # yalnızca kullanıcının açıkça onayladığı ve kanıtlı kayıtlar (26.11: Championship; 27.11: koşullu onayla 6 lig,
+        # iki günlük fikstür hizalaması, kanıt dosyası SHA-256 ile bağlı). Portekiz ve Hollanda 1. Lig onaysız.
+        import hashlib
+        for e in onayli:
+            self.assertTrue(e["onaylayan"].startswith("kullanici"))
+            k = e["kanit"]
+            self.assertTrue(k.get("hizali_mac") or (k.get("nesine_mac", 0) > 0 and k.get("her_mac_ayni_dakika_ayni_iki_kulup")))
+            if k.get("kanit_dosyasi"):
+                self.assertEqual(hashlib.sha256((KP.KOK / k["kanit_dosyasi"]).read_bytes()).hexdigest(), k["kanit_dosyasi_sha256"])
         self.assertEqual({(e["nesine_lig"], e["nesine_yarisma_kimligi"], e["kaynak_lig"]) for e in onayli},
-                         {("İngiltere Championship", 52, "en.2")})
+                         {("İngiltere Championship", 52, "en.2"), ("İngiltere Premier Lig", 43, "en.1"),
+                          ("Almanya Bundesliga", 45, "de.1"), ("İtalya Serie A", 143, "it.1"), ("İspanya La Liga", 129, "es.1"),
+                          ("Fransa Ligue 1", 381, "fr.1"), ("Hollanda Eredivisie", 322, "nl.1")})
         o = json.loads((KP.KOK / "veri" / "openligadb_takim_adaylari.json").read_text())
         self.assertTrue(all(a["durum"] == "onay_bekliyor" for a in o["adaylar"]))
 

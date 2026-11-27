@@ -34,6 +34,27 @@ Ayrı uygulama yoktur. Claude Code'da bu depo açıkken Türkçe yazarsınız. C
      - Şu an elle yedek alınıyor.
 5. **Paket:** numpy, pandas, openpyxl. Varsayılan bulut görüntüsünde kurulu; değilse ortam kurulum betiği gerekir.
 
+## Araştırma hafızası ve saklama
+- **Hafıza (`output/hafiza/`):**
+  - Araştırılan, dondurulan ya da fiyatı karşılaştırılan her maç için o çekimdeki bütün marketler ve oranlar saklanır. Bunlar zaman damgalı anlık görüntülerdir ve model girdisi değildir.
+  - Fiyat karşılaştırması ve dışa aktarım dosyaları.
+  - Gerçekleşen sonuç.
+  - Her bülten için oransız günlük maç listesi.
+  - `MANIFEST.sha256`.
+  - Komut: `sohbet hafiza --guncelle`; hiçbir şey silmez.
+- **Saklama:**
+  - Son 3 günün bültenleri tutulur; her günün en yeni başarılı çekimi mutlaka kalır.
+  - Aynı gün içindeki eski kopyalar, karşılaştırmada kullanılmadıysa ve 6 saatten eskiyse silinebilir.
+  - Başarısız çekimler silinebilir.
+  - Daha eski tam bültenler önce hafızaya çıkarılır, sonra silinebilir.
+  - Tahminler, araştırmalar, raporlar, model çıktıları, kaynak verisi ve yedekler hiçbir zaman silinmez.
+  - `sohbet temizle` yalnızca planı gösterir. `--uygula` ancak kullanıcı açıkça isterse kullanılır.
+- **Oturumlar arası hafıza:**
+  - Aynı özel depoda kod içermeyen `arastirma-hafizasi` dalı.
+  - `sohbet hafiza-dali hazirla`: yerel commit; push kullanıcı onayıyla.
+  - `sohbet hafiza-dali geri`: yeni oturumda geri yükler; var olan dosyanın üzerine yazmaz.
+  - Dala ham bülten, Excel, önbellek ve kaydedilmiş ham web sayfaları girmez (sayfalar gömülü üçüncü taraf anahtarları içerebilir).
+
 ## Kurallar
 - MK-1: oranlar bağımsız olasılığa girmez; önce dondurma, sonra karşılaştırma.
 - Oran tarafsızlığı: yüksek oran otomatik riskli, düşük oran otomatik güvenli değildir.
