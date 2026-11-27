@@ -1,0 +1,303 @@
+{
+ "tur": "donmus_tahmin",
+ "mac_id": "nesine:3336789",
+ "karsilasma": "Levante - Santander",
+ "lig": "İspanya La Liga",
+ "baslama_tr": "2026-11-27T23:00:00+03:00",
+ "dondurma_utc": "2026-11-27T02:44:13+00:00",
+ "veri_kesimi": "2026-11-23",
+ "model_surumu": {
+  "is_akisi": "is-akisi-0.1",
+  "git_commit": "fb1a175544820c0f60f96fb1204f5da9d2558063"
+ },
+ "tahmin": {
+  "durum": "hesaplandi",
+  "hazirlik": [
+   {
+    "kriter": "lig_eslemesi_onayli",
+    "gecti": true,
+    "kanit": "İspanya La Liga → es.1"
+   },
+   {
+    "kriter": "model_bu_ligde_degerlendirildi",
+    "gecti": true,
+    "kanit": "E3 değerlendirme ligleri: ['de.1', 'en.1', 'en.3', 'en.4', 'es.1', 'fr.2', 'it.1', 'it.2']"
+   },
+   {
+    "kriter": "lig_verisi_var",
+    "gecti": true,
+    "kanit": "5449 maç"
+   },
+   {
+    "kriter": "veri_guncel",
+    "gecti": true,
+    "kanit": "son skorlu maç 2026-11-23, boşluk 4 gün (sınır 14)"
+   },
+   {
+    "kriter": "takim_eslemesi_ev",
+    "gecti": true,
+    "kanit": "'Levante' → kesin Levante UD"
+   },
+   {
+    "kriter": "takim_eslemesi_dep",
+    "gecti": true,
+    "kanit": "'Santander' → onayli Real Racing Club de Santander"
+   },
+   {
+    "kriter": "test_edilmis_ve_kalibre_market_var",
+    "gecti": true,
+    "kanit": "38 market: ['MS_1', 'MS_2', 'CS_1X', 'CS_X2', 'aralik_4_5', 'aralik_6p', 'H-1_1', 'H-1_X', 'H-1_2', 'AU0.5_alt', 'AU0.5_ust', 'AU2.5_alt', 'AU2.5_ust', 'AU4.5_alt', 'AU4.5_ust', 'ev0.5_alt', 'ev0.5_ust', 'dep1.5_alt', 'dep1.5_ust', 'ev2.5_alt', 'ev2.5_ust', 'dep2.5_alt', 'dep2.5_ust', 'MS1_AU2.5_alt', 'MS1_KG_var', 'MSX_AU2.5_alt', 'MSX_KG_yok', 'MS2_AU2.5_alt', 'MS2_AU2.5_ust', 'MS2_KG_var', 'skor_0_0', 'skor_1_0', 'skor_0_1', 'skor_1_1', 'skor_2_0', 'skor_0_2', 'skor_2_1', 'skor_1_2']"
+   },
+   {
+    "kriter": "veri_kesimi_kaydedildi",
+    "gecti": true,
+    "kanit": "2026-11-23"
+   },
+   {
+    "kriter": "oranlardan_once_dondurulacak",
+    "gecti": true,
+    "kanit": "olasılık yalnızca dondur() ile kaydedilir; fiyat karşılaştırması fiyat_karsilastir()'ta dondurmadan sonra (oran bu fonksiyona girmez: oransiz_mi)"
+   }
+  ],
+  "kapsam_sha256": "a702432d8f3a5211746e3d2ea958100df14afa9b0483f8b95febf040123c8ed4",
+  "model_adi": "E3",
+  "veri_kesimi": "2026-11-23",
+  "veri_boslugu_gun": 4,
+  "veri_kaynaklari": [
+   "football-data.org",
+   "openfootball"
+  ],
+  "ev_esleme": {
+   "durum": "kesin",
+   "kaynak_adi": "Levante UD",
+   "alternatifler": []
+  },
+  "dep_esleme": {
+   "durum": "onayli",
+   "kaynak_adi": "Real Racing Club de Santander",
+   "alternatifler": []
+  },
+  "lig_ortalamasi_365": 2.7941952506596306,
+  "e3_duzeltmesi": {
+   "gamma": 1.45,
+   "delta": -0.05,
+   "pencere_mac": 692,
+   "pencere_bas": "2024-11-29",
+   "pencere_son": "2026-09-20"
+  },
+  "model": "E3 E2+A: E2 (ceza 16, w 0,65, b 0) + zaman sıralı güç farkı ölçeği γ ve ev kayması δ (aynı ligin önceki 730 günü; ON_KAYIT_E3)",
+  "lambda_ev": 2.075541032278908,
+  "lambda_dep": 1.1565493406935115,
+  "egitim_mac_sayisi": 5449,
+  "olasiliklar": {
+   "MS_1": 0.5850413117617594,
+   "MS_2": 0.20618080684745715,
+   "CS_1X": 0.7938191931525427,
+   "CS_X2": 0.4149586882382402,
+   "aralik_4_5": 0.29552140180293296,
+   "aralik_6p": 0.10908821494966885,
+   "H-1_1": 0.3565324633426196,
+   "H-1_X": 0.22850884841914,
+   "H-1_2": 0.4149586882382402,
+   "AU0.5_alt": 0.03947535752903765,
+   "AU0.5_ust": 0.9605246424709621,
+   "AU2.5_alt": 0.3732511294496325,
+   "AU2.5_ust": 0.6267488705503673,
+   "AU4.5_alt": 0.7748839191621568,
+   "AU4.5_ust": 0.225116080837843,
+   "ev0.5_alt": 0.12548997999930675,
+   "ev0.5_ust": 0.8745100200006929,
+   "dep1.5_alt": 0.6783852882386072,
+   "dep1.5_ust": 0.32161471176139267,
+   "ev2.5_alt": 0.6562468788809006,
+   "ev2.5_ust": 0.3437531211190992,
+   "dep2.5_alt": 0.888770571524136,
+   "dep2.5_ust": 0.11122942847586392,
+   "MS1_AU2.5_alt": 0.16696008991689967,
+   "MS1_KG_var": 0.3099468723296717,
+   "MSX_AU2.5_alt": 0.13423459581723418,
+   "MSX_KG_yok": 0.03947535752903765,
+   "MS2_AU2.5_alt": 0.07205644371549862,
+   "MS2_AU2.5_ust": 0.13412436313195855,
+   "MS2_KG_var": 0.12016618437718808,
+   "skor_0_0": 0.03947535752903765,
+   "skor_1_0": 0.08193272431539776,
+   "skor_0_1": 0.045655198723849134,
+   "skor_1_1": 0.09475923828819653,
+   "skor_2_0": 0.08502736560150191,
+   "skor_0_2": 0.026401244991649482,
+   "skor_2_1": 0.09833834362732322,
+   "skor_1_2": 0.05479686728341652
+  },
+  "hesaplanamaz_pazarlar": {
+   "MS_X": [
+    "kalibre"
+   ],
+   "CS_12": [
+    "kalibre"
+   ],
+   "KG_var": [
+    "bilgi_tasiyor",
+    "kalibre"
+   ],
+   "KG_yok": [
+    "bilgi_tasiyor",
+    "kalibre"
+   ],
+   "tek": [
+    "bilgi_tasiyor"
+   ],
+   "cift": [
+    "bilgi_tasiyor"
+   ],
+   "aralik_0_1": [
+    "kalibre"
+   ],
+   "aralik_2_3": [
+    "bilgi_tasiyor"
+   ],
+   "AU1.5_alt": [
+    "kalibre"
+   ],
+   "AU1.5_ust": [
+    "kalibre"
+   ],
+   "AU3.5_alt": [
+    "kalibre"
+   ],
+   "AU3.5_ust": [
+    "kalibre"
+   ],
+   "dep0.5_alt": [
+    "kalibre"
+   ],
+   "dep0.5_ust": [
+    "kalibre"
+   ],
+   "ev1.5_alt": [
+    "kalibre"
+   ],
+   "ev1.5_ust": [
+    "kalibre"
+   ],
+   "MS1_AU2.5_ust": [
+    "kalibre"
+   ],
+   "MS1_KG_yok": [
+    "kalibre"
+   ],
+   "MSX_AU2.5_ust": [
+    "bilgi_tasiyor"
+   ],
+   "MSX_KG_var": [
+    "bilgi_tasiyor",
+    "kalibre"
+   ],
+   "MS2_KG_yok": [
+    "kalibre"
+   ],
+   "skor_2_2": [
+    "bilgi_tasiyor"
+   ]
+  },
+  "kalibrasyon_notu": "E aşamasında çoğu markette ECE 0,01–0,03; kutularda ≤0,05 sapma koşulu birçok markette sağlanmadı. 'Yüksek güven' verilmez.",
+  "skor_matrisi": [
+   [
+    0.0394753575,
+    0.0456551987,
+    0.026401245,
+    0.0101781142,
+    0.0029428728,
+    0.0006807155,
+    0.0001312135,
+    2.16793e-05
+   ],
+   [
+    0.0819327243,
+    0.0947592383,
+    0.0547968673,
+    0.0211250936,
+    0.0061080533,
+    0.001412853,
+    0.000272339,
+    4.49962e-05
+   ],
+   [
+    0.0850273656,
+    0.0983383436,
+    0.0568665732,
+    0.0219229993,
+    0.0063387576,
+    0.0014662172,
+    0.0002826254,
+    4.66957e-05
+   ],
+   [
+    0.0588259287,
+    0.0680350891,
+    0.0393429687,
+    0.0151673615,
+    0.0043854505,
+    0.001014398,
+    0.0001955336,
+    3.23063e-05
+   ],
+   [
+    0.0305239072,
+    0.0353024048,
+    0.0204144865,
+    0.0078701203,
+    0.0022755456,
+    0.0005263562,
+    0.0001014595,
+    1.67633e-05
+   ],
+   [
+    0.0126707244,
+    0.0146543179,
+    0.0084742209,
+    0.0032669515,
+    0.0009445977,
+    0.0002184948,
+    4.21167e-05,
+    6.9586e-06
+   ],
+   [
+    0.0043831014,
+    0.005069273,
+    0.0029314322,
+    0.0011301153,
+    0.0003267585,
+    7.55825e-05,
+    1.45691e-05,
+    2.4071e-06
+   ],
+   [
+    0.0012996153,
+    0.0015030692,
+    0.0008691868,
+    0.0003350858,
+    9.68858e-05,
+    2.24106e-05,
+    4.3198e-06,
+    7.137e-07
+   ]
+  ],
+  "veri_kaynagi_raporu": {
+   "son_tarih": "2026-11-23",
+   "ayni": 69,
+   "eklenen": 60,
+   "fd_sha256": "b9d6f60e1d13807c9cc6610aa2838706b7618dcfad91bacb4eb8b13d0222c1d3",
+   "fd_erisim_utc": "2026-11-27T02:44:12+00:00",
+   "atif": "Football data provided by the Football-Data.org API"
+  },
+  "mac_kimligi_dogrulama": {
+   "nesine": "nesine:3336789",
+   "fd_mac_id": 564765,
+   "utc": "2026-11-27T20:00:00+00:00",
+   "durum": "TIMED",
+   "anlik_goruntu": "20261126T181656Z"
+  }
+ },
+ "sha256": "9107df3609c35263a0f9b26289480fc4673ecdcba284f80268ef3cc13fdd3307"
+}
