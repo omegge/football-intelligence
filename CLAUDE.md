@@ -41,7 +41,7 @@ Kullanıcı bir araştırma görevi verdiğinde süreç baştan sona Claude tara
 
 **Akış:**
 1. Nesine bültenini çek (`sohbet bulten`) ve bütün maçları Python ile içeride ön tara: market derinliği, bağımsız model/veri kapsamı, özel marketler.
-2. **Türkiye ligleri araştırılmaz** (kullanıcı kuralı, 27.11 güncel). Kullanıcı açıkça isterse ayrı bölümde incelenir.
+2. **Türkiye ligleri otomatik dışarıda bırakılmaz**; ön taramaya ve seçime diğer liglerle aynı ölçütle girer, ayrı bölümde sunulur. Yalnızca kullanıcı o görev için isterse çıkarılır. Çekilen maç sayısı ile taranan sayı farklıysa nedeni tek satırda yazılır (başlamış maç, özel/haftalık kayıt vb.).
 3. Türkiye dışından en dikkat çekici **10 maça kadar** seç ve derinlemesine araştır:
    - haber, sakatlık ve ceza;
    - güncel durum ve taktik;
@@ -64,6 +64,10 @@ Kullanıcı bir araştırma görevi verdiğinde süreç baştan sona Claude tara
 - **Ağ izinleri:** temel lig, haber, istatistik ve analiz hostları ortamın izin listesinde kalıcıdır. Araştırma başında, incelenecek maçların listede olmayan resmî kulüp hostları tek toplu istekle eklenir (çağrı başına ≤20 host; joker karakter yok). Her maç için ayrı izin istenmez. Yeni eklenen hostları `web-fetch` aracı ancak yeni oturumda görür. 429 = sitenin hız sınırı ya da bot koruması; yeniden denenmez.
 - Diğer bahis şirketlerinin oranları ve analist görüşleri: yalnızca erişilebilir kaynaktan, site adı ve tarihiyle; doğrulanamayan oran ya da görüş yazılmaz.
 - İstatistik–market uyumu: bir istatistik, marketin gerçekleşme koşulunu doğrudan ölçüyor mu? (ör. yüksek toplam gol ≠ iki yarıda KG; normal KG ≠ iki yarıda KG; ortalama ≠ yarıya özgü dağılım.)
+- Kadro haberi bulunamazsa kulübün dilinde yeniden ara ve resmî kulüp sitesini (duyurular, basın toplantısı) mutlaka kontrol et; teknik direktör değişikliğini de doğrula.
+- **Olay tarihi ≠ yayın tarihi:** bir maçın ana bulgusu olarak sunulan haberde olayın tarihi (ör. hoca atanması) ile haberin yayın tarihi ayrı yazılır; olay tarihi birincil kaynaktan (resmî duyuru) doğrulanır. Model etkisi hakkında, model girdisini (veri kesimi, pencere) kontrol etmeden varsayım yapılmaz.
+- İstatistiği markete olay sayısıyla bağla: ortalama yerine "kaç maçta gerçekleşti" (ör. 2. yarıda daha çok gol attığı maç sayısı / toplam maç).
+- İlginç bir bulguda alternatif açıklamaları da ara (rakip kalitesi, şans/xG sapması, hoca değişikliği, kadro değişimi, küçük örneklem).
 - Başka sitelerin olasılıkları yalnızca karşılaştırmalı kaynak görüşüdür; bağımsız modelimiz gibi sunulmaz.
 - Rapor kalite ölçütleri: kaynak türü sayısı; ilk bakışta görünmeyen bulgular; karşıt kanıtla değişen hipotezler; keşfedilen yeni maç/market; nihai gerekçeler; doğrulanamayanlar.
 
