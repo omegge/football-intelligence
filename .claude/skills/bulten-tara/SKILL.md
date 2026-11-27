@@ -20,6 +20,9 @@ description: Nesine bültenindeki bütün maçları tarayıp yüksek oranlı ama
 - Favori ve sürpriz adayı oranla BELİRLENMEZ (MK-1). Favori yalnızca bağımsız modelden ya da bağımsız sezon verisinden belirlenir.
 - Oranlar hiçbir modele girmez.
 
+## Görev düzeni
+CLAUDE.md "Araştırma görevi düzeni" önceliklidir: aday seçimi ve önceliklendirme kullanıcıya sorulmadan içeride yapılır; Türkiye ligleri araştırılmaz (kullanıcı isterse ayrı bölüm); Türkiye dışı en fazla 10 maç; yöntem CLAUDE.md "Araştırma yöntemi"; yalnızca nihai sonuçlar sunulur.
+
 ## 0. Kapsam (kullanıcı kuralı, 27.11)
 - Bütün bülten ön taramadan geçer. Yalnızca modeli olan maçlara odaklanılmaz.
 - Modeli olmayan maçlarda da haber, istatistik, sakatlık, taktik, yerel basın, tahmin siteleri, analistler, Reddit ve başka bahis sitelerinin oranları araştırılır.

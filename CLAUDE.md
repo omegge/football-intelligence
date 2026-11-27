@@ -34,6 +34,38 @@ Oran tarafsızlığı:
 - Olayın olasılığı (yalnızca bağımsız model) ile fiyatın cazibesi ayrı değerlendirilir.
 - Gerekçesi güçlü ama olasılığı hesaplanamayan seçenekler "hesaplanamaz" etiketiyle araştırma adayı olarak kalır.
 
+## Araştırma görevi düzeni (kullanıcı kuralı, 27.11; varsayılan)
+Kullanıcı bir araştırma görevi verdiğinde süreç baştan sona Claude tarafından yönetilir:
+- **Sorulmayanlar:** bülten özeti, aday listesi, seçim sorusu ya da ara onay yok.
+- **Onay istenen tek durum:** zorunlu erişim izni, ücretli işlem ya da önemli sistem değişikliği.
+
+**Akış:**
+1. Nesine bültenini çek (`sohbet bulten`) ve bütün maçları Python ile içeride ön tara: market derinliği, bağımsız model/veri kapsamı, özel marketler.
+2. **Türkiye ligleri araştırılmaz** (kullanıcı kuralı, 27.11 güncel). Kullanıcı açıkça isterse ayrı bölümde incelenir.
+3. Türkiye dışından en dikkat çekici **10 maça kadar** seç ve derinlemesine araştır:
+   - haber, sakatlık ve ceza;
+   - güncel durum ve taktik;
+   - ülke dilinde yerel basın;
+   - analistler ve tahmin siteleri;
+   - diğer bahis sitelerinin oranları (yalnızca piyasa görüşü);
+   - istatistik;
+   - model varsa: önce dondur, sonra karşılaştır.
+4. Hem sürprizler hem beklenen ama yüksek fiyatlı özel marketler değerlendirilir. Oran tarafsızlığı geçerlidir.
+5. Güçlü gerekçesi olmayan aday elenir. Sayıyı doldurmak için zayıf aday eklenmez; daha az aday varsa bu açıkça söylenir.
+6. **Çıktı yalnızca nihai sonuç:** market, seçenek, oran (çekim saatiyle), lehte ve aleyhte kanıt, kaynaklar, belirsizlikler, varsa bağımsız olasılık. Çalışmayan veri kaynakları tek satırda belirtilir. Kupon yok.
+7. **Verimlilik:** büyük veri Python'da işlenir, sohbete yalnızca özet gelir. Yeni kod ya da test yalnızca kullanıcı isterse.
+
+**Araştırma yöntemi (varsayılan, 27.11):**
+- Keşif yapan araştırmacı gibi çalış: hipotez kur, kanıt ara, karşıt kanıtı özellikle ara; daha güçlü market ya da maç çıkarsa yön değiştir. Yalnızca model kapsamındaki maçlarla sınırlanma.
+- Güncel içerik için WebSearch `mode: "extended"` + resmî/yerel `allowed_domains` + ülke dili. Engelli bir alan bütün sorguyu 400 ile düşürür; onu çıkarıp yeniden dene.
+- **Bulma ve okuma ayrıdır:** WebSearch sayfayı bulur ve özetler; tam sayfa `web-fetch` ajanıyla okunur. Her bilgi **[tam sayfa]** ya da **[özet]** etiketiyle verilir; yalnızca özetten gelen bilgi kesin doğrulanmış sayılmaz ve belirsizlik kesinleştirilmez.
+- Tam sayfa açılamazsa aynı bilgi başka resmî ya da güvenilir kaynakta aranır (lig sitesi, ulusal yayıncı, ikinci kaynak).
+- **Hata türleri ayrılır:** `ENOTFOUND` / proxy reddi = ortamın ağ izni (host izin listesinde yok; izin kullanıcı onayıyla eklenir). WebSearch 400 "not accessible to our user agent" ya da 403 = sitenin bot engeli (aşılmaz, izin listesine de eklenmez).
+- Diğer bahis şirketlerinin oranları ve analist görüşleri: yalnızca erişilebilir kaynaktan, site adı ve tarihiyle; doğrulanamayan oran ya da görüş yazılmaz.
+- İstatistik–market uyumu: bir istatistik, marketin gerçekleşme koşulunu doğrudan ölçüyor mu? (ör. yüksek toplam gol ≠ iki yarıda KG; normal KG ≠ iki yarıda KG; ortalama ≠ yarıya özgü dağılım.)
+- Başka sitelerin olasılıkları yalnızca karşılaştırmalı kaynak görüşüdür; bağımsız modelimiz gibi sunulmaz.
+- Rapor kalite ölçütleri: kaynak türü sayısı; ilk bakışta görünmeyen bulgular; karşıt kanıtla değişen hipotezler; keşfedilen yeni maç/market; nihai gerekçeler; doğrulanamayanlar.
+
 ## Değişmez kurallar
 1. Bot korumasını ya da erişim engelini aşma; tarayıcı taklidi, Playwright/Selenium, çerez kullanma. Engel varsa dur ve raporla.
 2. Otomatik alt ajan runner'ı başlatma (`opencode`, `codex`, `claude -p`). Footy-Skills protokolü (uzmanlar, konsey, karar verici) aynı oturumda Claude tarafından adım adım uygulanır (`.claude/skills/mac-analizi/`).
