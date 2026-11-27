@@ -1,0 +1,51 @@
+{
+ "host": "www.bundesliga.com",
+ "kontrol_utc": "2026-11-25T17:21:18+00:00",
+ "robots_http": 200,
+ "robots_tum_site_yasak": false,
+ "robots_ai_ozel_satirlar": [
+  "AIWebIndex",
+  "AionBot",
+  "AnthropicCrawler",
+  "Baiduspider-image",
+  "Baiduspider/2.0",
+  "ChatGPT-Scraper"
+ ],
+ "ana_http": 200,
+ "ana_son_url": "https://www.bundesliga.com/en/bundesliga",
+ "baslik": "Bundesliga | official website",
+ "bot_engeli_isareti": false,
+ "metin_uzunlugu": 98938,
+ "kosul_adaylari": [
+  "https://www.bundesliga.com/en/bundesliga/info/legal-notices",
+  "https://www.bundesliga.com/en/bundesliga/info/terms-of-use-services",
+  "https://www.bundesliga.com/en/bundesliga/info/privacy-statement"
+ ],
+ "kosul_sayfalari": [
+  {
+   "url": "https://www.bundesliga.com/en/bundesliga/info/legal-notices",
+   "http": 200,
+   "metin_uzunlugu": 5934,
+   "maddeler": [
+    "t law or the law governing work product requires the prior written consent of the Bundesliga or the respective holder of the right. This applies especially for reproduction, processing, translation, storage and repetition of content in data bases or other electronic media and systems. The production of copies and downloads is only permitted for personal, private and non",
+    "d repetition of content in data bases or other electronic media and systems. The production of copies and downloads is only permitted for personal, private and non-commercial use. The display of this Website in third party frames is only permissible with written permission. The User is instructed that the content in the Website is subject in part to third party copyrights",
+    "Pursuant to Section 44b para. 3 of the German Act on Copyright and Related Rights (Urheberrechtsgesetz, “UrhG”), the Bundesliga expressly reserves the right to reproduce the content available on this Website for the purposes of text and data mining. Any automated programmes, applets, bots or similar technologies may not be used to access, analyse or download the cont",
+    "elated Rights (Urheberrechtsgesetz, “UrhG”), the Bundesliga expressly reserves the right to reproduce the content available on this Website for the purposes of text and data mining. Any automated programmes, applets, bots or similar technologies may not be used to access, analyse or download the content distributed via this Website. This applies in particular to the use ",
+    "tsgesetz, “UrhG”), the Bundesliga expressly reserves the right to reproduce the content available on this Website for the purposes of text and data mining. Any automated programmes, applets, bots or similar technologies may not be used to access, analyse or download the content distributed via this Website. This applies in particular to the use of the content distrib"
+   ]
+  },
+  {
+   "url": "https://www.bundesliga.com/en/bundesliga/info/terms-of-use-services",
+   "http": 200,
+   "metin_uzunlugu": 24188,
+   "maddeler": [
+    "ursuant to Section 44b para. 3 of the German Act on Copyright and Related Rights (Urheberrechtsgesetz, “UrhG”) , the Bundesliga expressly reserves the right to reproduce the content available in the Products and their Services and content for the purposes of text and data mining. Any automated programmes, applets, bots or similar technologies may not be used to acces",
+    "tz, “UrhG”) , the Bundesliga expressly reserves the right to reproduce the content available in the Products and their Services and content for the purposes of text and data mining. Any automated programmes, applets, bots or similar technologies may not be used to access, analyse or download the content distributed via the Products and their Services and content. This ap",
+    "ga expressly reserves the right to reproduce the content available in the Products and their Services and content for the purposes of text and data mining. Any automated programmes, applets, bots or similar technologies may not be used to access, analyse or download the content distributed via the Products and their Services and content. This applies in particular to",
+    " start of the second leg of the 2024/2025 season, the Bundesliga is entitled to set up a Bundesliga Fantasy Manager profile for Bundesliga account holders that automatically participates in the Official Bundesliga Fantasy Manager. In this context, the newly created Bundesliga Fantasy Manager profile is assigned a username, which the User can change at any time in the set",
+    "s of manipulation) authorize the Bundesliga to exclude a User from participation in the official Bundesliga Fantasy Manager. Multiple participations as well as automatic computer-generated submissions are not permitted and will be ignored. 7.1.6 Employees of the Bundesliga and companies affiliated with the Bundesliga within the meaning of Sec. 15 et seq. German Stock",
+    "al content against unauthorized use by third parties). 8.2 The audiovisual content available within the Products is made available to the User for personal and non-commercial purposes only. The User is authorized to use this audiovisual content only for the purposes of information and entertainment in the private sphere for themselves and persons personally associated wit"
+   ]
+  }
+ ]
+}

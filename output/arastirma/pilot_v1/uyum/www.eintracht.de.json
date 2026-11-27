@@ -1,0 +1,32 @@
+{
+ "host": "www.eintracht.de",
+ "kontrol_utc": "2026-11-25T17:21:44+00:00",
+ "robots_http": 200,
+ "robots_tum_site_yasak": false,
+ "robots_ai_ozel_satirlar": [],
+ "ana_http": 200,
+ "ana_son_url": "https://www.eintracht.de/",
+ "baslik": "Eintracht Frankfurt – Offizielle Website",
+ "bot_engeli_isareti": false,
+ "metin_uzunlugu": 470,
+ "kosul_adaylari": [
+  "https://www.eintracht.de/nutzungsbedingungen/",
+  "https://www.eintracht.de/impressum/"
+ ],
+ "kosul_sayfalari": [
+  {
+   "url": "https://www.eintracht.de/nutzungsbedingungen/",
+   "http": 200,
+   "metin_uzunlugu": 10008,
+   "maddeler": []
+  },
+  {
+   "url": "https://www.eintracht.de/impressum/",
+   "http": 200,
+   "metin_uzunlugu": 4069,
+   "maddeler": [
+    "mme/ Rechtshinweise: Sämtliche Inhalte und Abbildungen unterliegen dem Urheberrecht. In erster Linie dürfen Nachdruck, Aufnahme in Online-Dienste, Internet und Vervielfältigung auf Datenträger wie CD-ROM, DVD-ROM, etc., auch auszugsweise, nur nach vorheriger schriftlicher Zustimmung des Urhebers, in der Regel Eintracht Frankfurt Fußball AG und EintrachtTech GmbH, erfolgen. "
+   ]
+  }
+ ]
+}

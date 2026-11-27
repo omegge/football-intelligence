@@ -1,0 +1,79 @@
+{
+ "sozluk_dosyasi": {
+  "toplam_anahtar": 190,
+  "sablon_anahtari_KOD|*": 86,
+  "cizgili_anahtar_KOD|cizgi": 104,
+  "benzersiz_market_kodu": 86,
+  "yalniz_sablonu_olan_kod": 0,
+  "kod_basina_cizgili_anahtar_dagilimi": {
+   "1": 78,
+   "2": 3,
+   "3": 2,
+   "4": 2,
+   "6": 1
+  },
+  "sayim_yontemleri": {
+   "86": "benzersiz market kodu (anahtarın '|' öncesi)",
+   "190": "bütün anahtarlar (çizgili + şablon)",
+   "104": "şablon olmayan anahtarlar (KOD|çizgi); nesine_bulletin.Sozluk.kod_sayisi bu sayıyı veriyor ve '104 marketlik' yazımı buradan geliyor — 104 market kodu DEĞİL"
+  }
+ },
+ "cekim_ham_bulten": {
+  "kaynak": "ham/mac_oncesi.json → dogrulama_3326567_3326548.json",
+  "maclar": {
+   "3326567": {
+    "market_kaydi": 88,
+    "benzersiz_kod": 75,
+    "secenek": 830
+   },
+   "3326548": {
+    "market_kaydi": 80,
+    "benzersiz_kod": 67,
+    "secenek": 378
+   }
+  },
+  "toplam_secenek": 1208
+ },
+ "arayuz_referansi": {
+  "kaynak": "kullanıcının yapıştırdığı Nesine arayüz metni",
+  "maclar": {
+   "3326548": {
+    "referans_secenek": 373,
+    "adla_eslesen": 371,
+    "adsiz_aday": 2,
+    "gercek_eksik": 0
+   },
+   "3326567": {
+    "referans_secenek": 830,
+    "adla_eslesen": 830,
+    "adsiz_aday": 0,
+    "gercek_eksik": 0
+   }
+  },
+  "toplam_referans_secenek": 1203
+ },
+ "fark_aciklamasi": {
+  "cekim_eksi_referans": 5,
+  "neden": "arayüzde görünmeyen MS=0 marketleri (çekimde var, referansta yok)",
+  "marketler": [
+   {
+    "mac": 3326548,
+    "market": [
+     457,
+     "deplasman 1.y 0,5 gol alt/ust",
+     0.5
+    ]
+   },
+   {
+    "mac": 3326548,
+    "market": [
+     224,
+     "ilk korner",
+     1.0
+    ]
+   }
+  ],
+  "ms0_marketlerindeki_secenek": 5
+ },
+ "kural": "1.208 ham seçenek ile 1.203 arayüz seçeneği AYRI sayılardır; biri diğerinin yerine kullanılmaz. 329 aday (1/2 doğrulama), sözlüğe eklenmedi."
+}

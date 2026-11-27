@@ -1,0 +1,20 @@
+{
+ "host": "www.hessenschau.de",
+ "kontrol_utc": "2026-11-25T17:23:46+00:00",
+ "robots_http": 200,
+ "robots_tum_site_yasak": false,
+ "robots_ai_ozel_satirlar": [
+  "claudebot",
+  "cohere-training-data-crawler",
+  "gptbot",
+  "laiondownloader",
+  "mistralai-crawler"
+ ],
+ "ana_http": 200,
+ "ana_son_url": "https://www.hessenschau.de/index.html",
+ "baslik": "hessenschau.de | Nachrichten aus Hessen",
+ "bot_engeli_isareti": false,
+ "metin_uzunlugu": 18219,
+ "kosul_adaylari": [],
+ "kosul_sayfalari": []
+}

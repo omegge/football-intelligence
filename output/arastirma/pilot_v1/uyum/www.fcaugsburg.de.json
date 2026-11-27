@@ -1,0 +1,23 @@
+{
+ "host": "www.fcaugsburg.de",
+ "kontrol_utc": "2026-11-25T17:21:54+00:00",
+ "robots_http": 200,
+ "robots_tum_site_yasak": false,
+ "robots_ai_ozel_satirlar": [],
+ "ana_http": 200,
+ "ana_son_url": "https://www.fcaugsburg.de/",
+ "baslik": "FC Augsburg | Die offizielle Website des FC Augsburg",
+ "bot_engeli_isareti": false,
+ "metin_uzunlugu": 10130,
+ "kosul_adaylari": [
+  "https://www.fcaugsburg.de/page/impressum-179"
+ ],
+ "kosul_sayfalari": [
+  {
+   "url": "https://www.fcaugsburg.de/page/impressum-179",
+   "http": 200,
+   "metin_uzunlugu": 7134,
+   "maddeler": []
+  }
+ ]
+}

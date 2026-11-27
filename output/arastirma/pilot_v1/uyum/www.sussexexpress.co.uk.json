@@ -1,0 +1,44 @@
+{
+ "host": "www.sussexexpress.co.uk",
+ "kontrol_utc": "2026-11-25T17:23:42+00:00",
+ "robots_http": 200,
+ "robots_tum_site_yasak": false,
+ "robots_ai_ozel_satirlar": [],
+ "ana_http": 200,
+ "ana_son_url": "https://www.sussexexpress.co.uk/",
+ "baslik": "Latest News | SussexWorld",
+ "bot_engeli_isareti": false,
+ "metin_uzunlugu": 7475,
+ "kosul_adaylari": [
+  "https://www.sussexexpress.co.uk/website-terms-conditions/",
+  "https://www.sussexexpress.co.uk/privacy/"
+ ],
+ "kosul_sayfalari": [
+  {
+   "url": "https://www.sussexexpress.co.uk/website-terms-conditions",
+   "http": 200,
+   "metin_uzunlugu": 16973,
+   "maddeler": [
+    "ironment People UK Trending East Sussex Eastbourne Hastings & Rye Brighton & Hove Bexhill & Battle Lewes Rother Wealden West Sussex Chichester Worthing Horsham Crawley Mid Sussex Bognor Regis Littlehampton Midhurst & Petworth Adur Arun Submit Your Story Albion Sport Football Sussex CCC Cricket Other Sport What's On Arts and Entertainment Things To Do Retro Advertis",
+    "otice. The Website in which you are linking must comply in all respects with our content standards set out in the below section for submissions. All trademarks reproduced in the Website which are not the property of, or licensed to, Iconic Media Group Limited are acknowledged on the Website. We cannot guarantee that you have any right to use third-party owned content ",
+    "mission set out above, nothing on the Website should be construed as granting any other right or license. No part of the Website or the contents thereof may be reproduced on or transmitted to or stored in any other website or other form of electronic retrieval system. Any waiver of, or failure to delay to enforce, this provision by Iconic Media Group Limited in the ev",
+    "tent of this site. Licences can be obtained through the Newspaper Licensing Agency ( www.nla.co.uk ). Data Protection As with the vast majority of websites, we automatically log certain information about every request made of us, including users’ internet provider address. This information is used for the purposes of system administration, maintenance, problem solving an",
+    "t to the us (including without limitation any text, photograph, graphics, video or audio), you grant us an irrevocable, transferable, worldwide licence to use, reproduce, modify, adapt, publish, create derivative works from, distribute and display in public that content in any form and media on or in connection with the Website, at no cost to us and for as long as we",
+    "ing East Sussex East Sussex Eastbourne Hastings & Rye Brighton & Hove Bexhill & Battle Lewes Rother Wealden West Sussex West Sussex Chichester Worthing Horsham Crawley Mid Sussex Bognor Regis Littlehampton Midhurst & Petworth Adur Arun Recommended Recommended Entertainment Technology Lifestyle Home and Garden Fashion and Beauty Deals Must Read Contact us Newsletter"
+   ]
+  },
+  {
+   "url": "https://www.sussexexpress.co.uk/privacy",
+   "http": 200,
+   "metin_uzunlugu": 35813,
+   "maddeler": [
+    "ironment People UK Trending East Sussex Eastbourne Hastings & Rye Brighton & Hove Bexhill & Battle Lewes Rother Wealden West Sussex Chichester Worthing Horsham Crawley Mid Sussex Bognor Regis Littlehampton Midhurst & Petworth Adur Arun Submit Your Story Albion Sport Football Sussex CCC Cricket Other Sport What's On Arts and Entertainment Things To Do Retro Advertis",
+    "cludes Personal Data you provide when you: interact with the Website; correspond with us; request marketing communications; and engage with us on social media. Automated technologies . As you interact with the Website, we may automatically collect Technical Data about your equipment, browsing actions and patterns. We collect this Personal Data by using cookies - a sm",
+    "te; correspond with us; request marketing communications; and engage with us on social media. Automated technologies . As you interact with the Website, we may automatically collect Technical Data about your equipment, browsing actions and patterns. We collect this Personal Data by using cookies - a small piece of information sent from the Website and stored in the web b",
+    "ncluded with the story and then added to our archive. Our archive can be accessed via our photo sales website and the photos will be available for purchase for personal use. We will only take these images/videos with your consent. Thereafter, we will keep these in our archive and available for sale on the basis or our and your legitimate interests. Our interests being t",
+    "tware providers in order to administer our business, these providers include the host of the Website, the providers of our call recording system, email system, automated email marketing system and customer databases. Service providers: we use a range of service providers in order to effectively operate our business, for example providers of subscription voucher servi",
+    "iness, these providers include the host of the Website, the providers of our call recording system, email system, automated email marketing system and customer databases. Service providers: we use a range of service providers in order to effectively operate our business, for example providers of subscription voucher services. Event organisers: where we hold events, "
+   ]
+  }
+ ]
+}

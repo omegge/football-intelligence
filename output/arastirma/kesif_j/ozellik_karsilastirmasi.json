@@ -1,0 +1,106 @@
+{
+ "uyari": "GERİYE DÖNÜK SEÇİLMİŞ 30+30 SET; keşifseldir, ileriye dönük başarı kanıtı DEĞİLDİR. Kontroller lig+sezon+saha+yakın DC olasılığıyla eşleştirildi; bu yüzden eşleştirme değişkenlerinde fark beklenmez.",
+ "n_surpriz": 30,
+ "n_kontrol": 30,
+ "ozellikler": {
+  "P_favori_DC": {
+   "surpriz_ort": 0.716,
+   "kontrol_ort": 0.709,
+   "fark": 0.007,
+   "GA95": [
+    -0.029,
+    0.043
+   ]
+  },
+  "elo_farki": {
+   "surpriz_ort": 230.953,
+   "kontrol_ort": 227.073,
+   "fark": 3.88,
+   "GA95": [
+    -28.077,
+    35.857
+   ]
+  },
+  "favori_form5": {
+   "surpriz_ort": 0.039,
+   "kontrol_ort": 0.244,
+   "fark": -0.206,
+   "GA95": [
+    -0.634,
+    0.247
+   ]
+  },
+  "favori_form10": {
+   "surpriz_ort": 0.267,
+   "kontrol_ort": 0.327,
+   "fark": -0.06,
+   "GA95": [
+    -0.617,
+    0.511
+   ]
+  },
+  "rakip_form5": {
+   "surpriz_ort": -0.251,
+   "kontrol_ort": -0.046,
+   "fark": -0.205,
+   "GA95": [
+    -0.684,
+    0.269
+   ]
+  },
+  "favori_dinlenme": {
+   "surpriz_ort": 10.767,
+   "kontrol_ort": 7.8,
+   "fark": 2.967,
+   "GA95": [
+    -2.0,
+    9.867
+   ]
+  },
+  "rakip_dinlenme": {
+   "surpriz_ort": 34.567,
+   "kontrol_ort": 8.2,
+   "fark": 26.367,
+   "GA95": [
+    -2.768,
+    81.4
+   ]
+  },
+  "dinlenme_farki": {
+   "surpriz_ort": -23.8,
+   "kontrol_ort": -0.4,
+   "fark": -23.4,
+   "GA95": [
+    -72.067,
+    1.4
+   ]
+  },
+  "favori_yogunluk14": {
+   "surpriz_ort": 1.467,
+   "kontrol_ort": 1.733,
+   "fark": -0.267,
+   "GA95": [
+    -0.6,
+    0.1
+   ]
+  },
+  "rakip_son10_kalite": {
+   "surpriz_ort": -1.983,
+   "kontrol_ort": -2.093,
+   "fark": 0.11,
+   "GA95": [
+    -9.985,
+    9.715
+   ]
+  },
+  "favori_deplasmanda": {
+   "surpriz_ort": 0.3,
+   "kontrol_ort": 0.3,
+   "fark": 0.0,
+   "GA95": [
+    -0.233,
+    0.233
+   ]
+  }
+ }
+}

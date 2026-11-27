@@ -1,0 +1,48 @@
+{
+ "host": "www.tottenhamhotspur.com",
+ "kontrol_utc": "2026-11-25T17:21:01+00:00",
+ "robots_http": 200,
+ "robots_tum_site_yasak": false,
+ "robots_ai_ozel_satirlar": [
+  "ChatGPT-User",
+  "ClaudeBot",
+  "GPTBot"
+ ],
+ "ana_http": 200,
+ "ana_son_url": "https://www.tottenhamhotspur.com/",
+ "baslik": "Home | Tottenham Hotspur",
+ "bot_engeli_isareti": false,
+ "metin_uzunlugu": 5197,
+ "kosul_adaylari": [
+  "https://www.tottenhamhotspur.com/information/terms-and-conditions",
+  "https://www.tottenhamhotspur.com/information/cookie-policy",
+  "https://www.tottenhamhotspur.com/information/privacy-policy"
+ ],
+ "kosul_sayfalari": [
+  {
+   "url": "https://www.tottenhamhotspur.com/information/terms-and-conditions",
+   "http": 200,
+   "metin_uzunlugu": 29589,
+   "maddeler": [
+    "tenham Hotspur Stadium Ltd under company registration number 10151725. 4. Acceptable use of the Spurs Websites 4.1 The Spurs Websites are for your personal and non-commercial use only. 4.2 You agree that you are solely responsible for all costs and expenses you may incur in relation to your use of the Spurs Websites (or any one of them). 4.3 We make no promise that the Sp",
+    "rages any illegal activity, including fraudulent activity; 4.6.2 to distribute viruses or malware or other similar harmful software code; 4.6.3 for extracting, scraping, crawling or collecting data, including but not limited to via the use of web crawlers, bots, or spiders on the Spurs Websites (or any one of them); 4.6.4 for use to generate prompts, requests, quest",
+    "illegal activity, including fraudulent activity; 4.6.2 to distribute viruses or malware or other similar harmful software code; 4.6.3 for extracting, scraping, crawling or collecting data, including but not limited to via the use of web crawlers, bots, or spiders on the Spurs Websites (or any one of them); 4.6.4 for use to generate prompts, requests, questions, inst",
+    "or malware or other similar harmful software code; 4.6.3 for extracting, scraping, crawling or collecting data, including but not limited to via the use of web crawlers, bots, or spiders on the Spurs Websites (or any one of them); 4.6.4 for use to generate prompts, requests, questions, instructions or similar in training AI models or any other form of automated cont",
+    " similar harmful software code; 4.6.3 for extracting, scraping, crawling or collecting data, including but not limited to via the use of web crawlers, bots, or spiders on the Spurs Websites (or any one of them); 4.6.4 for use to generate prompts, requests, questions, instructions or similar in training AI models or any other form of automated content generation; 4",
+    "Spurs Websites (or any one of them); 4.6.4 for use to generate prompts, requests, questions, instructions or similar in training AI models or any other form of automated content generation; 4.6.5 for the purposes of promoting unwanted advertising or sending spam; 4.6.6 for any ‘phishing’ activity (‘phishing’ meaning to mimic communications from us or from someone els"
+   ]
+  },
+  {
+   "url": "https://www.tottenhamhotspur.com/information/cookie-policy",
+   "http": 200,
+   "metin_uzunlugu": 9997,
+   "maddeler": [
+    "cies. Advertising and targeting cookies are optional. If you do not allow these cookies, you may experience less targeted advertising. Sharing information with commercial partners Where you have consented to the use of Advertising and Targeting Cookies, information collected through those cookies may be made available to carefully selected third parties for advertisin",
+    " and marketing purposes. These third parties may include: advertising technology providers; analytics providers; social media platforms; media buying agencies; commercial partners; sponsors; digital marketing partners; affiliate marketing providers. These organisations will not have direct access to your personal information, including any technical identifiers, but t",
+    "ctiveness. We require our partners to process information in accordance with applicable data protection laws and contractual obligations. A current list of our commercial partners is available on our Commercial Partners page. Sharing information with commercial partners A regularly updated list of cookies used across our Services, including: cookie name; provider; pur",
+    "ocess information in accordance with applicable data protection laws and contractual obligations. A current list of our commercial partners is available on our Commercial Partners page. Sharing information with commercial partners A regularly updated list of cookies used across our Services, including: cookie name; provider; purpose; duration; cookie category; is avai",
+    "a protection laws and contractual obligations. A current list of our commercial partners is available on our Commercial Partners page. Sharing information with commercial partners A regularly updated list of cookies used across our Services, including: cookie name; provider; purpose; duration; cookie category; is available through our Cookie Settings and Preference Ce"
+   ]
+  }
+ ]
+}

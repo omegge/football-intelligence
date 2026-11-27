@@ -1,0 +1,41 @@
+{
+ "host": "www.asroma.com",
+ "kontrol_utc": "2026-11-25T17:23:09+00:00",
+ "robots_http": 200,
+ "robots_tum_site_yasak": false,
+ "robots_ai_ozel_satirlar": [],
+ "ana_http": 200,
+ "ana_son_url": "https://www.asroma.com/en",
+ "baslik": "AS Roma - the official website",
+ "bot_engeli_isareti": false,
+ "metin_uzunlugu": 8135,
+ "kosul_adaylari": [
+  "https://www.asroma.com/en/terms-and-conditions",
+  "https://www.asroma.com/en/privacy-policy",
+  "https://www.asroma.com/en/cookie-policy",
+  "https://www.asroma.com/en/privacy-policy "
+ ],
+ "kosul_sayfalari": [
+  {
+   "url": "https://www.asroma.com/en/terms-and-conditions",
+   "http": 200,
+   "metin_uzunlugu": 17601,
+   "maddeler": [
+    "AS Roma S.r.l. Platforms. AS Roma S.r.l. grants to you a limited, revocable, non-exclusive license to access and use the AS Roma S.r.l. Platforms privately for non-commercial purposes, in accordance with these Terms & Conditions. 5.3 Your transactions with, or participation in promotions of, any advertisers or businesses found on or through the AS Roma S.r.l. Platforms, i"
+   ]
+  },
+  {
+   "url": "https://www.asroma.com/en/privacy-policy",
+   "http": 200,
+   "metin_uzunlugu": 67566,
+   "maddeler": [
+    "tion about the user's location. Data collected through the Website and AS Roma Platforms Data collected during navigation The Website and AS Roma Platforms may automatically identify the user when browsing by collecting certain personal information such as the IP addresses or domain names of the computers used by users who connect to the Website or use the AS Roma Platfo",
+    "al activities We may send newsletters, promotional communications relating to our services, updates on our products, events organized by the Company, and other commercial activities managed by us, subject to the user's explicit consent. We may contact you by email, instant messaging tools, push notifications, telephone calls, and market research. We will verify that y",
+    "es and ensure that the operations are carried out in accordance with current privacy legislation. We do not use Personal Data to make decisions based solely on automated processing that produce legal effects or significantly affect the user in a similar way. The user is free to withdraw their consent at any time. Withdrawal of consent does not affect the lawfulness o",
+    " we collect personal information about the user when it is actively provided. Personal Data collected through the use of the website and AS Roma Platforms : we automatically collect certain personal information when you browse and use the website and AS Roma Platforms. Types of Personal Data collected: Personal details: first name, last name, username or identifier (e.g.",
+    "data: with the user's consent, we may collect information relating to the user's tastes and preferences in relation to our offers and services and those of our commercial partners on the Website and on our AS Roma Platforms. Other Data: other information that the user may voluntarily provide us with, such as images, audiovisual content (audio/photos/videos), personal ",
+    "d our Apps; submit your application for a job position. Personal Data received from third parties: We collect information about you from third parties, such as commercial and media partners of AS Roma and suppliers of the Company, when: you enter into a contract with such third parties that provides for the disclosure of Personal Data to the Company; and/or you regist"
+   ]
+  }
+ ]
+}

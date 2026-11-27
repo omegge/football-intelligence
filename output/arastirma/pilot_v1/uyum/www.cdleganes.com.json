@@ -1,0 +1,30 @@
+{
+ "host": "www.cdleganes.com",
+ "kontrol_utc": "2026-11-25T17:22:46+00:00",
+ "robots_http": 200,
+ "robots_tum_site_yasak": false,
+ "robots_ai_ozel_satirlar": [],
+ "ana_http": 200,
+ "ana_son_url": "https://www.cdleganes.com/",
+ "baslik": "C.D. Leganés | Web Oficial - C.D. Leganés - Web Oficial",
+ "bot_engeli_isareti": false,
+ "metin_uzunlugu": 3914,
+ "kosul_adaylari": [
+  "https://www.cdleganes.com/terminos-y-condiciones"
+ ],
+ "kosul_sayfalari": [
+  {
+   "url": "https://www.cdleganes.com/terminos-y-condiciones",
+   "http": 200,
+   "metin_uzunlugu": 17544,
+   "maddeler": [
+    "as a los servicios o incumplir los requisitos, procedimientos, políticas o regulaciones de redes conectadas a los servicios. C) Utilizar secuencias de comandos automatizados o screen scraping para recopilar información o interactuar con el Club D) Recuperar datos de forma sistemática o de otros contenidos del Club para crear, directa o indirectamente, en descargas indivi",
+    "cumplir los requisitos, procedimientos, políticas o regulaciones de redes conectadas a los servicios. C) Utilizar secuencias de comandos automatizados o screen scraping para recopilar información o interactuar con el Club D) Recuperar datos de forma sistemática o de otros contenidos del Club para crear, directa o indirectamente, en descargas individuales o múltiples",
+    "formidad con lo dispuesto en la Cláusula Primera. Con carácter meramente enunciativo, el Usuario de acuerdo con la legislación vigente deberá abstenerse de: a) Reproducir, copiar, distribuir, poner a disposición, comunicar públicamente, transformar o modificar los Contenidos salvo en los casos autorizados en la Ley o expresamente consentidos por el Club por escrito o ",
+    "casos autorizados en la Ley o expresamente consentidos por el Club por escrito o por quien ostente la titularidad de los derechos de explotación en su caso. b) Reproducir o copiar para uso privado los Contenidos que puedan ser considerados como software o base de datos de conformidad con la legislación vigente en materia de propiedad intelectual, así como su comunicac",
+    "te la titularidad de los derechos de explotación en su caso. b) Reproducir o copiar para uso privado los Contenidos que puedan ser considerados como software o base de datos de conformidad con la legislación vigente en materia de propiedad intelectual, así como su comunicación pública o puesta a disposición de terceros cuando estos actos impliquen necesariamente la repro",
+    "vigente en materia de propiedad intelectual, así como su comunicación pública o puesta a disposición de terceros cuando estos actos impliquen necesariamente la reproducción por parte del Usuario o de un tercero. c) Extraer y/o reutilizar la totalidad o una parte sustancial de los Contenidos integrantes del Sitio Web así como de las bases de datos que el Club ponga a dis"
+   ]
+  }
+ ]
+}

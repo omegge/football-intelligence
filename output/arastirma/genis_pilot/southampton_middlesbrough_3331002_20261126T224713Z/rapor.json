@@ -1,0 +1,427 @@
+{
+ "mac": {
+  "mac_id": "nesine:3331002",
+  "karsilasma": "Southampton - Middlesbrough",
+  "lig": "İngiltere Championship",
+  "baslama_utc": "2026-11-27T20:00:00+00:00",
+  "baslama_tr": "2026-11-27T23:00:00+03:00"
+ },
+ "1_dogrulanmis_son_dakika": [],
+ "2_dogrulanamayan_veya_celiskili": [
+  {
+   "mac_id": "nesine:3331002",
+   "konu": "diger",
+   "takim": "iki_takim",
+   "kisi": null,
+   "dogrulama": "mac_oncesi_kanit_yok",
+   "veri_dogrulamasi": [],
+   "ozetler": [],
+   "durumlar": [],
+   "son_durum": null,
+   "zincir_sayisi": 0,
+   "zincirler": {},
+   "kopya_sayisi": 0,
+   "dislanan": [
+    {
+     "url": "https://www.southamptonfc.com/en/news/article/eckert-well-have-amazing-support",
+     "neden": "tarih_yok"
+    }
+   ],
+   "nicel_etki": "hesaplanamaz"
+  },
+  {
+   "mac_id": "nesine:3331002",
+   "konu": "sakatlik",
+   "takim": "ev",
+   "kisi": "stephens, roerslev",
+   "dogrulama": "mac_oncesi_kanit_yok",
+   "veri_dogrulamasi": [],
+   "ozetler": [],
+   "durumlar": [],
+   "son_durum": null,
+   "zincir_sayisi": 0,
+   "zincirler": {},
+   "kopya_sayisi": 0,
+   "dislanan": [
+    {
+     "url": "https://www.southamptonfc.com/en/news/article/eckert-positive-on-availability",
+     "neden": "tarih_yok"
+    }
+   ],
+   "nicel_etki": "hesaplanamaz"
+  }
+ ],
+ "3_basin_gorusleri": [],
+ "4_analist_senaryolari": {
+  "yonler": {},
+  "gorusler": [],
+  "gorus_ayriligi": false,
+  "not": "Dış görüşler ve yüzdeleri KARANTİNADA; model girdisi değildir."
+ },
+ "5_bagimsiz_model": {
+  "tur": "donmus_tahmin",
+  "mac_id": "nesine:3331002",
+  "karsilasma": "Southampton - Middlesbrough",
+  "lig": "İngiltere Championship",
+  "baslama_tr": "2026-11-27T23:00:00+03:00",
+  "dondurma_utc": "2026-11-26T18:18:00+00:00",
+  "veri_kesimi": "2026-11-25",
+  "model_surumu": {
+   "is_akisi": "is-akisi-0.1",
+   "git_commit": "a57e9e3b42c3ae41f05d6a6346e82a56dec790d0"
+  },
+  "tahmin": {
+   "durum": "hesaplandi",
+   "hazirlik": [
+    {
+     "kriter": "lig_eslemesi_onayli",
+     "gecti": true,
+     "kanit": "İngiltere Championship → en.2"
+    },
+    {
+     "kriter": "model_bu_ligde_degerlendirildi",
+     "gecti": true,
+     "kanit": "E2_aday değerlendirme ligleri: ['at.1', 'be.1', 'en.2', 'gr.1', 'sco.1', 'tr.1']"
+    },
+    {
+     "kriter": "lig_verisi_var",
+     "gecti": true,
+     "kanit": "7405 maç"
+    },
+    {
+     "kriter": "veri_guncel",
+     "gecti": true,
+     "kanit": "son skorlu maç 2026-11-25, boşluk 2 gün (sınır 14)"
+    },
+    {
+     "kriter": "takim_eslemesi_ev",
+     "gecti": true,
+     "kanit": "'Southampton' → kesin Southampton FC"
+    },
+    {
+     "kriter": "takim_eslemesi_dep",
+     "gecti": true,
+     "kanit": "'Middlesbrough' → kesin Middlesbrough FC"
+    },
+    {
+     "kriter": "test_edilmis_ve_kalibre_market_var",
+     "gecti": true,
+     "kanit": "26 market: ['MS_X', 'CS_12', 'KG_var', 'KG_yok', 'H-1_X', 'AU4.5_alt', 'AU4.5_ust', 'ev0.5_alt', 'ev0.5_ust', 'ev2.5_alt', 'ev2.5_ust', 'MS1_KG_var', 'MSX_AU2.5_alt', 'MSX_AU2.5_ust', 'MSX_KG_var', 'MS2_AU2.5_alt', 'MS2_KG_var', 'MS2_KG_yok', 'skor_1_0', 'skor_0_1', 'skor_1_1', 'skor_2_0', 'skor_0_2', 'skor_2_1', 'skor_1_2', 'skor_2_2']"
+    },
+    {
+     "kriter": "veri_kesimi_kaydedildi",
+     "gecti": true,
+     "kanit": "2026-11-25"
+    },
+    {
+     "kriter": "oranlardan_once_dondurulacak",
+     "gecti": true,
+     "kanit": "olasılık yalnızca dondur() ile kaydedilir; fiyat karşılaştırması fiyat_karsilastir()'ta dondurmadan sonra (oran bu fonksiyona girmez: oransiz_mi)"
+    }
+   ],
+   "kapsam_sha256": "261bcfc6c4b2d76bde5c0dfd857977ff970e62993e759376abe187cc7894e41b",
+   "model_adi": "E2_aday",
+   "veri_kesimi": "2026-11-25",
+   "veri_boslugu_gun": 2,
+   "veri_kaynaklari": [
+    "football-data.org",
+    "openfootball"
+   ],
+   "ev_esleme": {
+    "durum": "kesin",
+    "kaynak_adi": "Southampton FC",
+    "alternatifler": []
+   },
+   "dep_esleme": {
+    "durum": "kesin",
+    "kaynak_adi": "Middlesbrough FC",
+    "alternatifler": []
+   },
+   "lig_ortalamasi_365": 2.7096774193548385,
+   "model": "E2 seçilen aday M3 {'ceza': 16.0, 'w': 0.65, 'b': 0.0} (ON_KAYIT_E2)",
+   "lambda_ev": 1.6073798497031058,
+   "lambda_dep": 1.150430631234322,
+   "egitim_mac_sayisi": 7405,
+   "olasiliklar": {
+    "MS_X": 0.24747885164914302,
+    "CS_12": 0.752521148350857,
+    "KG_var": 0.5465178602053858,
+    "KG_yok": 0.4534821397946141,
+    "H-1_X": 0.2301962617596482,
+    "AU4.5_alt": 0.854187510696298,
+    "AU4.5_ust": 0.14581248930370203,
+    "ev0.5_alt": 0.20041225102847288,
+    "ev0.5_ust": 0.7995877489715272,
+    "ev2.5_alt": 0.7814504233919372,
+    "ev2.5_ust": 0.2185495766080628,
+    "MS1_KG_var": 0.22662109815296286,
+    "MSX_AU2.5_alt": 0.18072504679815754,
+    "MSX_AU2.5_ust": 0.06675380485098548,
+    "MSX_KG_var": 0.1840482824084509,
+    "MS2_AU2.5_alt": 0.11494735206489001,
+    "MS2_KG_var": 0.13584847964397215,
+    "MS2_KG_yok": 0.13698168178778072,
+    "skor_1_0": 0.10195701885268615,
+    "skor_0_1": 0.07297246981112182,
+    "skor_1_1": 0.1172944775574654,
+    "skor_2_0": 0.08194182881980369,
+    "skor_0_2": 0.041974882253768185,
+    "skor_2_1": 0.09426838985366152,
+    "skor_1_2": 0.06746957992836747,
+    "skor_2_2": 0.05422462162239549
+   },
+   "hesaplanamaz_pazarlar": {
+    "MS_1": [
+     "kalibre"
+    ],
+    "MS_2": [
+     "kalibre"
+    ],
+    "CS_1X": [
+     "kalibre"
+    ],
+    "CS_X2": [
+     "kalibre"
+    ],
+    "tek": [
+     "bilgi_tasiyor"
+    ],
+    "cift": [
+     "bilgi_tasiyor"
+    ],
+    "aralik_0_1": [
+     "kalibre"
+    ],
+    "aralik_2_3": [
+     "bilgi_tasiyor",
+     "kalibre"
+    ],
+    "aralik_4_5": [
+     "kalibre"
+    ],
+    "aralik_6p": [
+     "bilgi_tasiyor"
+    ],
+    "H-1_1": [
+     "kalibre"
+    ],
+    "H-1_2": [
+     "kalibre"
+    ],
+    "AU0.5_alt": [
+     "bilgi_tasiyor"
+    ],
+    "AU0.5_ust": [
+     "bilgi_tasiyor"
+    ],
+    "AU1.5_alt": [
+     "kalibre"
+    ],
+    "AU1.5_ust": [
+     "kalibre"
+    ],
+    "AU2.5_alt": [
+     "kalibre"
+    ],
+    "AU2.5_ust": [
+     "kalibre"
+    ],
+    "AU3.5_alt": [
+     "kalibre"
+    ],
+    "AU3.5_ust": [
+     "kalibre"
+    ],
+    "dep0.5_alt": [
+     "kalibre"
+    ],
+    "dep0.5_ust": [
+     "kalibre"
+    ],
+    "ev1.5_alt": [
+     "kalibre"
+    ],
+    "ev1.5_ust": [
+     "kalibre"
+    ],
+    "dep1.5_alt": [
+     "kalibre"
+    ],
+    "dep1.5_ust": [
+     "kalibre"
+    ],
+    "dep2.5_alt": [
+     "kalibre"
+    ],
+    "dep2.5_ust": [
+     "kalibre"
+    ],
+    "MS1_AU2.5_alt": [
+     "kalibre"
+    ],
+    "MS1_AU2.5_ust": [
+     "kalibre"
+    ],
+    "MS1_KG_yok": [
+     "kalibre"
+    ],
+    "MSX_KG_yok": [
+     "bilgi_tasiyor"
+    ],
+    "MS2_AU2.5_ust": [
+     "kalibre"
+    ],
+    "skor_0_0": [
+     "bilgi_tasiyor"
+    ]
+   },
+   "kalibrasyon_notu": "E aşamasında çoğu markette ECE 0,01–0,03; kutularda ≤0,05 sapma koşulu birçok markette sağlanmadı. 'Yüksek güven' verilmez.",
+   "skor_matrisi": [
+    [
+     0.0634305692,
+     0.0729724698,
+     0.0419748823,
+     0.0160963968,
+     0.004629447,
+     0.0010651715,
+     0.0002042343,
+     3.35653e-05
+    ],
+    [
+     0.1019570189,
+     0.1172944776,
+     0.0674695799,
+     0.0258730238,
+     0.0074412798,
+     0.0017121352,
+     0.0003282821,
+     5.39523e-05
+    ],
+    [
+     0.0819418288,
+     0.0942683899,
+     0.0542246216,
+     0.0207938886,
+     0.0059804816,
+     0.0013760258,
+     0.000263837,
+     4.33609e-05
+    ],
+    [
+     0.0439038815,
+     0.0505083701,
+     0.0290531881,
+     0.0111412258,
+     0.0032043019,
+     0.0007372654,
+     0.0001413621,
+     2.32325e-05
+    ],
+    [
+     0.0176425536,
+     0.0202965341,
+     0.0116748773,
+     0.0044770455,
+     0.0012876326,
+     0.0002962664,
+     5.68057e-05,
+     9.3359e-06
+    ],
+    [
+     0.005671657,
+     0.006524848,
+     0.0037531925,
+     0.0014392625,
+     0.0004139429,
+     9.52425e-05,
+     1.82617e-05,
+     3.0013e-06
+    ],
+    [
+     0.0015194179,
+     0.0017479849,
+     0.0010054677,
+     0.0003855736,
+     0.0001108939,
+     2.55152e-05,
+     4.8922e-06,
+     8.04e-07
+    ],
+    [
+     0.0003488974,
+     0.0004013822,
+     0.0002308812,
+     8.85376e-05,
+     2.54641e-05,
+     5.8589e-06,
+     1.1234e-06,
+     1.846e-07
+    ]
+   ],
+   "veri_kaynagi_raporu": {
+    "son_tarih": "2026-11-25",
+    "ayni": 95,
+    "eklenen": 109,
+    "fd_sha256": "3d89dba8f696d089185209a4d283f8923e40d2d2ddc75d9f7392658c9e9efb28",
+    "fd_erisim_utc": "2026-11-26T18:17:02+00:00",
+    "atif": "Football data provided by the Football-Data.org API"
+   },
+   "mac_kimligi_dogrulama": {
+    "nesine": "nesine:3331002",
+    "fd_mac_id": 561968,
+    "utc": "2026-11-27T20:00:00+00:00",
+    "durum": "SCHEDULED"
+   }
+  },
+  "sha256": "8d4b1a4534df4bd7f44eaf8f6e83f7fa960aa64ec6fd3592c8968af136389869",
+  "yol": "/home/user/football-intelligence/output/tahminler/nesine_3331002_20261126T181800Z.json",
+  "surum_sayisi": 1
+ },
+ "6_hesaplanamayan_marketler": "bütün marketler (model yok)",
+ "7_model_analist_farki": [],
+ "8_en_onemli_surpriz_sinyali": {
+  "favori": null,
+  "favori_kaynagi": "bağımsız model 1X2 olasılığı yok → favori bağımsız olarak belirlenemedi (oranlarla belirlenmez)",
+  "sinyal": null,
+  "not": "favori bağımsız modelle belirlenemedi"
+ },
+ "9_fiyat_karsilastirmasi": {
+  "durum": "yapılmadı",
+  "neden": "donmuş bağımsız tahmin ya da sonradan alınmış bülten yok"
+ },
+ "11_sportif_cikarimlar_yorum": [],
+ "10_son_arastirma_ve_kaynaklar": {
+  "son_arastirma_utc": "2026-11-26T22:47:13+00:00",
+  "turlar": [
+   "T-24s"
+  ],
+  "arama_gunlugu": [
+   {
+    "sorgu": "Southampton Middlesbrough team news Eckert press conference",
+    "tur": "T-24s",
+    "arac": "web arama",
+    "sonuc": "yalnızca Mayıs 2026 play-off haberleri; güncel kadro haberi yok",
+    "utc": "2026-11-26T22:47:13+00:00"
+   },
+   {
+    "sorgu": "Middlesbrough Hellberg Southampton injury update Lankshear",
+    "tur": "T-24s",
+    "arac": "web arama",
+    "sonuc": "eski sakatlık haberleri; Lankshear ve bu maç yok",
+    "utc": "2026-11-26T22:47:13+00:00"
+   },
+   {
+    "sorgu": "Southampton vs Middlesbrough prediction Championship Friday",
+    "tur": "T-24s",
+    "arac": "web arama",
+    "sonuc": "eski önizlemeler (2024, play-off 2026); bu maçın yeni önizlemesi yok",
+    "utc": "2026-11-26T22:47:13+00:00"
+   }
+  ],
+  "tur_degisimleri": [],
+  "baglantilar": [
+   "https://www.southamptonfc.com/en/news/article/eckert-positive-on-availability",
+   "https://www.southamptonfc.com/en/news/article/eckert-well-have-amazing-support"
+  ]
+ }
+}

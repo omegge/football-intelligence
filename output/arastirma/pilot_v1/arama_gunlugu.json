@@ -1,0 +1,184 @@
+{
+ "kural": "Maç başına 1 arama, aynı şablon (favori + rakip + basın toplantısı/eksikler + ay yıl), yerel dil. Arama sonucu = aday URL, kanıt DEĞİL.",
+ "aramalar": [
+  {
+   "pilot_id": "en.1-A-S",
+   "sorgu": "Sheffield United v Brentford team news Thomas Frank press conference December 2023",
+   "dil": "en",
+   "aday_kaynaklar": [
+    "brentfordfc.com (önizleme 09.12.2023)",
+    "sportsmole.co.uk",
+    "uk.sports.yahoo.com",
+    "sheffieldtelegraph.co.uk"
+   ],
+   "ozet_notu": "Mbeumo yok, Nørgaard cezadan döndü (aday); özet maç sonucunu içerdi; Nisan 2024 maçı karıştı"
+  },
+  {
+   "pilot_id": "en.1-A-K",
+   "sorgu": "Sheffield United v Tottenham team news Postecoglou press conference May 2024",
+   "dil": "en",
+   "aday_kaynaklar": [
+    "tottenhamhotspur.com (takım haberi, ilk 11)",
+    "thestar.co.uk",
+    "sportsmole.co.uk",
+    "spurs-web.com"
+   ],
+   "ozet_notu": "Lo Celso şüpheli; son hafta, 1 puan Avrupa Ligi için yeterli (aday); Eylül 2023 maçı karıştı"
+  },
+  {
+   "pilot_id": "en.1-B-S",
+   "sorgu": "Brighton v Nottingham Forest team news De Zerbi press conference October 2022",
+   "dil": "en",
+   "aday_kaynaklar": [
+    "brightonandhovealbion.com (takım haberi)",
+    "sussexexpress.co.uk",
+    "brightonandhovenews.org",
+    "sportsmole.co.uk"
+   ],
+   "ozet_notu": "Lallana ilk 11, van Hecke/Colwill yok, Mitoma şüpheli (aday); özet sonucu verdi; dönüş maçı karıştı"
+  },
+  {
+   "pilot_id": "en.1-B-K",
+   "sorgu": "Manchester United v Nottingham Forest team news Ten Hag press conference December 2022",
+   "dil": "en",
+   "aday_kaynaklar": [
+    "manutd.com (basın toplantısı dökümü, takım haberi)",
+    "sportsmole.co.uk",
+    "goal.com"
+   ],
+   "ozet_notu": "Martínez/Varane Dünya Kupası dönüşü yok, Maguire şüpheli (aday); özet sonucu verdi; 2023 maçı karıştı"
+  },
+  {
+   "pilot_id": "de.1-A-S",
+   "sorgu": "Hoffenheim St. Pauli Pressekonferenz Personal Ausfälle Februar 2026",
+   "dil": "de",
+   "aday_kaynaklar": [
+    "tsg-hoffenheim.de",
+    "bundesliga.com",
+    "ligainsider.de",
+    "fcstpauli.com"
+   ],
+   "ozet_notu": "Bu maça ait tarihli basın toplantısı bulunamadı; sonuçlar 2024-25 maçlarıyla karıştı"
+  },
+  {
+   "pilot_id": "de.1-A-K",
+   "sorgu": "Eintracht Frankfurt Augsburg Pressekonferenz Toppmöller Personal Dezember 2025",
+   "dil": "de",
+   "aday_kaynaklar": [
+    "en.eintracht.de (önizleme 12.12.2025)",
+    "hessenschau.de",
+    "ligainsider.de"
+   ],
+   "ozet_notu": "Basın toplantısı var (Barcelona sonrası, Leipzig 0-6); kadro bilgisi bulunamadı"
+  },
+  {
+   "pilot_id": "de.1-B-S",
+   "sorgu": "SC Freiburg Darmstadt Pressekonferenz Streich Personal November 2023",
+   "dil": "de",
+   "aday_kaynaklar": [
+    "scfreiburg.com (önizleme)",
+    "sv98.de (rakip analizi)",
+    "ligainsider.de"
+   ],
+   "ozet_notu": "Tarihli kadro bilgisi bulunamadı; Röhl sakat (tarihi belirsiz)"
+  },
+  {
+   "pilot_id": "de.1-B-K",
+   "sorgu": "Bayer Leverkusen Wolfsburg Pressekonferenz Xabi Alonso Personal März 2024",
+   "dil": "de",
+   "aday_kaynaklar": [
+    "bayer04.de (basın toplantısı videoları)",
+    "ligainsider.de",
+    "bulinews.com"
+   ],
+   "ozet_notu": "Bu maça ait sonuç bulunamadı; başka sezonlar geldi"
+  },
+  {
+   "pilot_id": "es.1-A-S",
+   "sorgu": "Barcelona Leganés rueda de prensa Flick bajas convocatoria diciembre 2024",
+   "dil": "es",
+   "aday_kaynaklar": [
+    "fcbarcelona.es (convocatoria)",
+    "3cat.cat",
+    "soccerway",
+    "okdiario.com"
+   ],
+   "ozet_notu": "Flick cezalı (kenarda Sorg), rotasyon ima, 23 kişilik kadro; Ansu Fati kadro dışı (tek kaynak, aday)"
+  },
+  {
+   "pilot_id": "es.1-A-K",
+   "sorgu": "Real Madrid Valladolid rueda de prensa Ancelotti bajas convocatoria agosto 2024",
+   "dil": "es",
+   "aday_kaynaklar": [
+    "realmadrid.com (rueda de prensa 24.08.2024, convocatoria)"
+   ],
+   "ozet_notu": "Basın toplantısı var; eksik listesi bulunamadı; Ocak 2025 maçı karıştı"
+  },
+  {
+   "pilot_id": "es.1-B-S",
+   "sorgu": "Athletic Club Osasuna rueda de prensa Valverde bajas convocatoria marzo 2025",
+   "dil": "es",
+   "aday_kaynaklar": [
+    "noticiasdenavarra.com (29.03.2025)",
+    "deia.eus (29.03.2025)",
+    "comuniate.com",
+    "futbolfantasy.com"
+   ],
+   "ozet_notu": "Ruiz de Galarreta son dakika sakat, Vivian yok, Sancet/Paredes dönüyor; Osasuna'da Moreno eksikleri açıkladı (aday, tarihli yerel basın)"
+  },
+  {
+   "pilot_id": "es.1-B-K",
+   "sorgu": "Osasuna Valladolid rueda de prensa Vicente Moreno bajas convocatoria noviembre 2024",
+   "dil": "es",
+   "aday_kaynaklar": [
+    "noticiasdenavarra.com",
+    "elgoldigital.com",
+    "osasuna.es"
+   ],
+   "ozet_notu": "Moreno cezalı (kırmızı kart), yardımcı da cezalı (aday); kadro bulunamadı; Nisan 2025 maçı karıştı"
+  },
+  {
+   "pilot_id": "it.1-A-S",
+   "sorgu": "Lazio Salernitana conferenza stampa Sarri vigilia indisponibili ottobre 2022",
+   "dil": "it",
+   "aday_kaynaklar": [
+    "sportface.it",
+    "goal.com",
+    "quotidiano.net"
+   ],
+   "ozet_notu": "Özet saha bilgisinde çelişkili; başka sezonun Salernitana–Lazio maçı karıştı → aday bile güvenilmez"
+  },
+  {
+   "pilot_id": "it.1-A-K",
+   "sorgu": "Roma Monza conferenza stampa Mourinho vigilia indisponibili agosto 2022",
+   "dil": "it",
+   "aday_kaynaklar": [
+    "asroma.com"
+   ],
+   "ozet_notu": "Bu maça ait sonuç bulunamadı; 2023 maçları geldi"
+  },
+  {
+   "pilot_id": "it.1-B-S",
+   "sorgu": "Juventus Salernitana conferenza stampa Allegri vigilia indisponibili maggio 2024",
+   "dil": "it",
+   "aday_kaynaklar": [
+    "juventus.com (conferenza pre-partita)",
+    "fantacalcio.it (11.05.2024)",
+    "sport.sky.it (probabili 11.05.2024)",
+    "flashscore"
+   ],
+   "ozet_notu": "Basın toplantısı var; eksik listesi özette Ocak 2024 maçıyla karışmış olabilir (Bonucci/Pogba/Paredes eski kadro → şüpheli)"
+  },
+  {
+   "pilot_id": "it.1-B-K",
+   "sorgu": "Napoli Sassuolo conferenza stampa Garcia vigilia indisponibili agosto 2023",
+   "dil": "it",
+   "aday_kaynaklar": [
+    "sport.sky.it (probabili 26.08.2023, Dionisi konferansı)",
+    "fantacalcio.it",
+    "90min.com"
+   ],
+   "ozet_notu": "Rakipte Berardi yok (aday); Garcia'nın maç öncesi konferansı bulunamadı; özet sonucu verdi"
+  }
+ ]
+}

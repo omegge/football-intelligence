@@ -1,0 +1,415 @@
+{
+ "mac": "SC Freiburg – FC Twente",
+ "yarisma": "UEFA Konferans Ligi (lig aşaması)",
+ "baslama_utc": "2026-11-26T20:00:00+00:00",
+ "baslama_tr": "2026-11-26 23:00",
+ "mod": "guncel",
+ "etiket": "maç öncesi; kesim = araştırma anı",
+ "veri_kesim": "2026-11-25 (son biten lig maçları)",
+ "kaynaklar": {
+  "de.1": {
+   "openfootball_commit": "e6744429",
+   "openfootball_son_tarih": "2026-09-20",
+   "fdorg_url": "https://api.football-data.org/v4/competitions/BL1/matches?dateFrom=2026-07-01&dateTo=2026-11-25&status=FINISHED",
+   "fdorg_erisim_utc": "2026-11-25T23:42:15+00:00",
+   "fdorg_sha256": "09b6ca32eef7724f54794495a219af0857be48cc02ff930d89532c7dff8cd45f",
+   "fdorg_eklenen": 54,
+   "fdorg_eslesmeyen(ayrı takım olarak)": [],
+   "hedef_esleme": [
+    "kesin",
+    "SC Freiburg"
+   ],
+   "atif": "Football data provided by the Football-Data.org API"
+  },
+  "nl.1": {
+   "openfootball_commit": "e6744429",
+   "openfootball_son_tarih": "2026-09-20",
+   "fdorg_url": "https://api.football-data.org/v4/competitions/DED/matches?dateFrom=2026-07-01&dateTo=2026-11-25&status=FINISHED",
+   "fdorg_erisim_utc": "2026-11-25T23:42:21+00:00",
+   "fdorg_sha256": "6767cbdc8d925b8afc1781c0877da32dbb3888aceb9f42a020d0e3bd58dc6cc3",
+   "fdorg_eklenen": 54,
+   "fdorg_eslesmeyen(ayrı takım olarak)": [],
+   "hedef_esleme": [
+    "belirsiz",
+    null
+   ],
+   "atif": "Football data provided by the Football-Data.org API"
+  },
+  "twente_openfootball_adi": "FC Twente '65",
+  "twente_esleme_notu": "Nesine 'Twente' → OpenFootball adı otomatik eşleşmedi ('belirsiz'); yalnızca 'twente' içeren TEK takım olduğu için analizde kullanıldı — kalıcı eşleme kullanıcı onayı bekliyor"
+ },
+ "freiburg_lig": {
+  "guncel_goreli_elo": 40.3,
+  "lig_ici_elo_sirasi": 6,
+  "lig_takim_sayisi": 18,
+  "son10_lig": [
+   {
+    "tarih": "2026-08-30",
+    "saha": "ev",
+    "rakip": "SV Werder Bremen",
+    "rakip_goreli_elo": -66.5,
+    "skor": "4-1",
+    "artik": 0.312
+   },
+   {
+    "tarih": "2026-09-05",
+    "saha": "dep",
+    "rakip": "SC Paderborn 07",
+    "rakip_goreli_elo": -101.1,
+    "skor": "1-0",
+    "artik": 0.442
+   },
+   {
+    "tarih": "2026-09-12",
+    "saha": "ev",
+    "rakip": "Borussia Mönchengladbach",
+    "rakip_goreli_elo": -53.7,
+    "skor": "5-0",
+    "artik": 0.309
+   },
+   {
+    "tarih": "2026-09-19",
+    "saha": "dep",
+    "rakip": "Eintracht Frankfurt",
+    "rakip_goreli_elo": 6.0,
+    "skor": "2-2",
+    "artik": 0.072
+   },
+   {
+    "tarih": "2026-10-11",
+    "saha": "ev",
+    "rakip": "FC Schalke 04",
+    "rakip_goreli_elo": -94.1,
+    "skor": "2-1",
+    "artik": 0.25
+   },
+   {
+    "tarih": "2026-10-18",
+    "saha": "dep",
+    "rakip": "Bayer 04 Leverkusen",
+    "rakip_goreli_elo": 117.9,
+    "skor": "1-2",
+    "artik": -0.287
+   },
+   {
+    "tarih": "2026-10-25",
+    "saha": "ev",
+    "rakip": "FC Bayern München",
+    "rakip_goreli_elo": 255.4,
+    "skor": "1-3",
+    "artik": -0.285
+   },
+   {
+    "tarih": "2026-10-31",
+    "saha": "dep",
+    "rakip": "FC Augsburg",
+    "rakip_goreli_elo": -23.1,
+    "skor": "2-1",
+    "artik": 0.539
+   },
+   {
+    "tarih": "2026-11-08",
+    "saha": "ev",
+    "rakip": "1. FC Union Berlin",
+    "rakip_goreli_elo": -71.1,
+    "skor": "2-0",
+    "artik": 0.275
+   },
+   {
+    "tarih": "2026-11-21",
+    "saha": "dep",
+    "rakip": "SV 07 Elversberg",
+    "rakip_goreli_elo": -78.3,
+    "skor": "1-0",
+    "artik": 0.44
+   }
+  ],
+  "form5": 0.682,
+  "form10": 2.067,
+  "son10_rakip_ort_goreli_elo": -10.9,
+  "sezon_lig": {
+   "mac": 10,
+   "puan": 22
+  }
+ },
+ "twente_lig": {
+  "guncel_goreli_elo": 118.3,
+  "lig_ici_elo_sirasi": 4,
+  "lig_takim_sayisi": 18,
+  "son10_lig": [
+   {
+    "tarih": "2026-09-06",
+    "saha": "dep",
+    "rakip": "FC Groningen",
+    "rakip_goreli_elo": -14.0,
+    "skor": "2-2",
+    "artik": -0.047
+   },
+   {
+    "tarih": "2026-09-09",
+    "saha": "ev",
+    "rakip": "Telstar 1963",
+    "rakip_goreli_elo": -73.1,
+    "skor": "1-0",
+    "artik": 0.209
+   },
+   {
+    "tarih": "2026-09-12",
+    "saha": "ev",
+    "rakip": "ADO Den Haag",
+    "rakip_goreli_elo": -148.3,
+    "skor": "2-0",
+    "artik": 0.144
+   },
+   {
+    "tarih": "2026-09-20",
+    "saha": "ev",
+    "rakip": "PSV",
+    "rakip_goreli_elo": 240.7,
+    "skor": "3-2",
+    "artik": 0.608
+   },
+   {
+    "tarih": "2026-10-10",
+    "saha": "dep",
+    "rakip": "Fortuna Sittard",
+    "rakip_goreli_elo": -50.1,
+    "skor": "1-1",
+    "artik": -0.118
+   },
+   {
+    "tarih": "2026-10-18",
+    "saha": "ev",
+    "rakip": "FC Utrecht",
+    "rakip_goreli_elo": 31.2,
+    "skor": "1-2",
+    "artik": -0.692
+   },
+   {
+    "tarih": "2026-10-25",
+    "saha": "dep",
+    "rakip": "AZ",
+    "rakip_goreli_elo": 78.0,
+    "skor": "2-0",
+    "artik": 0.581
+   },
+   {
+    "tarih": "2026-11-01",
+    "saha": "dep",
+    "rakip": "SBV Excelsior",
+    "rakip_goreli_elo": -72.0,
+    "skor": "9-0",
+    "artik": 0.351
+   },
+   {
+    "tarih": "2026-11-08",
+    "saha": "ev",
+    "rakip": "AFC Ajax",
+    "rakip_goreli_elo": 138.1,
+    "skor": "2-2",
+    "artik": -0.071
+   },
+   {
+    "tarih": "2026-11-22",
+    "saha": "ev",
+    "rakip": "Willem II Tilburg",
+    "rakip_goreli_elo": -183.2,
+    "skor": "2-1",
+    "artik": 0.106
+   }
+  ],
+  "form5": 0.275,
+  "form10": 1.071,
+  "son10_rakip_ort_goreli_elo": -5.3,
+  "sezon_lig": {
+   "mac": 13,
+   "puan": 27
+  }
+ },
+ "freiburg_tum_kulvarlar": {
+  "kaynak": "Wikipedia: 2026–27 SC Freiburg season (sha256 23f826b22e5d…)",
+  "son_resmi_maclar": [
+   {
+    "tarih": "2026-10-11",
+    "bolum": "Competitions / Bundesliga / Matches",
+    "tur": "5",
+    "ev": "SC Freiburg",
+    "dep": "Schalke 04",
+    "skor": "2-1"
+   },
+   {
+    "tarih": "2026-10-18",
+    "bolum": "Competitions / Bundesliga / Matches",
+    "tur": "6",
+    "ev": "Bayer 04 Leverkusen",
+    "dep": "SC Freiburg",
+    "skor": "2-1"
+   },
+   {
+    "tarih": "2026-10-25",
+    "bolum": "Competitions / Bundesliga / Matches",
+    "tur": "7",
+    "ev": "SC Freiburg",
+    "dep": "FC Bayern Munich",
+    "skor": "1-3"
+   },
+   {
+    "tarih": "2026-10-31",
+    "bolum": "Competitions / Bundesliga / Matches",
+    "tur": "8",
+    "ev": "FC Augsburg",
+    "dep": "SC Freiburg",
+    "skor": "1-2"
+   },
+   {
+    "tarih": "2026-11-08",
+    "bolum": "Competitions / Bundesliga / Matches",
+    "tur": "9",
+    "ev": "SC Freiburg",
+    "dep": "Union Berlin",
+    "skor": "2-0"
+   },
+   {
+    "tarih": "2026-11-21",
+    "bolum": "Competitions / Bundesliga / Matches",
+    "tur": "10",
+    "ev": "SV Elversberg",
+    "dep": "SC Freiburg",
+    "skor": "0-1"
+   }
+  ],
+  "dinlenme_gun": 5,
+  "son14_gun_mac": 1,
+  "sonraki_planli": [
+   {
+    "tarih": "2026-11-29",
+    "bolum": "Competitions / Bundesliga / Matches",
+    "ev": "SC Freiburg",
+    "dep": "RB Leipzig"
+   }
+  ],
+  "uecl_once": []
+ },
+ "twente_tum_kulvarlar": {
+  "kaynak": "Wikipedia: 2026–27 FC Twente season (sha256 276821c372e4…)",
+  "son_resmi_maclar": [
+   {
+    "tarih": "2026-10-22",
+    "bolum": "Competitions / UEFA Conference League / League phase",
+    "tur": "2",
+    "ev": "Lincoln Red Imps {{fbaicon|GIB}}",
+    "dep": "{{fbaicon|NED}} Twente",
+    "skor": "1-4"
+   },
+   {
+    "tarih": "2026-10-25",
+    "bolum": "Competitions / Eredivisie / Matches",
+    "tur": "10",
+    "ev": "AZ",
+    "dep": "Twente",
+    "skor": "0-2"
+   },
+   {
+    "tarih": "2026-11-01",
+    "bolum": "Competitions / Eredivisie / Matches",
+    "tur": "11",
+    "ev": "Excelsior",
+    "dep": "Twente",
+    "skor": "0-9"
+   },
+   {
+    "tarih": "2026-11-05",
+    "bolum": "Competitions / UEFA Conference League / League phase",
+    "tur": "3",
+    "ev": "Twente {{fbaicon|NED}}",
+    "dep": "{{fbaicon|CYP}} Pafos",
+    "skor": "3-1"
+   },
+   {
+    "tarih": "2026-11-08",
+    "bolum": "Competitions / Eredivisie / Matches",
+    "tur": "12",
+    "ev": "Twente",
+    "dep": "Ajax",
+    "skor": "2-2"
+   },
+   {
+    "tarih": "2026-11-21",
+    "bolum": "Competitions / Eredivisie / Matches",
+    "tur": "13",
+    "ev": "Twente",
+    "dep": "Willem II",
+    "skor": "2-1"
+   }
+  ],
+  "dinlenme_gun": 5,
+  "son14_gun_mac": 1,
+  "sonraki_planli": [
+   {
+    "tarih": "2026-11-28",
+    "bolum": "Competitions / Eredivisie / Matches",
+    "ev": "NEC",
+    "dep": "Twente"
+   },
+   {
+    "tarih": "2026-12-02",
+    "bolum": "Competitions / KNVB Cup",
+    "ev": "Fortuna Sittard",
+    "dep": "Twente"
+   }
+  ],
+  "uecl_once": [
+   {
+    "tarih": "2026-08-20",
+    "bolum": "Competitions / UEFA Conference League / Qualifying rounds",
+    "tur": "Play-off round 1st leg",
+    "ev": "Twente {{fbaicon|NED}}",
+    "dep": "{{fbaicon|AZE}} Qarabağ",
+    "skor": "0-1"
+   },
+   {
+    "tarih": "2026-08-27",
+    "bolum": "Competitions / UEFA Conference League / Qualifying rounds",
+    "tur": "Play-off round 2nd leg",
+    "ev": "Qarabağ {{fbaicon|AZE}}",
+    "dep": "{{fbaicon|NLD}} Twente",
+    "skor": "1-4"
+   },
+   {
+    "tarih": "2026-10-15",
+    "bolum": "Competitions / UEFA Conference League / League phase",
+    "tur": "1",
+    "ev": "Twente {{fbaicon|NED}}",
+    "dep": "{{fbaicon|SWI}} FC Thun",
+    "skor": "1-0"
+   },
+   {
+    "tarih": "2026-10-22",
+    "bolum": "Competitions / UEFA Conference League / League phase",
+    "tur": "2",
+    "ev": "Lincoln Red Imps {{fbaicon|GIB}}",
+    "dep": "{{fbaicon|NED}} Twente",
+    "skor": "1-4"
+   },
+   {
+    "tarih": "2026-11-05",
+    "bolum": "Competitions / UEFA Conference League / League phase",
+    "tur": "3",
+    "ev": "Twente {{fbaicon|NED}}",
+    "dep": "{{fbaicon|CYP}} Pafos",
+    "skor": "3-1"
+   }
+  ]
+ },
+ "ortak_rakipler": {
+  "lig": "yok (farklı ligler)",
+  "uecl": "yok",
+  "not": "lig dışı karşılaştırma ham sonuçtur; rakip gücü düzeltmesi yapılamaz"
+ },
+ "model_olasiliklari": {
+  "elo": "hesaplanamaz",
+  "poisson": "hesaplanamaz",
+  "dixon_coles": "hesaplanamaz",
+  "gerekce": "Bundesliga ve Eredivisie Elo/gol modelleri birbirine bağlı değil; ligler arası (Avrupa kupası) maçlar için test edilmiş model yok (kural: kapsam dışı ligde yüzde üretilmez)"
+ }
+}

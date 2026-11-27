@@ -1,0 +1,42 @@
+{
+ "arama_gunlugu": [
+  {
+   "arac": "web arama (sayfa açılmadı)",
+   "sonuc": "bu maça ait güncel kayıt yok; sonuçlar 2023–2026 başka karşılaşmalar",
+   "sorgu": "Southampton v Middlesbrough team news injuries November 2026",
+   "tur": "diger",
+   "utc": "2026-11-26T17:21:50+00:00"
+  },
+  {
+   "arac": "web arama (sayfa açılmadı)",
+   "sonuc": "bu tarihe ait önizleme yok; Mayıs 2026 play-off önizlemeleri (eski)",
+   "sorgu": "Southampton Middlesbrough preview prediction Championship 27 November 2026",
+   "tur": "diger",
+   "utc": "2026-11-26T17:21:50+00:00"
+  },
+  {
+   "arac": "web arama (sayfa açılmadı)",
+   "sonuc": "Gazette Live'da tarihsiz 'Forss/McGree' güncellemesi; içerik ve tarih doğrulanamadı",
+   "sorgu": "Middlesbrough injury news Gazette Live Southampton away",
+   "tur": "diger",
+   "utc": "2026-11-26T17:21:50+00:00"
+  },
+  {
+   "arac": "web arama (sayfa açılmadı)",
+   "sonuc": "güncel basın toplantısı yok; eski sezonlar",
+   "sorgu": "Southampton manager press conference Middlesbrough Daily Echo",
+   "tur": "diger",
+   "utc": "2026-11-26T17:21:50+00:00"
+  }
+ ],
+ "gorusler": [],
+ "iddialar": [],
+ "kayit_utc": "2026-11-26T17:21:50+00:00",
+ "mac": {
+  "baslama_tr": "2026-11-27T23:00:00+03:00",
+  "baslama_utc": "2026-11-27T20:00:00+00:00",
+  "karsilasma": "Southampton FC - Middlesbrough FC",
+  "lig": "İngiltere Championship (en.2; lig eşlemesi ONAYSIZ)",
+  "mac_id": "pilot_genis:fdorg-ELC-SOU-MID"
+ }
+}

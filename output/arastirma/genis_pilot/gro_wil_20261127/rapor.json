@@ -1,0 +1,559 @@
+{
+ "mac": {
+  "mac_id": "nesine:groningen-willem2-20261127",
+  "karsilasma": "Groningen - Willem II",
+  "lig": "Hollanda Eredivisie [322] → nl.1 (güçlü aday; 'Willem II' ad onayı gerekli)",
+  "baslama_utc": "2026-11-27T19:00:00+00:00",
+  "baslama_tr": "2026-11-27T22:00:00+03:00"
+ },
+ "1_dogrulanmis_son_dakika": [
+  {
+   "mac_id": "nesine:groningen-willem2-20261127",
+   "konu": "sonuc_form",
+   "takim": "dep",
+   "kisi": null,
+   "dogrulama": "iki_bagimsiz",
+   "veri_dogrulamasi": [
+    "dogrulandi"
+   ],
+   "ozetler": [
+    "Willem II sonuncu, 13 maçtır galibiyetsiz (veri: 18., 0G 3B 10M, 12-42)",
+    "Willem II sezon kaydı (maç verisi)"
+   ],
+   "durumlar": [],
+   "son_durum": null,
+   "zincir_sayisi": 2,
+   "zincirler": {
+    "www.sportsmole.co.uk": [
+     "https://www.sportsmole.co.uk/football/groningen/preview/groningen-vs-willem-ii-prediction-team-news-lineups_609843.html"
+    ],
+    "football-data.org": [
+     "https://api.football-data.org/v4/competitions/DED/matches?season=2026"
+    ]
+   },
+   "kopya_sayisi": 0,
+   "dislanan": [],
+   "nicel_etki": "hesaplanamaz"
+  }
+ ],
+ "2_dogrulanamayan_veya_celiskili": [
+  {
+   "mac_id": "nesine:groningen-willem2-20261127",
+   "konu": "diger",
+   "takim": "iki_takim",
+   "kisi": "başlama saati",
+   "dogrulama": "celiskili",
+   "veri_dogrulamasi": [
+    "celisiyor"
+   ],
+   "ozetler": [
+    "Bir kaynak 13:00 diyor (veri: 19:00 UTC = 22:00 TR)"
+   ],
+   "durumlar": [],
+   "son_durum": null,
+   "zincir_sayisi": 1,
+   "zincirler": {
+    "ratingbet.com": [
+     "https://ratingbet.com/predictions/groningen-vs-willem-ii-prediction-teams-form-analysis-possible-lineups-on-november-27-2026/"
+    ]
+   },
+   "kopya_sayisi": 0,
+   "dislanan": [],
+   "nicel_etki": "hesaplanamaz"
+  },
+  {
+   "mac_id": "nesine:groningen-willem2-20261127",
+   "konu": "td_degisimi",
+   "takim": "ev",
+   "kisi": "dick lukkien",
+   "dogrulama": "celiskili",
+   "veri_dogrulamasi": [],
+   "ozetler": [
+    "Lukkien kalça ameliyatı sonrası kulübeye dönüyor (kulüp)",
+    "Sports Mole: geçici teknik direktör Casper Goedkoop"
+   ],
+   "durumlar": [
+    "donuyor",
+    "yok"
+   ],
+   "son_durum": "donuyor",
+   "zincir_sayisi": 2,
+   "zincirler": {
+    "groningen maç önizlemesi (kulüp)": [
+     "https://www.fcgroningen.nl/fcg-tv/lukkien-terug-op-de-bank-tegen-willem-ii/"
+    ],
+    "www.sportsmole.co.uk": [
+     "https://www.sportsmole.co.uk/football/groningen/preview/groningen-vs-willem-ii-prediction-team-news-lineups_609843.html"
+    ]
+   },
+   "kopya_sayisi": 0,
+   "dislanan": [],
+   "nicel_etki": "hesaplanamaz"
+  },
+  {
+   "mac_id": "nesine:groningen-willem2-20261127",
+   "konu": "ceza",
+   "takim": "dep",
+   "kisi": "nathan tjoe-a-on",
+   "dogrulama": "dogrulanmadi",
+   "veri_dogrulamasi": [],
+   "ozetler": [
+    "Kırmızı kart cezası",
+    "Cezalı"
+   ],
+   "durumlar": [
+    "cezali"
+   ],
+   "son_durum": "cezali",
+   "zincir_sayisi": 2,
+   "zincirler": {
+    "www.sportsmole.co.uk": [
+     "https://www.sportsmole.co.uk/football/groningen/preview/groningen-vs-willem-ii-prediction-team-news-lineups_609843.html"
+    ],
+    "www.mightytips.com": [
+     "https://www.mightytips.com/football-predictions/fc-groningen-vs-willem-ii-prediction-27-11-2026/"
+    ]
+   },
+   "kopya_sayisi": 0,
+   "dislanan": [],
+   "nicel_etki": "hesaplanamaz"
+  },
+  {
+   "mac_id": "nesine:groningen-willem2-20261127",
+   "konu": "donus",
+   "takim": "ev",
+   "kisi": "vaessen / hateboer",
+   "dogrulama": "dogrulanmadi",
+   "veri_dogrulamasi": [],
+   "ozetler": [
+    "Cezadan döndüler"
+   ],
+   "durumlar": [
+    "hazir"
+   ],
+   "son_durum": "hazir",
+   "zincir_sayisi": 1,
+   "zincirler": {
+    "groningen maç önizlemesi (kulüp)": [
+     "https://www.fcgroningen.nl/wedstrijd/wedstrijdid/497/fcgroningen-willemii"
+    ]
+   },
+   "kopya_sayisi": 0,
+   "dislanan": [],
+   "nicel_etki": "hesaplanamaz"
+  },
+  {
+   "mac_id": "nesine:groningen-willem2-20261127",
+   "konu": "sakatlik",
+   "takim": "ev",
+   "kisi": "malcolm jeng",
+   "dogrulama": "dogrulanmadi",
+   "veri_dogrulamasi": [],
+   "ozetler": [
+    "Uzun süreli sakat (Aşil)",
+    "Eylül 2025'ten beri yok"
+   ],
+   "durumlar": [
+    "yok"
+   ],
+   "son_durum": "yok",
+   "zincir_sayisi": 2,
+   "zincirler": {
+    "www.whoscored.com": [
+     "https://www.whoscored.com/matches/1982339/preview/netherlands-eredivisie-2026-2027-fc-groningen-willem-ii"
+    ],
+    "www.sportsmole.co.uk": [
+     "https://www.sportsmole.co.uk/football/groningen/preview/groningen-vs-willem-ii-prediction-team-news-lineups_609843.html"
+    ]
+   },
+   "kopya_sayisi": 0,
+   "dislanan": [],
+   "nicel_etki": "hesaplanamaz"
+  },
+  {
+   "mac_id": "nesine:groningen-willem2-20261127",
+   "konu": "sakatlik",
+   "takim": "ev",
+   "kisi": "rijk janse",
+   "dogrulama": "dogrulanmadi",
+   "veri_dogrulamasi": [],
+   "ozetler": [
+    "Hâlâ sakat"
+   ],
+   "durumlar": [
+    "yok"
+   ],
+   "son_durum": "yok",
+   "zincir_sayisi": 1,
+   "zincirler": {
+    "www.sportsmole.co.uk": [
+     "https://www.sportsmole.co.uk/football/groningen/preview/groningen-vs-willem-ii-prediction-team-news-lineups_609843.html"
+    ]
+   },
+   "kopya_sayisi": 0,
+   "dislanan": [],
+   "nicel_etki": "hesaplanamaz"
+  },
+  {
+   "mac_id": "nesine:groningen-willem2-20261127",
+   "konu": "sakatlik",
+   "takim": "ev",
+   "kisi": "travis hernes",
+   "dogrulama": "dogrulanmadi",
+   "veri_dogrulamasi": [],
+   "ozetler": [
+    "WhoScored: şüpheli"
+   ],
+   "durumlar": [
+    "suphe"
+   ],
+   "son_durum": "suphe",
+   "zincir_sayisi": 1,
+   "zincirler": {
+    "www.whoscored.com": [
+     "https://www.whoscored.com/matches/1982339/preview/netherlands-eredivisie-2026-2027-fc-groningen-willem-ii"
+    ]
+   },
+   "kopya_sayisi": 0,
+   "dislanan": [],
+   "nicel_etki": "hesaplanamaz"
+  },
+  {
+   "mac_id": "nesine:groningen-willem2-20261127",
+   "konu": "sakatlik",
+   "takim": "dep",
+   "kisi": "justin hoogma",
+   "dogrulama": "dogrulanmadi",
+   "veri_dogrulamasi": [],
+   "ozetler": [
+    "Diz sakatlığı"
+   ],
+   "durumlar": [
+    "yok"
+   ],
+   "son_durum": "yok",
+   "zincir_sayisi": 1,
+   "zincirler": {
+    "www.sportsmole.co.uk": [
+     "https://www.sportsmole.co.uk/football/groningen/preview/groningen-vs-willem-ii-prediction-team-news-lineups_609843.html"
+    ]
+   },
+   "kopya_sayisi": 0,
+   "dislanan": [],
+   "nicel_etki": "hesaplanamaz"
+  },
+  {
+   "mac_id": "nesine:groningen-willem2-20261127",
+   "konu": "sakatlik",
+   "takim": "dep",
+   "kisi": "amine lachkar",
+   "dogrulama": "dogrulanmadi",
+   "veri_dogrulamasi": [],
+   "ozetler": [
+    "Kasık sakatlığı"
+   ],
+   "durumlar": [
+    "yok"
+   ],
+   "son_durum": "yok",
+   "zincir_sayisi": 1,
+   "zincirler": {
+    "www.mightytips.com": [
+     "https://www.mightytips.com/football-predictions/fc-groningen-vs-willem-ii-prediction-27-11-2026/"
+    ]
+   },
+   "kopya_sayisi": 0,
+   "dislanan": [],
+   "nicel_etki": "hesaplanamaz"
+  },
+  {
+   "mac_id": "nesine:groningen-willem2-20261127",
+   "konu": "sonuc_form",
+   "takim": "ev",
+   "kisi": null,
+   "dogrulama": "dogrulanmadi",
+   "veri_dogrulamasi": [
+    "kismen"
+   ],
+   "ozetler": [
+    "Groningen son 6 maçta 5 yenilgi (veri: 1G 1B 4M)"
+   ],
+   "durumlar": [],
+   "son_durum": null,
+   "zincir_sayisi": 1,
+   "zincirler": {
+    "www.sportsmole.co.uk": [
+     "https://www.sportsmole.co.uk/football/groningen/preview/groningen-vs-willem-ii-prediction-team-news-lineups_609843.html"
+    ]
+   },
+   "kopya_sayisi": 0,
+   "dislanan": [],
+   "nicel_etki": "hesaplanamaz"
+  }
+ ],
+ "3_basin_gorusleri": [],
+ "4_analist_senaryolari": {
+  "yonler": {
+   "Groningen 3-1": [
+    "Sports Mole"
+   ],
+   "Groningen 2-1": [
+    "Bet-experts (bahis tüyosu)"
+   ]
+  },
+  "gorusler": [
+   {
+    "kaynak": "Sports Mole",
+    "beklenen": "Groningen 3-1",
+    "gerekce": "Willem II üst ligde zorlanıyor",
+    "sinif": "onizleme_tahmin_sitesi",
+    "surpriz": false,
+    "karantina_sayilar": {}
+   },
+   {
+    "kaynak": "Bet-experts (bahis tüyosu)",
+    "beklenen": "Groningen 2-1",
+    "gerekce": "iç saha",
+    "sinif": "onizleme_tahmin_sitesi",
+    "surpriz": false,
+    "karantina_sayilar": {}
+   }
+  ],
+  "gorus_ayriligi": true,
+  "not": "Dış görüşler ve yüzdeleri KARANTİNADA; model girdisi değildir."
+ },
+ "5_bagimsiz_model": {
+  "durum": "hesaplanamaz",
+  "nedenler": [
+   "lig_eslemesi_onayli: Hollanda Eredivisie [322] → nl.1 güçlü aday; 'Willem II' ↔ 'Willem II Tilburg' takım adı onayı ve lig onayı yok"
+  ]
+ },
+ "6_hesaplanamayan_marketler": "bütün marketler (model yok)",
+ "7_model_analist_farki": [
+  {
+   "gorus": "Sports Mole",
+   "beklenen": "Groningen 3-1",
+   "model": "bu market için bağımsız olasılık yok (hesaplanamaz)"
+  },
+  {
+   "gorus": "Bet-experts (bahis tüyosu)",
+   "beklenen": "Groningen 2-1",
+   "model": "bu market için bağımsız olasılık yok (hesaplanamaz)"
+  }
+ ],
+ "8_en_onemli_surpriz_sinyali": {
+  "favori": null,
+  "favori_kaynagi": "bağımsız model 1X2 olasılığı yok → favori bağımsız olarak belirlenemedi (oranlarla belirlenmez)",
+  "sinyal": null,
+  "not": "favori bağımsız modelle belirlenemedi"
+ },
+ "9_fiyat_karsilastirmasi": {
+  "durum": "yapılmadı",
+  "neden": "donmuş bağımsız tahmin ya da sonradan alınmış bülten yok"
+ },
+ "11_sportif_cikarimlar_yorum": [
+  {
+   "mekanizma": "Willem II'nin 13 maçlık galibiyetsizliği ve 42 yenen gol modelin takım gücü kestiriminde zaten var; aynı gerekçeyi ayrıca eklemek çift sayma olur.",
+   "dayanak": [
+    "sonuc_form (veri)"
+   ],
+   "tur": "YORUM (doğrulanmış gerçek değil)",
+   "model_etkisi": "uygulanmadı"
+  },
+  {
+   "mekanizma": "Willem II savunmasında 2 eksik (Hoogma, Tjoe-A-On cezalı) + Lachkar; savunma zayıflığını artırabilir — etkisi ölçülmedi.",
+   "dayanak": [
+    "sakatlik/ceza (doğrulanmadı)"
+   ],
+   "tur": "YORUM (doğrulanmış gerçek değil)",
+   "model_etkisi": "uygulanmadı"
+  },
+  {
+   "mekanizma": "Groningen teknik direktör durumu çelişkili (Lukkien dönüş ↔ geçici Goedkoop): T−90dk turunda kulüp açıklaması ile çözülmeli.",
+   "dayanak": [
+    "td_degisimi (çelişkili)"
+   ],
+   "tur": "YORUM (doğrulanmış gerçek değil)",
+   "model_etkisi": "uygulanmadı"
+  }
+ ],
+ "10_son_arastirma_ve_kaynaklar": {
+  "son_arastirma_utc": "2026-11-26T18:06:38+00:00",
+  "turlar": [
+   "T-24s"
+  ],
+  "arama_gunlugu": [
+   {
+    "sorgu": "FC Groningen Willem II voorbeschouwing blessures selectie november 2026",
+    "utc": "2026-11-26T18:06:38+00:00",
+    "tur": "T-24s",
+    "arac": "web arama (sayfa açılmadı)",
+    "sonuc": "kulüp önizlemeleri, eksikler; bazı sayfalar eski sezon"
+   },
+   {
+    "sorgu": "Groningen vs Willem II prediction preview Eredivisie 27 November 2026 team news",
+    "utc": "2026-11-26T18:06:38+00:00",
+    "tur": "T-24s",
+    "arac": "web arama (sayfa açılmadı)",
+    "sonuc": "önizlemeler; başlama saati çelişkisi"
+   },
+   {
+    "sorgu": "Willem II trainer persconferentie Groningen uit Brabants Dagblad",
+    "utc": "2026-11-26T18:06:38+00:00",
+    "tur": "T-24s",
+    "arac": "web arama (sayfa açılmadı)",
+    "sonuc": "Brabants Dagblad'ın güncel haberi dizinde yok; eski sezonlar"
+   }
+  ],
+  "tur_degisimleri": [
+   {
+    "anahtar": [
+     "nesine:groningen-willem2-20261127",
+     "td_degisimi",
+     "ev",
+     "dick lukkien"
+    ],
+    "degisim": "tek_turda_goruldu",
+    "tur": "T-24s",
+    "durum": [
+     "donuyor",
+     "yok"
+    ]
+   },
+   {
+    "anahtar": [
+     "nesine:groningen-willem2-20261127",
+     "sakatlik",
+     "ev",
+     "malcolm jeng"
+    ],
+    "degisim": "tek_turda_goruldu",
+    "tur": "T-24s",
+    "durum": [
+     "yok"
+    ]
+   },
+   {
+    "anahtar": [
+     "nesine:groningen-willem2-20261127",
+     "sakatlik",
+     "ev",
+     "rijk janse"
+    ],
+    "degisim": "tek_turda_goruldu",
+    "tur": "T-24s",
+    "durum": [
+     "yok"
+    ]
+   },
+   {
+    "anahtar": [
+     "nesine:groningen-willem2-20261127",
+     "sakatlik",
+     "ev",
+     "travis hernes"
+    ],
+    "degisim": "tek_turda_goruldu",
+    "tur": "T-24s",
+    "durum": [
+     "suphe"
+    ]
+   },
+   {
+    "anahtar": [
+     "nesine:groningen-willem2-20261127",
+     "donus",
+     "ev",
+     "vaessen / hateboer"
+    ],
+    "degisim": "tek_turda_goruldu",
+    "tur": "T-24s",
+    "durum": [
+     "hazir"
+    ]
+   },
+   {
+    "anahtar": [
+     "nesine:groningen-willem2-20261127",
+     "ceza",
+     "dep",
+     "nathan tjoe-a-on"
+    ],
+    "degisim": "tek_turda_goruldu",
+    "tur": "T-24s",
+    "durum": [
+     "cezali"
+    ]
+   },
+   {
+    "anahtar": [
+     "nesine:groningen-willem2-20261127",
+     "sakatlik",
+     "dep",
+     "justin hoogma"
+    ],
+    "degisim": "tek_turda_goruldu",
+    "tur": "T-24s",
+    "durum": [
+     "yok"
+    ]
+   },
+   {
+    "anahtar": [
+     "nesine:groningen-willem2-20261127",
+     "sakatlik",
+     "dep",
+     "amine lachkar"
+    ],
+    "degisim": "tek_turda_goruldu",
+    "tur": "T-24s",
+    "durum": [
+     "yok"
+    ]
+   },
+   {
+    "anahtar": [
+     "nesine:groningen-willem2-20261127",
+     "sonuc_form",
+     "dep",
+     ""
+    ],
+    "degisim": "tek_turda_goruldu",
+    "tur": "T-24s",
+    "durum": []
+   },
+   {
+    "anahtar": [
+     "nesine:groningen-willem2-20261127",
+     "sonuc_form",
+     "ev",
+     ""
+    ],
+    "degisim": "tek_turda_goruldu",
+    "tur": "T-24s",
+    "durum": []
+   },
+   {
+    "anahtar": [
+     "nesine:groningen-willem2-20261127",
+     "diger",
+     "iki_takim",
+     "başlama saati"
+    ],
+    "degisim": "tek_turda_goruldu",
+    "tur": "T-24s",
+    "durum": []
+   }
+  ],
+  "baglantilar": [
+   "https://api.football-data.org/v4/competitions/DED/matches?season=2026",
+   "https://ratingbet.com/predictions/groningen-vs-willem-ii-prediction-teams-form-analysis-possible-lineups-on-november-27-2026/",
+   "https://www.bet-experts.nl/nieuws/fc-groningen-willem-ii-voorspelling-wedtips",
+   "https://www.fcgroningen.nl/fcg-tv/lukkien-terug-op-de-bank-tegen-willem-ii/",
+   "https://www.fcgroningen.nl/wedstrijd/wedstrijdid/497/fcgroningen-willemii",
+   "https://www.mightytips.com/football-predictions/fc-groningen-vs-willem-ii-prediction-27-11-2026/",
+   "https://www.sportsmole.co.uk/football/groningen/preview/groningen-vs-willem-ii-prediction-team-news-lineups_609843.html",
+   "https://www.whoscored.com/matches/1982339/preview/netherlands-eredivisie-2026-2027-fc-groningen-willem-ii"
+  ]
+ }
+}

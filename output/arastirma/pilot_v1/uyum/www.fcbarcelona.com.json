@@ -1,0 +1,44 @@
+{
+ "host": "www.fcbarcelona.com",
+ "kontrol_utc": "2026-11-25T17:22:41+00:00",
+ "robots_http": 200,
+ "robots_tum_site_yasak": false,
+ "robots_ai_ozel_satirlar": [],
+ "ana_http": 200,
+ "ana_son_url": "https://www.fcbarcelona.com/en/",
+ "baslik": "Official FC Barcelona  Website",
+ "bot_engeli_isareti": false,
+ "metin_uzunlugu": 11968,
+ "kosul_adaylari": [
+  "https://www.fcbarcelona.com/en/legal-notices",
+  "https://www.fcbarcelona.com/en/privacy-policy"
+ ],
+ "kosul_sayfalari": [
+  {
+   "url": "https://www.fcbarcelona.com/en/legal-notices",
+   "http": 200,
+   "metin_uzunlugu": 16846,
+   "maddeler": [
+    "ed by Intellectual and Industrial Property rights. The USER only has the right to a private, non-profit use of them, and needs express authorisation to modify, reproduce, exploit, distribute or exercise any right belonging to their owner. FC BARCELONA is a registered trademark and its reproduction, imitation, use or insertion of these trademarks without the due autho",
+    " express authorisation to modify, reproduce, exploit, distribute or exercise any right belonging to their owner. FC BARCELONA is a registered trademark and its reproduction, imitation, use or insertion of these trademarks without the due authorization of FC BARCELONA is prohibited. The establishment of links to our portal does not confer any rights over it. Likewise, th",
+    "of action on our portal that causes an excessive overload of operations in our computer systems, as well as the introduction of viruses, or the installation of robots, or software that alters the normal functioning of our website, or in short, may cause damage to our computer systems. Not to reproduce in any way, not even by means of a hyperlink, the FC BARCELONA ",
+    "es, or the installation of robots, or software that alters the normal functioning of our website, or in short, may cause damage to our computer systems. Not to reproduce in any way, not even by means of a hyperlink, the FC BARCELONA website or any of its contents, except with express written authorization wconferred by a person from FC BARCELONA with sufficient power",
+    "information mechanisms that may contain the contents. Not to alter, reprogram, modify, adapt or translate the source code of this website. Any partial or total reproduction of the source code of the website on any medium and for any reason will be considered an unauthorized copy. Not to introduce, store or disseminate, on or from the website, any information or material",
+    "f FC BARCELONA, of any other user, sponsors, collaborators, suppliers, etc. of FC BARCELONA or, in general, to any third party. Not to carry out advertising or commercial exploitation activities through the website, and not to use the contents and information to send advertising, send messages for any other commercial purpose or to collect or store personal data of th"
+   ]
+  },
+  {
+   "url": "https://www.fcbarcelona.com/en/privacy-policy",
+   "http": 200,
+   "metin_uzunlugu": 82861,
+   "maddeler": [
+    "ND PROMOTIONS 2.10.PARTICIPATION IN SURVEYS 2.11.REGISTER WIFI FOR FREE 2.12.WEB CALENDARI ESPORTS (SYNC SCHEDULES) 2.13.SUBSCRIPTION TO OUR NEWSLETTER AND OUR COMMERCIAL SHIPMENTS 2.14.SUBSCRIPTION TO PROMOTIONS (Black Friday, Xmas, Sales, etc.) 2.15.FORM \"WEB MATCHES\" AND \"WEB COMERCIAL\" 2.16.AMATEUR ATHLETE 16.1.SUBSCRIPTION AMATEUR ATHLETE 16.2.MANAGEMENT OF AMATE",
+    "e/online procedures with FC BARCELONA. Sending communications by any means, including electronic relating to the Club's activity and events; sending electronic commercial information and social networks, applications or web pages of which the member is a user, FC BARCELONA entities, sponsors or entities related to the Club's activity. Legitimation: Membership and comp",
+    "ance with the statutes, rules and policies of FC BARCELONA. Where appropriate, consent to the use of biometric data. Legitimate interest in keeping the partner commercially informed. Conservation: As long as you are registered and maintain your status as a member of FC BARCELONA and once this status have ended, during the legal deadlines to attend to any responsibilit",
+    "unt\"), which implies being able to send you communications by any means, including electronic, regarding the activity and events of FC BARCELONA and electronic commercial information and social networks, applications or web pages of which the person is a user about the FC BARCELONA entities, their sponsors and/or entities related to the Club's activity, unless the Bar",
+    " or services where they will only receive information about products or services similar to those purchased, unless they have expressly agreed to receive other commercial communications related to the Club's activity; as well as allowing you access to the Barça environment/Entorn Barça and the services associated with your Barça Account so that you can interact with F",
+    "through a single user and/or code. Legitimation: Execution of the agreement with the registered person for the creation of the Barça Account and the sending of commercial, advertising and news information about FC BARCELONA, its sponsors and/or entities related to the Club's activity. In case of being a user of purchases, legitimate interest in sending commercial info"
+   ]
+  }
+ ]
+}

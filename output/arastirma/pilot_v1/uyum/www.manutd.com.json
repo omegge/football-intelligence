@@ -1,0 +1,33 @@
+{
+ "host": "www.manutd.com",
+ "kontrol_utc": "2026-11-25T17:20:57+00:00",
+ "robots_http": 200,
+ "robots_tum_site_yasak": false,
+ "robots_ai_ozel_satirlar": [],
+ "ana_http": 200,
+ "ana_son_url": "https://www.manutd.com/en",
+ "baslik": "Official Manchester United Website | ManUtd.com | Manchester United",
+ "bot_engeli_isareti": false,
+ "metin_uzunlugu": 10647,
+ "kosul_adaylari": [
+  "https://www.manutd.com/en/help/website-terms-of-use",
+  "https://www.manutd.com/en/help/terms-and-conditions-of-sale",
+  "https://www.manutd.com/en/manchester-uniteds-recruitment-privacy-policy",
+  "https://www.manutd.com/en/help/privacy-policy",
+  "https://www.manutd.com/en/help/cookie-policy"
+ ],
+ "kosul_sayfalari": [
+  {
+   "url": "https://www.manutd.com/en/help/website-terms-of-use",
+   "http": 403,
+   "metin_uzunlugu": 0,
+   "maddeler": []
+  },
+  {
+   "url": "https://www.manutd.com/en/help/terms-and-conditions-of-sale",
+   "http": 403,
+   "metin_uzunlugu": 0,
+   "maddeler": []
+  }
+ ]
+}

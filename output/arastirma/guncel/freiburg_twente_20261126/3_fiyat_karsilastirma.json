@@ -1,0 +1,25 @@
+{
+ "mac": "Freiburg - Twente",
+ "kod": 3326598,
+ "market_sayisi": 80,
+ "aileler": {
+  "birlesik": 9,
+  "devre_gol": 25,
+  "gol_mac_sonu": 23,
+  "korner": 21,
+  "oyuncu": 2
+ },
+ "fiyat_karsilastirmasi": "yapılmadı — karşılaştırılacak bağımsız olasılık yok (ligler arası maç; Elo/Poisson/Dixon–Coles hesaplanamaz). Oranlardan olasılık türetilmedi (MK-1).",
+ "pazar_durumu": {
+  "birlesik": "hesaplanamaz",
+  "devre_gol": "hesaplanamaz",
+  "gol_mac_sonu": "hesaplanamaz",
+  "korner": "hesaplanamaz",
+  "oyuncu": "hesaplanamaz"
+ },
+ "dondurma_sirasi": [
+  "1_tahmin_dondurma.json (23:44:04Z)",
+  "freiburg_twente_20261126_haber/dondurma.json (23:45:20Z)",
+  "bu dosya (sonra)"
+ ]
+}

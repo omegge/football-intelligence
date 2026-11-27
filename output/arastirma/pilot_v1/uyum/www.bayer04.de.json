@@ -1,0 +1,26 @@
+{
+ "host": "www.bayer04.de",
+ "kontrol_utc": "2026-11-25T17:21:22+00:00",
+ "robots_http": 200,
+ "robots_tum_site_yasak": false,
+ "robots_ai_ozel_satirlar": [],
+ "ana_http": 200,
+ "ana_son_url": "https://www.bayer04.de/de-de",
+ "baslik": "Bayer 04 Leverkusen Fußball GmbH | bayer04.de",
+ "bot_engeli_isareti": false,
+ "metin_uzunlugu": 14316,
+ "kosul_adaylari": [
+  "https://www.bayer04.de/de-de/page/impressum"
+ ],
+ "kosul_sayfalari": [
+  {
+   "url": "https://www.bayer04.de/de-de/page/impressum",
+   "http": 200,
+   "metin_uzunlugu": 2334,
+   "maddeler": [
+    "hinweis Diese Internet-Präsenz und alle darauf enthaltenen Texte und Grafiken sind urheberrechtlich geschützt. Änderungen dürfen nicht vorgenommen werden. Eine Vervielfältigung ist nur mit schriftlicher Genehmigung möglich. Darüber hinaus dürfen Vervielfältigungsstücke weder verbreitet noch für öffentliche Wiedergaben genutzt werden. Alle Angaben und Informationen auf diese",
+    "eberrechtlich geschützt. Änderungen dürfen nicht vorgenommen werden. Eine Vervielfältigung ist nur mit schriftlicher Genehmigung möglich. Darüber hinaus dürfen Vervielfältigungsstücke weder verbreitet noch für öffentliche Wiedergaben genutzt werden. Alle Angaben und Informationen auf diesen Internet-Seiten sind sorgfältig recherchiert und geprüft. Für die Richtigkeit, Vollständigk"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,606 @@
+{
+ "on_kayit_sha256": "ff064c097a886b0b9e5c972999144ac82451939c8a6acfec6cae571a978114a6",
+ "uretim_utc": "2026-11-26T21:26:48+00:00",
+ "havuz_mac": 7264,
+ "favorili_mac": 3725,
+ "kategori_dagilimi": {
+  "70-80": {
+   "mac": 564,
+   "favori_kazandi": 420,
+   "berabere": 91,
+   "favori_kaybetti": 53
+  },
+  "60-70": {
+   "mac": 1128,
+   "favori_kazandi": 728,
+   "berabere": 239,
+   "favori_kaybetti": 161
+  },
+  "50-60": {
+   "mac": 1824,
+   "favori_kazandi": 975,
+   "berabere": 487,
+   "favori_kaybetti": 362
+  },
+  "80+": {
+   "mac": 209,
+   "favori_kazandi": 174,
+   "berabere": 25,
+   "favori_kaybetti": 10
+  }
+ },
+ "surprizler": [
+  {
+   "yarisma": "es.1",
+   "sezon": "2024-25",
+   "tarih": "2024-11-30",
+   "ev": "FC Barcelona",
+   "dep": "UD Las Palmas",
+   "skor": [
+    1,
+    2
+   ],
+   "P": {
+    "H": 0.8346244394758834,
+    "D": 0.10799649556889031,
+    "A": 0.05737906495522648
+   },
+   "model": "Poisson (E ayarı)",
+   "egitim_kesimi": "2024-11-29",
+   "favori_saha": "ev",
+   "favori": "FC Barcelona",
+   "rakip": "UD Las Palmas",
+   "P_favori": 0.8346,
+   "kategori": "80+",
+   "sonuc": "A",
+   "etiket": "favori_kaybetti",
+   "set_v1_tekrar": false
+  },
+  {
+   "yarisma": "fr.1",
+   "sezon": "2024-25",
+   "tarih": "2024-10-04",
+   "ev": "Olympique de Marseille",
+   "dep": "Angers SCO",
+   "skor": [
+    1,
+    1
+   ],
+   "P": {
+    "H": 0.8032498331225945,
+    "D": 0.12677569658138405,
+    "A": 0.0699744702960213
+   },
+   "model": "Poisson (E ayarı)",
+   "egitim_kesimi": "2024-09-29",
+   "favori_saha": "ev",
+   "favori": "Olympique de Marseille",
+   "rakip": "Angers SCO",
+   "P_favori": 0.8032,
+   "kategori": "80+",
+   "sonuc": "D",
+   "etiket": "berabere",
+   "set_v1_tekrar": false
+  },
+  {
+   "yarisma": "fr.1",
+   "sezon": "2025-26",
+   "tarih": "2026-03-22",
+   "ev": "Stade Rennais FC 1901",
+   "dep": "FC Metz",
+   "skor": [
+    0,
+    0
+   ],
+   "P": {
+    "H": 0.7581796488773054,
+    "D": 0.1418395697115274,
+    "A": 0.09998078141116723
+   },
+   "model": "Poisson (E ayarı)",
+   "egitim_kesimi": "2026-03-21",
+   "favori_saha": "ev",
+   "favori": "Stade Rennais FC 1901",
+   "rakip": "FC Metz",
+   "P_favori": 0.7582,
+   "kategori": "70-80",
+   "sonuc": "D",
+   "etiket": "berabere",
+   "set_v1_tekrar": false
+  },
+  {
+   "yarisma": "de.1",
+   "sezon": "2024-25",
+   "tarih": "2025-04-12",
+   "ev": "Bayer 04 Leverkusen",
+   "dep": "1. FC Union Berlin",
+   "skor": [
+    0,
+    0
+   ],
+   "P": {
+    "H": 0.7317839187221399,
+    "D": 0.1739214261679355,
+    "A": 0.09429465510992457
+   },
+   "model": "Poisson (E ayarı)",
+   "egitim_kesimi": "2025-04-11",
+   "favori_saha": "ev",
+   "favori": "Bayer 04 Leverkusen",
+   "rakip": "1. FC Union Berlin",
+   "P_favori": 0.7318,
+   "kategori": "70-80",
+   "sonuc": "D",
+   "etiket": "berabere",
+   "set_v1_tekrar": false
+  },
+  {
+   "yarisma": "en.1",
+   "sezon": "2025-26",
+   "tarih": "2026-02-21",
+   "ev": "Chelsea FC",
+   "dep": "Burnley FC",
+   "skor": [
+    1,
+    1
+   ],
+   "P": {
+    "H": 0.7213483015772798,
+    "D": 0.16437529190160752,
+    "A": 0.11427640652111266
+   },
+   "model": "Poisson (E ayarı)",
+   "egitim_kesimi": "2026-02-18",
+   "favori_saha": "ev",
+   "favori": "Chelsea FC",
+   "rakip": "Burnley FC",
+   "P_favori": 0.7213,
+   "kategori": "70-80",
+   "sonuc": "D",
+   "etiket": "berabere",
+   "set_v1_tekrar": false
+  },
+  {
+   "yarisma": "fr.1",
+   "sezon": "2023-24",
+   "tarih": "2024-02-18",
+   "ev": "AS Monaco FC",
+   "dep": "Toulouse FC",
+   "skor": [
+    1,
+    2
+   ],
+   "P": {
+    "H": 0.6211260986389548,
+    "D": 0.19910880197342756,
+    "A": 0.17976509938761773
+   },
+   "model": "Poisson (E ayarı)",
+   "egitim_kesimi": "2024-02-17",
+   "favori_saha": "ev",
+   "favori": "AS Monaco FC",
+   "rakip": "Toulouse FC",
+   "P_favori": 0.6211,
+   "kategori": "60-70",
+   "sonuc": "A",
+   "etiket": "favori_kaybetti",
+   "set_v1_tekrar": false
+  },
+  {
+   "yarisma": "it.1",
+   "sezon": "2022-23",
+   "tarih": "2023-05-22",
+   "ev": "AS Roma",
+   "dep": "US Salernitana 1919",
+   "skor": [
+    2,
+    2
+   ],
+   "P": {
+    "H": 0.6077653468222064,
+    "D": 0.22188292959932795,
+    "A": 0.17035172357846548
+   },
+   "model": "Poisson (E ayarı)",
+   "egitim_kesimi": "2023-05-21",
+   "favori_saha": "ev",
+   "favori": "AS Roma",
+   "rakip": "US Salernitana 1919",
+   "P_favori": 0.6078,
+   "kategori": "60-70",
+   "sonuc": "D",
+   "etiket": "berabere",
+   "set_v1_tekrar": false
+  },
+  {
+   "yarisma": "es.1",
+   "sezon": "2023-24",
+   "tarih": "2023-12-19",
+   "ev": "Club Atlético de Madrid",
+   "dep": "Getafe CF",
+   "skor": [
+    3,
+    3
+   ],
+   "P": {
+    "H": 0.6423017209203821,
+    "D": 0.22097886791122573,
+    "A": 0.13671941116839234
+   },
+   "model": "Poisson (E ayarı)",
+   "egitim_kesimi": "2023-12-18",
+   "favori_saha": "ev",
+   "favori": "Club Atlético de Madrid",
+   "rakip": "Getafe CF",
+   "P_favori": 0.6423,
+   "kategori": "60-70",
+   "sonuc": "D",
+   "etiket": "berabere",
+   "set_v1_tekrar": false
+  },
+  {
+   "yarisma": "de.1",
+   "sezon": "2025-26",
+   "tarih": "2025-11-08",
+   "ev": "TSG 1899 Hoffenheim",
+   "dep": "RB Leipzig",
+   "skor": [
+    3,
+    1
+   ],
+   "P": {
+    "H": 0.26962231243972984,
+    "D": 0.21105201817556557,
+    "A": 0.5193256693847045
+   },
+   "model": "Poisson (E ayarı)",
+   "egitim_kesimi": "2025-11-07",
+   "favori_saha": "dep",
+   "favori": "RB Leipzig",
+   "rakip": "TSG 1899 Hoffenheim",
+   "P_favori": 0.5193,
+   "kategori": "50-60",
+   "sonuc": "H",
+   "etiket": "favori_kaybetti",
+   "set_v1_tekrar": false
+  },
+  {
+   "yarisma": "it.1",
+   "sezon": "2023-24",
+   "tarih": "2024-03-17",
+   "ev": "Juventus FC",
+   "dep": "Genoa CFC",
+   "skor": [
+    0,
+    0
+   ],
+   "P": {
+    "H": 0.5924942648403664,
+    "D": 0.2477293942506924,
+    "A": 0.15977634090894144
+   },
+   "model": "Poisson (E ayarı)",
+   "egitim_kesimi": "2024-03-16",
+   "favori_saha": "ev",
+   "favori": "Juventus FC",
+   "rakip": "Genoa CFC",
+   "P_favori": 0.5925,
+   "kategori": "50-60",
+   "sonuc": "D",
+   "etiket": "berabere",
+   "set_v1_tekrar": false
+  }
+ ],
+ "kontroller": [
+  {
+   "yarisma": "es.1",
+   "sezon": "2024-25",
+   "tarih": "2024-08-25",
+   "ev": "Real Madrid CF",
+   "dep": "Real Valladolid CF",
+   "skor": [
+    3,
+    0
+   ],
+   "P": {
+    "H": 0.8357893281447795,
+    "D": 0.11641936901255669,
+    "A": 0.047791302842663884
+   },
+   "model": "Poisson (E ayarı)",
+   "egitim_kesimi": "2024-08-24",
+   "favori_saha": "ev",
+   "favori": "Real Madrid CF",
+   "rakip": "Real Valladolid CF",
+   "P_favori": 0.8358,
+   "kategori": "80+",
+   "sonuc": "H",
+   "etiket": "favori_kazandi",
+   "set_v1_tekrar": true
+  },
+  {
+   "yarisma": "fr.1",
+   "sezon": "2024-25",
+   "tarih": "2025-02-15",
+   "ev": "Olympique de Marseille",
+   "dep": "AS Saint-Étienne",
+   "skor": [
+    5,
+    1
+   ],
+   "P": {
+    "H": 0.8013450493371679,
+    "D": 0.12509031441984583,
+    "A": 0.07356463624298629
+   },
+   "model": "Poisson (E ayarı)",
+   "egitim_kesimi": "2025-02-14",
+   "favori_saha": "ev",
+   "favori": "Olympique de Marseille",
+   "rakip": "AS Saint-Étienne",
+   "P_favori": 0.8013,
+   "kategori": "80+",
+   "sonuc": "H",
+   "etiket": "favori_kazandi",
+   "set_v1_tekrar": false
+  },
+  {
+   "yarisma": "fr.1",
+   "sezon": "2025-26",
+   "tarih": "2025-09-21",
+   "ev": "AS Monaco FC",
+   "dep": "FC Metz",
+   "skor": [
+    5,
+    2
+   ],
+   "P": {
+    "H": 0.7532331924069793,
+    "D": 0.15213022438579143,
+    "A": 0.09463658320722923
+   },
+   "model": "Poisson (E ayarı)",
+   "egitim_kesimi": "2025-09-20",
+   "favori_saha": "ev",
+   "favori": "AS Monaco FC",
+   "rakip": "FC Metz",
+   "P_favori": 0.7532,
+   "kategori": "70-80",
+   "sonuc": "H",
+   "etiket": "favori_kazandi",
+   "set_v1_tekrar": false
+  },
+  {
+   "yarisma": "de.1",
+   "sezon": "2024-25",
+   "tarih": "2024-10-18",
+   "ev": "Borussia Dortmund",
+   "dep": "FC St. Pauli 1910",
+   "skor": [
+    2,
+    1
+   ],
+   "P": {
+    "H": 0.7336369206507689,
+    "D": 0.165579025484706,
+    "A": 0.10078405386452495
+   },
+   "model": "Poisson (E ayarı)",
+   "egitim_kesimi": "2024-10-06",
+   "favori_saha": "ev",
+   "favori": "Borussia Dortmund",
+   "rakip": "FC St. Pauli 1910",
+   "P_favori": 0.7336,
+   "kategori": "70-80",
+   "sonuc": "H",
+   "etiket": "favori_kazandi",
+   "set_v1_tekrar": false
+  },
+  {
+   "yarisma": "en.1",
+   "sezon": "2025-26",
+   "tarih": "2025-08-23",
+   "ev": "Arsenal FC",
+   "dep": "Leeds United FC",
+   "skor": [
+    5,
+    0
+   ],
+   "P": {
+    "H": 0.7033826519161799,
+    "D": 0.1838358568025067,
+    "A": 0.1127814912813135
+   },
+   "model": "Poisson (E ayarı)",
+   "egitim_kesimi": "2025-08-22",
+   "favori_saha": "ev",
+   "favori": "Arsenal FC",
+   "rakip": "Leeds United FC",
+   "P_favori": 0.7034,
+   "kategori": "70-80",
+   "sonuc": "H",
+   "etiket": "favori_kazandi",
+   "set_v1_tekrar": false
+  },
+  {
+   "yarisma": "fr.1",
+   "sezon": "2023-24",
+   "tarih": "2024-02-04",
+   "ev": "Lille OSC",
+   "dep": "Clermont Foot 63",
+   "skor": [
+    4,
+    0
+   ],
+   "P": {
+    "H": 0.6177605074749036,
+    "D": 0.24358412975328025,
+    "A": 0.13865536277181598
+   },
+   "model": "Poisson (E ayarı)",
+   "egitim_kesimi": "2024-02-03",
+   "favori_saha": "ev",
+   "favori": "Lille OSC",
+   "rakip": "Clermont Foot 63",
+   "P_favori": 0.6178,
+   "kategori": "60-70",
+   "sonuc": "H",
+   "etiket": "favori_kazandi",
+   "set_v1_tekrar": false
+  },
+  {
+   "yarisma": "it.1",
+   "sezon": "2022-23",
+   "tarih": "2023-05-20",
+   "ev": "Atalanta BC",
+   "dep": "Hellas Verona FC",
+   "skor": [
+    3,
+    1
+   ],
+   "P": {
+    "H": 0.61053751033346,
+    "D": 0.2136294255752172,
+    "A": 0.17583306409132263
+   },
+   "model": "Poisson (E ayarı)",
+   "egitim_kesimi": "2023-05-19",
+   "favori_saha": "ev",
+   "favori": "Atalanta BC",
+   "rakip": "Hellas Verona FC",
+   "P_favori": 0.6105,
+   "kategori": "60-70",
+   "sonuc": "H",
+   "etiket": "favori_kazandi",
+   "set_v1_tekrar": false
+  },
+  {
+   "yarisma": "es.1",
+   "sezon": "2023-24",
+   "tarih": "2024-02-24",
+   "ev": "FC Barcelona",
+   "dep": "Getafe CF",
+   "skor": [
+    4,
+    0
+   ],
+   "P": {
+    "H": 0.6423714784202733,
+    "D": 0.20456706678515116,
+    "A": 0.15306145479457567
+   },
+   "model": "Poisson (E ayarı)",
+   "egitim_kesimi": "2024-02-23",
+   "favori_saha": "ev",
+   "favori": "FC Barcelona",
+   "rakip": "Getafe CF",
+   "P_favori": 0.6424,
+   "kategori": "60-70",
+   "sonuc": "H",
+   "etiket": "favori_kazandi",
+   "set_v1_tekrar": false
+  },
+  {
+   "yarisma": "de.1",
+   "sezon": "2025-26",
+   "tarih": "2025-08-30",
+   "ev": "TSG 1899 Hoffenheim",
+   "dep": "Eintracht Frankfurt",
+   "skor": [
+    1,
+    3
+   ],
+   "P": {
+    "H": 0.26999991634819903,
+    "D": 0.21024265562918273,
+    "A": 0.519757428022618
+   },
+   "model": "Poisson (E ayarı)",
+   "egitim_kesimi": "2025-08-29",
+   "favori_saha": "dep",
+   "favori": "Eintracht Frankfurt",
+   "rakip": "TSG 1899 Hoffenheim",
+   "P_favori": 0.5198,
+   "kategori": "50-60",
+   "sonuc": "A",
+   "etiket": "favori_kazandi",
+   "set_v1_tekrar": false
+  },
+  {
+   "yarisma": "it.1",
+   "sezon": "2023-24",
+   "tarih": "2024-04-27",
+   "ev": "SS Lazio",
+   "dep": "Hellas Verona FC",
+   "skor": [
+    1,
+    0
+   ],
+   "P": {
+    "H": 0.5893452177764552,
+    "D": 0.24574560396871056,
+    "A": 0.1649091782548345
+   },
+   "model": "Poisson (E ayarı)",
+   "egitim_kesimi": "2024-04-26",
+   "favori_saha": "ev",
+   "favori": "SS Lazio",
+   "rakip": "Hellas Verona FC",
+   "P_favori": 0.5893,
+   "kategori": "50-60",
+   "sonuc": "H",
+   "etiket": "favori_kazandi",
+   "set_v1_tekrar": false
+  }
+ ],
+ "notlar": [],
+ "kullanici_ornekleri": [
+  {
+   "yarisma": "uefa.cl",
+   "sezon": "2024-25",
+   "tarih": "2024-10-02",
+   "ev": "Lille OSC (FRA)",
+   "dep": "Real Madrid CF (ESP)",
+   "sonuc_kodu": "H",
+   "P": {
+    "H": 0.20501322053379423,
+    "D": 0.22354965078797673,
+    "A": 0.571437128678229
+   },
+   "model": "M1 ortak Elo",
+   "tur": "League, Matchday 2",
+   "favori_saha": "dep",
+   "favori": "Real Madrid CF (ESP)",
+   "rakip": "Lille OSC (FRA)",
+   "P_favori": 0.5714,
+   "kategori": "50-60",
+   "sonuc": "H",
+   "etiket": "favori_kaybetti"
+  },
+  {
+   "yarisma": "en.1",
+   "sezon": "2022-23",
+   "tarih": "2023-02-25",
+   "ev": "AFC Bournemouth",
+   "dep": "Manchester City FC",
+   "skor": [
+    1,
+    4
+   ],
+   "P": {
+    "H": 0.0650737366558134,
+    "D": 0.11984872157604977,
+    "A": 0.8150775417681366
+   },
+   "model": "Poisson (E ayarı)",
+   "egitim_kesimi": "2023-02-24",
+   "favori_saha": "dep",
+   "favori": "Manchester City FC",
+   "rakip": "AFC Bournemouth",
+   "P_favori": 0.8151,
+   "kategori": "80+",
+   "sonuc": "A",
+   "etiket": "favori_kazandi"
+  }
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "host": "www.realmadrid.com",
+ "kontrol_utc": "2026-11-25T17:22:33+00:00",
+ "robots_http": 200,
+ "robots_tum_site_yasak": false,
+ "robots_ai_ozel_satirlar": [],
+ "ana_http": 200,
+ "ana_son_url": "https://www.realmadrid.com/",
+ "baslik": "Real Madrid CF | Web Oficial",
+ "bot_engeli_isareti": false,
+ "metin_uzunlugu": 117204,
+ "kosul_adaylari": [
+  "https://www.realmadrid.com/es-ES/legal/aviso-legal",
+  "https://www.realmadrid.com/es-ES/legal/politica-de-privacidad",
+  "https://www.realmadrid.com/es-ES/legal/politica-de-cookies"
+ ],
+ "kosul_sayfalari": [
+  {
+   "url": "https://www.realmadrid.com/es-ES/legal/aviso-legal",
+   "http": 200,
+   "metin_uzunlugu": 25627,
+   "maddeler": [
+    " la Ley de Propiedad Intelectual, regularizando, aclarando y armonizando las disposiciones legales vigentes sobre la materia, quedan expresamente prohibidas la reproducción, la distribución y la comunicación pública, incluida su modalidad de puesta a disposición, de la totalidad o parte de los Contenidos, con fines comerciales, en cualquier soporte y por cualquier medio",
+    "ctadas a los servicios o incumplir los requisitos, procedimientos, políticas o regulaciones de redes conectadas a los servicios. tilizar secuencias de comandos automatizados o screen scraping para recopilar información o interactuar con REAL MADRID. Recuperar datos de forma sistemática o de otros contenidos de REAL MADRID para crear, directa o indirectamente, en descarga",
+    "o incumplir los requisitos, procedimientos, políticas o regulaciones de redes conectadas a los servicios. tilizar secuencias de comandos automatizados o screen scraping para recopilar información o interactuar con REAL MADRID. Recuperar datos de forma sistemática o de otros contenidos de REAL MADRID para crear, directa o indirectamente, en descargas individuales o m",
+    "formidad con lo dispuesto en la Cláusula Primera. Con carácter meramente enunciativo, el Usuario de acuerdo con la legislación vigente deberá abstenerse de: a) Reproducir, copiar, distribuir, poner a disposición, comunicar públicamente, transformar o modificar los Contenidos salvo en los casos autorizados en la Ley o expresamente consentidos por REAL MADRID por escrit",
+    "s autorizados en la Ley o expresamente consentidos por REAL MADRID por escrito o por quien ostente la titularidad de los derechos de explotación en su caso. b) Reproducir o copiar para uso privado los Contenidos que puedan ser considerados como software o base de datos de conformidad con la legislación vigente en materia de propiedad intelectual, así como su comunicac",
+    "te la titularidad de los derechos de explotación en su caso. b) Reproducir o copiar para uso privado los Contenidos que puedan ser considerados como software o base de datos de conformidad con la legislación vigente en materia de propiedad intelectual, así como su comunicación pública o puesta a disposición de terceros cuando estos actos impliquen necesariamente la repro"
+   ]
+  },
+  {
+   "url": "https://www.realmadrid.com/es-ES/legal/politica-de-privacidad",
+   "http": 200,
+   "metin_uzunlugu": 416936,
+   "maddeler": [
+    "s. A continuación, proporcionamos información detallada sobre cada uno de estos tratamientos de datos. En ningún caso llevamos a cabo decisiones exclusivamente automatizas ni perfilados que puedan afectarle gravemente y tampoco destinamos sus datos personales a finalidades ulteriores distintas a las reflejadas en este documento. ¿Quién es el Responsable del tratamiento",
+    " se ponga a su disposición incluso el alta a través de su perfil en redes sociales, o la contratación de productos y servicios, podrán ser objeto de decisiones automatizadas que tengan efectos jurídicos sobre su persona, así como la elaboración de perfiles, incluso mediante técnicas automáticas que utilicen los datos actuales, datos de navegación de cookies, históricos y",
+    "ción con las finalidades antes detalladas: Profesionales o firmas de asesoramiento legal, procuraduría, consultoría y/o auditoría. Proveedores de gestión de la base de datos de socios (altas, bajas, etc.), servicio de atención al socio, traducciones y envío de mensajería tanto física como electrónica. Compañías que proporcionan la captación, estructura y el almacenamient",
+    "roveedores para el almacenamiento de los datos, ventas de entradas, tramitación de altas, recuperaciones, comunicaciones, vídeo en streaming y la gestión de la base de datos de Madridistas. Proveedores encargados de la gestión de los sorteos y concursos. Publicaciones o plataformas de comunicación impresas y digitales. Empresas de consultoría y analítica de datos. Provee",
+    "b en la indicada finalidad perseguida. Sus datos no se utilizarán por parte del Real Madrid para ningún fin ulterior ni serán objeto de decisiones individuales automatizadas. Categoría y origen de los datos: Los datos suyos que tratamos son identificativos y de carácter laboral o profesional y de otro tipo (poderes de representación) y nos pueden haber sido facilitados p",
+    " de cualquier Sitio Web, Formulario Web o Aplicativo que se ponga a su disposición, o la contratación de productos y servicios, podrán ser objeto de decisiones automatizadas que tengan efectos jurídicos sobre su persona, así como la elaboración de perfiles, incluso mediante técnicas automáticas que utilicen los datos actuales, datos de navegación de cookies, históricos y"
+   ]
+  }
+ ]
+}

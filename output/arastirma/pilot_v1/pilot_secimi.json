@@ -1,0 +1,185 @@
+{
+ "kaynak_set": "output/arastirma/set_v1/arastirma_seti.json",
+ "kaynak_set_sha256": "954a74877439a392c24f446f284d89c9736c928ff8b3b89c328e68402a66f5e6",
+ "kural": "Her lig için A (favori kaybetti) ve B (berabere) gruplarının her birinden 1 sürpriz, tarih+ev sırasına göre dizilmiş adaylardan random.Random(int(set_sha256[:16],16)).choice ile seçilir; her sürprizin eşleştirilmiş kontrolü eklenir. Lig sırası en.1, de.1, es.1, it.1; grup sırası A, B. Seçim haber araştırmasından ÖNCE yapıldı ve donduruldu.",
+ "arastirma_kurali": "Sürpriz ve kontrol maçları aynı kontrol listesi ve aynı arama bütçesiyle araştırılır.",
+ "olusturma_utc": "2026-11-24T23:33:39+00:00",
+ "maclar": [
+  {
+   "pilot_id": "en.1-A-S",
+   "rol": "surpriz_A",
+   "lig": "en.1",
+   "tarih": "2023-12-09",
+   "ev": "Sheffield United FC",
+   "dep": "Brentford FC",
+   "favori": "Brentford FC",
+   "favori_saha": "deplasman",
+   "dc_favori_kazanir": 0.711
+  },
+  {
+   "pilot_id": "en.1-A-K",
+   "rol": "kontrol",
+   "lig": "en.1",
+   "tarih": "2024-05-19",
+   "ev": "Sheffield United FC",
+   "dep": "Tottenham Hotspur FC",
+   "favori": "Tottenham Hotspur FC",
+   "favori_saha": "deplasman",
+   "dc_favori_kazanir": 0.7132
+  },
+  {
+   "pilot_id": "en.1-B-S",
+   "rol": "surpriz_B",
+   "lig": "en.1",
+   "tarih": "2022-10-18",
+   "ev": "Brighton & Hove Albion FC",
+   "dep": "Nottingham Forest FC",
+   "favori": "Brighton & Hove Albion FC",
+   "favori_saha": "ev",
+   "dc_favori_kazanir": 0.7193
+  },
+  {
+   "pilot_id": "en.1-B-K",
+   "rol": "kontrol",
+   "lig": "en.1",
+   "tarih": "2022-12-27",
+   "ev": "Manchester United FC",
+   "dep": "Nottingham Forest FC",
+   "favori": "Manchester United FC",
+   "favori_saha": "ev",
+   "dc_favori_kazanir": 0.7166
+  },
+  {
+   "pilot_id": "de.1-A-S",
+   "rol": "surpriz_A",
+   "lig": "de.1",
+   "tarih": "2026-02-28",
+   "ev": "TSG 1899 Hoffenheim",
+   "dep": "FC St. Pauli 1910",
+   "favori": "TSG 1899 Hoffenheim",
+   "favori_saha": "ev",
+   "dc_favori_kazanir": 0.6207
+  },
+  {
+   "pilot_id": "de.1-A-K",
+   "rol": "kontrol",
+   "lig": "de.1",
+   "tarih": "2025-12-13",
+   "ev": "Eintracht Frankfurt",
+   "dep": "FC Augsburg",
+   "favori": "Eintracht Frankfurt",
+   "favori_saha": "ev",
+   "dc_favori_kazanir": 0.5948
+  },
+  {
+   "pilot_id": "de.1-B-S",
+   "rol": "surpriz_B",
+   "lig": "de.1",
+   "tarih": "2023-11-25",
+   "ev": "SC Freiburg",
+   "dep": "SV Darmstadt 98",
+   "favori": "SC Freiburg",
+   "favori_saha": "ev",
+   "dc_favori_kazanir": 0.7367
+  },
+  {
+   "pilot_id": "de.1-B-K",
+   "rol": "kontrol",
+   "lig": "de.1",
+   "tarih": "2024-03-10",
+   "ev": "Bayer 04 Leverkusen",
+   "dep": "VfL Wolfsburg",
+   "favori": "Bayer 04 Leverkusen",
+   "favori_saha": "ev",
+   "dc_favori_kazanir": 0.7368
+  },
+  {
+   "pilot_id": "es.1-A-S",
+   "rol": "surpriz_A",
+   "lig": "es.1",
+   "tarih": "2024-12-15",
+   "ev": "FC Barcelona",
+   "dep": "CD Leganés",
+   "favori": "FC Barcelona",
+   "favori_saha": "ev",
+   "dc_favori_kazanir": 0.8477
+  },
+  {
+   "pilot_id": "es.1-A-K",
+   "rol": "kontrol",
+   "lig": "es.1",
+   "tarih": "2024-08-25",
+   "ev": "Real Madrid CF",
+   "dep": "Real Valladolid CF",
+   "favori": "Real Madrid CF",
+   "favori_saha": "ev",
+   "dc_favori_kazanir": 0.8347
+  },
+  {
+   "pilot_id": "es.1-B-S",
+   "rol": "surpriz_B",
+   "lig": "es.1",
+   "tarih": "2025-03-30",
+   "ev": "Athletic Club",
+   "dep": "CA Osasuna",
+   "favori": "Athletic Club",
+   "favori_saha": "ev",
+   "dc_favori_kazanir": 0.6474
+  },
+  {
+   "pilot_id": "es.1-B-K",
+   "rol": "kontrol",
+   "lig": "es.1",
+   "tarih": "2024-11-02",
+   "ev": "CA Osasuna",
+   "dep": "Real Valladolid CF",
+   "favori": "CA Osasuna",
+   "favori_saha": "ev",
+   "dc_favori_kazanir": 0.6465
+  },
+  {
+   "pilot_id": "it.1-A-S",
+   "rol": "surpriz_A",
+   "lig": "it.1",
+   "tarih": "2022-10-30",
+   "ev": "SS Lazio",
+   "dep": "US Salernitana 1919",
+   "favori": "SS Lazio",
+   "favori_saha": "ev",
+   "dc_favori_kazanir": 0.7574
+  },
+  {
+   "pilot_id": "it.1-A-K",
+   "rol": "kontrol",
+   "lig": "it.1",
+   "tarih": "2022-08-30",
+   "ev": "AS Roma",
+   "dep": "AC Monza",
+   "favori": "AS Roma",
+   "favori_saha": "ev",
+   "dc_favori_kazanir": 0.752
+  },
+  {
+   "pilot_id": "it.1-B-S",
+   "rol": "surpriz_B",
+   "lig": "it.1",
+   "tarih": "2024-05-12",
+   "ev": "Juventus FC",
+   "dep": "US Salernitana 1919",
+   "favori": "Juventus FC",
+   "favori_saha": "ev",
+   "dc_favori_kazanir": 0.7506
+  },
+  {
+   "pilot_id": "it.1-B-K",
+   "rol": "kontrol",
+   "lig": "it.1",
+   "tarih": "2023-08-27",
+   "ev": "SSC Napoli",
+   "dep": "US Sassuolo Calcio",
+   "favori": "SSC Napoli",
+   "favori_saha": "ev",
+   "dc_favori_kazanir": 0.7552
+  }
+ ]
+}

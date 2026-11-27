@@ -1,0 +1,29 @@
+{
+ "host": "www.fcbarcelona.es",
+ "kontrol_utc": "2026-11-25T17:22:38+00:00",
+ "robots_http": 200,
+ "robots_tum_site_yasak": false,
+ "robots_ai_ozel_satirlar": [],
+ "ana_http": 200,
+ "ana_son_url": "https://www.fcbarcelona.es/es/",
+ "baslik": "Web Oficial del FC Barcelona",
+ "bot_engeli_isareti": false,
+ "metin_uzunlugu": 15557,
+ "kosul_adaylari": [
+  "https://www.fcbarcelona.es/es/aviso-legal"
+ ],
+ "kosul_sayfalari": [
+  {
+   "url": "https://www.fcbarcelona.es/es/aviso-legal",
+   "http": 200,
+   "metin_uzunlugu": 21043,
+   "maddeler": [
+    " Industrial. La PERSONA USUARIA únicamente tiene derecho a un uso privado de los mismos, sin ánimo de lucro, y necesita autorización expresa para modificarlos, reproducirlos, explotarlos, distribuirlos o ejercer cualquier derecho perteneciente a su titular. FC BARCELONA es una marca registrada y está prohibida su reproducción, imitación, utilización o inserción de estas ",
+    "los, reproducirlos, explotarlos, distribuirlos o ejercer cualquier derecho perteneciente a su titular. FC BARCELONA es una marca registrada y está prohibida su reproducción, imitación, utilización o inserción de estas marcas sin la debida autorización del FC BARCELONA.. El establecimiento de enlaces a nuestro portal no confiere ningún derecho sobre el mismo. Asimismo, e",
+    "obre nuestro portal que origine una excesiva sobrecarga de funcionamiento a nuestros sistemas informáticos, así como la introducción de virus, o instalación de robots, o software que altere el normal funcionamiento de nuestra web, o en definitiva pueda causar daños a nuestros sistemas informáticos. No reproducir de ninguna manera, ni siquiera mediante un hiperenla",
+    "o instalación de robots, o software que altere el normal funcionamiento de nuestra web, o en definitiva pueda causar daños a nuestros sistemas informáticos. No reproducir de ninguna manera, ni siquiera mediante un hiperenlace, la web del FC BARCELONA ni ninguno de sus contenidos, si no es con autorización expresa, escrita y conferida por persona del FC BARCELONA con s",
+    "mecanismos de información que puedan contener los contenidos. No alterar, reprogramar, modificar, adaptar ni traducir el código fuente de esta página web. Toda reproducción parcial o total del código fuente de la página web en cualquier soporte y por cualquier razón se considerará una copia no autorizada. No introducir, almacenar o difundir, en la web o desde ésta, cual"
+   ]
+  }
+ ]
+}

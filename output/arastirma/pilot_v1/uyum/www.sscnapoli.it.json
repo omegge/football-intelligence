@@ -1,0 +1,34 @@
+{
+ "host": "www.sscnapoli.it",
+ "kontrol_utc": "2026-11-25T17:23:28+00:00",
+ "robots_http": 200,
+ "robots_tum_site_yasak": false,
+ "robots_ai_ozel_satirlar": [],
+ "ana_http": 200,
+ "ana_son_url": "https://sscnapoli.it/",
+ "baslik": "SSC Napoli | Sito ufficiale",
+ "bot_engeli_isareti": false,
+ "metin_uzunlugu": 4974,
+ "kosul_adaylari": [
+  "https://sscnapoli.it/termini-di-servizio",
+  "https://sscnapoli.it/tutti-i-link-privacy",
+  "https://sscnapoli.it/privacy-policy",
+  "https://sscnapoli.it/cookie-policy"
+ ],
+ "kosul_sayfalari": [
+  {
+   "url": "https://sscnapoli.it/termini-di-servizio",
+   "http": 200,
+   "metin_uzunlugu": 14244,
+   "maddeler": [
+    " vietato ogni utilizzo per attività professionali svolte in proprio o a favore di terzi. 5.3 È vietato: creare Account o accedere ai Servizi mediante strumenti automatici; aggirare le limitazioni di accesso ai contenuti riservati; accedere o tentare di accedere ad Account altrui. SSC Napoli si riserva la facoltà di limitare le registrazioni e i tentativi di accesso ri"
+   ]
+  },
+  {
+   "url": "https://sscnapoli.it/tutti-i-link-privacy",
+   "http": 200,
+   "metin_uzunlugu": 1575,
+   "maddeler": []
+  }
+ ]
+}

@@ -1,0 +1,108 @@
+{
+ "durumlar": [
+  {
+   "aciklama": "FC Twente: Twente'nin resmî sitesi (fctwente.nl) ve Hollanda basını (ör. tubantia.nl, nos.nl) izin listesinde değil; www.uefa.com kayıtsız (uyum taraması yok)",
+   "durum": "kaynak_yok",
+   "host": null,
+   "kategori": "kadro",
+   "mac_id": "nesine:3326598",
+   "url": null
+  },
+  {
+   "aciklama": "FC Twente: Twente'nin resmî sitesi (fctwente.nl) ve Hollanda basını (ör. tubantia.nl, nos.nl) izin listesinde değil; www.uefa.com kayıtsız (uyum taraması yok)",
+   "durum": "kaynak_yok",
+   "host": null,
+   "kategori": "sakatlik",
+   "mac_id": "nesine:3326598",
+   "url": null
+  },
+  {
+   "aciklama": "FC Twente: Twente'nin resmî sitesi (fctwente.nl) ve Hollanda basını (ör. tubantia.nl, nos.nl) izin listesinde değil; www.uefa.com kayıtsız (uyum taraması yok)",
+   "durum": "kaynak_yok",
+   "host": null,
+   "kategori": "ceza",
+   "mac_id": "nesine:3326598",
+   "url": null
+  },
+  {
+   "aciklama": "FC Twente: Twente'nin resmî sitesi (fctwente.nl) ve Hollanda basını (ör. tubantia.nl, nos.nl) izin listesinde değil; www.uefa.com kayıtsız (uyum taraması yok)",
+   "durum": "kaynak_yok",
+   "host": null,
+   "kategori": "td_aciklama",
+   "mac_id": "nesine:3326598",
+   "url": null
+  },
+  {
+   "aciklama": "SC Freiburg: önizlemede sakat/cezalı adı yok, 'bütün oyuncular hazır' (kadro kanıtı)",
+   "durum": "aranip_bulunamadi",
+   "host": "www.scfreiburg.com",
+   "kategori": "sakatlik",
+   "mac_id": "nesine:3326598",
+   "url": "https://www.scfreiburg.com/aktuell/nachrichten/maenner/vorberichte/2026/27/elversberg-kann-hilfreich-sein"
+  },
+  {
+   "aciklama": "SC Freiburg: cezalı bilgisi yok; 'bütün oyuncular hazır'",
+   "durum": "aranip_bulunamadi",
+   "host": "www.scfreiburg.com",
+   "kategori": "ceza",
+   "mac_id": "nesine:3326598",
+   "url": "https://www.scfreiburg.com/aktuell/nachrichten/maenner/vorberichte/2026/27/elversberg-kann-hilfreich-sein"
+  },
+  {
+   "aciklama": "SC Freiburg basın toplantısı yalnızca video (25.11.2026); metni okunamadı — açıklamalar önizlemeden alındı",
+   "durum": "dogrulanamadi",
+   "host": "www.scfreiburg.com",
+   "kategori": "td_aciklama",
+   "mac_id": "nesine:3326598",
+   "url": "https://www.scfreiburg.com/aktuell/sc-freiburg-tv/alle-videos/detailseite/20261125-pk-vor-twente-hp-ytmp4-7527"
+  },
+  {
+   "aciklama": "Arama özeti 'wollen-kraft-aus-der-atmosphaere-ziehen' sayfasını Twente önizlemesi sandı; sayfa başka (Türk rakip, deplasman) maçına ait ve tarihsiz",
+   "durum": "arama_ozeti_kanit_degil",
+   "host": "www.scfreiburg.com",
+   "kategori": "taktik",
+   "mac_id": "nesine:3326598",
+   "url": "https://www.scfreiburg.com/aktuell/nachrichten/maenner/vorberichte/2026/27/wollen-kraft-aus-der-atmosphaere-ziehen"
+  },
+  {
+   "aciklama": "Fikstür istatistik dosyasında (Wikipedia): Freiburg 29.11 RB Leipzig (3 gün sonra); Twente 28.11 NEC (2 gün), 02.12 kupa. Freiburg'un UECL maçları Wikipedia maddesinde yok",
+   "durum": "aranip_bulunamadi",
+   "host": null,
+   "kategori": "fikstur",
+   "mac_id": "nesine:3326598",
+   "url": null
+  },
+  {
+   "aciklama": "Ayrı bölümde; model favorisi belirlenemediği için (olasılık hesaplanamaz) karşı senaryo iki taraf için nitel",
+   "durum": "aranip_bulunamadi",
+   "host": null,
+   "kategori": "karsi_senaryo",
+   "mac_id": "nesine:3326598",
+   "url": null
+  }
+ ],
+ "etiket": "GÜNCEL — maç öncesi; tahmin haberden önce donduruldu",
+ "kanit_ozeti": {
+  "dogrulama": {
+   "resmi": 3,
+   "tek_kaynak": 1
+  },
+  "konu": {
+   "kadro": 1,
+   "motivasyon": 1,
+   "rotasyon": 1,
+   "taktik": 1
+  },
+  "toplam": 4
+ },
+ "maclar": {
+  "nesine:3326598": {
+   "aranmadi": [],
+   "baslama_utc": "2026-11-26T20:00:00+00:00",
+   "kesim_zamani": "2026-11-25T23:45:19+00:00"
+  }
+ },
+ "mod": "guncel",
+ "olusturma_utc": "2026-11-25T23:45:19+00:00",
+ "tahmin_sha256": "f00a01eee0f20b4f700c36cfc9e0e428fa025089691c59142751931b998d4c89"
+}

@@ -1,0 +1,97 @@
+{
+ "mac": {
+  "mac_id": "pilot_genis:fdorg-ELC-SOU-MID",
+  "karsilasma": "Southampton FC - Middlesbrough FC",
+  "lig": "İngiltere Championship (en.2; lig eşlemesi ONAYSIZ)",
+  "baslama_utc": "2026-11-27T20:00:00+00:00",
+  "baslama_tr": "2026-11-27T23:00:00+03:00"
+ },
+ "1_dogrulanmis_son_dakika": [],
+ "2_dogrulanamayan_veya_celiskili": [
+  {
+   "konu": "sakatlik",
+   "takim": "dep",
+   "kisi": "Forss / McGree",
+   "dogrulama": "dogrulanmadi",
+   "durumlar": [],
+   "son_durum": null,
+   "zincir_sayisi": 1,
+   "zincirler": {
+    "www.gazettelive.co.uk": [
+     "https://www.gazettelive.co.uk/sport/football/football-news/middlesbrough-predicted-team-vs-southampton-28899239"
+    ]
+   },
+   "kopya_sayisi": 0,
+   "dislanan": [
+    {
+     "url": "gazettelive",
+     "neden": "tarih_yok"
+    }
+   ],
+   "nicel_etki": "hesaplanamaz"
+  }
+ ],
+ "3_basin_gorusleri": [],
+ "4_analist_senaryolari": {
+  "yonler": {},
+  "gorusler": [],
+  "gorus_ayriligi": false,
+  "not": "Dış görüşler ve yüzdeleri KARANTİNADA; model girdisi değildir."
+ },
+ "5_bagimsiz_model": {
+  "durum": "hesaplanamaz",
+  "nedenler": [
+   "lig_eslemesi_onayli: 'İngiltere Championship' → en.2 kullanıcı onayı bekliyor (simülasyonda bütün diğer kriterler geçti)"
+  ]
+ },
+ "6_hesaplanamayan_marketler": "bütün marketler (model yok)",
+ "7_model_analist_farki": [],
+ "8_en_onemli_surpriz_sinyali": {
+  "favori": null,
+  "favori_kaynagi": "bağımsız model 1X2 olasılığı yok → favori bağımsız olarak belirlenemedi (oranlarla belirlenmez)",
+  "sinyal": null,
+  "not": "favori bağımsız modelle belirlenemedi"
+ },
+ "9_fiyat_karsilastirmasi": {
+  "durum": "yapılmadı",
+  "neden": "donmuş bağımsız tahmin ya da sonradan alınmış bülten yok"
+ },
+ "10_son_arastirma_ve_kaynaklar": {
+  "son_arastirma_utc": "2026-11-26T17:21:50+00:00",
+  "turlar": [
+   "diger"
+  ],
+  "arama_gunlugu": [
+   {
+    "arac": "web arama (sayfa açılmadı)",
+    "sonuc": "bu maça ait güncel kayıt yok; sonuçlar 2023–2026 başka karşılaşmalar",
+    "sorgu": "Southampton v Middlesbrough team news injuries November 2026",
+    "tur": "diger",
+    "utc": "2026-11-26T17:21:50+00:00"
+   },
+   {
+    "arac": "web arama (sayfa açılmadı)",
+    "sonuc": "bu tarihe ait önizleme yok; Mayıs 2026 play-off önizlemeleri (eski)",
+    "sorgu": "Southampton Middlesbrough preview prediction Championship 27 November 2026",
+    "tur": "diger",
+    "utc": "2026-11-26T17:21:50+00:00"
+   },
+   {
+    "arac": "web arama (sayfa açılmadı)",
+    "sonuc": "Gazette Live'da tarihsiz 'Forss/McGree' güncellemesi; içerik ve tarih doğrulanamadı",
+    "sorgu": "Middlesbrough injury news Gazette Live Southampton away",
+    "tur": "diger",
+    "utc": "2026-11-26T17:21:50+00:00"
+   },
+   {
+    "arac": "web arama (sayfa açılmadı)",
+    "sonuc": "güncel basın toplantısı yok; eski sezonlar",
+    "sorgu": "Southampton manager press conference Middlesbrough Daily Echo",
+    "tur": "diger",
+    "utc": "2026-11-26T17:21:50+00:00"
+   }
+  ],
+  "tur_degisimleri": [],
+  "baglantilar": []
+ }
+}

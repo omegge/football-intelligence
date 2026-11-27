@@ -1,0 +1,21 @@
+{
+ "host": "www.kicker.de",
+ "kontrol_utc": "2026-11-25T17:23:49+00:00",
+ "robots_http": 200,
+ "robots_tum_site_yasak": false,
+ "robots_ai_ozel_satirlar": [
+  "ChatGPT-User",
+  "Claude-SearchBot",
+  "Claude-Web",
+  "ClaudeBot",
+  "GPTBot",
+  "anthropic-ai"
+ ],
+ "ana_http": 403,
+ "ana_son_url": "https://www.kicker.de/",
+ "baslik": null,
+ "bot_engeli_isareti": false,
+ "metin_uzunlugu": 0,
+ "kosul_adaylari": [],
+ "kosul_sayfalari": []
+}

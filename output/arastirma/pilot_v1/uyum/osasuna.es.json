@@ -1,0 +1,26 @@
+{
+ "host": "osasuna.es",
+ "kontrol_utc": "2026-11-25T17:22:56+00:00",
+ "robots_http": 200,
+ "robots_tum_site_yasak": false,
+ "robots_ai_ozel_satirlar": [],
+ "ana_http": 200,
+ "ana_son_url": "https://www.osasuna.es/",
+ "baslik": "Web Oficial - Osasuna",
+ "bot_engeli_isareti": false,
+ "metin_uzunlugu": 10239,
+ "kosul_adaylari": [
+  "https://www.osasuna.es/aviso-legal"
+ ],
+ "kosul_sayfalari": [
+  {
+   "url": "https://www.osasuna.es/aviso-legal",
+   "http": 200,
+   "metin_uzunlugu": 11370,
+   "maddeler": [
+    "propiedad intelectual sobre el contenido pertenecen a CLUB ATLÉTICO OSASUNA o a terceros que han autorizado debidamente su uso. Queda expresamente prohibida la reproducción total o parcial, uso, explotación, distribución y comercialización sin autorización expresa y por escrito del titular. Cualquier uso no autorizado será considerado un incumplimiento grave de los dere",
+    " o industrial, así como violar la confidencialidad de la información del propietario de la web o de terceros. Suplantar la identidad de cualquier otro usuario. Reproducir, copiar, distribuir, poner a disposición de, o cualquier otra forma de comunicación pública, transformar o modificar los contenidos, a menos que se cuente con la autorización del titular de los corre"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "host": "www.scfreiburg.com",
+ "kontrol_utc": "2026-11-25T17:21:26+00:00",
+ "robots_http": 200,
+ "robots_tum_site_yasak": false,
+ "robots_ai_ozel_satirlar": [],
+ "ana_http": 200,
+ "ana_son_url": "https://www.scfreiburg.com/",
+ "baslik": "SC Freiburg | Die offizielle Website",
+ "bot_engeli_isareti": false,
+ "metin_uzunlugu": 12792,
+ "kosul_adaylari": [
+  "https://www.scfreiburg.com/impressum/",
+  "https://www.scfreiburg.com/agb/"
+ ],
+ "kosul_sayfalari": [
+  {
+   "url": "https://www.scfreiburg.com/impressum/",
+   "http": 200,
+   "metin_uzunlugu": 9161,
+   "maddeler": []
+  },
+  {
+   "url": "https://www.scfreiburg.com/agb/",
+   "http": 200,
+   "metin_uzunlugu": 7984,
+   "maddeler": []
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "host": "www.realvalladolid.es",
+ "kontrol_utc": "2026-11-25T17:22:51+00:00",
+ "robots_http": 200,
+ "robots_tum_site_yasak": false,
+ "robots_ai_ozel_satirlar": [],
+ "ana_http": 200,
+ "ana_son_url": "https://www.realvalladolid.es/",
+ "baslik": "Real Valladolid CF | Web Oficial",
+ "bot_engeli_isareti": false,
+ "metin_uzunlugu": 1894,
+ "kosul_adaylari": [
+  "https://www.realvalladolid.es/aviso-legal"
+ ],
+ "kosul_sayfalari": [
+  {
+   "url": "https://www.realvalladolid.es/aviso-legal",
+   "http": 200,
+   "metin_uzunlugu": 6932,
+   "maddeler": [
+    " se encuentran debidamente protegidos por la normativa de propiedad intelectual e industrial, así como inscritos en los registros públicos correspondientes. La reproducción total o parcial, uso, explotación distribución y comercialización de contenidos del presente sitio web requiere, en todo caso, de la autorización escrita previa por parte de REAL VALLADOLID C.F., S.A"
+   ]
+  }
+ ]
+}

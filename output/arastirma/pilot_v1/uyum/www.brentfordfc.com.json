@@ -1,0 +1,46 @@
+{
+ "host": "www.brentfordfc.com",
+ "kontrol_utc": "2026-11-25T17:21:06+00:00",
+ "robots_http": 200,
+ "robots_tum_site_yasak": false,
+ "robots_ai_ozel_satirlar": [],
+ "ana_http": 200,
+ "ana_son_url": "https://www.brentfordfc.com/en",
+ "baslik": "Brentford FC | Official Website, News, Fixtures & Tickets",
+ "bot_engeli_isareti": false,
+ "metin_uzunlugu": 11271,
+ "kosul_adaylari": [
+  "https://www.brentfordfc.com/en/terms-and-conditions",
+  "https://www.brentfordfc.com/en/terms-of-use",
+  "https://www.brentfordfc.com/en/privacy-policy",
+  "https://www.brentfordfc.com/en/cookie-policy"
+ ],
+ "kosul_sayfalari": [
+  {
+   "url": "https://www.brentfordfc.com/en/terms-and-conditions",
+   "http": 200,
+   "metin_uzunlugu": 231613,
+   "maddeler": [
+    "ive a 'yellow card' from the Club for each game where their Season Ticket is not 'used'. Season Ticket Holders with four or more 'yellow cards' will lose their automatic opportunity to renew for the 2026/27 season. An appeals process will be in place which is outlined on the Club's website. 4.9 Except as provided by clause 4.10 below, you may not use any equipment to",
+    "e mobile phones (including those which incorporate audio and/or video recording) at the Ground, provided that any recordings are for your personal, private and non-commercial use, for the avoidance of doubt the uploading of such material to social media platforms is prohibited. 4.11 You shall not use or display within the Ground any sponsorship, promotional or other “ambu",
+    "mbush” marketing materials with the purpose of promoting a third party’s brand. 4.12 You shall not offer or distribute (free or for sale) within the Ground any commercial product. 4.13 Without prejudice to the representation at clause 9.1 below, in accordance with the Contract (Rights of Third Parties) Act 1999, any member club of the Premier League from time to time ",
+    "er reserves its right to take any legal action as it sees fit in connection with such matters, including a claim for an account of profits from an unauthorised commercial use of the Season Ticket. 5.7 The Club reserves the right not to renew a Season Ticket for any reason. Lost or Stolen Season Tickets 6 6.1 In order to gain admission to the Ground, your Season Ticket",
+    " example only, shall not include the capturing, logging, recording, transmitting, playing, issuing, showing, or any other communication of any Material for any commercial purposes); and (ii) no Material that is captured, logged, recorded, transmitted, played, issued, shown or otherwise communicated by a mobile telephone or other mobile device may be published or other",
+    "uring, logging, recording, transmitting, playing, issuing, showing or otherwise communicating (by digital or other means) any such Material. 23. The copyright, database rights and any other intellectual property rights, title and interest in and to all Material that you produce at the Ground in relation to the Match, any players or other persons present in the Groun"
+   ]
+  },
+  {
+   "url": "https://www.brentfordfc.com/en/terms-of-use",
+   "http": 200,
+   "metin_uzunlugu": 17552,
+   "maddeler": [
+    "n any website linked to it. 2. CHILDREN 2.1. We realise and understand that children and young people may visit the Site, or otherwise interact with Us and our commercial partners. All minors must have the permission of their parents or legal guardian before submitting or requesting any content or information to/from us, our commercial partners or other third parties,",
+    "ial partners. All minors must have the permission of their parents or legal guardian before submitting or requesting any content or information to/from us, our commercial partners or other third parties, or before buying anything through the Site. Details as to Our use of information relating to children is available in the Privacy Policy. 2.2. We may ask Users to con",
+    "ious or technologically harmful. Nor may You attempt to gain unauthorised access to the Site, the server on which the Site is stored or any server, computer or database connected to the Site, or attack the Site via a denial-of-service attack or a distributed denial-of service attack. By breaching this provision, You may commit a criminal offence under the Computer M",
+    "isation; 5.3.3. contain viruses, trojans, worms, logic bombs or other material which is malicious or technologically harmful; 5.3.4. be contributed or sent for commercial gain (including ‘spam’); 5.3.5. otherwise be illegal or promote illegal activity. 5.4. We do not monitor Contributions but reserve the right to do so from time to time including (amongst other things",
+    "aterials, the selection and arrangement thereof and software, but excluding Contributions (“Site Material”) are owned by Us and/or Our respective licensors and commercial partners and are protected by copyright, design right, database right, trade mark rights and other intellectual property rights. All such rights are reserved. 8.2. Permission is granted to You to vie",
+    "excluding Contributions (“Site Material”) are owned by Us and/or Our respective licensors and commercial partners and are protected by copyright, design right, database right, trade mark rights and other intellectual property rights. All such rights are reserved. 8.2. Permission is granted to You to view the Site Materials on a single personal computer or other devi"
+   ]
+  }
+ ]
+}

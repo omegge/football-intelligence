@@ -1,0 +1,2712 @@
+{
+ "klasor": "bulten_20261123_223659",
+ "cekim_tr": "2026-11-23T22:36:59+03:00",
+ "cekim_utc": "2026-11-23T19:36:59+00:00",
+ "ham_sha256": "0a607306a191946a320ef19119c5f5fbaf13a88d1e7f2cc7dcaa4fc08b6b08b9",
+ "pencere_tr": null,
+ "mac": 300,
+ "market": 13113,
+ "secenek": 60608,
+ "maclar": [
+  {
+   "kod": 3253412,
+   "lig": null,
+   "lig_kodu": 149,
+   "ev": "Rangers",
+   "deplasman": "Aberdeen",
+   "baslama_tr": "2026-11-24T23:00:00+03:00",
+   "market_sayisi": 53
+  },
+  {
+   "kod": 3276657,
+   "lig": null,
+   "lig_kodu": 2667,
+   "ev": "Hitchin Town",
+   "deplasman": "Worcester City",
+   "baslama_tr": "2026-11-24T22:45:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3304789,
+   "lig": null,
+   "lig_kodu": 48386,
+   "ev": "Coquimbo U.",
+   "deplasman": "D. Union La Calera",
+   "baslama_tr": "2026-11-25T01:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3314155,
+   "lig": null,
+   "lig_kodu": 1310,
+   "ev": "Orleans",
+   "deplasman": "Thionville Lusitanos",
+   "baslama_tr": "2026-11-23T22:45:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3318177,
+   "lig": null,
+   "lig_kodu": 10276,
+   "ev": "Internacional",
+   "deplasman": "Vitoria BA",
+   "baslama_tr": "2026-11-24T01:30:00+03:00",
+   "market_sayisi": 87
+  },
+  {
+   "kod": 3318206,
+   "lig": null,
+   "lig_kodu": 10276,
+   "ev": "Atl Mineiro",
+   "deplasman": "Corinthians",
+   "baslama_tr": "2026-11-26T02:00:00+03:00",
+   "market_sayisi": 56
+  },
+  {
+   "kod": 3318357,
+   "lig": null,
+   "lig_kodu": 10096,
+   "ev": "US Grosseto",
+   "deplasman": "Monterosi T.",
+   "baslama_tr": "2026-11-23T22:30:00+03:00",
+   "market_sayisi": 34
+  },
+  {
+   "kod": 3318419,
+   "lig": null,
+   "lig_kodu": 16681,
+   "ev": "Alajuelense",
+   "deplasman": "CS Cartagines",
+   "baslama_tr": "2026-11-24T05:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3318476,
+   "lig": null,
+   "lig_kodu": 10276,
+   "ev": "Botafogo RJ",
+   "deplasman": "Sao Paulo SP",
+   "baslama_tr": "2026-11-24T02:00:00+03:00",
+   "market_sayisi": 84
+  },
+  {
+   "kod": 3318557,
+   "lig": null,
+   "lig_kodu": 143,
+   "ev": "AC Monza",
+   "deplasman": "Fiorentina",
+   "baslama_tr": "2026-11-23T22:45:00+03:00",
+   "market_sayisi": 99
+  },
+  {
+   "kod": 3318644,
+   "lig": null,
+   "lig_kodu": 10096,
+   "ev": "C. Lecco",
+   "deplasman": "AC Lumezzane",
+   "baslama_tr": "2026-11-23T22:45:00+03:00",
+   "market_sayisi": 36
+  },
+  {
+   "kod": 3318650,
+   "lig": null,
+   "lig_kodu": 140,
+   "ev": "Chelmsford C.",
+   "deplasman": "Maidst. Utd",
+   "baslama_tr": "2026-11-23T22:45:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3318675,
+   "lig": null,
+   "lig_kodu": 5576,
+   "ev": "AL Raed",
+   "deplasman": "AL Akhdood",
+   "baslama_tr": "2026-11-24T15:15:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3318724,
+   "lig": null,
+   "lig_kodu": 1951,
+   "ev": "AD Ceuta",
+   "deplasman": "Almeria",
+   "baslama_tr": "2026-11-23T22:30:00+03:00",
+   "market_sayisi": 83
+  },
+  {
+   "kod": 3318905,
+   "lig": null,
+   "lig_kodu": 43,
+   "ev": "Brentford",
+   "deplasman": "Everton",
+   "baslama_tr": "2026-11-23T23:00:00+03:00",
+   "market_sayisi": 99
+  },
+  {
+   "kod": 3318944,
+   "lig": null,
+   "lig_kodu": 20546,
+   "ev": "U. de Vinto",
+   "deplasman": "GV San Jose",
+   "baslama_tr": "2026-11-24T00:15:00+03:00",
+   "market_sayisi": 18
+  },
+  {
+   "kod": 3318962,
+   "lig": null,
+   "lig_kodu": 129,
+   "ev": "Levante",
+   "deplasman": "Elche",
+   "baslama_tr": "2026-11-23T23:00:00+03:00",
+   "market_sayisi": 102
+  },
+  {
+   "kod": 3319211,
+   "lig": null,
+   "lig_kodu": 5591,
+   "ev": "Tru Juice",
+   "deplasman": "Dunbeholden",
+   "baslama_tr": "2026-11-24T01:05:00+03:00",
+   "market_sayisi": 20
+  },
+  {
+   "kod": 3319333,
+   "lig": null,
+   "lig_kodu": 614,
+   "ev": "Sochaux",
+   "deplasman": "Dunkerque",
+   "baslama_tr": "2026-11-23T22:45:00+03:00",
+   "market_sayisi": 59
+  },
+  {
+   "kod": 3319336,
+   "lig": null,
+   "lig_kodu": 10276,
+   "ev": "Santos SP",
+   "deplasman": "Gremio P.",
+   "baslama_tr": "2026-11-24T03:00:00+03:00",
+   "market_sayisi": 84
+  },
+  {
+   "kod": 3321767,
+   "lig": null,
+   "lig_kodu": 78382,
+   "ev": "Portimonense U23",
+   "deplasman": "Estrela A. U23",
+   "baslama_tr": "2026-11-24T18:00:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3321770,
+   "lig": null,
+   "lig_kodu": 10066,
+   "ev": "Feyenoord U19",
+   "deplasman": "Porto U19",
+   "baslama_tr": "2026-11-24T18:00:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3321773,
+   "lig": null,
+   "lig_kodu": 10069,
+   "ev": "Akhmat Grozny",
+   "deplasman": "Krasnodar",
+   "baslama_tr": "2026-11-25T18:00:00+03:00",
+   "market_sayisi": 42
+  },
+  {
+   "kod": 3321780,
+   "lig": null,
+   "lig_kodu": 46260,
+   "ev": "Al Ahli Dubai",
+   "deplasman": "AL Qadisiyah",
+   "baslama_tr": "2026-11-24T19:00:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3321782,
+   "lig": null,
+   "lig_kodu": 10066,
+   "ev": "Real Madrid U19",
+   "deplasman": "PSV U19",
+   "baslama_tr": "2026-11-24T18:00:00+03:00",
+   "market_sayisi": 34
+  },
+  {
+   "kod": 3321786,
+   "lig": null,
+   "lig_kodu": 10069,
+   "ev": "Zenit",
+   "deplasman": "Krylia Sovetov",
+   "baslama_tr": "2026-11-24T19:30:00+03:00",
+   "market_sayisi": 41
+  },
+  {
+   "kod": 3321795,
+   "lig": null,
+   "lig_kodu": 10069,
+   "ev": "Rubin Kazan",
+   "deplasman": "Rodina Moscow",
+   "baslama_tr": "2026-11-25T20:30:00+03:00",
+   "market_sayisi": 41
+  },
+  {
+   "kod": 3321798,
+   "lig": null,
+   "lig_kodu": 1273,
+   "ev": "ZED",
+   "deplasman": "ABO Qair Semads",
+   "baslama_tr": "2026-11-24T18:00:00+03:00",
+   "market_sayisi": 41
+  },
+  {
+   "kod": 3321801,
+   "lig": null,
+   "lig_kodu": 46311,
+   "ev": "Ratchaburi",
+   "deplasman": "Johor Darul",
+   "baslama_tr": "2026-11-24T15:15:00+03:00",
+   "market_sayisi": 69
+  },
+  {
+   "kod": 3321803,
+   "lig": null,
+   "lig_kodu": 78382,
+   "ev": "Moreirense U23",
+   "deplasman": "Penafiel U23",
+   "baslama_tr": "2026-11-25T18:00:00+03:00",
+   "market_sayisi": 9
+  },
+  {
+   "kod": 3321808,
+   "lig": null,
+   "lig_kodu": 10069,
+   "ev": "Akron Tolyatti",
+   "deplasman": "CSKA Moskova",
+   "baslama_tr": "2026-11-24T17:00:00+03:00",
+   "market_sayisi": 41
+  },
+  {
+   "kod": 3321809,
+   "lig": null,
+   "lig_kodu": 5576,
+   "ev": "Hajer Al Hasa",
+   "deplasman": "AL Tai",
+   "baslama_tr": "2026-11-24T17:30:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3321816,
+   "lig": null,
+   "lig_kodu": 1918,
+   "ev": "Nizhny Nov.",
+   "deplasman": "T. Telec Ivan",
+   "baslama_tr": "2026-11-26T19:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3321817,
+   "lig": null,
+   "lig_kodu": 10101,
+   "ev": "Al Seeb",
+   "deplasman": "AL Shorta",
+   "baslama_tr": "2026-11-24T19:00:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3321833,
+   "lig": null,
+   "lig_kodu": 10069,
+   "ev": "D. Moskova",
+   "deplasman": "Fakel",
+   "baslama_tr": "2026-11-26T19:30:00+03:00",
+   "market_sayisi": 42
+  },
+  {
+   "kod": 3321835,
+   "lig": null,
+   "lig_kodu": 78382,
+   "ev": "Santa Clara U23",
+   "deplasman": "CS Maritimo U23",
+   "baslama_tr": "2026-11-24T00:00:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3321836,
+   "lig": null,
+   "lig_kodu": 22380,
+   "ev": "Chanthaburi",
+   "deplasman": "Pattaya Dolphins Utd",
+   "baslama_tr": "2026-11-24T14:00:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3321839,
+   "lig": null,
+   "lig_kodu": 22380,
+   "ev": "Nakhon Pathom Utd",
+   "deplasman": "Chainat",
+   "baslama_tr": "2026-11-24T15:00:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3321841,
+   "lig": null,
+   "lig_kodu": 5576,
+   "ev": "AL Orubah",
+   "deplasman": "AL Najma",
+   "baslama_tr": "2026-11-24T15:20:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3321842,
+   "lig": null,
+   "lig_kodu": 10069,
+   "ev": "Orenburg",
+   "deplasman": "S. Moskova",
+   "baslama_tr": "2026-11-26T17:00:00+03:00",
+   "market_sayisi": 41
+  },
+  {
+   "kod": 3321844,
+   "lig": null,
+   "lig_kodu": 10101,
+   "ev": "SC East Bengal",
+   "deplasman": "AL Hussein Irbid",
+   "baslama_tr": "2026-11-24T16:45:00+03:00",
+   "market_sayisi": 34
+  },
+  {
+   "kod": 3321852,
+   "lig": null,
+   "lig_kodu": 78382,
+   "ev": "Felgueiras 1932 U23",
+   "deplasman": "Academico V. U23",
+   "baslama_tr": "2026-11-24T18:00:00+03:00",
+   "market_sayisi": 9
+  },
+  {
+   "kod": 3321856,
+   "lig": null,
+   "lig_kodu": 18304,
+   "ev": "Northeast Utd",
+   "deplasman": "Hyderabad",
+   "baslama_tr": "2026-11-24T17:00:00+03:00",
+   "market_sayisi": 35
+  },
+  {
+   "kod": 3321861,
+   "lig": null,
+   "lig_kodu": 1918,
+   "ev": "Ural",
+   "deplasman": "Arsenal Tula",
+   "baslama_tr": "2026-11-26T17:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3321864,
+   "lig": null,
+   "lig_kodu": 1273,
+   "ev": "Smouha SC",
+   "deplasman": "N. Bank Egypt",
+   "baslama_tr": "2026-11-24T18:00:00+03:00",
+   "market_sayisi": 41
+  },
+  {
+   "kod": 3321867,
+   "lig": null,
+   "lig_kodu": 5591,
+   "ev": "Portmore Utd",
+   "deplasman": "Racing Utd",
+   "baslama_tr": "2026-11-24T04:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3321881,
+   "lig": null,
+   "lig_kodu": 46311,
+   "ev": "Shanghai Port",
+   "deplasman": "Buriram Utd",
+   "baslama_tr": "2026-11-24T15:15:00+03:00",
+   "market_sayisi": 69
+  },
+  {
+   "kod": 3321885,
+   "lig": null,
+   "lig_kodu": 10066,
+   "ev": "Man. City U19",
+   "deplasman": "SSC Napoli U20",
+   "baslama_tr": "2026-11-24T18:00:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3321891,
+   "lig": null,
+   "lig_kodu": 10066,
+   "ev": "Bodo Glimt U19",
+   "deplasman": "LASK Linz U19",
+   "baslama_tr": "2026-11-24T13:00:00+03:00",
+   "market_sayisi": 35
+  },
+  {
+   "kod": 3321894,
+   "lig": null,
+   "lig_kodu": 10066,
+   "ev": "Como 1907 U20",
+   "deplasman": "AEK U19",
+   "baslama_tr": "2026-11-24T16:00:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3321900,
+   "lig": null,
+   "lig_kodu": 10069,
+   "ev": "L. Moskova",
+   "deplasman": "FK Rostov",
+   "baslama_tr": "2026-11-25T20:30:00+03:00",
+   "market_sayisi": 41
+  },
+  {
+   "kod": 3321903,
+   "lig": null,
+   "lig_kodu": 78382,
+   "ev": "Torreense U23",
+   "deplasman": "Vizela U23",
+   "baslama_tr": "2026-11-24T20:00:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3321918,
+   "lig": null,
+   "lig_kodu": 33379,
+   "ev": "Fratria Varna",
+   "deplasman": "Yantra Gabrovo",
+   "baslama_tr": "2026-11-24T19:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3321931,
+   "lig": null,
+   "lig_kodu": 46311,
+   "ev": "Newcastle Utd Jets",
+   "deplasman": "Kashiwa",
+   "baslama_tr": "2026-11-24T10:45:00+03:00",
+   "market_sayisi": 69
+  },
+  {
+   "kod": 3321940,
+   "lig": null,
+   "lig_kodu": 10066,
+   "ev": "Arsenal U19",
+   "deplasman": "B. Dortmund U19",
+   "baslama_tr": "2026-11-24T16:00:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3321944,
+   "lig": null,
+   "lig_kodu": 10069,
+   "ev": "Dyn. Makhachkala",
+   "deplasman": "B. Kaliningrad",
+   "baslama_tr": "2026-11-25T18:00:00+03:00",
+   "market_sayisi": 41
+  },
+  {
+   "kod": 3321946,
+   "lig": null,
+   "lig_kodu": 46311,
+   "ev": "Kyoto Sanga",
+   "deplasman": "Pohang S.",
+   "baslama_tr": "2026-11-24T13:00:00+03:00",
+   "market_sayisi": 68
+  },
+  {
+   "kod": 3321953,
+   "lig": null,
+   "lig_kodu": 1918,
+   "ev": "Neftekhimik",
+   "deplasman": "Rotor",
+   "baslama_tr": "2026-11-25T15:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3321954,
+   "lig": null,
+   "lig_kodu": 34090,
+   "ev": "Tafic",
+   "deplasman": "Morupule Wanderers",
+   "baslama_tr": "2026-11-24T20:00:00+03:00",
+   "market_sayisi": 2
+  },
+  {
+   "kod": 3321958,
+   "lig": null,
+   "lig_kodu": 34090,
+   "ev": "Township Rollers",
+   "deplasman": "Prisons Xi Gaborone",
+   "baslama_tr": "2026-11-24T20:00:00+03:00",
+   "market_sayisi": 2
+  },
+  {
+   "kod": 3321968,
+   "lig": null,
+   "lig_kodu": 78382,
+   "ev": "Rio Ave U23",
+   "deplasman": "UD Leiria U23",
+   "baslama_tr": "2026-11-24T18:00:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3321970,
+   "lig": null,
+   "lig_kodu": 1918,
+   "ev": "Kamaz Chelny",
+   "deplasman": "Y. Krasnoyarsk",
+   "baslama_tr": "2026-11-25T18:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3321971,
+   "lig": null,
+   "lig_kodu": 22722,
+   "ev": "Updf",
+   "deplasman": "Mbarara",
+   "baslama_tr": "2026-11-24T16:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3321973,
+   "lig": null,
+   "lig_kodu": 5576,
+   "ev": "AL Jabalain",
+   "deplasman": "Al Zlfe",
+   "baslama_tr": "2026-11-24T15:20:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3321974,
+   "lig": null,
+   "lig_kodu": 46311,
+   "ev": "Cong An Nhan Dan",
+   "deplasman": "Vissel Kobe",
+   "baslama_tr": "2026-11-24T15:15:00+03:00",
+   "market_sayisi": 68
+  },
+  {
+   "kod": 3321976,
+   "lig": null,
+   "lig_kodu": 46311,
+   "ev": "Daejeon Citizen",
+   "deplasman": "Beijing Guoan",
+   "baslama_tr": "2026-11-24T13:00:00+03:00",
+   "market_sayisi": 68
+  },
+  {
+   "kod": 3321977,
+   "lig": null,
+   "lig_kodu": 10005,
+   "ev": "Salford City",
+   "deplasman": "Sunderland U21",
+   "baslama_tr": "2026-11-24T22:00:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3321979,
+   "lig": null,
+   "lig_kodu": 10220,
+   "ev": "QPR U21",
+   "deplasman": "Southampton U21",
+   "baslama_tr": "2026-11-24T22:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3321980,
+   "lig": null,
+   "lig_kodu": 1774,
+   "ev": "Benevento",
+   "deplasman": "Empoli",
+   "baslama_tr": "2026-11-24T22:00:00+03:00",
+   "market_sayisi": 83
+  },
+  {
+   "kod": 3321981,
+   "lig": null,
+   "lig_kodu": 1273,
+   "ev": "Al Masry",
+   "deplasman": "Asyut Petroleum",
+   "baslama_tr": "2026-11-24T21:00:00+03:00",
+   "market_sayisi": 41
+  },
+  {
+   "kod": 3321982,
+   "lig": null,
+   "lig_kodu": 24,
+   "ev": "Blackpool",
+   "deplasman": "Leicester City",
+   "baslama_tr": "2026-11-24T22:45:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3321984,
+   "lig": null,
+   "lig_kodu": 140,
+   "ev": "Farnham Town",
+   "deplasman": "Maidenhead",
+   "baslama_tr": "2026-11-24T22:45:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3321986,
+   "lig": null,
+   "lig_kodu": 134,
+   "ev": "Kings Lynn",
+   "deplasman": "Radcliffe",
+   "baslama_tr": "2026-11-24T22:45:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3321988,
+   "lig": null,
+   "lig_kodu": 10014,
+   "ev": "Man. City",
+   "deplasman": "Napoli",
+   "baslama_tr": "2026-11-24T23:00:00+03:00",
+   "market_sayisi": 103
+  },
+  {
+   "kod": 3321992,
+   "lig": null,
+   "lig_kodu": 10005,
+   "ev": "Tranmere",
+   "deplasman": "Everton U21",
+   "baslama_tr": "2026-11-24T22:00:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3321993,
+   "lig": null,
+   "lig_kodu": 1774,
+   "ev": "Juve Stabia",
+   "deplasman": "Catanzaro",
+   "baslama_tr": "2026-11-24T21:00:00+03:00",
+   "market_sayisi": 83
+  },
+  {
+   "kod": 3321996,
+   "lig": null,
+   "lig_kodu": 1774,
+   "ev": "US Palermo",
+   "deplasman": "Sudtirol",
+   "baslama_tr": "2026-11-24T22:00:00+03:00",
+   "market_sayisi": 84
+  },
+  {
+   "kod": 3322002,
+   "lig": null,
+   "lig_kodu": 10220,
+   "ev": "Huddersfield T. U21",
+   "deplasman": "Swansea U21",
+   "baslama_tr": "2026-11-24T22:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3322003,
+   "lig": null,
+   "lig_kodu": 134,
+   "ev": "South Shields",
+   "deplasman": "Worksop Town",
+   "baslama_tr": "2026-11-24T22:45:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3322004,
+   "lig": null,
+   "lig_kodu": 1774,
+   "ev": "AC Cesena",
+   "deplasman": "Ascoli",
+   "baslama_tr": "2026-11-24T22:00:00+03:00",
+   "market_sayisi": 83
+  },
+  {
+   "kod": 3322008,
+   "lig": null,
+   "lig_kodu": 10014,
+   "ev": "Real Madrid",
+   "deplasman": "PSV",
+   "baslama_tr": "2026-11-24T23:00:00+03:00",
+   "market_sayisi": 101
+  },
+  {
+   "kod": 3322010,
+   "lig": null,
+   "lig_kodu": 134,
+   "ev": "Telford Utd",
+   "deplasman": "Buxton",
+   "baslama_tr": "2026-11-24T22:45:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3322018,
+   "lig": null,
+   "lig_kodu": 1774,
+   "ev": "LR Vicenza V.",
+   "deplasman": "Carrarese C. 1908",
+   "baslama_tr": "2026-11-24T22:00:00+03:00",
+   "market_sayisi": 83
+  },
+  {
+   "kod": 3322030,
+   "lig": null,
+   "lig_kodu": 401,
+   "ev": "Scunthorpe",
+   "deplasman": "Gateshead",
+   "baslama_tr": "2026-11-24T22:45:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3322031,
+   "lig": null,
+   "lig_kodu": 401,
+   "ev": "Carlisle",
+   "deplasman": "Tamworth",
+   "baslama_tr": "2026-11-24T22:45:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3322032,
+   "lig": null,
+   "lig_kodu": 149,
+   "ev": "Hibernian",
+   "deplasman": "Dundee",
+   "baslama_tr": "2026-11-24T22:45:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3322033,
+   "lig": null,
+   "lig_kodu": 401,
+   "ev": "Eastleigh",
+   "deplasman": "Yeovil Town",
+   "baslama_tr": "2026-11-24T22:45:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3322037,
+   "lig": null,
+   "lig_kodu": 140,
+   "ev": "Horsham",
+   "deplasman": "Truro City",
+   "baslama_tr": "2026-11-24T22:45:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3322038,
+   "lig": null,
+   "lig_kodu": 134,
+   "ev": "Chorley",
+   "deplasman": "Hebburn Town",
+   "baslama_tr": "2026-11-24T22:45:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3322039,
+   "lig": null,
+   "lig_kodu": 12,
+   "ev": "Crawley Town",
+   "deplasman": "Barnet",
+   "baslama_tr": "2026-11-24T22:45:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3322041,
+   "lig": null,
+   "lig_kodu": 10220,
+   "ev": "Sheffield Utd U21",
+   "deplasman": "Millwall U21",
+   "baslama_tr": "2026-11-24T22:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3322045,
+   "lig": null,
+   "lig_kodu": 140,
+   "ev": "Hampton&Richmond",
+   "deplasman": "Dover",
+   "baslama_tr": "2026-11-24T22:45:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3322047,
+   "lig": null,
+   "lig_kodu": 24,
+   "ev": "Stevenage",
+   "deplasman": "S. Wednesday",
+   "baslama_tr": "2026-11-24T22:45:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3322048,
+   "lig": null,
+   "lig_kodu": 401,
+   "ev": "Boston Utd",
+   "deplasman": "Barrow",
+   "baslama_tr": "2026-11-24T22:45:00+03:00",
+   "market_sayisi": 55
+  },
+  {
+   "kod": 3322053,
+   "lig": null,
+   "lig_kodu": 134,
+   "ev": "Hednesford",
+   "deplasman": "Oxford City",
+   "baslama_tr": "2026-11-24T22:45:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3322057,
+   "lig": null,
+   "lig_kodu": 140,
+   "ev": "Torquay",
+   "deplasman": "Chesham Utd",
+   "baslama_tr": "2026-11-24T22:45:00+03:00",
+   "market_sayisi": 34
+  },
+  {
+   "kod": 3322060,
+   "lig": null,
+   "lig_kodu": 401,
+   "ev": "AFC Fylde",
+   "deplasman": "Halifax Town",
+   "baslama_tr": "2026-11-24T22:45:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3322065,
+   "lig": null,
+   "lig_kodu": 134,
+   "ev": "Macclesfield",
+   "deplasman": "Morecambe",
+   "baslama_tr": "2026-11-24T22:45:00+03:00",
+   "market_sayisi": 34
+  },
+  {
+   "kod": 3322067,
+   "lig": null,
+   "lig_kodu": 134,
+   "ev": "Harborough Town",
+   "deplasman": "Chester",
+   "baslama_tr": "2026-11-24T22:45:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3322075,
+   "lig": null,
+   "lig_kodu": 52,
+   "ev": "Charlton",
+   "deplasman": "Lincoln City",
+   "baslama_tr": "2026-11-24T22:45:00+03:00",
+   "market_sayisi": 83
+  },
+  {
+   "kod": 3322077,
+   "lig": null,
+   "lig_kodu": 12,
+   "ev": "Port Vale",
+   "deplasman": "Northampton",
+   "baslama_tr": "2026-11-24T22:45:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3322078,
+   "lig": null,
+   "lig_kodu": 2667,
+   "ev": "Halesowen",
+   "deplasman": "Stourbridge",
+   "baslama_tr": "2026-11-24T22:45:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3322083,
+   "lig": null,
+   "lig_kodu": 134,
+   "ev": "Merthyr Town",
+   "deplasman": "Bedford Town",
+   "baslama_tr": "2026-11-24T22:45:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3322085,
+   "lig": null,
+   "lig_kodu": 10006,
+   "ev": "Oxford",
+   "deplasman": "Tottenham U21",
+   "baslama_tr": "2026-11-24T22:00:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3322087,
+   "lig": null,
+   "lig_kodu": 10005,
+   "ev": "Fleetwood",
+   "deplasman": "Leeds Utd U21",
+   "baslama_tr": "2026-11-24T22:00:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3322088,
+   "lig": null,
+   "lig_kodu": 10014,
+   "ev": "Arsenal",
+   "deplasman": "B. Dortmund",
+   "baslama_tr": "2026-11-24T23:00:00+03:00",
+   "market_sayisi": 102
+  },
+  {
+   "kod": 3322091,
+   "lig": null,
+   "lig_kodu": 52,
+   "ev": "Cardiff City",
+   "deplasman": "Preston",
+   "baslama_tr": "2026-11-24T22:45:00+03:00",
+   "market_sayisi": 83
+  },
+  {
+   "kod": 3322092,
+   "lig": null,
+   "lig_kodu": 52,
+   "ev": "Norwich City",
+   "deplasman": "QPR",
+   "baslama_tr": "2026-11-24T22:45:00+03:00",
+   "market_sayisi": 83
+  },
+  {
+   "kod": 3322094,
+   "lig": null,
+   "lig_kodu": 52,
+   "ev": "Wolverhampton",
+   "deplasman": "Derby County",
+   "baslama_tr": "2026-11-24T23:00:00+03:00",
+   "market_sayisi": 84
+  },
+  {
+   "kod": 3322095,
+   "lig": null,
+   "lig_kodu": 401,
+   "ev": "Woking",
+   "deplasman": "Worthing",
+   "baslama_tr": "2026-11-24T22:45:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3322099,
+   "lig": null,
+   "lig_kodu": 140,
+   "ev": "Dagenham Red",
+   "deplasman": "Tonbridge Angels",
+   "baslama_tr": "2026-11-24T22:45:00+03:00",
+   "market_sayisi": 34
+  },
+  {
+   "kod": 3322101,
+   "lig": null,
+   "lig_kodu": 46260,
+   "ev": "AL Nassr",
+   "deplasman": "AL Sadd",
+   "baslama_tr": "2026-11-24T21:15:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3322103,
+   "lig": null,
+   "lig_kodu": 401,
+   "ev": "Altrincham",
+   "deplasman": "Wealdstone",
+   "baslama_tr": "2026-11-24T22:45:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3322111,
+   "lig": null,
+   "lig_kodu": 134,
+   "ev": "Marine",
+   "deplasman": "Spennymoor",
+   "baslama_tr": "2026-11-24T22:45:00+03:00",
+   "market_sayisi": 35
+  },
+  {
+   "kod": 3322113,
+   "lig": null,
+   "lig_kodu": 10014,
+   "ev": "Bodo Glimt",
+   "deplasman": "LASK",
+   "baslama_tr": "2026-11-24T20:45:00+03:00",
+   "market_sayisi": 99
+  },
+  {
+   "kod": 3322118,
+   "lig": null,
+   "lig_kodu": 140,
+   "ev": "Salisbury",
+   "deplasman": "AFC Totton",
+   "baslama_tr": "2026-11-24T22:45:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3322119,
+   "lig": null,
+   "lig_kodu": 401,
+   "ev": "Forest Green",
+   "deplasman": "Southend",
+   "baslama_tr": "2026-11-24T22:45:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3322130,
+   "lig": null,
+   "lig_kodu": 52,
+   "ev": "Portsmouth",
+   "deplasman": "West Ham",
+   "baslama_tr": "2026-11-24T22:45:00+03:00",
+   "market_sayisi": 83
+  },
+  {
+   "kod": 3322131,
+   "lig": null,
+   "lig_kodu": 134,
+   "ev": "Scarborough",
+   "deplasman": "Spalding Utd",
+   "baslama_tr": "2026-11-24T22:45:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3322133,
+   "lig": null,
+   "lig_kodu": 140,
+   "ev": "Slough Town",
+   "deplasman": "Farnborough",
+   "baslama_tr": "2026-11-24T22:45:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3322134,
+   "lig": null,
+   "lig_kodu": 10014,
+   "ev": "S. Bratislava",
+   "deplasman": "Real Betis",
+   "baslama_tr": "2026-11-24T23:00:00+03:00",
+   "market_sayisi": 93
+  },
+  {
+   "kod": 3322137,
+   "lig": null,
+   "lig_kodu": 134,
+   "ev": "Darlington",
+   "deplasman": "Southport",
+   "baslama_tr": "2026-11-24T22:45:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3322138,
+   "lig": null,
+   "lig_kodu": 10014,
+   "ev": "Leipzig",
+   "deplasman": "RC Lens",
+   "baslama_tr": "2026-11-24T23:00:00+03:00",
+   "market_sayisi": 94
+  },
+  {
+   "kod": 3322140,
+   "lig": null,
+   "lig_kodu": 10014,
+   "ev": "Feyenoord",
+   "deplasman": "Porto",
+   "baslama_tr": "2026-11-24T23:00:00+03:00",
+   "market_sayisi": 92
+  },
+  {
+   "kod": 3322141,
+   "lig": null,
+   "lig_kodu": 24,
+   "ev": "Bradford",
+   "deplasman": "Barnsley",
+   "baslama_tr": "2026-11-24T22:45:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3322145,
+   "lig": null,
+   "lig_kodu": 1774,
+   "ev": "V. Entella",
+   "deplasman": "Hellas Verona",
+   "baslama_tr": "2026-11-24T22:00:00+03:00",
+   "market_sayisi": 83
+  },
+  {
+   "kod": 3322146,
+   "lig": null,
+   "lig_kodu": 140,
+   "ev": "Weston Super Mare",
+   "deplasman": "Walton & Hersham",
+   "baslama_tr": "2026-11-24T22:45:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3322150,
+   "lig": null,
+   "lig_kodu": 134,
+   "ev": "Brackley",
+   "deplasman": "Hereford",
+   "baslama_tr": "2026-11-24T22:45:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3322152,
+   "lig": null,
+   "lig_kodu": 140,
+   "ev": "Ebbsfleet Utd",
+   "deplasman": "Billericay",
+   "baslama_tr": "2026-11-24T22:45:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3322155,
+   "lig": null,
+   "lig_kodu": 52,
+   "ev": "Sheffield Utd",
+   "deplasman": "Southampton",
+   "baslama_tr": "2026-11-24T22:45:00+03:00",
+   "market_sayisi": 83
+  },
+  {
+   "kod": 3322157,
+   "lig": null,
+   "lig_kodu": 52,
+   "ev": "Bristol City",
+   "deplasman": "Wrexham",
+   "baslama_tr": "2026-11-24T22:45:00+03:00",
+   "market_sayisi": 84
+  },
+  {
+   "kod": 3322160,
+   "lig": null,
+   "lig_kodu": 2665,
+   "ev": "Yate Town",
+   "deplasman": "Evesham Utd",
+   "baslama_tr": "2026-11-24T22:45:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3322165,
+   "lig": null,
+   "lig_kodu": 10014,
+   "ev": "Como 1907",
+   "deplasman": "Aek",
+   "baslama_tr": "2026-11-24T23:00:00+03:00",
+   "market_sayisi": 95
+  },
+  {
+   "kod": 3322166,
+   "lig": null,
+   "lig_kodu": 401,
+   "ev": "Hornchurch",
+   "deplasman": "Sutton Utd",
+   "baslama_tr": "2026-11-24T22:45:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3322167,
+   "lig": null,
+   "lig_kodu": 10220,
+   "ev": "Ipswich Town U21",
+   "deplasman": "Bromley U21",
+   "baslama_tr": "2026-11-24T22:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3322168,
+   "lig": null,
+   "lig_kodu": 10014,
+   "ev": "Galatasaray",
+   "deplasman": "Aston Villa",
+   "baslama_tr": "2026-11-24T20:45:00+03:00",
+   "market_sayisi": 120
+  },
+  {
+   "kod": 3322170,
+   "lig": null,
+   "lig_kodu": 52,
+   "ev": "Middlesbrough",
+   "deplasman": "Swansea City",
+   "baslama_tr": "2026-11-24T22:45:00+03:00",
+   "market_sayisi": 83
+  },
+  {
+   "kod": 3324067,
+   "lig": null,
+   "lig_kodu": 10014,
+   "ev": "Sporting CP",
+   "deplasman": "Man. Utd",
+   "baslama_tr": "2026-11-25T23:00:00+03:00",
+   "market_sayisi": 58
+  },
+  {
+   "kod": 3324069,
+   "lig": null,
+   "lig_kodu": 1797,
+   "ev": "Omiya Ardija",
+   "deplasman": "T. Vortis",
+   "baslama_tr": "2026-11-25T13:00:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3324070,
+   "lig": null,
+   "lig_kodu": 1797,
+   "ev": "M. Yamagata",
+   "deplasman": "Iwata Jubilo",
+   "baslama_tr": "2026-11-25T13:00:00+03:00",
+   "market_sayisi": 34
+  },
+  {
+   "kod": 3324073,
+   "lig": null,
+   "lig_kodu": 1797,
+   "ev": "Iwaki",
+   "deplasman": "Kat Toyama",
+   "baslama_tr": "2026-11-25T13:00:00+03:00",
+   "market_sayisi": 34
+  },
+  {
+   "kod": 3324080,
+   "lig": null,
+   "lig_kodu": 10014,
+   "ev": "PSG",
+   "deplasman": "AS Roma",
+   "baslama_tr": "2026-11-25T23:00:00+03:00",
+   "market_sayisi": 72
+  },
+  {
+   "kod": 3324096,
+   "lig": null,
+   "lig_kodu": 33379,
+   "ev": "Ludogorets Razgrad II",
+   "deplasman": "EV Tarnova",
+   "baslama_tr": "2026-11-25T18:00:00+03:00",
+   "market_sayisi": 18
+  },
+  {
+   "kod": 3324104,
+   "lig": null,
+   "lig_kodu": 10014,
+   "ev": "Atl Madrid",
+   "deplasman": "Viking",
+   "baslama_tr": "2026-11-25T23:00:00+03:00",
+   "market_sayisi": 65
+  },
+  {
+   "kod": 3324108,
+   "lig": null,
+   "lig_kodu": 1774,
+   "ev": "Cremonese",
+   "deplasman": "AS Avellino 1912",
+   "baslama_tr": "2026-11-25T21:00:00+03:00",
+   "market_sayisi": 83
+  },
+  {
+   "kod": 3324126,
+   "lig": null,
+   "lig_kodu": 52,
+   "ev": "Bolton",
+   "deplasman": "W. Bromwich",
+   "baslama_tr": "2026-11-25T22:45:00+03:00",
+   "market_sayisi": 56
+  },
+  {
+   "kod": 3324128,
+   "lig": null,
+   "lig_kodu": 52,
+   "ev": "Stoke City",
+   "deplasman": "Millwall",
+   "baslama_tr": "2026-11-25T23:00:00+03:00",
+   "market_sayisi": 56
+  },
+  {
+   "kod": 3324138,
+   "lig": null,
+   "lig_kodu": 52,
+   "ev": "Burnley",
+   "deplasman": "Birmingham",
+   "baslama_tr": "2026-11-25T22:45:00+03:00",
+   "market_sayisi": 56
+  },
+  {
+   "kod": 3324139,
+   "lig": null,
+   "lig_kodu": 1273,
+   "ev": "Al Mokawloon",
+   "deplasman": "Alqana",
+   "baslama_tr": "2026-11-24T21:00:00+03:00",
+   "market_sayisi": 41
+  },
+  {
+   "kod": 3324144,
+   "lig": null,
+   "lig_kodu": 1797,
+   "ev": "S. Bellmare",
+   "deplasman": "Ventforet",
+   "baslama_tr": "2026-11-25T13:00:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3324146,
+   "lig": null,
+   "lig_kodu": 642,
+   "ev": "Tokyo",
+   "deplasman": "S. Hiroshima",
+   "baslama_tr": "2026-11-25T13:00:00+03:00",
+   "market_sayisi": 78
+  },
+  {
+   "kod": 3324147,
+   "lig": null,
+   "lig_kodu": 46311,
+   "ev": "Gamba Osaka",
+   "deplasman": "Port",
+   "baslama_tr": "2026-11-25T13:00:00+03:00",
+   "market_sayisi": 55
+  },
+  {
+   "kod": 3324149,
+   "lig": null,
+   "lig_kodu": 10014,
+   "ev": "Shakhtar D.",
+   "deplasman": "Fenerbahçe",
+   "baslama_tr": "2026-11-25T23:00:00+03:00",
+   "market_sayisi": 67
+  },
+  {
+   "kod": 3324164,
+   "lig": null,
+   "lig_kodu": 1797,
+   "ev": "Sapporo",
+   "deplasman": "Fujieda Myfc",
+   "baslama_tr": "2026-11-25T13:00:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3324171,
+   "lig": null,
+   "lig_kodu": 401,
+   "ev": "Hartlepool",
+   "deplasman": "Solihull Moors",
+   "baslama_tr": "2026-11-25T22:45:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3324191,
+   "lig": null,
+   "lig_kodu": 10014,
+   "ev": "Inter",
+   "deplasman": "Stuttgart",
+   "baslama_tr": "2026-11-25T23:00:00+03:00",
+   "market_sayisi": 67
+  },
+  {
+   "kod": 3324195,
+   "lig": null,
+   "lig_kodu": 1273,
+   "ev": "Ghazl El Mahallah",
+   "deplasman": "Petrojet",
+   "baslama_tr": "2026-11-25T21:00:00+03:00",
+   "market_sayisi": 41
+  },
+  {
+   "kod": 3324196,
+   "lig": null,
+   "lig_kodu": 642,
+   "ev": "Fukuoka",
+   "deplasman": "Yokohama M.",
+   "baslama_tr": "2026-11-25T13:00:00+03:00",
+   "market_sayisi": 78
+  },
+  {
+   "kod": 3324200,
+   "lig": null,
+   "lig_kodu": 5576,
+   "ev": "AL Anwar",
+   "deplasman": "AL Jandal",
+   "baslama_tr": "2026-11-25T15:10:00+03:00",
+   "market_sayisi": 18
+  },
+  {
+   "kod": 3324201,
+   "lig": null,
+   "lig_kodu": 78382,
+   "ev": "Famalicao U23",
+   "deplasman": "Gil Vicente U23",
+   "baslama_tr": "2026-11-25T18:00:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3324202,
+   "lig": null,
+   "lig_kodu": 1774,
+   "ev": "Mantova 1911",
+   "deplasman": "SS Arezzo",
+   "baslama_tr": "2026-11-25T22:00:00+03:00",
+   "market_sayisi": 83
+  },
+  {
+   "kod": 3324205,
+   "lig": null,
+   "lig_kodu": 1273,
+   "ev": "Talaea Gaish",
+   "deplasman": "Modern Sport Club",
+   "baslama_tr": "2026-11-25T18:00:00+03:00",
+   "market_sayisi": 41
+  },
+  {
+   "kod": 3324210,
+   "lig": null,
+   "lig_kodu": 10014,
+   "ev": "Lille",
+   "deplasman": "Bayern Münih",
+   "baslama_tr": "2026-11-25T23:00:00+03:00",
+   "market_sayisi": 66
+  },
+  {
+   "kod": 3324224,
+   "lig": null,
+   "lig_kodu": 1273,
+   "ev": "Enppi Club",
+   "deplasman": "Cer. Cleopatra",
+   "baslama_tr": "2026-11-25T21:00:00+03:00",
+   "market_sayisi": 41
+  },
+  {
+   "kod": 3324232,
+   "lig": null,
+   "lig_kodu": 642,
+   "ev": "Fagiano",
+   "deplasman": "Shimizu",
+   "baslama_tr": "2026-11-25T13:00:00+03:00",
+   "market_sayisi": 78
+  },
+  {
+   "kod": 3324239,
+   "lig": null,
+   "lig_kodu": 1797,
+   "ev": "Van. Hachinohe",
+   "deplasman": "Niigata",
+   "baslama_tr": "2026-11-25T12:30:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3324255,
+   "lig": null,
+   "lig_kodu": 10014,
+   "ev": "Club Brugge",
+   "deplasman": "Liverpool",
+   "baslama_tr": "2026-11-25T23:00:00+03:00",
+   "market_sayisi": 65
+  },
+  {
+   "kod": 3324308,
+   "lig": null,
+   "lig_kodu": 642,
+   "ev": "JEF Utd",
+   "deplasman": "Nagoya",
+   "baslama_tr": "2026-11-25T13:00:00+03:00",
+   "market_sayisi": 78
+  },
+  {
+   "kod": 3324334,
+   "lig": null,
+   "lig_kodu": 642,
+   "ev": "V Varen",
+   "deplasman": "Kawasaki Frontale",
+   "baslama_tr": "2026-11-25T13:00:00+03:00",
+   "market_sayisi": 78
+  },
+  {
+   "kod": 3324359,
+   "lig": null,
+   "lig_kodu": 10014,
+   "ev": "Slavia Prag",
+   "deplasman": "Villarreal",
+   "baslama_tr": "2026-11-25T20:45:00+03:00",
+   "market_sayisi": 86
+  },
+  {
+   "kod": 3324376,
+   "lig": null,
+   "lig_kodu": 1797,
+   "ev": "Tochigi City",
+   "deplasman": "B. Akita",
+   "baslama_tr": "2026-11-25T13:00:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3324379,
+   "lig": null,
+   "lig_kodu": 642,
+   "ev": "Urawa Red",
+   "deplasman": "Cerezo Osaka",
+   "baslama_tr": "2026-11-25T13:30:00+03:00",
+   "market_sayisi": 78
+  },
+  {
+   "kod": 3324388,
+   "lig": null,
+   "lig_kodu": 52,
+   "ev": "Watford",
+   "deplasman": "Blackburn R.",
+   "baslama_tr": "2026-11-25T22:45:00+03:00",
+   "market_sayisi": 56
+  },
+  {
+   "kod": 3324399,
+   "lig": null,
+   "lig_kodu": 46311,
+   "ev": "Kashima",
+   "deplasman": "Jeonbuk",
+   "baslama_tr": "2026-11-25T13:00:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3324415,
+   "lig": null,
+   "lig_kodu": 5576,
+   "ev": "AL Bukayriyah",
+   "deplasman": "AL Wehda",
+   "baslama_tr": "2026-11-25T15:10:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3324438,
+   "lig": null,
+   "lig_kodu": 401,
+   "ev": "Harrogate",
+   "deplasman": "Kidderminster Harriers",
+   "baslama_tr": "2026-11-25T22:45:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3324461,
+   "lig": null,
+   "lig_kodu": 1774,
+   "ev": "Padova",
+   "deplasman": "Sampdoria",
+   "baslama_tr": "2026-11-25T22:00:00+03:00",
+   "market_sayisi": 83
+  },
+  {
+   "kod": 3324471,
+   "lig": null,
+   "lig_kodu": 1774,
+   "ev": "AC Pisa",
+   "deplasman": "Modena",
+   "baslama_tr": "2026-11-25T22:00:00+03:00",
+   "market_sayisi": 83
+  },
+  {
+   "kod": 3324481,
+   "lig": null,
+   "lig_kodu": 16328,
+   "ev": "Ryukyu",
+   "deplasman": "R. Kumamoto",
+   "baslama_tr": "2026-11-25T06:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3324482,
+   "lig": null,
+   "lig_kodu": 642,
+   "ev": "M. Hollyhock",
+   "deplasman": "Tokyo Verdy",
+   "baslama_tr": "2026-11-25T13:00:00+03:00",
+   "market_sayisi": 78
+  },
+  {
+   "kod": 3324494,
+   "lig": null,
+   "lig_kodu": 1797,
+   "ev": "Sagan Tosu",
+   "deplasman": "Oita Trinata",
+   "baslama_tr": "2026-11-25T13:00:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3324510,
+   "lig": null,
+   "lig_kodu": 1797,
+   "ev": "Imabari",
+   "deplasman": "Tegevajaro Mi.",
+   "baslama_tr": "2026-11-25T12:30:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3324512,
+   "lig": null,
+   "lig_kodu": 10014,
+   "ev": "Sabah",
+   "deplasman": "Barcelona",
+   "baslama_tr": "2026-11-25T20:45:00+03:00",
+   "market_sayisi": 94
+  },
+  {
+   "kod": 3324516,
+   "lig": null,
+   "lig_kodu": 1797,
+   "ev": "Yokohama",
+   "deplasman": "Sendai",
+   "baslama_tr": "2026-11-25T13:00:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3324540,
+   "lig": null,
+   "lig_kodu": 401,
+   "ev": "Boreham Wood",
+   "deplasman": "Aldershot",
+   "baslama_tr": "2026-11-25T22:00:00+03:00",
+   "market_sayisi": 53
+  },
+  {
+   "kod": 3324545,
+   "lig": null,
+   "lig_kodu": 5576,
+   "ev": "AL Ula",
+   "deplasman": "AL Adalh",
+   "baslama_tr": "2026-11-25T18:10:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3326467,
+   "lig": null,
+   "lig_kodu": 46196,
+   "ev": "K. Almaty",
+   "deplasman": "Mjallby",
+   "baslama_tr": "2026-11-26T18:30:00+03:00",
+   "market_sayisi": 56
+  },
+  {
+   "kod": 3326501,
+   "lig": null,
+   "lig_kodu": 974,
+   "ev": "Pusamania Borneo",
+   "deplasman": "Persita Tangerang",
+   "baslama_tr": "2026-11-26T11:30:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3326534,
+   "lig": null,
+   "lig_kodu": 10015,
+   "ev": "Ferencvaros",
+   "deplasman": "NK Celje",
+   "baslama_tr": "2026-11-26T23:00:00+03:00",
+   "market_sayisi": 56
+  },
+  {
+   "kod": 3326536,
+   "lig": null,
+   "lig_kodu": 46196,
+   "ev": "Hearts",
+   "deplasman": "Monaco",
+   "baslama_tr": "2026-11-26T20:45:00+03:00",
+   "market_sayisi": 56
+  },
+  {
+   "kod": 3326538,
+   "lig": null,
+   "lig_kodu": 46196,
+   "ev": "Pafos",
+   "deplasman": "Midtjylland",
+   "baslama_tr": "2026-11-26T20:45:00+03:00",
+   "market_sayisi": 56
+  },
+  {
+   "kod": 3326539,
+   "lig": null,
+   "lig_kodu": 10015,
+   "ev": "Crystal Palace",
+   "deplasman": "R. Sociedad",
+   "baslama_tr": "2026-11-26T23:00:00+03:00",
+   "market_sayisi": 56
+  },
+  {
+   "kod": 3326540,
+   "lig": null,
+   "lig_kodu": 46196,
+   "ev": "Jablonec",
+   "deplasman": "Lugano",
+   "baslama_tr": "2026-11-26T20:45:00+03:00",
+   "market_sayisi": 56
+  },
+  {
+   "kod": 3326541,
+   "lig": null,
+   "lig_kodu": 46196,
+   "ev": "Brann",
+   "deplasman": "AGF Aarhus",
+   "baslama_tr": "2026-11-26T20:45:00+03:00",
+   "market_sayisi": 56
+  },
+  {
+   "kod": 3326545,
+   "lig": null,
+   "lig_kodu": 10015,
+   "ev": "Ofi Crete",
+   "deplasman": "Anderlecht",
+   "baslama_tr": "2026-11-26T23:00:00+03:00",
+   "market_sayisi": 56
+  },
+  {
+   "kod": 3326546,
+   "lig": null,
+   "lig_kodu": 10015,
+   "ev": "NEC Nijmegen",
+   "deplasman": "Rennes",
+   "baslama_tr": "2026-11-26T23:00:00+03:00",
+   "market_sayisi": 56
+  },
+  {
+   "kod": 3326547,
+   "lig": null,
+   "lig_kodu": 46196,
+   "ev": "Zalgiris Kaunas",
+   "deplasman": "Riga",
+   "baslama_tr": "2026-11-26T20:45:00+03:00",
+   "market_sayisi": 56
+  },
+  {
+   "kod": 3326548,
+   "lig": null,
+   "lig_kodu": 46196,
+   "ev": "Inter Escaldes",
+   "deplasman": "Kopenhag",
+   "baslama_tr": "2026-11-26T23:00:00+03:00",
+   "market_sayisi": 57
+  },
+  {
+   "kod": 3326562,
+   "lig": null,
+   "lig_kodu": 10015,
+   "ev": "Juventus",
+   "deplasman": "Omonia",
+   "baslama_tr": "2026-11-26T23:00:00+03:00",
+   "market_sayisi": 55
+  },
+  {
+   "kod": 3326564,
+   "lig": null,
+   "lig_kodu": 10015,
+   "ev": "Torreense",
+   "deplasman": "Celtic",
+   "baslama_tr": "2026-11-26T23:00:00+03:00",
+   "market_sayisi": 56
+  },
+  {
+   "kod": 3326567,
+   "lig": null,
+   "lig_kodu": 10015,
+   "ev": "Olympiakos",
+   "deplasman": "AC Milan",
+   "baslama_tr": "2026-11-26T20:45:00+03:00",
+   "market_sayisi": 56
+  },
+  {
+   "kod": 3326568,
+   "lig": null,
+   "lig_kodu": 46196,
+   "ev": "Hajduk Split",
+   "deplasman": "St. Truidense",
+   "baslama_tr": "2026-11-26T23:00:00+03:00",
+   "market_sayisi": 56
+  },
+  {
+   "kod": 3326569,
+   "lig": null,
+   "lig_kodu": 46196,
+   "ev": "Braga",
+   "deplasman": "Kuopion",
+   "baslama_tr": "2026-11-26T23:00:00+03:00",
+   "market_sayisi": 55
+  },
+  {
+   "kod": 3326575,
+   "lig": null,
+   "lig_kodu": 10015,
+   "ev": "Salzburg",
+   "deplasman": "Ararat",
+   "baslama_tr": "2026-11-26T20:45:00+03:00",
+   "market_sayisi": 56
+  },
+  {
+   "kod": 3326577,
+   "lig": null,
+   "lig_kodu": 46196,
+   "ev": "Brighton",
+   "deplasman": "Un. Craiova",
+   "baslama_tr": "2026-11-26T20:45:00+03:00",
+   "market_sayisi": 55
+  },
+  {
+   "kod": 3326579,
+   "lig": null,
+   "lig_kodu": 46196,
+   "ev": "Banja Luka",
+   "deplasman": "Atalanta",
+   "baslama_tr": "2026-11-26T23:00:00+03:00",
+   "market_sayisi": 56
+  },
+  {
+   "kod": 3326581,
+   "lig": null,
+   "lig_kodu": 10015,
+   "ev": "Beşiktaş",
+   "deplasman": "HB Sheva",
+   "baslama_tr": "2026-11-26T20:45:00+03:00",
+   "market_sayisi": 56
+  },
+  {
+   "kod": 3326589,
+   "lig": null,
+   "lig_kodu": 46196,
+   "ev": "KF Egnatia R.",
+   "deplasman": "Lincoln Red",
+   "baslama_tr": "2026-11-26T20:45:00+03:00",
+   "market_sayisi": 56
+  },
+  {
+   "kod": 3326591,
+   "lig": null,
+   "lig_kodu": 24,
+   "ev": "Doncaster",
+   "deplasman": "Huddersfield",
+   "baslama_tr": "2026-11-26T23:00:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3326598,
+   "lig": null,
+   "lig_kodu": 46196,
+   "ev": "Freiburg",
+   "deplasman": "Twente",
+   "baslama_tr": "2026-11-26T23:00:00+03:00",
+   "market_sayisi": 56
+  },
+  {
+   "kod": 3326599,
+   "lig": null,
+   "lig_kodu": 10015,
+   "ev": "Viktoria Plzen",
+   "deplasman": "Benfica",
+   "baslama_tr": "2026-11-26T20:45:00+03:00",
+   "market_sayisi": 56
+  },
+  {
+   "kod": 3326603,
+   "lig": null,
+   "lig_kodu": 10015,
+   "ev": "U. S. Gilloise",
+   "deplasman": "Lech Poznan",
+   "baslama_tr": "2026-11-26T20:45:00+03:00",
+   "market_sayisi": 56
+  },
+  {
+   "kod": 3326609,
+   "lig": null,
+   "lig_kodu": 46196,
+   "ev": "CSKA Sofya",
+   "deplasman": "Trabzonspor",
+   "baslama_tr": "2026-11-26T23:00:00+03:00",
+   "market_sayisi": 56
+  },
+  {
+   "kod": 3326611,
+   "lig": null,
+   "lig_kodu": 10015,
+   "ev": "Sparta Prag",
+   "deplasman": "AZ Alkmaar",
+   "baslama_tr": "2026-11-26T23:00:00+03:00",
+   "market_sayisi": 56
+  },
+  {
+   "kod": 3326613,
+   "lig": null,
+   "lig_kodu": 46196,
+   "ev": "Iberia 1999",
+   "deplasman": "Getafe",
+   "baslama_tr": "2026-11-26T20:45:00+03:00",
+   "market_sayisi": 56
+  },
+  {
+   "kod": 3326621,
+   "lig": null,
+   "lig_kodu": 10015,
+   "ev": "Sunderland",
+   "deplasman": "J. Bialystok",
+   "baslama_tr": "2026-11-26T23:00:00+03:00",
+   "market_sayisi": 56
+  },
+  {
+   "kod": 3326628,
+   "lig": null,
+   "lig_kodu": 10015,
+   "ev": "D. Zagreb",
+   "deplasman": "B. Leverkusen",
+   "baslama_tr": "2026-11-26T20:45:00+03:00",
+   "market_sayisi": 56
+  },
+  {
+   "kod": 3326632,
+   "lig": null,
+   "lig_kodu": 10015,
+   "ev": "Marsilya",
+   "deplasman": "Levski Sofya",
+   "baslama_tr": "2026-11-26T20:45:00+03:00",
+   "market_sayisi": 56
+  },
+  {
+   "kod": 3326633,
+   "lig": null,
+   "lig_kodu": 10015,
+   "ev": "Hoffenheim",
+   "deplasman": "Sturm Graz",
+   "baslama_tr": "2026-11-26T23:00:00+03:00",
+   "market_sayisi": 56
+  },
+  {
+   "kod": 3326639,
+   "lig": null,
+   "lig_kodu": 10015,
+   "ev": "Lyon",
+   "deplasman": "Lillestrom",
+   "baslama_tr": "2026-11-26T23:00:00+03:00",
+   "market_sayisi": 56
+  },
+  {
+   "kod": 3326643,
+   "lig": null,
+   "lig_kodu": 46196,
+   "ev": "Ajax",
+   "deplasman": "Thun",
+   "baslama_tr": "2026-11-26T20:45:00+03:00",
+   "market_sayisi": 55
+  },
+  {
+   "kod": 3326646,
+   "lig": null,
+   "lig_kodu": 46196,
+   "ev": "Nordsjælland",
+   "deplasman": "Panathinaikos",
+   "baslama_tr": "2026-11-26T23:00:00+03:00",
+   "market_sayisi": 56
+  },
+  {
+   "kod": 3326649,
+   "lig": null,
+   "lig_kodu": 10015,
+   "ev": "Celta Vigo",
+   "deplasman": "Bournemouth",
+   "baslama_tr": "2026-11-26T20:45:00+03:00",
+   "market_sayisi": 56
+  },
+  {
+   "kod": 3326651,
+   "lig": null,
+   "lig_kodu": 46196,
+   "ev": "KAA Gent",
+   "deplasman": "Kızıl Yıldız",
+   "baslama_tr": "2026-11-26T23:00:00+03:00",
+   "market_sayisi": 56
+  },
+  {
+   "kod": 3331141,
+   "lig": null,
+   "lig_kodu": 742,
+   "ev": "Durban City 2024",
+   "deplasman": "Polokwane",
+   "baslama_tr": "2026-11-24T20:30:00+03:00",
+   "market_sayisi": 34
+  },
+  {
+   "kod": 3331195,
+   "lig": null,
+   "lig_kodu": 2646,
+   "ev": "Leek Town",
+   "deplasman": "G'borough Tr.",
+   "baslama_tr": "2026-11-24T22:45:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3332326,
+   "lig": null,
+   "lig_kodu": 302,
+   "ev": "Aalborg BK",
+   "deplasman": "Esbjerg",
+   "baslama_tr": "2026-11-26T21:00:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3332440,
+   "lig": null,
+   "lig_kodu": 742,
+   "ev": "Orlando Pirates",
+   "deplasman": "Gold. Arrow",
+   "baslama_tr": "2026-11-24T20:30:00+03:00",
+   "market_sayisi": 35
+  },
+  {
+   "kod": 3332582,
+   "lig": null,
+   "lig_kodu": 17089,
+   "ev": "ACS F. C. Gloria",
+   "deplasman": "CSM Slatina",
+   "baslama_tr": "2026-11-26T17:45:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3335786,
+   "lig": null,
+   "lig_kodu": 10066,
+   "ev": "Slovan Bratislava U19",
+   "deplasman": "Real Betis U19",
+   "baslama_tr": "2026-11-24T16:00:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3336213,
+   "lig": null,
+   "lig_kodu": 10276,
+   "ev": "Chapecoense",
+   "deplasman": "Palmeiras SP",
+   "baslama_tr": "2026-11-25T00:00:00+03:00",
+   "market_sayisi": 82
+  },
+  {
+   "kod": 3347039,
+   "lig": null,
+   "lig_kodu": 2665,
+   "ev": "Chippenham",
+   "deplasman": "Hav Waterloo",
+   "baslama_tr": "2026-11-24T22:45:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3347049,
+   "lig": null,
+   "lig_kodu": 1872,
+   "ev": "Dungannon",
+   "deplasman": "Coleraine",
+   "baslama_tr": "2026-11-24T22:45:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3347051,
+   "lig": null,
+   "lig_kodu": 1872,
+   "ev": "Loughgall",
+   "deplasman": "Queens Uni.",
+   "baslama_tr": "2026-11-24T22:45:00+03:00",
+   "market_sayisi": 30
+  },
+  {
+   "kod": 3347058,
+   "lig": null,
+   "lig_kodu": 1872,
+   "ev": "Moyola Park",
+   "deplasman": "Ballymena Utd",
+   "baslama_tr": "2026-11-24T22:45:00+03:00",
+   "market_sayisi": 1
+  },
+  {
+   "kod": 3347065,
+   "lig": null,
+   "lig_kodu": 1872,
+   "ev": "Glentoran",
+   "deplasman": "Larne",
+   "baslama_tr": "2026-11-24T22:45:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3347098,
+   "lig": null,
+   "lig_kodu": 2666,
+   "ev": "Eastbourne Bor.",
+   "deplasman": "Aveley",
+   "baslama_tr": "2026-11-24T22:45:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3347120,
+   "lig": null,
+   "lig_kodu": 1872,
+   "ev": "Limavady Utd",
+   "deplasman": "Rathfriland Rangers",
+   "baslama_tr": "2026-11-24T22:45:00+03:00",
+   "market_sayisi": 30
+  },
+  {
+   "kod": 3347127,
+   "lig": null,
+   "lig_kodu": 2666,
+   "ev": "Leatherhead",
+   "deplasman": "Ramsgate",
+   "baslama_tr": "2026-11-24T22:45:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3347129,
+   "lig": null,
+   "lig_kodu": 1872,
+   "ev": "Carrick Rangers",
+   "deplasman": "Glenavon",
+   "baslama_tr": "2026-11-24T22:45:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3347136,
+   "lig": null,
+   "lig_kodu": 1872,
+   "ev": "Harland Wolff W.",
+   "deplasman": "Linfield",
+   "baslama_tr": "2026-11-24T22:45:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3351700,
+   "lig": null,
+   "lig_kodu": 1943,
+   "ev": "MSK Zilina",
+   "deplasman": "Ruzomberok",
+   "baslama_tr": "2026-11-24T19:00:00+03:00",
+   "market_sayisi": 18
+  },
+  {
+   "kod": 3355434,
+   "lig": null,
+   "lig_kodu": 33362,
+   "ev": "Charlton Ath U21",
+   "deplasman": "Coventry City U21",
+   "baslama_tr": "2026-11-24T16:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3372594,
+   "lig": null,
+   "lig_kodu": 24,
+   "ev": "Bromley",
+   "deplasman": "Wycombe",
+   "baslama_tr": "2026-11-24T22:45:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3372597,
+   "lig": null,
+   "lig_kodu": 5578,
+   "ev": "Radnicki Nis",
+   "deplasman": "FK Zeleznicar Pancevo",
+   "baslama_tr": "2026-11-25T15:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3376058,
+   "lig": null,
+   "lig_kodu": 10438,
+   "ev": "Garuda Yaksa",
+   "deplasman": "PSS Sleman",
+   "baslama_tr": "2026-11-24T12:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3380317,
+   "lig": null,
+   "lig_kodu": 59181,
+   "ev": "East Kilbri",
+   "deplasman": "P. Thistle",
+   "baslama_tr": "2026-11-24T22:45:00+03:00",
+   "market_sayisi": 35
+  },
+  {
+   "kod": 3380318,
+   "lig": null,
+   "lig_kodu": 59181,
+   "ev": "Hamilton",
+   "deplasman": "Cove Rangers",
+   "baslama_tr": "2026-11-24T22:45:00+03:00",
+   "market_sayisi": 34
+  },
+  {
+   "kod": 3380319,
+   "lig": null,
+   "lig_kodu": 59181,
+   "ev": "Clydebank",
+   "deplasman": "Queen's Park",
+   "baslama_tr": "2026-11-24T22:45:00+03:00",
+   "market_sayisi": 35
+  },
+  {
+   "kod": 3380320,
+   "lig": null,
+   "lig_kodu": 59181,
+   "ev": "Livingston",
+   "deplasman": "Peterhead",
+   "baslama_tr": "2026-11-24T22:45:00+03:00",
+   "market_sayisi": 35
+  },
+  {
+   "kod": 3380321,
+   "lig": null,
+   "lig_kodu": 59181,
+   "ev": "Arbroath",
+   "deplasman": "Airdrieonian",
+   "baslama_tr": "2026-11-24T22:45:00+03:00",
+   "market_sayisi": 35
+  },
+  {
+   "kod": 3380322,
+   "lig": null,
+   "lig_kodu": 59181,
+   "ev": "Dunfermline",
+   "deplasman": "Kelty Hearts",
+   "baslama_tr": "2026-11-24T22:45:00+03:00",
+   "market_sayisi": 34
+  },
+  {
+   "kod": 3380323,
+   "lig": null,
+   "lig_kodu": 59181,
+   "ev": "Ross County",
+   "deplasman": "Stenhousemuir",
+   "baslama_tr": "2026-11-24T22:45:00+03:00",
+   "market_sayisi": 34
+  },
+  {
+   "kod": 3380324,
+   "lig": null,
+   "lig_kodu": 59181,
+   "ev": "Ayr Utd",
+   "deplasman": "Inverness",
+   "baslama_tr": "2026-11-24T22:45:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3389657,
+   "lig": null,
+   "lig_kodu": 22723,
+   "ev": "Shahin Bandar Ameri",
+   "deplasman": "NM Soleyman",
+   "baslama_tr": "2026-11-24T16:15:00+03:00",
+   "market_sayisi": 14
+  },
+  {
+   "kod": 3389662,
+   "lig": null,
+   "lig_kodu": 22723,
+   "ev": "Fard",
+   "deplasman": "Pars Jonoubi",
+   "baslama_tr": "2026-11-24T14:30:00+03:00",
+   "market_sayisi": 14
+  },
+  {
+   "kod": 3389685,
+   "lig": null,
+   "lig_kodu": 2,
+   "ev": "S. Louis City SC",
+   "deplasman": "Los Angeles",
+   "baslama_tr": "2026-11-24T04:00:00+03:00",
+   "market_sayisi": 83
+  },
+  {
+   "kod": 3389695,
+   "lig": null,
+   "lig_kodu": 10096,
+   "ev": "Atalanta BC U23",
+   "deplasman": "ASD Pineto Calcio",
+   "baslama_tr": "2026-11-25T20:00:00+03:00",
+   "market_sayisi": 35
+  },
+  {
+   "kod": 3389696,
+   "lig": null,
+   "lig_kodu": 10096,
+   "ev": "Audace Cerignola",
+   "deplasman": "Inter Milano U23",
+   "baslama_tr": "2026-11-25T16:30:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3389697,
+   "lig": null,
+   "lig_kodu": 10196,
+   "ev": "AL Faisaly (Sar)",
+   "deplasman": "AL Draih",
+   "baslama_tr": "2026-11-26T20:30:00+03:00",
+   "market_sayisi": 42
+  },
+  {
+   "kod": 3389702,
+   "lig": null,
+   "lig_kodu": 10196,
+   "ev": "AL Fateh SC",
+   "deplasman": "AL Riyadh",
+   "baslama_tr": "2026-11-26T17:25:00+03:00",
+   "market_sayisi": 42
+  },
+  {
+   "kod": 3389704,
+   "lig": null,
+   "lig_kodu": 10196,
+   "ev": "Abha Club",
+   "deplasman": "AL Shabab (Sar)",
+   "baslama_tr": "2026-11-26T18:05:00+03:00",
+   "market_sayisi": 42
+  },
+  {
+   "kod": 3389706,
+   "lig": null,
+   "lig_kodu": 1995,
+   "ev": "Kryvbas K. R.",
+   "deplasman": "Metalist 1925",
+   "baslama_tr": "2026-11-25T14:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3389721,
+   "lig": null,
+   "lig_kodu": 2,
+   "ev": "San Jose E.",
+   "deplasman": "Houston Dyn.",
+   "baslama_tr": "2026-11-25T06:00:00+03:00",
+   "market_sayisi": 79
+  },
+  {
+   "kod": 3391098,
+   "lig": null,
+   "lig_kodu": 57500,
+   "ev": "Gimnasia",
+   "deplasman": "New Old Boys",
+   "baslama_tr": "2026-11-23T23:00:00+03:00",
+   "market_sayisi": 87
+  },
+  {
+   "kod": 3391106,
+   "lig": null,
+   "lig_kodu": 2935,
+   "ev": "Bavois",
+   "deplasman": "Schaffhausen",
+   "baslama_tr": "2026-11-25T21:30:00+03:00",
+   "market_sayisi": 2
+  },
+  {
+   "kod": 3391115,
+   "lig": null,
+   "lig_kodu": 10086,
+   "ev": "Kalaa Sport",
+   "deplasman": "CS Korba",
+   "baslama_tr": "2026-11-24T16:00:00+03:00",
+   "market_sayisi": 1
+  },
+  {
+   "kod": 3391116,
+   "lig": null,
+   "lig_kodu": 10086,
+   "ev": "Stade Gabesien",
+   "deplasman": "AS Kasserine",
+   "baslama_tr": "2026-11-24T16:00:00+03:00",
+   "market_sayisi": 1
+  },
+  {
+   "kod": 3391117,
+   "lig": null,
+   "lig_kodu": 10086,
+   "ev": "AS Ariana",
+   "deplasman": "JS Kairouanaise",
+   "baslama_tr": "2026-11-24T16:00:00+03:00",
+   "market_sayisi": 1
+  },
+  {
+   "kod": 3391118,
+   "lig": null,
+   "lig_kodu": 10086,
+   "ev": "Jendouba Sport",
+   "deplasman": "Union Ksour Essef",
+   "baslama_tr": "2026-11-24T16:00:00+03:00",
+   "market_sayisi": 1
+  },
+  {
+   "kod": 3396860,
+   "lig": null,
+   "lig_kodu": 57500,
+   "ev": "Boca Juniors",
+   "deplasman": "Ind. Mendoza",
+   "baslama_tr": "2026-11-26T03:00:00+03:00",
+   "market_sayisi": 58
+  },
+  {
+   "kod": 3402635,
+   "lig": null,
+   "lig_kodu": 1147,
+   "ev": "Holywell Town",
+   "deplasman": "Penybont",
+   "baslama_tr": "2026-11-24T22:45:00+03:00",
+   "market_sayisi": 34
+  },
+  {
+   "kod": 3404890,
+   "lig": null,
+   "lig_kodu": 33653,
+   "ev": "FK Arsenal Tivat",
+   "deplasman": "FK Decic Tuzi",
+   "baslama_tr": "2026-11-24T16:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3404891,
+   "lig": null,
+   "lig_kodu": 10063,
+   "ev": "Talavera R.",
+   "deplasman": "UB Conquense",
+   "baslama_tr": "2026-11-25T21:30:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3405894,
+   "lig": null,
+   "lig_kodu": 614,
+   "ev": "Nantes",
+   "deplasman": "Grenoble",
+   "baslama_tr": "2026-11-23T22:45:00+03:00",
+   "market_sayisi": 58
+  },
+  {
+   "kod": 3406814,
+   "lig": null,
+   "lig_kodu": 87868,
+   "ev": "Atl. Nacional Medellin",
+   "deplasman": "I. Medellin",
+   "baslama_tr": "2026-11-26T04:30:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3406815,
+   "lig": null,
+   "lig_kodu": 87868,
+   "ev": "I. Santa Fe",
+   "deplasman": "Once Caldas",
+   "baslama_tr": "2026-11-26T02:20:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3406816,
+   "lig": null,
+   "lig_kodu": 87869,
+   "ev": "America De Cali",
+   "deplasman": "Deport Cali",
+   "baslama_tr": "2026-11-25T04:30:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3406817,
+   "lig": null,
+   "lig_kodu": 87869,
+   "ev": "Millonarios",
+   "deplasman": "CA Bucaramanga",
+   "baslama_tr": "2026-11-25T02:20:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3406923,
+   "lig": null,
+   "lig_kodu": 2008,
+   "ev": "CA Juventud De Las Piedras",
+   "deplasman": "Defensor Sp.",
+   "baslama_tr": "2026-11-23T22:30:00+03:00",
+   "market_sayisi": 5
+  },
+  {
+   "kod": 3406924,
+   "lig": null,
+   "lig_kodu": 2008,
+   "ev": "Albion",
+   "deplasman": "Danubio",
+   "baslama_tr": "2026-11-24T01:30:00+03:00",
+   "market_sayisi": 5
+  },
+  {
+   "kod": 3410778,
+   "lig": null,
+   "lig_kodu": 23401,
+   "ev": "T. Suarez",
+   "deplasman": "Gimnasia Y Tiro",
+   "baslama_tr": "2026-11-28T22:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3411524,
+   "lig": null,
+   "lig_kodu": 2666,
+   "ev": "Cray Wanderers",
+   "deplasman": "Wingate&Finchley",
+   "baslama_tr": "2026-11-24T22:45:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3414045,
+   "lig": null,
+   "lig_kodu": 46244,
+   "ev": "CA Banfield (K)",
+   "deplasman": "CA Huracan (K)",
+   "baslama_tr": "2026-11-23T23:00:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3414056,
+   "lig": null,
+   "lig_kodu": 54553,
+   "ev": "Barcelona (Ekv)",
+   "deplasman": "Independiente D. V.",
+   "baslama_tr": "2026-11-26T03:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3414057,
+   "lig": null,
+   "lig_kodu": 2665,
+   "ev": "Bracknell Town",
+   "deplasman": "Berkhamsted",
+   "baslama_tr": "2026-11-24T22:45:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3414058,
+   "lig": null,
+   "lig_kodu": 2665,
+   "ev": "Basingstoke",
+   "deplasman": "Sholing",
+   "baslama_tr": "2026-11-24T22:45:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3415325,
+   "lig": null,
+   "lig_kodu": 28942,
+   "ev": "Boca Juniors (Kol)",
+   "deplasman": "Deportes Quindio",
+   "baslama_tr": "2026-11-24T03:30:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3419808,
+   "lig": null,
+   "lig_kodu": 57499,
+   "ev": "South Melbourne",
+   "deplasman": "Oakleigh C.",
+   "baslama_tr": "2026-11-26T11:30:00+03:00",
+   "market_sayisi": 53
+  },
+  {
+   "kod": 3419888,
+   "lig": null,
+   "lig_kodu": 33383,
+   "ev": "Kiyovu Sport",
+   "deplasman": "AL Hilal (Sdn)",
+   "baslama_tr": "2026-11-24T19:30:00+03:00",
+   "market_sayisi": 2
+  },
+  {
+   "kod": 3419890,
+   "lig": null,
+   "lig_kodu": 33383,
+   "ev": "Bugesera",
+   "deplasman": "Rayon Sports",
+   "baslama_tr": "2026-11-24T16:00:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3420885,
+   "lig": null,
+   "lig_kodu": 70703,
+   "ev": "UEFA Şamp. Ligi",
+   "deplasman": "Lig Etabı 5. Hafta (18 Maç)",
+   "baslama_tr": "2026-11-24T20:45:00+03:00",
+   "market_sayisi": 1
+  },
+  {
+   "kod": 3420886,
+   "lig": null,
+   "lig_kodu": 71522,
+   "ev": "UEFA Şamp. Ligi",
+   "deplasman": "Salı Maçları (9 Maç)",
+   "baslama_tr": "2026-11-24T20:45:00+03:00",
+   "market_sayisi": 1
+  },
+  {
+   "kod": 3420890,
+   "lig": null,
+   "lig_kodu": 2665,
+   "ev": "Malvern Town",
+   "deplasman": "Hanworth Villa",
+   "baslama_tr": "2026-11-24T22:45:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3420891,
+   "lig": null,
+   "lig_kodu": 2667,
+   "ev": "Anstey Nomads",
+   "deplasman": "Redditch Utd",
+   "baslama_tr": "2026-11-24T22:45:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3420892,
+   "lig": null,
+   "lig_kodu": 2667,
+   "ev": "Peterborough S.",
+   "deplasman": "Alvechurch",
+   "baslama_tr": "2026-11-24T22:45:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3421465,
+   "lig": null,
+   "lig_kodu": 1824,
+   "ev": "Club Leon",
+   "deplasman": "Cruz Azul",
+   "baslama_tr": "2026-11-27T06:00:00+03:00",
+   "market_sayisi": 72
+  },
+  {
+   "kod": 3421466,
+   "lig": null,
+   "lig_kodu": 1824,
+   "ev": "Pachuca",
+   "deplasman": "CD Guadalajara",
+   "baslama_tr": "2026-11-27T04:00:00+03:00",
+   "market_sayisi": 72
+  },
+  {
+   "kod": 3421467,
+   "lig": null,
+   "lig_kodu": 1824,
+   "ev": "D. Toluca",
+   "deplasman": "Atlas",
+   "baslama_tr": "2026-11-26T04:00:00+03:00",
+   "market_sayisi": 56
+  },
+  {
+   "kod": 3421468,
+   "lig": null,
+   "lig_kodu": 1824,
+   "ev": "Monterrey",
+   "deplasman": "America",
+   "baslama_tr": "2026-11-26T06:00:00+03:00",
+   "market_sayisi": 56
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "host": "en.eintracht.de",
+ "kontrol_utc": "2026-11-25T17:21:49+00:00",
+ "robots_http": 200,
+ "robots_tum_site_yasak": false,
+ "robots_ai_ozel_satirlar": [],
+ "ana_http": 200,
+ "ana_son_url": "https://en.eintracht.de/",
+ "baslik": "Pros - Eintracht Frankfurt Pros",
+ "bot_engeli_isareti": false,
+ "metin_uzunlugu": 467,
+ "kosul_adaylari": [
+  "https://en.eintracht.de/terms-conditions-of-use/",
+  "https://en.eintracht.de/impressum/",
+  "https://en.eintracht.de/data-privacy-policy/"
+ ],
+ "kosul_sayfalari": [
+  {
+   "url": "https://en.eintracht.de/terms-conditions-of-use/",
+   "http": 200,
+   "metin_uzunlugu": 9741,
+   "maddeler": [
+    " be informed immediately. 3. Obligations of the user 3.1 3.1 The services and facilities provided by Eintracht Frankfurt may be used for private purposes only. Commercial use is not permitted. In particular, users may not use the services in order to promote other websites, services or commercial offerings. 3.2 When using the website and the services provided, users s",
+    " used for private purposes only. Commercial use is not permitted. In particular, users may not use the services in order to promote other websites, services or commercial offerings. 3.2 When using the website and the services provided, users shall refrain from infringing applicable laws. In particular, the user shall ensure that any content (including links) distribut"
+   ]
+  },
+  {
+   "url": "https://en.eintracht.de/impressum/",
+   "http": 200,
+   "metin_uzunlugu": 2843,
+   "maddeler": []
+  }
+ ]
+}

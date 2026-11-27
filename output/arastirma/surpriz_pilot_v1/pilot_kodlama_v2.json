@@ -1,0 +1,850 @@
+{
+ "uretim_utc": "2026-11-26T21:35:15+00:00",
+ "on_kayit_sha256": "ff064c097a886b0b9e5c972999144ac82451939c8a6acfec6cae571a978114a6",
+ "kodlama_notu": "Sinyaller sonuç bilinerek, geriye dönük arama özetlerinden kodlandı (kör değil). Olasılığa uygulanmadı.",
+ "maclar": [
+  {
+   "grup": "surpriz",
+   "yarisma": "es.1",
+   "sezon": "2024-25",
+   "tarih": "2024-11-30",
+   "ev": "FC Barcelona",
+   "dep": "UD Las Palmas",
+   "skor": [
+    1,
+    2
+   ],
+   "favori": "FC Barcelona",
+   "favori_saha": "ev",
+   "P_bagimsiz": {
+    "H": 0.8346244394758834,
+    "D": 0.10799649556889031,
+    "A": 0.05737906495522648
+   },
+   "P_favori": 0.8346,
+   "kategori_A": "80+",
+   "etiket_A": "favori_kaybetti",
+   "piyasa_B": "piyasa verisi eksik",
+   "set_v1_tekrar": false,
+   "A_mac_oncesi_sinyaller": [
+    "fav_kilit_eksik"
+   ],
+   "A_mac_oncesi_not": "Casadó cezalı; Yamal ve Ferran dönüyor; genç oyuncular kadroda (önizleme, maç öncesi).",
+   "B_mac_ici": "Sandro 49' (kontra), Raphinha 61', Fábio Silva 67'. Kırmızı kart yok. Flick: 'gol atamayınca zorlanıyoruz'.",
+   "C_mac_sonrasi": "Flick sözü maç sonrası → C",
+   "kaynak": "web arama özetleri (sayfa okunmadı); doğrulama seviyesi: dogrulanmadi",
+   "B_mac_ici_olaylar": [
+    "rakip_kontra_golleri"
+   ],
+   "B_kaynak_hostlar": [
+    "tntsports.co.uk",
+    "fcbarcelona.com"
+   ],
+   "B_kaynak_niteligi": "maç sonrası arama özetleri; maç içi olaylar sinyal DEĞİL",
+   "model_kalibrasyon_notu": "lig kategori ECE ≤ 0,023"
+  },
+  {
+   "grup": "surpriz",
+   "yarisma": "fr.1",
+   "sezon": "2024-25",
+   "tarih": "2024-10-04",
+   "ev": "Olympique de Marseille",
+   "dep": "Angers SCO",
+   "skor": [
+    1,
+    1
+   ],
+   "favori": "Olympique de Marseille",
+   "favori_saha": "ev",
+   "P_bagimsiz": {
+    "H": 0.8032498331225945,
+    "D": 0.12677569658138405,
+    "A": 0.0699744702960213
+   },
+   "P_favori": 0.8032,
+   "kategori_A": "80+",
+   "etiket_A": "berabere",
+   "piyasa_B": "piyasa verisi eksik",
+   "set_v1_tekrar": false,
+   "A_mac_oncesi_sinyaller": [
+    "fav_kotu_form"
+   ],
+   "A_mac_oncesi_not": "Bir hafta önce Strasbourg'a yenilgi (maç öncesi); kadro haberi tarihsiz → kullanılmadı.",
+   "B_mac_ici": "Raolisoa (Angers) 26' kırmızı, Maupay (OM) 30' ikinci sarı → 10'a 10. Rowe 51', El Melali 54'. Angers sezonda galibiyetsizdi.",
+   "C_mac_sonrasi": "veri yok (araştırılmadı)",
+   "kaynak": "web arama özetleri (sayfa okunmadı); doğrulama seviyesi: dogrulanmadi",
+   "B_mac_ici_olaylar": [
+    "kirmizi_kart_iki_taraf"
+   ],
+   "B_kaynak_hostlar": [
+    "flashscore.com",
+    "footballwebpages.co.uk",
+    "maxifoot.fr"
+   ],
+   "B_kaynak_niteligi": "maç sonrası arama özetleri; maç içi olaylar sinyal DEĞİL",
+   "model_kalibrasyon_notu": "lig kategori ECE ≤ 0,023"
+  },
+  {
+   "grup": "surpriz",
+   "yarisma": "fr.1",
+   "sezon": "2025-26",
+   "tarih": "2026-03-22",
+   "ev": "Stade Rennais FC 1901",
+   "dep": "FC Metz",
+   "skor": [
+    0,
+    0
+   ],
+   "favori": "Stade Rennais FC 1901",
+   "favori_saha": "ev",
+   "P_bagimsiz": {
+    "H": 0.7581796488773054,
+    "D": 0.1418395697115274,
+    "A": 0.09998078141116723
+   },
+   "P_favori": 0.7582,
+   "kategori_A": "70-80",
+   "etiket_A": "berabere",
+   "piyasa_B": "piyasa verisi eksik",
+   "set_v1_tekrar": false,
+   "A_mac_oncesi_sinyaller": [
+    "haber_bulunamadi"
+   ],
+   "A_mac_oncesi_not": "Tarihli önizleme bulunamadı.",
+   "B_mac_ici": "İlk yarıda Rennes golü VAR ile iptal; uzatmada Lepaul kafası az farkla dışarı. Metz 27 maçta 14 puan.",
+   "C_mac_sonrasi": "veri yok (araştırılmadı)",
+   "kaynak": "web arama özetleri (sayfa okunmadı); doğrulama seviyesi: dogrulanmadi",
+   "B_mac_ici_olaylar": [
+    "var_gol_iptali"
+   ],
+   "B_kaynak_hostlar": [
+    "espn.com"
+   ],
+   "B_kaynak_niteligi": "maç sonrası arama özetleri; maç içi olaylar sinyal DEĞİL",
+   "model_kalibrasyon_notu": "lig kategori ECE ≤ 0,023"
+  },
+  {
+   "grup": "surpriz",
+   "yarisma": "de.1",
+   "sezon": "2024-25",
+   "tarih": "2025-04-12",
+   "ev": "Bayer 04 Leverkusen",
+   "dep": "1. FC Union Berlin",
+   "skor": [
+    0,
+    0
+   ],
+   "favori": "Bayer 04 Leverkusen",
+   "favori_saha": "ev",
+   "P_bagimsiz": {
+    "H": 0.7317839187221399,
+    "D": 0.1739214261679355,
+    "A": 0.09429465510992457
+   },
+   "P_favori": 0.7318,
+   "kategori_A": "70-80",
+   "etiket_A": "berabere",
+   "piyasa_B": "piyasa verisi eksik",
+   "set_v1_tekrar": false,
+   "A_mac_oncesi_sinyaller": [
+    "fav_kilit_eksik",
+    "fav_sampiyonluk_baskisi"
+   ],
+   "A_mac_oncesi_not": "Bayern'in 6 puan gerisinde; Wirtz diz sakatlığı sonrası yedek kulübesine dönüyor; Union 13.",
+   "B_mac_ici": "Topa sahip olan Leverkusen net pozisyon üretemedi; Rønnow kritik kurtarışlar. Wirtz döndü.",
+   "C_mac_sonrasi": "veri yok (araştırılmadı)",
+   "kaynak": "web arama özetleri (sayfa okunmadı); doğrulama seviyesi: dogrulanmadi",
+   "B_mac_ici_olaylar": [
+    "rakip_kaleci_performansi"
+   ],
+   "B_kaynak_hostlar": [
+    "bundesliga.com",
+    "beinsports.com",
+    "zdf.de"
+   ],
+   "B_kaynak_niteligi": "maç sonrası arama özetleri; maç içi olaylar sinyal DEĞİL",
+   "model_kalibrasyon_notu": "de.1 sınırda: ort. P 0,636, gerçek 0,599 (±0,037), kategori ECE 0,039 → yüzde gösterimi 'kalibrasyonu sınırda' uyarısıyla"
+  },
+  {
+   "grup": "surpriz",
+   "yarisma": "en.1",
+   "sezon": "2025-26",
+   "tarih": "2026-02-21",
+   "ev": "Chelsea FC",
+   "dep": "Burnley FC",
+   "skor": [
+    1,
+    1
+   ],
+   "favori": "Chelsea FC",
+   "favori_saha": "ev",
+   "P_bagimsiz": {
+    "H": 0.7213483015772798,
+    "D": 0.16437529190160752,
+    "A": 0.11427640652111266
+   },
+   "P_favori": 0.7213,
+   "kategori_A": "70-80",
+   "etiket_A": "berabere",
+   "piyasa_B": "piyasa verisi eksik",
+   "set_v1_tekrar": false,
+   "A_mac_oncesi_sinyaller": [
+    "fav_kilit_eksik",
+    "fav_kotu_form",
+    "rakip_dusme_mucadelesi"
+   ],
+   "A_mac_oncesi_not": "Cucurella yok (teknik direktör basın toplantısı); Chelsea hemen önce Leeds ile 2-2; Burnley düşme favorisi; SI 4-1 tahmin etmiş; hakem Lewis Smith.",
+   "B_mac_ici": "João Pedro 4'; Wesley Fofana kırmızı kart (dakika bulunamadı); Flemming geç beraberlik golü.",
+   "C_mac_sonrasi": "veri yok (araştırılmadı)",
+   "kaynak": "web arama özetleri (sayfa okunmadı); doğrulama seviyesi: dogrulanmadi",
+   "B_mac_ici_olaylar": [
+    "gec_gol_rakip",
+    "kirmizi_kart_favori"
+   ],
+   "B_kaynak_hostlar": [
+    "espn.com",
+    "burnleyfootballclub.com",
+    "11v11.com",
+    "fotmob.com"
+   ],
+   "B_kaynak_niteligi": "maç sonrası arama özetleri; maç içi olaylar sinyal DEĞİL",
+   "model_kalibrasyon_notu": "lig kategori ECE ≤ 0,023"
+  },
+  {
+   "grup": "surpriz",
+   "yarisma": "fr.1",
+   "sezon": "2023-24",
+   "tarih": "2024-02-18",
+   "ev": "AS Monaco FC",
+   "dep": "Toulouse FC",
+   "skor": [
+    1,
+    2
+   ],
+   "favori": "AS Monaco FC",
+   "favori_saha": "ev",
+   "P_bagimsiz": {
+    "H": 0.6211260986389548,
+    "D": 0.19910880197342756,
+    "A": 0.17976509938761773
+   },
+   "P_favori": 0.6211,
+   "kategori_A": "60-70",
+   "etiket_A": "favori_kaybetti",
+   "piyasa_B": "piyasa verisi eksik",
+   "set_v1_tekrar": false,
+   "A_mac_oncesi_sinyaller": [
+    "rakip_yogun_takvim"
+   ],
+   "A_mac_oncesi_not": "Toulouse 3 gün önce Benfica ile Avrupa Ligi'nde oynadı; önizleme 2-0 Monaco tahmini.",
+   "B_mac_ici": "Sierro 41', Akliouche 48', Costa 70'. Kırmızı kart yok. Monaco ikinciliğe yükselme fırsatını kaçırdı.",
+   "C_mac_sonrasi": "veri yok (araştırılmadı)",
+   "kaynak": "web arama özetleri (sayfa okunmadı); doğrulama seviyesi: dogrulanmadi",
+   "B_mac_ici_olaylar": [],
+   "B_kaynak_hostlar": [
+    "asmonaco.com",
+    "monaco-tribune.com",
+    "statmuse.com"
+   ],
+   "B_kaynak_niteligi": "maç sonrası arama özetleri; maç içi olaylar sinyal DEĞİL",
+   "model_kalibrasyon_notu": "lig kategori ECE ≤ 0,023"
+  },
+  {
+   "grup": "surpriz",
+   "yarisma": "it.1",
+   "sezon": "2022-23",
+   "tarih": "2023-05-22",
+   "ev": "AS Roma",
+   "dep": "US Salernitana 1919",
+   "skor": [
+    2,
+    2
+   ],
+   "favori": "AS Roma",
+   "favori_saha": "ev",
+   "P_bagimsiz": {
+    "H": 0.6077653468222064,
+    "D": 0.22188292959932795,
+    "A": 0.17035172357846548
+   },
+   "P_favori": 0.6078,
+   "kategori_A": "60-70",
+   "etiket_A": "berabere",
+   "piyasa_B": "piyasa verisi eksik",
+   "set_v1_tekrar": false,
+   "A_mac_oncesi_sinyaller": [
+    "fav_yogun_takvim_avrupa"
+   ],
+   "A_mac_oncesi_not": "Roma Avrupa Ligi finaline yeni yükseldi (maç öncesi); rotasyon doğrulanmadı.",
+   "B_mac_ici": "Candreva 12', El Shaarawy 47', Dia 54', Matić 83'. Uzatmada arbede (Salernitana personeline kırmızı). Roma 6 lig maçıdır galibiyetsizdi; Salernitana ligde kalmayı garantilemişti.",
+   "C_mac_sonrasi": "'Avrupa başarısından sonra gerçeğe dönüş' çerçevesi maç sonrası → C",
+   "kaynak": "web arama özetleri (sayfa okunmadı); doğrulama seviyesi: dogrulanmadi",
+   "B_mac_ici_olaylar": [],
+   "B_kaynak_hostlar": [
+    "tntsports.co.uk",
+    "tuttosport.com",
+    "supersport.com"
+   ],
+   "B_kaynak_niteligi": "maç sonrası arama özetleri; maç içi olaylar sinyal DEĞİL",
+   "model_kalibrasyon_notu": "lig kategori ECE ≤ 0,023"
+  },
+  {
+   "grup": "surpriz",
+   "yarisma": "es.1",
+   "sezon": "2023-24",
+   "tarih": "2023-12-19",
+   "ev": "Club Atlético de Madrid",
+   "dep": "Getafe CF",
+   "skor": [
+    3,
+    3
+   ],
+   "favori": "Club Atlético de Madrid",
+   "favori_saha": "ev",
+   "P_bagimsiz": {
+    "H": 0.6423017209203821,
+    "D": 0.22097886791122573,
+    "A": 0.13671941116839234
+   },
+   "P_favori": 0.6423,
+   "kategori_A": "60-70",
+   "etiket_A": "berabere",
+   "piyasa_B": "piyasa verisi eksik",
+   "set_v1_tekrar": false,
+   "A_mac_oncesi_sinyaller": [
+    "haber_bulunamadi"
+   ],
+   "A_mac_oncesi_not": "Önizleme bulunamadı.",
+   "B_mac_ici": "Savić erken kırmızı; Griezmann 2 gol; Getafe 87' (Óscar Rodríguez) ve uzatmada Mayoral penaltısı.",
+   "C_mac_sonrasi": "veri yok (araştırılmadı)",
+   "kaynak": "web arama özetleri (sayfa okunmadı); doğrulama seviyesi: dogrulanmadi",
+   "B_mac_ici_olaylar": [
+    "gec_penalti_rakip",
+    "kirmizi_kart_favori"
+   ],
+   "B_kaynak_hostlar": [
+    "flashscore.com",
+    "dawn.com",
+    "football-espana.net"
+   ],
+   "B_kaynak_niteligi": "maç sonrası arama özetleri; maç içi olaylar sinyal DEĞİL",
+   "model_kalibrasyon_notu": "lig kategori ECE ≤ 0,023"
+  },
+  {
+   "grup": "surpriz",
+   "yarisma": "de.1",
+   "sezon": "2025-26",
+   "tarih": "2025-11-08",
+   "ev": "TSG 1899 Hoffenheim",
+   "dep": "RB Leipzig",
+   "skor": [
+    3,
+    1
+   ],
+   "favori": "RB Leipzig",
+   "favori_saha": "dep",
+   "P_bagimsiz": {
+    "H": 0.26962231243972984,
+    "D": 0.21105201817556557,
+    "A": 0.5193256693847045
+   },
+   "P_favori": 0.5193,
+   "kategori_A": "50-60",
+   "etiket_A": "favori_kaybetti",
+   "piyasa_B": "piyasa verisi eksik",
+   "set_v1_tekrar": false,
+   "A_mac_oncesi_sinyaller": [
+    "fav_sampiyonluk_baskisi"
+   ],
+   "A_mac_oncesi_not": "Leipzig şampiyonluk takibinde, Bayern'in 5 puan gerisinde; kadro haberi yok.",
+   "B_mac_ici": "Diomande 9' (Leipzig), Hajdari 20', Lemperle 38', Prömel 79'. Rômulo golü VAR ofsayt iptali. xG Hoffenheim 1,87 – Leipzig 2,17. Hoffenheim 3 maçlık galibiyet serisiyle geldi.",
+   "C_mac_sonrasi": "veri yok (araştırılmadı)",
+   "kaynak": "web arama özetleri (sayfa okunmadı); doğrulama seviyesi: dogrulanmadi",
+   "B_mac_ici_olaylar": [
+    "var_gol_iptali"
+   ],
+   "B_kaynak_hostlar": [
+    "bundesliga.com",
+    "espn.com"
+   ],
+   "B_kaynak_niteligi": "maç sonrası arama özetleri; maç içi olaylar sinyal DEĞİL",
+   "model_kalibrasyon_notu": "de.1 sınırda: ort. P 0,636, gerçek 0,599 (±0,037), kategori ECE 0,039 → yüzde gösterimi 'kalibrasyonu sınırda' uyarısıyla"
+  },
+  {
+   "grup": "surpriz",
+   "yarisma": "it.1",
+   "sezon": "2023-24",
+   "tarih": "2024-03-17",
+   "ev": "Juventus FC",
+   "dep": "Genoa CFC",
+   "skor": [
+    0,
+    0
+   ],
+   "favori": "Juventus FC",
+   "favori_saha": "ev",
+   "P_bagimsiz": {
+    "H": 0.5924942648403664,
+    "D": 0.2477293942506924,
+    "A": 0.15977634090894144
+   },
+   "P_favori": 0.5925,
+   "kategori_A": "50-60",
+   "etiket_A": "berabere",
+   "piyasa_B": "piyasa verisi eksik",
+   "set_v1_tekrar": false,
+   "A_mac_oncesi_sinyaller": [
+    "fav_kotu_form",
+    "fav_teknik_belirsizlik"
+   ],
+   "A_mac_oncesi_not": "Allegri 'yeniden yola girmek' dedi (kulüp, 16.03; kötü form); Alcaraz ve De Sciglio yok (kilit değil); Rabiot dönüyor; tahminler 1-0/1-1/2-1.",
+   "B_mac_ici": "Vlahović uzatmada ikinci sarı (93', sonuca etkisi yok); Kean 90' direk; şut 17–5. Juve 8 maçta 1 galibiyet.",
+   "C_mac_sonrasi": "veri yok (araştırılmadı)",
+   "kaynak": "web arama özetleri (sayfa okunmadı); doğrulama seviyesi: dogrulanmadi",
+   "B_mac_ici_olaylar": [
+    "kirmizi_kart_favori_sonucsuz"
+   ],
+   "B_kaynak_hostlar": [
+    "eurosport.com",
+    "thestar.com.my",
+    "football-italia.net"
+   ],
+   "B_kaynak_niteligi": "maç sonrası arama özetleri; maç içi olaylar sinyal DEĞİL",
+   "model_kalibrasyon_notu": "lig kategori ECE ≤ 0,023"
+  },
+  {
+   "grup": "kontrol",
+   "yarisma": "es.1",
+   "sezon": "2024-25",
+   "tarih": "2024-08-25",
+   "ev": "Real Madrid CF",
+   "dep": "Real Valladolid CF",
+   "skor": [
+    3,
+    0
+   ],
+   "favori": "Real Madrid CF",
+   "favori_saha": "ev",
+   "P_bagimsiz": {
+    "H": 0.8357893281447795,
+    "D": 0.11641936901255669,
+    "A": 0.047791302842663884
+   },
+   "P_favori": 0.8358,
+   "kategori_A": "80+",
+   "etiket_A": "favori_kazandi",
+   "piyasa_B": "piyasa verisi eksik",
+   "set_v1_tekrar": true,
+   "A_mac_oncesi_sinyaller": [
+    "fav_kilit_eksik",
+    "fav_kotu_form"
+   ],
+   "A_mac_oncesi_not": "Mallorca'da beraberlik; Mendy cezalı; Bellingham sakatlık haberi.",
+   "B_mac_ici": "veri yok (kontrollerde araştırılmadı)",
+   "C_mac_sonrasi": "veri yok (araştırılmadı)",
+   "kaynak": "web arama özetleri (sayfa okunmadı); doğrulama seviyesi: dogrulanmadi",
+   "model_kalibrasyon_notu": "lig kategori ECE ≤ 0,023"
+  },
+  {
+   "grup": "kontrol",
+   "yarisma": "fr.1",
+   "sezon": "2024-25",
+   "tarih": "2025-02-15",
+   "ev": "Olympique de Marseille",
+   "dep": "AS Saint-Étienne",
+   "skor": [
+    5,
+    1
+   ],
+   "favori": "Olympique de Marseille",
+   "favori_saha": "ev",
+   "P_bagimsiz": {
+    "H": 0.8013450493371679,
+    "D": 0.12509031441984583,
+    "A": 0.07356463624298629
+   },
+   "P_favori": 0.8013,
+   "kategori_A": "80+",
+   "etiket_A": "favori_kazandi",
+   "piyasa_B": "piyasa verisi eksik",
+   "set_v1_tekrar": false,
+   "A_mac_oncesi_sinyaller": [
+    "fav_kilit_eksik"
+   ],
+   "A_mac_oncesi_not": "Mbemba, Blanco, Moumbagna yok; Rongier ve Harit şüpheli; Saint-Étienne şubatta iki maçını da kaybetti.",
+   "B_mac_ici": "veri yok (kontrollerde araştırılmadı)",
+   "C_mac_sonrasi": "veri yok (araştırılmadı)",
+   "kaynak": "web arama özetleri (sayfa okunmadı); doğrulama seviyesi: dogrulanmadi",
+   "model_kalibrasyon_notu": "lig kategori ECE ≤ 0,023"
+  },
+  {
+   "grup": "kontrol",
+   "yarisma": "fr.1",
+   "sezon": "2025-26",
+   "tarih": "2025-09-21",
+   "ev": "AS Monaco FC",
+   "dep": "FC Metz",
+   "skor": [
+    5,
+    2
+   ],
+   "favori": "AS Monaco FC",
+   "favori_saha": "ev",
+   "P_bagimsiz": {
+    "H": 0.7532331924069793,
+    "D": 0.15213022438579143,
+    "A": 0.09463658320722923
+   },
+   "P_favori": 0.7532,
+   "kategori_A": "70-80",
+   "etiket_A": "favori_kazandi",
+   "piyasa_B": "piyasa verisi eksik",
+   "set_v1_tekrar": false,
+   "A_mac_oncesi_sinyaller": [
+    "fav_kilit_eksik",
+    "fav_yogun_takvim_avrupa",
+    "rakip_dusme_mucadelesi"
+   ],
+   "A_mac_oncesi_not": "Monaco zorlu Şampiyonlar Ligi açılışı sonrası; Hradecky, Golovin, Zakaria darbe; Metz son sırada.",
+   "B_mac_ici": "veri yok (kontrollerde araştırılmadı)",
+   "C_mac_sonrasi": "veri yok (araştırılmadı)",
+   "kaynak": "web arama özetleri (sayfa okunmadı); doğrulama seviyesi: dogrulanmadi",
+   "model_kalibrasyon_notu": "lig kategori ECE ≤ 0,023"
+  },
+  {
+   "grup": "kontrol",
+   "yarisma": "de.1",
+   "sezon": "2024-25",
+   "tarih": "2024-10-18",
+   "ev": "Borussia Dortmund",
+   "dep": "FC St. Pauli 1910",
+   "skor": [
+    2,
+    1
+   ],
+   "favori": "Borussia Dortmund",
+   "favori_saha": "ev",
+   "P_bagimsiz": {
+    "H": 0.7336369206507689,
+    "D": 0.165579025484706,
+    "A": 0.10078405386452495
+   },
+   "P_favori": 0.7336,
+   "kategori_A": "70-80",
+   "etiket_A": "favori_kazandi",
+   "piyasa_B": "piyasa verisi eksik",
+   "set_v1_tekrar": false,
+   "A_mac_oncesi_sinyaller": [
+    "haber_bulunamadi"
+   ],
+   "A_mac_oncesi_not": "Yalnızca tahmin (Sports Mole 2-0, anket %88); kadro haberi yok.",
+   "B_mac_ici": "veri yok (kontrollerde araştırılmadı)",
+   "C_mac_sonrasi": "veri yok (araştırılmadı)",
+   "kaynak": "web arama özetleri (sayfa okunmadı); doğrulama seviyesi: dogrulanmadi",
+   "model_kalibrasyon_notu": "de.1 sınırda: ort. P 0,636, gerçek 0,599 (±0,037), kategori ECE 0,039 → yüzde gösterimi 'kalibrasyonu sınırda' uyarısıyla"
+  },
+  {
+   "grup": "kontrol",
+   "yarisma": "en.1",
+   "sezon": "2025-26",
+   "tarih": "2025-08-23",
+   "ev": "Arsenal FC",
+   "dep": "Leeds United FC",
+   "skor": [
+    5,
+    0
+   ],
+   "favori": "Arsenal FC",
+   "favori_saha": "ev",
+   "P_bagimsiz": {
+    "H": 0.7033826519161799,
+    "D": 0.1838358568025067,
+    "A": 0.1127814912813135
+   },
+   "P_favori": 0.7034,
+   "kategori_A": "70-80",
+   "etiket_A": "favori_kazandi",
+   "piyasa_B": "piyasa verisi eksik",
+   "set_v1_tekrar": false,
+   "A_mac_oncesi_sinyaller": [
+    "fav_kilit_eksik"
+   ],
+   "A_mac_oncesi_not": "Havertz diz sakatlığı, Nørgaard yok (Leeds).",
+   "B_mac_ici": "veri yok (kontrollerde araştırılmadı)",
+   "C_mac_sonrasi": "veri yok (araştırılmadı)",
+   "kaynak": "web arama özetleri (sayfa okunmadı); doğrulama seviyesi: dogrulanmadi",
+   "model_kalibrasyon_notu": "lig kategori ECE ≤ 0,023"
+  },
+  {
+   "grup": "kontrol",
+   "yarisma": "fr.1",
+   "sezon": "2023-24",
+   "tarih": "2024-02-04",
+   "ev": "Lille OSC",
+   "dep": "Clermont Foot 63",
+   "skor": [
+    4,
+    0
+   ],
+   "favori": "Lille OSC",
+   "favori_saha": "ev",
+   "P_bagimsiz": {
+    "H": 0.6177605074749036,
+    "D": 0.24358412975328025,
+    "A": 0.13865536277181598
+   },
+   "P_favori": 0.6178,
+   "kategori_A": "60-70",
+   "etiket_A": "favori_kazandi",
+   "piyasa_B": "piyasa verisi eksik",
+   "set_v1_tekrar": false,
+   "A_mac_oncesi_sinyaller": [
+    "fav_kilit_eksik",
+    "rakip_dusme_mucadelesi"
+   ],
+   "A_mac_oncesi_not": "Lille 19 maçta 8 beraberlik; sonraki maç PSG; Bouaddi cezalı; Clermont son sırada.",
+   "B_mac_ici": "veri yok (kontrollerde araştırılmadı)",
+   "C_mac_sonrasi": "veri yok (araştırılmadı)",
+   "kaynak": "web arama özetleri (sayfa okunmadı); doğrulama seviyesi: dogrulanmadi",
+   "model_kalibrasyon_notu": "lig kategori ECE ≤ 0,023"
+  },
+  {
+   "grup": "kontrol",
+   "yarisma": "it.1",
+   "sezon": "2022-23",
+   "tarih": "2023-05-20",
+   "ev": "Atalanta BC",
+   "dep": "Hellas Verona FC",
+   "skor": [
+    3,
+    1
+   ],
+   "favori": "Atalanta BC",
+   "favori_saha": "ev",
+   "P_bagimsiz": {
+    "H": 0.61053751033346,
+    "D": 0.2136294255752172,
+    "A": 0.17583306409132263
+   },
+   "P_favori": 0.6105,
+   "kategori_A": "60-70",
+   "etiket_A": "favori_kazandi",
+   "piyasa_B": "piyasa verisi eksik",
+   "set_v1_tekrar": false,
+   "A_mac_oncesi_sinyaller": [
+    "fav_kilit_eksik",
+    "fav_kotu_form"
+   ],
+   "A_mac_oncesi_not": "Atalanta üst üste 2 yenilgi, 7.'liğe geriledi, uzun sakat listesi; tahmin 1-0.",
+   "B_mac_ici": "veri yok (kontrollerde araştırılmadı)",
+   "C_mac_sonrasi": "veri yok (araştırılmadı)",
+   "kaynak": "web arama özetleri (sayfa okunmadı); doğrulama seviyesi: dogrulanmadi",
+   "model_kalibrasyon_notu": "lig kategori ECE ≤ 0,023"
+  },
+  {
+   "grup": "kontrol",
+   "yarisma": "es.1",
+   "sezon": "2023-24",
+   "tarih": "2024-02-24",
+   "ev": "FC Barcelona",
+   "dep": "Getafe CF",
+   "skor": [
+    4,
+    0
+   ],
+   "favori": "FC Barcelona",
+   "favori_saha": "ev",
+   "P_bagimsiz": {
+    "H": 0.6423714784202733,
+    "D": 0.20456706678515116,
+    "A": 0.15306145479457567
+   },
+   "P_favori": 0.6424,
+   "kategori_A": "60-70",
+   "etiket_A": "favori_kazandi",
+   "piyasa_B": "piyasa verisi eksik",
+   "set_v1_tekrar": false,
+   "A_mac_oncesi_sinyaller": [
+    "fav_teknik_belirsizlik"
+   ],
+   "A_mac_oncesi_not": "Xavi ayrılacağını açıkladı; 5 maçtır yenilmiyor; Getafe'de Martín ve Arambarri yok.",
+   "B_mac_ici": "veri yok (kontrollerde araştırılmadı)",
+   "C_mac_sonrasi": "veri yok (araştırılmadı)",
+   "kaynak": "web arama özetleri (sayfa okunmadı); doğrulama seviyesi: dogrulanmadi",
+   "model_kalibrasyon_notu": "lig kategori ECE ≤ 0,023"
+  },
+  {
+   "grup": "kontrol",
+   "yarisma": "de.1",
+   "sezon": "2025-26",
+   "tarih": "2025-08-30",
+   "ev": "TSG 1899 Hoffenheim",
+   "dep": "Eintracht Frankfurt",
+   "skor": [
+    1,
+    3
+   ],
+   "favori": "Eintracht Frankfurt",
+   "favori_saha": "dep",
+   "P_bagimsiz": {
+    "H": 0.26999991634819903,
+    "D": 0.21024265562918273,
+    "A": 0.519757428022618
+   },
+   "P_favori": 0.5198,
+   "kategori_A": "50-60",
+   "etiket_A": "favori_kazandi",
+   "piyasa_B": "piyasa verisi eksik",
+   "set_v1_tekrar": false,
+   "A_mac_oncesi_sinyaller": [
+    "haber_bulunamadi"
+   ],
+   "A_mac_oncesi_not": "İki takım da ilk maçlarını kazandı; yalnızca tahmin (Sports Mole 1-3).",
+   "B_mac_ici": "veri yok (kontrollerde araştırılmadı)",
+   "C_mac_sonrasi": "veri yok (araştırılmadı)",
+   "kaynak": "web arama özetleri (sayfa okunmadı); doğrulama seviyesi: dogrulanmadi",
+   "model_kalibrasyon_notu": "de.1 sınırda: ort. P 0,636, gerçek 0,599 (±0,037), kategori ECE 0,039 → yüzde gösterimi 'kalibrasyonu sınırda' uyarısıyla"
+  },
+  {
+   "grup": "kontrol",
+   "yarisma": "it.1",
+   "sezon": "2023-24",
+   "tarih": "2024-04-27",
+   "ev": "SS Lazio",
+   "dep": "Hellas Verona FC",
+   "skor": [
+    1,
+    0
+   ],
+   "favori": "SS Lazio",
+   "favori_saha": "ev",
+   "P_bagimsiz": {
+    "H": 0.5893452177764552,
+    "D": 0.24574560396871056,
+    "A": 0.1649091782548345
+   },
+   "P_favori": 0.5893,
+   "kategori_A": "50-60",
+   "etiket_A": "favori_kazandi",
+   "piyasa_B": "piyasa verisi eksik",
+   "set_v1_tekrar": false,
+   "A_mac_oncesi_sinyaller": [
+    "fav_kilit_eksik",
+    "fav_kotu_form"
+   ],
+   "A_mac_oncesi_not": "Kupada Juventus'a elendi; Provedel, Gila, Lazzari yok; Zaccagni yedek.",
+   "B_mac_ici": "veri yok (kontrollerde araştırılmadı)",
+   "C_mac_sonrasi": "veri yok (araştırılmadı)",
+   "kaynak": "web arama özetleri (sayfa okunmadı); doğrulama seviyesi: dogrulanmadi",
+   "model_kalibrasyon_notu": "lig kategori ECE ≤ 0,023"
+  }
+ ],
+ "sinyal_sikligi": [
+  {
+   "sinyal": "fav_kilit_eksik",
+   "surpriz": 3,
+   "kontrol_yanlis_alarm": 7,
+   "surpriz_GA": [
+    0.11,
+    0.6
+   ],
+   "kontrol_GA": [
+    0.4,
+    0.89
+   ]
+  },
+  {
+   "sinyal": "fav_kotu_form",
+   "surpriz": 3,
+   "kontrol_yanlis_alarm": 3,
+   "surpriz_GA": [
+    0.11,
+    0.6
+   ],
+   "kontrol_GA": [
+    0.11,
+    0.6
+   ]
+  },
+  {
+   "sinyal": "fav_yogun_takvim_avrupa",
+   "surpriz": 1,
+   "kontrol_yanlis_alarm": 1,
+   "surpriz_GA": [
+    0.02,
+    0.4
+   ],
+   "kontrol_GA": [
+    0.02,
+    0.4
+   ]
+  },
+  {
+   "sinyal": "fav_sampiyonluk_baskisi",
+   "surpriz": 2,
+   "kontrol_yanlis_alarm": 0,
+   "surpriz_GA": [
+    0.06,
+    0.51
+   ],
+   "kontrol_GA": [
+    -0.0,
+    0.28
+   ]
+  },
+  {
+   "sinyal": "rakip_dusme_mucadelesi",
+   "surpriz": 1,
+   "kontrol_yanlis_alarm": 2,
+   "surpriz_GA": [
+    0.02,
+    0.4
+   ],
+   "kontrol_GA": [
+    0.06,
+    0.51
+   ]
+  },
+  {
+   "sinyal": "fav_teknik_belirsizlik",
+   "surpriz": 1,
+   "kontrol_yanlis_alarm": 1,
+   "surpriz_GA": [
+    0.02,
+    0.4
+   ],
+   "kontrol_GA": [
+    0.02,
+    0.4
+   ]
+  },
+  {
+   "sinyal": "rakip_yogun_takvim",
+   "surpriz": 1,
+   "kontrol_yanlis_alarm": 0,
+   "surpriz_GA": [
+    0.02,
+    0.4
+   ],
+   "kontrol_GA": [
+    -0.0,
+    0.28
+   ]
+  },
+  {
+   "sinyal": "haber_bulunamadi",
+   "surpriz": 2,
+   "kontrol_yanlis_alarm": 2,
+   "surpriz_GA": [
+    0.06,
+    0.51
+   ],
+   "kontrol_GA": [
+    0.06,
+    0.51
+   ]
+  }
+ ],
+ "surum": "v2",
+ "onceki": "pilot_kodlama.json (v1, değiştirilmedi)"
+}

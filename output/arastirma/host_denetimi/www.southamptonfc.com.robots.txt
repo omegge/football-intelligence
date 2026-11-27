@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.southamptonfc.com/en/sitemap.xml
+Sitemap: https://www.southamptonfc.com/en/news-sitemap.xml

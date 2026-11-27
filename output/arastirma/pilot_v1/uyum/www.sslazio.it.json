@@ -1,0 +1,51 @@
+{
+ "host": "www.sslazio.it",
+ "kontrol_utc": "2026-11-25T17:23:14+00:00",
+ "robots_http": 200,
+ "robots_tum_site_yasak": false,
+ "robots_ai_ozel_satirlar": [
+  "ChatGPT-User",
+  "ClaudeBot",
+  "GPTBot",
+  "OAI-SearchBot",
+  "anthropic-ai"
+ ],
+ "ana_http": 200,
+ "ana_son_url": "https://www.sslazio.it/it",
+ "baslik": "Home | S.S. Lazio",
+ "bot_engeli_isareti": false,
+ "metin_uzunlugu": 14649,
+ "kosul_adaylari": [
+  "https://www.sslazio.it/it/termini-condizioni",
+  "https://www.sslazio.it/it/privacy-policy",
+  "https://www.sslazio.it/it/cookie-policy"
+ ],
+ "kosul_sayfalari": [
+  {
+   "url": "https://www.sslazio.it/it/termini-condizioni",
+   "http": 200,
+   "metin_uzunlugu": 27748,
+   "maddeler": [
+    " l’abbonamento mensile comporta il pagamento della somma mensile prevista per lo specifico Pacchetto, tramite lo strumento di pagamento prescelto, e si rinnova automaticamente alla scadenza attraverso il prelievo automatico della medesima somma. In qualsiasi momento è possibile disdire il rinnovo automatico dell’abbonamento attraverso il Profilo Personale. In tal caso, pot",
+    "mma mensile prevista per lo specifico Pacchetto, tramite lo strumento di pagamento prescelto, e si rinnova automaticamente alla scadenza attraverso il prelievo automatico della medesima somma. In qualsiasi momento è possibile disdire il rinnovo automatico dell’abbonamento attraverso il Profilo Personale. In tal caso, potrai continuare a fruire dei contenuti già acquis",
+    "escelto, e si rinnova automaticamente alla scadenza attraverso il prelievo automatico della medesima somma. In qualsiasi momento è possibile disdire il rinnovo automatico dell’abbonamento attraverso il Profilo Personale. In tal caso, potrai continuare a fruire dei contenuti già acquistati fino alla prevista data di scadenza dell’abbonamento. • Abbonamento annuale: l’a",
+    " pagamento in un'unica soluzione della somma prevista per lo specifico Pacchetto, tramite lo strumento di pagamento prescelto. L’abbonamento annuale si rinnova automaticamente 15 giorni prima della data di scadenza. Entro tale termine sarà quindi possibile disdire il rinnovo automatico. In tal caso, potrai continuare a fruire dei contenuti già acquistati fino alla prevista",
+    "prescelto. L’abbonamento annuale si rinnova automaticamente 15 giorni prima della data di scadenza. Entro tale termine sarà quindi possibile disdire il rinnovo automatico. In tal caso, potrai continuare a fruire dei contenuti già acquistati fino alla prevista data di scadenza dell’abbonamento. • Acquisto del singolo contenuto (“Contenuto Oneshot”) : comporta il pagame",
+    "seguenti regole di fruizione: i) S.S. Lazio fornisce il diritto non esclusivo, personale e non cedibile a terzi di utilizzare i servizi, a pagamento e non, per uso personale e in ambito familiare e domestico, utilizzando in sede di registrazione dati veritieri e comprovabili. Resta inteso che non è consentito diffondere, comunicare al pubblico e distribuire né a fini co"
+   ]
+  },
+  {
+   "url": "https://www.sslazio.it/it/privacy-policy",
+   "http": 200,
+   "metin_uzunlugu": 25960,
+   "maddeler": [
+    " servizi del Sito riservati agli utenti registrati; b) dare esecuzione agli acquisti, assicurare la spedizione dei prodotti acquistati e delle relative fatture commerciali, inviare comunicazioni all’utente riguardanti le transazioni effettuate e acquistare i Titoli di Accesso; c) fornire assistenza all’Interessato a fronte di specifiche richieste dello stesso in merit",
+    "mento alle autorità competenti, ai fini del rilascio del nulla osta all’esposizione di striscioni e/o alla realizzazione di coreografie; i) invio, con modalità automatizzate (come sms, e-mail, social networks, app di messaggistica istantanea) e tradizionali (quali telefonate con operatore e posta tradizionale), di comunicazioni promozionali e commerciali relative a prodo",
+    "e-mail, social networks, app di messaggistica istantanea) e tradizionali (quali telefonate con operatore e posta tradizionale), di comunicazioni promozionali e commerciali relative a prodotti e/o servizi offerti dal Club e/o da soggetti terzi, ivi incluse newsletter/mailing list, inviti ad eventi, rilevazione del grado di soddisfazione della clientela, effettuazione d",
+    " lett. i) e j) non produrrà alcuna conseguenza sull’erogazione del servizio richiesto, e consentirà in ogni caso di ricevere promozioni, sconti e comunicazioni commerciali, anche adeguate alle esigenze/preferenze dell’Interessato, nonché di essere informati circa eventuali iniziative di marketing promosse da società terze. Il consenso può essere fornito solo mediante ",
+    "toli di Accesso, la valutazione delle richieste di autorizzazione agli striscioni e/o alle coreografie. Inoltre, i dati potranno essere comunicati ad avvocati, commercialisti, revisori contabili, società controllate dalla S.S. Lazio e/o a questa collegate per le finalità sopra indicate. 6.3 I Dati Personali potranno essere trattati dai dipendenti delle funzioni aziend",
+    "mento; e) ottenere la portabilità dei dati, ossia riceverli da un titolare del trattamento, in un formato strutturato, di uso comune e leggibile da dispositivo automatico, e trasmetterli ad un altro titolare del trattamento senza impedimenti; f) opporsi al trattamento in qualsiasi momento, anche nel caso di trattamento per finalità di marketing diretto; g) opporsi ad "
+   ]
+  }
+ ]
+}

@@ -1,0 +1,82 @@
+{
+ "arama_gunlugu": [
+  {
+   "arac": "web arama",
+   "sonuc": "yalnızca Mayıs 2026 play-off haberleri; güncel kadro haberi yok",
+   "sorgu": "Southampton Middlesbrough team news Eckert press conference",
+   "tur": "T-24s",
+   "utc": "2026-11-26T22:47:13+00:00"
+  },
+  {
+   "arac": "web arama",
+   "sonuc": "eski sakatlık haberleri; Lankshear ve bu maç yok",
+   "sorgu": "Middlesbrough Hellberg Southampton injury update Lankshear",
+   "tur": "T-24s",
+   "utc": "2026-11-26T22:47:13+00:00"
+  },
+  {
+   "arac": "web arama",
+   "sonuc": "eski önizlemeler (2024, play-off 2026); bu maçın yeni önizlemesi yok",
+   "sorgu": "Southampton vs Middlesbrough prediction Championship Friday",
+   "tur": "T-24s",
+   "utc": "2026-11-26T22:47:13+00:00"
+  }
+ ],
+ "gorusler": [],
+ "iddialar": [
+  {
+   "arastirma_utc": "2026-11-26T22:47:13+00:00",
+   "durum": null,
+   "erisim_yolu": "arama_ozeti",
+   "host": "www.southamptonfc.com",
+   "ilgili_mac_dogrulandi": false,
+   "ilk_kaynak": null,
+   "katman": "E",
+   "kaynak_sinifi": "resmi_kulup",
+   "kisi": null,
+   "konu": "diger",
+   "mac_id": "nesine:3331002",
+   "nicel_etki": "hesaplanamaz",
+   "notlar": "",
+   "ozet": "Mayıs 2026 play-off yarı finali ilk maçı Middlesbrough 0-0 Southampton (kulüp sitesi maç sonrası haberi; eşleşme geçmişi, bugünkü kadro için doğrudan kanıt değil)",
+   "takim": "iki_takim",
+   "tur": "T-24s",
+   "url": "https://www.southamptonfc.com/en/news/article/eckert-well-have-amazing-support",
+   "veri_dogrulamasi": null,
+   "yayin_utc": "2026-05",
+   "yayinci_grubu": null,
+   "zincir": "www.southamptonfc.com"
+  },
+  {
+   "arastirma_utc": "2026-11-26T22:47:13+00:00",
+   "durum": "yok",
+   "erisim_yolu": "arama_ozeti",
+   "host": "www.southamptonfc.com",
+   "ilgili_mac_dogrulandi": false,
+   "ilk_kaynak": null,
+   "katman": "E",
+   "kaynak_sinifi": "resmi_kulup",
+   "kisi": "Stephens, Roerslev",
+   "konu": "sakatlik",
+   "mac_id": "nesine:3331002",
+   "nicel_etki": "hesaplanamaz",
+   "notlar": "",
+   "ozet": "Play-off rövanşı öncesi (Mayıs 2026) Stephens ve Roerslev sakattı; Kasım 2026 durumu bu kaynaktan bilinmiyor",
+   "takim": "ev",
+   "tur": "T-24s",
+   "url": "https://www.southamptonfc.com/en/news/article/eckert-positive-on-availability",
+   "veri_dogrulamasi": null,
+   "yayin_utc": "2026-05",
+   "yayinci_grubu": null,
+   "zincir": "www.southamptonfc.com"
+  }
+ ],
+ "kayit_utc": "2026-11-26T22:47:13+00:00",
+ "mac": {
+  "baslama_tr": "2026-11-27T23:00:00+03:00",
+  "baslama_utc": "2026-11-27T20:00:00+00:00",
+  "karsilasma": "Southampton - Middlesbrough",
+  "lig": "İngiltere Championship",
+  "mac_id": "nesine:3331002"
+ }
+}

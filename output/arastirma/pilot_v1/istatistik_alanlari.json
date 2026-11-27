@@ -1,0 +1,3198 @@
+[
+ {
+  "pilot_id": "en.1-A-S",
+  "rol": "surpriz_A",
+  "lig": "en.1",
+  "tarih": "2023-12-09",
+  "ev": "Sheffield United FC",
+  "dep": "Brentford FC",
+  "favori": "Brentford FC",
+  "favori_saha": "deplasman",
+  "dc_favori_kazanir": 0.711,
+  "skor": "1-0",
+  "sonuc_notu": "sonuç biliniyor — kör değil",
+  "istatistik": {
+   "favori_son5": [
+    {
+     "tarih": "2023-11-04",
+     "rakip": "West Ham United FC",
+     "saha": "ev",
+     "skor": "3-2",
+     "sonuc": "G"
+    },
+    {
+     "tarih": "2023-11-12",
+     "rakip": "Liverpool FC",
+     "saha": "dep",
+     "skor": "0-3",
+     "sonuc": "M"
+    },
+    {
+     "tarih": "2023-11-25",
+     "rakip": "Arsenal FC",
+     "saha": "ev",
+     "skor": "0-1",
+     "sonuc": "M"
+    },
+    {
+     "tarih": "2023-12-02",
+     "rakip": "Luton Town FC",
+     "saha": "ev",
+     "skor": "3-1",
+     "sonuc": "G"
+    },
+    {
+     "tarih": "2023-12-06",
+     "rakip": "Brighton & Hove Albion FC",
+     "saha": "dep",
+     "skor": "1-2",
+     "sonuc": "M"
+    }
+   ],
+   "rakip_son5": [
+    {
+     "tarih": "2023-11-04",
+     "rakip": "Wolverhampton Wanderers FC",
+     "saha": "ev",
+     "skor": "2-1",
+     "sonuc": "G"
+    },
+    {
+     "tarih": "2023-11-12",
+     "rakip": "Brighton & Hove Albion FC",
+     "saha": "dep",
+     "skor": "1-1",
+     "sonuc": "B"
+    },
+    {
+     "tarih": "2023-11-25",
+     "rakip": "AFC Bournemouth",
+     "saha": "ev",
+     "skor": "1-3",
+     "sonuc": "M"
+    },
+    {
+     "tarih": "2023-12-02",
+     "rakip": "Burnley FC",
+     "saha": "dep",
+     "skor": "0-5",
+     "sonuc": "M"
+    },
+    {
+     "tarih": "2023-12-06",
+     "rakip": "Liverpool FC",
+     "saha": "ev",
+     "skor": "0-2",
+     "sonuc": "M"
+    }
+   ],
+   "favori_form5_10": [
+    -0.455,
+    -0.767
+   ],
+   "rakip_form5_10": [
+    -0.318,
+    -1.626
+   ],
+   "son10_rakip_kalitesi_elo": {
+    "favori": -7.7,
+    "rakip": 6.8
+   },
+   "saha_performansi": {
+    "favori": {
+     "n": 7,
+     "mac_basi_puan": 1.0,
+     "mac_basi_averaj": -0.14
+    },
+    "rakip": {
+     "n": 8,
+     "mac_basi_puan": 0.5,
+     "mac_basi_averaj": -1.75
+    }
+   },
+   "ortak_rakipler": {
+    "n_ortak_rakip": 13,
+    "favori_mac_basi_puan": 1.0,
+    "rakip_mac_basi_puan": 0.15,
+    "favori_mac_basi_averaj": -0.15,
+    "rakip_mac_basi_averaj": -2.31,
+    "not": "saha ve maç sırası dengelenmemiş ham karşılaştırma (bu sezon, maçtan önce)"
+   },
+   "olasilik": {
+    "elo": {
+     "favori_kazanir": 0.5411,
+     "beraberlik": 0.2497,
+     "favori_kaybeder": 0.2091
+    },
+    "poisson": {
+     "favori_kazanir": 0.7032,
+     "beraberlik": 0.1807,
+     "favori_kaybeder": 0.116
+    },
+    "dixon_coles": {
+     "favori_kazanir": 0.711,
+     "beraberlik": 0.1652,
+     "favori_kaybeder": 0.1238
+    }
+   }
+  },
+  "puan_tablosu_ve_fikstur": {
+   "favori": {
+    "takim": "Brentford FC",
+    "sira": 11,
+    "puan": 19,
+    "oynanan": 15,
+    "lig_takim_sayisi": 20,
+    "tum_kulvarlar": {
+     "kaynak": "Wikipedia: 2023–24 Brentford F.C. season",
+     "madde_sha256": "f6933e2cdde04666",
+     "onceki_mac": [
+      "2023-12-06",
+      "Premier League"
+     ],
+     "dinlenme_gun_tum_kulvarlar": 3,
+     "son14_gun_mac": 3,
+     "son14_gun_lig_disi": [],
+     "sonraki_planli_mac": [
+      "2023-12-17",
+      "Premier League"
+     ],
+     "sonraki_maca_gun": 8,
+     "not": "sonraki maç yalnızca maç öncesi bilinen fikstür olarak; sonucu kullanılmadı"
+    }
+   },
+   "rakip": {
+    "takim": "Sheffield United FC",
+    "sira": 20,
+    "puan": 5,
+    "oynanan": 15,
+    "lig_takim_sayisi": 20,
+    "tum_kulvarlar": {
+     "kaynak": "Wikipedia: 2023–24 Sheffield United F.C. season",
+     "madde_sha256": "a8fe88f39ab4378a",
+     "onceki_mac": [
+      "2023-12-06",
+      "Premier League"
+     ],
+     "dinlenme_gun_tum_kulvarlar": 3,
+     "son14_gun_mac": 3,
+     "son14_gun_lig_disi": [],
+     "sonraki_planli_mac": [
+      "2023-12-16",
+      "Premier League"
+     ],
+     "sonraki_maca_gun": 7,
+     "not": "sonraki maç yalnızca maç öncesi bilinen fikstür olarak; sonucu kullanılmadı"
+    }
+   }
+  },
+  "motivasyon_hesaplandi": {
+   "favori": {
+    "lidere_fark": 17,
+    "4.ye_fark": 11,
+    "dusme_hattina_fark": 6,
+    "kalan_mac": 23
+   },
+   "rakip": {
+    "lidere_fark": 31,
+    "4.ye_fark": 25,
+    "dusme_hattina_fark": -8,
+    "kalan_mac": 23
+   }
+  }
+ },
+ {
+  "pilot_id": "en.1-A-K",
+  "rol": "kontrol",
+  "lig": "en.1",
+  "tarih": "2024-05-19",
+  "ev": "Sheffield United FC",
+  "dep": "Tottenham Hotspur FC",
+  "favori": "Tottenham Hotspur FC",
+  "favori_saha": "deplasman",
+  "dc_favori_kazanir": 0.7132,
+  "skor": "0-3",
+  "sonuc_notu": "sonuç biliniyor — kör değil",
+  "istatistik": {
+   "favori_son5": [
+    {
+     "tarih": "2024-04-28",
+     "rakip": "Arsenal FC",
+     "saha": "ev",
+     "skor": "2-3",
+     "sonuc": "M"
+    },
+    {
+     "tarih": "2024-05-02",
+     "rakip": "Chelsea FC",
+     "saha": "dep",
+     "skor": "0-2",
+     "sonuc": "M"
+    },
+    {
+     "tarih": "2024-05-05",
+     "rakip": "Liverpool FC",
+     "saha": "dep",
+     "skor": "2-4",
+     "sonuc": "M"
+    },
+    {
+     "tarih": "2024-05-11",
+     "rakip": "Burnley FC",
+     "saha": "ev",
+     "skor": "2-1",
+     "sonuc": "G"
+    },
+    {
+     "tarih": "2024-05-14",
+     "rakip": "Manchester City FC",
+     "saha": "ev",
+     "skor": "0-2",
+     "sonuc": "M"
+    }
+   ],
+   "rakip_son5": [
+    {
+     "tarih": "2024-04-20",
+     "rakip": "Burnley FC",
+     "saha": "ev",
+     "skor": "1-4",
+     "sonuc": "M"
+    },
+    {
+     "tarih": "2024-04-24",
+     "rakip": "Manchester United FC",
+     "saha": "dep",
+     "skor": "2-4",
+     "sonuc": "M"
+    },
+    {
+     "tarih": "2024-04-27",
+     "rakip": "Newcastle United FC",
+     "saha": "dep",
+     "skor": "1-5",
+     "sonuc": "M"
+    },
+    {
+     "tarih": "2024-05-04",
+     "rakip": "Nottingham Forest FC",
+     "saha": "ev",
+     "skor": "1-3",
+     "sonuc": "M"
+    },
+    {
+     "tarih": "2024-05-11",
+     "rakip": "Everton FC",
+     "saha": "dep",
+     "skor": "0-1",
+     "sonuc": "M"
+    }
+   ],
+   "favori_form5_10": [
+    -1.256,
+    -1.979
+   ],
+   "rakip_form5_10": [
+    -1.522,
+    -1.312
+   ],
+   "son10_rakip_kalitesi_elo": {
+    "favori": 27.1,
+    "rakip": -14.8
+   },
+   "saha_performansi": {
+    "favori": {
+     "n": 18,
+     "mac_basi_puan": 1.33,
+     "mac_basi_averaj": -0.06
+    },
+    "rakip": {
+     "n": 18,
+     "mac_basi_puan": 0.56,
+     "mac_basi_averaj": -1.94
+    }
+   },
+   "ortak_rakipler": {
+    "n_ortak_rakip": 18,
+    "favori_mac_basi_puan": 1.67,
+    "rakip_mac_basi_puan": 0.44,
+    "favori_mac_basi_averaj": 0.25,
+    "rakip_mac_basi_averaj": -1.81,
+    "not": "saha ve maç sırası dengelenmemiş ham karşılaştırma (bu sezon, maçtan önce)"
+   },
+   "olasilik": {
+    "elo": {
+     "favori_kazanir": 0.6531,
+     "beraberlik": 0.2048,
+     "favori_kaybeder": 0.1421
+    },
+    "poisson": {
+     "favori_kazanir": 0.7136,
+     "beraberlik": 0.1519,
+     "favori_kaybeder": 0.1345
+    },
+    "dixon_coles": {
+     "favori_kazanir": 0.7132,
+     "beraberlik": 0.1526,
+     "favori_kaybeder": 0.1341
+    }
+   }
+  },
+  "puan_tablosu_ve_fikstur": {
+   "favori": {
+    "takim": "Tottenham Hotspur FC",
+    "sira": 5,
+    "puan": 63,
+    "oynanan": 37,
+    "lig_takim_sayisi": 20,
+    "tum_kulvarlar": {
+     "kaynak": "Wikipedia: 2023–24 Tottenham Hotspur F.C. season",
+     "madde_sha256": "5984363a1fe65cb5",
+     "onceki_mac": [
+      "2024-05-14",
+      "Premier League"
+     ],
+     "dinlenme_gun_tum_kulvarlar": 5,
+     "son14_gun_mac": 3,
+     "son14_gun_lig_disi": [],
+     "sonraki_planli_mac": null,
+     "sonraki_maca_gun": null,
+     "not": "sonraki maç yalnızca maç öncesi bilinen fikstür olarak; sonucu kullanılmadı"
+    }
+   },
+   "rakip": {
+    "takim": "Sheffield United FC",
+    "sira": 20,
+    "puan": 16,
+    "oynanan": 37,
+    "lig_takim_sayisi": 20,
+    "tum_kulvarlar": {
+     "kaynak": "Wikipedia: 2023–24 Sheffield United F.C. season",
+     "madde_sha256": "a8fe88f39ab4378a",
+     "onceki_mac": [
+      "2024-05-11",
+      "Premier League"
+     ],
+     "dinlenme_gun_tum_kulvarlar": 8,
+     "son14_gun_mac": 1,
+     "son14_gun_lig_disi": [],
+     "sonraki_planli_mac": null,
+     "sonraki_maca_gun": null,
+     "not": "sonraki maç yalnızca maç öncesi bilinen fikstür olarak; sonucu kullanılmadı"
+    }
+   }
+  },
+  "motivasyon_hesaplandi": {
+   "favori": {
+    "lidere_fark": 25,
+    "4.ye_fark": 5,
+    "dusme_hattina_fark": 30,
+    "kalan_mac": 1
+   },
+   "rakip": {
+    "lidere_fark": 72,
+    "4.ye_fark": 52,
+    "dusme_hattina_fark": -17,
+    "kalan_mac": 1
+   }
+  }
+ },
+ {
+  "pilot_id": "en.1-B-S",
+  "rol": "surpriz_B",
+  "lig": "en.1",
+  "tarih": "2022-10-18",
+  "ev": "Brighton & Hove Albion FC",
+  "dep": "Nottingham Forest FC",
+  "favori": "Brighton & Hove Albion FC",
+  "favori_saha": "ev",
+  "dc_favori_kazanir": 0.7193,
+  "skor": "0-0",
+  "sonuc_notu": "sonuç biliniyor — kör değil",
+  "istatistik": {
+   "favori_son5": [
+    {
+     "tarih": "2022-08-30",
+     "rakip": "Fulham FC",
+     "saha": "dep",
+     "skor": "1-2",
+     "sonuc": "M"
+    },
+    {
+     "tarih": "2022-09-04",
+     "rakip": "Leicester City FC",
+     "saha": "ev",
+     "skor": "5-2",
+     "sonuc": "G"
+    },
+    {
+     "tarih": "2022-10-01",
+     "rakip": "Liverpool FC",
+     "saha": "dep",
+     "skor": "3-3",
+     "sonuc": "B"
+    },
+    {
+     "tarih": "2022-10-08",
+     "rakip": "Tottenham Hotspur FC",
+     "saha": "ev",
+     "skor": "0-1",
+     "sonuc": "M"
+    },
+    {
+     "tarih": "2022-10-14",
+     "rakip": "Brentford FC",
+     "saha": "dep",
+     "skor": "0-2",
+     "sonuc": "M"
+    }
+   ],
+   "rakip_son5": [
+    {
+     "tarih": "2022-09-03",
+     "rakip": "AFC Bournemouth",
+     "saha": "ev",
+     "skor": "2-3",
+     "sonuc": "M"
+    },
+    {
+     "tarih": "2022-09-16",
+     "rakip": "Fulham FC",
+     "saha": "ev",
+     "skor": "2-3",
+     "sonuc": "M"
+    },
+    {
+     "tarih": "2022-10-03",
+     "rakip": "Leicester City FC",
+     "saha": "dep",
+     "skor": "0-4",
+     "sonuc": "M"
+    },
+    {
+     "tarih": "2022-10-10",
+     "rakip": "Aston Villa FC",
+     "saha": "ev",
+     "skor": "1-1",
+     "sonuc": "B"
+    },
+    {
+     "tarih": "2022-10-15",
+     "rakip": "Wolverhampton Wanderers FC",
+     "saha": "dep",
+     "skor": "0-1",
+     "sonuc": "M"
+    }
+   ],
+   "favori_form5_10": [
+    -0.897,
+    1.103
+   ],
+   "rakip_form5_10": [
+    -1.585,
+    -1.361
+   ],
+   "son10_rakip_kalitesi_elo": {
+    "favori": 13.2,
+    "rakip": -13.7
+   },
+   "saha_performansi": {
+    "favori": {
+     "n": 4,
+     "mac_basi_puan": 1.75,
+     "mac_basi_averaj": 0.75
+    },
+    "rakip": {
+     "n": 5,
+     "mac_basi_puan": 0.2,
+     "mac_basi_averaj": -2.6
+    }
+   },
+   "ortak_rakipler": {
+    "n_ortak_rakip": 5,
+    "favori_mac_basi_puan": 1.4,
+    "rakip_mac_basi_puan": 0.6,
+    "favori_mac_basi_averaj": 0.6,
+    "rakip_mac_basi_averaj": -1.6,
+    "not": "saha ve maç sırası dengelenmemiş ham karşılaştırma (bu sezon, maçtan önce)"
+   },
+   "olasilik": {
+    "elo": {
+     "favori_kazanir": 0.6901,
+     "beraberlik": 0.1877,
+     "favori_kaybeder": 0.1221
+    },
+    "poisson": {
+     "favori_kazanir": 0.7249,
+     "beraberlik": 0.1828,
+     "favori_kaybeder": 0.0923
+    },
+    "dixon_coles": {
+     "favori_kazanir": 0.7193,
+     "beraberlik": 0.1941,
+     "favori_kaybeder": 0.0867
+    }
+   }
+  },
+  "puan_tablosu_ve_fikstur": {
+   "favori": {
+    "takim": "Brighton & Hove Albion FC",
+    "sira": 7,
+    "puan": 14,
+    "oynanan": 9,
+    "lig_takim_sayisi": 20,
+    "tum_kulvarlar": {
+     "kaynak": "Wikipedia: 2022–23 Brighton & Hove Albion F.C. season",
+     "madde_sha256": "468b7a9795b66cb0",
+     "onceki_mac": [
+      "2022-10-14",
+      "Premier League"
+     ],
+     "dinlenme_gun_tum_kulvarlar": 4,
+     "son14_gun_mac": 2,
+     "son14_gun_lig_disi": [],
+     "sonraki_planli_mac": [
+      "2022-10-22",
+      "Premier League"
+     ],
+     "sonraki_maca_gun": 4,
+     "not": "sonraki maç yalnızca maç öncesi bilinen fikstür olarak; sonucu kullanılmadı"
+    }
+   },
+   "rakip": {
+    "takim": "Nottingham Forest FC",
+    "sira": 20,
+    "puan": 5,
+    "oynanan": 10,
+    "lig_takim_sayisi": 20,
+    "tum_kulvarlar": {
+     "kaynak": "Wikipedia: 2022–23 Nottingham Forest F.C. season",
+     "madde_sha256": "83c9de507d647766",
+     "onceki_mac": [
+      "2022-10-15",
+      "Premier League"
+     ],
+     "dinlenme_gun_tum_kulvarlar": 3,
+     "son14_gun_mac": 2,
+     "son14_gun_lig_disi": [],
+     "sonraki_planli_mac": [
+      "2022-10-22",
+      "Premier League"
+     ],
+     "sonraki_maca_gun": 4,
+     "not": "sonraki maç yalnızca maç öncesi bilinen fikstür olarak; sonucu kullanılmadı"
+    }
+   }
+  },
+  "motivasyon_hesaplandi": {
+   "favori": {
+    "lidere_fark": 13,
+    "4.ye_fark": 5,
+    "dusme_hattina_fark": 5,
+    "kalan_mac": 29
+   },
+   "rakip": {
+    "lidere_fark": 22,
+    "4.ye_fark": 14,
+    "dusme_hattina_fark": -4,
+    "kalan_mac": 28
+   }
+  }
+ },
+ {
+  "pilot_id": "en.1-B-K",
+  "rol": "kontrol",
+  "lig": "en.1",
+  "tarih": "2022-12-27",
+  "ev": "Manchester United FC",
+  "dep": "Nottingham Forest FC",
+  "favori": "Manchester United FC",
+  "favori_saha": "ev",
+  "dc_favori_kazanir": 0.7166,
+  "skor": "3-0",
+  "sonuc_notu": "sonuç biliniyor — kör değil",
+  "istatistik": {
+   "favori_son5": [
+    {
+     "tarih": "2022-10-19",
+     "rakip": "Tottenham Hotspur FC",
+     "saha": "ev",
+     "skor": "2-0",
+     "sonuc": "G"
+    },
+    {
+     "tarih": "2022-10-22",
+     "rakip": "Chelsea FC",
+     "saha": "dep",
+     "skor": "1-1",
+     "sonuc": "B"
+    },
+    {
+     "tarih": "2022-10-30",
+     "rakip": "West Ham United FC",
+     "saha": "ev",
+     "skor": "1-0",
+     "sonuc": "G"
+    },
+    {
+     "tarih": "2022-11-06",
+     "rakip": "Aston Villa FC",
+     "saha": "dep",
+     "skor": "1-3",
+     "sonuc": "M"
+    },
+    {
+     "tarih": "2022-11-13",
+     "rakip": "Fulham FC",
+     "saha": "dep",
+     "skor": "2-1",
+     "sonuc": "G"
+    }
+   ],
+   "rakip_son5": [
+    {
+     "tarih": "2022-10-18",
+     "rakip": "Brighton & Hove Albion FC",
+     "saha": "dep",
+     "skor": "0-0",
+     "sonuc": "B"
+    },
+    {
+     "tarih": "2022-10-22",
+     "rakip": "Liverpool FC",
+     "saha": "ev",
+     "skor": "1-0",
+     "sonuc": "G"
+    },
+    {
+     "tarih": "2022-10-30",
+     "rakip": "Arsenal FC",
+     "saha": "dep",
+     "skor": "0-5",
+     "sonuc": "M"
+    },
+    {
+     "tarih": "2022-11-05",
+     "rakip": "Brentford FC",
+     "saha": "ev",
+     "skor": "2-2",
+     "sonuc": "B"
+    },
+    {
+     "tarih": "2022-11-12",
+     "rakip": "Crystal Palace FC",
+     "saha": "ev",
+     "skor": "1-0",
+     "sonuc": "G"
+    }
+   ],
+   "favori_form5_10": [
+    0.717,
+    1.83
+   ],
+   "rakip_form5_10": [
+    1.667,
+    0.083
+   ],
+   "son10_rakip_kalitesi_elo": {
+    "favori": 35.2,
+    "rakip": -15.5
+   },
+   "saha_performansi": {
+    "favori": {
+     "n": 6,
+     "mac_basi_puan": 2.17,
+     "mac_basi_averaj": 0.83
+    },
+    "rakip": {
+     "n": 7,
+     "mac_basi_puan": 0.29,
+     "mac_basi_averaj": -2.57
+    }
+   },
+   "ortak_rakipler": {
+    "n_ortak_rakip": 12,
+    "favori_mac_basi_puan": 1.83,
+    "rakip_mac_basi_puan": 0.83,
+    "favori_mac_basi_averaj": -0.08,
+    "rakip_mac_basi_averaj": -1.5,
+    "not": "saha ve maç sırası dengelenmemiş ham karşılaştırma (bu sezon, maçtan önce)"
+   },
+   "olasilik": {
+    "elo": {
+     "favori_kazanir": 0.7431,
+     "beraberlik": 0.1602,
+     "favori_kaybeder": 0.0968
+    },
+    "poisson": {
+     "favori_kazanir": 0.7196,
+     "beraberlik": 0.1755,
+     "favori_kaybeder": 0.1049
+    },
+    "dixon_coles": {
+     "favori_kazanir": 0.7166,
+     "beraberlik": 0.1816,
+     "favori_kaybeder": 0.1018
+    }
+   }
+  },
+  "puan_tablosu_ve_fikstur": {
+   "favori": {
+    "takim": "Manchester United FC",
+    "sira": 5,
+    "puan": 26,
+    "oynanan": 14,
+    "lig_takim_sayisi": 20,
+    "tum_kulvarlar": {
+     "kaynak": "Wikipedia: 2022–23 Manchester United F.C. season",
+     "madde_sha256": "b2322a8d76ef120a",
+     "onceki_mac": [
+      "2022-12-21",
+      "EFL Cup"
+     ],
+     "dinlenme_gun_tum_kulvarlar": 6,
+     "son14_gun_mac": 1,
+     "son14_gun_lig_disi": [
+      "EFL Cup"
+     ],
+     "sonraki_planli_mac": [
+      "2022-12-31",
+      "Premier League"
+     ],
+     "sonraki_maca_gun": 4,
+     "not": "sonraki maç yalnızca maç öncesi bilinen fikstür olarak; sonucu kullanılmadı"
+    }
+   },
+   "rakip": {
+    "takim": "Nottingham Forest FC",
+    "sira": 19,
+    "puan": 13,
+    "oynanan": 15,
+    "lig_takim_sayisi": 20,
+    "tum_kulvarlar": {
+     "kaynak": "Wikipedia: 2022–23 Nottingham Forest F.C. season",
+     "madde_sha256": "83c9de507d647766",
+     "onceki_mac": [
+      "2022-12-21",
+      "EFL Cup"
+     ],
+     "dinlenme_gun_tum_kulvarlar": 6,
+     "son14_gun_mac": 1,
+     "son14_gun_lig_disi": [
+      "EFL Cup"
+     ],
+     "sonraki_planli_mac": [
+      "2023-01-01",
+      "Premier League"
+     ],
+     "sonraki_maca_gun": 5,
+     "not": "sonraki maç yalnızca maç öncesi bilinen fikstür olarak; sonucu kullanılmadı"
+    }
+   }
+  },
+  "motivasyon_hesaplandi": {
+   "favori": {
+    "lidere_fark": 14,
+    "4.ye_fark": 4,
+    "dusme_hattina_fark": 12,
+    "kalan_mac": 24
+   },
+   "rakip": {
+    "lidere_fark": 27,
+    "4.ye_fark": 17,
+    "dusme_hattina_fark": -1,
+    "kalan_mac": 23
+   }
+  }
+ },
+ {
+  "pilot_id": "de.1-A-S",
+  "rol": "surpriz_A",
+  "lig": "de.1",
+  "tarih": "2026-02-28",
+  "ev": "TSG 1899 Hoffenheim",
+  "dep": "FC St. Pauli 1910",
+  "favori": "TSG 1899 Hoffenheim",
+  "favori_saha": "ev",
+  "dc_favori_kazanir": 0.6207,
+  "skor": "0-1",
+  "sonuc_notu": "sonuç biliniyor — kör değil",
+  "istatistik": {
+   "favori_son5": [
+    {
+     "tarih": "2026-01-27",
+     "rakip": "SV Werder Bremen",
+     "saha": "dep",
+     "skor": "2-0",
+     "sonuc": "G"
+    },
+    {
+     "tarih": "2026-01-31",
+     "rakip": "1. FC Union Berlin",
+     "saha": "ev",
+     "skor": "3-1",
+     "sonuc": "G"
+    },
+    {
+     "tarih": "2026-02-08",
+     "rakip": "FC Bayern München",
+     "saha": "dep",
+     "skor": "1-5",
+     "sonuc": "M"
+    },
+    {
+     "tarih": "2026-02-14",
+     "rakip": "SC Freiburg",
+     "saha": "ev",
+     "skor": "3-0",
+     "sonuc": "G"
+    },
+    {
+     "tarih": "2026-02-21",
+     "rakip": "1. FC Köln",
+     "saha": "dep",
+     "skor": "2-2",
+     "sonuc": "B"
+    }
+   ],
+   "rakip_son5": [
+    {
+     "tarih": "2026-01-27",
+     "rakip": "RB Leipzig",
+     "saha": "ev",
+     "skor": "1-1",
+     "sonuc": "B"
+    },
+    {
+     "tarih": "2026-01-31",
+     "rakip": "FC Augsburg",
+     "saha": "dep",
+     "skor": "1-2",
+     "sonuc": "M"
+    },
+    {
+     "tarih": "2026-02-07",
+     "rakip": "VfB Stuttgart",
+     "saha": "ev",
+     "skor": "2-1",
+     "sonuc": "G"
+    },
+    {
+     "tarih": "2026-02-14",
+     "rakip": "Bayer 04 Leverkusen",
+     "saha": "dep",
+     "skor": "0-4",
+     "sonuc": "M"
+    },
+    {
+     "tarih": "2026-02-22",
+     "rakip": "SV Werder Bremen",
+     "saha": "ev",
+     "skor": "2-1",
+     "sonuc": "G"
+    }
+   ],
+   "favori_form5_10": [
+    0.813,
+    2.827
+   ],
+   "rakip_form5_10": [
+    0.981,
+    1.126
+   ],
+   "son10_rakip_kalitesi_elo": {
+    "favori": 16.7,
+    "rakip": 1.0
+   },
+   "saha_performansi": {
+    "favori": {
+     "n": 11,
+     "mac_basi_puan": 2.18,
+     "mac_basi_averaj": 1.27
+    },
+    "rakip": {
+     "n": 12,
+     "mac_basi_puan": 0.42,
+     "mac_basi_averaj": -1.08
+    }
+   },
+   "ortak_rakipler": {
+    "n_ortak_rakip": 16,
+    "favori_mac_basi_puan": 1.95,
+    "rakip_mac_basi_puan": 0.91,
+    "favori_mac_basi_averaj": 0.73,
+    "rakip_mac_basi_averaj": -0.68,
+    "not": "saha ve maç sırası dengelenmemiş ham karşılaştırma (bu sezon, maçtan önce)"
+   },
+   "olasilik": {
+    "elo": {
+     "favori_kazanir": 0.6831,
+     "beraberlik": 0.1875,
+     "favori_kaybeder": 0.1294
+    },
+    "poisson": {
+     "favori_kazanir": 0.63,
+     "beraberlik": 0.2124,
+     "favori_kaybeder": 0.1576
+    },
+    "dixon_coles": {
+     "favori_kazanir": 0.6207,
+     "beraberlik": 0.2309,
+     "favori_kaybeder": 0.1483
+    }
+   }
+  },
+  "puan_tablosu_ve_fikstur": {
+   "favori": {
+    "takim": "TSG 1899 Hoffenheim",
+    "sira": 3,
+    "puan": 46,
+    "oynanan": 23,
+    "lig_takim_sayisi": 18,
+    "tum_kulvarlar": {
+     "kaynak": "veri yok — Wikipedia sezon maddesi bulunamadı",
+     "dinlenme_gun_tum_kulvarlar": null
+    }
+   },
+   "rakip": {
+    "takim": "FC St. Pauli 1910",
+    "sira": 16,
+    "puan": 20,
+    "oynanan": 23,
+    "lig_takim_sayisi": 18,
+    "tum_kulvarlar": {
+     "kaynak": "Wikipedia: 2025–26 FC St. Pauli season",
+     "madde_sha256": "2382b9ed7bc59ab4",
+     "onceki_mac": [
+      "2026-02-22",
+      "Bundesliga"
+     ],
+     "dinlenme_gun_tum_kulvarlar": 6,
+     "son14_gun_mac": 2,
+     "son14_gun_lig_disi": [],
+     "sonraki_planli_mac": [
+      "2026-03-08",
+      "Bundesliga"
+     ],
+     "sonraki_maca_gun": 8,
+     "not": "sonraki maç yalnızca maç öncesi bilinen fikstür olarak; sonucu kullanılmadı"
+    }
+   }
+  },
+  "motivasyon_hesaplandi": {
+   "favori": {
+    "lidere_fark": 14,
+    "4.ye_fark": -3,
+    "dusme_hattina_fark": 26,
+    "kalan_mac": 11
+   },
+   "rakip": {
+    "lidere_fark": 40,
+    "4.ye_fark": 23,
+    "dusme_hattina_fark": 0,
+    "kalan_mac": 11
+   }
+  }
+ },
+ {
+  "pilot_id": "de.1-A-K",
+  "rol": "kontrol",
+  "lig": "de.1",
+  "tarih": "2025-12-13",
+  "ev": "Eintracht Frankfurt",
+  "dep": "FC Augsburg",
+  "favori": "Eintracht Frankfurt",
+  "favori_saha": "ev",
+  "dc_favori_kazanir": 0.5948,
+  "skor": "1-0",
+  "sonuc_notu": "sonuç biliniyor — kör değil",
+  "istatistik": {
+   "favori_son5": [
+    {
+     "tarih": "2025-11-01",
+     "rakip": "1. FC Heidenheim 1846",
+     "saha": "dep",
+     "skor": "1-1",
+     "sonuc": "B"
+    },
+    {
+     "tarih": "2025-11-09",
+     "rakip": "1. FSV Mainz 05",
+     "saha": "ev",
+     "skor": "1-0",
+     "sonuc": "G"
+    },
+    {
+     "tarih": "2025-11-22",
+     "rakip": "1. FC Köln",
+     "saha": "dep",
+     "skor": "4-3",
+     "sonuc": "G"
+    },
+    {
+     "tarih": "2025-11-30",
+     "rakip": "VfL Wolfsburg",
+     "saha": "ev",
+     "skor": "1-1",
+     "sonuc": "B"
+    },
+    {
+     "tarih": "2025-12-06",
+     "rakip": "RB Leipzig",
+     "saha": "dep",
+     "skor": "0-6",
+     "sonuc": "M"
+    }
+   ],
+   "rakip_son5": [
+    {
+     "tarih": "2025-10-31",
+     "rakip": "Borussia Dortmund",
+     "saha": "ev",
+     "skor": "0-1",
+     "sonuc": "M"
+    },
+    {
+     "tarih": "2025-11-09",
+     "rakip": "VfB Stuttgart",
+     "saha": "dep",
+     "skor": "2-3",
+     "sonuc": "M"
+    },
+    {
+     "tarih": "2025-11-22",
+     "rakip": "Hamburger SV",
+     "saha": "ev",
+     "skor": "1-0",
+     "sonuc": "G"
+    },
+    {
+     "tarih": "2025-11-29",
+     "rakip": "TSG 1899 Hoffenheim",
+     "saha": "dep",
+     "skor": "0-3",
+     "sonuc": "M"
+    },
+    {
+     "tarih": "2025-12-06",
+     "rakip": "Bayer 04 Leverkusen",
+     "saha": "ev",
+     "skor": "2-0",
+     "sonuc": "G"
+    }
+   ],
+   "favori_form5_10": [
+    -0.125,
+    -0.615
+   ],
+   "rakip_form5_10": [
+    0.157,
+    -0.768
+   ],
+   "son10_rakip_kalitesi_elo": {
+    "favori": -20.4,
+    "rakip": 4.4
+   },
+   "saha_performansi": {
+    "favori": {
+     "n": 6,
+     "mac_basi_puan": 1.67,
+     "mac_basi_averaj": 0.33
+    },
+    "rakip": {
+     "n": 6,
+     "mac_basi_puan": 0.67,
+     "mac_basi_averaj": -0.67
+    }
+   },
+   "ortak_rakipler": {
+    "n_ortak_rakip": 10,
+    "favori_mac_basi_puan": 1.5,
+    "rakip_mac_basi_puan": 1.0,
+    "favori_mac_basi_averaj": -0.5,
+    "rakip_mac_basi_averaj": -0.9,
+    "not": "saha ve maç sırası dengelenmemiş ham karşılaştırma (bu sezon, maçtan önce)"
+   },
+   "olasilik": {
+    "elo": {
+     "favori_kazanir": 0.6086,
+     "beraberlik": 0.2206,
+     "favori_kaybeder": 0.1708
+    },
+    "poisson": {
+     "favori_kazanir": 0.6032,
+     "beraberlik": 0.1987,
+     "favori_kaybeder": 0.1981
+    },
+    "dixon_coles": {
+     "favori_kazanir": 0.5948,
+     "beraberlik": 0.2155,
+     "favori_kaybeder": 0.1897
+    }
+   }
+  },
+  "puan_tablosu_ve_fikstur": {
+   "favori": {
+    "takim": "Eintracht Frankfurt",
+    "sira": 7,
+    "puan": 21,
+    "oynanan": 13,
+    "lig_takim_sayisi": 18,
+    "tum_kulvarlar": {
+     "kaynak": "Wikipedia: 2025–26 Eintracht Frankfurt season",
+     "madde_sha256": "5129fe30b6ad0719",
+     "onceki_mac": [
+      "2025-12-09",
+      "UEFA Champions League"
+     ],
+     "dinlenme_gun_tum_kulvarlar": 4,
+     "son14_gun_mac": 3,
+     "son14_gun_lig_disi": [
+      "UEFA Champions League"
+     ],
+     "sonraki_planli_mac": [
+      "2025-12-20",
+      "Bundesliga"
+     ],
+     "sonraki_maca_gun": 7,
+     "not": "sonraki maç yalnızca maç öncesi bilinen fikstür olarak; sonucu kullanılmadı"
+    }
+   },
+   "rakip": {
+    "takim": "FC Augsburg",
+    "sira": 14,
+    "puan": 13,
+    "oynanan": 13,
+    "lig_takim_sayisi": 18,
+    "tum_kulvarlar": {
+     "kaynak": "Wikipedia: 2025–26 FC Augsburg season",
+     "madde_sha256": "290767d443be56c9",
+     "onceki_mac": [
+      "2025-12-06",
+      "Bundesliga"
+     ],
+     "dinlenme_gun_tum_kulvarlar": 7,
+     "son14_gun_mac": 2,
+     "son14_gun_lig_disi": [],
+     "sonraki_planli_mac": [
+      "2025-12-20",
+      "Bundesliga"
+     ],
+     "sonraki_maca_gun": 7,
+     "not": "sonraki maç yalnızca maç öncesi bilinen fikstür olarak; sonucu kullanılmadı"
+    }
+   }
+  },
+  "motivasyon_hesaplandi": {
+   "favori": {
+    "lidere_fark": 16,
+    "4.ye_fark": 2,
+    "dusme_hattina_fark": 9,
+    "kalan_mac": 21
+   },
+   "rakip": {
+    "lidere_fark": 24,
+    "4.ye_fark": 10,
+    "dusme_hattina_fark": 1,
+    "kalan_mac": 21
+   }
+  }
+ },
+ {
+  "pilot_id": "de.1-B-S",
+  "rol": "surpriz_B",
+  "lig": "de.1",
+  "tarih": "2023-11-25",
+  "ev": "SC Freiburg",
+  "dep": "SV Darmstadt 98",
+  "favori": "SC Freiburg",
+  "favori_saha": "ev",
+  "dc_favori_kazanir": 0.7367,
+  "skor": "1-1",
+  "sonuc_notu": "sonuç biliniyor — kör değil",
+  "istatistik": {
+   "favori_son5": [
+    {
+     "tarih": "2023-10-08",
+     "rakip": "FC Bayern München",
+     "saha": "dep",
+     "skor": "0-3",
+     "sonuc": "M"
+    },
+    {
+     "tarih": "2023-10-21",
+     "rakip": "VfL Bochum 1848",
+     "saha": "ev",
+     "skor": "2-1",
+     "sonuc": "G"
+    },
+    {
+     "tarih": "2023-10-29",
+     "rakip": "Bayer 04 Leverkusen",
+     "saha": "dep",
+     "skor": "1-2",
+     "sonuc": "M"
+    },
+    {
+     "tarih": "2023-11-04",
+     "rakip": "Borussia Mönchengladbach",
+     "saha": "ev",
+     "skor": "3-3",
+     "sonuc": "B"
+    },
+    {
+     "tarih": "2023-11-12",
+     "rakip": "RB Leipzig",
+     "saha": "dep",
+     "skor": "1-3",
+     "sonuc": "M"
+    }
+   ],
+   "rakip_son5": [
+    {
+     "tarih": "2023-10-07",
+     "rakip": "FC Augsburg",
+     "saha": "dep",
+     "skor": "2-1",
+     "sonuc": "G"
+    },
+    {
+     "tarih": "2023-10-21",
+     "rakip": "RB Leipzig",
+     "saha": "ev",
+     "skor": "1-3",
+     "sonuc": "M"
+    },
+    {
+     "tarih": "2023-10-28",
+     "rakip": "FC Bayern München",
+     "saha": "dep",
+     "skor": "0-8",
+     "sonuc": "M"
+    },
+    {
+     "tarih": "2023-11-03",
+     "rakip": "VfL Bochum 1848",
+     "saha": "ev",
+     "skor": "1-2",
+     "sonuc": "M"
+    },
+    {
+     "tarih": "2023-11-11",
+     "rakip": "1. FSV Mainz 05",
+     "saha": "ev",
+     "skor": "0-0",
+     "sonuc": "B"
+    }
+   ],
+   "favori_form5_10": [
+    -0.711,
+    -1.168
+   ],
+   "rakip_form5_10": [
+    -0.3,
+    -0.606
+   ],
+   "son10_rakip_kalitesi_elo": {
+    "favori": 21.1,
+    "rakip": 8.8
+   },
+   "saha_performansi": {
+    "favori": {
+     "n": 5,
+     "mac_basi_puan": 2.0,
+     "mac_basi_averaj": 0.4
+    },
+    "rakip": {
+     "n": 5,
+     "mac_basi_puan": 0.6,
+     "mac_basi_averaj": -2.8
+    }
+   },
+   "ortak_rakipler": {
+    "n_ortak_rakip": 9,
+    "favori_mac_basi_puan": 1.22,
+    "rakip_mac_basi_puan": 0.78,
+    "favori_mac_basi_averaj": -0.78,
+    "rakip_mac_basi_averaj": -1.67,
+    "not": "saha ve maç sırası dengelenmemiş ham karşılaştırma (bu sezon, maçtan önce)"
+   },
+   "olasilik": {
+    "elo": {
+     "favori_kazanir": 0.6497,
+     "beraberlik": 0.2015,
+     "favori_kaybeder": 0.1488
+    },
+    "poisson": {
+     "favori_kazanir": 0.7454,
+     "beraberlik": 0.1456,
+     "favori_kaybeder": 0.109
+    },
+    "dixon_coles": {
+     "favori_kazanir": 0.7367,
+     "beraberlik": 0.1631,
+     "favori_kaybeder": 0.1002
+    }
+   }
+  },
+  "puan_tablosu_ve_fikstur": {
+   "favori": {
+    "takim": "SC Freiburg",
+    "sira": 8,
+    "puan": 14,
+    "oynanan": 11,
+    "lig_takim_sayisi": 18,
+    "tum_kulvarlar": {
+     "kaynak": "Wikipedia: 2023–24 SC Freiburg season",
+     "madde_sha256": "644a1a6ee3d7f439",
+     "onceki_mac": [
+      "2023-11-12",
+      "Bundesliga"
+     ],
+     "dinlenme_gun_tum_kulvarlar": 13,
+     "son14_gun_mac": 1,
+     "son14_gun_lig_disi": [],
+     "sonraki_planli_mac": [
+      "2023-11-30",
+      "UEFA Europa League"
+     ],
+     "sonraki_maca_gun": 5,
+     "not": "sonraki maç yalnızca maç öncesi bilinen fikstür olarak; sonucu kullanılmadı"
+    }
+   },
+   "rakip": {
+    "takim": "SV Darmstadt 98",
+    "sira": 15,
+    "puan": 8,
+    "oynanan": 11,
+    "lig_takim_sayisi": 18,
+    "tum_kulvarlar": {
+     "kaynak": "Wikipedia: 2023–24 SV Darmstadt 98 season",
+     "madde_sha256": "5e3c7d5c36b5a2d0",
+     "onceki_mac": [
+      "2023-11-11",
+      "Bundesliga"
+     ],
+     "dinlenme_gun_tum_kulvarlar": 14,
+     "son14_gun_mac": 1,
+     "son14_gun_lig_disi": [],
+     "sonraki_planli_mac": [
+      "2023-12-01",
+      "Bundesliga"
+     ],
+     "sonraki_maca_gun": 6,
+     "not": "sonraki maç yalnızca maç öncesi bilinen fikstür olarak; sonucu kullanılmadı"
+    }
+   }
+  },
+  "motivasyon_hesaplandi": {
+   "favori": {
+    "lidere_fark": 18,
+    "4.ye_fark": 9,
+    "dusme_hattina_fark": 6,
+    "kalan_mac": 23
+   },
+   "rakip": {
+    "lidere_fark": 24,
+    "4.ye_fark": 15,
+    "dusme_hattina_fark": 0,
+    "kalan_mac": 23
+   }
+  }
+ },
+ {
+  "pilot_id": "de.1-B-K",
+  "rol": "kontrol",
+  "lig": "de.1",
+  "tarih": "2024-03-10",
+  "ev": "Bayer 04 Leverkusen",
+  "dep": "VfL Wolfsburg",
+  "favori": "Bayer 04 Leverkusen",
+  "favori_saha": "ev",
+  "dc_favori_kazanir": 0.7368,
+  "skor": "2-0",
+  "sonuc_notu": "sonuç biliniyor — kör değil",
+  "istatistik": {
+   "favori_son5": [
+    {
+     "tarih": "2024-02-03",
+     "rakip": "SV Darmstadt 98",
+     "saha": "dep",
+     "skor": "2-0",
+     "sonuc": "G"
+    },
+    {
+     "tarih": "2024-02-10",
+     "rakip": "FC Bayern München",
+     "saha": "ev",
+     "skor": "3-0",
+     "sonuc": "G"
+    },
+    {
+     "tarih": "2024-02-17",
+     "rakip": "1. FC Heidenheim 1846",
+     "saha": "dep",
+     "skor": "2-1",
+     "sonuc": "G"
+    },
+    {
+     "tarih": "2024-02-23",
+     "rakip": "1. FSV Mainz 05",
+     "saha": "ev",
+     "skor": "2-1",
+     "sonuc": "G"
+    },
+    {
+     "tarih": "2024-03-03",
+     "rakip": "1. FC Köln",
+     "saha": "dep",
+     "skor": "2-0",
+     "sonuc": "G"
+    }
+   ],
+   "rakip_son5": [
+    {
+     "tarih": "2024-02-04",
+     "rakip": "TSG 1899 Hoffenheim",
+     "saha": "ev",
+     "skor": "2-2",
+     "sonuc": "B"
+    },
+    {
+     "tarih": "2024-02-10",
+     "rakip": "1. FC Union Berlin",
+     "saha": "dep",
+     "skor": "0-1",
+     "sonuc": "M"
+    },
+    {
+     "tarih": "2024-02-17",
+     "rakip": "Borussia Dortmund",
+     "saha": "ev",
+     "skor": "1-1",
+     "sonuc": "B"
+    },
+    {
+     "tarih": "2024-02-25",
+     "rakip": "Eintracht Frankfurt",
+     "saha": "dep",
+     "skor": "2-2",
+     "sonuc": "B"
+    },
+    {
+     "tarih": "2024-03-02",
+     "rakip": "VfB Stuttgart",
+     "saha": "ev",
+     "skor": "2-3",
+     "sonuc": "M"
+    }
+   ],
+   "favori_form5_10": [
+    1.366,
+    2.354
+   ],
+   "rakip_form5_10": [
+    -0.694,
+    -0.691
+   ],
+   "son10_rakip_kalitesi_elo": {
+    "favori": -17.3,
+    "rakip": 0.3
+   },
+   "saha_performansi": {
+    "favori": {
+     "n": 12,
+     "mac_basi_puan": 2.67,
+     "mac_basi_averaj": 2.25
+    },
+    "rakip": {
+     "n": 12,
+     "mac_basi_puan": 0.75,
+     "mac_basi_averaj": -0.92
+    }
+   },
+   "ortak_rakipler": {
+    "n_ortak_rakip": 16,
+    "favori_mac_basi_puan": 2.65,
+    "rakip_mac_basi_puan": 1.09,
+    "favori_mac_basi_averaj": 1.91,
+    "rakip_mac_basi_averaj": -0.35,
+    "not": "saha ve maç sırası dengelenmemiş ham karşılaştırma (bu sezon, maçtan önce)"
+   },
+   "olasilik": {
+    "elo": {
+     "favori_kazanir": 0.7315,
+     "beraberlik": 0.1621,
+     "favori_kaybeder": 0.1064
+    },
+    "poisson": {
+     "favori_kazanir": 0.7461,
+     "beraberlik": 0.1585,
+     "favori_kaybeder": 0.0954
+    },
+    "dixon_coles": {
+     "favori_kazanir": 0.7368,
+     "beraberlik": 0.177,
+     "favori_kaybeder": 0.0862
+    }
+   }
+  },
+  "puan_tablosu_ve_fikstur": {
+   "favori": {
+    "takim": "Bayer 04 Leverkusen",
+    "sira": 1,
+    "puan": 64,
+    "oynanan": 24,
+    "lig_takim_sayisi": 18,
+    "tum_kulvarlar": {
+     "kaynak": "Wikipedia: 2023–24 Bayer 04 Leverkusen season",
+     "madde_sha256": "bc61a2c6400a0843",
+     "onceki_mac": [
+      "2024-03-07",
+      "UEFA Europa League"
+     ],
+     "dinlenme_gun_tum_kulvarlar": 3,
+     "son14_gun_mac": 2,
+     "son14_gun_lig_disi": [
+      "UEFA Europa League"
+     ],
+     "sonraki_planli_mac": [
+      "2024-03-14",
+      "UEFA Europa League"
+     ],
+     "sonraki_maca_gun": 4,
+     "not": "sonraki maç yalnızca maç öncesi bilinen fikstür olarak; sonucu kullanılmadı"
+    }
+   },
+   "rakip": {
+    "takim": "VfL Wolfsburg",
+    "sira": 13,
+    "puan": 25,
+    "oynanan": 24,
+    "lig_takim_sayisi": 18,
+    "tum_kulvarlar": {
+     "kaynak": "Wikipedia: 2023–24 VfL Wolfsburg season",
+     "madde_sha256": "2a19182a87ef83ca",
+     "onceki_mac": [
+      "2024-03-02",
+      "Bundesliga"
+     ],
+     "dinlenme_gun_tum_kulvarlar": 8,
+     "son14_gun_mac": 2,
+     "son14_gun_lig_disi": [],
+     "sonraki_planli_mac": [
+      "2024-03-16",
+      "Bundesliga"
+     ],
+     "sonraki_maca_gun": 6,
+     "not": "sonraki maç yalnızca maç öncesi bilinen fikstür olarak; sonucu kullanılmadı"
+    }
+   }
+  },
+  "motivasyon_hesaplandi": {
+   "favori": {
+    "lidere_fark": 0,
+    "4.ye_fark": -17,
+    "dusme_hattina_fark": 39,
+    "kalan_mac": 10
+   },
+   "rakip": {
+    "lidere_fark": 39,
+    "4.ye_fark": 22,
+    "dusme_hattina_fark": 0,
+    "kalan_mac": 10
+   }
+  }
+ },
+ {
+  "pilot_id": "es.1-A-S",
+  "rol": "surpriz_A",
+  "lig": "es.1",
+  "tarih": "2024-12-15",
+  "ev": "FC Barcelona",
+  "dep": "CD Leganés",
+  "favori": "FC Barcelona",
+  "favori_saha": "ev",
+  "dc_favori_kazanir": 0.8477,
+  "skor": "0-1",
+  "sonuc_notu": "sonuç biliniyor — kör değil",
+  "istatistik": {
+   "favori_son5": [
+    {
+     "tarih": "2024-11-10",
+     "rakip": "Real Sociedad de Fútbol",
+     "saha": "dep",
+     "skor": "0-1",
+     "sonuc": "M"
+    },
+    {
+     "tarih": "2024-11-23",
+     "rakip": "RC Celta de Vigo",
+     "saha": "dep",
+     "skor": "2-2",
+     "sonuc": "B"
+    },
+    {
+     "tarih": "2024-11-30",
+     "rakip": "UD Las Palmas",
+     "saha": "ev",
+     "skor": "1-2",
+     "sonuc": "M"
+    },
+    {
+     "tarih": "2024-12-03",
+     "rakip": "RCD Mallorca",
+     "saha": "dep",
+     "skor": "5-1",
+     "sonuc": "G"
+    },
+    {
+     "tarih": "2024-12-07",
+     "rakip": "Real Betis Balompié",
+     "saha": "dep",
+     "skor": "2-2",
+     "sonuc": "B"
+    }
+   ],
+   "rakip_son5": [
+    {
+     "tarih": "2024-11-02",
+     "rakip": "Girona FC",
+     "saha": "dep",
+     "skor": "3-4",
+     "sonuc": "M"
+    },
+    {
+     "tarih": "2024-11-09",
+     "rakip": "Sevilla FC",
+     "saha": "ev",
+     "skor": "1-0",
+     "sonuc": "G"
+    },
+    {
+     "tarih": "2024-11-24",
+     "rakip": "Real Madrid CF",
+     "saha": "ev",
+     "skor": "0-3",
+     "sonuc": "M"
+    },
+    {
+     "tarih": "2024-11-30",
+     "rakip": "Deportivo Alavés",
+     "saha": "dep",
+     "skor": "1-1",
+     "sonuc": "B"
+    },
+    {
+     "tarih": "2024-12-08",
+     "rakip": "Real Sociedad de Fútbol",
+     "saha": "ev",
+     "skor": "0-3",
+     "sonuc": "M"
+    }
+   ],
+   "favori_form5_10": [
+    -1.681,
+    -1.284
+   ],
+   "rakip_form5_10": [
+    -0.097,
+    0.681
+   ],
+   "son10_rakip_kalitesi_elo": {
+    "favori": -10.5,
+    "rakip": 15.4
+   },
+   "saha_performansi": {
+    "favori": {
+     "n": 6,
+     "mac_basi_puan": 2.5,
+     "mac_basi_averaj": 2.33
+    },
+    "rakip": {
+     "n": 8,
+     "mac_basi_puan": 0.62,
+     "mac_basi_averaj": -0.62
+    }
+   },
+   "ortak_rakipler": {
+    "n_ortak_rakip": 15,
+    "favori_mac_basi_puan": 2.13,
+    "rakip_mac_basi_puan": 1.0,
+    "favori_mac_basi_averaj": 1.67,
+    "rakip_mac_basi_averaj": -0.47,
+    "not": "saha ve maç sırası dengelenmemiş ham karşılaştırma (bu sezon, maçtan önce)"
+   },
+   "olasilik": {
+    "elo": {
+     "favori_kazanir": 0.8583,
+     "beraberlik": 0.0959,
+     "favori_kaybeder": 0.0458
+    },
+    "poisson": {
+     "favori_kazanir": 0.8482,
+     "beraberlik": 0.1011,
+     "favori_kaybeder": 0.0507
+    },
+    "dixon_coles": {
+     "favori_kazanir": 0.8477,
+     "beraberlik": 0.1021,
+     "favori_kaybeder": 0.0502
+    }
+   }
+  },
+  "puan_tablosu_ve_fikstur": {
+   "favori": {
+    "takim": "FC Barcelona",
+    "sira": 1,
+    "puan": 38,
+    "oynanan": 17,
+    "lig_takim_sayisi": 20,
+    "tum_kulvarlar": {
+     "kaynak": "Wikipedia: 2024–25 FC Barcelona season",
+     "madde_sha256": "edf19f48d735984d",
+     "onceki_mac": [
+      "2024-12-11",
+      "UEFA Champions League"
+     ],
+     "dinlenme_gun_tum_kulvarlar": 4,
+     "son14_gun_mac": 3,
+     "son14_gun_lig_disi": [
+      "UEFA Champions League"
+     ],
+     "sonraki_planli_mac": [
+      "2024-12-21",
+      "La Liga"
+     ],
+     "sonraki_maca_gun": 6,
+     "not": "sonraki maç yalnızca maç öncesi bilinen fikstür olarak; sonucu kullanılmadı"
+    }
+   },
+   "rakip": {
+    "takim": "CD Leganés",
+    "sira": 17,
+    "puan": 15,
+    "oynanan": 16,
+    "lig_takim_sayisi": 20,
+    "tum_kulvarlar": {
+     "kaynak": "Wikipedia: 2024–25 CD Leganés season",
+     "madde_sha256": "858a6006500878d8",
+     "onceki_mac": [
+      "2024-12-08",
+      "La Liga"
+     ],
+     "dinlenme_gun_tum_kulvarlar": 7,
+     "son14_gun_mac": 3,
+     "son14_gun_lig_disi": [
+      "Copa del Rey"
+     ],
+     "sonraki_planli_mac": [
+      "2024-12-22",
+      "La Liga"
+     ],
+     "sonraki_maca_gun": 7,
+     "not": "sonraki maç yalnızca maç öncesi bilinen fikstür olarak; sonucu kullanılmadı"
+    }
+   }
+  },
+  "motivasyon_hesaplandi": {
+   "favori": {
+    "lidere_fark": 0,
+    "4.ye_fark": -6,
+    "dusme_hattina_fark": 23,
+    "kalan_mac": 21
+   },
+   "rakip": {
+    "lidere_fark": 23,
+    "4.ye_fark": 17,
+    "dusme_hattina_fark": 0,
+    "kalan_mac": 22
+   }
+  }
+ },
+ {
+  "pilot_id": "es.1-A-K",
+  "rol": "kontrol",
+  "lig": "es.1",
+  "tarih": "2024-08-25",
+  "ev": "Real Madrid CF",
+  "dep": "Real Valladolid CF",
+  "favori": "Real Madrid CF",
+  "favori_saha": "ev",
+  "dc_favori_kazanir": 0.8347,
+  "skor": "3-0",
+  "sonuc_notu": "sonuç biliniyor — kör değil",
+  "istatistik": {
+   "favori_son5": [
+    {
+     "tarih": "2024-05-11",
+     "rakip": "Granada CF",
+     "saha": "dep",
+     "skor": "4-0",
+     "sonuc": "G"
+    },
+    {
+     "tarih": "2024-05-14",
+     "rakip": "Deportivo Alavés",
+     "saha": "ev",
+     "skor": "5-0",
+     "sonuc": "G"
+    },
+    {
+     "tarih": "2024-05-19",
+     "rakip": "Villarreal CF",
+     "saha": "dep",
+     "skor": "4-4",
+     "sonuc": "B"
+    },
+    {
+     "tarih": "2024-05-25",
+     "rakip": "Real Betis Balompié",
+     "saha": "ev",
+     "skor": "0-0",
+     "sonuc": "B"
+    },
+    {
+     "tarih": "2024-08-18",
+     "rakip": "RCD Mallorca",
+     "saha": "dep",
+     "skor": "1-1",
+     "sonuc": "B"
+    }
+   ],
+   "rakip_son5": [
+    {
+     "tarih": "2023-05-19",
+     "rakip": "Cádiz CF",
+     "saha": "dep",
+     "skor": "0-2",
+     "sonuc": "M"
+    },
+    {
+     "tarih": "2023-05-23",
+     "rakip": "FC Barcelona",
+     "saha": "ev",
+     "skor": "3-1",
+     "sonuc": "G"
+    },
+    {
+     "tarih": "2023-05-28",
+     "rakip": "UD Almería",
+     "saha": "dep",
+     "skor": "0-0",
+     "sonuc": "B"
+    },
+    {
+     "tarih": "2023-06-04",
+     "rakip": "Getafe CF",
+     "saha": "ev",
+     "skor": "0-0",
+     "sonuc": "B"
+    },
+    {
+     "tarih": "2024-08-19",
+     "rakip": "RCD Espanyol de Barcelona",
+     "saha": "ev",
+     "skor": "1-0",
+     "sonuc": "G"
+    }
+   ],
+   "favori_form5_10": [
+    -0.533,
+    0.708
+   ],
+   "rakip_form5_10": [
+    0.971,
+    0.059
+   ],
+   "son10_rakip_kalitesi_elo": {
+    "favori": 2.4,
+    "rakip": -7.2
+   },
+   "saha_performansi": {
+    "favori": {
+     "n": 0
+    },
+    "rakip": {
+     "n": 0
+    }
+   },
+   "ortak_rakipler": {
+    "n_ortak_rakip": 0
+   },
+   "olasilik": {
+    "elo": {
+     "favori_kazanir": 0.8535,
+     "beraberlik": 0.099,
+     "favori_kaybeder": 0.0475
+    },
+    "poisson": {
+     "favori_kazanir": 0.8358,
+     "beraberlik": 0.1164,
+     "favori_kaybeder": 0.0478
+    },
+    "dixon_coles": {
+     "favori_kazanir": 0.8347,
+     "beraberlik": 0.1185,
+     "favori_kaybeder": 0.0467
+    }
+   }
+  },
+  "puan_tablosu_ve_fikstur": {
+   "favori": {
+    "takim": "Real Madrid CF",
+    "sira": 13,
+    "puan": 1,
+    "oynanan": 1,
+    "lig_takim_sayisi": 20,
+    "tum_kulvarlar": {
+     "kaynak": "Wikipedia: 2024–25 Real Madrid CF season",
+     "madde_sha256": "16ec8931250b8ded",
+     "onceki_mac": [
+      "2024-08-18",
+      "La Liga"
+     ],
+     "dinlenme_gun_tum_kulvarlar": 7,
+     "son14_gun_mac": 2,
+     "son14_gun_lig_disi": [
+      "UEFA Super Cup"
+     ],
+     "sonraki_planli_mac": [
+      "2024-08-29",
+      "La Liga"
+     ],
+     "sonraki_maca_gun": 4,
+     "not": "sonraki maç yalnızca maç öncesi bilinen fikstür olarak; sonucu kullanılmadı"
+    }
+   },
+   "rakip": {
+    "takim": "Real Valladolid CF",
+    "sira": 6,
+    "puan": 3,
+    "oynanan": 1,
+    "lig_takim_sayisi": 20,
+    "tum_kulvarlar": {
+     "kaynak": "Wikipedia: 2024–25 Real Valladolid season",
+     "madde_sha256": "0afa0fa63cc91c2d",
+     "onceki_mac": [
+      "2024-08-19",
+      "La Liga"
+     ],
+     "dinlenme_gun_tum_kulvarlar": 6,
+     "son14_gun_mac": 1,
+     "son14_gun_lig_disi": [],
+     "sonraki_planli_mac": [
+      "2024-08-28",
+      "La Liga"
+     ],
+     "sonraki_maca_gun": 3,
+     "not": "sonraki maç yalnızca maç öncesi bilinen fikstür olarak; sonucu kullanılmadı"
+    }
+   }
+  },
+  "motivasyon_hesaplandi": {
+   "favori": {
+    "lidere_fark": 5,
+    "4.ye_fark": 3,
+    "dusme_hattina_fark": 0,
+    "kalan_mac": 37
+   },
+   "rakip": {
+    "lidere_fark": 3,
+    "4.ye_fark": 1,
+    "dusme_hattina_fark": 2,
+    "kalan_mac": 37
+   }
+  }
+ },
+ {
+  "pilot_id": "es.1-B-S",
+  "rol": "surpriz_B",
+  "lig": "es.1",
+  "tarih": "2025-03-30",
+  "ev": "Athletic Club",
+  "dep": "CA Osasuna",
+  "favori": "Athletic Club",
+  "favori_saha": "ev",
+  "dc_favori_kazanir": 0.6474,
+  "skor": "0-0",
+  "sonuc_notu": "sonuç biliniyor — kör değil",
+  "istatistik": {
+   "favori_son5": [
+    {
+     "tarih": "2025-02-16",
+     "rakip": "RCD Espanyol de Barcelona",
+     "saha": "dep",
+     "skor": "1-1",
+     "sonuc": "B"
+    },
+    {
+     "tarih": "2025-02-23",
+     "rakip": "Real Valladolid CF",
+     "saha": "ev",
+     "skor": "7-1",
+     "sonuc": "G"
+    },
+    {
+     "tarih": "2025-03-01",
+     "rakip": "Club Atlético de Madrid",
+     "saha": "dep",
+     "skor": "0-1",
+     "sonuc": "M"
+    },
+    {
+     "tarih": "2025-03-09",
+     "rakip": "RCD Mallorca",
+     "saha": "ev",
+     "skor": "1-1",
+     "sonuc": "B"
+    },
+    {
+     "tarih": "2025-03-16",
+     "rakip": "Sevilla FC",
+     "saha": "dep",
+     "skor": "1-0",
+     "sonuc": "G"
+    }
+   ],
+   "rakip_son5": [
+    {
+     "tarih": "2025-02-15",
+     "rakip": "Real Madrid CF",
+     "saha": "ev",
+     "skor": "1-1",
+     "sonuc": "B"
+    },
+    {
+     "tarih": "2025-02-21",
+     "rakip": "RC Celta de Vigo",
+     "saha": "dep",
+     "skor": "0-1",
+     "sonuc": "M"
+    },
+    {
+     "tarih": "2025-03-02",
+     "rakip": "Valencia CF",
+     "saha": "ev",
+     "skor": "3-3",
+     "sonuc": "B"
+    },
+    {
+     "tarih": "2025-03-16",
+     "rakip": "Getafe CF",
+     "saha": "ev",
+     "skor": "1-2",
+     "sonuc": "M"
+    },
+    {
+     "tarih": "2025-03-27",
+     "rakip": "FC Barcelona",
+     "saha": "dep",
+     "skor": "0-3",
+     "sonuc": "M"
+    }
+   ],
+   "favori_form5_10": [
+    -0.238,
+    0.593
+   ],
+   "rakip_form5_10": [
+    -1.087,
+    -0.832
+   ],
+   "son10_rakip_kalitesi_elo": {
+    "favori": -28.5,
+    "rakip": 32.7
+   },
+   "saha_performansi": {
+    "favori": {
+     "n": 14,
+     "mac_basi_puan": 2.07,
+     "mac_basi_averaj": 1.29
+    },
+    "rakip": {
+     "n": 13,
+     "mac_basi_puan": 0.69,
+     "mac_basi_averaj": -1.0
+    }
+   },
+   "ortak_rakipler": {
+    "n_ortak_rakip": 18,
+    "favori_mac_basi_puan": 1.81,
+    "rakip_mac_basi_puan": 1.22,
+    "favori_mac_basi_averaj": 0.78,
+    "rakip_mac_basi_averaj": -0.3,
+    "not": "saha ve maç sırası dengelenmemiş ham karşılaştırma (bu sezon, maçtan önce)"
+   },
+   "olasilik": {
+    "elo": {
+     "favori_kazanir": 0.6646,
+     "beraberlik": 0.2075,
+     "favori_kaybeder": 0.1279
+    },
+    "poisson": {
+     "favori_kazanir": 0.6466,
+     "beraberlik": 0.2144,
+     "favori_kaybeder": 0.139
+    },
+    "dixon_coles": {
+     "favori_kazanir": 0.6474,
+     "beraberlik": 0.2128,
+     "favori_kaybeder": 0.1398
+    }
+   }
+  },
+  "puan_tablosu_ve_fikstur": {
+   "favori": {
+    "takim": "Athletic Club",
+    "sira": 4,
+    "puan": 52,
+    "oynanan": 28,
+    "lig_takim_sayisi": 20,
+    "tum_kulvarlar": {
+     "kaynak": "Wikipedia: 2024–25 Athletic Bilbao season",
+     "madde_sha256": "c65628f0f27ac9f4",
+     "onceki_mac": [
+      "2025-03-16",
+      "La Liga"
+     ],
+     "dinlenme_gun_tum_kulvarlar": 14,
+     "son14_gun_mac": 1,
+     "son14_gun_lig_disi": [],
+     "sonraki_planli_mac": [
+      "2025-04-06",
+      "La Liga"
+     ],
+     "sonraki_maca_gun": 7,
+     "not": "sonraki maç yalnızca maç öncesi bilinen fikstür olarak; sonucu kullanılmadı"
+    }
+   },
+   "rakip": {
+    "takim": "CA Osasuna",
+    "sira": 14,
+    "puan": 33,
+    "oynanan": 28,
+    "lig_takim_sayisi": 20,
+    "tum_kulvarlar": {
+     "kaynak": "Wikipedia: 2024–25 CA Osasuna season",
+     "madde_sha256": "75572b306f9b7324",
+     "onceki_mac": [
+      "2025-03-27",
+      "La Liga"
+     ],
+     "dinlenme_gun_tum_kulvarlar": 3,
+     "son14_gun_mac": 2,
+     "son14_gun_lig_disi": [],
+     "sonraki_planli_mac": [
+      "2025-04-07",
+      "La Liga"
+     ],
+     "sonraki_maca_gun": 8,
+     "not": "sonraki maç yalnızca maç öncesi bilinen fikstür olarak; sonucu kullanılmadı"
+    }
+   }
+  },
+  "motivasyon_hesaplandi": {
+   "favori": {
+    "lidere_fark": 11,
+    "4.ye_fark": 0,
+    "dusme_hattina_fark": 25,
+    "kalan_mac": 10
+   },
+   "rakip": {
+    "lidere_fark": 30,
+    "4.ye_fark": 19,
+    "dusme_hattina_fark": 6,
+    "kalan_mac": 10
+   }
+  }
+ },
+ {
+  "pilot_id": "es.1-B-K",
+  "rol": "kontrol",
+  "lig": "es.1",
+  "tarih": "2024-11-02",
+  "ev": "CA Osasuna",
+  "dep": "Real Valladolid CF",
+  "favori": "CA Osasuna",
+  "favori_saha": "ev",
+  "dc_favori_kazanir": 0.6465,
+  "skor": "1-0",
+  "sonuc_notu": "sonuç biliniyor — kör değil",
+  "istatistik": {
+   "favori_son5": [
+    {
+     "tarih": "2024-09-24",
+     "rakip": "Valencia CF",
+     "saha": "dep",
+     "skor": "0-0",
+     "sonuc": "B"
+    },
+    {
+     "tarih": "2024-09-28",
+     "rakip": "FC Barcelona",
+     "saha": "ev",
+     "skor": "4-2",
+     "sonuc": "G"
+    },
+    {
+     "tarih": "2024-10-05",
+     "rakip": "Getafe CF",
+     "saha": "dep",
+     "skor": "1-1",
+     "sonuc": "B"
+    },
+    {
+     "tarih": "2024-10-19",
+     "rakip": "Real Betis Balompié",
+     "saha": "ev",
+     "skor": "1-2",
+     "sonuc": "M"
+    },
+    {
+     "tarih": "2024-10-27",
+     "rakip": "Real Sociedad de Fútbol",
+     "saha": "dep",
+     "skor": "2-0",
+     "sonuc": "G"
+    }
+   ],
+   "rakip_son5": [
+    {
+     "tarih": "2024-09-24",
+     "rakip": "Sevilla FC",
+     "saha": "dep",
+     "skor": "1-2",
+     "sonuc": "M"
+    },
+    {
+     "tarih": "2024-09-27",
+     "rakip": "RCD Mallorca",
+     "saha": "ev",
+     "skor": "1-2",
+     "sonuc": "M"
+    },
+    {
+     "tarih": "2024-10-05",
+     "rakip": "Rayo Vallecano de Madrid",
+     "saha": "ev",
+     "skor": "1-2",
+     "sonuc": "M"
+    },
+    {
+     "tarih": "2024-10-18",
+     "rakip": "Deportivo Alavés",
+     "saha": "dep",
+     "skor": "3-2",
+     "sonuc": "G"
+    },
+    {
+     "tarih": "2024-10-26",
+     "rakip": "Villarreal CF",
+     "saha": "ev",
+     "skor": "1-2",
+     "sonuc": "M"
+    }
+   ],
+   "favori_form5_10": [
+    1.05,
+    1.496
+   ],
+   "rakip_form5_10": [
+    -0.858,
+    -1.33
+   ],
+   "son10_rakip_kalitesi_elo": {
+    "favori": 2.1,
+    "rakip": 15.2
+   },
+   "saha_performansi": {
+    "favori": {
+     "n": 6,
+     "mac_basi_puan": 2.17,
+     "mac_basi_averaj": 0.67
+    },
+    "rakip": {
+     "n": 5,
+     "mac_basi_puan": 0.6,
+     "mac_basi_averaj": -2.4
+    }
+   },
+   "ortak_rakipler": {
+    "n_ortak_rakip": 6,
+    "favori_mac_basi_puan": 2.17,
+    "rakip_mac_basi_puan": 0.33,
+    "favori_mac_basi_averaj": 0.67,
+    "rakip_mac_basi_averaj": -1.83,
+    "not": "saha ve maç sırası dengelenmemiş ham karşılaştırma (bu sezon, maçtan önce)"
+   },
+   "olasilik": {
+    "elo": {
+     "favori_kazanir": 0.637,
+     "beraberlik": 0.2209,
+     "favori_kaybeder": 0.1421
+    },
+    "poisson": {
+     "favori_kazanir": 0.6515,
+     "beraberlik": 0.2016,
+     "favori_kaybeder": 0.1469
+    },
+    "dixon_coles": {
+     "favori_kazanir": 0.6465,
+     "beraberlik": 0.2117,
+     "favori_kaybeder": 0.1419
+    }
+   }
+  },
+  "puan_tablosu_ve_fikstur": {
+   "favori": {
+    "takim": "CA Osasuna",
+    "sira": 8,
+    "puan": 18,
+    "oynanan": 11,
+    "lig_takim_sayisi": 20,
+    "tum_kulvarlar": {
+     "kaynak": "Wikipedia: 2024–25 CA Osasuna season",
+     "madde_sha256": "75572b306f9b7324",
+     "onceki_mac": [
+      "2024-10-27",
+      "La Liga"
+     ],
+     "dinlenme_gun_tum_kulvarlar": 6,
+     "son14_gun_mac": 2,
+     "son14_gun_lig_disi": [],
+     "sonraki_planli_mac": [
+      "2024-11-05",
+      "Copa del Rey"
+     ],
+     "sonraki_maca_gun": 3,
+     "not": "sonraki maç yalnızca maç öncesi bilinen fikstür olarak; sonucu kullanılmadı"
+    }
+   },
+   "rakip": {
+    "takim": "Real Valladolid CF",
+    "sira": 19,
+    "puan": 8,
+    "oynanan": 11,
+    "lig_takim_sayisi": 20,
+    "tum_kulvarlar": {
+     "kaynak": "Wikipedia: 2024–25 Real Valladolid season",
+     "madde_sha256": "0afa0fa63cc91c2d",
+     "onceki_mac": [
+      "2024-10-29",
+      "Copa del Rey"
+     ],
+     "dinlenme_gun_tum_kulvarlar": 4,
+     "son14_gun_mac": 2,
+     "son14_gun_lig_disi": [
+      "Copa del Rey"
+     ],
+     "sonraki_planli_mac": [
+      "2024-11-10",
+      "La Liga"
+     ],
+     "sonraki_maca_gun": 8,
+     "not": "sonraki maç yalnızca maç öncesi bilinen fikstür olarak; sonucu kullanılmadı"
+    }
+   }
+  },
+  "motivasyon_hesaplandi": {
+   "favori": {
+    "lidere_fark": 12,
+    "4.ye_fark": 2,
+    "dusme_hattina_fark": 8,
+    "kalan_mac": 27
+   },
+   "rakip": {
+    "lidere_fark": 22,
+    "4.ye_fark": 12,
+    "dusme_hattina_fark": -2,
+    "kalan_mac": 27
+   }
+  }
+ },
+ {
+  "pilot_id": "it.1-A-S",
+  "rol": "surpriz_A",
+  "lig": "it.1",
+  "tarih": "2022-10-30",
+  "ev": "SS Lazio",
+  "dep": "US Salernitana 1919",
+  "favori": "SS Lazio",
+  "favori_saha": "ev",
+  "dc_favori_kazanir": 0.7574,
+  "skor": "1-3",
+  "sonuc_notu": "sonuç biliniyor — kör değil",
+  "istatistik": {
+   "favori_son5": [
+    {
+     "tarih": "2022-09-18",
+     "rakip": "US Cremonese",
+     "saha": "dep",
+     "skor": "4-0",
+     "sonuc": "G"
+    },
+    {
+     "tarih": "2022-10-02",
+     "rakip": "Spezia Calcio",
+     "saha": "ev",
+     "skor": "4-0",
+     "sonuc": "G"
+    },
+    {
+     "tarih": "2022-10-10",
+     "rakip": "ACF Fiorentina",
+     "saha": "dep",
+     "skor": "4-0",
+     "sonuc": "G"
+    },
+    {
+     "tarih": "2022-10-16",
+     "rakip": "Udinese Calcio",
+     "saha": "ev",
+     "skor": "0-0",
+     "sonuc": "B"
+    },
+    {
+     "tarih": "2022-10-23",
+     "rakip": "Atalanta BC",
+     "saha": "dep",
+     "skor": "2-0",
+     "sonuc": "G"
+    }
+   ],
+   "rakip_son5": [
+    {
+     "tarih": "2022-09-16",
+     "rakip": "US Lecce",
+     "saha": "ev",
+     "skor": "1-2",
+     "sonuc": "M"
+    },
+    {
+     "tarih": "2022-10-02",
+     "rakip": "US Sassuolo Calcio",
+     "saha": "dep",
+     "skor": "0-5",
+     "sonuc": "M"
+    },
+    {
+     "tarih": "2022-10-09",
+     "rakip": "Hellas Verona FC",
+     "saha": "ev",
+     "skor": "2-1",
+     "sonuc": "G"
+    },
+    {
+     "tarih": "2022-10-16",
+     "rakip": "FC Internazionale Milano",
+     "saha": "dep",
+     "skor": "0-2",
+     "sonuc": "M"
+    },
+    {
+     "tarih": "2022-10-22",
+     "rakip": "Spezia Calcio",
+     "saha": "ev",
+     "skor": "1-0",
+     "sonuc": "G"
+    }
+   ],
+   "favori_form5_10": [
+    1.408,
+    1.627
+   ],
+   "rakip_form5_10": [
+    -0.055,
+    1.143
+   ],
+   "son10_rakip_kalitesi_elo": {
+    "favori": 14.8,
+    "rakip": -22.9
+   },
+   "saha_performansi": {
+    "favori": {
+     "n": 6,
+     "mac_basi_puan": 2.17,
+     "mac_basi_averaj": 1.33
+    },
+    "rakip": {
+     "n": 5,
+     "mac_basi_puan": 0.6,
+     "mac_basi_averaj": -1.4
+    }
+   },
+   "ortak_rakipler": {
+    "n_ortak_rakip": 6,
+    "favori_mac_basi_puan": 2.33,
+    "rakip_mac_basi_puan": 1.83,
+    "favori_mac_basi_averaj": 1.5,
+    "rakip_mac_basi_averaj": 0.67,
+    "not": "saha ve maç sırası dengelenmemiş ham karşılaştırma (bu sezon, maçtan önce)"
+   },
+   "olasilik": {
+    "elo": {
+     "favori_kazanir": 0.7627,
+     "beraberlik": 0.1534,
+     "favori_kaybeder": 0.0839
+    },
+    "poisson": {
+     "favori_kazanir": 0.7636,
+     "beraberlik": 0.1458,
+     "favori_kaybeder": 0.0906
+    },
+    "dixon_coles": {
+     "favori_kazanir": 0.7574,
+     "beraberlik": 0.1582,
+     "favori_kaybeder": 0.0844
+    }
+   }
+  },
+  "puan_tablosu_ve_fikstur": {
+   "favori": {
+    "takim": "SS Lazio",
+    "sira": 3,
+    "puan": 24,
+    "oynanan": 11,
+    "lig_takim_sayisi": 20,
+    "tum_kulvarlar": {
+     "kaynak": "Wikipedia: 2022–23 SS Lazio season",
+     "madde_sha256": "7a54756117dc0adc",
+     "onceki_mac": [
+      "2022-10-27",
+      "UEFA Europa League"
+     ],
+     "dinlenme_gun_tum_kulvarlar": 3,
+     "son14_gun_mac": 3,
+     "son14_gun_lig_disi": [
+      "UEFA Europa League"
+     ],
+     "sonraki_planli_mac": [
+      "2022-11-03",
+      "UEFA Europa League"
+     ],
+     "sonraki_maca_gun": 4,
+     "not": "sonraki maç yalnızca maç öncesi bilinen fikstür olarak; sonucu kullanılmadı"
+    }
+   },
+   "rakip": {
+    "takim": "US Salernitana 1919",
+    "sira": 11,
+    "puan": 13,
+    "oynanan": 11,
+    "lig_takim_sayisi": 20,
+    "tum_kulvarlar": {
+     "kaynak": "Wikipedia: 2022–23 US Salernitana 1919 season",
+     "madde_sha256": "6b311feec983fbad",
+     "onceki_mac": [
+      "2022-10-22",
+      "Serie A"
+     ],
+     "dinlenme_gun_tum_kulvarlar": 8,
+     "son14_gun_mac": 2,
+     "son14_gun_lig_disi": [],
+     "sonraki_planli_mac": [
+      "2022-11-05",
+      "Serie A"
+     ],
+     "sonraki_maca_gun": 6,
+     "not": "sonraki maç yalnızca maç öncesi bilinen fikstür olarak; sonucu kullanılmadı"
+    }
+   }
+  },
+  "motivasyon_hesaplandi": {
+   "favori": {
+    "lidere_fark": 8,
+    "4.ye_fark": 0,
+    "dusme_hattina_fark": 16,
+    "kalan_mac": 27
+   },
+   "rakip": {
+    "lidere_fark": 19,
+    "4.ye_fark": 11,
+    "dusme_hattina_fark": 5,
+    "kalan_mac": 27
+   }
+  }
+ },
+ {
+  "pilot_id": "it.1-A-K",
+  "rol": "kontrol",
+  "lig": "it.1",
+  "tarih": "2022-08-30",
+  "ev": "AS Roma",
+  "dep": "AC Monza",
+  "favori": "AS Roma",
+  "favori_saha": "ev",
+  "dc_favori_kazanir": 0.752,
+  "skor": "3-0",
+  "sonuc_notu": "sonuç biliniyor — kör değil",
+  "istatistik": {
+   "favori_son5": [
+    {
+     "tarih": "2022-05-14",
+     "rakip": "Venezia FC",
+     "saha": "ev",
+     "skor": "1-1",
+     "sonuc": "B"
+    },
+    {
+     "tarih": "2022-05-20",
+     "rakip": "Torino FC",
+     "saha": "dep",
+     "skor": "3-0",
+     "sonuc": "G"
+    },
+    {
+     "tarih": "2022-08-14",
+     "rakip": "US Salernitana 1919",
+     "saha": "dep",
+     "skor": "1-0",
+     "sonuc": "G"
+    },
+    {
+     "tarih": "2022-08-22",
+     "rakip": "US Cremonese",
+     "saha": "ev",
+     "skor": "1-0",
+     "sonuc": "G"
+    },
+    {
+     "tarih": "2022-08-27",
+     "rakip": "Juventus FC",
+     "saha": "dep",
+     "skor": "1-1",
+     "sonuc": "B"
+    }
+   ],
+   "rakip_son5": [
+    {
+     "tarih": "2022-08-13",
+     "rakip": "Torino FC",
+     "saha": "ev",
+     "skor": "1-2",
+     "sonuc": "M"
+    },
+    {
+     "tarih": "2022-08-21",
+     "rakip": "SSC Napoli",
+     "saha": "dep",
+     "skor": "0-4",
+     "sonuc": "M"
+    },
+    {
+     "tarih": "2022-08-26",
+     "rakip": "Udinese Calcio",
+     "saha": "ev",
+     "skor": "1-2",
+     "sonuc": "M"
+    }
+   ],
+   "favori_form5_10": [
+    0.825,
+    0.12
+   ],
+   "rakip_form5_10": [
+    null,
+    null
+   ],
+   "son10_rakip_kalitesi_elo": {
+    "favori": -18.2,
+    "rakip": null
+   },
+   "saha_performansi": {
+    "favori": {
+     "n": 1,
+     "mac_basi_puan": 3.0,
+     "mac_basi_averaj": 1.0
+    },
+    "rakip": {
+     "n": 1,
+     "mac_basi_puan": 0.0,
+     "mac_basi_averaj": -4.0
+    }
+   },
+   "ortak_rakipler": {
+    "n_ortak_rakip": 0
+   },
+   "olasilik": {
+    "elo": {
+     "favori_kazanir": 0.7359,
+     "beraberlik": 0.1686,
+     "favori_kaybeder": 0.0955
+    },
+    "poisson": {
+     "favori_kazanir": 0.7599,
+     "beraberlik": 0.1513,
+     "favori_kaybeder": 0.0887
+    },
+    "dixon_coles": {
+     "favori_kazanir": 0.752,
+     "beraberlik": 0.1672,
+     "favori_kaybeder": 0.0808
+    }
+   }
+  },
+  "puan_tablosu_ve_fikstur": {
+   "favori": {
+    "takim": "AS Roma",
+    "sira": 6,
+    "puan": 7,
+    "oynanan": 3,
+    "lig_takim_sayisi": 20,
+    "tum_kulvarlar": {
+     "kaynak": "Wikipedia: 2022–23 AS Roma season",
+     "madde_sha256": "9648ecc5987438dd",
+     "onceki_mac": [
+      "2022-08-27",
+      "Serie A"
+     ],
+     "dinlenme_gun_tum_kulvarlar": 3,
+     "son14_gun_mac": 2,
+     "son14_gun_lig_disi": [],
+     "sonraki_planli_mac": [
+      "2022-09-04",
+      "Serie A"
+     ],
+     "sonraki_maca_gun": 5,
+     "not": "sonraki maç yalnızca maç öncesi bilinen fikstür olarak; sonucu kullanılmadı"
+    }
+   },
+   "rakip": {
+    "takim": "AC Monza",
+    "sira": 20,
+    "puan": 0,
+    "oynanan": 3,
+    "lig_takim_sayisi": 20,
+    "tum_kulvarlar": {
+     "kaynak": "Wikipedia: 2022–23 AC Monza season",
+     "madde_sha256": "34acbe9a3dae273f",
+     "onceki_mac": [
+      "2022-08-26",
+      "Serie A"
+     ],
+     "dinlenme_gun_tum_kulvarlar": 4,
+     "son14_gun_mac": 2,
+     "son14_gun_lig_disi": [],
+     "sonraki_planli_mac": [
+      "2022-09-05",
+      "Serie A"
+     ],
+     "sonraki_maca_gun": 6,
+     "not": "sonraki maç yalnızca maç öncesi bilinen fikstür olarak; sonucu kullanılmadı"
+    }
+   }
+  },
+  "motivasyon_hesaplandi": {
+   "favori": {
+    "lidere_fark": 0,
+    "4.ye_fark": 0,
+    "dusme_hattina_fark": 6,
+    "kalan_mac": 35
+   },
+   "rakip": {
+    "lidere_fark": 7,
+    "4.ye_fark": 7,
+    "dusme_hattina_fark": -1,
+    "kalan_mac": 35
+   }
+  }
+ },
+ {
+  "pilot_id": "it.1-B-S",
+  "rol": "surpriz_B",
+  "lig": "it.1",
+  "tarih": "2024-05-12",
+  "ev": "Juventus FC",
+  "dep": "US Salernitana 1919",
+  "favori": "Juventus FC",
+  "favori_saha": "ev",
+  "dc_favori_kazanir": 0.7506,
+  "skor": "1-1",
+  "sonuc_notu": "sonuç biliniyor — kör değil",
+  "istatistik": {
+   "favori_son5": [
+    {
+     "tarih": "2024-04-07",
+     "rakip": "ACF Fiorentina",
+     "saha": "ev",
+     "skor": "1-0",
+     "sonuc": "G"
+    },
+    {
+     "tarih": "2024-04-13",
+     "rakip": "Torino FC",
+     "saha": "dep",
+     "skor": "0-0",
+     "sonuc": "B"
+    },
+    {
+     "tarih": "2024-04-19",
+     "rakip": "Cagliari Calcio",
+     "saha": "dep",
+     "skor": "2-2",
+     "sonuc": "B"
+    },
+    {
+     "tarih": "2024-04-27",
+     "rakip": "AC Milan",
+     "saha": "ev",
+     "skor": "0-0",
+     "sonuc": "B"
+    },
+    {
+     "tarih": "2024-05-05",
+     "rakip": "AS Roma",
+     "saha": "dep",
+     "skor": "1-1",
+     "sonuc": "B"
+    }
+   ],
+   "rakip_son5": [
+    {
+     "tarih": "2024-04-05",
+     "rakip": "US Sassuolo Calcio",
+     "saha": "ev",
+     "skor": "2-2",
+     "sonuc": "B"
+    },
+    {
+     "tarih": "2024-04-12",
+     "rakip": "SS Lazio",
+     "saha": "dep",
+     "skor": "1-4",
+     "sonuc": "M"
+    },
+    {
+     "tarih": "2024-04-21",
+     "rakip": "ACF Fiorentina",
+     "saha": "ev",
+     "skor": "0-2",
+     "sonuc": "M"
+    },
+    {
+     "tarih": "2024-04-26",
+     "rakip": "Frosinone Calcio",
+     "saha": "dep",
+     "skor": "0-3",
+     "sonuc": "M"
+    },
+    {
+     "tarih": "2024-05-06",
+     "rakip": "Atalanta BC",
+     "saha": "ev",
+     "skor": "1-2",
+     "sonuc": "M"
+    }
+   ],
+   "favori_form5_10": [
+    -0.029,
+    -1.371
+   ],
+   "rakip_form5_10": [
+    -1.024,
+    -2.288
+   ],
+   "son10_rakip_kalitesi_elo": {
+    "favori": 19.6,
+    "rakip": -31.3
+   },
+   "saha_performansi": {
+    "favori": {
+     "n": 17,
+     "mac_basi_puan": 2.12,
+     "mac_basi_averaj": 0.76
+    },
+    "rakip": {
+     "n": 17,
+     "mac_basi_puan": 0.41,
+     "mac_basi_averaj": -1.65
+    }
+   },
+   "ortak_rakipler": {
+    "n_ortak_rakip": 18,
+    "favori_mac_basi_puan": 1.85,
+    "rakip_mac_basi_puan": 0.44,
+    "favori_mac_basi_averaj": 0.59,
+    "rakip_mac_basi_averaj": -1.38,
+    "not": "saha ve maç sırası dengelenmemiş ham karşılaştırma (bu sezon, maçtan önce)"
+   },
+   "olasilik": {
+    "elo": {
+     "favori_kazanir": 0.8472,
+     "beraberlik": 0.1026,
+     "favori_kaybeder": 0.0502
+    },
+    "poisson": {
+     "favori_kazanir": 0.755,
+     "beraberlik": 0.1664,
+     "favori_kaybeder": 0.0785
+    },
+    "dixon_coles": {
+     "favori_kazanir": 0.7506,
+     "beraberlik": 0.1752,
+     "favori_kaybeder": 0.0741
+    }
+   }
+  },
+  "puan_tablosu_ve_fikstur": {
+   "favori": {
+    "takim": "Juventus FC",
+    "sira": 4,
+    "puan": 66,
+    "oynanan": 35,
+    "lig_takim_sayisi": 20,
+    "tum_kulvarlar": {
+     "kaynak": "Wikipedia: 2023–24 Juventus FC season",
+     "madde_sha256": "d1bd16236d9b3953",
+     "onceki_mac": [
+      "2024-05-05",
+      "Serie A"
+     ],
+     "dinlenme_gun_tum_kulvarlar": 7,
+     "son14_gun_mac": 1,
+     "son14_gun_lig_disi": [],
+     "sonraki_planli_mac": [
+      "2024-05-15",
+      "Coppa Italia"
+     ],
+     "sonraki_maca_gun": 3,
+     "not": "sonraki maç yalnızca maç öncesi bilinen fikstür olarak; sonucu kullanılmadı"
+    }
+   },
+   "rakip": {
+    "takim": "US Salernitana 1919",
+    "sira": 20,
+    "puan": 15,
+    "oynanan": 35,
+    "lig_takim_sayisi": 20,
+    "tum_kulvarlar": {
+     "kaynak": "Wikipedia: 2023–24 US Salernitana 1919 season",
+     "madde_sha256": "710e13028b1d631e",
+     "onceki_mac": [
+      "2024-05-06",
+      "Serie A"
+     ],
+     "dinlenme_gun_tum_kulvarlar": 6,
+     "son14_gun_mac": 1,
+     "son14_gun_lig_disi": [],
+     "sonraki_planli_mac": [
+      "2024-05-20",
+      "Serie A"
+     ],
+     "sonraki_maca_gun": 8,
+     "not": "sonraki maç yalnızca maç öncesi bilinen fikstür olarak; sonucu kullanılmadı"
+    }
+   }
+  },
+  "motivasyon_hesaplandi": {
+   "favori": {
+    "lidere_fark": 26,
+    "4.ye_fark": 0,
+    "dusme_hattina_fark": 34,
+    "kalan_mac": 3
+   },
+   "rakip": {
+    "lidere_fark": 77,
+    "4.ye_fark": 51,
+    "dusme_hattina_fark": -17,
+    "kalan_mac": 3
+   }
+  }
+ },
+ {
+  "pilot_id": "it.1-B-K",
+  "rol": "kontrol",
+  "lig": "it.1",
+  "tarih": "2023-08-27",
+  "ev": "SSC Napoli",
+  "dep": "US Sassuolo Calcio",
+  "favori": "SSC Napoli",
+  "favori_saha": "ev",
+  "dc_favori_kazanir": 0.7552,
+  "skor": "2-0",
+  "sonuc_notu": "sonuç biliniyor — kör değil",
+  "istatistik": {
+   "favori_son5": [
+    {
+     "tarih": "2023-05-14",
+     "rakip": "AC Monza",
+     "saha": "dep",
+     "skor": "0-2",
+     "sonuc": "M"
+    },
+    {
+     "tarih": "2023-05-21",
+     "rakip": "FC Internazionale Milano",
+     "saha": "ev",
+     "skor": "3-1",
+     "sonuc": "G"
+    },
+    {
+     "tarih": "2023-05-28",
+     "rakip": "Bologna FC 1909",
+     "saha": "dep",
+     "skor": "2-2",
+     "sonuc": "B"
+    },
+    {
+     "tarih": "2023-06-04",
+     "rakip": "UC Sampdoria",
+     "saha": "ev",
+     "skor": "2-0",
+     "sonuc": "G"
+    },
+    {
+     "tarih": "2023-08-19",
+     "rakip": "Frosinone Calcio",
+     "saha": "dep",
+     "skor": "3-1",
+     "sonuc": "G"
+    }
+   ],
+   "rakip_son5": [
+    {
+     "tarih": "2023-05-13",
+     "rakip": "FC Internazionale Milano",
+     "saha": "dep",
+     "skor": "2-4",
+     "sonuc": "M"
+    },
+    {
+     "tarih": "2023-05-19",
+     "rakip": "AC Monza",
+     "saha": "ev",
+     "skor": "1-2",
+     "sonuc": "M"
+    },
+    {
+     "tarih": "2023-05-26",
+     "rakip": "UC Sampdoria",
+     "saha": "dep",
+     "skor": "2-2",
+     "sonuc": "B"
+    },
+    {
+     "tarih": "2023-06-02",
+     "rakip": "ACF Fiorentina",
+     "saha": "ev",
+     "skor": "1-3",
+     "sonuc": "M"
+    },
+    {
+     "tarih": "2023-08-20",
+     "rakip": "Atalanta BC",
+     "saha": "ev",
+     "skor": "0-2",
+     "sonuc": "M"
+    }
+   ],
+   "favori_form5_10": [
+    -0.326,
+    -0.685
+   ],
+   "rakip_form5_10": [
+    -1.925,
+    -1.943
+   ],
+   "son10_rakip_kalitesi_elo": {
+    "favori": -23.4,
+    "rakip": 7.2
+   },
+   "saha_performansi": {
+    "favori": {
+     "n": 0
+    },
+    "rakip": {
+     "n": 0
+    }
+   },
+   "ortak_rakipler": {
+    "n_ortak_rakip": 0
+   },
+   "olasilik": {
+    "elo": {
+     "favori_kazanir": 0.7521,
+     "beraberlik": 0.1598,
+     "favori_kaybeder": 0.0881
+    },
+    "poisson": {
+     "favori_kazanir": 0.7562,
+     "beraberlik": 0.1504,
+     "favori_kaybeder": 0.0934
+    },
+    "dixon_coles": {
+     "favori_kazanir": 0.7552,
+     "beraberlik": 0.1524,
+     "favori_kaybeder": 0.0924
+    }
+   }
+  },
+  "puan_tablosu_ve_fikstur": {
+   "favori": {
+    "takim": "SSC Napoli",
+    "sira": 5,
+    "puan": 3,
+    "oynanan": 1,
+    "lig_takim_sayisi": 20,
+    "tum_kulvarlar": {
+     "kaynak": "Wikipedia: 2023–24 SSC Napoli season",
+     "madde_sha256": "6a3ce6902be1a093",
+     "onceki_mac": [
+      "2023-08-19",
+      "Serie A"
+     ],
+     "dinlenme_gun_tum_kulvarlar": 8,
+     "son14_gun_mac": 1,
+     "son14_gun_lig_disi": [],
+     "sonraki_planli_mac": [
+      "2023-09-02",
+      "Serie A"
+     ],
+     "sonraki_maca_gun": 6,
+     "not": "sonraki maç yalnızca maç öncesi bilinen fikstür olarak; sonucu kullanılmadı"
+    }
+   },
+   "rakip": {
+    "takim": "US Sassuolo Calcio",
+    "sira": 16,
+    "puan": 0,
+    "oynanan": 1,
+    "lig_takim_sayisi": 20,
+    "tum_kulvarlar": {
+     "kaynak": "Wikipedia: 2023–24 US Sassuolo Calcio season",
+     "madde_sha256": "be06524b2bd47d95",
+     "onceki_mac": [
+      "2023-08-20",
+      "Serie A"
+     ],
+     "dinlenme_gun_tum_kulvarlar": 7,
+     "son14_gun_mac": 2,
+     "son14_gun_lig_disi": [
+      "Coppa Italia"
+     ],
+     "sonraki_planli_mac": [
+      "2023-09-01",
+      "Serie A"
+     ],
+     "sonraki_maca_gun": 5,
+     "not": "sonraki maç yalnızca maç öncesi bilinen fikstür olarak; sonucu kullanılmadı"
+    }
+   }
+  },
+  "motivasyon_hesaplandi": {
+   "favori": {
+    "lidere_fark": 3,
+    "4.ye_fark": 0,
+    "dusme_hattina_fark": 3,
+    "kalan_mac": 37
+   },
+   "rakip": {
+    "lidere_fark": 6,
+    "4.ye_fark": 3,
+    "dusme_hattina_fark": 0,
+    "kalan_mac": 37
+   }
+  }
+ }
+]

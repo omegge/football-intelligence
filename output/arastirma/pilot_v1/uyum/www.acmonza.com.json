@@ -1,0 +1,32 @@
+{
+ "host": "www.acmonza.com",
+ "kontrol_utc": "2026-11-25T17:23:23+00:00",
+ "robots_http": 200,
+ "robots_tum_site_yasak": false,
+ "robots_ai_ozel_satirlar": [],
+ "ana_http": 200,
+ "ana_son_url": "https://www.acmonza.com/",
+ "baslik": "Associazione Calcio Monza S.p.A. *",
+ "bot_engeli_isareti": false,
+ "metin_uzunlugu": 8151,
+ "kosul_adaylari": [
+  "https://www.acmonza.com/pdf/ACMonza_MyMonza_InfoPrivacy_SitoWeb_App_2novembre2026.pdf",
+  "https://www.acmonza.com/pdf/cookie-policy.pdf",
+  "https://www.acmonza.com/cookie-policy.pdf",
+  "https://www.acmonza.com/cookie-policy.php"
+ ],
+ "kosul_sayfalari": [
+  {
+   "url": "https://www.acmonza.com/pdf/ACMonza_MyMonza_InfoPrivacy_SitoWeb_App_2novembre2026.pdf",
+   "http": 200,
+   "metin_uzunlugu": 92096,
+   "maddeler": []
+  },
+  {
+   "url": "https://www.acmonza.com/pdf/cookie-policy.pdf",
+   "http": 200,
+   "metin_uzunlugu": 205166,
+   "maddeler": []
+  }
+ ]
+}

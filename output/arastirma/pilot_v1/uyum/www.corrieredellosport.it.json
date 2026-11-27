@@ -1,0 +1,41 @@
+{
+ "host": "www.corrieredellosport.it",
+ "kontrol_utc": "2026-11-25T17:23:56+00:00",
+ "robots_http": 200,
+ "robots_tum_site_yasak": false,
+ "robots_ai_ozel_satirlar": [],
+ "ana_http": 200,
+ "ana_son_url": "https://www.corrieredellosport.it/",
+ "baslik": "Corriere dello Sport | News, dirette e cronaca sportiva",
+ "bot_engeli_isareti": false,
+ "metin_uzunlugu": 5962,
+ "kosul_adaylari": [
+  "https://www.corrieredellosport.it/widget/utility/2017/10/30-33143936/nota_legale",
+  "https://www.corrieredellosport.it/widget/utility/2018/05/25-43388037/privacy_policy_gdpr_2018"
+ ],
+ "kosul_sayfalari": [
+  {
+   "url": "https://www.corrieredellosport.it/widget/utility/2017/10/30-33143936/nota_legale",
+   "http": 200,
+   "metin_uzunlugu": 10650,
+   "maddeler": [
+    "issione on-line dello stesso. 1. USO DEL SITO E PROPRIETÀ INTELLETTUALE 1.1 È fatto espresso divieto all'Utente di utilizzare e/o far utilizzare il Sito a fini commerciali. 1.2 Il Sito e tutti i Contenuti del Sito sono di proprietà esclusiva della Società o dei suoi licenzianti e sono protetti dalle vigenti norme in materia di proprietà intellettuale. Pertanto, l'Uten",
+    "roprietà esclusiva della Società o dei suoi licenzianti e sono protetti dalle vigenti norme in materia di proprietà intellettuale. Pertanto, l'Utente non potrà riprodurre, duplicare, copiare e ridistribuire, ritrasmettere anche su altri siti web, trasferire o altrimenti rendere disponibili a terzi a qualsivoglia titolo o comunque utilizzare per fini diversi dalla cons",
+    "bene la navigazione sul Sito sia gratuita, sul Sito potranno essere visualizzati messaggi e/o comunicazioni pubblicitarie e/o promozionali ovvero comunicazioni commerciali da parte della Società o di altre società del gruppo o di società terze (a titolo esemplificativo non esaustivo, il Sito può contenere banner pubblicitari, pop-up pubblicitari, ecc.). 3.2 In relazio"
+   ]
+  },
+  {
+   "url": "https://www.corrieredellosport.it/widget/utility/2018/05/25-43388037/privacy_policy_gdpr_2018",
+   "http": 200,
+   "metin_uzunlugu": 30321,
+   "maddeler": [
+    " Al fine di perseguire il nostro legittimo interesse a creare ed alimentare la comunità degli iscritti al Sito ed incentivare le visite al Sito, ti attribuiamo automaticamente un punteggio ogni volta che effettui una determinata azione sul Sito come utente registrato (quando, ad esempio, visiti una pagina del Sito o guardi un video pubblicato sul Sito) e generiamo e pubbli",
+    "sul Sito, tratteremo i tuoi dati per finalità di marketing (vendita diretta, invio di materiale pubblicitario, compimento di ricerche di mercato, comunicazione commerciale, rilevamento del grado di soddisfazione della clientela). In caso di consenso, ti potremo contattare tramite posta ed e-mail per proporti l’acquisto di prodotti e/o servizi offerti da noi e/o da imp",
+    "tare tramite posta ed e-mail per proporti l’acquisto di prodotti e/o servizi offerti da noi e/o da imprese terze, presentare offerte, promozioni ed opportunità commerciali o proporti di partecipare a questionari, studi, ricerche di mercato o sondaggi sul grado di soddisfazione della clientela. Selezionando la casella di consenso relativa alle finalità di marketing, ac",
+    "r finalità di marketing, anche per contattarti via posta ed e-mail e proporti l’acquisto di prodotti e/o servizi, presentare offerte, promozioni ed opportunità commerciali, nonché invitarti a partecipare a studi, sondaggi e ricerche di mercato. Il tuo consenso alla comunicazione dei tuoi dati personali a tali soggetti terzi è del tutto facoltativo, e, in caso di manca",
+    "on quali modalità saranno trattati i miei dati e per quanto tempo saranno conservati? Il trattamento dei tuoi dati personali sarà effettuato mediante strumenti automatizzati e non automatizzati, con logiche strettamente correlate alla finalità stesse e, comunque, in modo da garantire la sicurezza e la riservatezza dei dati stessi. I dati di navigazione saranno conservati",
+    "ranno trattati i miei dati e per quanto tempo saranno conservati? Il trattamento dei tuoi dati personali sarà effettuato mediante strumenti automatizzati e non automatizzati, con logiche strettamente correlate alla finalità stesse e, comunque, in modo da garantire la sicurezza e la riservatezza dei dati stessi. I dati di navigazione saranno conservati per un periodo mass"
+   ]
+  }
+ ]
+}

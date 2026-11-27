@@ -1,0 +1,637 @@
+{
+ "deg": [
+  {
+   "mac_id": "nesine:3331002",
+   "konu": "hakem",
+   "takim": "iki_takim",
+   "kisi": "tony harrington",
+   "dogrulama": "resmi",
+   "veri_dogrulamasi": [],
+   "ozetler": [
+    "Hakem Tony Harrington; yardımcılar Hopton, Nelson; 4. hakem Tim Robinson (resmî maç paketi)"
+   ],
+   "durumlar": [],
+   "son_durum": null,
+   "zincir_sayisi": 1,
+   "zincirler": {
+    "https://www.southamptonfc.com/en/news/article/match-pack-saints-vs-middlesbrough-nov": [
+     "https://www.southamptonfc.com/en/news/article/match-pack-saints-vs-middlesbrough-nov"
+    ]
+   },
+   "kopya_sayisi": 0,
+   "dislanan": [],
+   "nicel_etki": "hesaplanamaz"
+  },
+  {
+   "mac_id": "nesine:3331002",
+   "konu": "rotasyon",
+   "takim": "ev",
+   "kisi": null,
+   "dogrulama": "resmi",
+   "veri_dogrulamasi": [],
+   "ozetler": [
+    "Eckert Sheffield Utd maçında 6 değişiklik yaptı",
+    "Eckert: kadroya 'bazı dönüşler' olacak; Salı 6 değişiklik yapılmıştı"
+   ],
+   "durumlar": [],
+   "son_durum": null,
+   "zincir_sayisi": 2,
+   "zincirler": {
+    "eckert maç öncesi basın toplantısı (25–26.11)": [
+     "https://gazettelive.co.uk/sport/football/football-news/southamptons-fitness-hope-middlesbrough-tonda-34966073"
+    ],
+    "https://www.southamptonfc.com/en/news/article/match-pack-saints-vs-middlesbrough-nov": [
+     "https://www.southamptonfc.com/en/news/article/match-pack-saints-vs-middlesbrough-nov"
+    ]
+   },
+   "kopya_sayisi": 0,
+   "dislanan": [],
+   "nicel_etki": "hesaplanamaz"
+  },
+  {
+   "mac_id": "nesine:3331002",
+   "konu": "sonuc_form",
+   "takim": "ev",
+   "kisi": "iç saha",
+   "dogrulama": "resmi",
+   "veri_dogrulamasi": [
+    "dogrulandi",
+    "kismen"
+   ],
+   "ozetler": [
+    "Southampton iç sahada 22 attı 5 yedi (veri: 8 maç 7G 1B 0M, 22-5; önizlemedeki '7 maçta 6G 1B' bir maç eski)",
+    "St Mary's'te yenilgisiz, 2,75 puan/maç, 22 gol (veri: 8 maç 7G 1B, 22-5)"
+   ],
+   "durumlar": [],
+   "son_durum": null,
+   "zincir_sayisi": 2,
+   "zincirler": {
+    "thehardtackle.com": [
+     "https://thehardtackle.com/round-up/2026/11/26/southampton-vs-middlesbrough-preview-prediction-probable-lineups-tactics-team-news-key-stats/"
+    ],
+    "https://www.southamptonfc.com/en/news/article/match-pack-saints-vs-middlesbrough-nov": [
+     "https://www.southamptonfc.com/en/news/article/match-pack-saints-vs-middlesbrough-nov"
+    ]
+   },
+   "kopya_sayisi": 0,
+   "dislanan": [],
+   "nicel_etki": "hesaplanamaz"
+  },
+  {
+   "mac_id": "nesine:3331002",
+   "konu": "sonuc_form",
+   "takim": "dep",
+   "kisi": "gol",
+   "dogrulama": "resmi",
+   "veri_dogrulamasi": [],
+   "ozetler": [
+    "Lankshear ligde 14 gol; Larin 9 gol (resmî maç paketi)"
+   ],
+   "durumlar": [],
+   "son_durum": null,
+   "zincir_sayisi": 1,
+   "zincirler": {
+    "https://www.southamptonfc.com/en/news/article/match-pack-saints-vs-middlesbrough-nov": [
+     "https://www.southamptonfc.com/en/news/article/match-pack-saints-vs-middlesbrough-nov"
+    ]
+   },
+   "kopya_sayisi": 0,
+   "dislanan": [],
+   "nicel_etki": "hesaplanamaz"
+  },
+  {
+   "mac_id": "nesine:3331002",
+   "konu": "sakatlik",
+   "takim": "dep",
+   "kisi": "alfie jones",
+   "dogrulama": "iki_bagimsiz",
+   "veri_dogrulamasi": [],
+   "ozetler": [
+    "Hellberg: Alfie Jones 2–3 hafta daha yok",
+    "Baldır sakatlığı: yok olabilir (rakip kulüp yayını)"
+   ],
+   "durumlar": [
+    "suphe",
+    "yok"
+   ],
+   "son_durum": "suphe",
+   "zincir_sayisi": 2,
+   "zincirler": {
+    "hellberg maç öncesi basın toplantısı (26.11)": [
+     "https://www.gazettelive.co.uk/sport/football/football-news/lankshear-alfie-jones-middlesbrough-injury-34971799"
+    ],
+    "https://www.southamptonfc.com/en/news/article/match-pack-saints-vs-middlesbrough-nov": [
+     "https://www.southamptonfc.com/en/news/article/match-pack-saints-vs-middlesbrough-nov"
+    ]
+   },
+   "kopya_sayisi": 0,
+   "dislanan": [],
+   "nicel_etki": "hesaplanamaz"
+  },
+  {
+   "mac_id": "nesine:3331002",
+   "konu": "sakatlik",
+   "takim": "dep",
+   "kisi": "rokas pukstas",
+   "dogrulama": "iki_bagimsiz",
+   "veri_dogrulamasi": [],
+   "ozetler": [
+    "Hellberg: Pukstas ameliyat oldu",
+    "Hamstring sorunu: forma giyemeyebilir (rakip kulüp yayını)"
+   ],
+   "durumlar": [
+    "suphe",
+    "yok"
+   ],
+   "son_durum": "suphe",
+   "zincir_sayisi": 2,
+   "zincirler": {
+    "hellberg maç öncesi basın toplantısı (26.11)": [
+     "https://www.gazettelive.co.uk/sport/football/football-news/lankshear-alfie-jones-middlesbrough-injury-34971799"
+    ],
+    "https://www.southamptonfc.com/en/news/article/match-pack-saints-vs-middlesbrough-nov": [
+     "https://www.southamptonfc.com/en/news/article/match-pack-saints-vs-middlesbrough-nov"
+    ]
+   },
+   "kopya_sayisi": 0,
+   "dislanan": [],
+   "nicel_etki": "hesaplanamaz"
+  },
+  {
+   "mac_id": "nesine:3331002",
+   "konu": "sonuc_form",
+   "takim": "ev",
+   "kisi": null,
+   "dogrulama": "iki_bagimsiz",
+   "veri_dogrulamasi": [
+    "dogrulandi"
+   ],
+   "ozetler": [
+    "Sheffield Utd 1-1 Southampton (24.11), 90. dk eşitlik",
+    "Sheffield Utd 1-1 Southampton (24.11) — maç kaydı"
+   ],
+   "durumlar": [],
+   "son_durum": null,
+   "zincir_sayisi": 2,
+   "zincirler": {
+    "gazettelive.co.uk": [
+     "https://gazettelive.co.uk/sport/football/football-news/southamptons-fitness-hope-middlesbrough-tonda-34966073"
+    ],
+    "football-data.org": [
+     "https://api.football-data.org/v4/competitions/ELC/matches?season=2026"
+    ]
+   },
+   "kopya_sayisi": 0,
+   "dislanan": [],
+   "nicel_etki": "hesaplanamaz"
+  },
+  {
+   "mac_id": "nesine:3331002",
+   "konu": "sonuc_form",
+   "takim": "dep",
+   "kisi": null,
+   "dogrulama": "iki_bagimsiz",
+   "veri_dogrulamasi": [
+    "dogrulandi"
+   ],
+   "ozetler": [
+    "Middlesbrough 2-1 Swansea (24.11), Lankshear galibiyet golü, zirveye döndü",
+    "Middlesbrough 2-1 Swansea (24.11) — maç kaydı"
+   ],
+   "durumlar": [],
+   "son_durum": null,
+   "zincir_sayisi": 2,
+   "zincirler": {
+    "www.skysports.com": [
+     "https://www.skysports.com/football/news/13610533/middlesbrough-2-1-swansea-city-will-lankshear-steers-boro-back-to-the-top-of-the-championship"
+    ],
+    "football-data.org": [
+     "https://api.football-data.org/v4/competitions/ELC/matches?season=2026"
+    ]
+   },
+   "kopya_sayisi": 0,
+   "dislanan": [],
+   "nicel_etki": "hesaplanamaz"
+  },
+  {
+   "mac_id": "nesine:3331002",
+   "konu": "td_aciklama",
+   "takim": "dep",
+   "kisi": "kim hellberg",
+   "dogrulama": "iki_bagimsiz",
+   "veri_dogrulamasi": [],
+   "ozetler": [
+    "Hellberg: Spygate sonrası 'kin yok'",
+    "Hellberg: maç başına 2 puan hedefi; puan tablosu hızla değişebilir"
+   ],
+   "durumlar": [],
+   "son_durum": null,
+   "zincir_sayisi": 2,
+   "zincirler": {
+    "hellberg maç öncesi basın toplantısı (26.11)": [
+     "https://www.gazettelive.co.uk/sport/football/football-news/no-grudges-kim-hellbergs-message-34970539"
+    ],
+    "https://www.southamptonfc.com/en/news/article/match-pack-saints-vs-middlesbrough-nov": [
+     "https://www.southamptonfc.com/en/news/article/match-pack-saints-vs-middlesbrough-nov"
+    ]
+   },
+   "kopya_sayisi": 0,
+   "dislanan": [],
+   "nicel_etki": "hesaplanamaz"
+  },
+  {
+   "mac_id": "nesine:3331002",
+   "konu": "disiplin",
+   "takim": "ev",
+   "kisi": "tonda eckert duruşması",
+   "dogrulama": "celiskili",
+   "veri_dogrulamasi": [
+    "celisiyor"
+   ],
+   "ozetler": [
+    "Arama özeti: 'FA duruşması bu hafta' (FA belgesiyle çelişiyor: duruşma 24.09)"
+   ],
+   "durumlar": [],
+   "son_durum": null,
+   "zincir_sayisi": 1,
+   "zincirler": {
+    "www.newsnow.co.uk": [
+     "https://www.newsnow.co.uk/h/Sport/Football/Championship/Southampton"
+    ]
+   },
+   "kopya_sayisi": 0,
+   "dislanan": [],
+   "nicel_etki": "hesaplanamaz"
+  },
+  {
+   "mac_id": "nesine:3331002",
+   "konu": "sakatlik",
+   "takim": "dep",
+   "kisi": "will lankshear",
+   "dogrulama": "celiskili",
+   "veri_dogrulamasi": [],
+   "ozetler": [
+    "Hellberg: Lankshear tam hazır",
+    "Bir önizlemeye göre Lankshear ilk 11 için şüpheli"
+   ],
+   "durumlar": [
+    "hazir",
+    "suphe"
+   ],
+   "son_durum": "hazir",
+   "zincir_sayisi": 2,
+   "zincirler": {
+    "hellberg maç öncesi basın toplantısı (26.11)": [
+     "https://www.gazettelive.co.uk/sport/football/football-news/lankshear-alfie-jones-middlesbrough-injury-34971799"
+    ],
+    "the72.co.uk": [
+     "https://the72.co.uk/2026/11/26/southampton-vs-middlesbrough-predictions-2/"
+    ]
+   },
+   "kopya_sayisi": 0,
+   "dislanan": [],
+   "nicel_etki": "hesaplanamaz"
+  },
+  {
+   "mac_id": "nesine:3331002",
+   "konu": "sonuc_form",
+   "takim": "dep",
+   "kisi": "21.11 maçı",
+   "dogrulama": "celiskili",
+   "veri_dogrulamasi": [
+    "celisiyor"
+   ],
+   "ozetler": [
+    "Arama özeti: Boro 21.11'de Derby'yi 2-0 yendi (veri: Bristol City'yi 2-0 yendi; Derby maçı Southampton'ın)"
+   ],
+   "durumlar": [],
+   "son_durum": null,
+   "zincir_sayisi": 1,
+   "zincirler": {
+    "www.gazettelive.co.uk": [
+     "https://www.gazettelive.co.uk/sport/football/football-news/middlesbroughs-task-unique-southampton-test-34966970"
+    ]
+   },
+   "kopya_sayisi": 0,
+   "dislanan": [],
+   "nicel_etki": "hesaplanamaz"
+  },
+  {
+   "mac_id": "nesine:3331002",
+   "konu": "ceza",
+   "takim": "dep",
+   "kisi": "marko stamenic",
+   "dogrulama": "dogrulanmadi",
+   "veri_dogrulamasi": [],
+   "ozetler": [
+    "Bir önizlemeye göre Stamenic cezalı (Teesside Live'ın 'bilinen eksikler' listesinde yok)"
+   ],
+   "durumlar": [
+    "cezali"
+   ],
+   "son_durum": "cezali",
+   "zincir_sayisi": 1,
+   "zincirler": {
+    "thehardtackle.com": [
+     "https://thehardtackle.com/round-up/2026/11/26/southampton-vs-middlesbrough-preview-prediction-probable-lineups-tactics-team-news-key-stats/"
+    ]
+   },
+   "kopya_sayisi": 0,
+   "dislanan": [],
+   "nicel_etki": "hesaplanamaz"
+  },
+  {
+   "mac_id": "nesine:3331002",
+   "konu": "donus",
+   "takim": "ev",
+   "kisi": "cyle larin",
+   "dogrulama": "dogrulanmadi",
+   "veri_dogrulamasi": [],
+   "ozetler": [
+    "Geçen hafta gol atarak döndü"
+   ],
+   "durumlar": [
+    "hazir"
+   ],
+   "son_durum": "hazir",
+   "zincir_sayisi": 1,
+   "zincirler": {
+    "eckert maç öncesi basın toplantısı (25–26.11)": [
+     "https://hayters.com/eckert-expecting-additions-for-middlesbrough-clash/"
+    ]
+   },
+   "kopya_sayisi": 0,
+   "dislanan": [],
+   "nicel_etki": "hesaplanamaz"
+  },
+  {
+   "mac_id": "nesine:3331002",
+   "konu": "donus",
+   "takim": "dep",
+   "kisi": "sebastian berhalter",
+   "dogrulama": "dogrulanmadi",
+   "veri_dogrulamasi": [],
+   "ozetler": [
+    "İlk 11'e dönebilir (rakip kulüp yayını)"
+   ],
+   "durumlar": [
+    "hazir"
+   ],
+   "son_durum": "hazir",
+   "zincir_sayisi": 1,
+   "zincirler": {
+    "https://www.southamptonfc.com/en/news/article/match-pack-saints-vs-middlesbrough-nov": [
+     "https://www.southamptonfc.com/en/news/article/match-pack-saints-vs-middlesbrough-nov"
+    ]
+   },
+   "kopya_sayisi": 0,
+   "dislanan": [],
+   "nicel_etki": "hesaplanamaz"
+  },
+  {
+   "mac_id": "nesine:3331002",
+   "konu": "fikstur_yogunlugu",
+   "takim": "iki_takim",
+   "kisi": null,
+   "dogrulama": "dogrulanmadi",
+   "veri_dogrulamasi": [
+    "dogrulandi"
+   ],
+   "ozetler": [
+    "İki takım da 21, 24 ve 27.11'de oynuyor (7 günde 3 maç, ~72 saat dinlenme)"
+   ],
+   "durumlar": [],
+   "son_durum": null,
+   "zincir_sayisi": 1,
+   "zincirler": {
+    "football-data.org": [
+     "https://api.football-data.org/v4/competitions/ELC/matches?season=2026"
+    ]
+   },
+   "kopya_sayisi": 0,
+   "dislanan": [],
+   "nicel_etki": "hesaplanamaz"
+  },
+  {
+   "mac_id": "nesine:3331002",
+   "konu": "motivasyon",
+   "takim": "iki_takim",
+   "kisi": null,
+   "dogrulama": "dogrulanmadi",
+   "veri_dogrulamasi": [],
+   "ozetler": [
+    "Mayıs 2026 play-off yarı finali ve 'Spygate' sonrası ilk karşılaşma; 'Spygate derbisi'"
+   ],
+   "durumlar": [],
+   "son_durum": null,
+   "zincir_sayisi": 1,
+   "zincirler": {
+    "the72.co.uk": [
+     "https://the72.co.uk/2026/11/26/southampton-vs-middlesbrough-predictions-2/"
+    ]
+   },
+   "kopya_sayisi": 0,
+   "dislanan": [],
+   "nicel_etki": "hesaplanamaz"
+  },
+  {
+   "mac_id": "nesine:3331002",
+   "konu": "puan_durumu",
+   "takim": "ev",
+   "kisi": null,
+   "dogrulama": "dogrulanmadi",
+   "veri_dogrulamasi": [],
+   "ozetler": [
+    "Southampton 4 puan silme sonrası 28 puanla 6. (sonuçlardan hesaplanan 32 puan silmeyi içermez)",
+    "Southampton zirvedeki Boro'nun 7 puan gerisinde (35−28; puan silme ile tutarlı)"
+   ],
+   "durumlar": [],
+   "son_durum": null,
+   "zincir_sayisi": 2,
+   "zincirler": {
+    "www.sportsmole.co.uk": [
+     "https://www.sportsmole.co.uk/football/southampton/preview/southampton-vs-middlesbrough-prediction-team-news-lineups_609807.html"
+    ],
+    "uk.sports.yahoo.com": [
+     "https://uk.sports.yahoo.com/news/tonda-eckert-reveals-kim-hellberg-101054476.html"
+    ]
+   },
+   "kopya_sayisi": 0,
+   "dislanan": [],
+   "nicel_etki": "hesaplanamaz"
+  },
+  {
+   "mac_id": "nesine:3331002",
+   "konu": "sakatlik",
+   "takim": "ev",
+   "kisi": "caspar jander",
+   "dogrulama": "dogrulanmadi",
+   "veri_dogrulamasi": [],
+   "ozetler": [
+    "Kas sakatlığı, son 5 maçı kaçırdı; Eckert 'iyi şans var' dedi",
+    "Jander için dönüş umudu (Yahoo, Hayters kopyası)",
+    "Southampton'a çift sakatlık dönüşü umudu"
+   ],
+   "durumlar": [
+    "suphe"
+   ],
+   "son_durum": "suphe",
+   "zincir_sayisi": 1,
+   "zincirler": {
+    "eckert maç öncesi basın toplantısı (25–26.11)": [
+     "https://hayters.com/eckert-expecting-additions-for-middlesbrough-clash/",
+     "https://sports.yahoo.com/soccer/articles/eckert-expecting-additions-middlesbrough-clash-165300415.html",
+     "https://footballlowdown.com/southampton-given-hope-of-double-injury-boost-before-crunch-encounter/"
+    ]
+   },
+   "kopya_sayisi": 2,
+   "dislanan": [],
+   "nicel_etki": "hesaplanamaz"
+  },
+  {
+   "mac_id": "nesine:3331002",
+   "konu": "sakatlik",
+   "takim": "ev",
+   "kisi": "leo scienza",
+   "dogrulama": "dogrulanmadi",
+   "veri_dogrulamasi": [],
+   "ozetler": [
+    "Fitness sorunu; Eckert 'iyi şans var' dedi"
+   ],
+   "durumlar": [
+    "suphe"
+   ],
+   "son_durum": "suphe",
+   "zincir_sayisi": 1,
+   "zincirler": {
+    "eckert maç öncesi basın toplantısı (25–26.11)": [
+     "https://hayters.com/eckert-expecting-additions-for-middlesbrough-clash/"
+    ]
+   },
+   "kopya_sayisi": 0,
+   "dislanan": [],
+   "nicel_etki": "hesaplanamaz"
+  },
+  {
+   "mac_id": "nesine:3331002",
+   "konu": "sakatlik",
+   "takim": "ev",
+   "kisi": "schlotterbeck",
+   "dogrulama": "dogrulanmadi",
+   "veri_dogrulamasi": [],
+   "ozetler": [
+    "Bir önizlemeye göre Schlotterbeck yok (kaynak adı özetten belirsiz)"
+   ],
+   "durumlar": [
+    "yok"
+   ],
+   "son_durum": "yok",
+   "zincir_sayisi": 1,
+   "zincirler": {
+    "www.sportsmole.co.uk": [
+     "https://www.sportsmole.co.uk/football/southampton/preview/southampton-vs-middlesbrough-prediction-team-news-lineups_609807.html"
+    ]
+   },
+   "kopya_sayisi": 0,
+   "dislanan": [],
+   "nicel_etki": "hesaplanamaz"
+  },
+  {
+   "mac_id": "nesine:3331002",
+   "konu": "sakatlik",
+   "takim": "dep",
+   "kisi": "connor barron",
+   "dogrulama": "dogrulanmadi",
+   "veri_dogrulamasi": [],
+   "ozetler": [
+    "Hellberg: Barron hâlâ yok"
+   ],
+   "durumlar": [
+    "yok"
+   ],
+   "son_durum": "yok",
+   "zincir_sayisi": 1,
+   "zincirler": {
+    "hellberg maç öncesi basın toplantısı (26.11)": [
+     "https://www.gazettelive.co.uk/sport/football/football-news/lankshear-alfie-jones-middlesbrough-injury-34971799"
+    ]
+   },
+   "kopya_sayisi": 0,
+   "dislanan": [],
+   "nicel_etki": "hesaplanamaz"
+  },
+  {
+   "mac_id": "nesine:3331002",
+   "konu": "sakatlik",
+   "takim": "dep",
+   "kisi": "neto borges",
+   "dogrulama": "dogrulanmadi",
+   "veri_dogrulamasi": [],
+   "ozetler": [
+    "Ayak bileği sorununa rağmen Swansea maçında 90 dk oynadı; forma adayı"
+   ],
+   "durumlar": [
+    "hazir"
+   ],
+   "son_durum": "hazir",
+   "zincir_sayisi": 1,
+   "zincirler": {
+    "https://www.southamptonfc.com/en/news/article/match-pack-saints-vs-middlesbrough-nov": [
+     "https://www.southamptonfc.com/en/news/article/match-pack-saints-vs-middlesbrough-nov"
+    ]
+   },
+   "kopya_sayisi": 0,
+   "dislanan": [],
+   "nicel_etki": "hesaplanamaz"
+  },
+  {
+   "mac_id": "nesine:3331002",
+   "konu": "sonuc_form",
+   "takim": "dep",
+   "kisi": "deplasman",
+   "dogrulama": "dogrulanmadi",
+   "veri_dogrulamasi": [
+    "dogrulandi"
+   ],
+   "ozetler": [
+    "Boro deplasmanda 8 maçta 3 beraberlik (veri: 3G 3B 2M, 13-10)"
+   ],
+   "durumlar": [],
+   "son_durum": null,
+   "zincir_sayisi": 1,
+   "zincirler": {
+    "www.sportsmole.co.uk": [
+     "https://www.sportsmole.co.uk/football/southampton/preview/southampton-vs-middlesbrough-prediction-team-news-lineups_609807.html"
+    ]
+   },
+   "kopya_sayisi": 0,
+   "dislanan": [],
+   "nicel_etki": "hesaplanamaz"
+  },
+  {
+   "mac_id": "nesine:3331002",
+   "konu": "disiplin",
+   "takim": "ev",
+   "kisi": "tonda eckert",
+   "dogrulama": "mac_oncesi_kanit_yok",
+   "veri_dogrulamasi": [],
+   "ozetler": [],
+   "durumlar": [],
+   "son_durum": null,
+   "zincir_sayisi": 0,
+   "zincirler": {},
+   "kopya_sayisi": 0,
+   "dislanan": [
+    {
+     "url": "https://www.thefa.com/-/media/files/thefaportal/governance-docs/discipline-cases/2026-27/the-fa-v-tonda-eckert.ashx",
+     "neden": "tarih_yok"
+    },
+    {
+     "url": "https://www.itv.com/news/meridian/2026-10-07/southampton-boss-eckert-handed-suspended-six-week-ban-over-spygate-scandal",
+     "neden": "tarih_yok"
+    }
+   ],
+   "nicel_etki": "hesaplanamaz"
+  }
+ ]
+}

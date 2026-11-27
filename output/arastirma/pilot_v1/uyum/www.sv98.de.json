@@ -1,0 +1,25 @@
+{
+ "host": "www.sv98.de",
+ "kontrol_utc": "2026-11-25T17:21:59+00:00",
+ "robots_http": 200,
+ "robots_tum_site_yasak": false,
+ "robots_ai_ozel_satirlar": [],
+ "ana_http": 200,
+ "ana_son_url": "https://www.sv98.de/",
+ "baslik": "SV Darmstadt 1898 e.V. – Wir Lilien.",
+ "bot_engeli_isareti": false,
+ "metin_uzunlugu": 7785,
+ "kosul_adaylari": [
+  "https://www.sv98.de/impressum/"
+ ],
+ "kosul_sayfalari": [
+  {
+   "url": "https://www.sv98.de/impressum/",
+   "http": 200,
+   "metin_uzunlugu": 2931,
+   "maddeler": [
+    "ne vorherige Ankündigung zu löschen. Alle Rechte vorbehalten. Ohne ausdrückliche Genehmigung des Herausgebers ist es nicht gestattet, Inhalte dieser Website zu vervielfältigen oder zu verbreiten. Der Herausgeber übernimmt keine Gewähr für die Funktionsfähigkeit dieser Website und durch technische Störungen auftretende Schäden. Haupt- und Trikotpartner Ausrüster Premium-Par"
+   ]
+  }
+ ]
+}

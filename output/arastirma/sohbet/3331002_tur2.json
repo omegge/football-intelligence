@@ -1,0 +1,50 @@
+{
+ "kod": 3331002,
+ "iddialar": [
+  {
+   "konu": "diger",
+   "takim": "iki_takim",
+   "kisi": null,
+   "durum": null,
+   "ozet": "Mayıs 2026 play-off yarı finali ilk maçı Middlesbrough 0-0 Southampton (kulüp sitesi maç sonrası haberi; eşleşme geçmişi, bugünkü kadro için doğrudan kanıt değil)",
+   "url": "https://www.southamptonfc.com/en/news/article/eckert-well-have-amazing-support",
+   "kaynak_sinifi": "resmi_kulup",
+   "erisim_yolu": "arama_ozeti",
+   "yayin_utc": "2026-05",
+   "ilgili_mac_dogrulandi": false
+  },
+  {
+   "konu": "sakatlik",
+   "takim": "ev",
+   "kisi": "Stephens, Roerslev",
+   "durum": "yok",
+   "ozet": "Play-off rövanşı öncesi (Mayıs 2026) Stephens ve Roerslev sakattı; Kasım 2026 durumu bu kaynaktan bilinmiyor",
+   "url": "https://www.southamptonfc.com/en/news/article/eckert-positive-on-availability",
+   "kaynak_sinifi": "resmi_kulup",
+   "erisim_yolu": "arama_ozeti",
+   "yayin_utc": "2026-05",
+   "ilgili_mac_dogrulandi": false
+  }
+ ],
+ "gorusler": [],
+ "aramalar": [
+  {
+   "sorgu": "Southampton Middlesbrough team news Eckert press conference",
+   "tur": "T-24s",
+   "arac": "web arama",
+   "sonuc": "yalnızca Mayıs 2026 play-off haberleri; güncel kadro haberi yok"
+  },
+  {
+   "sorgu": "Middlesbrough Hellberg Southampton injury update Lankshear",
+   "tur": "T-24s",
+   "arac": "web arama",
+   "sonuc": "eski sakatlık haberleri; Lankshear ve bu maç yok"
+  },
+  {
+   "sorgu": "Southampton vs Middlesbrough prediction Championship Friday",
+   "tur": "T-24s",
+   "arac": "web arama",
+   "sonuc": "eski önizlemeler (2024, play-off 2026); bu maçın yeni önizlemesi yok"
+  }
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "uyari": "Yalnızca pilot_v1'de gerçekten araştırılmış 16 maç (8 sürpriz, 8 eşleştirilmiş kontrol). 30+30 setin kalan 44 maçında haber araştırması YAPILMADI; bu maçlar için oran uydurulmaz. Geriye dönük seçim, sonuç bilinerek araştırma → ileriye dönük başarı kanıtı değildir.",
+ "turler": {
+  "diger": {
+   "surpriz_mac(TP)": 1,
+   "kontrol_mac(yanlis_alarm)": 2,
+   "isabet": 0.33,
+   "yakalama(S=8)": 0.12,
+   "yanlis_alarm_orani(K=8)": 0.25
+  },
+  "favori_eksik_veya_ceza": {
+   "surpriz_mac(TP)": 5,
+   "kontrol_mac(yanlis_alarm)": 1,
+   "isabet": 0.83,
+   "yakalama(S=8)": 0.62,
+   "yanlis_alarm_orani(K=8)": 0.12
+  },
+  "favori_oyuncu_donusu": {
+   "surpriz_mac(TP)": 0,
+   "kontrol_mac(yanlis_alarm)": 1,
+   "isabet": 0.0,
+   "yakalama(S=8)": 0.0,
+   "yanlis_alarm_orani(K=8)": 0.12
+  },
+  "rakip_eksik_veya_ceza": {
+   "surpriz_mac(TP)": 2,
+   "kontrol_mac(yanlis_alarm)": 1,
+   "isabet": 0.67,
+   "yakalama(S=8)": 0.25,
+   "yanlis_alarm_orani(K=8)": 0.12
+  },
+  "rakip_td_degisimi": {
+   "surpriz_mac(TP)": 1,
+   "kontrol_mac(yanlis_alarm)": 0,
+   "isabet": 1.0,
+   "yakalama(S=8)": 0.12,
+   "yanlis_alarm_orani(K=8)": 0.0
+  }
+ }
+}
