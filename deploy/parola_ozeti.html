@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'">
+<title>Parola özeti</title>
+<style>
+:root{--bg:#f6f7f9;--kart:#fff;--yazi:#1d2330;--soluk:#5d6678;--cizgi:#dde1e8;--vurgu:#1f5fbf}
+@media (prefers-color-scheme:dark){:root{--bg:#14171c;--kart:#1c2027;--yazi:#e6e9ef;--soluk:#9aa3b2;--cizgi:#2e3440;--vurgu:#7aa7f0}}
+body{margin:0;font:16px/1.5 system-ui,-apple-system,sans-serif;background:var(--bg);color:var(--yazi)}
+main{max-width:520px;margin:0 auto;padding:16px}
+.kart{background:var(--kart);border:1px solid var(--cizgi);border-radius:8px;padding:16px}
+input,button,textarea{font:inherit;width:100%;box-sizing:border-box;padding:10px;margin:6px 0 12px;border:1px solid var(--cizgi);border-radius:6px;background:var(--kart);color:var(--yazi)}
+button{border-color:var(--vurgu);color:var(--vurgu);cursor:pointer}
+textarea{height:110px;font-family:ui-monospace,monospace;font-size:13px}
+.not{font-size:14px;color:var(--soluk)}
+</style>
+</head>
+<body><main><div class="kart">
+<h1>Football Intelligence — parola özeti</h1>
+<p class="not">Bu sayfa internete bağlanmaz; hesap bu cihazda yapılır. Parolanız hiçbir yere gönderilmez ve
+saklanmaz. Çıkan özeti Render panelinde <b>FI_PAROLA_OZETI</b> alanına yapıştırın. Parolanın kendisini hiçbir yere yazmayın.</p>
+<label>Parola (en az 12 karakter)<input id="p1" type="password" autocomplete="new-password"></label>
+<label>Parola (yeniden)<input id="p2" type="password" autocomplete="new-password"></label>
+<button id="uret">Özeti üret</button>
+<p id="durum" class="not"></p>
+<textarea id="sonuc" readonly placeholder="pbkdf2_sha256$310000$…"></textarea>
+<button id="kopyala">Kopyala</button>
+</div></main>
+<script>
+const b64 = (buf) => btoa(String.fromCharCode(...new Uint8Array(buf)));
+async function ozet(parola, tur = 310000, tuz = crypto.getRandomValues(new Uint8Array(16))) {
+  const anahtar = await crypto.subtle.importKey('raw', new TextEncoder().encode(parola), 'PBKDF2', false, ['deriveBits']);
+  const bitler = await crypto.subtle.deriveBits({ name: 'PBKDF2', hash: 'SHA-256', salt: tuz, iterations: tur }, anahtar, 256);
+  return `pbkdf2_sha256$${tur}$${b64(tuz)}$${b64(bitler)}`;
+}
+if (typeof window !== 'undefined' && document.getElementById('uret')) {
+  document.getElementById('uret').onclick = async () => {
+    const p1 = document.getElementById('p1').value, p2 = document.getElementById('p2').value;
+    const d = document.getElementById('durum');
+    if (p1.length < 12) { d.textContent = 'Parola en az 12 karakter olmalı.'; return; }
+    if (p1 !== p2) { d.textContent = 'Parolalar uyuşmuyor.'; return; }
+    d.textContent = 'Hesaplanıyor…';
+    document.getElementById('sonuc').value = await ozet(p1);
+    document.getElementById('p1').value = document.getElementById('p2').value = '';
+    d.textContent = 'Hazır. Özeti kopyalayıp Render paneline yapıştırın.';
+  };
+  document.getElementById('kopyala').onclick = async () => {
+    const t = document.getElementById('sonuc');
+    try { await navigator.clipboard.writeText(t.value); } catch (e) { t.select(); document.execCommand('copy'); }
+    document.getElementById('durum').textContent = 'Kopyalandı.';
+  };
+}
+</script>
+</body></html>

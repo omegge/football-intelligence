@@ -1,0 +1,36 @@
+# Football Intelligence V1 — Render Blueprint (https://render.com/docs/blueprint-spec)
+# Gizli değerler BURAYA YAZILMAZ: "sync: false" olanlar Render panelinde girilir; FI_OTURUM_ANAHTARI Render üretir.
+#
+# DEPOLAMA (seçim gerekli — docs/BULUT_DAGITIMI.md):
+#   plan: free    → ücretsiz; dosya sistemi GEÇİCİ (yeniden başlatma/uyku/dağıtımda veriler silinir), 15 dk sonra uyur.
+#   plan: starter → ücretli; aşağıdaki "disk" bloğunun yorumunu kaldırın ve FI_OUTPUT/FI_KALICI_DEPOLAMA satırlarını açın.
+services:
+  - type: web
+    name: football-intelligence
+    runtime: python
+    plan: free
+    region: frankfurt
+    branch: feature/football-intelligence-v1
+    autoDeployTrigger: checksPass        # yalnızca GitHub testleri geçince otomatik dağıt
+    buildCommand: bash deploy/kur.sh
+    startCommand: PYTHONPATH=lib python3 -m uygulama --port $PORT
+    healthCheckPath: /saglik
+    # disk:
+    #   name: fi-veri
+    #   mountPath: /var/data
+    #   sizeGB: 1
+    envVars:
+      - key: FI_ORTAM
+        value: bulut
+      - key: FI_KULLANICI
+        sync: false
+      - key: FI_PAROLA_OZETI              # python3 -m uygulama parola-ozeti çıktısı; düz parola değil
+        sync: false
+      - key: FI_OTURUM_ANAHTARI
+        generateValue: true
+      - key: FD_TOKEN                     # football-data.org ücretsiz anahtarı
+        sync: false
+      # - key: FI_OUTPUT
+      #   value: /var/data/output
+      # - key: FI_KALICI_DEPOLAMA
+      #   value: "1"

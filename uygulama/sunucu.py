@@ -10,13 +10,18 @@ from __future__ import annotations
 import argparse
 import html
 import json
+import os
+import threading
 import re
+import time
 import traceback
 from datetime import datetime
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
-from urllib.parse import parse_qs, urlparse
+from urllib.parse import parse_qs, quote, urlparse
 
+from . import guvenlik as G
 from . import islemler as IS
+from . import yedek as Y
 from . import veri as V
 from fi import is_akisi as I
 
@@ -41,22 +46,35 @@ nav.ic a{margin-right:12px;font-size:14px}
 .md table{margin:6px 0 10px}.md pre{white-space:pre-wrap}
 form.satir{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:0}
 select,button,input{font:inherit;padding:4px 8px;border:1px solid var(--cizgi);border-radius:6px;background:var(--kart);color:var(--yazi)}
-button{cursor:pointer;border-color:var(--vurgu);color:var(--vurgu)}
+button{cursor:pointer;border-color:var(--vurgu);color:var(--vurgu);min-height:36px}
+@media (max-width:600px){main{padding:10px}.kart{padding:12px}header{gap:10px;padding:8px 12px}table{font-size:13px}h1{font-size:19px}}
+.giris{max-width:360px;margin:40px auto}.giris input{width:100%;margin:4px 0 10px;padding:8px}
 .tasma{overflow-x:auto}
 """
 
 
+_IST = threading.local()          # istek başına: CSRF jetonu, giriş yapılmış mı
+
+
 def sayfa(baslik: str, govde: str) -> str:
+    girisli = getattr(_IST, "kullanici", None)
+    ust = ("<a href='/'>Günün maçları</a><a href='/arsiv'>Tahmin arşivi</a><a href='/arastirma/surpriz'>Sürpriz araştırması</a>"
+           "<a href='/yonetim'>Yedek ve depolama</a>" if girisli or not G.bulut_mu() else "")
+    cikis = dugme("/cikis", "Çıkış") if girisli and G.bulut_mu() else ""
+    uyari = ""
+    if G.bulut_mu() and girisli and os.environ.get("FI_KALICI_DEPOLAMA") != "1":
+        uyari = ("<div class='kart kotu'><b>Geçici depolama:</b> Bu sunucunun diski kalıcı değil. Yeniden başlatma, "
+                 "uyku ya da yeni dağıtımda dondurulmuş tahminler ve kayıtlar silinir. <a href='/yonetim'>Yedeği indirin</a>.</div>")
     return (f"<!doctype html><html lang='tr'><head><meta charset='utf-8'><meta name='viewport' "
-            f"content='width=device-width,initial-scale=1'><title>{E(baslik)} · Football Intelligence</title>"
-            f"<style>{CSS}</style></head><body><header><b>Football Intelligence V1</b>"
-            "<a href='/'>Günün maçları</a><a href='/arsiv'>Tahmin arşivi</a>"
-            "<a href='/arastirma/surpriz'>Sürpriz araştırması</a>"
-            f"<span class='not'>TR saati: {V.simdi_tr():%d.%m.%Y %H:%M}</span></header><main>{govde}</main></body></html>")
+            f"content='width=device-width,initial-scale=1'><meta name='apple-mobile-web-app-capable' content='yes'>"
+            f"<title>{E(baslik)} · Football Intelligence</title>"
+            f"<style>{CSS}</style></head><body><header><b>Football Intelligence V1</b>{ust}"
+            f"<span class='not'>TR saati: {V.simdi_tr():%d.%m.%Y %H:%M}</span>{cikis}</header><main>{uyari}{govde}</main></body></html>")
 
 
 def dugme(yol: str, etiket: str, aciklama: str = "", gizli: dict | None = None) -> str:
-    alan = "".join(f"<input type='hidden' name='{E(k)}' value='{E(v)}'>" for k, v in (gizli or {}).items())
+    gizli = {**(gizli or {}), **({"csrf": _IST.csrf} if getattr(_IST, "csrf", None) else {})}
+    alan = "".join(f"<input type='hidden' name='{E(k)}' value='{E(v)}'>" for k, v in gizli.items())
     return (f"<form method='post' action='{E(yol)}' class='satir' style='display:inline-flex'>{alan}"
             f"<button>{E(etiket)}</button><span class='not'>{E(aciklama)}</span></form>")
 
@@ -484,95 +502,304 @@ def hata_sayfasi(e: Exception, geri: str) -> str:
     import socket
     from urllib.error import URLError
     if isinstance(e, (URLError, socket.timeout, ConnectionError, TimeoutError)):
-        ozet = "Ağ bağlantısı kurulamadı ya da yanıt gelmedi. İnternet bağlantınızı kontrol edip yeniden deneyin."
+        ozet = "Ağ bağlantısı kurulamadı ya da yanıt gelmedi. Biraz sonra yeniden deneyin."
     elif isinstance(e, FileNotFoundError):
-        ozet = f"Gerekli bir dosya bulunamadı: {getattr(e, 'filename', '') or e}."
+        ozet = "Gerekli bir dosya bulunamadı."
     elif isinstance(e, (ValueError, KeyError)):
         ozet = f"Veri beklenen biçimde değil: {e}"
     else:
-        ozet = f"Beklenmeyen hata: {type(e).__name__}: {e}"
+        ozet = f"Beklenmeyen hata: {type(e).__name__}"
+    ayrinti = "" if G.bulut_mu() else (f"<details><summary>Teknik ayrıntı</summary><pre>{E(traceback.format_exc())}</pre>"
+                                        "</details>")
+    if G.bulut_mu():
+        print(f"HATA {type(e).__name__}: {e}", flush=True)       # ayrıntı yalnızca sunucu günlüğüne
     return sayfa("Hata", f"<div class='kart kotu'><h2>İşlem tamamlanamadı</h2><p>{E(ozet)}</p>"
                          "<p>Hiçbir donmuş tahmin ya da önceki çıktı değiştirilmedi.</p>"
-                         f"<p><a href='{E(geri)}'>Geri dön</a></p><details><summary>Teknik ayrıntı</summary>"
-                         f"<pre>{E(traceback.format_exc())}</pre></details></div>")
+                         f"<p><a href='{E(geri)}'>Geri dön</a></p>{ayrinti}</div>")
+
+
+def giris_sayfasi(hata: str = "", sonraki: str = "/") -> str:
+    return sayfa("Giriş", f"<div class='kart giris'><h1>Giriş</h1>{f'<p class=kotu>{E(hata)}</p>' if hata else ''}"
+                          "<form method='post' action='/giris'>"
+                          f"<input type='hidden' name='sonraki' value='{E(sonraki)}'>"
+                          "<label>Kullanıcı adı<input name='kullanici' autocomplete='username' autocapitalize='none' required></label>"
+                          "<label>Parola<input name='parola' type='password' autocomplete='current-password' required></label>"
+                          "<button>Giriş yap</button></form></div>")
+
+
+def yonetim_sayfasi() -> str:
+    d = Y.depolama_durumu()
+    kalici = rozet("kalıcı disk", "iyi") if d["kalici"] else rozet("GEÇİCİ: yeniden başlatmada silinir", "kotu")
+    return sayfa("Yedek ve depolama", (
+        "<h1>Yedek ve depolama</h1><div class='kart'>"
+        f"<p>Depolama: {kalici} · {E(d['kok'])} · boş {d['bos_mb']} MB / {d['toplam_mb']} MB · "
+        f"{d['donmus_tahmin']} donmuş tahmin · {d['bulten']} bülten</p>"
+        "<p><a href='/yonetim/yedek.tar.gz'><button type='button'>Yedeği indir (tar.gz)</button></a> "
+        "<span class='not'>Tahminler, arşiv, haber araştırmaları, raporlar, güncel veri anlık görüntüleri ve bültenlerin "
+        "oransız/oranlı JSON kayıtları; ham yanıt ve Excel hariç. SHA-256 manifestli.</span></p></div>"
+        "<div class='kart'><h2>Yedekten geri yükle</h2><p class='not'>Var olan dosyaların üzerine yazılmaz; çakışmalar "
+        "raporlanır. Manifestle uyuşmayan yedek reddedilir. Donmuş tahminler SHA-256 ile denetlenir.</p>"
+        f"<input type='file' id='yedek' accept='.tar.gz,.tgz,application/gzip'> "
+        f"<button type='button' id='yukle' data-csrf='{E(getattr(_IST, 'csrf', '') or '')}'>Yükle</button>"
+        "<pre id='sonuc' class='not'></pre><script src='/statik/yukle.js'></script></div>"))
+
+
+YUKLE_JS = """document.getElementById('yukle').addEventListener('click', async (e) => {
+  const f = document.getElementById('yedek').files[0], s = document.getElementById('sonuc');
+  if (!f) { s.textContent = 'Önce bir yedek dosyası seçin.'; return; }
+  s.textContent = 'Yükleniyor…';
+  try {
+    const r = await fetch('/yonetim/ice-aktar', {method: 'POST', body: f, credentials: 'same-origin',
+      headers: {'Content-Type': 'application/gzip', 'X-CSRF': e.target.dataset.csrf}});
+    s.textContent = (r.ok ? '' : 'Hata ' + r.status + ': ') + await r.text();
+  } catch (err) { s.textContent = 'Bağlantı hatası: ' + err; }
+});"""
 
 
 # ------------------------------------------------------------------------------------------------ HTTP
-class Isleyici(BaseHTTPRequestHandler):
-    server_version = "FootballIntelligenceV1"
+AYAR: dict = {}
+EN_FAZLA_FORM = 16 * 1024
 
-    def _gonder(self, kod: int, govde: str):
-        b = govde.encode("utf-8")
+
+class Isleyici(BaseHTTPRequestHandler):
+    server_version = "FootballIntelligence"
+    sys_version = ""
+    timeout = 60
+    protocol_version = "HTTP/1.1"
+
+    # -------------------------------------------------------------- yanıt
+    def _gonder(self, kod: int, govde, tur: str = "text/html; charset=utf-8", ek: dict | None = None):
+        b = govde.encode("utf-8") if isinstance(govde, str) else govde
+        if self.command == "POST" and not getattr(self, "_govde_okundu", False):
+            self.close_connection = True           # okunmamış gövde sonraki istek sanılmasın
         self.send_response(kod)
-        self.send_header("Content-Type", "text/html; charset=utf-8")
+        self.send_header("Content-Type", tur)
         self.send_header("Content-Length", str(len(b)))
-        self.send_header("Cache-Control", "no-store")
+        for k, v in {**G.guvenlik_basliklari(G.bulut_mu()), **(ek or {})}.items():
+            self.send_header(k, v)
         self.end_headers()
         self.wfile.write(b)
 
+    def _yonlendir(self, yer: str, ek: dict | None = None, kod: int = 303):
+        self._gonder(kod, "", "text/plain; charset=utf-8", {"Location": yer, **(ek or {})})
+
+    def _uyari(self, kod: int, baslik: str, metin: str, geri: str = "/"):
+        self._gonder(kod, sayfa(baslik, f"<div class='kart uyari'><h2>{E(baslik)}</h2><p>{E(metin)}</p>"
+                                        f"<p><a href='{E(geri)}'>Geri dön</a></p></div>"))
+
+    # -------------------------------------------------------------- ortak denetimler
+    def _host(self) -> str:
+        return (self.headers.get("Host") or "").split(":")[0].lower()
+
+    def _izinli_hostlar(self) -> list[str]:
+        return AYAR.get("hostlar") if G.bulut_mu() else ["127.0.0.1", "localhost"]
+
+    def _on_denetim(self) -> bool:
+        """Host, HTTPS ve oturum. False dönerse yanıt verilmiştir."""
+        _IST.kullanici, _IST.csrf, _IST.oturum = None, None, None
+        if self._host() not in self._izinli_hostlar():
+            self._gonder(421, "Bu ana makine adı için hizmet verilmiyor.", "text/plain; charset=utf-8")
+            return False
+        if G.bulut_mu() and (self.headers.get("X-Forwarded-Proto") or "https") != "https":
+            self._yonlendir(f"https://{self._host()}{self.path}", kod=301)
+            return False
+        if not G.bulut_mu():
+            return True
+        oturum = G.cerez_oku(self.headers.get("Cookie"))
+        k = G.oturum_dogrula(AYAR["anahtar"], oturum)
+        if k and hmac_esit(k, AYAR["kullanici"]):
+            _IST.kullanici, _IST.oturum, _IST.csrf = k, oturum, G.csrf_jetonu(AYAR["anahtar"], oturum)
+        return True
+
+    def _giris_gerekli(self) -> bool:
+        if G.bulut_mu() and not _IST.kullanici:
+            if self.command == "GET":
+                self._yonlendir("/giris?sonraki=" + quote(self.path, safe=""))
+            else:
+                self._uyari(401, "Oturum gerekli", "Oturumunuz yok ya da süresi doldu. Yeniden giriş yapın.", "/giris")
+            return True
+        return False
+
+    def _koken_dogru(self) -> bool:
+        koken = self.headers.get("Origin") or self.headers.get("Referer")
+        if koken == "null":
+            return False
+        return not koken or (urlparse(koken).hostname or "").lower() in self._izinli_hostlar()
+
+    def _govde(self, sinir: int) -> bytes:
+        n = int(self.headers.get("Content-Length") or 0)
+        if n > sinir:
+            raise BuyukIstek()
+        veri = self.rfile.read(n) if n else b""
+        self._govde_okundu = True
+        return veri
+
+    def _ip(self) -> str:
+        return G.istemci_ip(self.headers.get("X-Forwarded-For"), self.client_address[0])
+
+    # -------------------------------------------------------------- GET
+    def do_HEAD(self):
+        self.do_GET()
+
     def do_GET(self):
         u = urlparse(self.path)
+        if u.path == "/saglik":
+            return self._gonder(200, '{"durum":"ok"}', "application/json")
+        if not self._on_denetim():
+            return
         try:
+            if u.path == "/giris":
+                if _IST.kullanici or not G.bulut_mu():
+                    return self._yonlendir("/")
+                return self._gonder(200, giris_sayfasi(sonraki=_guvenli_sonraki(parse_qs(u.query).get("sonraki", ["/"])[0])))
+            if u.path == "/statik/yukle.js":
+                return self._gonder(200, YUKLE_JS, "application/javascript; charset=utf-8")
+            if self._giris_gerekli():
+                return
             if u.path == "/":
                 return self._gonder(200, ana_sayfa(parse_qs(u.query)))
-            m = re.fullmatch(r"/mac/(\d+)", u.path)
+            m = re.fullmatch(r"/mac/(\d{1,12})", u.path)
             if m:
                 return self._gonder(200, mac_sayfasi(int(m.group(1))))
             if u.path == "/arsiv":
                 return self._gonder(200, arsiv_sayfasi())
             if u.path == "/arastirma/surpriz":
                 return self._gonder(200, surpriz_sayfasi())
+            if u.path == "/yonetim":
+                return self._gonder(200, yonetim_sayfasi())
+            if u.path == "/yonetim/yedek.tar.gz":
+                veri, ad = Y.yedek_olustur()
+                return self._gonder(200, veri, "application/gzip", {"Content-Disposition": f"attachment; filename={ad}"})
             return self._gonder(404, sayfa("Bulunamadı", "<div class='kart uyari'><h2>Sayfa bulunamadı</h2><p>Bu adreste "
                                            "bir sayfa yok. <a href='/'>Günün maçlarına dön</a>.</p></div>"))
         except Exception as e:
             return self._gonder(500, hata_sayfasi(e, "/"))
 
+    # -------------------------------------------------------------- POST
     def do_POST(self):
+        self._govde_okundu = False
         u = urlparse(self.path)
-        yerel = (self.headers.get("Host") or "").split(":")[0] in ("127.0.0.1", "localhost")
-        koken = self.headers.get("Origin")
-        if not yerel or (koken and urlparse(koken).hostname not in ("127.0.0.1", "localhost")):
-            return self._gonder(403, sayfa("Yasak", "<div class='kart kotu'>İşlemler yalnızca yerel arayüzden yapılır.</div>"))
+        if not self._on_denetim():
+            return
+        if not self._koken_dogru():
+            return self._uyari(403, "Yasak", "İstek bu uygulamanın sayfalarından gelmedi.")
         geri = "/"
         try:
-            uzunluk = int(self.headers.get("Content-Length") or 0)
-            form = parse_qs(self.rfile.read(uzunluk).decode("utf-8")) if uzunluk else {}
+            if u.path == "/giris":
+                return self._giris(parse_qs(self._govde(EN_FAZLA_FORM).decode("utf-8")))
+            if self._giris_gerekli():
+                return
+            if u.path == "/yonetim/ice-aktar":
+                if G.bulut_mu() and not G.csrf_dogru(AYAR["anahtar"], _IST.oturum, self.headers.get("X-CSRF")):
+                    return self._gonder(403, "CSRF jetonu geçersiz.", "text/plain; charset=utf-8")
+                self._sinir("ice_aktar")
+                r = Y.ice_aktar(self._govde(Y.EN_FAZLA_BAYT))
+                return self._gonder(200, Y.json_ozet(r), "text/plain; charset=utf-8")
+            form = parse_qs(self._govde(EN_FAZLA_FORM).decode("utf-8"))
+            if G.bulut_mu() and not G.csrf_dogru(AYAR["anahtar"], _IST.oturum, (form.get("csrf") or [None])[0]):
+                return self._uyari(403, "Güvenlik denetimi", "Form jetonu geçersiz. Sayfayı yenileyip yeniden deneyin.")
+            if u.path == "/cikis":
+                return self._yonlendir("/giris", {"Set-Cookie": G.cerez_yaz("", G.bulut_mu(), sil=True)})
             if u.path == "/islem/bulten":
                 gun = (form.get("gun") or [None])[0]
                 if gun and not re.fullmatch(r"\d{4}-\d{2}-\d{2}", gun):
                     raise IS.IslemHatasi("geçersiz gün")
+                self._sinir("bulten")
                 r = IS.bulten_cek(gun)
                 geri = f"/?bulten={r['klasor']}&gun={r['gun']}"
             elif u.path == "/islem/guncel":
+                self._sinir("guncel")
                 r = IS.guncel_veri_cek()
-            elif m := re.fullmatch(r"/islem/dondur/(\d+)", u.path):
-                r, geri = IS.dondur_mac(int(m.group(1))), f"/mac/{m.group(1)}"
-            elif m := re.fullmatch(r"/islem/fiyat/(\d+)", u.path):
-                r, geri = IS.fiyat_karsilastir_mac(int(m.group(1))), f"/mac/{m.group(1)}#fiyat"
+            elif m := re.fullmatch(r"/islem/dondur/(\d{1,12})", u.path):
+                geri = f"/mac/{m.group(1)}"
+                self._sinir("dondur")
+                r = IS.dondur_mac(int(m.group(1)))
+            elif m := re.fullmatch(r"/islem/fiyat/(\d{1,12})", u.path):
+                geri = f"/mac/{m.group(1)}#fiyat"
+                self._sinir("fiyat")
+                r = IS.fiyat_karsilastir_mac(int(m.group(1)))
             else:
-                return self._gonder(404, sayfa("Bulunamadı", "<div class='kart'>İşlem yok.</div>"))
+                return self._gonder(404, sayfa("Bulunamadı", "<div class='kart uyari'><h2>İşlem yok</h2></div>"))
             if r.get("islem") == "dondurma" and not r.get("donduruldu"):
                 govde = (f"<h1>Dondurulmadı</h1><div class='kart uyari'><h2>Bağımsız tahmin hesaplanamaz</h2><ul>"
                          + "".join(f"<li>{E(n)}</li>" for n in r.get("nedenler") or [])
                          + "</ul><p>Hazırlık kapısı geçilmediği için olasılık üretilmedi ve hiçbir kayıt oluşturulmadı.</p>"
                          f"<p><a href='{E(geri)}'>Geri dön</a></p></div>")
                 return self._gonder(200, sayfa("Dondurulmadı", govde))
-            govde = (f"<h1>İşlem tamamlandı</h1><div class='kart'><pre>{E(json.dumps(r, ensure_ascii=False, indent=1))}</pre>"
+            gorunen = {k: v for k, v in r.items() if k not in ("yol", "cikti")} if G.bulut_mu() else r
+            govde = (f"<h1>İşlem tamamlandı</h1><div class='kart'><pre>{E(json.dumps(gorunen, ensure_ascii=False, indent=1))}</pre>"
                      f"<p><a href='{E(geri)}'>Geri dön</a></p></div>")
             return self._gonder(200, sayfa("İşlem", govde))
+        except SinirAsildi as e:
+            return self._uyari(429, "Çok sık istek", f"Bu işlem için sınır doldu; {e.sn} saniye sonra yeniden deneyin. "
+                               "(Dış kaynaklara aşırı yük bindirmemek için.)", geri)
+        except BuyukIstek:
+            return self._uyari(413, "İstek çok büyük", "Gönderilen veri izin verilen boyutu aşıyor.", geri)
         except IS.IslemHatasi as e:
-            return self._gonder(409, sayfa("İşlem yapılmadı", f"<div class='kart uyari'><h2>İşlem yapılmadı</h2><p>{E(str(e))}</p>"
-                                           f"<p><a href='{E(geri)}'>Geri dön</a></p></div>"))
+            return self._uyari(409, "İşlem yapılmadı", str(e), geri)
+        except Y.YedekHatasi as e:
+            return self._gonder(409, f"Yedek reddedildi: {e}", "text/plain; charset=utf-8")
         except Exception as e:
             return self._gonder(500, hata_sayfasi(e, geri))
 
+    def _sinir(self, ad: str):
+        ok, sn = G.ISLEM_SINIRLARI[ad].izin(ad)
+        if not ok:
+            raise SinirAsildi(sn)
+
+    def _giris(self, form: dict):
+        if not G.bulut_mu():
+            return self._yonlendir("/")
+        ip = self._ip()
+        for s in (G.GIRIS_IP, G.GIRIS_GENEL):
+            ok, sn = s.izin(ip if s is G.GIRIS_IP else "genel")
+            if not ok:
+                return self._gonder(429, giris_sayfasi(f"Çok fazla deneme. {sn // 60 + 1} dakika sonra yeniden deneyin."))
+        k = (form.get("kullanici") or [""])[0]
+        p = (form.get("parola") or [""])[0]
+        sonraki = _guvenli_sonraki((form.get("sonraki") or ["/"])[0])
+        if hmac_esit(k, AYAR["kullanici"]) and G.parola_dogru(p, AYAR["parola_ozeti"]):
+            oturum = G.oturum_olustur(AYAR["anahtar"], k)
+            return self._yonlendir(sonraki, {"Set-Cookie": G.cerez_yaz(oturum, True)})
+        time.sleep(1.0)
+        return self._gonder(401, giris_sayfasi("Kullanıcı adı ya da parola yanlış.", sonraki))
+
     def log_message(self, fmt, *args):
-        pass
+        if G.bulut_mu():           # yol ve durum kodu; çerez, form ve IP günlüğe yazılmaz
+            print(f"{self.command} {urlparse(self.path).path} {args[1] if len(args) > 1 else ''}", flush=True)
+
+
+class SinirAsildi(Exception):
+    def __init__(self, sn: int):
+        super().__init__(sn)
+        self.sn = sn
+
+
+class BuyukIstek(Exception):
+    pass
+
+
+def hmac_esit(a: str, b: str) -> bool:
+    import hmac as _h
+    return _h.compare_digest(a.encode(), b.encode())
+
+
+def _guvenli_sonraki(yol: str) -> str:
+    """Açık yönlendirmeyi önler: yalnızca site içi mutlak yol."""
+    return yol if yol.startswith("/") and not yol.startswith("//") and "\\" not in yol else "/"
 
 
 def calistir(port: int = 8765, adres: str = "127.0.0.1") -> None:
+    AYAR.clear()
+    AYAR.update(G.ayarlar())               # bulut kipinde eksik ayar → AyarHatasi, sunucu açılmaz
+    if G.bulut_mu() and adres == "127.0.0.1":
+        adres = "0.0.0.0"
+    if not G.bulut_mu() and adres not in ("127.0.0.1", "localhost"):
+        raise G.AyarHatasi("girişsiz yerel kip yalnızca 127.0.0.1'e bağlanabilir; internete açmak için FI_ORTAM=bulut")
     sunucu = ThreadingHTTPServer((adres, port), Isleyici)
-    print(f"Football Intelligence V1: http://{adres}:{port}  (durdurmak için Ctrl+C)")
+    sunucu.daemon_threads = True
+    kip = "bulut (giriş zorunlu)" if G.bulut_mu() else "yerel"
+    print(f"Football Intelligence V1 [{kip}]: http://{adres}:{port}", flush=True)
     try:
         sunucu.serve_forever()
     except KeyboardInterrupt:
@@ -580,7 +807,22 @@ def calistir(port: int = 8765, adres: str = "127.0.0.1") -> None:
 
 
 def main(argv=None) -> int:
-    a = argparse.ArgumentParser(description="Football Intelligence V1 yerel arayüzü")
-    a.add_argument("--port", type=int, default=8765)
-    calistir(a.parse_args(argv).port)
+    a = argparse.ArgumentParser(description="Football Intelligence V1 arayüzü")
+    a.add_argument("komut", nargs="?", choices=["sunucu", "parola-ozeti"], default="sunucu")
+    a.add_argument("--port", type=int, default=int(os.environ.get("PORT", 8765)))
+    a.add_argument("--host", default="127.0.0.1")
+    x = a.parse_args(argv)
+    if x.komut == "parola-ozeti":
+        import getpass
+        p1 = getpass.getpass("Yeni parola (en az 12 karakter): ")
+        if p1 != getpass.getpass("Yeniden: "):
+            print("Parolalar uyuşmuyor.")
+            return 1
+        print(G.parola_ozeti(p1))
+        return 0
+    try:
+        calistir(x.port, x.host)
+    except G.AyarHatasi as e:
+        print(f"Sunucu başlatılmadı: {e}", flush=True)
+        return 2
     return 0
