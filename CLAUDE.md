@@ -73,6 +73,9 @@ Kullanıcı bir araştırma görevi verdiğinde süreç baştan sona Claude tara
 - Başka sitelerin olasılıkları yalnızca karşılaştırmalı kaynak görüşüdür; bağımsız modelimiz gibi sunulmaz.
 - Rapor kalite ölçütleri: kaynak türü sayısı; ilk bakışta görünmeyen bulgular; karşıt kanıtla değişen hipotezler; keşfedilen yeni maç/market; nihai gerekçeler; doğrulanamayanlar.
 
+## Değişiklik raporlama (ChatGPT ile ortak değerlendirme, 27.11)
+Temel sürüm: ChatGPT'ye verilen aktarım ZIP'i (27.11; kod `f40ec55` ile aynı). Her kod/Skill/CLAUDE.md güncellemesinde kısaca bildir: değişen dosyalar ve yolları, önceki → yeni commit kimliği, gerekçe, yeni araştırma hafızası kayıtları. Kullanıcı isterse yalnızca değişen dosyalardan küçük ZIP hazırla. Kod değişmediyse paket hazırlama; günlük rapor ve kaynaklar yeterli.
+
 ## Değişmez kurallar
 1. Bot korumasını ya da erişim engelini aşma; tarayıcı taklidi, Playwright/Selenium, çerez kullanma. Engel varsa dur ve raporla.
 2. Otomatik alt ajan runner'ı başlatma (`opencode`, `codex`, `claude -p`). Footy-Skills protokolü (uzmanlar, konsey, karar verici) aynı oturumda Claude tarafından adım adım uygulanır (`.claude/skills/mac-analizi/`).
