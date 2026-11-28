@@ -1,0 +1,318 @@
+{
+ "tur": "donmus_tahmin",
+ "mac_id": "nesine:3332528",
+ "karsilasma": "Blackburn R. - Charlton",
+ "lig": "İngiltere Championship",
+ "baslama_tr": "2026-11-28T15:30:00+03:00",
+ "dondurma_utc": "2026-11-28T01:02:15+00:00",
+ "veri_kesimi": "2026-11-27",
+ "model_surumu": {
+  "is_akisi": "is-akisi-0.1",
+  "git_commit": "613ba07d3528d5ab34635924db9874cce6c61a40"
+ },
+ "tahmin": {
+  "durum": "hesaplandi",
+  "hazirlik": [
+   {
+    "kriter": "lig_eslemesi_onayli",
+    "gecti": true,
+    "kanit": "İngiltere Championship → en.2"
+   },
+   {
+    "kriter": "model_bu_ligde_degerlendirildi",
+    "gecti": true,
+    "kanit": "E2_aday değerlendirme ligleri: ['at.1', 'be.1', 'en.2', 'gr.1', 'sco.1', 'tr.1']"
+   },
+   {
+    "kriter": "lig_verisi_var",
+    "gecti": true,
+    "kanit": "7406 maç"
+   },
+   {
+    "kriter": "veri_guncel",
+    "gecti": true,
+    "kanit": "son skorlu maç 2026-11-27, boşluk 1 gün (sınır 14)"
+   },
+   {
+    "kriter": "takim_eslemesi_ev",
+    "gecti": true,
+    "kanit": "'Blackburn R.' → onayli Blackburn Rovers FC"
+   },
+   {
+    "kriter": "takim_eslemesi_dep",
+    "gecti": true,
+    "kanit": "'Charlton' → onayli Charlton Athletic FC"
+   },
+   {
+    "kriter": "test_edilmis_ve_kalibre_market_var",
+    "gecti": true,
+    "kanit": "26 market: ['MS_X', 'CS_12', 'KG_var', 'KG_yok', 'H-1_X', 'AU4.5_alt', 'AU4.5_ust', 'ev0.5_alt', 'ev0.5_ust', 'ev2.5_alt', 'ev2.5_ust', 'MS1_KG_var', 'MSX_AU2.5_alt', 'MSX_AU2.5_ust', 'MSX_KG_var', 'MS2_AU2.5_alt', 'MS2_KG_var', 'MS2_KG_yok', 'skor_1_0', 'skor_0_1', 'skor_1_1', 'skor_2_0', 'skor_0_2', 'skor_2_1', 'skor_1_2', 'skor_2_2']"
+   },
+   {
+    "kriter": "veri_kesimi_kaydedildi",
+    "gecti": true,
+    "kanit": "2026-11-27"
+   },
+   {
+    "kriter": "oranlardan_once_dondurulacak",
+    "gecti": true,
+    "kanit": "olasılık yalnızca dondur() ile kaydedilir; fiyat karşılaştırması fiyat_karsilastir()'ta dondurmadan sonra (oran bu fonksiyona girmez: oransiz_mi)"
+   }
+  ],
+  "kapsam_sha256": "a702432d8f3a5211746e3d2ea958100df14afa9b0483f8b95febf040123c8ed4",
+  "model_adi": "E2_aday",
+  "veri_kesimi": "2026-11-27",
+  "veri_boslugu_gun": 1,
+  "veri_kaynaklari": [
+   "football-data.org",
+   "openfootball"
+  ],
+  "ev_esleme": {
+   "durum": "onayli",
+   "kaynak_adi": "Blackburn Rovers FC",
+   "alternatifler": []
+  },
+  "dep_esleme": {
+   "durum": "onayli",
+   "kaynak_adi": "Charlton Athletic FC",
+   "alternatifler": []
+  },
+  "lig_ortalamasi_365": 2.708407871198569,
+  "model": "E2 seçilen aday M3 {'ceza': 16.0, 'w': 0.65, 'b': 0.0} (ON_KAYIT_E2)",
+  "lambda_ev": 1.4418066951789716,
+  "lambda_dep": 1.0024597915873497,
+  "egitim_mac_sayisi": 7406,
+  "olasiliklar": {
+   "MS_X": 0.2655351450523844,
+   "CS_12": 0.7344648549476157,
+   "KG_var": 0.4833139784302981,
+   "KG_yok": 0.516686021569702,
+   "H-1_X": 0.2401727784749894,
+   "AU4.5_alt": 0.8984989133560013,
+   "AU4.5_ust": 0.10150108664399886,
+   "ev0.5_alt": 0.23650017791155423,
+   "ev0.5_ust": 0.7634998220884458,
+   "ev2.5_alt": 0.8233067768528917,
+   "ev2.5_ust": 0.17669322314710834,
+   "MS1_KG_var": 0.19187993069910222,
+   "MSX_AU2.5_alt": 0.2122317346160004,
+   "MSX_AU2.5_ust": 0.053303410436384036,
+   "MSX_KG_var": 0.17874533848478755,
+   "MS2_AU2.5_alt": 0.1306119420876226,
+   "MS2_KG_var": 0.11268870924640832,
+   "MS2_KG_yok": 0.14971037134395732,
+   "skor_1_0": 0.1251341241824491,
+   "skor_0_1": 0.0870032914036596,
+   "skor_1_1": 0.12544192804840348,
+   "skor_2_0": 0.09020960902080598,
+   "skor_0_2": 0.04360865068396302,
+   "skor_2_1": 0.09043150585817349,
+   "skor_1_2": 0.06287524452385893,
+   "skor_2_2": 0.04532697425775738
+  },
+  "hesaplanamaz_pazarlar": {
+   "MS_1": [
+    "kalibre"
+   ],
+   "MS_2": [
+    "kalibre"
+   ],
+   "CS_1X": [
+    "kalibre"
+   ],
+   "CS_X2": [
+    "kalibre"
+   ],
+   "tek": [
+    "bilgi_tasiyor"
+   ],
+   "cift": [
+    "bilgi_tasiyor"
+   ],
+   "aralik_0_1": [
+    "kalibre"
+   ],
+   "aralik_2_3": [
+    "bilgi_tasiyor",
+    "kalibre"
+   ],
+   "aralik_4_5": [
+    "kalibre"
+   ],
+   "aralik_6p": [
+    "bilgi_tasiyor"
+   ],
+   "H-1_1": [
+    "kalibre"
+   ],
+   "H-1_2": [
+    "kalibre"
+   ],
+   "AU0.5_alt": [
+    "bilgi_tasiyor"
+   ],
+   "AU0.5_ust": [
+    "bilgi_tasiyor"
+   ],
+   "AU1.5_alt": [
+    "kalibre"
+   ],
+   "AU1.5_ust": [
+    "kalibre"
+   ],
+   "AU2.5_alt": [
+    "kalibre"
+   ],
+   "AU2.5_ust": [
+    "kalibre"
+   ],
+   "AU3.5_alt": [
+    "kalibre"
+   ],
+   "AU3.5_ust": [
+    "kalibre"
+   ],
+   "dep0.5_alt": [
+    "kalibre"
+   ],
+   "dep0.5_ust": [
+    "kalibre"
+   ],
+   "ev1.5_alt": [
+    "kalibre"
+   ],
+   "ev1.5_ust": [
+    "kalibre"
+   ],
+   "dep1.5_alt": [
+    "kalibre"
+   ],
+   "dep1.5_ust": [
+    "kalibre"
+   ],
+   "dep2.5_alt": [
+    "kalibre"
+   ],
+   "dep2.5_ust": [
+    "kalibre"
+   ],
+   "MS1_AU2.5_alt": [
+    "kalibre"
+   ],
+   "MS1_AU2.5_ust": [
+    "kalibre"
+   ],
+   "MS1_KG_yok": [
+    "kalibre"
+   ],
+   "MSX_KG_yok": [
+    "bilgi_tasiyor"
+   ],
+   "MS2_AU2.5_ust": [
+    "kalibre"
+   ],
+   "skor_0_0": [
+    "bilgi_tasiyor"
+   ]
+  },
+  "kalibrasyon_notu": "E aşamasında çoğu markette ECE 0,01–0,03; kutularda ≤0,05 sapma koşulu birçok markette sağlanmadı. 'Yüksek güven' verilmez.",
+  "skor_matrisi": [
+   [
+    0.0867898066,
+    0.0870032914,
+    0.0436086507,
+    0.014571973,
+    0.0036519542,
+    0.0007321875,
+    0.0001223314,
+    1.75189e-05
+   ],
+   [
+    0.1251341242,
+    0.125441928,
+    0.0628752445,
+    0.0210099682,
+    0.0052654121,
+    0.0010556728,
+    0.0001763783,
+    2.52589e-05
+   ],
+   [
+    0.090209609,
+    0.0904315059,
+    0.0453269743,
+    0.0151461564,
+    0.0037958532,
+    0.000761038,
+    0.0001271517,
+    1.82092e-05
+   ],
+   [
+    0.0433549394,
+    0.0434615835,
+    0.021784245,
+    0.0072792766,
+    0.0018242955,
+    0.0003657566,
+    6.11094e-05,
+    8.7514e-06
+   ],
+   [
+    0.0156273605,
+    0.0156658005,
+    0.0078521676,
+    0.0026238274,
+    0.0006575704,
+    0.0001318376,
+    2.2027e-05,
+    3.1545e-06
+   ],
+   [
+    0.0045063266,
+    0.0045174112,
+    0.0022642616,
+    0.0007566104,
+    0.0001896179,
+    3.80169e-05,
+    6.3517e-06,
+    9.096e-07
+   ],
+   [
+    0.0010828753,
+    0.001085539,
+    0.0005441046,
+    0.0001818143,
+    4.55654e-05,
+    9.1355e-06,
+    1.5263e-06,
+    2.186e-07
+   ],
+   [
+    0.0002230424,
+    0.000223591,
+    0.0001120705,
+    3.74487e-05,
+    9.3852e-06,
+    1.8817e-06,
+    3.144e-07,
+    4.5e-08
+   ]
+  ],
+  "veri_kaynagi_raporu": {
+   "son_tarih": "2026-11-27",
+   "ayni": 95,
+   "eklenen": 110,
+   "fd_sha256": "2c0cf2d3b5938c496b1ad1ab133c70afe23830eaf6136f8ef0d0287eff8c84ca",
+   "fd_erisim_utc": "2026-11-28T01:02:13+00:00",
+   "atif": "Football data provided by the Football-Data.org API"
+  },
+  "mac_kimligi_dogrulama": {
+   "nesine": "nesine:3332528",
+   "fd_mac_id": 561969,
+   "utc": "2026-11-28T12:30:00+00:00",
+   "durum": "SCHEDULED",
+   "anlik_goruntu": "20261128T002559Z"
+  }
+ },
+ "sha256": "98c2dd8b1a439d6b7307be34467318ed67acfb458877bf453d67cc990f2db93f"
+}

@@ -1,0 +1,67 @@
+{
+ "arama_gunlugu": [
+  {
+   "sonuc": "2 iddia",
+   "sorgu": "yerel dil önizleme/kadro",
+   "tur": "T-24s",
+   "utc": "2026-11-28T01:09:17+00:00"
+  }
+ ],
+ "gorusler": [],
+ "iddialar": [
+  {
+   "arastirma_utc": "2026-11-28T01:09:17+00:00",
+   "durum": "yok",
+   "erisim_yolu": "arama_ozeti",
+   "host": "www.malagacf.com",
+   "ilgili_mac_dogrulandi": true,
+   "ilk_kaynak": null,
+   "katman": "E",
+   "kaynak_sinifi": "resmi_kulup",
+   "kisi": "Rafita",
+   "konu": "sakatlik",
+   "mac_id": "nesine:3337343",
+   "nicel_etki": "hesaplanamaz",
+   "notlar": "",
+   "ozet": "Málaga: Rafita, Ochoa ve Lobete son antrenmanda yok",
+   "takim": "ev",
+   "tur": "T-24s",
+   "url": "https://www.malagacf.com/en/matches/season-2026-2027-laliga-ea-sports-14-malaga-cf-vs-athletic-club-3056",
+   "veri_dogrulamasi": null,
+   "yayin_utc": null,
+   "yayinci_grubu": null,
+   "zincir": "www.malagacf.com"
+  },
+  {
+   "arastirma_utc": "2026-11-28T01:09:17+00:00",
+   "durum": "yok",
+   "erisim_yolu": "arama_ozeti",
+   "host": "www.malagacf.com",
+   "ilgili_mac_dogrulandi": true,
+   "ilk_kaynak": null,
+   "katman": "E",
+   "kaynak_sinifi": "bilinmeyen",
+   "kisi": "Gorka Guruzeta",
+   "konu": "sakatlik",
+   "mac_id": "nesine:3337343",
+   "nicel_etki": "hesaplanamaz",
+   "notlar": "",
+   "ozet": "Athletic: Vivian, Sannadi ve Guruzeta yok; Berenguer gruba döndü (özet)",
+   "takim": "dep",
+   "tur": "T-24s",
+   "url": "https://www.malagacf.com/en/matches/season-2026-2027-laliga-ea-sports-14-malaga-cf-vs-athletic-club-3056",
+   "veri_dogrulamasi": null,
+   "yayin_utc": null,
+   "yayinci_grubu": null,
+   "zincir": "www.malagacf.com"
+  }
+ ],
+ "kayit_utc": "2026-11-28T01:09:17+00:00",
+ "mac": {
+  "baslama_tr": "2026-11-28T18:15:00+03:00",
+  "baslama_utc": "2026-11-28T15:15:00+00:00",
+  "karsilasma": "Malaga - Ath Bilbao",
+  "lig": "İspanya La Liga",
+  "mac_id": "nesine:3337343"
+ }
+}

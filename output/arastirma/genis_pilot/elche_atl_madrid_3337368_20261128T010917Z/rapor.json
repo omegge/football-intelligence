@@ -1,0 +1,400 @@
+{
+ "mac": {
+  "mac_id": "nesine:3337368",
+  "karsilasma": "Elche - Atl Madrid",
+  "lig": "İspanya La Liga",
+  "baslama_utc": "2026-11-28T17:30:00+00:00",
+  "baslama_tr": "2026-11-28T20:30:00+03:00"
+ },
+ "1_dogrulanmis_son_dakika": [],
+ "2_dogrulanamayan_veya_celiskili": [
+  {
+   "mac_id": "nesine:3337368",
+   "konu": "sakatlik",
+   "takim": "dep",
+   "kisi": "cuti romero",
+   "dogrulama": "dogrulanmadi",
+   "veri_dogrulamasi": [],
+   "ozetler": [
+    "Cuti Romero Elche maçında neredeyse kesin yok"
+   ],
+   "durumlar": [
+    "yok"
+   ],
+   "son_durum": "yok",
+   "zincir_sayisi": 1,
+   "zincirler": {
+    "www.eldesmarque.com": [
+     "https://www.eldesmarque.com/futbol/liga-1a-division/20261126/novedades-lesion-cuti-romero-fecha-vuelta-confirmada-atletico-madrid_18_020819937.html"
+    ]
+   },
+   "kopya_sayisi": 0,
+   "dislanan": [],
+   "nicel_etki": "hesaplanamaz"
+  }
+ ],
+ "3_basin_gorusleri": [
+  {
+   "kaynak": "https://www.eldesmarque.com/futbol/liga-1a-division/20261126/novedades-lesion-cuti-romero-fecha-vuelta-confirmada-atletico-madrid_18_020819937.html",
+   "sinif": "yerel_basin",
+   "ozet": "Cuti Romero Elche maçında neredeyse kesin yok",
+   "yayin": "2026-11-26"
+  }
+ ],
+ "4_analist_senaryolari": {
+  "yonler": {},
+  "gorusler": [],
+  "gorus_ayriligi": false,
+  "not": "Dış görüşler ve yüzdeleri KARANTİNADA; model girdisi değildir."
+ },
+ "5_bagimsiz_model": {
+  "tur": "donmus_tahmin",
+  "mac_id": "nesine:3337368",
+  "karsilasma": "Elche - Atl Madrid",
+  "lig": "İspanya La Liga",
+  "baslama_tr": "2026-11-28T20:30:00+03:00",
+  "dondurma_utc": "2026-11-28T01:02:50+00:00",
+  "veri_kesimi": "2026-11-27",
+  "model_surumu": {
+   "is_akisi": "is-akisi-0.1",
+   "git_commit": "613ba07d3528d5ab34635924db9874cce6c61a40"
+  },
+  "tahmin": {
+   "durum": "hesaplandi",
+   "hazirlik": [
+    {
+     "kriter": "lig_eslemesi_onayli",
+     "gecti": true,
+     "kanit": "İspanya La Liga → es.1"
+    },
+    {
+     "kriter": "model_bu_ligde_degerlendirildi",
+     "gecti": true,
+     "kanit": "E3 değerlendirme ligleri: ['de.1', 'en.1', 'en.3', 'en.4', 'es.1', 'fr.2', 'it.1', 'it.2']"
+    },
+    {
+     "kriter": "lig_verisi_var",
+     "gecti": true,
+     "kanit": "5450 maç"
+    },
+    {
+     "kriter": "veri_guncel",
+     "gecti": true,
+     "kanit": "son skorlu maç 2026-11-27, boşluk 1 gün (sınır 14)"
+    },
+    {
+     "kriter": "takim_eslemesi_ev",
+     "gecti": true,
+     "kanit": "'Elche' → kesin Elche CF"
+    },
+    {
+     "kriter": "takim_eslemesi_dep",
+     "gecti": true,
+     "kanit": "'Atl Madrid' → onayli Club Atlético de Madrid"
+    },
+    {
+     "kriter": "test_edilmis_ve_kalibre_market_var",
+     "gecti": true,
+     "kanit": "38 market: ['MS_1', 'MS_2', 'CS_1X', 'CS_X2', 'aralik_4_5', 'aralik_6p', 'H-1_1', 'H-1_X', 'H-1_2', 'AU0.5_alt', 'AU0.5_ust', 'AU2.5_alt', 'AU2.5_ust', 'AU4.5_alt', 'AU4.5_ust', 'ev0.5_alt', 'ev0.5_ust', 'dep1.5_alt', 'dep1.5_ust', 'ev2.5_alt', 'ev2.5_ust', 'dep2.5_alt', 'dep2.5_ust', 'MS1_AU2.5_alt', 'MS1_KG_var', 'MSX_AU2.5_alt', 'MSX_KG_yok', 'MS2_AU2.5_alt', 'MS2_AU2.5_ust', 'MS2_KG_var', 'skor_0_0', 'skor_1_0', 'skor_0_1', 'skor_1_1', 'skor_2_0', 'skor_0_2', 'skor_2_1', 'skor_1_2']"
+    },
+    {
+     "kriter": "veri_kesimi_kaydedildi",
+     "gecti": true,
+     "kanit": "2026-11-27"
+    },
+    {
+     "kriter": "oranlardan_once_dondurulacak",
+     "gecti": true,
+     "kanit": "olasılık yalnızca dondur() ile kaydedilir; fiyat karşılaştırması fiyat_karsilastir()'ta dondurmadan sonra (oran bu fonksiyona girmez: oransiz_mi)"
+    }
+   ],
+   "kapsam_sha256": "a702432d8f3a5211746e3d2ea958100df14afa9b0483f8b95febf040123c8ed4",
+   "model_adi": "E3",
+   "veri_kesimi": "2026-11-27",
+   "veri_boslugu_gun": 1,
+   "veri_kaynaklari": [
+    "football-data.org",
+    "openfootball"
+   ],
+   "ev_esleme": {
+    "durum": "kesin",
+    "kaynak_adi": "Elche CF",
+    "alternatifler": []
+   },
+   "dep_esleme": {
+    "durum": "onayli",
+    "kaynak_adi": "Club Atlético de Madrid",
+    "alternatifler": []
+   },
+   "lig_ortalamasi_365": 2.7973684210526315,
+   "e3_duzeltmesi": {
+    "gamma": 1.45,
+    "delta": -0.05,
+    "pencere_mac": 692,
+    "pencere_bas": "2024-11-29",
+    "pencere_son": "2026-09-20"
+   },
+   "model": "E3 E2+A: E2 (ceza 16, w 0,65, b 0) + zaman sıralı güç farkı ölçeği γ ve ev kayması δ (aynı ligin önceki 730 günü; ON_KAYIT_E3)",
+   "lambda_ev": 1.0667228730949945,
+   "lambda_dep": 1.6708798438313954,
+   "egitim_mac_sayisi": 5450,
+   "olasiliklar": {
+    "MS_1": 0.24224114657352872,
+    "MS_2": 0.5148642287834475,
+    "CS_1X": 0.48513577121655255,
+    "CS_X2": 0.7577588534264713,
+    "aralik_4_5": 0.2344130584883433,
+    "aralik_6p": 0.059800385239881786,
+    "H-1_1": 0.09041584984330459,
+    "H-1_X": 0.15182529673022419,
+    "H-1_2": 0.7577588534264713,
+    "AU0.5_alt": 0.06472542744690224,
+    "AU0.5_ust": 0.9352745725530978,
+    "AU2.5_alt": 0.48445927644704245,
+    "AU2.5_ust": 0.5155407235529574,
+    "AU4.5_alt": 0.8572630969163038,
+    "AU4.5_ust": 0.14273690308369635,
+    "ev0.5_alt": 0.3441344503758803,
+    "ev0.5_ust": 0.6558655496241197,
+    "dep1.5_alt": 0.502343893098995,
+    "dep1.5_ust": 0.497656106901005,
+    "ev2.5_alt": 0.9070254377309922,
+    "ev2.5_ust": 0.0929745622690078,
+    "dep2.5_alt": 0.7648909902150223,
+    "dep2.5_ust": 0.2351090097849777,
+    "MS1_AU2.5_alt": 0.10586955105126557,
+    "MS1_KG_var": 0.11888477234028533,
+    "MSX_AU2.5_alt": 0.18008981232756965,
+    "MSX_KG_yok": 0.06472542744690224,
+    "MS2_AU2.5_alt": 0.19849991306820722,
+    "MS2_AU2.5_ust": 0.3163643157152402,
+    "MS2_KG_var": 0.23545520585446944,
+    "skor_0_0": 0.06472542744690224,
+    "skor_1_0": 0.06904409392846118,
+    "skor_0_1": 0.10814841210440032,
+    "skor_1_1": 0.11536438488066741,
+    "skor_2_0": 0.036825457122804384,
+    "skor_0_2": 0.0903515009638069,
+    "skor_2_1": 0.061530914046371135,
+    "skor_1_2": 0.09638001269655726
+   },
+   "hesaplanamaz_pazarlar": {
+    "MS_X": [
+     "kalibre"
+    ],
+    "CS_12": [
+     "kalibre"
+    ],
+    "KG_var": [
+     "bilgi_tasiyor",
+     "kalibre"
+    ],
+    "KG_yok": [
+     "bilgi_tasiyor",
+     "kalibre"
+    ],
+    "tek": [
+     "bilgi_tasiyor"
+    ],
+    "cift": [
+     "bilgi_tasiyor"
+    ],
+    "aralik_0_1": [
+     "kalibre"
+    ],
+    "aralik_2_3": [
+     "bilgi_tasiyor"
+    ],
+    "AU1.5_alt": [
+     "kalibre"
+    ],
+    "AU1.5_ust": [
+     "kalibre"
+    ],
+    "AU3.5_alt": [
+     "kalibre"
+    ],
+    "AU3.5_ust": [
+     "kalibre"
+    ],
+    "dep0.5_alt": [
+     "kalibre"
+    ],
+    "dep0.5_ust": [
+     "kalibre"
+    ],
+    "ev1.5_alt": [
+     "kalibre"
+    ],
+    "ev1.5_ust": [
+     "kalibre"
+    ],
+    "MS1_AU2.5_ust": [
+     "kalibre"
+    ],
+    "MS1_KG_yok": [
+     "kalibre"
+    ],
+    "MSX_AU2.5_ust": [
+     "bilgi_tasiyor"
+    ],
+    "MSX_KG_var": [
+     "bilgi_tasiyor",
+     "kalibre"
+    ],
+    "MS2_KG_yok": [
+     "kalibre"
+    ],
+    "skor_2_2": [
+     "bilgi_tasiyor"
+    ]
+   },
+   "kalibrasyon_notu": "E aşamasında çoğu markette ECE 0,01–0,03; kutularda ≤0,05 sapma koşulu birçok markette sağlanmadı. 'Yüksek güven' verilmez.",
+   "skor_matrisi": [
+    [
+     0.0647254274,
+     0.1081484121,
+     0.090351501,
+     0.0503221673,
+     0.0210205737,
+     0.0070245706,
+     0.0019562022,
+     0.0004669398
+    ],
+    [
+     0.0690440939,
+     0.1153643849,
+     0.0963800127,
+     0.0536798069,
+     0.0224231268,
+     0.0074932701,
+     0.0020867257,
+     0.0004980954
+    ],
+    [
+     0.0368254571,
+     0.061530914,
+     0.051405382,
+     0.0286307389,
+     0.0119596311,
+     0.0039966213,
+     0.001112979,
+     0.0002656649
+    ],
+    [
+     0.0130941858,
+     0.0218788111,
+     0.0182784323,
+     0.0101803547,
+     0.0042525374,
+     0.0014210958,
+     0.0003957467,
+     9.44636e-05
+    ],
+    [
+     0.0034919669,
+     0.0058346571,
+     0.0048745054,
+     0.0027149043,
+     0.0011340697,
+     0.0003789788,
+     0.000105538,
+     2.51916e-05
+    ],
+    [
+     0.0007449922,
+     0.0012447924,
+     0.0010399493,
+     0.0005792101,
+     0.0002419476,
+     8.08531e-05,
+     2.2516e-05,
+     5.3745e-06
+    ],
+    [
+     0.00013245,
+     0.0002213081,
+     0.0001848896,
+     0.0001029761,
+     4.30152e-05,
+     1.43746e-05,
+     4.003e-06,
+     9.555e-07
+    ],
+    [
+     2.01839e-05,
+     3.37249e-05,
+     2.81751e-05,
+     1.56924e-05,
+     6.555e-06,
+     2.1905e-06,
+     6.1e-07,
+     1.456e-07
+    ]
+   ],
+   "veri_kaynagi_raporu": {
+    "son_tarih": "2026-11-27",
+    "ayni": 69,
+    "eklenen": 61,
+    "fd_sha256": "86b5096c57665b6834f190b5354460868157b23cb210fefc0e8ea50bc59ce42a",
+    "fd_erisim_utc": "2026-11-28T01:02:17+00:00",
+    "atif": "Football data provided by the Football-Data.org API"
+   },
+   "mac_kimligi_dogrulama": {
+    "nesine": "nesine:3337368",
+    "fd_mac_id": 564759,
+    "utc": "2026-11-28T17:30:00+00:00",
+    "durum": "TIMED",
+    "anlik_goruntu": "20261128T002559Z"
+   }
+  },
+  "sha256": "19be3aef7d3f55565da97cc8bebc0eae3d81cf6ecf8a0ef9a1bb0f2ad1c7fed3",
+  "yol": "/home/user/football-intelligence/output/tahminler/nesine_3337368_20261128T010250Z.json",
+  "surum_sayisi": 1
+ },
+ "6_hesaplanamayan_marketler": "bütün marketler (model yok)",
+ "7_model_analist_farki": [],
+ "8_en_onemli_surpriz_sinyali": {
+  "favori": null,
+  "favori_kaynagi": "bağımsız model 1X2 olasılığı yok → favori bağımsız olarak belirlenemedi (oranlarla belirlenmez)",
+  "sinyal": null,
+  "not": "favori bağımsız modelle belirlenemedi"
+ },
+ "9_fiyat_karsilastirmasi": {
+  "durum": "yapılmadı",
+  "neden": "donmuş bağımsız tahmin ya da sonradan alınmış bülten yok"
+ },
+ "11_sportif_cikarimlar_yorum": [],
+ "10_son_arastirma_ve_kaynaklar": {
+  "son_arastirma_utc": "2026-11-28T01:09:17+00:00",
+  "turlar": [
+   "T-24s"
+  ],
+  "arama_gunlugu": [
+   {
+    "sorgu": "yerel dil önizleme/kadro",
+    "sonuc": "1 iddia",
+    "utc": "2026-11-28T01:09:17+00:00",
+    "tur": "T-24s"
+   }
+  ],
+  "tur_degisimleri": [
+   {
+    "anahtar": [
+     "nesine:3337368",
+     "sakatlik",
+     "dep",
+     "cuti romero"
+    ],
+    "degisim": "tek_turda_goruldu",
+    "tur": "T-24s",
+    "durum": [
+     "yok"
+    ]
+   }
+  ],
+  "baglantilar": [
+   "https://www.eldesmarque.com/futbol/liga-1a-division/20261126/novedades-lesion-cuti-romero-fecha-vuelta-confirmada-atletico-madrid_18_020819937.html"
+  ]
+ }
+}

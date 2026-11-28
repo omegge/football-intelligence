@@ -1,0 +1,67 @@
+{
+ "arama_gunlugu": [
+  {
+   "sonuc": "2 iddia",
+   "sorgu": "denetim turu: resmî kadro + ikinci kaynak",
+   "tur": "T-24s",
+   "utc": "2026-11-28T01:14:21+00:00"
+  }
+ ],
+ "gorusler": [],
+ "iddialar": [
+  {
+   "arastirma_utc": "2026-11-28T01:14:21+00:00",
+   "durum": "yok",
+   "erisim_yolu": "arama_ozeti",
+   "host": "www.sslazio.it",
+   "ilgili_mac_dogrulandi": true,
+   "ilk_kaynak": null,
+   "katman": "E",
+   "kaynak_sinifi": "resmi_kulup",
+   "kisi": "Taylor",
+   "konu": "kadro_disi",
+   "mac_id": "nesine:3332876",
+   "nicel_etki": "hesaplanamaz",
+   "notlar": "",
+   "ozet": "Resmî kadroda yok: Sutalo, Marusic, Tavares, Taylor; Noslin ve Zaccagni kadroda",
+   "takim": "dep",
+   "tur": "T-24s",
+   "url": "https://www.sslazio.it/it/news/eventi/serie-a-enilive-or-torino-lazio-i-convocati-biancocelesti-1fes",
+   "veri_dogrulamasi": null,
+   "yayin_utc": "2026-11-27",
+   "yayinci_grubu": null,
+   "zincir": "www.sslazio.it"
+  },
+  {
+   "arastirma_utc": "2026-11-28T01:14:21+00:00",
+   "durum": "yok",
+   "erisim_yolu": "arama_ozeti",
+   "host": "www.tuttomercatoweb.com",
+   "ilgili_mac_dogrulandi": true,
+   "ilk_kaynak": null,
+   "katman": "E",
+   "kaynak_sinifi": "ulusal_basin",
+   "kisi": "Taylor",
+   "konu": "kadro_disi",
+   "mac_id": "nesine:3332876",
+   "nicel_etki": "hesaplanamaz",
+   "notlar": "",
+   "ozet": "TMW: Lazio kadrosu; dört eksik, Noslin ve Zaccagni var",
+   "takim": "dep",
+   "tur": "T-24s",
+   "url": "https://www.tuttomercatoweb.com/serie-a/lazio-convocati-gattuso-torino-noslin-zaccagni-out-2298219",
+   "veri_dogrulamasi": null,
+   "yayin_utc": "2026-11-27",
+   "yayinci_grubu": null,
+   "zincir": "www.tuttomercatoweb.com"
+  }
+ ],
+ "kayit_utc": "2026-11-28T01:14:21+00:00",
+ "mac": {
+  "baslama_tr": "2026-11-28T20:00:00+03:00",
+  "baslama_utc": "2026-11-28T17:00:00+00:00",
+  "karsilasma": "Torino - Lazio",
+  "lig": "İtalya Serie A",
+  "mac_id": "nesine:3332876"
+ }
+}

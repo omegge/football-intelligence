@@ -1,0 +1,5343 @@
+{
+ "klasor": "bulten_20261128_040108",
+ "cekim_tr": "2026-11-28T04:01:08+03:00",
+ "cekim_utc": "2026-11-28T01:01:08+00:00",
+ "ham_sha256": "c40987f5f23020c77815707659fc0487120b985bfb7735c8a6de27f3460a56dd",
+ "pencere_tr": [
+  "2026-11-28T00:00:00+03:00",
+  "2026-11-29T00:00:00+03:00"
+ ],
+ "mac": 592,
+ "market": 18803,
+ "secenek": 88711,
+ "maclar": [
+  {
+   "kod": 3326305,
+   "lig": "Özbekistan Süper Ligi",
+   "lig_kodu": 5582,
+   "ev": "FK Neftchi Fargona",
+   "deplasman": "PFK Dinamo Samarqand",
+   "baslama_tr": "2026-11-28T14:15:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3326473,
+   "lig": "Özbekistan Süper Ligi",
+   "lig_kodu": 5582,
+   "ev": "Qizilqum Zarafshon",
+   "deplasman": "Pakhtakor Tashkent",
+   "baslama_tr": "2026-11-28T14:15:00+03:00",
+   "market_sayisi": 18
+  },
+  {
+   "kod": 3330770,
+   "lig": "Azerbaycan Premier Lig",
+   "lig_kodu": 1213,
+   "ev": "Sabah",
+   "deplasman": "Araz Nakhchivan PFK",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3330910,
+   "lig": "Azerbaycan Premier Lig",
+   "lig_kodu": 1213,
+   "ev": "Turan Tovuz",
+   "deplasman": "FK Kapaz",
+   "baslama_tr": "2026-11-28T15:30:00+03:00",
+   "market_sayisi": 18
+  },
+  {
+   "kod": 3330917,
+   "lig": "Avusturya 2. Lig",
+   "lig_kodu": 598,
+   "ev": "Amstetten",
+   "deplasman": "St. Polten",
+   "baslama_tr": "2026-11-28T17:30:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3331125,
+   "lig": "Galler Premier Lig",
+   "lig_kodu": 1147,
+   "ev": "Barry Town",
+   "deplasman": "Caernarfon",
+   "baslama_tr": "2026-11-28T15:30:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3331306,
+   "lig": "Galler Premier Lig",
+   "lig_kodu": 1147,
+   "ev": "Holywell Town",
+   "deplasman": "Llandudno",
+   "baslama_tr": "2026-11-28T20:15:00+03:00",
+   "market_sayisi": 35
+  },
+  {
+   "kod": 3331469,
+   "lig": "Hollanda Eredivisie",
+   "lig_kodu": 322,
+   "ev": "PSV",
+   "deplasman": "Go Ahead Eagles",
+   "baslama_tr": "2026-11-28T20:45:00+03:00",
+   "market_sayisi": 82
+  },
+  {
+   "kod": 3331481,
+   "lig": "Fransa Ligue 1",
+   "lig_kodu": 381,
+   "ev": "Le Havre",
+   "deplasman": "Strasbourg",
+   "baslama_tr": "2026-11-28T22:45:00+03:00",
+   "market_sayisi": 92
+  },
+  {
+   "kod": 3331482,
+   "lig": "Kuzey İrlanda Premiership",
+   "lig_kodu": 1865,
+   "ev": "Crusaders",
+   "deplasman": "Linfield",
+   "baslama_tr": "2026-11-28T17:00:00+03:00",
+   "market_sayisi": 53
+  },
+  {
+   "kod": 3331489,
+   "lig": "Avusturya 2. Lig",
+   "lig_kodu": 598,
+   "ev": "Blau Weiss L.",
+   "deplasman": "Sturm Gr.(Amt.)",
+   "baslama_tr": "2026-11-28T19:30:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3331491,
+   "lig": "Sırbistan Superliga",
+   "lig_kodu": 5578,
+   "ev": "Z Belgrade",
+   "deplasman": "Radnicki",
+   "baslama_tr": "2026-11-28T16:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3331494,
+   "lig": "İngiltere Isthmian Ligi",
+   "lig_kodu": 2666,
+   "ev": "Three Bridges",
+   "deplasman": "Wingate&Finchley",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3331498,
+   "lig": "Almanya Bundesliga 2",
+   "lig_kodu": 132,
+   "ev": "Holstein Kiel",
+   "deplasman": "Kaiserslautern",
+   "baslama_tr": "2026-11-28T15:00:00+03:00",
+   "market_sayisi": 78
+  },
+  {
+   "kod": 3331503,
+   "lig": "Hırvatistan 1. HNL",
+   "lig_kodu": 207,
+   "ev": "Osijek",
+   "deplasman": "Rijeka",
+   "baslama_tr": "2026-11-28T20:00:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3331506,
+   "lig": "Slovenya PrvaLiga",
+   "lig_kodu": 1000,
+   "ev": "NK Bravo",
+   "deplasman": "NK Aluminij K.",
+   "baslama_tr": "2026-11-28T17:00:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3331507,
+   "lig": "Suudi Arabistan 2.Lig, 2. Grup",
+   "lig_kodu": 69243,
+   "ev": "Jerash Club",
+   "deplasman": "AL Jabil",
+   "baslama_tr": "2026-11-28T15:30:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3331518,
+   "lig": "Slovakya Superliga",
+   "lig_kodu": 1939,
+   "ev": "Dukla BB",
+   "deplasman": "Ruzomberok",
+   "baslama_tr": "2026-11-28T17:30:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3331525,
+   "lig": "Macaristan 2. Ligi",
+   "lig_kodu": 2702,
+   "ev": "Kazincbarcikai",
+   "deplasman": "Tiszakecske",
+   "baslama_tr": "2026-11-28T15:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3331533,
+   "lig": "İngiltere Ulusal Lig, Güney",
+   "lig_kodu": 140,
+   "ev": "Farnham Town",
+   "deplasman": "Ebbsfleet Utd",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 34
+  },
+  {
+   "kod": 3331538,
+   "lig": "Sırbistan Superliga",
+   "lig_kodu": 5578,
+   "ev": "Radnik Surdu.",
+   "deplasman": "FK Vojvodina",
+   "baslama_tr": "2026-11-28T16:00:00+03:00",
+   "market_sayisi": 18
+  },
+  {
+   "kod": 3331539,
+   "lig": "Sırbistan Superliga",
+   "lig_kodu": 5578,
+   "ev": "Partizan",
+   "deplasman": "Radnicki Nis",
+   "baslama_tr": "2026-11-28T20:30:00+03:00",
+   "market_sayisi": 18
+  },
+  {
+   "kod": 3331544,
+   "lig": "Macaristan 2. Ligi",
+   "lig_kodu": 2702,
+   "ev": "Kozarmisleny",
+   "deplasman": "Bvsc Zuglo",
+   "baslama_tr": "2026-11-28T15:00:00+03:00",
+   "market_sayisi": 18
+  },
+  {
+   "kod": 3331562,
+   "lig": "İngiltere Ulusal Lig, Kuzey",
+   "lig_kodu": 134,
+   "ev": "Buxton",
+   "deplasman": "Spennymoor",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3331573,
+   "lig": "Japonya Futbol Ligi",
+   "lig_kodu": 33546,
+   "ev": "Honda",
+   "deplasman": "Criacao Shinjuku",
+   "baslama_tr": "2026-11-28T07:00:00+03:00",
+   "market_sayisi": 19
+  },
+  {
+   "kod": 3331574,
+   "lig": "Avusturya Bundesliga",
+   "lig_kodu": 568,
+   "ev": "Aus. Lustenau",
+   "deplasman": "Rapid Wien",
+   "baslama_tr": "2026-11-28T21:30:00+03:00",
+   "market_sayisi": 70
+  },
+  {
+   "kod": 3331579,
+   "lig": "Romanya 1. Lig",
+   "lig_kodu": 1912,
+   "ev": "FCSB",
+   "deplasman": "Csikszereda M. C.",
+   "baslama_tr": "2026-11-28T21:00:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3331586,
+   "lig": "Portekiz 3. Lig A Grubu",
+   "lig_kodu": 28245,
+   "ev": "Varzim",
+   "deplasman": "CD Trofense",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 18
+  },
+  {
+   "kod": 3331597,
+   "lig": "İngiltere 2. Lig",
+   "lig_kodu": 12,
+   "ev": "Walsall",
+   "deplasman": "Northampton",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3331603,
+   "lig": "İngiltere Güney Ligi, Merkez",
+   "lig_kodu": 2667,
+   "ev": "Anstey Nomads",
+   "deplasman": "Stratford",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 10
+  },
+  {
+   "kod": 3331606,
+   "lig": "Almanya Böl. Lig, Bavyera",
+   "lig_kodu": 994,
+   "ev": "Eichstatt",
+   "deplasman": "Buchbach",
+   "baslama_tr": "2026-11-28T16:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3331611,
+   "lig": "Belçika Pro Lig",
+   "lig_kodu": 148,
+   "ev": "Westerlo",
+   "deplasman": "RAAL La Louviere",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 78
+  },
+  {
+   "kod": 3331625,
+   "lig": "Hollanda 2. Etap",
+   "lig_kodu": 33631,
+   "ev": "Rijnsburgse Boys",
+   "deplasman": "Spakenburg",
+   "baslama_tr": "2026-11-28T16:30:00+03:00",
+   "market_sayisi": 18
+  },
+  {
+   "kod": 3331628,
+   "lig": "İngiltere 1. Lig",
+   "lig_kodu": 24,
+   "ev": "Wycombe",
+   "deplasman": "Bradford",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3331629,
+   "lig": "İngiltere 2. Lig",
+   "lig_kodu": 12,
+   "ev": "Port Vale",
+   "deplasman": "Newport",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3331634,
+   "lig": "İngiltere 1. Lig",
+   "lig_kodu": 24,
+   "ev": "Luton Town",
+   "deplasman": "Oxford",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3331636,
+   "lig": "Ukrayna Premier Ligi",
+   "lig_kodu": 1995,
+   "ev": "Obolon Kiev",
+   "deplasman": "Zorya Luhansk",
+   "baslama_tr": "2026-11-28T14:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3331639,
+   "lig": "İngiltere Isthmian Ligi",
+   "lig_kodu": 2666,
+   "ev": "Welling Utd",
+   "deplasman": "Enfield Town",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3331648,
+   "lig": "Hollanda 2. Etap",
+   "lig_kodu": 33631,
+   "ev": "Rohda Raalte",
+   "deplasman": "Hoek",
+   "baslama_tr": "2026-11-28T17:00:00+03:00",
+   "market_sayisi": 18
+  },
+  {
+   "kod": 3331655,
+   "lig": "İngiltere Isthmian Ligi",
+   "lig_kodu": 2666,
+   "ev": "AFC Whyteleafe",
+   "deplasman": "Aveley",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 9
+  },
+  {
+   "kod": 3331669,
+   "lig": "İngiltere Güney Ligi, Merkez",
+   "lig_kodu": 2667,
+   "ev": "Worcester City",
+   "deplasman": "Leiston",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3331671,
+   "lig": "Tayland Şampiyonası",
+   "lig_kodu": 22380,
+   "ev": "Chainat",
+   "deplasman": "Chanthaburi",
+   "baslama_tr": "2026-11-28T14:00:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3331672,
+   "lig": "İngiltere Championship",
+   "lig_kodu": 52,
+   "ev": "Wrexham",
+   "deplasman": "Portsmouth",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 83
+  },
+  {
+   "kod": 3331677,
+   "lig": "Macaristan 2. Ligi",
+   "lig_kodu": 2702,
+   "ev": "Mezokovesd",
+   "deplasman": "Szentlorinc SE",
+   "baslama_tr": "2026-11-28T15:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3331682,
+   "lig": "İngiltere 1. Lig",
+   "lig_kodu": 24,
+   "ev": "Stevenage",
+   "deplasman": "Blackpool",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3331684,
+   "lig": "Kuzey Makedonya 1. MFL",
+   "lig_kodu": 33771,
+   "ev": "FK Sileks K.",
+   "deplasman": "Struga Trim",
+   "baslama_tr": "2026-11-28T14:00:00+03:00",
+   "market_sayisi": 19
+  },
+  {
+   "kod": 3331690,
+   "lig": "İngiltere Ulusal Lig, Kuzey",
+   "lig_kodu": 134,
+   "ev": "Scarborough",
+   "deplasman": "Hereford",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 35
+  },
+  {
+   "kod": 3331691,
+   "lig": "Polonya Ekstraklasa",
+   "lig_kodu": 202,
+   "ev": "Widzew Lodz",
+   "deplasman": "Zaglebie Lubin",
+   "baslama_tr": "2026-11-28T16:45:00+03:00",
+   "market_sayisi": 68
+  },
+  {
+   "kod": 3331692,
+   "lig": "Japonya J3 Ligi",
+   "lig_kodu": 16328,
+   "ev": "Kochi Utd SC",
+   "deplasman": "Nara Club",
+   "baslama_tr": "2026-11-28T08:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3331695,
+   "lig": "Hırvatistan Druga NL",
+   "lig_kodu": 33410,
+   "ev": "NK Solin",
+   "deplasman": "NK Jarun Zagreb",
+   "baslama_tr": "2026-11-28T15:30:00+03:00",
+   "market_sayisi": 2
+  },
+  {
+   "kod": 3331696,
+   "lig": "İngiltere Ulusal Lig",
+   "lig_kodu": 401,
+   "ev": "Boreham Wood",
+   "deplasman": "Gateshead",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3331698,
+   "lig": "Arnavutluk Süper Ligi",
+   "lig_kodu": 33641,
+   "ev": "KF Vllaznia",
+   "deplasman": "KF Laci",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3331709,
+   "lig": "İngiltere Ulusal Lig, Kuzey",
+   "lig_kodu": 134,
+   "ev": "Telford Utd",
+   "deplasman": "South Shields",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 34
+  },
+  {
+   "kod": 3331712,
+   "lig": "Almanya Bundesliga",
+   "lig_kodu": 45,
+   "ev": "Köln",
+   "deplasman": "Elversberg",
+   "baslama_tr": "2026-11-28T17:30:00+03:00",
+   "market_sayisi": 95
+  },
+  {
+   "kod": 3331713,
+   "lig": "Almanya Böl. Lig, Batı",
+   "lig_kodu": 1005,
+   "ev": "Wattenscheid",
+   "deplasman": "B. Gladbach 09",
+   "baslama_tr": "2026-11-28T16:00:00+03:00",
+   "market_sayisi": 2
+  },
+  {
+   "kod": 3331714,
+   "lig": "Endonezya 1. Lig",
+   "lig_kodu": 974,
+   "ev": "Madura Utd",
+   "deplasman": "Malut Utd",
+   "baslama_tr": "2026-11-28T15:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3331720,
+   "lig": "Kuzey İrlanda Championship",
+   "lig_kodu": 1868,
+   "ev": "Loughgall",
+   "deplasman": "Strabane Athletic",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 14
+  },
+  {
+   "kod": 3331733,
+   "lig": "Hollanda 2. Etap",
+   "lig_kodu": 33631,
+   "ev": "Koninklijke",
+   "deplasman": "Rkav Volendam",
+   "baslama_tr": "2026-11-28T16:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3331743,
+   "lig": "İngiltere Ulusal Lig",
+   "lig_kodu": 401,
+   "ev": "Boston Utd",
+   "deplasman": "Kidderminster Harriers",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3331751,
+   "lig": "Hollanda 2. Etap",
+   "lig_kodu": 33631,
+   "ev": "HHC Hardenberg",
+   "deplasman": "Katwijk",
+   "baslama_tr": "2026-11-28T16:30:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3331755,
+   "lig": "Romanya 2. Lig",
+   "lig_kodu": 17089,
+   "ev": "AFC Metalul Buzau",
+   "deplasman": "ACS Fotbal Club Bacau 2023",
+   "baslama_tr": "2026-11-28T12:00:00+03:00",
+   "market_sayisi": 18
+  },
+  {
+   "kod": 3331758,
+   "lig": "Belçika Pro Lig",
+   "lig_kodu": 148,
+   "ev": "Charleroi",
+   "deplasman": "SK Beveren",
+   "baslama_tr": "2026-11-28T22:45:00+03:00",
+   "market_sayisi": 79
+  },
+  {
+   "kod": 3331759,
+   "lig": "BAE 1.Lig",
+   "lig_kodu": 22625,
+   "ev": "AL Ittifaq",
+   "deplasman": "Al Hamriyah",
+   "baslama_tr": "2026-11-28T15:45:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3331774,
+   "lig": "İngiltere Güney Ligi, Güney",
+   "lig_kodu": 2665,
+   "ev": "Yate Town",
+   "deplasman": "Hanworth Villa",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3331784,
+   "lig": "Çekya 2. Lig",
+   "lig_kodu": 986,
+   "ev": "SK Prostej",
+   "deplasman": "Vik. Zizkov",
+   "baslama_tr": "2026-11-28T16:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3331792,
+   "lig": "İngiltere 1. Lig",
+   "lig_kodu": 24,
+   "ev": "Wigan Ath",
+   "deplasman": "Plymouth",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 55
+  },
+  {
+   "kod": 3331797,
+   "lig": "İngiltere 1. Lig",
+   "lig_kodu": 24,
+   "ev": "Wimbledon",
+   "deplasman": "Barnsley",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3331798,
+   "lig": "Romanya 2. Lig",
+   "lig_kodu": 17089,
+   "ev": "Unirea Slobozia",
+   "deplasman": "SC Popesti Leordeni",
+   "baslama_tr": "2026-11-28T12:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3331808,
+   "lig": "Bulgaristan 2. Lig",
+   "lig_kodu": 33379,
+   "ev": "Montana 1921",
+   "deplasman": "PFK Sportist Svoge",
+   "baslama_tr": "2026-11-28T15:30:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3331810,
+   "lig": "İtalya Serie B",
+   "lig_kodu": 1774,
+   "ev": "LR Vicenza V.",
+   "deplasman": "AC Cesena",
+   "baslama_tr": "2026-11-28T19:15:00+03:00",
+   "market_sayisi": 85
+  },
+  {
+   "kod": 3331813,
+   "lig": "İngiltere 2. Lig",
+   "lig_kodu": 12,
+   "ev": "Salford City",
+   "deplasman": "Gillingham",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3331820,
+   "lig": "Almanya U19 Gençlik Ligi",
+   "lig_kodu": 10301,
+   "ev": "Chemnitzer U19",
+   "deplasman": "Energie Cottbus U19",
+   "baslama_tr": "2026-11-28T14:30:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3331821,
+   "lig": "İngiltere Güney Ligi, Merkez",
+   "lig_kodu": 2667,
+   "ev": "Bromsgrove Sporting",
+   "deplasman": "Hitchin Town",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 9
+  },
+  {
+   "kod": 3331828,
+   "lig": "Bulgaristan Parva Ligi",
+   "lig_kodu": 31585,
+   "ev": "Botev Vratsa",
+   "deplasman": "Ludogorets",
+   "baslama_tr": "2026-11-28T16:15:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3331845,
+   "lig": "Galler Championship, Güney",
+   "lig_kodu": 22382,
+   "ev": "Aberystwyth",
+   "deplasman": "Pontypridd Town",
+   "baslama_tr": "2026-11-28T17:30:00+03:00",
+   "market_sayisi": 18
+  },
+  {
+   "kod": 3331846,
+   "lig": "İngiltere Kuzey Premier Ligi",
+   "lig_kodu": 2646,
+   "ev": "Curzon Ashton",
+   "deplasman": "Bury",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 10
+  },
+  {
+   "kod": 3331847,
+   "lig": "Arnavutluk Süper Ligi",
+   "lig_kodu": 33641,
+   "ev": "FK Vora",
+   "deplasman": "Teuta",
+   "baslama_tr": "2026-11-28T15:30:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3331849,
+   "lig": "Avustralya A-Ligi",
+   "lig_kodu": 567,
+   "ev": "C. C. Mariners",
+   "deplasman": "Auckland",
+   "baslama_tr": "2026-11-28T11:40:00+03:00",
+   "market_sayisi": 85
+  },
+  {
+   "kod": 3331850,
+   "lig": "İngiltere Championship",
+   "lig_kodu": 52,
+   "ev": "Lincoln City",
+   "deplasman": "Wolverhampton",
+   "baslama_tr": "2026-11-28T15:30:00+03:00",
+   "market_sayisi": 83
+  },
+  {
+   "kod": 3331852,
+   "lig": "Güney Afrika Championship",
+   "lig_kodu": 2701,
+   "ev": "Leicesterford City",
+   "deplasman": "Hope",
+   "baslama_tr": "2026-11-28T16:30:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3331855,
+   "lig": "Almanya Bundesliga 2",
+   "lig_kodu": 132,
+   "ev": "Osnabrück",
+   "deplasman": "Hannover 96",
+   "baslama_tr": "2026-11-28T22:30:00+03:00",
+   "market_sayisi": 79
+  },
+  {
+   "kod": 3331856,
+   "lig": "Almanya Böl. Lig, Batı",
+   "lig_kodu": 1005,
+   "ev": "Wiedenbrück",
+   "deplasman": "Köln II",
+   "baslama_tr": "2026-11-28T16:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3331859,
+   "lig": "İngiltere 1. Lig",
+   "lig_kodu": 24,
+   "ev": "Peterborough",
+   "deplasman": "Cambridge",
+   "baslama_tr": "2026-11-28T15:30:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3331864,
+   "lig": "Almanya Böl. Lig, Bavyera",
+   "lig_kodu": 994,
+   "ev": "TSV S. Augsburg",
+   "deplasman": "Illertissen",
+   "baslama_tr": "2026-11-28T16:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3331870,
+   "lig": "İngiltere Ulusal Lig",
+   "lig_kodu": 401,
+   "ev": "Woking",
+   "deplasman": "Barrow",
+   "baslama_tr": "2026-11-28T15:30:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3331872,
+   "lig": "Nijerya Premier Ligi",
+   "lig_kodu": 5593,
+   "ev": "Doma Utd",
+   "deplasman": "Eng. Rangers",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3331882,
+   "lig": "Japonya J Ligi",
+   "lig_kodu": 642,
+   "ev": "Kyoto Sanga",
+   "deplasman": "Cerezo Osaka",
+   "baslama_tr": "2026-11-28T08:00:00+03:00",
+   "market_sayisi": 81
+  },
+  {
+   "kod": 3331887,
+   "lig": "İngiltere Kuzey Premier Ligi",
+   "lig_kodu": 2646,
+   "ev": "Ashton Utd",
+   "deplasman": "Stockton Town",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 9
+  },
+  {
+   "kod": 3331902,
+   "lig": "İngiltere Kuzey Premier Ligi",
+   "lig_kodu": 2646,
+   "ev": "Cleethorpes",
+   "deplasman": "Quorn",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 10
+  },
+  {
+   "kod": 3331905,
+   "lig": "Hollanda Eredivisie",
+   "lig_kodu": 322,
+   "ev": "SC Cambuur",
+   "deplasman": "S. Rotterdam",
+   "baslama_tr": "2026-11-28T23:00:00+03:00",
+   "market_sayisi": 82
+  },
+  {
+   "kod": 3331906,
+   "lig": "İtalya Serie B",
+   "lig_kodu": 1774,
+   "ev": "Ascoli",
+   "deplasman": "V. Entella",
+   "baslama_tr": "2026-11-28T17:00:00+03:00",
+   "market_sayisi": 84
+  },
+  {
+   "kod": 3331907,
+   "lig": "İngiltere Ulusal Lig",
+   "lig_kodu": 401,
+   "ev": "Altrincham",
+   "deplasman": "Worthing",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3331908,
+   "lig": "Fransa Ligue 1",
+   "lig_kodu": 381,
+   "ev": "Le Mans",
+   "deplasman": "Lille",
+   "baslama_tr": "2026-11-28T22:45:00+03:00",
+   "market_sayisi": 93
+  },
+  {
+   "kod": 3331910,
+   "lig": "Japonya J Ligi",
+   "lig_kodu": 642,
+   "ev": "Kashiwa",
+   "deplasman": "S. Hiroshima",
+   "baslama_tr": "2026-11-28T10:00:00+03:00",
+   "market_sayisi": 81
+  },
+  {
+   "kod": 3331911,
+   "lig": "Almanya Böl. Lig, Batı",
+   "lig_kodu": 1005,
+   "ev": "Rodinghausen",
+   "deplasman": "B.M.Gladbach II",
+   "baslama_tr": "2026-11-28T16:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3331915,
+   "lig": "İngiltere Güney Ligi, Güney",
+   "lig_kodu": 2665,
+   "ev": "Taunton Town",
+   "deplasman": "Gosport",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3331917,
+   "lig": "Romanya 2. Lig",
+   "lig_kodu": 17089,
+   "ev": "V. Selimbar",
+   "deplasman": "CSA Steaua Bucuresti",
+   "baslama_tr": "2026-11-28T12:00:00+03:00",
+   "market_sayisi": 18
+  },
+  {
+   "kod": 3331928,
+   "lig": "Romanya 1. Lig",
+   "lig_kodu": 1912,
+   "ev": "Voluntari",
+   "deplasman": "Cluj",
+   "baslama_tr": "2026-11-28T15:30:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3331929,
+   "lig": "Macaristan 1. Ligi",
+   "lig_kodu": 576,
+   "ev": "Kisvarda",
+   "deplasman": "Nyiregyhaza",
+   "baslama_tr": "2026-11-28T21:15:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3331930,
+   "lig": "İngiltere Ulusal Lig, Kuzey",
+   "lig_kodu": 134,
+   "ev": "Oxford City",
+   "deplasman": "Southport",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 35
+  },
+  {
+   "kod": 3331931,
+   "lig": "Bulgaristan Parva Ligi",
+   "lig_kodu": 31585,
+   "ev": "Cherno More",
+   "deplasman": "Botev Plovdiv",
+   "baslama_tr": "2026-11-28T18:45:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3331937,
+   "lig": "İngiltere Güney Ligi, Merkez",
+   "lig_kodu": 2667,
+   "ev": "Real Bedford",
+   "deplasman": "Needham",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3331941,
+   "lig": "Romanya 2. Lig",
+   "lig_kodu": 17089,
+   "ev": "Politehn Tim",
+   "deplasman": "Bihor Oradea",
+   "baslama_tr": "2026-11-28T13:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3331962,
+   "lig": "Hırvatistan Druga NL",
+   "lig_kodu": 33410,
+   "ev": "NK Dugo Selo",
+   "deplasman": "NK Hrvatski Dr.",
+   "baslama_tr": "2026-11-28T15:30:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3331964,
+   "lig": "İngiltere 2. Lig",
+   "lig_kodu": 12,
+   "ev": "Swindon Town",
+   "deplasman": "Chesterfield",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3331971,
+   "lig": "Polonya Ekstraklasa",
+   "lig_kodu": 202,
+   "ev": "Wisla Krakow",
+   "deplasman": "Motor Lublin",
+   "baslama_tr": "2026-11-28T22:15:00+03:00",
+   "market_sayisi": 68
+  },
+  {
+   "kod": 3331973,
+   "lig": "İtalya Serie C",
+   "lig_kodu": 10096,
+   "ev": "Sorrento",
+   "deplasman": "Cosenza",
+   "baslama_tr": "2026-11-28T19:30:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3331984,
+   "lig": "Ürdün Pro Ligi",
+   "lig_kodu": 16330,
+   "ev": "Ramtha SC",
+   "deplasman": "AL Hussein Irbid",
+   "baslama_tr": "2026-11-28T19:30:00+03:00",
+   "market_sayisi": 18
+  },
+  {
+   "kod": 3331990,
+   "lig": "Almanya Böl. Lig, Kuzey ",
+   "lig_kodu": 957,
+   "ev": "FSV Schoningen 2011",
+   "deplasman": "W. Bremen II",
+   "baslama_tr": "2026-11-28T16:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3331999,
+   "lig": "İngiltere Güney Ligi, Merkez",
+   "lig_kodu": 2667,
+   "ev": "RC Warwick",
+   "deplasman": "Kettering",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3332006,
+   "lig": "Endonezya 1. Lig",
+   "lig_kodu": 974,
+   "ev": "PSM Makassar",
+   "deplasman": "Dewa Utd",
+   "baslama_tr": "2026-11-28T11:30:00+03:00",
+   "market_sayisi": 18
+  },
+  {
+   "kod": 3332014,
+   "lig": "Güney Afrika Premier Lig",
+   "lig_kodu": 742,
+   "ev": "Chippa Utd",
+   "deplasman": "Kaizer Chiefs",
+   "baslama_tr": "2026-11-28T16:30:00+03:00",
+   "market_sayisi": 34
+  },
+  {
+   "kod": 3332020,
+   "lig": "Tayland Şampiyonası",
+   "lig_kodu": 22380,
+   "ev": "Police Tero",
+   "deplasman": "Nakhon Pathom Utd",
+   "baslama_tr": "2026-11-28T15:00:00+03:00",
+   "market_sayisi": 9
+  },
+  {
+   "kod": 3332021,
+   "lig": "Almanya Böl. Lig, Kuzey Doğu",
+   "lig_kodu": 1314,
+   "ev": "Hallescher",
+   "deplasman": "Greifswalder",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3332022,
+   "lig": "Almanya U19 Gençlik Ligi",
+   "lig_kodu": 10301,
+   "ev": "A. Bielefeld U19",
+   "deplasman": "Wolfsburg U19",
+   "baslama_tr": "2026-11-28T15:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3332032,
+   "lig": "Malezya Süper Ligi",
+   "lig_kodu": 1822,
+   "ev": "N. Sembilan",
+   "deplasman": "Terengganu",
+   "baslama_tr": "2026-11-28T11:45:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3332033,
+   "lig": "Bulgaristan Parva Ligi",
+   "lig_kodu": 31585,
+   "ev": "Loko Plovdiv",
+   "deplasman": "PFC Spartak Varna",
+   "baslama_tr": "2026-11-28T13:45:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3332037,
+   "lig": "Moldova Ulusal Lig ",
+   "lig_kodu": 17682,
+   "ev": "Milsami",
+   "deplasman": "Real Sireti",
+   "baslama_tr": "2026-11-28T14:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3332040,
+   "lig": "Kuzey İrlanda Premiership",
+   "lig_kodu": 1865,
+   "ev": "Ballymena Utd",
+   "deplasman": "Cliftonville",
+   "baslama_tr": "2026-11-28T21:00:00+03:00",
+   "market_sayisi": 53
+  },
+  {
+   "kod": 3332052,
+   "lig": "İngiltere 1. Lig",
+   "lig_kodu": 24,
+   "ev": "Leicester City",
+   "deplasman": "Mansfield",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3332054,
+   "lig": "Polonya Ekstraklasa",
+   "lig_kodu": 202,
+   "ev": "Slask Wroclaw",
+   "deplasman": "Katowice",
+   "baslama_tr": "2026-11-28T19:30:00+03:00",
+   "market_sayisi": 68
+  },
+  {
+   "kod": 3332056,
+   "lig": "Tayland Şampiyonası",
+   "lig_kodu": 22380,
+   "ev": "SGB Kanchanaburi",
+   "deplasman": "Chiangma Utd",
+   "baslama_tr": "2026-11-28T15:30:00+03:00",
+   "market_sayisi": 10
+  },
+  {
+   "kod": 3332069,
+   "lig": "İngiltere Ulusal Lig",
+   "lig_kodu": 401,
+   "ev": "Hartlepool",
+   "deplasman": "Southend",
+   "baslama_tr": "2026-11-28T20:30:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3332074,
+   "lig": "İngiltere Premier Lig",
+   "lig_kodu": 43,
+   "ev": "Ipswich Town",
+   "deplasman": "Aston Villa",
+   "baslama_tr": "2026-11-28T20:30:00+03:00",
+   "market_sayisi": 98
+  },
+  {
+   "kod": 3332076,
+   "lig": "Çekya 1. Lig",
+   "lig_kodu": 345,
+   "ev": "H. Kralove",
+   "deplasman": "Bohemians P.",
+   "baslama_tr": "2026-11-28T20:00:00+03:00",
+   "market_sayisi": 34
+  },
+  {
+   "kod": 3332082,
+   "lig": "Vietnam V-Ligi",
+   "lig_kodu": 16340,
+   "ev": "TP HO Chi Minh",
+   "deplasman": "Hoang Anh",
+   "baslama_tr": "2026-11-28T14:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3332086,
+   "lig": "BAE 1.Lig",
+   "lig_kodu": 22625,
+   "ev": "AL Jazira AL Hamra",
+   "deplasman": "Emirates Club",
+   "baslama_tr": "2026-11-28T15:40:00+03:00",
+   "market_sayisi": 11
+  },
+  {
+   "kod": 3332087,
+   "lig": "İngiltere Kuzey Premier Ligi",
+   "lig_kodu": 2646,
+   "ev": "Leek Town",
+   "deplasman": "Utd Of Manch.",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3332089,
+   "lig": "Belçika 2. Lig, İlk Etap",
+   "lig_kodu": 2674,
+   "ev": "Patro M.",
+   "deplasman": "KAA Gent II",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 35
+  },
+  {
+   "kod": 3332101,
+   "lig": "İngiltere Güney Ligi, Merkez",
+   "lig_kodu": 2667,
+   "ev": "Stamford",
+   "deplasman": "Leighton Town",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3332103,
+   "lig": "Almanya 3. Lig",
+   "lig_kodu": 161,
+   "ev": "Saarbrucken",
+   "deplasman": "A. Aachen",
+   "baslama_tr": "2026-11-28T16:00:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3332121,
+   "lig": "İngiltere Güney Ligi, Güney",
+   "lig_kodu": 2665,
+   "ev": "Poole Town",
+   "deplasman": "Hav Waterloo",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 9
+  },
+  {
+   "kod": 3332122,
+   "lig": "Bolivya Profesyonel Ligi",
+   "lig_kodu": 20546,
+   "ev": "GV San Jose",
+   "deplasman": "Real Potosi",
+   "baslama_tr": "2026-11-28T22:00:00+03:00",
+   "market_sayisi": 20
+  },
+  {
+   "kod": 3332123,
+   "lig": "İngiltere 1. Lig",
+   "lig_kodu": 24,
+   "ev": "Bromley",
+   "deplasman": "Burton Albion",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3332135,
+   "lig": "Avusturya Bundesliga",
+   "lig_kodu": 568,
+   "ev": "Austria Wien",
+   "deplasman": "Wolfsberger",
+   "baslama_tr": "2026-11-28T19:00:00+03:00",
+   "market_sayisi": 70
+  },
+  {
+   "kod": 3332152,
+   "lig": "İtalya Serie B",
+   "lig_kodu": 1774,
+   "ev": "Empoli",
+   "deplasman": "Hellas Verona",
+   "baslama_tr": "2026-11-28T17:00:00+03:00",
+   "market_sayisi": 83
+  },
+  {
+   "kod": 3332156,
+   "lig": "Yunanistan Süper Lig",
+   "lig_kodu": 262,
+   "ev": "POT Iraklis",
+   "deplasman": "Paneitolikos",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3332162,
+   "lig": "İngiltere Isthmian Ligi",
+   "lig_kodu": 2666,
+   "ev": "Dartford",
+   "deplasman": "Cray Wanderers",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3332168,
+   "lig": "Almanya U19 Gençlik Ligi",
+   "lig_kodu": 10301,
+   "ev": "SSV Ulm 1846 U19",
+   "deplasman": "Stuttgarter K. U19",
+   "baslama_tr": "2026-11-28T15:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3332172,
+   "lig": "İngiltere 1. Lig",
+   "lig_kodu": 24,
+   "ev": "Stockport",
+   "deplasman": "Leyton Orient",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3332180,
+   "lig": "Almanya Böl. Lig, Batı",
+   "lig_kodu": 1005,
+   "ev": "Gutersloh 2000",
+   "deplasman": "Sportfreunde",
+   "baslama_tr": "2026-11-28T16:00:00+03:00",
+   "market_sayisi": 18
+  },
+  {
+   "kod": 3332191,
+   "lig": "İskoçya Premiership",
+   "lig_kodu": 149,
+   "ev": "Aberdeen",
+   "deplasman": "Dundee",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3332203,
+   "lig": "İngiltere 2. Lig",
+   "lig_kodu": 12,
+   "ev": "Colchester",
+   "deplasman": "York City",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3332212,
+   "lig": "İngiltere Ulusal Lig, Kuzey",
+   "lig_kodu": 134,
+   "ev": "Marine",
+   "deplasman": "Hednesford",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3332223,
+   "lig": "Macaristan 1. Ligi",
+   "lig_kodu": 576,
+   "ev": "MTK Budapeşte",
+   "deplasman": "Ujpest",
+   "baslama_tr": "2026-11-28T18:45:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3332225,
+   "lig": "İngiltere Ulusal Lig, Güney",
+   "lig_kodu": 140,
+   "ev": "Torquay",
+   "deplasman": "Chelmsford C.",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 35
+  },
+  {
+   "kod": 3332238,
+   "lig": "Hırvatistan Prva NL",
+   "lig_kodu": 33402,
+   "ev": "NK Dugopolje",
+   "deplasman": "HNK Orijent 1919",
+   "baslama_tr": "2026-11-28T15:30:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3332240,
+   "lig": "Suudi Arabistan 2.Lig, 2. Grup",
+   "lig_kodu": 69243,
+   "ev": "Jubbah Club",
+   "deplasman": "AL Qous Club",
+   "baslama_tr": "2026-11-28T15:20:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3332243,
+   "lig": "Japonya Futbol Ligi",
+   "lig_kodu": 33546,
+   "ev": "Reinmeer Aomori",
+   "deplasman": "Vonds Ichihara",
+   "baslama_tr": "2026-11-28T07:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3332253,
+   "lig": "İtalya Serie C",
+   "lig_kodu": 10096,
+   "ev": "Novara Calcio",
+   "deplasman": "Alcione Milano",
+   "baslama_tr": "2026-11-28T16:30:00+03:00",
+   "market_sayisi": 36
+  },
+  {
+   "kod": 3332254,
+   "lig": "Belçika Pro Lig",
+   "lig_kodu": 148,
+   "ev": "Cercle Brugge",
+   "deplasman": "Mechelen",
+   "baslama_tr": "2026-11-28T20:15:00+03:00",
+   "market_sayisi": 78
+  },
+  {
+   "kod": 3332272,
+   "lig": "İngiltere Ulusal Lig, Güney",
+   "lig_kodu": 140,
+   "ev": "Dorking Wanderers",
+   "deplasman": "Farnborough",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 34
+  },
+  {
+   "kod": 3332277,
+   "lig": "Hırvatistan Druga NL",
+   "lig_kodu": 33410,
+   "ev": "Trnje",
+   "deplasman": "NK Uskok",
+   "baslama_tr": "2026-11-28T15:30:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3332278,
+   "lig": "İngiltere Ulusal Lig, Güney",
+   "lig_kodu": 140,
+   "ev": "Slough Town",
+   "deplasman": "Tonbridge Angels",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 34
+  },
+  {
+   "kod": 3332286,
+   "lig": "İngiltere 2. Lig",
+   "lig_kodu": 12,
+   "ev": "Crewe Alexandra",
+   "deplasman": "Grimsby Town",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3332293,
+   "lig": "Slovenya PrvaLiga",
+   "lig_kodu": 1000,
+   "ev": "NS Mura",
+   "deplasman": "NK Maribor",
+   "baslama_tr": "2026-11-28T19:30:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3332300,
+   "lig": "Kuzey Makedonya 1. MFL",
+   "lig_kodu": 33771,
+   "ev": "FK Arsimi 1973",
+   "deplasman": "Vardar",
+   "baslama_tr": "2026-11-28T14:00:00+03:00",
+   "market_sayisi": 19
+  },
+  {
+   "kod": 3332301,
+   "lig": "Almanya U19 Gençlik Ligi",
+   "lig_kodu": 10301,
+   "ev": "G. Furth U19",
+   "deplasman": "Rot Weiss Erfurt U19",
+   "baslama_tr": "2026-11-28T16:30:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3332305,
+   "lig": "İngiltere Ulusal Lig, Güney",
+   "lig_kodu": 140,
+   "ev": "Maidst. Utd",
+   "deplasman": "Chesham Utd",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 35
+  },
+  {
+   "kod": 3332306,
+   "lig": "Güney Afrika Championship",
+   "lig_kodu": 2701,
+   "ev": "Cape Town City",
+   "deplasman": "Venda Football A.",
+   "baslama_tr": "2026-11-28T16:30:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3332309,
+   "lig": "İskoçya Premiership",
+   "lig_kodu": 149,
+   "ev": "Motherwell",
+   "deplasman": "Hibernian",
+   "baslama_tr": "2026-11-28T20:45:00+03:00",
+   "market_sayisi": 55
+  },
+  {
+   "kod": 3332317,
+   "lig": "İngiltere Premier Lig",
+   "lig_kodu": 43,
+   "ev": "Man. Utd",
+   "deplasman": "Brentford",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 94
+  },
+  {
+   "kod": 3332318,
+   "lig": "İsviçre Challenge Ligi",
+   "lig_kodu": 1975,
+   "ev": "N. Xamax",
+   "deplasman": "Std. Nyonnis",
+   "baslama_tr": "2026-11-28T20:00:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3332328,
+   "lig": "İngiltere Güney Ligi, Merkez",
+   "lig_kodu": 2667,
+   "ev": "Leamington",
+   "deplasman": "Alvechurch",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3332331,
+   "lig": "İskoçya Premiership",
+   "lig_kodu": 149,
+   "ev": "Dundee Utd",
+   "deplasman": "St. Johnstone",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3332332,
+   "lig": "Almanya Böl. Lig, Bavyera",
+   "lig_kodu": 994,
+   "ev": "Unterhaching",
+   "deplasman": "Nürnberg (Amt)",
+   "baslama_tr": "2026-11-28T16:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3332333,
+   "lig": "İngiltere Güney Ligi, Güney",
+   "lig_kodu": 2665,
+   "ev": "Chichester City",
+   "deplasman": "Uxbridge",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3332336,
+   "lig": "Yeni Zelanda Premiership",
+   "lig_kodu": 1863,
+   "ev": "Wellington P. 2",
+   "deplasman": "Wellington Oly.",
+   "baslama_tr": "2026-11-28T04:00:00+03:00",
+   "market_sayisi": 18
+  },
+  {
+   "kod": 3332343,
+   "lig": "Hollanda Eredivisie",
+   "lig_kodu": 322,
+   "ev": "Excelsior",
+   "deplasman": "Telstar",
+   "baslama_tr": "2026-11-28T18:30:00+03:00",
+   "market_sayisi": 82
+  },
+  {
+   "kod": 3332353,
+   "lig": "İngiltere 2. Lig",
+   "lig_kodu": 12,
+   "ev": "Rotherham",
+   "deplasman": "Oldham",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3332354,
+   "lig": "İngiltere Güney Ligi, Merkez",
+   "lig_kodu": 2667,
+   "ev": "Banbury Utd",
+   "deplasman": "Halesowen",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3332358,
+   "lig": "İtalya Serie C",
+   "lig_kodu": 10096,
+   "ev": "Pescara",
+   "deplasman": "US Pianese",
+   "baslama_tr": "2026-11-28T16:30:00+03:00",
+   "market_sayisi": 34
+  },
+  {
+   "kod": 3332359,
+   "lig": "İsviçre Challenge Ligi",
+   "lig_kodu": 1975,
+   "ev": "Wil 1900",
+   "deplasman": "Yverdon",
+   "baslama_tr": "2026-11-28T20:00:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3332361,
+   "lig": "Slovakya Superliga",
+   "lig_kodu": 1939,
+   "ev": "Z. Podbrezova",
+   "deplasman": "Dunajska S.",
+   "baslama_tr": "2026-11-28T17:30:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3332362,
+   "lig": "İngiltere Isthmian Ligi",
+   "lig_kodu": 2666,
+   "ev": "Brentwood Town",
+   "deplasman": "Whitehawk",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3332366,
+   "lig": "Almanya 3. Lig",
+   "lig_kodu": 161,
+   "ev": "Weiss Essen",
+   "deplasman": "Hoffenheim II",
+   "baslama_tr": "2026-11-28T16:00:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3332368,
+   "lig": "Türkiye Süper Ligi",
+   "lig_kodu": 584,
+   "ev": "Gaziantep FK",
+   "deplasman": "Amed Sportif",
+   "baslama_tr": "2026-11-28T19:00:00+03:00",
+   "market_sayisi": 93
+  },
+  {
+   "kod": 3332373,
+   "lig": "Endonezya 1. Lig",
+   "lig_kodu": 974,
+   "ev": "Farmel",
+   "deplasman": "PSS Sleman",
+   "baslama_tr": "2026-11-28T11:30:00+03:00",
+   "market_sayisi": 18
+  },
+  {
+   "kod": 3332378,
+   "lig": "İtalya Serie A",
+   "lig_kodu": 143,
+   "ev": "Frosinone",
+   "deplasman": "Parma",
+   "baslama_tr": "2026-11-28T17:00:00+03:00",
+   "market_sayisi": 98
+  },
+  {
+   "kod": 3332381,
+   "lig": "Belçika 2. Lig, İlk Etap",
+   "lig_kodu": 2674,
+   "ev": "C. Brugge U23",
+   "deplasman": "Lierse K.",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 34
+  },
+  {
+   "kod": 3332382,
+   "lig": "İsviçre Süper Lig",
+   "lig_kodu": 122,
+   "ev": "Vaduz",
+   "deplasman": "Zürih",
+   "baslama_tr": "2026-11-28T20:00:00+03:00",
+   "market_sayisi": 70
+  },
+  {
+   "kod": 3332395,
+   "lig": "Ruanda Ulusal Lig",
+   "lig_kodu": 33383,
+   "ev": "Bugesera",
+   "deplasman": "Gicumbi",
+   "baslama_tr": "2026-11-28T16:00:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3332397,
+   "lig": "Romanya 1. Lig",
+   "lig_kodu": 1912,
+   "ev": "CS Corvinul 1921 H.",
+   "deplasman": "Farul Cons.",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3332399,
+   "lig": "İngiltere Ulusal Lig, Güney",
+   "lig_kodu": 140,
+   "ev": "Salisbury",
+   "deplasman": "Dagenham Red",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 34
+  },
+  {
+   "kod": 3332408,
+   "lig": "İngiltere Ulusal Lig, Kuzey",
+   "lig_kodu": 134,
+   "ev": "Morecambe",
+   "deplasman": "Spalding Utd",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 35
+  },
+  {
+   "kod": 3332409,
+   "lig": "İngiltere Güney Ligi, Güney",
+   "lig_kodu": 2665,
+   "ev": "Berkhamsted",
+   "deplasman": "Evesham Utd",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 10
+  },
+  {
+   "kod": 3332413,
+   "lig": "Ruanda Ulusal Lig",
+   "lig_kodu": 33383,
+   "ev": "Musanze",
+   "deplasman": "Al Merrikh (Sdn)",
+   "baslama_tr": "2026-11-28T16:00:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3332414,
+   "lig": "İtalya Serie A",
+   "lig_kodu": 143,
+   "ev": "Inter",
+   "deplasman": "Genoa",
+   "baslama_tr": "2026-11-28T22:45:00+03:00",
+   "market_sayisi": 106
+  },
+  {
+   "kod": 3332422,
+   "lig": "Romanya 2. Lig",
+   "lig_kodu": 17089,
+   "ev": "Concordia",
+   "deplasman": "Csl Stefanestii de Jos",
+   "baslama_tr": "2026-11-28T12:00:00+03:00",
+   "market_sayisi": 18
+  },
+  {
+   "kod": 3332424,
+   "lig": "İngiltere Isthmian Ligi",
+   "lig_kodu": 2666,
+   "ev": "Maldon & Tiptree",
+   "deplasman": "Albans City",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3332427,
+   "lig": "Japonya J2 Ligi",
+   "lig_kodu": 1797,
+   "ev": "Omiya Ardija",
+   "deplasman": "Imabari",
+   "baslama_tr": "2026-11-28T08:00:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3332430,
+   "lig": "İngiltere 2. Lig",
+   "lig_kodu": 12,
+   "ev": "Shrewsbury",
+   "deplasman": "Cheltenham",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3332432,
+   "lig": "İngiltere Ulusal Lig, Kuzey",
+   "lig_kodu": 134,
+   "ev": "Chorley",
+   "deplasman": "Harborough Town",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 34
+  },
+  {
+   "kod": 3332435,
+   "lig": "Avusturya 2. Lig",
+   "lig_kodu": 598,
+   "ev": "Schwarz Weiss B.",
+   "deplasman": "SV Austria Salzburg",
+   "baslama_tr": "2026-11-28T17:30:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3332438,
+   "lig": "İngiltere Championship",
+   "lig_kodu": 52,
+   "ev": "QPR",
+   "deplasman": "Sheffield Utd",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 83
+  },
+  {
+   "kod": 3332452,
+   "lig": "Almanya Bundesliga",
+   "lig_kodu": 45,
+   "ev": "Stuttgart",
+   "deplasman": "E. Frankfurt",
+   "baslama_tr": "2026-11-28T20:30:00+03:00",
+   "market_sayisi": 99
+  },
+  {
+   "kod": 3332453,
+   "lig": "Botsvana Premier Ligi",
+   "lig_kodu": 34090,
+   "ev": "Tafic",
+   "deplasman": "Township Rollers",
+   "baslama_tr": "2026-11-28T17:00:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3332457,
+   "lig": "Tayland 1.Lig",
+   "lig_kodu": 22381,
+   "ev": "Lamphun Warrior",
+   "deplasman": "Chonburi",
+   "baslama_tr": "2026-11-28T15:30:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3332461,
+   "lig": "Filipinler Futbol Ligi",
+   "lig_kodu": 33575,
+   "ev": "Davao Aguilas",
+   "deplasman": "Manila Digger",
+   "baslama_tr": "2026-11-28T14:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3332466,
+   "lig": "Polonya 1. Lig",
+   "lig_kodu": 997,
+   "ev": "Arka Gdynia",
+   "deplasman": "Ruch Chorzow",
+   "baslama_tr": "2026-11-28T19:00:00+03:00",
+   "market_sayisi": 34
+  },
+  {
+   "kod": 3332468,
+   "lig": "İspanya Gençler Onur Klasmanı",
+   "lig_kodu": 10215,
+   "ev": "Penya Arrabal U19",
+   "deplasman": "Torrent U19",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 2
+  },
+  {
+   "kod": 3332472,
+   "lig": "Almanya Bundesliga 2",
+   "lig_kodu": 132,
+   "ev": "Hertha Berlin",
+   "deplasman": "Karlsruhe",
+   "baslama_tr": "2026-11-28T15:00:00+03:00",
+   "market_sayisi": 81
+  },
+  {
+   "kod": 3332473,
+   "lig": "Avusturya 2. Lig",
+   "lig_kodu": 598,
+   "ev": "ASK Voitsberg",
+   "deplasman": "Austria Wien II",
+   "baslama_tr": "2026-11-28T17:30:00+03:00",
+   "market_sayisi": 55
+  },
+  {
+   "kod": 3332478,
+   "lig": "Almanya Bundesliga",
+   "lig_kodu": 45,
+   "ev": "Mainz",
+   "deplasman": "Union Berlin",
+   "baslama_tr": "2026-11-28T17:30:00+03:00",
+   "market_sayisi": 95
+  },
+  {
+   "kod": 3332485,
+   "lig": "İngiltere Kuzey Premier Ligi",
+   "lig_kodu": 2646,
+   "ev": "Redcar Athletic",
+   "deplasman": "Workington",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3332491,
+   "lig": "Almanya Böl. Lig, Batı",
+   "lig_kodu": 1005,
+   "ev": "B. Dortmund II",
+   "deplasman": "VfL Bochum II",
+   "baslama_tr": "2026-11-28T16:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3332499,
+   "lig": "Almanya Böl. Lig, Güney Batı",
+   "lig_kodu": 1004,
+   "ev": "Astoria Walldorf",
+   "deplasman": "Offenbacher",
+   "baslama_tr": "2026-11-28T16:00:00+03:00",
+   "market_sayisi": 18
+  },
+  {
+   "kod": 3332504,
+   "lig": "Almanya U19 Gençlik Ligi",
+   "lig_kodu": 10301,
+   "ev": "TSV Havelse U19",
+   "deplasman": "Paderborn U19",
+   "baslama_tr": "2026-11-28T15:00:00+03:00",
+   "market_sayisi": 2
+  },
+  {
+   "kod": 3332510,
+   "lig": "İngiltere Ulusal Lig, Güney",
+   "lig_kodu": 140,
+   "ev": "Braintree",
+   "deplasman": "AFC Totton",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 35
+  },
+  {
+   "kod": 3332512,
+   "lig": "Portekiz 2. Lig",
+   "lig_kodu": 1897,
+   "ev": "S. Farense",
+   "deplasman": "Uniao Leiria",
+   "baslama_tr": "2026-11-28T18:30:00+03:00",
+   "market_sayisi": 34
+  },
+  {
+   "kod": 3332525,
+   "lig": "Portekiz 2. Lig",
+   "lig_kodu": 1897,
+   "ev": "Chaves",
+   "deplasman": "Tondela",
+   "baslama_tr": "2026-11-28T17:00:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3332528,
+   "lig": "İngiltere Championship",
+   "lig_kodu": 52,
+   "ev": "Blackburn R.",
+   "deplasman": "Charlton",
+   "baslama_tr": "2026-11-28T15:30:00+03:00",
+   "market_sayisi": 85
+  },
+  {
+   "kod": 3332530,
+   "lig": "İngiltere Ulusal Lig",
+   "lig_kodu": 401,
+   "ev": "Carlisle",
+   "deplasman": "Sutton Utd",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 55
+  },
+  {
+   "kod": 3332533,
+   "lig": "Portekiz Premier Lig",
+   "lig_kodu": 566,
+   "ev": "Arouca",
+   "deplasman": "Rio Ave",
+   "baslama_tr": "2026-11-28T18:30:00+03:00",
+   "market_sayisi": 82
+  },
+  {
+   "kod": 3332536,
+   "lig": "Belçika 2. Lig, İlk Etap",
+   "lig_kodu": 2674,
+   "ev": "KSC Lokeren Temse",
+   "deplasman": "Beerschot",
+   "baslama_tr": "2026-11-28T22:00:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3332537,
+   "lig": "Romanya 2. Lig",
+   "lig_kodu": 17089,
+   "ev": "CS D. Bucuresti",
+   "deplasman": "Dumbravita",
+   "baslama_tr": "2026-11-28T12:00:00+03:00",
+   "market_sayisi": 18
+  },
+  {
+   "kod": 3332544,
+   "lig": "Almanya Bundesliga 2",
+   "lig_kodu": 132,
+   "ev": "D. Dresden",
+   "deplasman": "St. Pauli",
+   "baslama_tr": "2026-11-28T15:00:00+03:00",
+   "market_sayisi": 78
+  },
+  {
+   "kod": 3332558,
+   "lig": "Tayland 1.Lig",
+   "lig_kodu": 22381,
+   "ev": "Rasisalai Utd",
+   "deplasman": "Buriram Utd",
+   "baslama_tr": "2026-11-28T15:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3332565,
+   "lig": "Japonya J Ligi",
+   "lig_kodu": 642,
+   "ev": "Shimizu",
+   "deplasman": "Urawa Red",
+   "baslama_tr": "2026-11-28T08:00:00+03:00",
+   "market_sayisi": 78
+  },
+  {
+   "kod": 3332568,
+   "lig": "Almanya U19 Gençlik Ligi",
+   "lig_kodu": 10301,
+   "ev": "Augsburg U19",
+   "deplasman": "Hoffenheim U19",
+   "baslama_tr": "2026-11-28T15:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3332572,
+   "lig": "İngiltere Kuzey Premier Ligi",
+   "lig_kodu": 2646,
+   "ev": "Hyde Utd",
+   "deplasman": "Warrington T.",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3332575,
+   "lig": "Çekya 1. Lig",
+   "lig_kodu": 345,
+   "ev": "Teplice",
+   "deplasman": "Slovan Liberec",
+   "baslama_tr": "2026-11-28T17:00:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3332577,
+   "lig": "Ruanda Ulusal Lig",
+   "lig_kodu": 33383,
+   "ev": "Police",
+   "deplasman": "Apr",
+   "baslama_tr": "2026-11-28T16:00:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3332580,
+   "lig": "İngiltere Ulusal Lig, Kuzey",
+   "lig_kodu": 134,
+   "ev": "Darlington",
+   "deplasman": "Brackley",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3332600,
+   "lig": "İskoçya Premiership",
+   "lig_kodu": 149,
+   "ev": "Rangers",
+   "deplasman": "Falkirk",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3332612,
+   "lig": "Almanya 3. Lig",
+   "lig_kodu": 161,
+   "ev": "Preussen Munster",
+   "deplasman": "Verl",
+   "baslama_tr": "2026-11-28T16:00:00+03:00",
+   "market_sayisi": 55
+  },
+  {
+   "kod": 3332613,
+   "lig": "İngiltere Kuzey Premier Ligi",
+   "lig_kodu": 2646,
+   "ev": "Avro",
+   "deplasman": "Bamber Bridge",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3332632,
+   "lig": "Güney Afrika Premier Lig",
+   "lig_kodu": 742,
+   "ev": "Kruger Utd",
+   "deplasman": "Mamel Sundow",
+   "baslama_tr": "2026-11-28T19:00:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3332644,
+   "lig": "İtalya Serie B",
+   "lig_kodu": 1774,
+   "ev": "Carrarese C. 1908",
+   "deplasman": "Juve Stabia",
+   "baslama_tr": "2026-11-28T17:00:00+03:00",
+   "market_sayisi": 83
+  },
+  {
+   "kod": 3332646,
+   "lig": "Almanya Böl. Lig, Kuzey ",
+   "lig_kodu": 957,
+   "ev": "Atlas Delme",
+   "deplasman": "SSV Jeddeloh II",
+   "baslama_tr": "2026-11-28T17:00:00+03:00",
+   "market_sayisi": 2
+  },
+  {
+   "kod": 3332647,
+   "lig": "İngiltere Ulusal Lig, Kuzey",
+   "lig_kodu": 134,
+   "ev": "Kings Lynn",
+   "deplasman": "Macclesfield",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 36
+  },
+  {
+   "kod": 3332650,
+   "lig": "Vietnam V-Ligi",
+   "lig_kodu": 16340,
+   "ev": "Bac Ninh",
+   "deplasman": "SHB Da Nang",
+   "baslama_tr": "2026-11-28T14:00:00+03:00",
+   "market_sayisi": 19
+  },
+  {
+   "kod": 3332652,
+   "lig": "Almanya U19 Gençlik Ligi",
+   "lig_kodu": 10301,
+   "ev": "Fortuna Köln U19",
+   "deplasman": "SV Wehen Wiesbaden U19",
+   "baslama_tr": "2026-11-28T16:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3332653,
+   "lig": "Macaristan 2. Ligi",
+   "lig_kodu": 2702,
+   "ev": "Szeged G. A.",
+   "deplasman": "Ajka",
+   "baslama_tr": "2026-11-28T17:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3332654,
+   "lig": "Kuzey İrlanda Premiership",
+   "lig_kodu": 1865,
+   "ev": "Limavady Utd",
+   "deplasman": "Portadown",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 53
+  },
+  {
+   "kod": 3332671,
+   "lig": "Polonya 2. Lig",
+   "lig_kodu": 1894,
+   "ev": "Olimpia",
+   "deplasman": "Avia Swidnik",
+   "baslama_tr": "2026-11-28T14:30:00+03:00",
+   "market_sayisi": 34
+  },
+  {
+   "kod": 3332675,
+   "lig": "Hollanda 2. Etap",
+   "lig_kodu": 33631,
+   "ev": "Ijsselmeervogels",
+   "deplasman": "J. S. Rotterdam",
+   "baslama_tr": "2026-11-28T17:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3332678,
+   "lig": "Hong Kong Premier Lig",
+   "lig_kodu": 1326,
+   "ev": "Golik North D.",
+   "deplasman": "Southern District",
+   "baslama_tr": "2026-11-28T10:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3332679,
+   "lig": "İngiltere Güney Ligi, Merkez",
+   "lig_kodu": 2667,
+   "ev": "Redditch Utd",
+   "deplasman": "Bury Town",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 9
+  },
+  {
+   "kod": 3332682,
+   "lig": "Hırvatistan Druga NL",
+   "lig_kodu": 33410,
+   "ev": "NK Slavonija Pozega",
+   "deplasman": "NK Varteks",
+   "baslama_tr": "2026-11-28T15:30:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3332694,
+   "lig": "Belçika Pro Lig",
+   "lig_kodu": 148,
+   "ev": "Lommel SK",
+   "deplasman": "Zulte Waregem",
+   "baslama_tr": "2026-11-28T22:45:00+03:00",
+   "market_sayisi": 78
+  },
+  {
+   "kod": 3332706,
+   "lig": "İngiltere Ulusal Lig",
+   "lig_kodu": 401,
+   "ev": "Harrogate",
+   "deplasman": "Yeovil Town",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3332707,
+   "lig": "Ukrayna Premier Ligi",
+   "lig_kodu": 1995,
+   "ev": "Dinamo Kiev",
+   "deplasman": "Chernomorets Odessa",
+   "baslama_tr": "2026-11-28T14:00:00+03:00",
+   "market_sayisi": 19
+  },
+  {
+   "kod": 3332727,
+   "lig": "İskoçya Premiership",
+   "lig_kodu": 149,
+   "ev": "St. Mirren",
+   "deplasman": "Kilmarnock",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3332730,
+   "lig": "İngiltere 1. Lig",
+   "lig_kodu": 24,
+   "ev": "MK Dons",
+   "deplasman": "Notts County",
+   "baslama_tr": "2026-11-28T15:30:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3332732,
+   "lig": "İngiltere Isthmian Ligi",
+   "lig_kodu": 2666,
+   "ev": "Chatham Town",
+   "deplasman": "Carshalton",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3332733,
+   "lig": "Slovakya Superliga",
+   "lig_kodu": 1939,
+   "ev": "S. Bratislava",
+   "deplasman": "FK Kosice",
+   "baslama_tr": "2026-11-28T20:00:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3332741,
+   "lig": "İngiltere Ulusal Lig",
+   "lig_kodu": 401,
+   "ev": "Eastleigh",
+   "deplasman": "Halifax Town",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3332747,
+   "lig": "İngiltere 2. Lig",
+   "lig_kodu": 12,
+   "ev": "Bristol Rovers",
+   "deplasman": "Tranmere",
+   "baslama_tr": "2026-11-28T15:30:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3332752,
+   "lig": "Almanya U19 Gençlik Ligi",
+   "lig_kodu": 10301,
+   "ev": "SC Freiburg U19",
+   "deplasman": "1. Heidenheim U19",
+   "baslama_tr": "2026-11-28T13:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3332753,
+   "lig": "Romanya 2. Lig",
+   "lig_kodu": 17089,
+   "ev": "CS Afumati",
+   "deplasman": "CSM Resita",
+   "baslama_tr": "2026-11-28T12:00:00+03:00",
+   "market_sayisi": 19
+  },
+  {
+   "kod": 3332763,
+   "lig": "Zambiya Süper Lig, Grup A",
+   "lig_kodu": 82472,
+   "ev": "Muza",
+   "deplasman": "Napsa Stars",
+   "baslama_tr": "2026-11-28T16:00:00+03:00",
+   "market_sayisi": 2
+  },
+  {
+   "kod": 3332766,
+   "lig": "Polonya 1. Lig",
+   "lig_kodu": 997,
+   "ev": "Odra Opole",
+   "deplasman": "Polonia Warszawa",
+   "baslama_tr": "2026-11-28T17:30:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3332767,
+   "lig": "İngiltere Güney Ligi, Merkez",
+   "lig_kodu": 2667,
+   "ev": "Stourbridge",
+   "deplasman": "Rushall Olym.",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 9
+  },
+  {
+   "kod": 3332771,
+   "lig": "Botsvana Premier Ligi",
+   "lig_kodu": 34090,
+   "ev": "Police Xi",
+   "deplasman": "Sua Flamingoes",
+   "baslama_tr": "2026-11-28T17:00:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3332775,
+   "lig": "Almanya U19 Gençlik Ligi",
+   "lig_kodu": 10301,
+   "ev": "Erzgebirge Aue U19",
+   "deplasman": "1 Nürnberg U19",
+   "baslama_tr": "2026-11-28T15:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3332780,
+   "lig": "Fransa Ligue 1",
+   "lig_kodu": 381,
+   "ev": "Nice",
+   "deplasman": "Troyes",
+   "baslama_tr": "2026-11-28T22:45:00+03:00",
+   "market_sayisi": 89
+  },
+  {
+   "kod": 3332781,
+   "lig": "İngiltere Isthmian Ligi",
+   "lig_kodu": 2666,
+   "ev": "Cheshunt",
+   "deplasman": "Ramsgate",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3332798,
+   "lig": "Almanya 3. Lig",
+   "lig_kodu": 161,
+   "ev": "Mannheim 07",
+   "deplasman": "Stuttgart II",
+   "baslama_tr": "2026-11-28T16:00:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3332802,
+   "lig": "Japonya J Ligi",
+   "lig_kodu": 642,
+   "ev": "Kashima",
+   "deplasman": "Fagiano",
+   "baslama_tr": "2026-11-28T09:00:00+03:00",
+   "market_sayisi": 78
+  },
+  {
+   "kod": 3332804,
+   "lig": "Endonezya 1. Lig",
+   "lig_kodu": 974,
+   "ev": "Persija Jakarta",
+   "deplasman": "Garuda Yaksa",
+   "baslama_tr": "2026-11-28T15:00:00+03:00",
+   "market_sayisi": 18
+  },
+  {
+   "kod": 3332808,
+   "lig": "İsviçre Süper Lig",
+   "lig_kodu": 122,
+   "ev": "Servette",
+   "deplasman": "Lausanne",
+   "baslama_tr": "2026-11-28T22:30:00+03:00",
+   "market_sayisi": 70
+  },
+  {
+   "kod": 3332820,
+   "lig": "Portekiz Premier Lig",
+   "lig_kodu": 566,
+   "ev": "Moreirense",
+   "deplasman": "Santa Clara",
+   "baslama_tr": "2026-11-28T18:30:00+03:00",
+   "market_sayisi": 82
+  },
+  {
+   "kod": 3332822,
+   "lig": "Almanya 3. Lig",
+   "lig_kodu": 161,
+   "ev": "Grossaspach",
+   "deplasman": "Duisburg",
+   "baslama_tr": "2026-11-28T18:30:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3332828,
+   "lig": "Almanya 3. Lig",
+   "lig_kodu": 161,
+   "ev": "Würzburg",
+   "deplasman": "F. Düsseldorf",
+   "baslama_tr": "2026-11-28T16:00:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3332831,
+   "lig": "Güney Kore K-Lig 2",
+   "lig_kodu": 1809,
+   "ev": "Gimhae",
+   "deplasman": "Seongnam",
+   "baslama_tr": "2026-11-28T08:00:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3332840,
+   "lig": "Malezya Süper Ligi",
+   "lig_kodu": 1822,
+   "ev": "Sabah",
+   "deplasman": "Selangor FA",
+   "baslama_tr": "2026-11-28T12:00:00+03:00",
+   "market_sayisi": 18
+  },
+  {
+   "kod": 3332847,
+   "lig": "İngiltere 2. Lig",
+   "lig_kodu": 12,
+   "ev": "Exeter City",
+   "deplasman": "Crawley Town",
+   "baslama_tr": "2026-11-28T15:30:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3332850,
+   "lig": "Japonya J Ligi",
+   "lig_kodu": 642,
+   "ev": "Vissel Kobe",
+   "deplasman": "JEF Utd",
+   "baslama_tr": "2026-11-28T09:00:00+03:00",
+   "market_sayisi": 78
+  },
+  {
+   "kod": 3332851,
+   "lig": "İngiltere Championship",
+   "lig_kodu": 52,
+   "ev": "W. Bromwich",
+   "deplasman": "Bristol City",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 84
+  },
+  {
+   "kod": 3332855,
+   "lig": "Almanya Böl. Lig, Bavyera",
+   "lig_kodu": 994,
+   "ev": "Ansbach",
+   "deplasman": "Memmingen",
+   "baslama_tr": "2026-11-28T16:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3332857,
+   "lig": "Japonya Futbol Ligi",
+   "lig_kodu": 33546,
+   "ev": "Yscc Yokohama",
+   "deplasman": "Veertien Mie",
+   "baslama_tr": "2026-11-28T07:00:00+03:00",
+   "market_sayisi": 19
+  },
+  {
+   "kod": 3332858,
+   "lig": "Danimarka 1. Lig",
+   "lig_kodu": 302,
+   "ev": "Hilleroed",
+   "deplasman": "Vendsyssel",
+   "baslama_tr": "2026-11-28T15:00:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3332864,
+   "lig": "İspanya Segunda RFEF",
+   "lig_kodu": 10063,
+   "ev": "CD Alcoyano",
+   "deplasman": "Lorca Deportiva",
+   "baslama_tr": "2026-11-28T22:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3332865,
+   "lig": "İtalya Serie C",
+   "lig_kodu": 10096,
+   "ev": "Acd Ospitaletto",
+   "deplasman": "Union Brescia",
+   "baslama_tr": "2026-11-28T19:30:00+03:00",
+   "market_sayisi": 34
+  },
+  {
+   "kod": 3332871,
+   "lig": "Çekya 1. Lig",
+   "lig_kodu": 345,
+   "ev": "Mlada Boleslav",
+   "deplasman": "Sigma Olomouc",
+   "baslama_tr": "2026-11-28T17:00:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3332876,
+   "lig": "İtalya Serie A",
+   "lig_kodu": 143,
+   "ev": "Torino",
+   "deplasman": "Lazio",
+   "baslama_tr": "2026-11-28T20:00:00+03:00",
+   "market_sayisi": 99
+  },
+  {
+   "kod": 3332881,
+   "lig": "Almanya U19 Gençlik Ligi",
+   "lig_kodu": 10301,
+   "ev": "W. Bremen U19",
+   "deplasman": "St. Pauli U19",
+   "baslama_tr": "2026-11-28T15:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3332882,
+   "lig": "İngiltere Ulusal Lig",
+   "lig_kodu": 401,
+   "ev": "Forest Green",
+   "deplasman": "Tamworth",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3332891,
+   "lig": "Ürdün Pro Ligi",
+   "lig_kodu": 16330,
+   "ev": "AL Arabi",
+   "deplasman": "AL Faisaly (Ürd)",
+   "baslama_tr": "2026-11-28T17:00:00+03:00",
+   "market_sayisi": 19
+  },
+  {
+   "kod": 3332892,
+   "lig": "Galler Championship, Güney",
+   "lig_kodu": 22382,
+   "ev": "Trethomas Bluebirds",
+   "deplasman": "Ynyshir Albions",
+   "baslama_tr": "2026-11-28T17:30:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3332893,
+   "lig": "Portekiz Premier Lig",
+   "lig_kodu": 566,
+   "ev": "V. Guimaraes",
+   "deplasman": "Estrela",
+   "baslama_tr": "2026-11-28T23:30:00+03:00",
+   "market_sayisi": 83
+  },
+  {
+   "kod": 3332895,
+   "lig": "İngiltere Güney Ligi, Merkez",
+   "lig_kodu": 2667,
+   "ev": "Bishop´s Stortford",
+   "deplasman": "Peterborough S.",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3332897,
+   "lig": "Yunanistan Süper Lig",
+   "lig_kodu": 262,
+   "ev": "Volos",
+   "deplasman": "Asteras T.",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3332903,
+   "lig": "İtalya Serie B",
+   "lig_kodu": 1774,
+   "ev": "US Palermo",
+   "deplasman": "Benevento",
+   "baslama_tr": "2026-11-28T21:30:00+03:00",
+   "market_sayisi": 83
+  },
+  {
+   "kod": 3332910,
+   "lig": "Hırvatistan Druga NL",
+   "lig_kodu": 33410,
+   "ev": "NK Radnik Krizevci",
+   "deplasman": "Grobnican",
+   "baslama_tr": "2026-11-28T15:30:00+03:00",
+   "market_sayisi": 9
+  },
+  {
+   "kod": 3332915,
+   "lig": "İsviçre Süper Lig",
+   "lig_kodu": 122,
+   "ev": "Grasshoppers",
+   "deplasman": "Basel",
+   "baslama_tr": "2026-11-28T20:00:00+03:00",
+   "market_sayisi": 70
+  },
+  {
+   "kod": 3332921,
+   "lig": "İngiltere Güney Ligi, Güney",
+   "lig_kodu": 2665,
+   "ev": "Chippenham",
+   "deplasman": "Bath City",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3332922,
+   "lig": "İtalya Serie C",
+   "lig_kodu": 10096,
+   "ev": "AC Lumezzane",
+   "deplasman": "Desenzano Calvina",
+   "baslama_tr": "2026-11-28T19:30:00+03:00",
+   "market_sayisi": 35
+  },
+  {
+   "kod": 3332931,
+   "lig": "İngiltere Ulusal Lig, Kuzey",
+   "lig_kodu": 134,
+   "ev": "Merthyr Town",
+   "deplasman": "Worksop Town",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 34
+  },
+  {
+   "kod": 3332934,
+   "lig": "Ruanda Ulusal Lig",
+   "lig_kodu": 33383,
+   "ev": "Etincelles",
+   "deplasman": "Gasogi Utd",
+   "baslama_tr": "2026-11-28T16:00:00+03:00",
+   "market_sayisi": 2
+  },
+  {
+   "kod": 3332936,
+   "lig": "İngiltere Championship",
+   "lig_kodu": 52,
+   "ev": "Preston",
+   "deplasman": "Norwich City",
+   "baslama_tr": "2026-11-28T15:30:00+03:00",
+   "market_sayisi": 83
+  },
+  {
+   "kod": 3332942,
+   "lig": "İspanya Gençler Onur Klasmanı",
+   "lig_kodu": 10215,
+   "ev": "Tenerife U19",
+   "deplasman": "CD Herbania U19",
+   "baslama_tr": "2026-11-28T15:00:00+03:00",
+   "market_sayisi": 5
+  },
+  {
+   "kod": 3332963,
+   "lig": "Hollanda 2. Etap",
+   "lig_kodu": 33631,
+   "ev": "VV Kloetinge",
+   "deplasman": "Almere City",
+   "baslama_tr": "2026-11-28T17:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3332974,
+   "lig": "Filipinler Futbol Ligi",
+   "lig_kodu": 33575,
+   "ev": "Maharlika Manila",
+   "deplasman": "Kaya Iloi",
+   "baslama_tr": "2026-11-28T11:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3332977,
+   "lig": "İngiltere Premier Lig 2, 1. Grup",
+   "lig_kodu": 33472,
+   "ev": "Liverpool U21",
+   "deplasman": "Birmingham City U21",
+   "baslama_tr": "2026-11-28T17:00:00+03:00",
+   "market_sayisi": 9
+  },
+  {
+   "kod": 3332979,
+   "lig": "İngiltere Ulusal Lig",
+   "lig_kodu": 401,
+   "ev": "Hornchurch",
+   "deplasman": "Solihull Moors",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3332980,
+   "lig": "Vietnam V-Ligi",
+   "lig_kodu": 16340,
+   "ev": "Ha Noi",
+   "deplasman": "Hong Linh",
+   "baslama_tr": "2026-11-28T15:15:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3332989,
+   "lig": "Polonya 2. Lig",
+   "lig_kodu": 1894,
+   "ev": "Slask W. II",
+   "deplasman": "Podhale Nowy Targ",
+   "baslama_tr": "2026-11-28T14:30:00+03:00",
+   "market_sayisi": 35
+  },
+  {
+   "kod": 3333000,
+   "lig": "İtalya Serie C",
+   "lig_kodu": 10096,
+   "ev": "Ath Carpi",
+   "deplasman": "C. Lecco",
+   "baslama_tr": "2026-11-28T16:30:00+03:00",
+   "market_sayisi": 35
+  },
+  {
+   "kod": 3333001,
+   "lig": "İngiltere Premier Lig",
+   "lig_kodu": 43,
+   "ev": "Leeds Utd",
+   "deplasman": "Coventry",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 96
+  },
+  {
+   "kod": 3333003,
+   "lig": "İngiltere Ulusal Lig, Güney",
+   "lig_kodu": 140,
+   "ev": "Billericay",
+   "deplasman": "Horsham",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 36
+  },
+  {
+   "kod": 3333006,
+   "lig": "Moldova Ulusal Lig ",
+   "lig_kodu": 17682,
+   "ev": "Dacia Buiucani",
+   "deplasman": "Zimbru Chisinau",
+   "baslama_tr": "2026-11-28T16:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3333009,
+   "lig": "Zambiya Süper Lig, Grup B",
+   "lig_kodu": 82473,
+   "ev": "Roan Utd",
+   "deplasman": "Nkwazi",
+   "baslama_tr": "2026-11-28T16:00:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3333010,
+   "lig": "Hollanda 2. Etap",
+   "lig_kodu": 33631,
+   "ev": "Kozakken Boys",
+   "deplasman": "Amsterdamsche",
+   "baslama_tr": "2026-11-28T17:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3333015,
+   "lig": "İngiltere Championship",
+   "lig_kodu": 52,
+   "ev": "Millwall",
+   "deplasman": "Burnley",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 83
+  },
+  {
+   "kod": 3333017,
+   "lig": "Portekiz 2. Lig",
+   "lig_kodu": 1897,
+   "ev": "Lusitania",
+   "deplasman": "Vizela",
+   "baslama_tr": "2026-11-28T21:00:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3333030,
+   "lig": "Kuzey İrlanda Championship",
+   "lig_kodu": 1868,
+   "ev": "Newington YC",
+   "deplasman": "Glenavon",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 15
+  },
+  {
+   "kod": 3333038,
+   "lig": "İtalya Serie C",
+   "lig_kodu": 10096,
+   "ev": "Salernitana",
+   "deplasman": "SS Monopoli",
+   "baslama_tr": "2026-11-28T19:30:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3333046,
+   "lig": "Suudi Arabistan 2.Lig, 2. Grup",
+   "lig_kodu": 69243,
+   "ev": "AL Nojoom",
+   "deplasman": "AL Washm",
+   "baslama_tr": "2026-11-28T14:55:00+03:00",
+   "market_sayisi": 9
+  },
+  {
+   "kod": 3333056,
+   "lig": "Hırvatistan 1. HNL",
+   "lig_kodu": 207,
+   "ev": "L. Zagreb",
+   "deplasman": "NK Slaven",
+   "baslama_tr": "2026-11-28T17:00:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3333062,
+   "lig": "İtalya Serie C",
+   "lig_kodu": 10096,
+   "ev": "Monterosi T.",
+   "deplasman": "Citta Di Campobasso",
+   "baslama_tr": "2026-11-28T16:30:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3333065,
+   "lig": "Almanya Böl. Lig, Batı",
+   "lig_kodu": 1005,
+   "ev": "Oberhausen",
+   "deplasman": "Bonner",
+   "baslama_tr": "2026-11-28T16:00:00+03:00",
+   "market_sayisi": 19
+  },
+  {
+   "kod": 3333071,
+   "lig": "İngiltere Ulusal Lig",
+   "lig_kodu": 401,
+   "ev": "AFC Fylde",
+   "deplasman": "Aldershot",
+   "baslama_tr": "2026-11-28T15:30:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3333072,
+   "lig": "BAE 1.Lig",
+   "lig_kodu": 22625,
+   "ev": "AL Dhaid",
+   "deplasman": "Dibba AL Hisn SC",
+   "baslama_tr": "2026-11-28T15:40:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3333095,
+   "lig": "İngiltere 2. Lig",
+   "lig_kodu": 12,
+   "ev": "Fleetwood",
+   "deplasman": "Accrington",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3333097,
+   "lig": "Macaristan 2. Ligi",
+   "lig_kodu": 2702,
+   "ev": "Gyirmot Gyor",
+   "deplasman": "Fehervar",
+   "baslama_tr": "2026-11-28T19:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3333111,
+   "lig": "Hollanda 2. Etap",
+   "lig_kodu": 33631,
+   "ev": "KVV Quick Boys",
+   "deplasman": "De Treffers",
+   "baslama_tr": "2026-11-28T17:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3333112,
+   "lig": "İngiltere Ulusal Lig, Güney",
+   "lig_kodu": 140,
+   "ev": "Folkestone I.",
+   "deplasman": "Hampton&Richmond",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 35
+  },
+  {
+   "kod": 3333113,
+   "lig": "Yunanistan Süper Lig",
+   "lig_kodu": 262,
+   "ev": "AE Kifisia",
+   "deplasman": "PAE PS Kalamata",
+   "baslama_tr": "2026-11-28T21:00:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3333119,
+   "lig": "Romanya 2. Lig",
+   "lig_kodu": 17089,
+   "ev": "Asa Targu Mures",
+   "deplasman": "Csm Satu Mare",
+   "baslama_tr": "2026-11-28T12:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3333121,
+   "lig": "İngiltere Güney Ligi, Güney",
+   "lig_kodu": 2665,
+   "ev": "Plymouth Parkway",
+   "deplasman": "Sholing",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 10
+  },
+  {
+   "kod": 3333138,
+   "lig": "Almanya Bundesliga",
+   "lig_kodu": 45,
+   "ev": "Paderborn",
+   "deplasman": "Schalke 04",
+   "baslama_tr": "2026-11-28T17:30:00+03:00",
+   "market_sayisi": 95
+  },
+  {
+   "kod": 3333141,
+   "lig": "Singapur Premier Lig",
+   "lig_kodu": 985,
+   "ev": "Balestier",
+   "deplasman": "Hougang Utd",
+   "baslama_tr": "2026-11-28T14:30:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3333147,
+   "lig": "Bulgaristan 2. Lig",
+   "lig_kodu": 33379,
+   "ev": "Pirin Blagoevgrad",
+   "deplasman": "Dobrudzha Dobrich",
+   "baslama_tr": "2026-11-28T15:30:00+03:00",
+   "market_sayisi": 19
+  },
+  {
+   "kod": 3333151,
+   "lig": "İngiltere Ulusal Lig, Güney",
+   "lig_kodu": 140,
+   "ev": "H. Hempstead",
+   "deplasman": "Walton & Hersham",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 35
+  },
+  {
+   "kod": 3333152,
+   "lig": "Polonya 2. Lig",
+   "lig_kodu": 1894,
+   "ev": "G. Leczna",
+   "deplasman": "Swit Skolwin",
+   "baslama_tr": "2026-11-28T14:00:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3333155,
+   "lig": "Fransa Ligue 1",
+   "lig_kodu": 381,
+   "ev": "Angers",
+   "deplasman": "RC Lens",
+   "baslama_tr": "2026-11-28T19:15:00+03:00",
+   "market_sayisi": 93
+  },
+  {
+   "kod": 3333157,
+   "lig": "Fransa Ligue 1",
+   "lig_kodu": 381,
+   "ev": "PSG",
+   "deplasman": "Lorient",
+   "baslama_tr": "2026-11-28T22:45:00+03:00",
+   "market_sayisi": 103
+  },
+  {
+   "kod": 3333174,
+   "lig": "İngiltere Ulusal Lig, Kuzey",
+   "lig_kodu": 134,
+   "ev": "Radcliffe",
+   "deplasman": "Chester",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 37
+  },
+  {
+   "kod": 3333181,
+   "lig": "İngiltere Ulusal Lig, Kuzey",
+   "lig_kodu": 134,
+   "ev": "Hebburn Town",
+   "deplasman": "Bedford Town",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 34
+  },
+  {
+   "kod": 3333183,
+   "lig": "Endonezya 1. Lig",
+   "lig_kodu": 974,
+   "ev": "Psim Yogyakarta",
+   "deplasman": "Persijap Jepara",
+   "baslama_tr": "2026-11-28T11:30:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3333186,
+   "lig": "Güney Kore K-Lig 2",
+   "lig_kodu": 1809,
+   "ev": "Yongin",
+   "deplasman": "Paju Citizen",
+   "baslama_tr": "2026-11-28T08:00:00+03:00",
+   "market_sayisi": 35
+  },
+  {
+   "kod": 3333187,
+   "lig": "İngiltere Championship",
+   "lig_kodu": 52,
+   "ev": "West Ham",
+   "deplasman": "Stoke City",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 83
+  },
+  {
+   "kod": 3333197,
+   "lig": "İngiltere Güney Ligi, Güney",
+   "lig_kodu": 2665,
+   "ev": "Malvern Town",
+   "deplasman": "Chertsey Town",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3333198,
+   "lig": "Tayland 1.Lig",
+   "lig_kodu": 22381,
+   "ev": "Pattani",
+   "deplasman": "Chiangrai Utd",
+   "baslama_tr": "2026-11-28T14:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3333206,
+   "lig": "Rusya Premier Lig",
+   "lig_kodu": 62,
+   "ev": "CSKA Moskova",
+   "deplasman": "Zenit",
+   "baslama_tr": "2026-11-28T16:30:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3333208,
+   "lig": "Rusya Premier Lig",
+   "lig_kodu": 62,
+   "ev": "B. Kaliningrad",
+   "deplasman": "Akhmat Grozny",
+   "baslama_tr": "2026-11-28T19:00:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3333213,
+   "lig": "Galler Championship, Güney",
+   "lig_kodu": 22382,
+   "ev": "Llantwit Major",
+   "deplasman": "Treowen Stars",
+   "baslama_tr": "2026-11-28T17:00:00+03:00",
+   "market_sayisi": 18
+  },
+  {
+   "kod": 3333214,
+   "lig": "İtalya Serie C",
+   "lig_kodu": 10096,
+   "ev": "U.S. Pergolettese",
+   "deplasman": "AS Giana E.",
+   "baslama_tr": "2026-11-28T19:30:00+03:00",
+   "market_sayisi": 34
+  },
+  {
+   "kod": 3333218,
+   "lig": "Polonya 1. Lig",
+   "lig_kodu": 997,
+   "ev": "Nieciecza",
+   "deplasman": "Stal Rzeszow",
+   "baslama_tr": "2026-11-28T17:30:00+03:00",
+   "market_sayisi": 34
+  },
+  {
+   "kod": 3333221,
+   "lig": "Almanya U19 Gençlik Ligi",
+   "lig_kodu": 10301,
+   "ev": "SV Meppen U19",
+   "deplasman": "Hannover 96 U19",
+   "baslama_tr": "2026-11-28T15:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3333223,
+   "lig": "Almanya U19 Gençlik Ligi",
+   "lig_kodu": 10301,
+   "ev": "Hamburger U19",
+   "deplasman": "Magdeburg U19",
+   "baslama_tr": "2026-11-28T13:30:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3333235,
+   "lig": "Endonezya 1. Lig",
+   "lig_kodu": 974,
+   "ev": "Bali Utd",
+   "deplasman": "Bhayangkara",
+   "baslama_tr": "2026-11-28T11:30:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3333244,
+   "lig": "Polonya 1. Lig",
+   "lig_kodu": 997,
+   "ev": "P. Bielsko",
+   "deplasman": "Pogon Grodzisk M.",
+   "baslama_tr": "2026-11-28T17:30:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3333251,
+   "lig": "Güney Afrika Premier Lig",
+   "lig_kodu": 742,
+   "ev": "AmaZulu",
+   "deplasman": "Milford",
+   "baslama_tr": "2026-11-28T16:30:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3333258,
+   "lig": "İngiltere Isthmian Ligi",
+   "lig_kodu": 2666,
+   "ev": "Burgess Hill",
+   "deplasman": "Eastbourne Bor.",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3333289,
+   "lig": "Türkiye Süper Ligi",
+   "lig_kodu": 584,
+   "ev": "Samsunspor",
+   "deplasman": "Gençlerbirliği",
+   "baslama_tr": "2026-11-28T16:00:00+03:00",
+   "market_sayisi": 92
+  },
+  {
+   "kod": 3333292,
+   "lig": "Portekiz 3. Lig A Grubu",
+   "lig_kodu": 28245,
+   "ev": "P. Ferreira",
+   "deplasman": "AD Marco 09",
+   "baslama_tr": "2026-11-28T20:15:00+03:00",
+   "market_sayisi": 18
+  },
+  {
+   "kod": 3333304,
+   "lig": "İspanya Gençler Onur Klasmanı",
+   "lig_kodu": 10215,
+   "ev": "CD Sobradillo U19",
+   "deplasman": "UD Las Palmas U19",
+   "baslama_tr": "2026-11-28T15:00:00+03:00",
+   "market_sayisi": 9
+  },
+  {
+   "kod": 3333308,
+   "lig": "İtalya Serie C",
+   "lig_kodu": 10096,
+   "ev": "Giugliano 1928",
+   "deplasman": "Altamura",
+   "baslama_tr": "2026-11-28T16:30:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3333312,
+   "lig": "İngiltere Güney Ligi, Güney",
+   "lig_kodu": 2665,
+   "ev": "Basingstoke",
+   "deplasman": "Gloucester",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3333314,
+   "lig": "Rusya Premier Lig",
+   "lig_kodu": 62,
+   "ev": "Rubin Kazan",
+   "deplasman": "Akron Tolyatti",
+   "baslama_tr": "2026-11-28T14:00:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3333316,
+   "lig": "Avusturya 2. Lig",
+   "lig_kodu": 598,
+   "ev": "Admira Wacker",
+   "deplasman": "Liefering",
+   "baslama_tr": "2026-11-28T17:30:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3333328,
+   "lig": "Tanzanya Premier Lig",
+   "lig_kodu": 19114,
+   "ev": "Mashujaa",
+   "deplasman": "Tabora Utd",
+   "baslama_tr": "2026-11-28T16:00:00+03:00",
+   "market_sayisi": 19
+  },
+  {
+   "kod": 3333330,
+   "lig": "Avusturya 2. Lig",
+   "lig_kodu": 598,
+   "ev": "R. Wien (Amt)",
+   "deplasman": "Kapfenberger SV",
+   "baslama_tr": "2026-11-28T17:30:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3333333,
+   "lig": "Tayland Şampiyonası",
+   "lig_kodu": 22380,
+   "ev": "Khon Kaen Utd",
+   "deplasman": "Kasetsart",
+   "baslama_tr": "2026-11-28T14:30:00+03:00",
+   "market_sayisi": 9
+  },
+  {
+   "kod": 3333335,
+   "lig": "Güney Afrika Championship",
+   "lig_kodu": 2701,
+   "ev": "Magesi",
+   "deplasman": "Lerumo Lions",
+   "baslama_tr": "2026-11-28T16:30:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3333347,
+   "lig": "İngiltere Ulusal Lig, Güney",
+   "lig_kodu": 140,
+   "ev": "Truro City",
+   "deplasman": "Dover",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3333349,
+   "lig": "Danimarka 1. Lig",
+   "lig_kodu": 302,
+   "ev": "HB Koege",
+   "deplasman": "Aarhus Fremad",
+   "baslama_tr": "2026-11-28T15:30:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3333355,
+   "lig": "İngiltere Championship",
+   "lig_kodu": 52,
+   "ev": "Birmingham",
+   "deplasman": "Bolton",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 85
+  },
+  {
+   "kod": 3333357,
+   "lig": "İngiltere Isthmian Ligi",
+   "lig_kodu": 2666,
+   "ev": "Leatherhead",
+   "deplasman": "Lewes",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3333358,
+   "lig": "İngiltere Güney Ligi, Güney",
+   "lig_kodu": 2665,
+   "ev": "Hanwell Town",
+   "deplasman": "Frome",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3333359,
+   "lig": "Macaristan 1. Ligi",
+   "lig_kodu": 576,
+   "ev": "Vasas",
+   "deplasman": "B. Honved",
+   "baslama_tr": "2026-11-28T15:30:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3333369,
+   "lig": "Hırvatistan Druga NL",
+   "lig_kodu": 33410,
+   "ev": "NK Zagora",
+   "deplasman": "NK Inker Zapresic",
+   "baslama_tr": "2026-11-28T15:30:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3333380,
+   "lig": "İngiltere Kuzey Premier Ligi",
+   "lig_kodu": 2646,
+   "ev": "Ilkeston Town",
+   "deplasman": "AFC Emley",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3333389,
+   "lig": "Slovakya Superliga",
+   "lig_kodu": 1939,
+   "ev": "KFC Komarno",
+   "deplasman": "MSK Zilina",
+   "baslama_tr": "2026-11-28T17:30:00+03:00",
+   "market_sayisi": 34
+  },
+  {
+   "kod": 3333393,
+   "lig": "Hollanda 2. Etap",
+   "lig_kodu": 33631,
+   "ev": "Gvvv Veenendaal",
+   "deplasman": "BVV Barendrecht",
+   "baslama_tr": "2026-11-28T16:30:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3333394,
+   "lig": "Almanya Böl. Lig, Kuzey ",
+   "lig_kodu": 957,
+   "ev": "W. Flensburg",
+   "deplasman": "Hannoverscher",
+   "baslama_tr": "2026-11-28T16:00:00+03:00",
+   "market_sayisi": 18
+  },
+  {
+   "kod": 3333395,
+   "lig": "Hırvatistan Druga NL",
+   "lig_kodu": 33410,
+   "ev": "NK Lucko",
+   "deplasman": "NK Bjelovar",
+   "baslama_tr": "2026-11-28T15:30:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3333401,
+   "lig": "İngiltere 1. Lig",
+   "lig_kodu": 24,
+   "ev": "S. Wednesday",
+   "deplasman": "Reading",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3333409,
+   "lig": "Portekiz Premier Lig",
+   "lig_kodu": 566,
+   "ev": "A. de Viseu",
+   "deplasman": "Alverca",
+   "baslama_tr": "2026-11-28T21:00:00+03:00",
+   "market_sayisi": 82
+  },
+  {
+   "kod": 3333419,
+   "lig": "İngiltere Ulusal Lig, Güney",
+   "lig_kodu": 140,
+   "ev": "Weston Super Mare",
+   "deplasman": "Maidenhead",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 35
+  },
+  {
+   "kod": 3333423,
+   "lig": "İngiltere 2. Lig",
+   "lig_kodu": 12,
+   "ev": "Rochdale",
+   "deplasman": "Barnet",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3333431,
+   "lig": "İtalya Serie C",
+   "lig_kodu": 10096,
+   "ev": "AS Gubbio 1910",
+   "deplasman": "Vado",
+   "baslama_tr": "2026-11-28T16:30:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3333435,
+   "lig": "İngiltere Kuzey Premier Ligi",
+   "lig_kodu": 2646,
+   "ev": "G'borough Tr.",
+   "deplasman": "Alfreton",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 9
+  },
+  {
+   "kod": 3333436,
+   "lig": "Almanya Bundesliga",
+   "lig_kodu": 45,
+   "ev": "Hamburg",
+   "deplasman": "Bayern Münih",
+   "baslama_tr": "2026-11-28T17:30:00+03:00",
+   "market_sayisi": 106
+  },
+  {
+   "kod": 3333437,
+   "lig": "İngiltere Championship",
+   "lig_kodu": 52,
+   "ev": "Derby County",
+   "deplasman": "Watford",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 84
+  },
+  {
+   "kod": 3333444,
+   "lig": "İngiltere Güney Ligi, Güney",
+   "lig_kodu": 2665,
+   "ev": "Bracknell Town",
+   "deplasman": "Wimborne",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3333448,
+   "lig": "Hırvatistan Prva NL",
+   "lig_kodu": 33402,
+   "ev": "NK Segesta",
+   "deplasman": "NK Dubrava",
+   "baslama_tr": "2026-11-28T14:45:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3333463,
+   "lig": "İngiltere Isthmian Ligi",
+   "lig_kodu": 2666,
+   "ev": "Dulwich",
+   "deplasman": "Stanway Rovers",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 10
+  },
+  {
+   "kod": 3333467,
+   "lig": "İspanya Segunda RFEF",
+   "lig_kodu": 10063,
+   "ev": "UD Poblense",
+   "deplasman": "RCD Mallorca B",
+   "baslama_tr": "2026-11-28T19:30:00+03:00",
+   "market_sayisi": 18
+  },
+  {
+   "kod": 3333472,
+   "lig": "Sırbistan Superliga",
+   "lig_kodu": 5578,
+   "ev": "FK Cukaricki",
+   "deplasman": "FK M. Lucani",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3333473,
+   "lig": "İngiltere Kuzey Premier Ligi",
+   "lig_kodu": 2646,
+   "ev": "Guiseley",
+   "deplasman": "Whitby Town",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3335992,
+   "lig": "Fransa U19 Ulusal Şampiyonası",
+   "lig_kodu": 10213,
+   "ev": "Montpellier U19",
+   "deplasman": "Olympique Rovenain U19",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3336006,
+   "lig": "İspanya La Liga",
+   "lig_kodu": 129,
+   "ev": "Real Betis",
+   "deplasman": "Vallecano",
+   "baslama_tr": "2026-11-28T16:00:00+03:00",
+   "market_sayisi": 96
+  },
+  {
+   "kod": 3336011,
+   "lig": "İspanya Primera RFEF",
+   "lig_kodu": 10074,
+   "ev": "Logrones",
+   "deplasman": "Barakaldo",
+   "baslama_tr": "2026-11-28T18:30:00+03:00",
+   "market_sayisi": 34
+  },
+  {
+   "kod": 3336016,
+   "lig": "İspanya Primera RFEF",
+   "lig_kodu": 10074,
+   "ev": "Algeciras",
+   "deplasman": "Huesca",
+   "baslama_tr": "2026-11-28T18:30:00+03:00",
+   "market_sayisi": 35
+  },
+  {
+   "kod": 3336030,
+   "lig": "İspanya 3. Federasyon",
+   "lig_kodu": 10214,
+   "ev": "Motril",
+   "deplasman": "Melilla",
+   "baslama_tr": "2026-11-28T20:00:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3336033,
+   "lig": "Ekvador Pro Lig",
+   "lig_kodu": 54553,
+   "ev": "CSD Macara",
+   "deplasman": "LDU Quito",
+   "baslama_tr": "2026-11-28T22:00:00+03:00",
+   "market_sayisi": 18
+  },
+  {
+   "kod": 3336047,
+   "lig": "İspanya Primera RFEF",
+   "lig_kodu": 10074,
+   "ev": "Alcorcon",
+   "deplasman": "Zaragoza",
+   "baslama_tr": "2026-11-28T20:45:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3336062,
+   "lig": "İspanya 3. Federasyon",
+   "lig_kodu": 10214,
+   "ev": "Levante B",
+   "deplasman": "Hercules B",
+   "baslama_tr": "2026-11-28T14:00:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3336066,
+   "lig": "İspanya Gençler Onur Klasmanı",
+   "lig_kodu": 10215,
+   "ev": "Damm U19",
+   "deplasman": "CE Sabadell U19",
+   "baslama_tr": "2026-11-28T19:00:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3336084,
+   "lig": "İspanya 3. Federasyon",
+   "lig_kodu": 10214,
+   "ev": "UE Cornella",
+   "deplasman": "Montanesa",
+   "baslama_tr": "2026-11-28T20:15:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3336145,
+   "lig": "İspanya 3. Federasyon",
+   "lig_kodu": 10214,
+   "ev": "CD Utiel",
+   "deplasman": "Ath Torrellano",
+   "baslama_tr": "2026-11-28T19:00:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3336161,
+   "lig": "İspanya Segunda RFEF",
+   "lig_kodu": 10063,
+   "ev": "Barcelona B",
+   "deplasman": "Terrassa",
+   "baslama_tr": "2026-11-28T19:30:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3336174,
+   "lig": "İspanya Segunda RFEF",
+   "lig_kodu": 10063,
+   "ev": "Atletico Astorga",
+   "deplasman": "Alaves II",
+   "baslama_tr": "2026-11-28T19:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3336203,
+   "lig": "İspanya Segunda RFEF",
+   "lig_kodu": 10063,
+   "ev": "Club Portugalete",
+   "deplasman": "Rayo Cantabria",
+   "baslama_tr": "2026-11-28T20:30:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3336221,
+   "lig": "İspanya 3. Federasyon",
+   "lig_kodu": 10214,
+   "ev": "UP Langreo",
+   "deplasman": "CD Mosconia",
+   "baslama_tr": "2026-11-28T20:00:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3336222,
+   "lig": "İspanya 3. Federasyon",
+   "lig_kodu": 10214,
+   "ev": "Mexico",
+   "deplasman": "RC Alcobendas",
+   "baslama_tr": "2026-11-28T19:00:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3336224,
+   "lig": "İspanya Segunda RFEF",
+   "lig_kodu": 10063,
+   "ev": "RSD Alcala",
+   "deplasman": "Real Avila",
+   "baslama_tr": "2026-11-28T19:00:00+03:00",
+   "market_sayisi": 18
+  },
+  {
+   "kod": 3336234,
+   "lig": "İspanya Segunda RFEF",
+   "lig_kodu": 10063,
+   "ev": "CD Ebro",
+   "deplasman": "Espanyol II",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3336243,
+   "lig": "İspanya Segunda RFEF",
+   "lig_kodu": 10063,
+   "ev": "Real Murcia B",
+   "deplasman": "CD Castellon B",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3336262,
+   "lig": "İspanya Primera RFEF",
+   "lig_kodu": 10074,
+   "ev": "Juventud Torremolinos",
+   "deplasman": "Cartagena",
+   "baslama_tr": "2026-11-28T20:45:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3336276,
+   "lig": "İspanya 3. Federasyon",
+   "lig_kodu": 10214,
+   "ev": "Atl Santa Cruz",
+   "deplasman": "Algar",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3336294,
+   "lig": "İspanya 3. Federasyon",
+   "lig_kodu": 10214,
+   "ev": "CD Elemental Atl M.",
+   "deplasman": "CD Laredo",
+   "baslama_tr": "2026-11-28T19:00:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3336337,
+   "lig": "İspanya Segunda RFEF",
+   "lig_kodu": 10063,
+   "ev": "Badajoz",
+   "deplasman": "Mijas Las Lagunas",
+   "baslama_tr": "2026-11-28T21:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3336339,
+   "lig": "Norveç Eliteserien",
+   "lig_kodu": 573,
+   "ev": "Bodo Glimt",
+   "deplasman": "Kfum Oslo",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 66
+  },
+  {
+   "kod": 3336345,
+   "lig": "İspanya Gençler Onur Klasmanı",
+   "lig_kodu": 10215,
+   "ev": "AD Union Adarve U19",
+   "deplasman": "Merida U19",
+   "baslama_tr": "2026-11-28T18:30:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3336356,
+   "lig": "İspanya Gençler Onur Klasmanı",
+   "lig_kodu": 10215,
+   "ev": "Danok Bat U19",
+   "deplasman": "Antiguoko Ke U19",
+   "baslama_tr": "2026-11-28T13:00:00+03:00",
+   "market_sayisi": 2
+  },
+  {
+   "kod": 3336361,
+   "lig": "Türkiye 1. Lig",
+   "lig_kodu": 1980,
+   "ev": "Bandırmaspor",
+   "deplasman": "Batman Petrol",
+   "baslama_tr": "2026-11-28T13:30:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3336366,
+   "lig": "İspanya 2. Lig",
+   "lig_kodu": 1951,
+   "ev": "Real Valladolid",
+   "deplasman": "R. Sociedad B",
+   "baslama_tr": "2026-11-28T23:00:00+03:00",
+   "market_sayisi": 83
+  },
+  {
+   "kod": 3336421,
+   "lig": "İspanya 3. Federasyon",
+   "lig_kodu": 10214,
+   "ev": "L. Entregu",
+   "deplasman": "UC Ceares",
+   "baslama_tr": "2026-11-28T19:30:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3336424,
+   "lig": "İspanya 2. Lig",
+   "lig_kodu": 1951,
+   "ev": "Albacete",
+   "deplasman": "Tenerife",
+   "baslama_tr": "2026-11-28T18:15:00+03:00",
+   "market_sayisi": 84
+  },
+  {
+   "kod": 3336462,
+   "lig": "İspanya 3. Federasyon",
+   "lig_kodu": 10214,
+   "ev": "Pontevedra B",
+   "deplasman": "Celtiga",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3336476,
+   "lig": "Portekiz 2. Lig",
+   "lig_kodu": 1897,
+   "ev": "Avs Futebol Sad",
+   "deplasman": "Leixoes",
+   "baslama_tr": "2026-11-28T14:00:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3336478,
+   "lig": "İspanya 3. Federasyon",
+   "lig_kodu": 10214,
+   "ev": "Platges de Calvia",
+   "deplasman": "Alcudia",
+   "baslama_tr": "2026-11-28T19:00:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3336494,
+   "lig": "İspanya 3. Federasyon",
+   "lig_kodu": 10214,
+   "ev": "Yague",
+   "deplasman": "Oyonesa",
+   "baslama_tr": "2026-11-28T20:30:00+03:00",
+   "market_sayisi": 9
+  },
+  {
+   "kod": 3336511,
+   "lig": "İspanya 3. Federasyon",
+   "lig_kodu": 10214,
+   "ev": "CD Agoncillo",
+   "deplasman": "Cdfc La Calzada",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3336516,
+   "lig": "İspanya Gençler Onur Klasmanı",
+   "lig_kodu": 10215,
+   "ev": "Leganes U19",
+   "deplasman": "AD Alcorcon U19",
+   "baslama_tr": "2026-11-28T17:30:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3336524,
+   "lig": "İspanya Gençler Onur Klasmanı",
+   "lig_kodu": 10215,
+   "ev": "Cartagena U19",
+   "deplasman": "Real Murcia U19",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3336574,
+   "lig": "İspanya Primera RFEF",
+   "lig_kodu": 10074,
+   "ev": "I. Eivissa",
+   "deplasman": "Atl Madrid B",
+   "baslama_tr": "2026-11-28T18:30:00+03:00",
+   "market_sayisi": 35
+  },
+  {
+   "kod": 3336578,
+   "lig": "İspanya 3. Federasyon",
+   "lig_kodu": 10214,
+   "ev": "AD San Juan",
+   "deplasman": "CD Avance Ezcabarte",
+   "baslama_tr": "2026-11-28T20:30:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3336585,
+   "lig": "İspanya 3. Federasyon",
+   "lig_kodu": 10214,
+   "ev": "Malagueno",
+   "deplasman": "Torredonjimeno",
+   "baslama_tr": "2026-11-28T21:00:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3336588,
+   "lig": "Türkiye 1. Lig",
+   "lig_kodu": 1980,
+   "ev": "Sivasspor",
+   "deplasman": "Bodrum FK",
+   "baslama_tr": "2026-11-28T13:30:00+03:00",
+   "market_sayisi": 34
+  },
+  {
+   "kod": 3336595,
+   "lig": "Nijerya Premier Ligi",
+   "lig_kodu": 5593,
+   "ev": "Plateau Utd",
+   "deplasman": "Ikorodu City",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3336613,
+   "lig": "İspanya 3. Federasyon",
+   "lig_kodu": 10214,
+   "ev": "Toledo",
+   "deplasman": "Cd Torrijos",
+   "baslama_tr": "2026-11-28T18:30:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3336642,
+   "lig": "İspanya Segunda RFEF",
+   "lig_kodu": 10063,
+   "ev": "Pena Sport",
+   "deplasman": "Osasuna B",
+   "baslama_tr": "2026-11-28T20:30:00+03:00",
+   "market_sayisi": 18
+  },
+  {
+   "kod": 3336649,
+   "lig": "İspanya Segunda RFEF",
+   "lig_kodu": 10063,
+   "ev": "A. Sanluqueno",
+   "deplasman": "CA Antoniano",
+   "baslama_tr": "2026-11-28T21:00:00+03:00",
+   "market_sayisi": 18
+  },
+  {
+   "kod": 3336655,
+   "lig": "İspanya Segunda RFEF",
+   "lig_kodu": 10063,
+   "ev": "CD Arnedo",
+   "deplasman": "Reus Reddis",
+   "baslama_tr": "2026-11-28T19:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3336661,
+   "lig": "Türkiye 1. Lig",
+   "lig_kodu": 1980,
+   "ev": "Vanspor FK",
+   "deplasman": "Bursaspor",
+   "baslama_tr": "2026-11-28T16:00:00+03:00",
+   "market_sayisi": 34
+  },
+  {
+   "kod": 3336671,
+   "lig": "İspanya Primera RFEF",
+   "lig_kodu": 10074,
+   "ev": "Union Irun",
+   "deplasman": "A.Club De Getxo",
+   "baslama_tr": "2026-11-28T20:45:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3336678,
+   "lig": "İspanya Primera RFEF",
+   "lig_kodu": 10074,
+   "ev": "CD Coria",
+   "deplasman": "SD Ponferradina",
+   "baslama_tr": "2026-11-28T15:00:00+03:00",
+   "market_sayisi": 36
+  },
+  {
+   "kod": 3336681,
+   "lig": "İspanya 3. Federasyon",
+   "lig_kodu": 10214,
+   "ev": "SFC Minerva",
+   "deplasman": "Ucam Murcia B",
+   "baslama_tr": "2026-11-28T18:15:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3336686,
+   "lig": "Andorra Primera Division",
+   "lig_kodu": 22347,
+   "ev": "Esperanca D. Andorra",
+   "deplasman": "Rangers",
+   "baslama_tr": "2026-11-28T22:30:00+03:00",
+   "market_sayisi": 9
+  },
+  {
+   "kod": 3336688,
+   "lig": "İspanya 3. Federasyon",
+   "lig_kodu": 10214,
+   "ev": "Atl Bembibre",
+   "deplasman": "S. Marta Tormes",
+   "baslama_tr": "2026-11-28T18:30:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3336704,
+   "lig": "İspanya 3. Federasyon",
+   "lig_kodu": 10214,
+   "ev": "CD Tropezon",
+   "deplasman": "CD Cayon",
+   "baslama_tr": "2026-11-28T20:00:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3336721,
+   "lig": "İspanya 2. Lig",
+   "lig_kodu": 1951,
+   "ev": "Eibar",
+   "deplasman": "Burgos",
+   "baslama_tr": "2026-11-28T20:30:00+03:00",
+   "market_sayisi": 83
+  },
+  {
+   "kod": 3336739,
+   "lig": "İspanya 3. Federasyon",
+   "lig_kodu": 10214,
+   "ev": "CD Roda",
+   "deplasman": "CD Acero",
+   "baslama_tr": "2026-11-28T19:00:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3336750,
+   "lig": "İspanya Primera RFEF",
+   "lig_kodu": 10074,
+   "ev": "Unionistas",
+   "deplasman": "RC Deportivo Fabril",
+   "baslama_tr": "2026-11-28T18:30:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3336753,
+   "lig": "İspanya 3. Federasyon",
+   "lig_kodu": 10214,
+   "ev": "CD Zafra",
+   "deplasman": "Santa Amalia",
+   "baslama_tr": "2026-11-28T19:00:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3336761,
+   "lig": "İspanya Segunda RFEF",
+   "lig_kodu": 10063,
+   "ev": "Y.Deportivo",
+   "deplasman": "CD Cieza",
+   "baslama_tr": "2026-11-28T19:30:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3336766,
+   "lig": "İspanya Segunda RFEF",
+   "lig_kodu": 10063,
+   "ev": "Coruxo",
+   "deplasman": "Gimnastica Torrelavega",
+   "baslama_tr": "2026-11-28T19:00:00+03:00",
+   "market_sayisi": 18
+  },
+  {
+   "kod": 3336785,
+   "lig": "İspanya 3. Federasyon",
+   "lig_kodu": 10214,
+   "ev": "La Solana",
+   "deplasman": "Villarrubia",
+   "baslama_tr": "2026-11-28T18:30:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3336817,
+   "lig": "İspanya 3. Federasyon",
+   "lig_kodu": 10214,
+   "ev": "SD Leioa",
+   "deplasman": "CD Santurtzi Ke",
+   "baslama_tr": "2026-11-28T19:00:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3336820,
+   "lig": "İspanya Segunda RFEF",
+   "lig_kodu": 10063,
+   "ev": "CD A. Baleares",
+   "deplasman": "Orihuela",
+   "baslama_tr": "2026-11-28T20:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3336831,
+   "lig": "İspanya Gençler Onur Klasmanı",
+   "lig_kodu": 10215,
+   "ev": "CD San Francisco U19",
+   "deplasman": "Elche U19",
+   "baslama_tr": "2026-11-28T15:00:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3336877,
+   "lig": "Ekvador Pro Lig",
+   "lig_kodu": 54553,
+   "ev": "Uni. Catolica",
+   "deplasman": "Independiente D. V.",
+   "baslama_tr": "2026-11-28T19:30:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3336882,
+   "lig": "İspanya La Liga",
+   "lig_kodu": 129,
+   "ev": "Real Madrid",
+   "deplasman": "Alaves",
+   "baslama_tr": "2026-11-28T23:00:00+03:00",
+   "market_sayisi": 104
+  },
+  {
+   "kod": 3336883,
+   "lig": "İspanya Gençler Onur Klasmanı",
+   "lig_kodu": 10215,
+   "ev": "CD Roces U19",
+   "deplasman": "R. Santander U19",
+   "baslama_tr": "2026-11-28T18:15:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3336884,
+   "lig": "İspanya 3. Federasyon",
+   "lig_kodu": 10214,
+   "ev": "Manchego Ciudad R.",
+   "deplasman": "CD Tarancon",
+   "baslama_tr": "2026-11-28T19:00:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3336892,
+   "lig": "İspanya 2. Lig",
+   "lig_kodu": 1951,
+   "ev": "C. Dep. Eldense",
+   "deplasman": "Girona",
+   "baslama_tr": "2026-11-28T18:15:00+03:00",
+   "market_sayisi": 83
+  },
+  {
+   "kod": 3336905,
+   "lig": "İspanya Segunda RFEF",
+   "lig_kodu": 10063,
+   "ev": "Numancia",
+   "deplasman": "Albacete Balompie B",
+   "baslama_tr": "2026-11-28T20:00:00+03:00",
+   "market_sayisi": 18
+  },
+  {
+   "kod": 3336908,
+   "lig": "İspanya 3. Federasyon",
+   "lig_kodu": 10214,
+   "ev": "Vilanova Geltru",
+   "deplasman": "San Cristobal Cp",
+   "baslama_tr": "2026-11-28T19:45:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3336931,
+   "lig": "İspanya Segunda RFEF",
+   "lig_kodu": 10063,
+   "ev": "Atl Tordesillas",
+   "deplasman": "Getafe B",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 18
+  },
+  {
+   "kod": 3336933,
+   "lig": "Norveç Eliteserien",
+   "lig_kodu": 573,
+   "ev": "Rosenborg",
+   "deplasman": "Molde",
+   "baslama_tr": "2026-11-28T20:00:00+03:00",
+   "market_sayisi": 70
+  },
+  {
+   "kod": 3336938,
+   "lig": "İspanya Gençler Onur Klasmanı",
+   "lig_kodu": 10215,
+   "ev": "Kelme U19",
+   "deplasman": "CD Castellon U19",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3336980,
+   "lig": "İspanya Segunda RFEF",
+   "lig_kodu": 10063,
+   "ev": "La Nucia",
+   "deplasman": "Ucam Murcia",
+   "baslama_tr": "2026-11-28T20:00:00+03:00",
+   "market_sayisi": 18
+  },
+  {
+   "kod": 3336985,
+   "lig": "İspanya Segunda RFEF",
+   "lig_kodu": 10063,
+   "ev": "Real Madrid C",
+   "deplasman": "Salamanca",
+   "baslama_tr": "2026-11-28T19:30:00+03:00",
+   "market_sayisi": 20
+  },
+  {
+   "kod": 3337012,
+   "lig": "İspanya Gençler Onur Klasmanı",
+   "lig_kodu": 10215,
+   "ev": "R. Majadahonda U19",
+   "deplasman": "Rayo Ciudad U19",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3337015,
+   "lig": "İspanya Segunda RFEF",
+   "lig_kodu": 10063,
+   "ev": "Calamocha",
+   "deplasman": "UE Olot",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3337032,
+   "lig": "İspanya Segunda RFEF",
+   "lig_kodu": 10063,
+   "ev": "CD Basconia",
+   "deplasman": "Sestao River Club",
+   "baslama_tr": "2026-11-28T14:00:00+03:00",
+   "market_sayisi": 19
+  },
+  {
+   "kod": 3337035,
+   "lig": "İspanya Segunda RFEF",
+   "lig_kodu": 10063,
+   "ev": "Ourense",
+   "deplasman": "SD Gernika Club",
+   "baslama_tr": "2026-11-28T19:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3337039,
+   "lig": "İspanya Segunda RFEF",
+   "lig_kodu": 10063,
+   "ev": "Compostela",
+   "deplasman": "Bergantinos",
+   "baslama_tr": "2026-11-28T19:00:00+03:00",
+   "market_sayisi": 18
+  },
+  {
+   "kod": 3337043,
+   "lig": "İspanya 3. Federasyon",
+   "lig_kodu": 10214,
+   "ev": "Praviano",
+   "deplasman": "Astur",
+   "baslama_tr": "2026-11-28T17:45:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3337061,
+   "lig": "İspanya 2. Lig",
+   "lig_kodu": 1951,
+   "ev": "Las Palmas",
+   "deplasman": "Andorra",
+   "baslama_tr": "2026-11-28T16:00:00+03:00",
+   "market_sayisi": 85
+  },
+  {
+   "kod": 3337090,
+   "lig": "İspanya 3. Federasyon",
+   "lig_kodu": 10214,
+   "ev": "SD Atletico Albericia",
+   "deplasman": "CD Guarnizo",
+   "baslama_tr": "2026-11-28T19:30:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3337096,
+   "lig": "Almanya U19 Gençlik Ligi",
+   "lig_kodu": 10301,
+   "ev": "FSV Frankfurt U19",
+   "deplasman": "FSV Mainz U19",
+   "baslama_tr": "2026-11-28T15:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3337103,
+   "lig": "Türkiye 1. Lig",
+   "lig_kodu": 1980,
+   "ev": "Muğlaspor",
+   "deplasman": "Mardin 1969",
+   "baslama_tr": "2026-11-28T19:00:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3337112,
+   "lig": "İspanya 3. Federasyon",
+   "lig_kodu": 10214,
+   "ev": "Colonia Moscardo",
+   "deplasman": "T. Valderas Alcorcon",
+   "baslama_tr": "2026-11-28T20:00:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3337120,
+   "lig": "İspanya Primera RFEF",
+   "lig_kodu": 10074,
+   "ev": "Zamora",
+   "deplasman": "Pontevedra",
+   "baslama_tr": "2026-11-28T20:45:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3337127,
+   "lig": "İspanya 3. Federasyon",
+   "lig_kodu": 10214,
+   "ev": "CD Pamplona",
+   "deplasman": "CA Cirbonero",
+   "baslama_tr": "2026-11-28T17:30:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3337143,
+   "lig": "Karadağ 1. CFL",
+   "lig_kodu": 33653,
+   "ev": "FK Otrant Olympic U.",
+   "deplasman": "FK Mornar Bar",
+   "baslama_tr": "2026-11-28T15:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3337144,
+   "lig": "İspanya Segunda RFEF",
+   "lig_kodu": 10063,
+   "ev": "San Sebastian R.",
+   "deplasman": "Navalcarnero",
+   "baslama_tr": "2026-11-28T19:00:00+03:00",
+   "market_sayisi": 18
+  },
+  {
+   "kod": 3337151,
+   "lig": "İspanya 3. Federasyon",
+   "lig_kodu": 10214,
+   "ev": "CD Lalin",
+   "deplasman": "CD Boiro",
+   "baslama_tr": "2026-11-28T22:00:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3337166,
+   "lig": "Almanya U19 Gençlik Ligi",
+   "lig_kodu": 10301,
+   "ev": "Hertha BSC U19",
+   "deplasman": "SV Babelsberg U19",
+   "baslama_tr": "2026-11-28T13:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3337184,
+   "lig": "İspanya 3. Federasyon",
+   "lig_kodu": 10214,
+   "ev": "CD Aurrera de Vitoria",
+   "deplasman": "CD Derio",
+   "baslama_tr": "2026-11-28T18:30:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3337196,
+   "lig": "İspanya Segunda RFEF",
+   "lig_kodu": 10063,
+   "ev": "SD Eibar B",
+   "deplasman": "Marino  Luanco",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3337201,
+   "lig": "İspanya 3. Federasyon",
+   "lig_kodu": 10214,
+   "ev": "Montcada",
+   "deplasman": "Badalona",
+   "baslama_tr": "2026-11-28T20:45:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3337245,
+   "lig": "İspanya Segunda RFEF",
+   "lig_kodu": 10063,
+   "ev": "Amorebieta",
+   "deplasman": "UD Llanera",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 19
+  },
+  {
+   "kod": 3337280,
+   "lig": "İspanya Primera RFEF",
+   "lig_kodu": 10074,
+   "ev": "CD Extremadura",
+   "deplasman": "CP Cacereno Sad",
+   "baslama_tr": "2026-11-28T23:00:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3337292,
+   "lig": "İspanya Gençler Onur Klasmanı",
+   "lig_kodu": 10215,
+   "ev": "CD Lugo U19",
+   "deplasman": "RC Celta de Vigo U19",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3337329,
+   "lig": "İspanya Segunda RFEF",
+   "lig_kodu": 10063,
+   "ev": "Arosa SC",
+   "deplasman": "Real Oviedo B",
+   "baslama_tr": "2026-11-28T19:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3337343,
+   "lig": "İspanya La Liga",
+   "lig_kodu": 129,
+   "ev": "Malaga",
+   "deplasman": "Ath Bilbao",
+   "baslama_tr": "2026-11-28T18:15:00+03:00",
+   "market_sayisi": 96
+  },
+  {
+   "kod": 3337347,
+   "lig": "İspanya Segunda RFEF",
+   "lig_kodu": 10063,
+   "ev": "Gimnastica Segoviana",
+   "deplasman": "Talavera R.",
+   "baslama_tr": "2026-11-28T20:00:00+03:00",
+   "market_sayisi": 18
+  },
+  {
+   "kod": 3337348,
+   "lig": "İspanya Segunda RFEF",
+   "lig_kodu": 10063,
+   "ev": "C. Sotelo Puertollano",
+   "deplasman": "Atl Madrid C",
+   "baslama_tr": "2026-11-28T19:00:00+03:00",
+   "market_sayisi": 18
+  },
+  {
+   "kod": 3337349,
+   "lig": "İspanya 3. Federasyon",
+   "lig_kodu": 10214,
+   "ev": "Udc Chantrea",
+   "deplasman": "Club Deportivo Aoiz",
+   "baslama_tr": "2026-11-28T18:15:00+03:00",
+   "market_sayisi": 9
+  },
+  {
+   "kod": 3337368,
+   "lig": "İspanya La Liga",
+   "lig_kodu": 129,
+   "ev": "Elche",
+   "deplasman": "Atl Madrid",
+   "baslama_tr": "2026-11-28T20:30:00+03:00",
+   "market_sayisi": 107
+  },
+  {
+   "kod": 3337390,
+   "lig": "İspanya Primera RFEF",
+   "lig_kodu": 10074,
+   "ev": "Europa",
+   "deplasman": "Villarreal B",
+   "baslama_tr": "2026-11-28T21:00:00+03:00",
+   "market_sayisi": 34
+  },
+  {
+   "kod": 3337392,
+   "lig": "İspanya Primera RFEF",
+   "lig_kodu": 10074,
+   "ev": "Lugo",
+   "deplasman": "UD Ourense",
+   "baslama_tr": "2026-11-28T20:45:00+03:00",
+   "market_sayisi": 34
+  },
+  {
+   "kod": 3339118,
+   "lig": "Portekiz 2. Lig",
+   "lig_kodu": 1897,
+   "ev": "Sporting Lisbon B",
+   "deplasman": "Amarante",
+   "baslama_tr": "2026-11-28T21:00:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3347152,
+   "lig": "Katar Yıldızlar Ligi",
+   "lig_kodu": 1905,
+   "ev": "AL Wakrah",
+   "deplasman": "AL Sadd",
+   "baslama_tr": "2026-11-28T16:00:00+03:00",
+   "market_sayisi": 43
+  },
+  {
+   "kod": 3347219,
+   "lig": "Irak Ligi",
+   "lig_kodu": 33266,
+   "ev": "Newroz SC",
+   "deplasman": "AL Kahraba",
+   "baslama_tr": "2026-11-28T19:30:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3347383,
+   "lig": "Bahreyn Premier Lig",
+   "lig_kodu": 5610,
+   "ev": "Aali",
+   "deplasman": "AL Rifaa",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 34
+  },
+  {
+   "kod": 3347414,
+   "lig": "Irak Ligi",
+   "lig_kodu": 33266,
+   "ev": "AL Talaba",
+   "deplasman": "AL Minaa",
+   "baslama_tr": "2026-11-28T16:45:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3347439,
+   "lig": "Katar Yıldızlar Ligi",
+   "lig_kodu": 1905,
+   "ev": "AL Ahli Doha",
+   "deplasman": "AL Duhail SC",
+   "baslama_tr": "2026-11-28T18:30:00+03:00",
+   "market_sayisi": 43
+  },
+  {
+   "kod": 3347571,
+   "lig": "Irak Ligi",
+   "lig_kodu": 33266,
+   "ev": "AL Naft",
+   "deplasman": "AL Jawiya",
+   "baslama_tr": "2026-11-28T16:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3347582,
+   "lig": "Bahreyn Premier Lig",
+   "lig_kodu": 5610,
+   "ev": "Sitra Club",
+   "deplasman": "Al Ahli SC Manama",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 34
+  },
+  {
+   "kod": 3347631,
+   "lig": "Libertadores Kupası",
+   "lig_kodu": 10008,
+   "ev": "Palmeiras SP",
+   "deplasman": "Estudiantes",
+   "baslama_tr": "2026-11-28T23:00:00+03:00",
+   "market_sayisi": 81
+  },
+  {
+   "kod": 3351710,
+   "lig": "Güney Kore K-Lig 1, Düşme Turu",
+   "lig_kodu": 1811,
+   "ev": "Pohang S.",
+   "deplasman": "Gwangju",
+   "baslama_tr": "2026-11-28T10:30:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3351711,
+   "lig": "İskoçya Kupası",
+   "lig_kodu": 599,
+   "ev": "Stranraer",
+   "deplasman": "Clachnacuddin",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 5
+  },
+  {
+   "kod": 3351712,
+   "lig": "İskoçya Kupası",
+   "lig_kodu": 599,
+   "ev": "Elgin City",
+   "deplasman": "P. Thistle",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 5
+  },
+  {
+   "kod": 3351713,
+   "lig": "İskoçya Kupası",
+   "lig_kodu": 599,
+   "ev": "Musselburgh Athletic",
+   "deplasman": "Airdrieonian",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 5
+  },
+  {
+   "kod": 3351714,
+   "lig": "İskoçya Kupası",
+   "lig_kodu": 599,
+   "ev": "Stenhousemuir",
+   "deplasman": "East Fife",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 5
+  },
+  {
+   "kod": 3351715,
+   "lig": "İskoçya Kupası",
+   "lig_kodu": 599,
+   "ev": "Queen of The South",
+   "deplasman": "Dunfermline",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 5
+  },
+  {
+   "kod": 3351716,
+   "lig": "İskoçya Kupası",
+   "lig_kodu": 599,
+   "ev": "Queen's Park",
+   "deplasman": "Spartans Edinburgh",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 6
+  },
+  {
+   "kod": 3351717,
+   "lig": "Güney Kore K-Lig 1, Düşme Turu",
+   "lig_kodu": 1811,
+   "ev": "Anyang",
+   "deplasman": "Jeju Utd",
+   "baslama_tr": "2026-11-28T08:00:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3351718,
+   "lig": "İskoçya Kupası",
+   "lig_kodu": 599,
+   "ev": "Cumnock",
+   "deplasman": "Arbroath",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 5
+  },
+  {
+   "kod": 3351719,
+   "lig": "İskoçya Kupası",
+   "lig_kodu": 599,
+   "ev": "Threave Rovers",
+   "deplasman": "Alloa",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 5
+  },
+  {
+   "kod": 3351720,
+   "lig": "İskoçya Kupası",
+   "lig_kodu": 599,
+   "ev": "Renfrew",
+   "deplasman": "Cumbernauld Colts",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 5
+  },
+  {
+   "kod": 3351721,
+   "lig": "Güney Kore K-Lig 1, Düşme Turu",
+   "lig_kodu": 1811,
+   "ev": "Bucheon",
+   "deplasman": "Gimcheon Sangmu",
+   "baslama_tr": "2026-11-28T10:30:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3351723,
+   "lig": "İskoçya Kupası",
+   "lig_kodu": 599,
+   "ev": "Montrose",
+   "deplasman": "Hamilton",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 5
+  },
+  {
+   "kod": 3351726,
+   "lig": "İskoçya Kupası",
+   "lig_kodu": 599,
+   "ev": "Inverness",
+   "deplasman": "Cove Rangers",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 5
+  },
+  {
+   "kod": 3351727,
+   "lig": "İskoçya Kupası",
+   "lig_kodu": 599,
+   "ev": "Dumbarton",
+   "deplasman": "Johnstone Burgh",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 5
+  },
+  {
+   "kod": 3351732,
+   "lig": "İskoçya Kupası",
+   "lig_kodu": 599,
+   "ev": "Ross County",
+   "deplasman": "Brora Rangers",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 6
+  },
+  {
+   "kod": 3351733,
+   "lig": "İskoçya Kupası",
+   "lig_kodu": 599,
+   "ev": "Troon",
+   "deplasman": "Raith Rovers",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 5
+  },
+  {
+   "kod": 3351734,
+   "lig": "İskoçya Kupası",
+   "lig_kodu": 599,
+   "ev": "Annan Ath",
+   "deplasman": "G. Morton",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 5
+  },
+  {
+   "kod": 3351735,
+   "lig": "İskoçya Kupası",
+   "lig_kodu": 599,
+   "ev": "Boness Utd",
+   "deplasman": "Brechin City",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 5
+  },
+  {
+   "kod": 3351736,
+   "lig": "Güney Kore K-Lig 1, Şamp. Turu",
+   "lig_kodu": 1810,
+   "ev": "Seoul",
+   "deplasman": "Daejeon Citizen",
+   "baslama_tr": "2026-11-28T08:00:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3351737,
+   "lig": "İskoçya Kupası",
+   "lig_kodu": 599,
+   "ev": "Peterhead",
+   "deplasman": "Edinburgh",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 5
+  },
+  {
+   "kod": 3351738,
+   "lig": "İskoçya Kupası",
+   "lig_kodu": 599,
+   "ev": "Clydebank",
+   "deplasman": "Livingston",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 5
+  },
+  {
+   "kod": 3351752,
+   "lig": "Kosta Rika Prmr Ligi, Açılış",
+   "lig_kodu": 16681,
+   "ev": "CS Herediano",
+   "deplasman": "CD Esc. Belen",
+   "baslama_tr": "2026-11-28T05:00:00+03:00",
+   "market_sayisi": 21
+  },
+  {
+   "kod": 3359430,
+   "lig": "İskoçya Kupası",
+   "lig_kodu": 599,
+   "ev": "East Kilbri",
+   "deplasman": "Clyde Bank",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 5
+  },
+  {
+   "kod": 3359431,
+   "lig": "Afrika (CAF) Şampiyonlar Ligi",
+   "lig_kodu": 10026,
+   "ev": "Zamalek",
+   "deplasman": "Club Africain",
+   "baslama_tr": "2026-11-28T19:00:00+03:00",
+   "market_sayisi": 53
+  },
+  {
+   "kod": 3359432,
+   "lig": "Afrika (CAF) Şampiyonlar Ligi",
+   "lig_kodu": 10026,
+   "ev": "Esperance T.",
+   "deplasman": "Wiliete SC",
+   "baslama_tr": "2026-11-28T19:00:00+03:00",
+   "market_sayisi": 52
+  },
+  {
+   "kod": 3359436,
+   "lig": "Bosna Hersek Premier Lig",
+   "lig_kodu": 16324,
+   "ev": "Siroki Brijeg",
+   "deplasman": "Zrinjski Mostar",
+   "baslama_tr": "2026-11-28T20:30:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3359438,
+   "lig": "Bosna Hersek Premier Lig",
+   "lig_kodu": 16324,
+   "ev": "Velez Mostar",
+   "deplasman": "Zelezniçar",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 18
+  },
+  {
+   "kod": 3359439,
+   "lig": "Afrika (CAF) Şampiyonlar Ligi",
+   "lig_kodu": 10026,
+   "ev": "Young Africans SC",
+   "deplasman": "MC Alger",
+   "baslama_tr": "2026-11-28T16:00:00+03:00",
+   "market_sayisi": 53
+  },
+  {
+   "kod": 3359440,
+   "lig": "Afrika (CAF) Şampiyonlar Ligi",
+   "lig_kodu": 10026,
+   "ev": "RSB Berkane",
+   "deplasman": "Colombe",
+   "baslama_tr": "2026-11-28T22:00:00+03:00",
+   "market_sayisi": 52
+  },
+  {
+   "kod": 3359443,
+   "lig": "Afrika (CAF) Konfederasyon Kupası",
+   "lig_kodu": 10048,
+   "ev": "R. Casablanca",
+   "deplasman": "Asko",
+   "baslama_tr": "2026-11-28T22:00:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3359444,
+   "lig": "Afrika (CAF) Konfederasyon Kupası",
+   "lig_kodu": 10048,
+   "ev": "AS Far Rabat",
+   "deplasman": "Durban City 2024",
+   "baslama_tr": "2026-11-28T22:00:00+03:00",
+   "market_sayisi": 35
+  },
+  {
+   "kod": 3359449,
+   "lig": "Afrika (CAF) Şampiyonlar Ligi",
+   "lig_kodu": 10026,
+   "ev": "Pyramids",
+   "deplasman": "Mas Maghrib A Fes",
+   "baslama_tr": "2026-11-28T19:00:00+03:00",
+   "market_sayisi": 53
+  },
+  {
+   "kod": 3359450,
+   "lig": "Bosna Hersek Premier Lig",
+   "lig_kodu": 16324,
+   "ev": "FK Sloga Doboj",
+   "deplasman": "Rad. Bijelji",
+   "baslama_tr": "2026-11-28T15:30:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3377884,
+   "lig": "İsveç Allsvenskan, Düş./Yük.",
+   "lig_kodu": 1962,
+   "ev": "Varbergs",
+   "deplasman": "Ostersunds FK",
+   "baslama_tr": "2026-11-28T15:00:00+03:00",
+   "market_sayisi": 71
+  },
+  {
+   "kod": 3380311,
+   "lig": "Malta Premier Lig Top 6 İlk Etap",
+   "lig_kodu": 46902,
+   "ev": "Floriana",
+   "deplasman": "Hamrun Spartans",
+   "baslama_tr": "2026-11-28T17:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3380312,
+   "lig": "Malta Premier Lig, Düşme Turu",
+   "lig_kodu": 46929,
+   "ev": "Zabbar Saint Patrick",
+   "deplasman": "Balzan",
+   "baslama_tr": "2026-11-28T19:30:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3386748,
+   "lig": "İran Pro Ligi",
+   "lig_kodu": 16184,
+   "ev": "Esteghlal",
+   "deplasman": "SN Abadan",
+   "baslama_tr": "2026-11-28T16:45:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3386751,
+   "lig": "İran Pro Ligi",
+   "lig_kodu": 16184,
+   "ev": "TS Tabriz",
+   "deplasman": "ZOB Ahan I.",
+   "baslama_tr": "2026-11-28T14:45:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3386754,
+   "lig": "İran Pro Ligi",
+   "lig_kodu": 16184,
+   "ev": "M. Sepahan",
+   "deplasman": "Nassaji Maz.",
+   "baslama_tr": "2026-11-28T17:00:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3386756,
+   "lig": "İsveç Superettan, Düş./Yük.",
+   "lig_kodu": 1963,
+   "ev": "Norrby",
+   "deplasman": "Lunds BK",
+   "baslama_tr": "2026-11-28T17:00:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3389698,
+   "lig": "Suudi Arabistan Pro Lig",
+   "lig_kodu": 10196,
+   "ev": "AL Hazem",
+   "deplasman": "AL Nassr",
+   "baslama_tr": "2026-11-28T15:15:00+03:00",
+   "market_sayisi": 57
+  },
+  {
+   "kod": 3389700,
+   "lig": "Suudi Arabistan Pro Lig",
+   "lig_kodu": 10196,
+   "ev": "Ahli Saudi",
+   "deplasman": "AL Taawoun",
+   "baslama_tr": "2026-11-28T20:30:00+03:00",
+   "market_sayisi": 56
+  },
+  {
+   "kod": 3389703,
+   "lig": "Suudi Arabistan Pro Lig",
+   "lig_kodu": 10196,
+   "ev": "AL Ettifaq",
+   "deplasman": "Al Hilal",
+   "baslama_tr": "2026-11-28T17:20:00+03:00",
+   "market_sayisi": 56
+  },
+  {
+   "kod": 3389707,
+   "lig": "Estonya Premium Ligi Düş./Yük.",
+   "lig_kodu": 18501,
+   "ev": "Kuressaare",
+   "deplasman": "Viimsi JK",
+   "baslama_tr": "2026-11-28T13:30:00+03:00",
+   "market_sayisi": 5
+  },
+  {
+   "kod": 3389708,
+   "lig": "Estonya Esiliiga, Düş./Yük.",
+   "lig_kodu": 23506,
+   "ev": "Tallinn",
+   "deplasman": "V. Tulevik",
+   "baslama_tr": "2026-11-28T13:30:00+03:00",
+   "market_sayisi": 1
+  },
+  {
+   "kod": 3389709,
+   "lig": "Umman Sultan Kupası",
+   "lig_kodu": 18101,
+   "ev": "Oman",
+   "deplasman": "Sur SC",
+   "baslama_tr": "2026-11-28T16:50:00+03:00",
+   "market_sayisi": 3
+  },
+  {
+   "kod": 3389710,
+   "lig": "Umman Sultan Kupası",
+   "lig_kodu": 18101,
+   "ev": "Bahla Club",
+   "deplasman": "Majees",
+   "baslama_tr": "2026-11-28T15:40:00+03:00",
+   "market_sayisi": 1
+  },
+  {
+   "kod": 3389716,
+   "lig": "Umman Sultan Kupası",
+   "lig_kodu": 18101,
+   "ev": "AL Nasr",
+   "deplasman": "AL Musannah SC",
+   "baslama_tr": "2026-11-28T18:40:00+03:00",
+   "market_sayisi": 3
+  },
+  {
+   "kod": 3389719,
+   "lig": "ABD Major Lig Playoff",
+   "lig_kodu": 2,
+   "ev": "Columbus Cr.",
+   "deplasman": "Inter Miami",
+   "baslama_tr": "2026-11-28T04:00:00+03:00",
+   "market_sayisi": 84
+  },
+  {
+   "kod": 3389723,
+   "lig": "ABD Major Lig Playoff",
+   "lig_kodu": 2,
+   "ev": "Charlotte",
+   "deplasman": "Chicago Fire",
+   "baslama_tr": "2026-11-28T20:30:00+03:00",
+   "market_sayisi": 82
+  },
+  {
+   "kod": 3389724,
+   "lig": "ABD Major Lig Playoff",
+   "lig_kodu": 2,
+   "ev": "Houston Dyn.",
+   "deplasman": "San Jose E.",
+   "baslama_tr": "2026-11-28T22:30:00+03:00",
+   "market_sayisi": 82
+  },
+  {
+   "kod": 3391099,
+   "lig": "Belarus Premier Lig",
+   "lig_kodu": 1215,
+   "ev": "Belshina",
+   "deplasman": "M. Rogachev",
+   "baslama_tr": "2026-11-28T13:00:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3391100,
+   "lig": "Belarus Premier Lig",
+   "lig_kodu": 1215,
+   "ev": "Naftan Novopolotsk",
+   "deplasman": "D. Minsk",
+   "baslama_tr": "2026-11-28T13:00:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3391101,
+   "lig": "Belarus Premier Lig",
+   "lig_kodu": 1215,
+   "ev": "Bate Borisov",
+   "deplasman": "Isloch",
+   "baslama_tr": "2026-11-28T13:00:00+03:00",
+   "market_sayisi": 35
+  },
+  {
+   "kod": 3391102,
+   "lig": "Belarus Premier Lig",
+   "lig_kodu": 1215,
+   "ev": "Minsk",
+   "deplasman": "Dnepr Mogilev",
+   "baslama_tr": "2026-11-28T13:00:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3391103,
+   "lig": "Belarus Premier Lig",
+   "lig_kodu": 1215,
+   "ev": "Vitebsk",
+   "deplasman": "Arsenal Dzerzhinsk",
+   "baslama_tr": "2026-11-28T13:00:00+03:00",
+   "market_sayisi": 34
+  },
+  {
+   "kod": 3400357,
+   "lig": "İsveç Superettan, Düş./Yük.",
+   "lig_kodu": 1963,
+   "ev": "Orebro SK",
+   "deplasman": "Enkopings SK",
+   "baslama_tr": "2026-11-28T15:00:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3400377,
+   "lig": "Fransa Kupası",
+   "lig_kodu": 343,
+   "ev": "Vannes",
+   "deplasman": "US Concarneau",
+   "baslama_tr": "2026-11-28T22:00:00+03:00",
+   "market_sayisi": 18
+  },
+  {
+   "kod": 3400380,
+   "lig": "Fransa Kupası",
+   "lig_kodu": 343,
+   "ev": "St Etienne",
+   "deplasman": "Villefranche",
+   "baslama_tr": "2026-11-28T21:00:00+03:00",
+   "market_sayisi": 19
+  },
+  {
+   "kod": 3400383,
+   "lig": "Fransa Kupası",
+   "lig_kodu": 343,
+   "ev": "Tremblay",
+   "deplasman": "Red Star",
+   "baslama_tr": "2026-11-28T16:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3400390,
+   "lig": "Fransa Kupası",
+   "lig_kodu": 343,
+   "ev": "Epinal",
+   "deplasman": "Amiens",
+   "baslama_tr": "2026-11-28T17:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3400393,
+   "lig": "Fransa Kupası",
+   "lig_kodu": 343,
+   "ev": "Nimes",
+   "deplasman": "Grenoble",
+   "baslama_tr": "2026-11-28T20:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3400394,
+   "lig": "Fransa Kupası",
+   "lig_kodu": 343,
+   "ev": "Chambly",
+   "deplasman": "US Avranches",
+   "baslama_tr": "2026-11-28T20:00:00+03:00",
+   "market_sayisi": 18
+  },
+  {
+   "kod": 3400395,
+   "lig": "Fransa Kupası",
+   "lig_kodu": 343,
+   "ev": "Bourg En Bresse",
+   "deplasman": "Thionville Lusitanos",
+   "baslama_tr": "2026-11-28T20:00:00+03:00",
+   "market_sayisi": 18
+  },
+  {
+   "kod": 3400397,
+   "lig": "Fransa Kupası",
+   "lig_kodu": 343,
+   "ev": "Olympique Charleville",
+   "deplasman": "Reims",
+   "baslama_tr": "2026-11-28T15:30:00+03:00",
+   "market_sayisi": 19
+  },
+  {
+   "kod": 3400399,
+   "lig": "Fransa Kupası",
+   "lig_kodu": 343,
+   "ev": "Castanet US",
+   "deplasman": "Pau",
+   "baslama_tr": "2026-11-28T20:30:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3400405,
+   "lig": "Fransa Kupası",
+   "lig_kodu": 343,
+   "ev": "US Feurs",
+   "deplasman": "Annecy",
+   "baslama_tr": "2026-11-28T19:00:00+03:00",
+   "market_sayisi": 18
+  },
+  {
+   "kod": 3400413,
+   "lig": "Fransa Kupası",
+   "lig_kodu": 343,
+   "ev": "ST Pryve Hilaire",
+   "deplasman": "SC Selongey",
+   "baslama_tr": "2026-11-28T20:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3400414,
+   "lig": "Fransa Kupası",
+   "lig_kodu": 343,
+   "ev": "Biesheim ASC",
+   "deplasman": "RCF Besancon",
+   "baslama_tr": "2026-11-28T19:00:00+03:00",
+   "market_sayisi": 18
+  },
+  {
+   "kod": 3402585,
+   "lig": "Norveç 1.Lig, Düşme/Yükselme",
+   "lig_kodu": 1874,
+   "ev": "Bjarg",
+   "deplasman": "Sogndal IL",
+   "baslama_tr": "2026-11-28T15:00:00+03:00",
+   "market_sayisi": 43
+  },
+  {
+   "kod": 3406851,
+   "lig": "Uganda Premier Ligi",
+   "lig_kodu": 22722,
+   "ev": "Airtel Kitara",
+   "deplasman": "Ntungasaze",
+   "baslama_tr": "2026-11-28T16:00:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3409585,
+   "lig": "ABD Major Lig Playoff",
+   "lig_kodu": 2,
+   "ev": "Real Salt Lake",
+   "deplasman": "V. Whitecaps",
+   "baslama_tr": "2026-11-28T06:00:00+03:00",
+   "market_sayisi": 83
+  },
+  {
+   "kod": 3414043,
+   "lig": "Arjantin Primera A Kapanış, Kadınlar",
+   "lig_kodu": 46244,
+   "ev": "Ferro Carril (K)",
+   "deplasman": "Social Atl (K)",
+   "baslama_tr": "2026-11-28T15:00:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3415934,
+   "lig": "Kolombiya DIMAYOR Grup B",
+   "lig_kodu": 87869,
+   "ev": "Millonarios",
+   "deplasman": "America De Cali",
+   "baslama_tr": "2026-11-28T04:40:00+03:00",
+   "market_sayisi": 18
+  },
+  {
+   "kod": 3416059,
+   "lig": "Kuzey Makedonya 1. MFL",
+   "lig_kodu": 33771,
+   "ev": "GFK Tikvesh 1930",
+   "deplasman": "FK Shkendija",
+   "baslama_tr": "2026-11-28T15:00:00+03:00",
+   "market_sayisi": 18
+  },
+  {
+   "kod": 3416060,
+   "lig": "BAE - Arap Körfez Ligi",
+   "lig_kodu": 2001,
+   "ev": "Al Wasl",
+   "deplasman": "AL Dhafra Scc",
+   "baslama_tr": "2026-11-28T17:15:00+03:00",
+   "market_sayisi": 42
+  },
+  {
+   "kod": 3420446,
+   "lig": "Avustralya Championship, PO",
+   "lig_kodu": 57499,
+   "ev": "Bayswater",
+   "deplasman": "Sydney Utd 58",
+   "baslama_tr": "2026-11-28T11:30:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3420447,
+   "lig": "Avustralya Championship, PO",
+   "lig_kodu": 57499,
+   "ev": "Preston Lions",
+   "deplasman": "Apia Leic.",
+   "baslama_tr": "2026-11-28T07:00:00+03:00",
+   "market_sayisi": 55
+  },
+  {
+   "kod": 3422805,
+   "lig": "Tunus 2. Lig",
+   "lig_kodu": 10086,
+   "ev": "AS Soliman",
+   "deplasman": "Sporting Ben Arous",
+   "baslama_tr": "2026-11-28T16:00:00+03:00",
+   "market_sayisi": 1
+  },
+  {
+   "kod": 3422813,
+   "lig": "Tunus 1. Lig",
+   "lig_kodu": 1978,
+   "ev": "ES Metlaoui",
+   "deplasman": "US Ben Guerdane",
+   "baslama_tr": "2026-11-28T16:00:00+03:00",
+   "market_sayisi": 34
+  },
+  {
+   "kod": 3422815,
+   "lig": "Tunus 1. Lig",
+   "lig_kodu": 1978,
+   "ev": "A Sakiet Edayer",
+   "deplasman": "Stade Tunisien",
+   "baslama_tr": "2026-11-28T15:00:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3422816,
+   "lig": "Tunus 1. Lig",
+   "lig_kodu": 1978,
+   "ev": "CA Bizertin",
+   "deplasman": "ES Zarzis",
+   "baslama_tr": "2026-11-28T16:00:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3422831,
+   "lig": "Fas Premier Ligi",
+   "lig_kodu": 1858,
+   "ev": "CODM Meknes",
+   "deplasman": "CR Khemis Zemamra",
+   "baslama_tr": "2026-11-28T19:00:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3424406,
+   "lig": "Hindistan Süper Ligi",
+   "lig_kodu": 18304,
+   "ev": "Chennaiyin",
+   "deplasman": "Mumbai City",
+   "baslama_tr": "2026-11-28T17:00:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3424549,
+   "lig": "Fas Botola 2",
+   "lig_kodu": 27531,
+   "ev": "WAF Widad Fes",
+   "deplasman": "O.Khouribga",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3427781,
+   "lig": "Etiyopya Premier Lig",
+   "lig_kodu": 23482,
+   "ev": "Ethiopia Electricity",
+   "deplasman": "Hadiya Hossana",
+   "baslama_tr": "2026-11-28T15:30:00+03:00",
+   "market_sayisi": 18
+  },
+  {
+   "kod": 3429437,
+   "lig": "Kuzey İrlanda Premiership",
+   "lig_kodu": 1865,
+   "ev": "Bangor",
+   "deplasman": "Carrick Rangers",
+   "baslama_tr": "2026-11-28T18:00:00+03:00",
+   "market_sayisi": 53
+  },
+  {
+   "kod": 3430049,
+   "lig": "Senegal Premier Lig",
+   "lig_kodu": 23285,
+   "ev": "Ajel de Rufisque",
+   "deplasman": "US Ouakam",
+   "baslama_tr": "2026-11-28T19:30:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3430050,
+   "lig": "Senegal Premier Lig",
+   "lig_kodu": 23285,
+   "ev": "AS Dakar Sacre Coeur",
+   "deplasman": "Casa Sport",
+   "baslama_tr": "2026-11-28T20:00:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3430051,
+   "lig": "Senegal Premier Lig",
+   "lig_kodu": 23285,
+   "ev": "US Goree",
+   "deplasman": "Teungueth",
+   "baslama_tr": "2026-11-28T20:00:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3430052,
+   "lig": "Senegal Premier Lig",
+   "lig_kodu": 23285,
+   "ev": "AS Pikine",
+   "deplasman": "Stade de Mbour",
+   "baslama_tr": "2026-11-28T20:00:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3430054,
+   "lig": "Senegal Premier Lig",
+   "lig_kodu": 23285,
+   "ev": "ASC Diambars",
+   "deplasman": "ASC Jaraaf",
+   "baslama_tr": "2026-11-28T19:30:00+03:00",
+   "market_sayisi": 8
+  }
+ ]
+}

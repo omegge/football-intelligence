@@ -1,0 +1,405 @@
+{
+ "mac": {
+  "mac_id": "nesine:3332876",
+  "karsilasma": "Torino - Lazio",
+  "lig": "İtalya Serie A",
+  "baslama_utc": "2026-11-28T17:00:00+00:00",
+  "baslama_tr": "2026-11-28T20:00:00+03:00"
+ },
+ "1_dogrulanmis_son_dakika": [],
+ "2_dogrulanamayan_veya_celiskili": [
+  {
+   "mac_id": "nesine:3332876",
+   "konu": "kadro_disi",
+   "takim": "dep",
+   "kisi": "taylor",
+   "dogrulama": "dogrulanmadi",
+   "veri_dogrulamasi": [],
+   "ozetler": [
+    "Resmî kadroda yok: Sutalo, Marusic, Tavares, Taylor; Noslin ve Zaccagni kadroda",
+    "TMW: Lazio kadrosu; dört eksik, Noslin ve Zaccagni var"
+   ],
+   "durumlar": [
+    "yok"
+   ],
+   "son_durum": "yok",
+   "zincir_sayisi": 2,
+   "zincirler": {
+    "www.sslazio.it": [
+     "https://www.sslazio.it/it/news/eventi/serie-a-enilive-or-torino-lazio-i-convocati-biancocelesti-1fes"
+    ],
+    "www.tuttomercatoweb.com": [
+     "https://www.tuttomercatoweb.com/serie-a/lazio-convocati-gattuso-torino-noslin-zaccagni-out-2298219"
+    ]
+   },
+   "kopya_sayisi": 0,
+   "dislanan": [],
+   "nicel_etki": "hesaplanamaz"
+  }
+ ],
+ "3_basin_gorusleri": [
+  {
+   "kaynak": "https://www.tuttomercatoweb.com/serie-a/lazio-convocati-gattuso-torino-noslin-zaccagni-out-2298219",
+   "sinif": "ulusal_basin",
+   "ozet": "TMW: Lazio kadrosu; dört eksik, Noslin ve Zaccagni var",
+   "yayin": "2026-11-27"
+  }
+ ],
+ "4_analist_senaryolari": {
+  "yonler": {},
+  "gorusler": [],
+  "gorus_ayriligi": false,
+  "not": "Dış görüşler ve yüzdeleri KARANTİNADA; model girdisi değildir."
+ },
+ "5_bagimsiz_model": {
+  "tur": "donmus_tahmin",
+  "mac_id": "nesine:3332876",
+  "karsilasma": "Torino - Lazio",
+  "lig": "İtalya Serie A",
+  "baslama_tr": "2026-11-28T20:00:00+03:00",
+  "dondurma_utc": "2026-11-28T01:02:46+00:00",
+  "veri_kesimi": "2026-11-27",
+  "model_surumu": {
+   "is_akisi": "is-akisi-0.1",
+   "git_commit": "613ba07d3528d5ab34635924db9874cce6c61a40"
+  },
+  "tahmin": {
+   "durum": "hesaplandi",
+   "hazirlik": [
+    {
+     "kriter": "lig_eslemesi_onayli",
+     "gecti": true,
+     "kanit": "İtalya Serie A → it.1"
+    },
+    {
+     "kriter": "model_bu_ligde_degerlendirildi",
+     "gecti": true,
+     "kanit": "E3 değerlendirme ligleri: ['de.1', 'en.1', 'en.3', 'en.4', 'es.1', 'fr.2', 'it.1', 'it.2']"
+    },
+    {
+     "kriter": "lig_verisi_var",
+     "gecti": true,
+     "kanit": "5061 maç"
+    },
+    {
+     "kriter": "veri_guncel",
+     "gecti": true,
+     "kanit": "son skorlu maç 2026-11-27, boşluk 1 gün (sınır 14)"
+    },
+    {
+     "kriter": "takim_eslemesi_ev",
+     "gecti": true,
+     "kanit": "'Torino' → kesin Torino FC"
+    },
+    {
+     "kriter": "takim_eslemesi_dep",
+     "gecti": true,
+     "kanit": "'Lazio' → onayli SS Lazio"
+    },
+    {
+     "kriter": "test_edilmis_ve_kalibre_market_var",
+     "gecti": true,
+     "kanit": "38 market: ['MS_1', 'MS_2', 'CS_1X', 'CS_X2', 'aralik_4_5', 'aralik_6p', 'H-1_1', 'H-1_X', 'H-1_2', 'AU0.5_alt', 'AU0.5_ust', 'AU2.5_alt', 'AU2.5_ust', 'AU4.5_alt', 'AU4.5_ust', 'ev0.5_alt', 'ev0.5_ust', 'dep1.5_alt', 'dep1.5_ust', 'ev2.5_alt', 'ev2.5_ust', 'dep2.5_alt', 'dep2.5_ust', 'MS1_AU2.5_alt', 'MS1_KG_var', 'MSX_AU2.5_alt', 'MSX_KG_yok', 'MS2_AU2.5_alt', 'MS2_AU2.5_ust', 'MS2_KG_var', 'skor_0_0', 'skor_1_0', 'skor_0_1', 'skor_1_1', 'skor_2_0', 'skor_0_2', 'skor_2_1', 'skor_1_2']"
+    },
+    {
+     "kriter": "veri_kesimi_kaydedildi",
+     "gecti": true,
+     "kanit": "2026-11-27"
+    },
+    {
+     "kriter": "oranlardan_once_dondurulacak",
+     "gecti": true,
+     "kanit": "olasılık yalnızca dondur() ile kaydedilir; fiyat karşılaştırması fiyat_karsilastir()'ta dondurmadan sonra (oran bu fonksiyona girmez: oransiz_mi)"
+    }
+   ],
+   "kapsam_sha256": "a702432d8f3a5211746e3d2ea958100df14afa9b0483f8b95febf040123c8ed4",
+   "model_adi": "E3",
+   "veri_kesimi": "2026-11-27",
+   "veri_boslugu_gun": 1,
+   "veri_kaynaklari": [
+    "football-data.org",
+    "openfootball"
+   ],
+   "ev_esleme": {
+    "durum": "kesin",
+    "kaynak_adi": "Torino FC",
+    "alternatifler": []
+   },
+   "dep_esleme": {
+    "durum": "onayli",
+    "kaynak_adi": "SS Lazio",
+    "alternatifler": []
+   },
+   "lig_ortalamasi_365": 2.6824146981627295,
+   "e3_duzeltmesi": {
+    "gamma": 1.55,
+    "delta": -0.1,
+    "pencere_mac": 681,
+    "pencere_bas": "2024-11-29",
+    "pencere_son": "2026-09-20"
+   },
+   "model": "E3 E2+A: E2 (ceza 16, w 0,65, b 0) + zaman sıralı güç farkı ölçeği γ ve ev kayması δ (aynı ligin önceki 730 günü; ON_KAYIT_E3)",
+   "lambda_ev": 0.9067890857232411,
+   "lambda_dep": 1.724114386796408,
+   "egitim_mac_sayisi": 5061,
+   "olasiliklar": {
+    "MS_1": 0.19626197668039827,
+    "MS_2": 0.5666934319326977,
+    "CS_1X": 0.4333065680673022,
+    "CS_X2": 0.8037380233196015,
+    "aralik_4_5": 0.21939585409398416,
+    "aralik_6p": 0.05134024706544287,
+    "H-1_1": 0.06473810449201745,
+    "H-1_X": 0.13152387218838085,
+    "H-1_2": 0.8037380233196015,
+    "AU0.5_alt": 0.07201352103638643,
+    "AU0.5_ust": 0.9279864789636134,
+    "AU2.5_alt": 0.5107004485027424,
+    "AU2.5_ust": 0.4892995514972574,
+    "AU4.5_alt": 0.8730187339554912,
+    "AU4.5_ust": 0.12698126604450857,
+    "ev0.5_alt": 0.4038187735459768,
+    "ev0.5_ust": 0.596181226454023,
+    "dep1.5_alt": 0.4857948207223476,
+    "dep1.5_ust": 0.5142051792776522,
+    "ev2.5_alt": 0.936020543880811,
+    "ev2.5_ust": 0.06397945611918882,
+    "dep2.5_alt": 0.7508459728811048,
+    "dep2.5_ust": 0.24915402711889517,
+    "MS1_AU2.5_alt": 0.0949082259030885,
+    "MS1_KG_var": 0.08994421211550412,
+    "MSX_AU2.5_alt": 0.184600043745257,
+    "MSX_KG_yok": 0.07201352103638643,
+    "MS2_AU2.5_alt": 0.231192178854397,
+    "MS2_AU2.5_ust": 0.33550125307830064,
+    "MS2_KG_var": 0.2348881794231074,
+    "skor_0_0": 0.07201352103638643,
+    "skor_1_0": 0.06530107490029624,
+    "skor_0_1": 0.12415954766269963,
+    "skor_1_1": 0.11258652270887055,
+    "skor_2_0": 0.029607151002792258,
+    "skor_0_2": 0.10703263119169737,
+    "skor_2_1": 0.05104611499596783,
+    "skor_1_2": 0.09705602178087211
+   },
+   "hesaplanamaz_pazarlar": {
+    "MS_X": [
+     "kalibre"
+    ],
+    "CS_12": [
+     "kalibre"
+    ],
+    "KG_var": [
+     "bilgi_tasiyor",
+     "kalibre"
+    ],
+    "KG_yok": [
+     "bilgi_tasiyor",
+     "kalibre"
+    ],
+    "tek": [
+     "bilgi_tasiyor"
+    ],
+    "cift": [
+     "bilgi_tasiyor"
+    ],
+    "aralik_0_1": [
+     "kalibre"
+    ],
+    "aralik_2_3": [
+     "bilgi_tasiyor"
+    ],
+    "AU1.5_alt": [
+     "kalibre"
+    ],
+    "AU1.5_ust": [
+     "kalibre"
+    ],
+    "AU3.5_alt": [
+     "kalibre"
+    ],
+    "AU3.5_ust": [
+     "kalibre"
+    ],
+    "dep0.5_alt": [
+     "kalibre"
+    ],
+    "dep0.5_ust": [
+     "kalibre"
+    ],
+    "ev1.5_alt": [
+     "kalibre"
+    ],
+    "ev1.5_ust": [
+     "kalibre"
+    ],
+    "MS1_AU2.5_ust": [
+     "kalibre"
+    ],
+    "MS1_KG_yok": [
+     "kalibre"
+    ],
+    "MSX_AU2.5_ust": [
+     "bilgi_tasiyor"
+    ],
+    "MSX_KG_var": [
+     "bilgi_tasiyor",
+     "kalibre"
+    ],
+    "MS2_KG_yok": [
+     "kalibre"
+    ],
+    "skor_2_2": [
+     "bilgi_tasiyor"
+    ]
+   },
+   "kalibrasyon_notu": "E aşamasında çoğu markette ECE 0,01–0,03; kutularda ≤0,05 sapma koşulu birçok markette sağlanmadı. 'Yüksek güven' verilmez.",
+   "skor_matrisi": [
+    [
+     0.072013521,
+     0.1241595477,
+     0.1070326312,
+     0.0615121664,
+     0.0265135028,
+     0.0091424623,
+     0.0026271085,
+     0.0006470622
+    ],
+    [
+     0.0653010749,
+     0.1125865227,
+     0.0970560218,
+     0.0557785612,
+     0.0240421549,
+     0.008290285,
+     0.0023822333,
+     0.000586749
+    ],
+    [
+     0.029607151,
+     0.051046115,
+     0.0440046706,
+     0.0252896952,
+     0.0109005818,
+     0.00375877,
+     0.0010800916,
+     0.0002660288
+    ],
+    [
+     0.0089491471,
+     0.0154293533,
+     0.013300985,
+     0.0076441399,
+     0.0032948429,
+     0.0011361372,
+     0.0003264717,
+     8.04107e-05
+    ],
+    [
+     0.0020287472,
+     0.0034977923,
+     0.003015297,
+     0.0017329057,
+     0.0007469319,
+     0.0002575592,
+     7.40103e-05,
+     1.82289e-05
+    ],
+    [
+     0.0003679292,
+     0.000634352,
+     0.0005468477,
+     0.000314276,
+     0.0001354619,
+     4.67104e-05,
+     1.34223e-05,
+     3.3059e-06
+    ],
+    [
+     5.56057e-05,
+     9.58706e-05,
+     8.26459e-05,
+     4.7497e-05,
+     2.04726e-05,
+     7.0594e-06,
+     2.0285e-06,
+     4.996e-07
+    ],
+    [
+     7.2032e-06,
+     1.24192e-05,
+     1.07061e-05,
+     6.1528e-06,
+     2.652e-06,
+     9.145e-07,
+     2.628e-07,
+     6.47e-08
+    ]
+   ],
+   "veri_kaynagi_raporu": {
+    "son_tarih": "2026-11-27",
+    "ayni": 50,
+    "eklenen": 71,
+    "fd_sha256": "cfd04ed3e693aefdcc6ae29f6a951dfdcaaee1cf77bd3f91fe2d2410d370693f",
+    "fd_erisim_utc": "2026-11-28T01:02:20+00:00",
+    "atif": "Football data provided by the Football-Data.org API"
+   },
+   "mac_kimligi_dogrulama": {
+    "nesine": "nesine:3332876",
+    "fd_mac_id": 558514,
+    "utc": "2026-11-28T17:00:00+00:00",
+    "durum": "TIMED",
+    "anlik_goruntu": "20261128T002559Z"
+   }
+  },
+  "sha256": "3a96a47290c57635260c20e25a3db3b3b04cfc7ac51f7bfae9c1c6758aec9153",
+  "yol": "/home/user/football-intelligence/output/tahminler/nesine_3332876_20261128T010246Z.json",
+  "surum_sayisi": 1
+ },
+ "6_hesaplanamayan_marketler": "bütün marketler (model yok)",
+ "7_model_analist_farki": [],
+ "8_en_onemli_surpriz_sinyali": {
+  "favori": null,
+  "favori_kaynagi": "bağımsız model 1X2 olasılığı yok → favori bağımsız olarak belirlenemedi (oranlarla belirlenmez)",
+  "sinyal": null,
+  "not": "favori bağımsız modelle belirlenemedi"
+ },
+ "9_fiyat_karsilastirmasi": {
+  "durum": "yapılmadı",
+  "neden": "donmuş bağımsız tahmin ya da sonradan alınmış bülten yok"
+ },
+ "11_sportif_cikarimlar_yorum": [],
+ "10_son_arastirma_ve_kaynaklar": {
+  "son_arastirma_utc": "2026-11-28T01:14:21+00:00",
+  "turlar": [
+   "T-24s"
+  ],
+  "arama_gunlugu": [
+   {
+    "sorgu": "denetim turu: resmî kadro + ikinci kaynak",
+    "sonuc": "2 iddia",
+    "utc": "2026-11-28T01:14:21+00:00",
+    "tur": "T-24s"
+   }
+  ],
+  "tur_degisimleri": [
+   {
+    "anahtar": [
+     "nesine:3332876",
+     "kadro_disi",
+     "dep",
+     "taylor"
+    ],
+    "degisim": "tek_turda_goruldu",
+    "tur": "T-24s",
+    "durum": [
+     "yok"
+    ]
+   }
+  ],
+  "baglantilar": [
+   "https://www.sslazio.it/it/news/eventi/serie-a-enilive-or-torino-lazio-i-convocati-biancocelesti-1fes",
+   "https://www.tuttomercatoweb.com/serie-a/lazio-convocati-gattuso-torino-noslin-zaccagni-out-2298219"
+  ]
+ }
+}

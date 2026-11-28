@@ -1,0 +1,447 @@
+{
+ "klasor": "bulten_20261127_221654",
+ "cekim_tr": "2026-11-27T22:16:54+03:00",
+ "cekim_utc": "2026-11-27T19:16:54+00:00",
+ "ham_sha256": "2d476afcb91a983cb923b6629b47e9639316f84b12cf1d2f2d84770ac95d5745",
+ "pencere_tr": [
+  "2026-11-27T00:00:00+03:00",
+  "2026-11-28T00:00:00+03:00"
+ ],
+ "mac": 48,
+ "market": 1779,
+ "secenek": 10654,
+ "maclar": [
+  {
+   "kod": 3330804,
+   "lig": "Galler Championship, Güney",
+   "lig_kodu": 22382,
+   "ev": "Carmarthen",
+   "deplasman": "Swansea U.",
+   "baslama_tr": "2026-11-27T22:30:00+03:00",
+   "market_sayisi": 18
+  },
+  {
+   "kod": 3330844,
+   "lig": "İngiltere Ulusal Lig",
+   "lig_kodu": 401,
+   "ev": "Scunthorpe",
+   "deplasman": "Wealdstone",
+   "baslama_tr": "2026-11-27T22:45:00+03:00",
+   "market_sayisi": 55
+  },
+  {
+   "kod": 3330877,
+   "lig": "İsviçre Challenge Ligi",
+   "lig_kodu": 1975,
+   "ev": "Winterthur",
+   "deplasman": "Rapperswil",
+   "baslama_tr": "2026-11-27T22:15:00+03:00",
+   "market_sayisi": 34
+  },
+  {
+   "kod": 3330878,
+   "lig": "İtalya Serie C",
+   "lig_kodu": 10096,
+   "ev": "Foggia",
+   "deplasman": "Casertana",
+   "baslama_tr": "2026-11-27T22:30:00+03:00",
+   "market_sayisi": 35
+  },
+  {
+   "kod": 3330895,
+   "lig": "Galler Premier Lig",
+   "lig_kodu": 1147,
+   "ev": "Cardiff Metro.",
+   "deplasman": "Broughton",
+   "baslama_tr": "2026-11-27T22:45:00+03:00",
+   "market_sayisi": 36
+  },
+  {
+   "kod": 3330949,
+   "lig": "İsviçre Challenge Ligi",
+   "lig_kodu": 1975,
+   "ev": "Etoile Carouge",
+   "deplasman": "Stade Ouchy",
+   "baslama_tr": "2026-11-27T22:15:00+03:00",
+   "market_sayisi": 34
+  },
+  {
+   "kod": 3330950,
+   "lig": "Galler Championship, Güney",
+   "lig_kodu": 22382,
+   "ev": "Llanelli",
+   "deplasman": "Cardiff Draconians",
+   "baslama_tr": "2026-11-27T22:30:00+03:00",
+   "market_sayisi": 18
+  },
+  {
+   "kod": 3330952,
+   "lig": "Galler Premier Lig",
+   "lig_kodu": 1147,
+   "ev": "Colwyn Bay",
+   "deplasman": "Ammanford",
+   "baslama_tr": "2026-11-27T22:45:00+03:00",
+   "market_sayisi": 33
+  },
+  {
+   "kod": 3330957,
+   "lig": "Belçika U21 Pro Ligi, 1. Grup",
+   "lig_kodu": 33807,
+   "ev": "KV Kortrijk U21",
+   "deplasman": "RFC Seraing U21",
+   "baslama_tr": "2026-11-27T22:30:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3330971,
+   "lig": "Galler Premier Lig",
+   "lig_kodu": 1147,
+   "ev": "Haverfordwest C.",
+   "deplasman": "Connah's",
+   "baslama_tr": "2026-11-27T22:45:00+03:00",
+   "market_sayisi": 35
+  },
+  {
+   "kod": 3330973,
+   "lig": "Galler Championship, Güney",
+   "lig_kodu": 22382,
+   "ev": "Caerphilly Ath",
+   "deplasman": "Baglan Dragons",
+   "baslama_tr": "2026-11-27T22:45:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3330980,
+   "lig": "Galler Championship, Kuzey",
+   "lig_kodu": 22383,
+   "ev": "Bala Town",
+   "deplasman": "Caersws",
+   "baslama_tr": "2026-11-27T22:45:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3330983,
+   "lig": "Belçika U21 Pro Ligi, 1. Grup",
+   "lig_kodu": 33807,
+   "ev": "KVC Westerlo U21",
+   "deplasman": "Lierse K. U21",
+   "baslama_tr": "2026-11-27T22:30:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3331001,
+   "lig": "Galler Premier Lig",
+   "lig_kodu": 1147,
+   "ev": "Flint Town Utd",
+   "deplasman": "TNS",
+   "baslama_tr": "2026-11-27T22:45:00+03:00",
+   "market_sayisi": 34
+  },
+  {
+   "kod": 3331002,
+   "lig": "İngiltere Championship",
+   "lig_kodu": 52,
+   "ev": "Southampton",
+   "deplasman": "Middlesbrough",
+   "baslama_tr": "2026-11-27T23:00:00+03:00",
+   "market_sayisi": 87
+  },
+  {
+   "kod": 3331036,
+   "lig": "Almanya Bundesliga",
+   "lig_kodu": 45,
+   "ev": "Werder Bremen",
+   "deplasman": "M'gladbach",
+   "baslama_tr": "2026-11-27T22:30:00+03:00",
+   "market_sayisi": 99
+  },
+  {
+   "kod": 3331042,
+   "lig": "Galler Championship, Kuzey",
+   "lig_kodu": 22383,
+   "ev": "Denbigh Town",
+   "deplasman": "Brickfield Rangers",
+   "baslama_tr": "2026-11-27T22:45:00+03:00",
+   "market_sayisi": 18
+  },
+  {
+   "kod": 3331044,
+   "lig": "Galler Championship, Güney",
+   "lig_kodu": 22382,
+   "ev": "Newport City",
+   "deplasman": "Pontardawe Town",
+   "baslama_tr": "2026-11-27T22:30:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3331062,
+   "lig": "Galler Championship, Güney",
+   "lig_kodu": 22382,
+   "ev": "Afan Lido",
+   "deplasman": "Caerau Ely",
+   "baslama_tr": "2026-11-27T22:30:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3331070,
+   "lig": "İtalya Serie A",
+   "lig_kodu": 143,
+   "ev": "Venezia",
+   "deplasman": "Bologna",
+   "baslama_tr": "2026-11-27T22:45:00+03:00",
+   "market_sayisi": 101
+  },
+  {
+   "kod": 3331085,
+   "lig": "Kuzey İrlanda Premiership",
+   "lig_kodu": 1865,
+   "ev": "Glentoran",
+   "deplasman": "Larne",
+   "baslama_tr": "2026-11-27T22:45:00+03:00",
+   "market_sayisi": 53
+  },
+  {
+   "kod": 3331104,
+   "lig": "Galler Premier Lig",
+   "lig_kodu": 1147,
+   "ev": "Briton Ferry",
+   "deplasman": "Penybont",
+   "baslama_tr": "2026-11-27T22:45:00+03:00",
+   "market_sayisi": 34
+  },
+  {
+   "kod": 3331110,
+   "lig": "Galler Premier Lig",
+   "lig_kodu": 1147,
+   "ev": "Cambrian & Clydach",
+   "deplasman": "Trefelin",
+   "baslama_tr": "2026-11-27T22:45:00+03:00",
+   "market_sayisi": 37
+  },
+  {
+   "kod": 3331253,
+   "lig": "Fransa Ligue 1",
+   "lig_kodu": 381,
+   "ev": "Brest",
+   "deplasman": "Paris",
+   "baslama_tr": "2026-11-27T22:45:00+03:00",
+   "market_sayisi": 95
+  },
+  {
+   "kod": 3331296,
+   "lig": "Kuzey İrlanda Premiership",
+   "lig_kodu": 1865,
+   "ev": "Coleraine",
+   "deplasman": "Dungannon",
+   "baslama_tr": "2026-11-27T22:45:00+03:00",
+   "market_sayisi": 55
+  },
+  {
+   "kod": 3331340,
+   "lig": "Avusturya 2. Lig",
+   "lig_kodu": 598,
+   "ev": "Wacker Inns.",
+   "deplasman": "First Vienna",
+   "baslama_tr": "2026-11-27T22:30:00+03:00",
+   "market_sayisi": 54
+  },
+  {
+   "kod": 3331357,
+   "lig": "İngiltere Kuzey Premier Ligi",
+   "lig_kodu": 2646,
+   "ev": "Warrington Rylands 1906",
+   "deplasman": "Lancaster",
+   "baslama_tr": "2026-11-27T22:45:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3331405,
+   "lig": "Belçika Pro Lig",
+   "lig_kodu": 148,
+   "ev": "O. H. Leuven",
+   "deplasman": "Kortrijk",
+   "baslama_tr": "2026-11-27T22:45:00+03:00",
+   "market_sayisi": 81
+  },
+  {
+   "kod": 3331451,
+   "lig": "İtalya Serie C",
+   "lig_kodu": 10096,
+   "ev": "Cavese 1919",
+   "deplasman": "Scafatese Calcio 1922",
+   "baslama_tr": "2026-11-27T22:30:00+03:00",
+   "market_sayisi": 37
+  },
+  {
+   "kod": 3331459,
+   "lig": "İngiltere Premier Lig",
+   "lig_kodu": 43,
+   "ev": "Nottingham F.",
+   "deplasman": "Chelsea",
+   "baslama_tr": "2026-11-27T23:00:00+03:00",
+   "market_sayisi": 103
+  },
+  {
+   "kod": 3331530,
+   "lig": "Kuzey İrlanda Championship",
+   "lig_kodu": 1868,
+   "ev": "Moyola Park",
+   "deplasman": "Annagh Utd",
+   "baslama_tr": "2026-11-27T22:45:00+03:00",
+   "market_sayisi": 15
+  },
+  {
+   "kod": 3331666,
+   "lig": "Kuzey İrlanda Championship",
+   "lig_kodu": 1868,
+   "ev": "Warrenpoint",
+   "deplasman": "Harland Wolff W.",
+   "baslama_tr": "2026-11-27T22:45:00+03:00",
+   "market_sayisi": 15
+  },
+  {
+   "kod": 3331995,
+   "lig": "Galler Championship, Kuzey",
+   "lig_kodu": 22383,
+   "ev": "Bangor 1876",
+   "deplasman": "Mold Alexandra",
+   "baslama_tr": "2026-11-27T22:30:00+03:00",
+   "market_sayisi": 17
+  },
+  {
+   "kod": 3332038,
+   "lig": "Kuzey İrlanda Championship",
+   "lig_kodu": 1868,
+   "ev": "Newry City",
+   "deplasman": "Ballinamallard Utd",
+   "baslama_tr": "2026-11-27T22:45:00+03:00",
+   "market_sayisi": 15
+  },
+  {
+   "kod": 3332169,
+   "lig": "Kuzey İrlanda Championship",
+   "lig_kodu": 1868,
+   "ev": "Institute",
+   "deplasman": "Ards",
+   "baslama_tr": "2026-11-27T22:45:00+03:00",
+   "market_sayisi": 15
+  },
+  {
+   "kod": 3332625,
+   "lig": "Polonya Ekstraklasa",
+   "lig_kodu": 202,
+   "ev": "Gornik Zabrze",
+   "deplasman": "Wisla Plock",
+   "baslama_tr": "2026-11-27T22:30:00+03:00",
+   "market_sayisi": 69
+  },
+  {
+   "kod": 3333397,
+   "lig": "Polonya 1. Lig",
+   "lig_kodu": 997,
+   "ev": "C. Glogow",
+   "deplasman": "Unia Skier",
+   "baslama_tr": "2026-11-27T22:30:00+03:00",
+   "market_sayisi": 35
+  },
+  {
+   "kod": 3336683,
+   "lig": "İspanya 2. Lig",
+   "lig_kodu": 1951,
+   "ev": "Leganes",
+   "deplasman": "CE Sabadell",
+   "baslama_tr": "2026-11-27T22:30:00+03:00",
+   "market_sayisi": 83
+  },
+  {
+   "kod": 3336789,
+   "lig": "İspanya La Liga",
+   "lig_kodu": 129,
+   "ev": "Levante",
+   "deplasman": "Santander",
+   "baslama_tr": "2026-11-27T23:00:00+03:00",
+   "market_sayisi": 98
+  },
+  {
+   "kod": 3336924,
+   "lig": "İspanya 3. Federasyon",
+   "lig_kodu": 10214,
+   "ev": "CD Revilla",
+   "deplasman": "Velarde",
+   "baslama_tr": "2026-11-27T22:30:00+03:00",
+   "market_sayisi": 8
+  },
+  {
+   "kod": 3337046,
+   "lig": "Portekiz Premier Lig",
+   "lig_kodu": 566,
+   "ev": "Maritimo",
+   "deplasman": "N. Madeira",
+   "baslama_tr": "2026-11-27T23:15:00+03:00",
+   "market_sayisi": 84
+  },
+  {
+   "kod": 3337316,
+   "lig": "İspanya Primera RFEF",
+   "lig_kodu": 10074,
+   "ev": "Hercules",
+   "deplasman": "Antequera",
+   "baslama_tr": "2026-11-27T23:15:00+03:00",
+   "market_sayisi": 37
+  },
+  {
+   "kod": 3351728,
+   "lig": "İskoçya Kupası",
+   "lig_kodu": 599,
+   "ev": "Largs Thistle",
+   "deplasman": "Ayr Utd",
+   "baslama_tr": "2026-11-27T22:30:00+03:00",
+   "market_sayisi": 5
+  },
+  {
+   "kod": 3426322,
+   "lig": "İngiltere Premier Lig Haftalık Bahisler",
+   "lig_kodu": 72063,
+   "ev": "Premier Lig",
+   "deplasman": "12. Hafta (10 Maç)",
+   "baslama_tr": "2026-11-27T23:00:00+03:00",
+   "market_sayisi": 1
+  },
+  {
+   "kod": 3426323,
+   "lig": "İspanya La Liga Haftalık Bahisler",
+   "lig_kodu": 69907,
+   "ev": "La Liga",
+   "deplasman": "14. Hafta (10 Maç)",
+   "baslama_tr": "2026-11-27T23:00:00+03:00",
+   "market_sayisi": 1
+  },
+  {
+   "kod": 3426324,
+   "lig": "Almanya Bundesliga Haftalık Bahisler",
+   "lig_kodu": 69906,
+   "ev": "Bundesliga",
+   "deplasman": "11. Hafta (9 Maç)",
+   "baslama_tr": "2026-11-27T22:30:00+03:00",
+   "market_sayisi": 1
+  },
+  {
+   "kod": 3426325,
+   "lig": "İtalya Serie A Haftalık Bahisler",
+   "lig_kodu": 69908,
+   "ev": "Serie A",
+   "deplasman": "13. Hafta (10 Maç)",
+   "baslama_tr": "2026-11-27T22:45:00+03:00",
+   "market_sayisi": 1
+  },
+  {
+   "kod": 3426326,
+   "lig": "Fransa Lig 1 Haftalık Bahisler",
+   "lig_kodu": 69909,
+   "ev": "Lig 1",
+   "deplasman": "12. Hafta (9 Maç)",
+   "baslama_tr": "2026-11-27T22:45:00+03:00",
+   "market_sayisi": 1
+  }
+ ]
+}

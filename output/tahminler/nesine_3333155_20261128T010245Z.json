@@ -1,0 +1,410 @@
+{
+ "tur": "donmus_tahmin",
+ "mac_id": "nesine:3333155",
+ "karsilasma": "Angers - RC Lens",
+ "lig": "Fransa Ligue 1",
+ "baslama_tr": "2026-11-28T19:15:00+03:00",
+ "dondurma_utc": "2026-11-28T01:02:45+00:00",
+ "veri_kesimi": "2026-11-27",
+ "model_surumu": {
+  "is_akisi": "is-akisi-0.1",
+  "git_commit": "613ba07d3528d5ab34635924db9874cce6c61a40"
+ },
+ "tahmin": {
+  "durum": "hesaplandi",
+  "hazirlik": [
+   {
+    "kriter": "lig_eslemesi_onayli",
+    "gecti": true,
+    "kanit": "Fransa Ligue 1 → fr.1"
+   },
+   {
+    "kriter": "model_bu_ligde_degerlendirildi",
+    "gecti": true,
+    "kanit": "poisson_E değerlendirme ligleri: ['fr.1', 'nl.1', 'pt.1', 'de.2', 'es.2']"
+   },
+   {
+    "kriter": "lig_verisi_var",
+    "gecti": true,
+    "kanit": "4336 maç"
+   },
+   {
+    "kriter": "veri_guncel",
+    "gecti": true,
+    "kanit": "son skorlu maç 2026-11-27, boşluk 1 gün (sınır 14)"
+   },
+   {
+    "kriter": "takim_eslemesi_ev",
+    "gecti": true,
+    "kanit": "'Angers' → onayli Angers SCO"
+   },
+   {
+    "kriter": "takim_eslemesi_dep",
+    "gecti": true,
+    "kanit": "'RC Lens' → onayli Racing Club de Lens"
+   },
+   {
+    "kriter": "test_edilmis_ve_kalibre_market_var",
+    "gecti": true,
+    "kanit": "10 market: ['H-1_X', 'MS1_AU2.5_alt', 'MS2_AU2.5_alt', 'MS2_KG_var', 'skor_0_1', 'skor_1_1', 'skor_2_0', 'skor_0_2', 'skor_2_1', 'skor_1_2']"
+   },
+   {
+    "kriter": "veri_kesimi_kaydedildi",
+    "gecti": true,
+    "kanit": "2026-11-27"
+   },
+   {
+    "kriter": "oranlardan_once_dondurulacak",
+    "gecti": true,
+    "kanit": "olasılık yalnızca dondur() ile kaydedilir; fiyat karşılaştırması fiyat_karsilastir()'ta dondurmadan sonra (oran bu fonksiyona girmez: oransiz_mi)"
+   }
+  ],
+  "kapsam_sha256": "a702432d8f3a5211746e3d2ea958100df14afa9b0483f8b95febf040123c8ed4",
+  "model_adi": "poisson_E",
+  "veri_kesimi": "2026-11-27",
+  "veri_boslugu_gun": 1,
+  "veri_kaynaklari": [
+   "football-data.org",
+   "openfootball"
+  ],
+  "ev_esleme": {
+   "durum": "onayli",
+   "kaynak_adi": "Angers SCO",
+   "alternatifler": []
+  },
+  "dep_esleme": {
+   "durum": "onayli",
+   "kaynak_adi": "Racing Club de Lens",
+   "alternatifler": []
+  },
+  "model": "GolModeli ξ=0,003, pencere 1095, ceza 2,0, önsel 0,8/1,2; Poisson",
+  "lambda_ev": 0.8301648685037818,
+  "lambda_dep": 1.8127391280924365,
+  "egitim_mac_sayisi": 4336,
+  "olasiliklar": {
+   "H-1_X": 0.11617280284914681,
+   "MS1_AU2.5_alt": 0.08358895940425488,
+   "MS2_AU2.5_alt": 0.2458924719517821,
+   "MS2_KG_var": 0.2417089663266046,
+   "skor_0_1": 0.1289846819783893,
+   "skor_1_1": 0.10707855155359167,
+   "skor_2_0": 0.024518931128166704,
+   "skor_0_2": 0.11690778997339278,
+   "skor_2_1": 0.04444642583503142,
+   "skor_1_2": 0.09705274009032935
+  },
+  "hesaplanamaz_pazarlar": {
+   "MS_1": [
+    "lig ECE > 0,04: {'es.2': 0.0439}"
+   ],
+   "MS_X": [
+    "havuz ECE 0.021 > 0,02"
+   ],
+   "MS_2": [
+    "2 kutuda sapma > 0,05",
+    "lig ECE > 0,04: {'es.2': 0.0517}"
+   ],
+   "CS_1X": [
+    "2 kutuda sapma > 0,05",
+    "lig ECE > 0,04: {'es.2': 0.0517}"
+   ],
+   "CS_12": [
+    "havuz ECE 0.021 > 0,02"
+   ],
+   "CS_X2": [
+    "lig ECE > 0,04: {'es.2': 0.0439}"
+   ],
+   "KG_var": [
+    "tabanı geçmiyor (lig-sezon GA [0.00205, 0.00702])",
+    "havuz ECE 0.042 > 0,02",
+    "4 kutuda sapma > 0,05",
+    "lig ECE > 0,04: {'es.2': 0.0672, 'fr.1': 0.0528, 'nl.1': 0.0406, 'pt.1': 0.0503}"
+   ],
+   "KG_yok": [
+    "tabanı geçmiyor (lig-sezon GA [0.00205, 0.00702])",
+    "havuz ECE 0.042 > 0,02",
+    "4 kutuda sapma > 0,05",
+    "lig ECE > 0,04: {'es.2': 0.0672, 'fr.1': 0.0528, 'nl.1': 0.0406, 'pt.1': 0.0503}"
+   ],
+   "tek": [
+    "tabanı geçmiyor (lig-sezon GA [-0.00117, 0.00063])"
+   ],
+   "cift": [
+    "tabanı geçmiyor (lig-sezon GA [-0.00117, 0.00063])"
+   ],
+   "aralik_0_1": [
+    "tabanı geçmiyor (lig-sezon GA [-0.00192, 0.00482])",
+    "havuz ECE 0.033 > 0,02",
+    "3 kutuda sapma > 0,05",
+    "lig ECE > 0,04: {'de.2': 0.0441, 'es.2': 0.0574}"
+   ],
+   "aralik_2_3": [
+    "tabanı geçmiyor (lig-sezon GA [-0.00065, 0.00179])",
+    "2 kutuda sapma > 0,05"
+   ],
+   "aralik_4_5": [
+    "tabanı geçmiyor (lig-sezon GA [-0.00032, 0.0051])",
+    "havuz ECE 0.026 > 0,02",
+    "2 kutuda sapma > 0,05"
+   ],
+   "aralik_6p": [
+    "tabanı geçmiyor (lig-sezon GA [-0.00271, 0.00406])",
+    "2 kutuda sapma > 0,05"
+   ],
+   "H-1_1": [
+    "3 kutuda sapma > 0,05"
+   ],
+   "H-1_2": [
+    "lig ECE > 0,04: {'es.2': 0.0439}"
+   ],
+   "AU0.5_alt": [
+    "tabanı geçmiyor (lig-sezon GA [-0.0015, 0.00271])",
+    "1 kutuda sapma > 0,05"
+   ],
+   "AU0.5_ust": [
+    "tabanı geçmiyor (lig-sezon GA [-0.0015, 0.00271])",
+    "1 kutuda sapma > 0,05"
+   ],
+   "AU1.5_alt": [
+    "tabanı geçmiyor (lig-sezon GA [-0.00192, 0.00482])",
+    "havuz ECE 0.033 > 0,02",
+    "3 kutuda sapma > 0,05",
+    "lig ECE > 0,04: {'de.2': 0.0441, 'es.2': 0.0574}"
+   ],
+   "AU1.5_ust": [
+    "tabanı geçmiyor (lig-sezon GA [-0.00192, 0.00482])",
+    "havuz ECE 0.033 > 0,02",
+    "3 kutuda sapma > 0,05",
+    "lig ECE > 0,04: {'de.2': 0.0441, 'es.2': 0.0574}"
+   ],
+   "AU2.5_alt": [
+    "tabanı geçmiyor (lig-sezon GA [-0.00323, 0.00505])",
+    "havuz ECE 0.049 > 0,02",
+    "6 kutuda sapma > 0,05",
+    "lig ECE > 0,04: {'de.2': 0.0775, 'es.2': 0.0636, 'fr.1': 0.0457, 'nl.1': 0.0544}"
+   ],
+   "AU2.5_ust": [
+    "tabanı geçmiyor (lig-sezon GA [-0.00323, 0.00505])",
+    "havuz ECE 0.049 > 0,02",
+    "6 kutuda sapma > 0,05",
+    "lig ECE > 0,04: {'de.2': 0.0775, 'es.2': 0.0636, 'fr.1': 0.0457, 'nl.1': 0.0544}"
+   ],
+   "AU3.5_alt": [
+    "tabanı geçmiyor (lig-sezon GA [-0.00133, 0.00779])",
+    "havuz ECE 0.043 > 0,02",
+    "6 kutuda sapma > 0,05",
+    "lig ECE > 0,04: {'de.2': 0.0586, 'es.2': 0.0537, 'nl.1': 0.0556, 'pt.1': 0.0451}"
+   ],
+   "AU3.5_ust": [
+    "tabanı geçmiyor (lig-sezon GA [-0.00133, 0.00779])",
+    "havuz ECE 0.043 > 0,02",
+    "6 kutuda sapma > 0,05",
+    "lig ECE > 0,04: {'de.2': 0.0586, 'es.2': 0.0537, 'nl.1': 0.0556, 'pt.1': 0.0451}"
+   ],
+   "AU4.5_alt": [
+    "tabanı geçmiyor (lig-sezon GA [-0.00448, 0.00416])",
+    "havuz ECE 0.029 > 0,02",
+    "4 kutuda sapma > 0,05",
+    "lig ECE > 0,04: {'de.2': 0.043, 'nl.1': 0.0461}"
+   ],
+   "AU4.5_ust": [
+    "tabanı geçmiyor (lig-sezon GA [-0.00448, 0.00416])",
+    "havuz ECE 0.029 > 0,02",
+    "4 kutuda sapma > 0,05",
+    "lig ECE > 0,04: {'de.2': 0.043, 'nl.1': 0.0461}"
+   ],
+   "ev0.5_alt": [
+    "havuz ECE 0.020 > 0,02",
+    "2 kutuda sapma > 0,05",
+    "lig ECE > 0,04: {'es.2': 0.0579}"
+   ],
+   "ev0.5_ust": [
+    "havuz ECE 0.020 > 0,02",
+    "2 kutuda sapma > 0,05",
+    "lig ECE > 0,04: {'es.2': 0.0579}"
+   ],
+   "dep0.5_alt": [
+    "havuz ECE 0.029 > 0,02",
+    "2 kutuda sapma > 0,05",
+    "lig ECE > 0,04: {'de.2': 0.0439, 'es.2': 0.0591}"
+   ],
+   "dep0.5_ust": [
+    "havuz ECE 0.029 > 0,02",
+    "2 kutuda sapma > 0,05",
+    "lig ECE > 0,04: {'de.2': 0.0439, 'es.2': 0.0591}"
+   ],
+   "ev1.5_alt": [
+    "havuz ECE 0.028 > 0,02",
+    "2 kutuda sapma > 0,05",
+    "lig ECE > 0,04: {'de.2': 0.0483, 'es.2': 0.0566}"
+   ],
+   "ev1.5_ust": [
+    "havuz ECE 0.028 > 0,02",
+    "2 kutuda sapma > 0,05",
+    "lig ECE > 0,04: {'de.2': 0.0483, 'es.2': 0.0566}"
+   ],
+   "dep1.5_alt": [
+    "havuz ECE 0.028 > 0,02",
+    "3 kutuda sapma > 0,05",
+    "lig ECE > 0,04: {'de.2': 0.0416}"
+   ],
+   "dep1.5_ust": [
+    "havuz ECE 0.028 > 0,02",
+    "3 kutuda sapma > 0,05",
+    "lig ECE > 0,04: {'de.2': 0.0416}"
+   ],
+   "ev2.5_alt": [
+    "2 kutuda sapma > 0,05"
+   ],
+   "ev2.5_ust": [
+    "2 kutuda sapma > 0,05"
+   ],
+   "dep2.5_alt": [
+    "4 kutuda sapma > 0,05"
+   ],
+   "dep2.5_ust": [
+    "4 kutuda sapma > 0,05"
+   ],
+   "MS1_AU2.5_ust": [
+    "2 kutuda sapma > 0,05"
+   ],
+   "MS1_KG_var": [
+    "1 kutuda sapma > 0,05"
+   ],
+   "MS1_KG_yok": [
+    "2 kutuda sapma > 0,05",
+    "lig ECE > 0,04: {'es.2': 0.0479}"
+   ],
+   "MSX_AU2.5_alt": [
+    "tabanı geçmiyor (lig-sezon GA [-0.00566, 0.00017])"
+   ],
+   "MSX_AU2.5_ust": [
+    "tabanı geçmiyor (lig-sezon GA [0.00014, 0.00445])"
+   ],
+   "MSX_KG_var": [
+    "tabanı geçmiyor (lig-sezon GA [-0.00401, 0.00049])",
+    "havuz ECE 0.023 > 0,02"
+   ],
+   "MSX_KG_yok": [
+    "tabanı geçmiyor (lig-sezon GA [-0.0015, 0.00271])",
+    "1 kutuda sapma > 0,05"
+   ],
+   "MS2_AU2.5_ust": [
+    "2 kutuda sapma > 0,05"
+   ],
+   "MS2_KG_yok": [
+    "2 kutuda sapma > 0,05"
+   ],
+   "skor_0_0": [
+    "tabanı geçmiyor (lig-sezon GA [-0.0015, 0.00271])",
+    "1 kutuda sapma > 0,05"
+   ],
+   "skor_1_0": [
+    "tabanı geçmiyor (lig-sezon GA [-0.00432, 0.00148])",
+    "1 kutuda sapma > 0,05"
+   ],
+   "skor_2_2": [
+    "tabanı geçmiyor (lig-sezon GA [-0.00026, 0.00365])"
+   ]
+  },
+  "kalibrasyon_notu": "E aşamasında çoğu markette ECE 0,01–0,03; kutularda ≤0,05 sapma koşulu birçok markette sağlanmadı. 'Yüksek güven' verilmez.",
+  "skor_matrisi": [
+   [
+    0.0711545749,
+    0.128984682,
+    0.11690779,
+    0.0706411084,
+    0.0320134753,
+    0.0116064159,
+    0.0035065674,
+    0.0009080703
+   ],
+   [
+    0.0590700283,
+    0.1070785516,
+    0.0970527401,
+    0.0586437665,
+    0.0265764625,
+    0.0096352387,
+    0.002911029,
+    0.000753848
+   ],
+   [
+    0.0245189311,
+    0.0444464258,
+    0.0402848876,
+    0.0243419973,
+    0.0110314228,
+    0.0039994183,
+    0.001208317,
+    0.0003129091
+   ],
+   [
+    0.0067849184,
+    0.0122992871,
+    0.0111476995,
+    0.006735957,
+    0.0030526332,
+    0.0011067255,
+    0.0003343674,
+    8.65887e-05
+   ],
+   [
+    0.0014081502,
+    0.002552609,
+    0.0023136071,
+    0.0013979887,
+    0.0006335472,
+    0.0002296912,
+    6.9395e-05,
+    1.79707e-05
+   ],
+   [
+    0.0002337994,
+    0.0004238173,
+    0.0003841351,
+    0.0002321122,
+    0.0001051897,
+    3.81363e-05,
+    1.15219e-05,
+    2.9837e-06
+   ],
+   [
+    3.23487e-05,
+    5.86397e-05,
+    5.31492e-05,
+    3.21152e-05,
+    1.45541e-05,
+    5.2766e-06,
+    1.5942e-06,
+    4.128e-07
+   ],
+   [
+    3.8364e-06,
+    6.9544e-06,
+    6.3032e-06,
+    3.8087e-06,
+    1.726e-06,
+    6.258e-07,
+    1.891e-07,
+    4.9e-08
+   ]
+  ],
+  "veri_kaynagi_raporu": {
+   "son_tarih": "2026-11-27",
+   "ayni": 45,
+   "eklenen": 55,
+   "fd_sha256": "47381f2ebbd42ccfc5b107cf28f6b618f3b672a073013825d223eff08f79a8c4",
+   "fd_erisim_utc": "2026-11-28T01:02:44+00:00",
+   "atif": "Football data provided by the Football-Data.org API"
+  },
+  "mac_kimligi_dogrulama": {
+   "nesine": "nesine:3333155",
+   "fd_mac_id": 559612,
+   "utc": "2026-11-28T16:15:00+00:00",
+   "durum": "TIMED",
+   "anlik_goruntu": "20261128T002559Z"
+  }
+ },
+ "sha256": "3dfdb1ee9f517746f1fd8872b7735142663ea9d6e812df55b29035d3ed526119"
+}

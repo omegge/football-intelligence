@@ -1,0 +1,303 @@
+{
+ "tur": "donmus_tahmin",
+ "mac_id": "nesine:3332378",
+ "karsilasma": "Frosinone - Parma",
+ "lig": "İtalya Serie A",
+ "baslama_tr": "2026-11-28T17:00:00+03:00",
+ "dondurma_utc": "2026-11-28T01:02:21+00:00",
+ "veri_kesimi": "2026-11-27",
+ "model_surumu": {
+  "is_akisi": "is-akisi-0.1",
+  "git_commit": "613ba07d3528d5ab34635924db9874cce6c61a40"
+ },
+ "tahmin": {
+  "durum": "hesaplandi",
+  "hazirlik": [
+   {
+    "kriter": "lig_eslemesi_onayli",
+    "gecti": true,
+    "kanit": "İtalya Serie A → it.1"
+   },
+   {
+    "kriter": "model_bu_ligde_degerlendirildi",
+    "gecti": true,
+    "kanit": "E3 değerlendirme ligleri: ['de.1', 'en.1', 'en.3', 'en.4', 'es.1', 'fr.2', 'it.1', 'it.2']"
+   },
+   {
+    "kriter": "lig_verisi_var",
+    "gecti": true,
+    "kanit": "5061 maç"
+   },
+   {
+    "kriter": "veri_guncel",
+    "gecti": true,
+    "kanit": "son skorlu maç 2026-11-27, boşluk 1 gün (sınır 14)"
+   },
+   {
+    "kriter": "takim_eslemesi_ev",
+    "gecti": true,
+    "kanit": "'Frosinone' → kesin Frosinone Calcio"
+   },
+   {
+    "kriter": "takim_eslemesi_dep",
+    "gecti": true,
+    "kanit": "'Parma' → onayli Parma Calcio 1913"
+   },
+   {
+    "kriter": "test_edilmis_ve_kalibre_market_var",
+    "gecti": true,
+    "kanit": "38 market: ['MS_1', 'MS_2', 'CS_1X', 'CS_X2', 'aralik_4_5', 'aralik_6p', 'H-1_1', 'H-1_X', 'H-1_2', 'AU0.5_alt', 'AU0.5_ust', 'AU2.5_alt', 'AU2.5_ust', 'AU4.5_alt', 'AU4.5_ust', 'ev0.5_alt', 'ev0.5_ust', 'dep1.5_alt', 'dep1.5_ust', 'ev2.5_alt', 'ev2.5_ust', 'dep2.5_alt', 'dep2.5_ust', 'MS1_AU2.5_alt', 'MS1_KG_var', 'MSX_AU2.5_alt', 'MSX_KG_yok', 'MS2_AU2.5_alt', 'MS2_AU2.5_ust', 'MS2_KG_var', 'skor_0_0', 'skor_1_0', 'skor_0_1', 'skor_1_1', 'skor_2_0', 'skor_0_2', 'skor_2_1', 'skor_1_2']"
+   },
+   {
+    "kriter": "veri_kesimi_kaydedildi",
+    "gecti": true,
+    "kanit": "2026-11-27"
+   },
+   {
+    "kriter": "oranlardan_once_dondurulacak",
+    "gecti": true,
+    "kanit": "olasılık yalnızca dondur() ile kaydedilir; fiyat karşılaştırması fiyat_karsilastir()'ta dondurmadan sonra (oran bu fonksiyona girmez: oransiz_mi)"
+   }
+  ],
+  "kapsam_sha256": "a702432d8f3a5211746e3d2ea958100df14afa9b0483f8b95febf040123c8ed4",
+  "model_adi": "E3",
+  "veri_kesimi": "2026-11-27",
+  "veri_boslugu_gun": 1,
+  "veri_kaynaklari": [
+   "football-data.org",
+   "openfootball"
+  ],
+  "ev_esleme": {
+   "durum": "kesin",
+   "kaynak_adi": "Frosinone Calcio",
+   "alternatifler": []
+  },
+  "dep_esleme": {
+   "durum": "onayli",
+   "kaynak_adi": "Parma Calcio 1913",
+   "alternatifler": []
+  },
+  "lig_ortalamasi_365": 2.6824146981627295,
+  "e3_duzeltmesi": {
+   "gamma": 1.55,
+   "delta": -0.1,
+   "pencere_mac": 681,
+   "pencere_bas": "2024-11-29",
+   "pencere_son": "2026-09-20"
+  },
+  "model": "E3 E2+A: E2 (ceza 16, w 0,65, b 0) + zaman sıralı güç farkı ölçeği γ ve ev kayması δ (aynı ligin önceki 730 günü; ON_KAYIT_E3)",
+  "lambda_ev": 1.8696265418470297,
+  "lambda_dep": 0.9697024819293574,
+  "egitim_mac_sayisi": 5061,
+  "olasiliklar": {
+   "MS_1": 0.5846487068992142,
+   "MS_2": 0.19198959673229732,
+   "CS_1X": 0.8080104032677027,
+   "CS_X2": 0.41535129310078595,
+   "aralik_4_5": 0.24823187270998287,
+   "aralik_6p": 0.06858915914343404,
+   "H-1_1": 0.3413542883350259,
+   "H-1_X": 0.2432944185641882,
+   "H-1_2": 0.41535129310078595,
+   "AU0.5_alt": 0.05846514213125169,
+   "AU0.5_ust": 0.9415348578687484,
+   "AU2.5_alt": 0.46013374584581146,
+   "AU2.5_ust": 0.5398662541541885,
+   "AU4.5_alt": 0.8415036614698924,
+   "AU4.5_ust": 0.15849633853010758,
+   "ev0.5_alt": 0.15418191788358532,
+   "ev0.5_ust": 0.8458180821164147,
+   "dep1.5_alt": 0.7469029905908262,
+   "dep1.5_ust": 0.25309700940917373,
+   "ev2.5_alt": 0.71191623338283,
+   "ev2.5_ust": 0.28808376661716995,
+   "dep2.5_alt": 0.9251862580280855,
+   "dep2.5_ust": 0.07481374197191451,
+   "MS1_AU2.5_alt": 0.21149053322686207,
+   "MS1_KG_var": 0.2639180073015047,
+   "MSX_AU2.5_alt": 0.16446136308789328,
+   "MSX_KG_yok": 0.05846514213125169,
+   "MS2_AU2.5_alt": 0.08418184953105617,
+   "MS2_AU2.5_ust": 0.10780774720124114,
+   "MS2_KG_var": 0.09627282097996367,
+   "skor_0_0": 0.05846514213125169,
+   "skor_1_0": 0.10930798150144717,
+   "skor_0_1": 0.056693793431027394,
+   "skor_1_1": 0.10599622095664159,
+   "skor_2_0": 0.10218255172541488,
+   "skor_0_2": 0.02748805610002878,
+   "skor_2_1": 0.09908667401800973,
+   "skor_1_2": 0.05139239926839396
+  },
+  "hesaplanamaz_pazarlar": {
+   "MS_X": [
+    "kalibre"
+   ],
+   "CS_12": [
+    "kalibre"
+   ],
+   "KG_var": [
+    "bilgi_tasiyor",
+    "kalibre"
+   ],
+   "KG_yok": [
+    "bilgi_tasiyor",
+    "kalibre"
+   ],
+   "tek": [
+    "bilgi_tasiyor"
+   ],
+   "cift": [
+    "bilgi_tasiyor"
+   ],
+   "aralik_0_1": [
+    "kalibre"
+   ],
+   "aralik_2_3": [
+    "bilgi_tasiyor"
+   ],
+   "AU1.5_alt": [
+    "kalibre"
+   ],
+   "AU1.5_ust": [
+    "kalibre"
+   ],
+   "AU3.5_alt": [
+    "kalibre"
+   ],
+   "AU3.5_ust": [
+    "kalibre"
+   ],
+   "dep0.5_alt": [
+    "kalibre"
+   ],
+   "dep0.5_ust": [
+    "kalibre"
+   ],
+   "ev1.5_alt": [
+    "kalibre"
+   ],
+   "ev1.5_ust": [
+    "kalibre"
+   ],
+   "MS1_AU2.5_ust": [
+    "kalibre"
+   ],
+   "MS1_KG_yok": [
+    "kalibre"
+   ],
+   "MSX_AU2.5_ust": [
+    "bilgi_tasiyor"
+   ],
+   "MSX_KG_var": [
+    "bilgi_tasiyor",
+    "kalibre"
+   ],
+   "MS2_KG_yok": [
+    "kalibre"
+   ],
+   "skor_2_2": [
+    "bilgi_tasiyor"
+   ]
+  },
+  "kalibrasyon_notu": "E aşamasında çoğu markette ECE 0,01–0,03; kutularda ≤0,05 sapma koşulu birçok markette sağlanmadı. 'Yüksek güven' verilmez.",
+  "skor_matrisi": [
+   [
+    0.0584651421,
+    0.0566937934,
+    0.0274880561,
+    0.0088850787,
+    0.0021539707,
+    0.0004177422,
+    6.75143e-05,
+    9.3527e-06
+   ],
+   [
+    0.1093079815,
+    0.105996221,
+    0.0513923993,
+    0.016611779,
+    0.0040271208,
+    0.0007810218,
+    0.0001262265,
+    1.7486e-05
+   ],
+   [
+    0.1021825517,
+    0.099086674,
+    0.0480422969,
+    0.0155289115,
+    0.003764606,
+    0.0007301096,
+    0.0001179982,
+    1.63462e-05
+   ],
+   [
+    0.0636810703,
+    0.0617516919,
+    0.0299403844,
+    0.009677755,
+    0.0023461358,
+    0.0004550107,
+    7.35375e-05,
+    1.01871e-05
+   ],
+   [
+    0.0297649548,
+    0.0288631505,
+    0.0139943344,
+    0.0045234469,
+    0.0010965994,
+    0.000212675,
+    3.43719e-05,
+    4.7615e-06
+   ],
+   [
+    0.0111298699,
+    0.0107926625,
+    0.0052328358,
+    0.0016914313,
+    0.0004100463,
+    7.95246e-05,
+    1.28525e-05,
+    1.7804e-06
+   ],
+   [
+    0.0034681167,
+    0.0033630414,
+    0.0016305748,
+    0.0005270575,
+    0.0001277722,
+    2.47802e-05,
+    4.0049e-06,
+    5.548e-07
+   ],
+   [
+    0.0009262976,
+    0.0008982331,
+    0.0004355094,
+    0.0001407715,
+    3.41266e-05,
+    6.6185e-06,
+    1.0697e-06,
+    1.482e-07
+   ]
+  ],
+  "veri_kaynagi_raporu": {
+   "son_tarih": "2026-11-27",
+   "ayni": 50,
+   "eklenen": 71,
+   "fd_sha256": "cfd04ed3e693aefdcc6ae29f6a951dfdcaaee1cf77bd3f91fe2d2410d370693f",
+   "fd_erisim_utc": "2026-11-28T01:02:20+00:00",
+   "atif": "Football data provided by the Football-Data.org API"
+  },
+  "mac_kimligi_dogrulama": {
+   "nesine": "nesine:3332378",
+   "fd_mac_id": 558513,
+   "utc": "2026-11-28T14:00:00+00:00",
+   "durum": "TIMED",
+   "anlik_goruntu": "20261128T002559Z"
+  }
+ },
+ "sha256": "31bef580a4f51d744e18b2ef4e62d8e439d51111af2625bdfa20f323e0bdf5d1"
+}

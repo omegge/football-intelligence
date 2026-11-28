@@ -1,0 +1,303 @@
+{
+ "tur": "donmus_tahmin",
+ "mac_id": "nesine:3336006",
+ "karsilasma": "Real Betis - Vallecano",
+ "lig": "İspanya La Liga",
+ "baslama_tr": "2026-11-28T16:00:00+03:00",
+ "dondurma_utc": "2026-11-28T01:02:18+00:00",
+ "veri_kesimi": "2026-11-27",
+ "model_surumu": {
+  "is_akisi": "is-akisi-0.1",
+  "git_commit": "613ba07d3528d5ab34635924db9874cce6c61a40"
+ },
+ "tahmin": {
+  "durum": "hesaplandi",
+  "hazirlik": [
+   {
+    "kriter": "lig_eslemesi_onayli",
+    "gecti": true,
+    "kanit": "İspanya La Liga → es.1"
+   },
+   {
+    "kriter": "model_bu_ligde_degerlendirildi",
+    "gecti": true,
+    "kanit": "E3 değerlendirme ligleri: ['de.1', 'en.1', 'en.3', 'en.4', 'es.1', 'fr.2', 'it.1', 'it.2']"
+   },
+   {
+    "kriter": "lig_verisi_var",
+    "gecti": true,
+    "kanit": "5450 maç"
+   },
+   {
+    "kriter": "veri_guncel",
+    "gecti": true,
+    "kanit": "son skorlu maç 2026-11-27, boşluk 1 gün (sınır 14)"
+   },
+   {
+    "kriter": "takim_eslemesi_ev",
+    "gecti": true,
+    "kanit": "'Real Betis' → onayli Real Betis Balompié"
+   },
+   {
+    "kriter": "takim_eslemesi_dep",
+    "gecti": true,
+    "kanit": "'Vallecano' → onayli Rayo Vallecano de Madrid"
+   },
+   {
+    "kriter": "test_edilmis_ve_kalibre_market_var",
+    "gecti": true,
+    "kanit": "38 market: ['MS_1', 'MS_2', 'CS_1X', 'CS_X2', 'aralik_4_5', 'aralik_6p', 'H-1_1', 'H-1_X', 'H-1_2', 'AU0.5_alt', 'AU0.5_ust', 'AU2.5_alt', 'AU2.5_ust', 'AU4.5_alt', 'AU4.5_ust', 'ev0.5_alt', 'ev0.5_ust', 'dep1.5_alt', 'dep1.5_ust', 'ev2.5_alt', 'ev2.5_ust', 'dep2.5_alt', 'dep2.5_ust', 'MS1_AU2.5_alt', 'MS1_KG_var', 'MSX_AU2.5_alt', 'MSX_KG_yok', 'MS2_AU2.5_alt', 'MS2_AU2.5_ust', 'MS2_KG_var', 'skor_0_0', 'skor_1_0', 'skor_0_1', 'skor_1_1', 'skor_2_0', 'skor_0_2', 'skor_2_1', 'skor_1_2']"
+   },
+   {
+    "kriter": "veri_kesimi_kaydedildi",
+    "gecti": true,
+    "kanit": "2026-11-27"
+   },
+   {
+    "kriter": "oranlardan_once_dondurulacak",
+    "gecti": true,
+    "kanit": "olasılık yalnızca dondur() ile kaydedilir; fiyat karşılaştırması fiyat_karsilastir()'ta dondurmadan sonra (oran bu fonksiyona girmez: oransiz_mi)"
+   }
+  ],
+  "kapsam_sha256": "a702432d8f3a5211746e3d2ea958100df14afa9b0483f8b95febf040123c8ed4",
+  "model_adi": "E3",
+  "veri_kesimi": "2026-11-27",
+  "veri_boslugu_gun": 1,
+  "veri_kaynaklari": [
+   "football-data.org",
+   "openfootball"
+  ],
+  "ev_esleme": {
+   "durum": "onayli",
+   "kaynak_adi": "Real Betis Balompié",
+   "alternatifler": []
+  },
+  "dep_esleme": {
+   "durum": "onayli",
+   "kaynak_adi": "Rayo Vallecano de Madrid",
+   "alternatifler": []
+  },
+  "lig_ortalamasi_365": 2.7973684210526315,
+  "e3_duzeltmesi": {
+   "gamma": 1.45,
+   "delta": -0.05,
+   "pencere_mac": 692,
+   "pencere_bas": "2024-11-29",
+   "pencere_son": "2026-09-20"
+  },
+  "model": "E3 E2+A: E2 (ceza 16, w 0,65, b 0) + zaman sıralı güç farkı ölçeği γ ve ev kayması δ (aynı ligin önceki 730 günü; ON_KAYIT_E3)",
+  "lambda_ev": 1.8534517351317155,
+  "lambda_dep": 0.8547334588154332,
+  "egitim_mac_sayisi": 5450,
+  "olasiliklar": {
+   "MS_1": 0.6094547834528679,
+   "MS_2": 0.1683251871228747,
+   "CS_1X": 0.8316748128771252,
+   "CS_X2": 0.3905452165471322,
+   "aralik_4_5": 0.2303224282709619,
+   "aralik_6p": 0.05738785275655297,
+   "H-1_1": 0.3585100294711763,
+   "H-1_X": 0.2509447539816914,
+   "H-1_2": 0.3905452165471322,
+   "AU0.5_alt": 0.06665794163697739,
+   "AU0.5_ust": 0.9333420583630225,
+   "AU2.5_alt": 0.4916235645455274,
+   "AU2.5_ust": 0.5083764354544725,
+   "AU4.5_alt": 0.8616909220285704,
+   "AU4.5_ust": 0.13830907797142936,
+   "ev0.5_alt": 0.1566960044019717,
+   "ev0.5_ust": 0.8433039955980284,
+   "dep1.5_alt": 0.7889972378154186,
+   "dep1.5_ust": 0.2110027621845814,
+   "ev2.5_alt": 0.7162720718985119,
+   "ev2.5_ust": 0.28372792810148795,
+   "dep2.5_alt": 0.9443880692166042,
+   "dep2.5_ust": 0.05561193078339565,
+   "MS1_AU2.5_alt": 0.23804173559491443,
+   "MS1_KG_var": 0.2507161625458507,
+   "MSX_AU2.5_alt": 0.17225793353645577,
+   "MSX_KG_yok": 0.06665794163697739,
+   "MS2_AU2.5_alt": 0.0813238954141572,
+   "MS2_AU2.5_ust": 0.08700129170871757,
+   "MS2_KG_var": 0.07828712435788045,
+   "skor_0_0": 0.06665794163697739,
+   "skor_1_0": 0.12354727758736435,
+   "skor_0_1": 0.05697477301289096,
+   "skor_1_1": 0.10559999189947838,
+   "skor_2_0": 0.11449445800755009,
+   "skor_0_2": 0.024349122401266247,
+   "skor_2_1": 0.09786224410799166,
+   "skor_1_2": 0.04512992316356145
+  },
+  "hesaplanamaz_pazarlar": {
+   "MS_X": [
+    "kalibre"
+   ],
+   "CS_12": [
+    "kalibre"
+   ],
+   "KG_var": [
+    "bilgi_tasiyor",
+    "kalibre"
+   ],
+   "KG_yok": [
+    "bilgi_tasiyor",
+    "kalibre"
+   ],
+   "tek": [
+    "bilgi_tasiyor"
+   ],
+   "cift": [
+    "bilgi_tasiyor"
+   ],
+   "aralik_0_1": [
+    "kalibre"
+   ],
+   "aralik_2_3": [
+    "bilgi_tasiyor"
+   ],
+   "AU1.5_alt": [
+    "kalibre"
+   ],
+   "AU1.5_ust": [
+    "kalibre"
+   ],
+   "AU3.5_alt": [
+    "kalibre"
+   ],
+   "AU3.5_ust": [
+    "kalibre"
+   ],
+   "dep0.5_alt": [
+    "kalibre"
+   ],
+   "dep0.5_ust": [
+    "kalibre"
+   ],
+   "ev1.5_alt": [
+    "kalibre"
+   ],
+   "ev1.5_ust": [
+    "kalibre"
+   ],
+   "MS1_AU2.5_ust": [
+    "kalibre"
+   ],
+   "MS1_KG_yok": [
+    "kalibre"
+   ],
+   "MSX_AU2.5_ust": [
+    "bilgi_tasiyor"
+   ],
+   "MSX_KG_var": [
+    "bilgi_tasiyor",
+    "kalibre"
+   ],
+   "MS2_KG_yok": [
+    "kalibre"
+   ],
+   "skor_2_2": [
+    "bilgi_tasiyor"
+   ]
+  },
+  "kalibrasyon_notu": "E aşamasında çoğu markette ECE 0,01–0,03; kutularda ≤0,05 sapma koşulu birçok markette sağlanmadı. 'Yüksek güven' verilmez.",
+  "skor_matrisi": [
+   [
+    0.0666579416,
+    0.056974773,
+    0.0243491224,
+    0.0069373365,
+    0.0014823934,
+    0.0002534102,
+    3.60997e-05,
+    4.4079e-06
+   ],
+   [
+    0.1235472776,
+    0.1055999919,
+    0.0451299232,
+    0.0128580184,
+    0.0027475446,
+    0.0004696837,
+    6.69091e-05,
+    8.1699e-06
+   ],
+   [
+    0.114494458,
+    0.0978622441,
+    0.0418230672,
+    0.0119158583,
+    0.0025462207,
+    0.000435268,
+    6.20064e-05,
+    7.5713e-06
+   ],
+   [
+    0.0707366506,
+    0.060460982,
+    0.0258390122,
+    0.0073618227,
+    0.0015730991,
+    0.0002689161,
+    3.83086e-05,
+    4.6777e-06
+   ],
+   [
+    0.032776742,
+    0.028015378,
+    0.0119728405,
+    0.0034111958,
+    0.0007289158,
+    0.0001246057,
+    1.77508e-05,
+    2.1675e-06
+   ],
+   [
+    0.0121500219,
+    0.0103850302,
+    0.0044382164,
+    0.0012644973,
+    0.000270202,
+    4.61901e-05,
+    6.58e-06,
+    8.035e-07
+   ],
+   [
+    0.0037532465,
+    0.0032080254,
+    0.0013710033,
+    0.0003906141,
+    8.34677e-05,
+    1.42685e-05,
+    2.0326e-06,
+    2.482e-07
+   ],
+   [
+    0.0009937802,
+    0.0008494172,
+    0.0003630126,
+    0.0001034263,
+    2.21005e-05,
+    3.778e-06,
+    5.382e-07,
+    6.57e-08
+   ]
+  ],
+  "veri_kaynagi_raporu": {
+   "son_tarih": "2026-11-27",
+   "ayni": 69,
+   "eklenen": 61,
+   "fd_sha256": "86b5096c57665b6834f190b5354460868157b23cb210fefc0e8ea50bc59ce42a",
+   "fd_erisim_utc": "2026-11-28T01:02:17+00:00",
+   "atif": "Football data provided by the Football-Data.org API"
+  },
+  "mac_kimligi_dogrulama": {
+   "nesine": "nesine:3336006",
+   "fd_mac_id": 564760,
+   "utc": "2026-11-28T13:00:00+00:00",
+   "durum": "TIMED",
+   "anlik_goruntu": "20261128T002559Z"
+  }
+ },
+ "sha256": "f2444c67890798789611d635b2a68c19a62e063fe14e8c492ad48b7ffe7d326e"
+}

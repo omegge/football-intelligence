@@ -1,0 +1,303 @@
+{
+ "tur": "donmus_tahmin",
+ "mac_id": "nesine:3332414",
+ "karsilasma": "Inter - Genoa",
+ "lig": "İtalya Serie A",
+ "baslama_tr": "2026-11-28T22:45:00+03:00",
+ "dondurma_utc": "2026-11-28T01:02:55+00:00",
+ "veri_kesimi": "2026-11-27",
+ "model_surumu": {
+  "is_akisi": "is-akisi-0.1",
+  "git_commit": "613ba07d3528d5ab34635924db9874cce6c61a40"
+ },
+ "tahmin": {
+  "durum": "hesaplandi",
+  "hazirlik": [
+   {
+    "kriter": "lig_eslemesi_onayli",
+    "gecti": true,
+    "kanit": "İtalya Serie A → it.1"
+   },
+   {
+    "kriter": "model_bu_ligde_degerlendirildi",
+    "gecti": true,
+    "kanit": "E3 değerlendirme ligleri: ['de.1', 'en.1', 'en.3', 'en.4', 'es.1', 'fr.2', 'it.1', 'it.2']"
+   },
+   {
+    "kriter": "lig_verisi_var",
+    "gecti": true,
+    "kanit": "5061 maç"
+   },
+   {
+    "kriter": "veri_guncel",
+    "gecti": true,
+    "kanit": "son skorlu maç 2026-11-27, boşluk 1 gün (sınır 14)"
+   },
+   {
+    "kriter": "takim_eslemesi_ev",
+    "gecti": true,
+    "kanit": "'Inter' → onayli FC Internazionale Milano"
+   },
+   {
+    "kriter": "takim_eslemesi_dep",
+    "gecti": true,
+    "kanit": "'Genoa' → onayli Genoa CFC"
+   },
+   {
+    "kriter": "test_edilmis_ve_kalibre_market_var",
+    "gecti": true,
+    "kanit": "38 market: ['MS_1', 'MS_2', 'CS_1X', 'CS_X2', 'aralik_4_5', 'aralik_6p', 'H-1_1', 'H-1_X', 'H-1_2', 'AU0.5_alt', 'AU0.5_ust', 'AU2.5_alt', 'AU2.5_ust', 'AU4.5_alt', 'AU4.5_ust', 'ev0.5_alt', 'ev0.5_ust', 'dep1.5_alt', 'dep1.5_ust', 'ev2.5_alt', 'ev2.5_ust', 'dep2.5_alt', 'dep2.5_ust', 'MS1_AU2.5_alt', 'MS1_KG_var', 'MSX_AU2.5_alt', 'MSX_KG_yok', 'MS2_AU2.5_alt', 'MS2_AU2.5_ust', 'MS2_KG_var', 'skor_0_0', 'skor_1_0', 'skor_0_1', 'skor_1_1', 'skor_2_0', 'skor_0_2', 'skor_2_1', 'skor_1_2']"
+   },
+   {
+    "kriter": "veri_kesimi_kaydedildi",
+    "gecti": true,
+    "kanit": "2026-11-27"
+   },
+   {
+    "kriter": "oranlardan_once_dondurulacak",
+    "gecti": true,
+    "kanit": "olasılık yalnızca dondur() ile kaydedilir; fiyat karşılaştırması fiyat_karsilastir()'ta dondurmadan sonra (oran bu fonksiyona girmez: oransiz_mi)"
+   }
+  ],
+  "kapsam_sha256": "a702432d8f3a5211746e3d2ea958100df14afa9b0483f8b95febf040123c8ed4",
+  "model_adi": "E3",
+  "veri_kesimi": "2026-11-27",
+  "veri_boslugu_gun": 1,
+  "veri_kaynaklari": [
+   "football-data.org",
+   "openfootball"
+  ],
+  "ev_esleme": {
+   "durum": "onayli",
+   "kaynak_adi": "FC Internazionale Milano",
+   "alternatifler": []
+  },
+  "dep_esleme": {
+   "durum": "onayli",
+   "kaynak_adi": "Genoa CFC",
+   "alternatifler": []
+  },
+  "lig_ortalamasi_365": 2.6824146981627295,
+  "e3_duzeltmesi": {
+   "gamma": 1.55,
+   "delta": -0.1,
+   "pencere_mac": 681,
+   "pencere_bas": "2024-11-29",
+   "pencere_son": "2026-09-20"
+  },
+  "model": "E3 E2+A: E2 (ceza 16, w 0,65, b 0) + zaman sıralı güç farkı ölçeği γ ve ev kayması δ (aynı ligin önceki 730 günü; ON_KAYIT_E3)",
+  "lambda_ev": 2.2756843344141346,
+  "lambda_dep": 0.7023207453116046,
+  "egitim_mac_sayisi": 5061,
+  "olasiliklar": {
+   "MS_1": 0.7299962125408876,
+   "MS_2": 0.09887425322982275,
+   "CS_1X": 0.9011257467701772,
+   "CS_X2": 0.27000378745911235,
+   "aralik_4_5": 0.2661308811860653,
+   "aralik_6p": 0.08169209298410958,
+   "H-1_1": 0.49340088733302134,
+   "H-1_X": 0.23659532520786625,
+   "H-1_2": 0.27000378745911235,
+   "AU0.5_alt": 0.050895627434377075,
+   "AU0.5_ust": 0.9491043725656229,
+   "AU2.5_alt": 0.4281473631760022,
+   "AU2.5_ust": 0.5718526368239977,
+   "AU4.5_alt": 0.8189673941779072,
+   "AU4.5_ust": 0.18103260582209268,
+   "ev0.5_alt": 0.10272933972123077,
+   "ev0.5_ust": 0.8972706602787692,
+   "dep1.5_alt": 0.8433879032251267,
+   "dep1.5_ust": 0.15661209677487328,
+   "ev2.5_alt": 0.6025131175928797,
+   "ev2.5_ust": 0.39748688240712027,
+   "dep2.5_alt": 0.9655754580749938,
+   "dep2.5_ust": 0.03442454192500616,
+   "MS1_AU2.5_alt": 0.24760997223701586,
+   "MS1_KG_var": 0.2854576478302661,
+   "MSX_AU2.5_alt": 0.1322400891142944,
+   "MSX_KG_yok": 0.050895627434377075,
+   "MS2_AU2.5_alt": 0.048297301824691975,
+   "MS2_AU2.5_ust": 0.050576951405130764,
+   "MS2_KG_var": 0.047040540942969056,
+   "skor_0_0": 0.050895627434377075,
+   "skor_1_0": 0.11582238204259016,
+   "skor_0_1": 0.035745054992813455,
+   "skor_1_1": 0.08134446167991732,
+   "skor_2_0": 0.1317875901944257,
+   "skor_0_2": 0.012552246831878519,
+   "skor_2_1": 0.09255715856816937,
+   "skor_1_2": 0.0285649514770054
+  },
+  "hesaplanamaz_pazarlar": {
+   "MS_X": [
+    "kalibre"
+   ],
+   "CS_12": [
+    "kalibre"
+   ],
+   "KG_var": [
+    "bilgi_tasiyor",
+    "kalibre"
+   ],
+   "KG_yok": [
+    "bilgi_tasiyor",
+    "kalibre"
+   ],
+   "tek": [
+    "bilgi_tasiyor"
+   ],
+   "cift": [
+    "bilgi_tasiyor"
+   ],
+   "aralik_0_1": [
+    "kalibre"
+   ],
+   "aralik_2_3": [
+    "bilgi_tasiyor"
+   ],
+   "AU1.5_alt": [
+    "kalibre"
+   ],
+   "AU1.5_ust": [
+    "kalibre"
+   ],
+   "AU3.5_alt": [
+    "kalibre"
+   ],
+   "AU3.5_ust": [
+    "kalibre"
+   ],
+   "dep0.5_alt": [
+    "kalibre"
+   ],
+   "dep0.5_ust": [
+    "kalibre"
+   ],
+   "ev1.5_alt": [
+    "kalibre"
+   ],
+   "ev1.5_ust": [
+    "kalibre"
+   ],
+   "MS1_AU2.5_ust": [
+    "kalibre"
+   ],
+   "MS1_KG_yok": [
+    "kalibre"
+   ],
+   "MSX_AU2.5_ust": [
+    "bilgi_tasiyor"
+   ],
+   "MSX_KG_var": [
+    "bilgi_tasiyor",
+    "kalibre"
+   ],
+   "MS2_KG_yok": [
+    "kalibre"
+   ],
+   "skor_2_2": [
+    "bilgi_tasiyor"
+   ]
+  },
+  "kalibrasyon_notu": "E aşamasında çoğu markette ECE 0,01–0,03; kutularda ≤0,05 sapma koşulu birçok markette sağlanmadı. 'Yüksek güven' verilmez.",
+  "skor_matrisi": [
+   [
+    0.0508956274,
+    0.035745055,
+    0.0125522468,
+    0.0029385678,
+    0.0005159543,
+    7.24731e-05,
+    8.4832e-06,
+    8.511e-07
+   ],
+   [
+    0.115822382,
+    0.0813444617,
+    0.0285649515,
+    0.0066872527,
+    0.0011741491,
+    0.0001649258,
+    1.93051e-05,
+    1.9369e-06
+   ],
+   [
+    0.1317875902,
+    0.0925571586,
+    0.0325024063,
+    0.0076090381,
+    0.0013359963,
+    0.0001876596,
+    2.19662e-05,
+    2.2039e-06
+   ],
+   [
+    0.0999689848,
+    0.0702102919,
+    0.0246550723,
+    0.0057719229,
+    0.0010134353,
+    0.0001423513,
+    1.66627e-05,
+    1.6718e-06
+   ],
+   [
+    0.0568744632,
+    0.0399441154,
+    0.0140267904,
+    0.0032837686,
+    0.0005765647,
+    8.09867e-05,
+    9.4798e-06,
+    9.511e-07
+   ],
+   [
+    0.025885665,
+    0.0181800395,
+    0.0063841095,
+    0.0014945642,
+    0.0002624159,
+    3.686e-05,
+    4.3146e-06,
+    4.329e-07
+   ],
+   [
+    0.0098179337,
+    0.0068953385,
+    0.0024213696,
+    0.0005668594,
+    9.95293e-05,
+    1.39803e-05,
+    1.6364e-06,
+    1.642e-07
+   ],
+   [
+    0.0031917883,
+    0.0022416591,
+    0.0007871819,
+    0.0001842847,
+    3.23567e-05,
+    4.545e-06,
+    5.32e-07,
+    5.34e-08
+   ]
+  ],
+  "veri_kaynagi_raporu": {
+   "son_tarih": "2026-11-27",
+   "ayni": 50,
+   "eklenen": 71,
+   "fd_sha256": "cfd04ed3e693aefdcc6ae29f6a951dfdcaaee1cf77bd3f91fe2d2410d370693f",
+   "fd_erisim_utc": "2026-11-28T01:02:20+00:00",
+   "atif": "Football data provided by the Football-Data.org API"
+  },
+  "mac_kimligi_dogrulama": {
+   "nesine": "nesine:3332414",
+   "fd_mac_id": 558518,
+   "utc": "2026-11-28T19:45:00+00:00",
+   "durum": "TIMED",
+   "anlik_goruntu": "20261128T002559Z"
+  }
+ },
+ "sha256": "df6408053ce452a22614e587ea91436b7eb381953f09758ab11a615b32e1218a"
+}

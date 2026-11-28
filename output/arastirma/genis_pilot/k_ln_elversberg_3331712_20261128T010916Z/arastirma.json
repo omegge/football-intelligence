@@ -1,0 +1,90 @@
+{
+ "arama_gunlugu": [
+  {
+   "sonuc": "3 iddia",
+   "sorgu": "yerel dil önizleme/kadro",
+   "tur": "T-24s",
+   "utc": "2026-11-28T01:09:16+00:00"
+  }
+ ],
+ "gorusler": [],
+ "iddialar": [
+  {
+   "arastirma_utc": "2026-11-28T01:09:16+00:00",
+   "durum": "yok",
+   "erisim_yolu": "arama_ozeti",
+   "host": "fc.de",
+   "ilgili_mac_dogrulandi": true,
+   "ilk_kaynak": null,
+   "katman": "E",
+   "kaynak_sinifi": "resmi_kulup",
+   "kisi": "Ellyes Skhiri",
+   "konu": "sakatlik",
+   "mac_id": "nesine:3331712",
+   "nicel_etki": "hesaplanamaz",
+   "notlar": "",
+   "ozet": "Skhiri, Dallinga, Rondic, van den Berg, Hübers ve Castro-Montes yok",
+   "takim": "ev",
+   "tur": "T-24s",
+   "url": "https://fc.de/aktuelles/news/aufsteiger-zu-gast-in-muengersdorf",
+   "veri_dogrulamasi": null,
+   "yayin_utc": null,
+   "yayinci_grubu": null,
+   "zincir": "fc.de"
+  },
+  {
+   "arastirma_utc": "2026-11-28T01:09:16+00:00",
+   "durum": "suphe",
+   "erisim_yolu": "arama_ozeti",
+   "host": "fc.de",
+   "ilgili_mac_dogrulandi": true,
+   "ilk_kaynak": null,
+   "katman": "E",
+   "kaynak_sinifi": "resmi_kulup",
+   "kisi": "Marvin Schwäbe",
+   "konu": "sakatlik",
+   "mac_id": "nesine:3331712",
+   "nicel_etki": "hesaplanamaz",
+   "notlar": "",
+   "ozet": "Kaleci Schwäbe sırt sorunu, şüpheli; Zieler oynayabilir",
+   "takim": "ev",
+   "tur": "T-24s",
+   "url": "https://fc.de/aktuelles/news/aufsteiger-zu-gast-in-muengersdorf",
+   "veri_dogrulamasi": null,
+   "yayin_utc": null,
+   "yayinci_grubu": null,
+   "zincir": "fc.de"
+  },
+  {
+   "arastirma_utc": "2026-11-28T01:09:16+00:00",
+   "durum": "yok",
+   "erisim_yolu": "arama_ozeti",
+   "host": "sv07elversberg.de",
+   "ilgili_mac_dogrulandi": true,
+   "ilk_kaynak": null,
+   "katman": "E",
+   "kaynak_sinifi": "resmi_kulup",
+   "kisi": "Nicholas Mickelson",
+   "konu": "sakatlik",
+   "mac_id": "nesine:3331712",
+   "nicel_etki": "hesaplanamaz",
+   "notlar": "",
+   "ozet": "Elversberg'de yalnızca Mickelson (diz) yok; Günther, Kristof, Darvich şüpheli",
+   "takim": "dep",
+   "tur": "T-24s",
+   "url": "https://sv07elversberg.de/sve-erwartet-schwieriges-spiel-vor-grosser-kulisse-in-koeln/",
+   "veri_dogrulamasi": null,
+   "yayin_utc": null,
+   "yayinci_grubu": null,
+   "zincir": "sv07elversberg.de"
+  }
+ ],
+ "kayit_utc": "2026-11-28T01:09:16+00:00",
+ "mac": {
+  "baslama_tr": "2026-11-28T17:30:00+03:00",
+  "baslama_utc": "2026-11-28T14:30:00+00:00",
+  "karsilasma": "Köln - Elversberg",
+  "lig": "Almanya Bundesliga",
+  "mac_id": "nesine:3331712"
+ }
+}

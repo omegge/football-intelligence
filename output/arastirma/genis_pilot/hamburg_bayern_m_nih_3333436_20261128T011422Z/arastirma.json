@@ -1,0 +1,90 @@
+{
+ "arama_gunlugu": [
+  {
+   "sonuc": "3 iddia",
+   "sorgu": "denetim turu: resmî kadro + ikinci kaynak",
+   "tur": "T-24s",
+   "utc": "2026-11-28T01:14:22+00:00"
+  }
+ ],
+ "gorusler": [],
+ "iddialar": [
+  {
+   "arastirma_utc": "2026-11-28T01:14:22+00:00",
+   "durum": "yok",
+   "erisim_yolu": "sayfa_okundu",
+   "host": "www.bundesliga.com",
+   "ilgili_mac_dogrulandi": true,
+   "ilk_kaynak": null,
+   "katman": "A",
+   "kaynak_sinifi": "resmi_lig",
+   "kisi": "Jamal Musiala",
+   "konu": "sakatlik",
+   "mac_id": "nesine:3333436",
+   "nicel_etki": "hesaplanamaz",
+   "notlar": "",
+   "ozet": "Sağ uyluk sakatlığı, belirsiz süre yok (Bayern sağlık ekibi, cuma)",
+   "takim": "dep",
+   "tur": "T-24s",
+   "url": "https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/11/hamburger-sv-vs-fc-bayern-muenchen/liveticker",
+   "veri_dogrulamasi": null,
+   "yayin_utc": null,
+   "yayinci_grubu": null,
+   "zincir": "www.bundesliga.com"
+  },
+  {
+   "arastirma_utc": "2026-11-28T01:14:22+00:00",
+   "durum": "yok",
+   "erisim_yolu": "sayfa_okundu",
+   "host": "www.bundesliga.com",
+   "ilgili_mac_dogrulandi": true,
+   "ilk_kaynak": null,
+   "katman": "A",
+   "kaynak_sinifi": "resmi_lig",
+   "kisi": "Michael Olise",
+   "konu": "sakatlik",
+   "mac_id": "nesine:3333436",
+   "nicel_etki": "hesaplanamaz",
+   "notlar": "",
+   "ozet": "Kompany: Olise ayak darbesi nedeniyle yok",
+   "takim": "dep",
+   "tur": "T-24s",
+   "url": "https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/11/hamburger-sv-vs-fc-bayern-muenchen/liveticker",
+   "veri_dogrulamasi": null,
+   "yayin_utc": null,
+   "yayinci_grubu": null,
+   "zincir": "www.bundesliga.com"
+  },
+  {
+   "arastirma_utc": "2026-11-28T01:14:22+00:00",
+   "durum": "yok",
+   "erisim_yolu": "sayfa_okundu",
+   "host": "www.bundesliga.com",
+   "ilgili_mac_dogrulandi": true,
+   "ilk_kaynak": null,
+   "katman": "A",
+   "kaynak_sinifi": "resmi_lig",
+   "kisi": "Harry Kane",
+   "konu": "sakatlik",
+   "mac_id": "nesine:3333436",
+   "nicel_etki": "hesaplanamaz",
+   "notlar": "",
+   "ozet": "Kane uzun süreli sakat (Köln maçı video notu)",
+   "takim": "dep",
+   "tur": "T-24s",
+   "url": "https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/11/hamburger-sv-vs-fc-bayern-muenchen/liveticker",
+   "veri_dogrulamasi": null,
+   "yayin_utc": null,
+   "yayinci_grubu": null,
+   "zincir": "www.bundesliga.com"
+  }
+ ],
+ "kayit_utc": "2026-11-28T01:14:22+00:00",
+ "mac": {
+  "baslama_tr": "2026-11-28T17:30:00+03:00",
+  "baslama_utc": "2026-11-28T14:30:00+00:00",
+  "karsilasma": "Hamburg - Bayern Münih",
+  "lig": "Almanya Bundesliga",
+  "mac_id": "nesine:3333436"
+ }
+}

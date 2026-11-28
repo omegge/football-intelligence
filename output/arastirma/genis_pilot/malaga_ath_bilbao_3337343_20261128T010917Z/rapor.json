@@ -1,0 +1,430 @@
+{
+ "mac": {
+  "mac_id": "nesine:3337343",
+  "karsilasma": "Malaga - Ath Bilbao",
+  "lig": "İspanya La Liga",
+  "baslama_utc": "2026-11-28T15:15:00+00:00",
+  "baslama_tr": "2026-11-28T18:15:00+03:00"
+ },
+ "1_dogrulanmis_son_dakika": [],
+ "2_dogrulanamayan_veya_celiskili": [
+  {
+   "mac_id": "nesine:3337343",
+   "konu": "sakatlik",
+   "takim": "ev",
+   "kisi": "rafita",
+   "dogrulama": "dogrulanmadi",
+   "veri_dogrulamasi": [],
+   "ozetler": [
+    "Málaga: Rafita, Ochoa ve Lobete son antrenmanda yok"
+   ],
+   "durumlar": [
+    "yok"
+   ],
+   "son_durum": "yok",
+   "zincir_sayisi": 1,
+   "zincirler": {
+    "www.malagacf.com": [
+     "https://www.malagacf.com/en/matches/season-2026-2027-laliga-ea-sports-14-malaga-cf-vs-athletic-club-3056"
+    ]
+   },
+   "kopya_sayisi": 0,
+   "dislanan": [],
+   "nicel_etki": "hesaplanamaz"
+  },
+  {
+   "mac_id": "nesine:3337343",
+   "konu": "sakatlik",
+   "takim": "dep",
+   "kisi": "gorka guruzeta",
+   "dogrulama": "dogrulanmadi",
+   "veri_dogrulamasi": [],
+   "ozetler": [
+    "Athletic: Vivian, Sannadi ve Guruzeta yok; Berenguer gruba döndü (özet)"
+   ],
+   "durumlar": [
+    "yok"
+   ],
+   "son_durum": "yok",
+   "zincir_sayisi": 1,
+   "zincirler": {
+    "www.malagacf.com": [
+     "https://www.malagacf.com/en/matches/season-2026-2027-laliga-ea-sports-14-malaga-cf-vs-athletic-club-3056"
+    ]
+   },
+   "kopya_sayisi": 0,
+   "dislanan": [],
+   "nicel_etki": "hesaplanamaz"
+  }
+ ],
+ "3_basin_gorusleri": [],
+ "4_analist_senaryolari": {
+  "yonler": {},
+  "gorusler": [],
+  "gorus_ayriligi": false,
+  "not": "Dış görüşler ve yüzdeleri KARANTİNADA; model girdisi değildir."
+ },
+ "5_bagimsiz_model": {
+  "tur": "donmus_tahmin",
+  "mac_id": "nesine:3337343",
+  "karsilasma": "Malaga - Ath Bilbao",
+  "lig": "İspanya La Liga",
+  "baslama_tr": "2026-11-28T18:15:00+03:00",
+  "dondurma_utc": "2026-11-28T01:02:41+00:00",
+  "veri_kesimi": "2026-11-27",
+  "model_surumu": {
+   "is_akisi": "is-akisi-0.1",
+   "git_commit": "613ba07d3528d5ab34635924db9874cce6c61a40"
+  },
+  "tahmin": {
+   "durum": "hesaplandi",
+   "hazirlik": [
+    {
+     "kriter": "lig_eslemesi_onayli",
+     "gecti": true,
+     "kanit": "İspanya La Liga → es.1"
+    },
+    {
+     "kriter": "model_bu_ligde_degerlendirildi",
+     "gecti": true,
+     "kanit": "E3 değerlendirme ligleri: ['de.1', 'en.1', 'en.3', 'en.4', 'es.1', 'fr.2', 'it.1', 'it.2']"
+    },
+    {
+     "kriter": "lig_verisi_var",
+     "gecti": true,
+     "kanit": "5450 maç"
+    },
+    {
+     "kriter": "veri_guncel",
+     "gecti": true,
+     "kanit": "son skorlu maç 2026-11-27, boşluk 1 gün (sınır 14)"
+    },
+    {
+     "kriter": "takim_eslemesi_ev",
+     "gecti": true,
+     "kanit": "'Malaga' → kesin Málaga CF"
+    },
+    {
+     "kriter": "takim_eslemesi_dep",
+     "gecti": true,
+     "kanit": "'Ath Bilbao' → onayli Athletic Club"
+    },
+    {
+     "kriter": "test_edilmis_ve_kalibre_market_var",
+     "gecti": true,
+     "kanit": "38 market: ['MS_1', 'MS_2', 'CS_1X', 'CS_X2', 'aralik_4_5', 'aralik_6p', 'H-1_1', 'H-1_X', 'H-1_2', 'AU0.5_alt', 'AU0.5_ust', 'AU2.5_alt', 'AU2.5_ust', 'AU4.5_alt', 'AU4.5_ust', 'ev0.5_alt', 'ev0.5_ust', 'dep1.5_alt', 'dep1.5_ust', 'ev2.5_alt', 'ev2.5_ust', 'dep2.5_alt', 'dep2.5_ust', 'MS1_AU2.5_alt', 'MS1_KG_var', 'MSX_AU2.5_alt', 'MSX_KG_yok', 'MS2_AU2.5_alt', 'MS2_AU2.5_ust', 'MS2_KG_var', 'skor_0_0', 'skor_1_0', 'skor_0_1', 'skor_1_1', 'skor_2_0', 'skor_0_2', 'skor_2_1', 'skor_1_2']"
+    },
+    {
+     "kriter": "veri_kesimi_kaydedildi",
+     "gecti": true,
+     "kanit": "2026-11-27"
+    },
+    {
+     "kriter": "oranlardan_once_dondurulacak",
+     "gecti": true,
+     "kanit": "olasılık yalnızca dondur() ile kaydedilir; fiyat karşılaştırması fiyat_karsilastir()'ta dondurmadan sonra (oran bu fonksiyona girmez: oransiz_mi)"
+    }
+   ],
+   "kapsam_sha256": "a702432d8f3a5211746e3d2ea958100df14afa9b0483f8b95febf040123c8ed4",
+   "model_adi": "E3",
+   "veri_kesimi": "2026-11-27",
+   "veri_boslugu_gun": 1,
+   "veri_kaynaklari": [
+    "football-data.org",
+    "openfootball"
+   ],
+   "ev_esleme": {
+    "durum": "kesin",
+    "kaynak_adi": "Málaga CF",
+    "alternatifler": []
+   },
+   "dep_esleme": {
+    "durum": "onayli",
+    "kaynak_adi": "Athletic Club",
+    "alternatifler": []
+   },
+   "lig_ortalamasi_365": 2.7973684210526315,
+   "e3_duzeltmesi": {
+    "gamma": 1.45,
+    "delta": -0.05,
+    "pencere_mac": 692,
+    "pencere_bas": "2024-11-29",
+    "pencere_son": "2026-09-20"
+   },
+   "model": "E3 E2+A: E2 (ceza 16, w 0,65, b 0) + zaman sıralı güç farkı ölçeği γ ve ev kayması δ (aynı ligin önceki 730 günü; ON_KAYIT_E3)",
+   "lambda_ev": 1.0879002550383954,
+   "lambda_dep": 1.4267613799501466,
+   "egitim_mac_sayisi": 5450,
+   "olasiliklar": {
+    "MS_1": 0.2876300231517941,
+    "MS_2": 0.4479320632125823,
+    "CS_1X": 0.5520679367874176,
+    "CS_X2": 0.7123699768482059,
+    "aralik_4_5": 0.20255496553437236,
+    "aralik_6p": 0.043007288250778146,
+    "H-1_1": 0.11119322299670084,
+    "H-1_X": 0.17643680015509325,
+    "H-1_2": 0.7123699768482059,
+    "AU0.5_alt": 0.08089030741358968,
+    "AU0.5_ust": 0.9191096925864103,
+    "AU2.5_alt": 0.5400579254134016,
+    "AU2.5_ust": 0.4599420745865984,
+    "AU4.5_alt": 0.8892109238861297,
+    "AU4.5_ust": 0.11078907611387058,
+    "ev0.5_alt": 0.33692321218645954,
+    "ev0.5_ust": 0.6630767878135406,
+    "dep1.5_alt": 0.5826297118850857,
+    "dep1.5_ust": 0.41737028811491433,
+    "ev2.5_alt": 0.9028409140162873,
+    "ev2.5_ust": 0.09715908598371276,
+    "dep2.5_alt": 0.8269942872642878,
+    "dep2.5_ust": 0.17300571273571227,
+    "MS1_AU2.5_alt": 0.13586851607740513,
+    "MS1_KG_var": 0.1284350396510151,
+    "MSX_AU2.5_alt": 0.20644614502465064,
+    "MSX_KG_yok": 0.08089030741358968,
+    "MS2_AU2.5_alt": 0.1977432643113458,
+    "MS2_AU2.5_ust": 0.25018879890123646,
+    "MS2_KG_var": 0.19189915843971247,
+    "skor_0_0": 0.08089030741358968,
+    "skor_1_0": 0.08800058606537842,
+    "skor_0_1": 0.11541116663000481,
+    "skor_1_1": 0.12555583761106096,
+    "skor_2_0": 0.04786793001202673,
+    "skor_0_2": 0.08233209768134099,
+    "skor_2_1": 0.0682961138793163,
+    "skor_1_2": 0.08956911006537692
+   },
+   "hesaplanamaz_pazarlar": {
+    "MS_X": [
+     "kalibre"
+    ],
+    "CS_12": [
+     "kalibre"
+    ],
+    "KG_var": [
+     "bilgi_tasiyor",
+     "kalibre"
+    ],
+    "KG_yok": [
+     "bilgi_tasiyor",
+     "kalibre"
+    ],
+    "tek": [
+     "bilgi_tasiyor"
+    ],
+    "cift": [
+     "bilgi_tasiyor"
+    ],
+    "aralik_0_1": [
+     "kalibre"
+    ],
+    "aralik_2_3": [
+     "bilgi_tasiyor"
+    ],
+    "AU1.5_alt": [
+     "kalibre"
+    ],
+    "AU1.5_ust": [
+     "kalibre"
+    ],
+    "AU3.5_alt": [
+     "kalibre"
+    ],
+    "AU3.5_ust": [
+     "kalibre"
+    ],
+    "dep0.5_alt": [
+     "kalibre"
+    ],
+    "dep0.5_ust": [
+     "kalibre"
+    ],
+    "ev1.5_alt": [
+     "kalibre"
+    ],
+    "ev1.5_ust": [
+     "kalibre"
+    ],
+    "MS1_AU2.5_ust": [
+     "kalibre"
+    ],
+    "MS1_KG_yok": [
+     "kalibre"
+    ],
+    "MSX_AU2.5_ust": [
+     "bilgi_tasiyor"
+    ],
+    "MSX_KG_var": [
+     "bilgi_tasiyor",
+     "kalibre"
+    ],
+    "MS2_KG_yok": [
+     "kalibre"
+    ],
+    "skor_2_2": [
+     "bilgi_tasiyor"
+    ]
+   },
+   "kalibrasyon_notu": "E aşamasında çoğu markette ECE 0,01–0,03; kutularda ≤0,05 sapma koşulu birçok markette sağlanmadı. 'Yüksek güven' verilmez.",
+   "skor_matrisi": [
+    [
+     0.0808903074,
+     0.1154111666,
+     0.0823320977,
+     0.0391560858,
+     0.0139665977,
+     0.0039854005,
+     0.0009477026,
+     0.0001931636
+    ],
+    [
+     0.0880005861,
+     0.1255558376,
+     0.0895691101,
+     0.0425979157,
+     0.0151942652,
+     0.0043357182,
+     0.0010310059,
+     0.0002101428
+    ],
+    [
+     0.04786793,
+     0.0682961139,
+     0.0487211288,
+     0.0231711417,
+     0.0082649225,
+     0.0023584145,
+     0.0005608158,
+     0.0001143072
+    ],
+    [
+     0.0173585111,
+     0.0247664532,
+     0.0176679095,
+     0.0084026303,
+     0.0029971371,
+     0.0008552399,
+     0.0002033705,
+     4.14516e-05
+    ],
+    [
+     0.0047210822,
+     0.0067358577,
+     0.0048052308,
+     0.0022853059,
+     0.0008151466,
+     0.0002326039,
+     5.53117e-05,
+     1.12738e-05
+    ],
+    [
+     0.0010272133,
+     0.0014655883,
+     0.0010455224,
+     0.000497237,
+     0.0001773596,
+     5.061e-05,
+     1.20347e-05,
+     2.453e-06
+    ],
+    [
+     0.0001862509,
+     0.0002657356,
+     0.0001895707,
+     9.01574e-05,
+     3.21583e-05,
+     9.1764e-06,
+     2.1821e-06,
+     4.448e-07
+    ],
+    [
+     2.89461e-05,
+     4.12991e-05,
+     2.9462e-05,
+     1.40117e-05,
+     4.9979e-06,
+     1.4261e-06,
+     3.391e-07,
+     6.91e-08
+    ]
+   ],
+   "veri_kaynagi_raporu": {
+    "son_tarih": "2026-11-27",
+    "ayni": 69,
+    "eklenen": 61,
+    "fd_sha256": "86b5096c57665b6834f190b5354460868157b23cb210fefc0e8ea50bc59ce42a",
+    "fd_erisim_utc": "2026-11-28T01:02:17+00:00",
+    "atif": "Football data provided by the Football-Data.org API"
+   },
+   "mac_kimligi_dogrulama": {
+    "nesine": "nesine:3337343",
+    "fd_mac_id": 564767,
+    "utc": "2026-11-28T15:15:00+00:00",
+    "durum": "TIMED",
+    "anlik_goruntu": "20261128T002559Z"
+   }
+  },
+  "sha256": "9c6f957550a71a6fce0b63f44dbdfc68191b17705a1fb6bdc5a3c80e052dc3d8",
+  "yol": "/home/user/football-intelligence/output/tahminler/nesine_3337343_20261128T010241Z.json",
+  "surum_sayisi": 1
+ },
+ "6_hesaplanamayan_marketler": "bütün marketler (model yok)",
+ "7_model_analist_farki": [],
+ "8_en_onemli_surpriz_sinyali": {
+  "favori": null,
+  "favori_kaynagi": "bağımsız model 1X2 olasılığı yok → favori bağımsız olarak belirlenemedi (oranlarla belirlenmez)",
+  "sinyal": null,
+  "not": "favori bağımsız modelle belirlenemedi"
+ },
+ "9_fiyat_karsilastirmasi": {
+  "durum": "yapılmadı",
+  "neden": "donmuş bağımsız tahmin ya da sonradan alınmış bülten yok"
+ },
+ "11_sportif_cikarimlar_yorum": [],
+ "10_son_arastirma_ve_kaynaklar": {
+  "son_arastirma_utc": "2026-11-28T01:09:17+00:00",
+  "turlar": [
+   "T-24s"
+  ],
+  "arama_gunlugu": [
+   {
+    "sorgu": "yerel dil önizleme/kadro",
+    "sonuc": "2 iddia",
+    "utc": "2026-11-28T01:09:17+00:00",
+    "tur": "T-24s"
+   }
+  ],
+  "tur_degisimleri": [
+   {
+    "anahtar": [
+     "nesine:3337343",
+     "sakatlik",
+     "ev",
+     "rafita"
+    ],
+    "degisim": "tek_turda_goruldu",
+    "tur": "T-24s",
+    "durum": [
+     "yok"
+    ]
+   },
+   {
+    "anahtar": [
+     "nesine:3337343",
+     "sakatlik",
+     "dep",
+     "gorka guruzeta"
+    ],
+    "degisim": "tek_turda_goruldu",
+    "tur": "T-24s",
+    "durum": [
+     "yok"
+    ]
+   }
+  ],
+  "baglantilar": [
+   "https://www.malagacf.com/en/matches/season-2026-2027-laliga-ea-sports-14-malaga-cf-vs-athletic-club-3056"
+  ]
+ }
+}

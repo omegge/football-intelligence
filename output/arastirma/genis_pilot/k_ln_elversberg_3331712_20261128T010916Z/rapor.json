@@ -1,0 +1,468 @@
+{
+ "mac": {
+  "mac_id": "nesine:3331712",
+  "karsilasma": "Köln - Elversberg",
+  "lig": "Almanya Bundesliga",
+  "baslama_utc": "2026-11-28T14:30:00+00:00",
+  "baslama_tr": "2026-11-28T17:30:00+03:00"
+ },
+ "1_dogrulanmis_son_dakika": [],
+ "2_dogrulanamayan_veya_celiskili": [
+  {
+   "mac_id": "nesine:3331712",
+   "konu": "sakatlik",
+   "takim": "ev",
+   "kisi": "ellyes skhiri",
+   "dogrulama": "dogrulanmadi",
+   "veri_dogrulamasi": [],
+   "ozetler": [
+    "Skhiri, Dallinga, Rondic, van den Berg, Hübers ve Castro-Montes yok"
+   ],
+   "durumlar": [
+    "yok"
+   ],
+   "son_durum": "yok",
+   "zincir_sayisi": 1,
+   "zincirler": {
+    "fc.de": [
+     "https://fc.de/aktuelles/news/aufsteiger-zu-gast-in-muengersdorf"
+    ]
+   },
+   "kopya_sayisi": 0,
+   "dislanan": [],
+   "nicel_etki": "hesaplanamaz"
+  },
+  {
+   "mac_id": "nesine:3331712",
+   "konu": "sakatlik",
+   "takim": "ev",
+   "kisi": "marvin schwäbe",
+   "dogrulama": "dogrulanmadi",
+   "veri_dogrulamasi": [],
+   "ozetler": [
+    "Kaleci Schwäbe sırt sorunu, şüpheli; Zieler oynayabilir"
+   ],
+   "durumlar": [
+    "suphe"
+   ],
+   "son_durum": "suphe",
+   "zincir_sayisi": 1,
+   "zincirler": {
+    "fc.de": [
+     "https://fc.de/aktuelles/news/aufsteiger-zu-gast-in-muengersdorf"
+    ]
+   },
+   "kopya_sayisi": 0,
+   "dislanan": [],
+   "nicel_etki": "hesaplanamaz"
+  },
+  {
+   "mac_id": "nesine:3331712",
+   "konu": "sakatlik",
+   "takim": "dep",
+   "kisi": "nicholas mickelson",
+   "dogrulama": "dogrulanmadi",
+   "veri_dogrulamasi": [],
+   "ozetler": [
+    "Elversberg'de yalnızca Mickelson (diz) yok; Günther, Kristof, Darvich şüpheli"
+   ],
+   "durumlar": [
+    "yok"
+   ],
+   "son_durum": "yok",
+   "zincir_sayisi": 1,
+   "zincirler": {
+    "sv07elversberg.de": [
+     "https://sv07elversberg.de/sve-erwartet-schwieriges-spiel-vor-grosser-kulisse-in-koeln/"
+    ]
+   },
+   "kopya_sayisi": 0,
+   "dislanan": [],
+   "nicel_etki": "hesaplanamaz"
+  }
+ ],
+ "3_basin_gorusleri": [],
+ "4_analist_senaryolari": {
+  "yonler": {},
+  "gorusler": [],
+  "gorus_ayriligi": false,
+  "not": "Dış görüşler ve yüzdeleri KARANTİNADA; model girdisi değildir."
+ },
+ "5_bagimsiz_model": {
+  "tur": "donmus_tahmin",
+  "mac_id": "nesine:3331712",
+  "karsilasma": "Köln - Elversberg",
+  "lig": "Almanya Bundesliga",
+  "baslama_tr": "2026-11-28T17:30:00+03:00",
+  "dondurma_utc": "2026-11-28T01:02:23+00:00",
+  "veri_kesimi": "2026-11-27",
+  "model_surumu": {
+   "is_akisi": "is-akisi-0.1",
+   "git_commit": "613ba07d3528d5ab34635924db9874cce6c61a40"
+  },
+  "tahmin": {
+   "durum": "hesaplandi",
+   "hazirlik": [
+    {
+     "kriter": "lig_eslemesi_onayli",
+     "gecti": true,
+     "kanit": "Almanya Bundesliga → de.1"
+    },
+    {
+     "kriter": "model_bu_ligde_degerlendirildi",
+     "gecti": true,
+     "kanit": "E3 değerlendirme ligleri: ['de.1', 'en.1', 'en.3', 'en.4', 'es.1', 'fr.2', 'it.1', 'it.2']"
+    },
+    {
+     "kriter": "lig_verisi_var",
+     "gecti": true,
+     "kanit": "4987 maç"
+    },
+    {
+     "kriter": "veri_guncel",
+     "gecti": true,
+     "kanit": "son skorlu maç 2026-11-27, boşluk 1 gün (sınır 14)"
+    },
+    {
+     "kriter": "takim_eslemesi_ev",
+     "gecti": true,
+     "kanit": "'Köln' → onayli 1. FC Köln"
+    },
+    {
+     "kriter": "takim_eslemesi_dep",
+     "gecti": true,
+     "kanit": "'Elversberg' → onayli SV 07 Elversberg"
+    },
+    {
+     "kriter": "test_edilmis_ve_kalibre_market_var",
+     "gecti": true,
+     "kanit": "38 market: ['MS_1', 'MS_2', 'CS_1X', 'CS_X2', 'aralik_4_5', 'aralik_6p', 'H-1_1', 'H-1_X', 'H-1_2', 'AU0.5_alt', 'AU0.5_ust', 'AU2.5_alt', 'AU2.5_ust', 'AU4.5_alt', 'AU4.5_ust', 'ev0.5_alt', 'ev0.5_ust', 'dep1.5_alt', 'dep1.5_ust', 'ev2.5_alt', 'ev2.5_ust', 'dep2.5_alt', 'dep2.5_ust', 'MS1_AU2.5_alt', 'MS1_KG_var', 'MSX_AU2.5_alt', 'MSX_KG_yok', 'MS2_AU2.5_alt', 'MS2_AU2.5_ust', 'MS2_KG_var', 'skor_0_0', 'skor_1_0', 'skor_0_1', 'skor_1_1', 'skor_2_0', 'skor_0_2', 'skor_2_1', 'skor_1_2']"
+    },
+    {
+     "kriter": "veri_kesimi_kaydedildi",
+     "gecti": true,
+     "kanit": "2026-11-27"
+    },
+    {
+     "kriter": "oranlardan_once_dondurulacak",
+     "gecti": true,
+     "kanit": "olasılık yalnızca dondur() ile kaydedilir; fiyat karşılaştırması fiyat_karsilastir()'ta dondurmadan sonra (oran bu fonksiyona girmez: oransiz_mi)"
+    }
+   ],
+   "kapsam_sha256": "a702432d8f3a5211746e3d2ea958100df14afa9b0483f8b95febf040123c8ed4",
+   "model_adi": "E3",
+   "veri_kesimi": "2026-11-27",
+   "veri_boslugu_gun": 1,
+   "veri_kaynaklari": [
+    "football-data.org",
+    "openfootball"
+   ],
+   "ev_esleme": {
+    "durum": "onayli",
+    "kaynak_adi": "1. FC Köln",
+    "alternatifler": []
+   },
+   "dep_esleme": {
+    "durum": "onayli",
+    "kaynak_adi": "SV 07 Elversberg",
+    "alternatifler": []
+   },
+   "lig_ortalamasi_365": 3.2818791946308723,
+   "e3_duzeltmesi": {
+    "gamma": 1.25,
+    "delta": -0.1,
+    "pencere_mac": 549,
+    "pencere_bas": "2024-11-29",
+    "pencere_son": "2026-09-20"
+   },
+   "model": "E3 E2+A: E2 (ceza 16, w 0,65, b 0) + zaman sıralı güç farkı ölçeği γ ve ev kayması δ (aynı ligin önceki 730 günü; ON_KAYIT_E3)",
+   "lambda_ev": 1.5896679716085758,
+   "lambda_dep": 1.5627094636397278,
+   "egitim_mac_sayisi": 4987,
+   "olasiliklar": {
+    "MS_1": 0.38767841550589244,
+    "MS_2": 0.3760827162044082,
+    "CS_1X": 0.623917283795592,
+    "CS_X2": 0.6123215844941077,
+    "aralik_4_5": 0.28681147399028994,
+    "aralik_6p": 0.10005155773456141,
+    "H-1_1": 0.19214616961636993,
+    "H-1_X": 0.19553224588952253,
+    "H-1_2": 0.6123215844941077,
+    "AU0.5_alt": 0.04275044587008676,
+    "AU0.5_ust": 0.9572495541299133,
+    "AU2.5_alt": 0.3899319118809309,
+    "AU2.5_ust": 0.6100680881190692,
+    "AU4.5_alt": 0.7890436140777632,
+    "AU4.5_ust": 0.21095638592223692,
+    "ev0.5_alt": 0.203993528594777,
+    "ev0.5_ust": 0.7960064714052231,
+    "dep1.5_alt": 0.5370610183606301,
+    "dep1.5_ust": 0.4629389816393699,
+    "ev2.5_alt": 0.7860258451693296,
+    "ev2.5_ust": 0.21397415483067048,
+    "dep2.5_alt": 0.7929495057487561,
+    "dep2.5_ust": 0.2070504942512439,
+    "MS1_AU2.5_alt": 0.12197514899498967,
+    "MS1_KG_var": 0.22086120418324354,
+    "MSX_AU2.5_alt": 0.14895064108085476,
+    "MSX_KG_yok": 0.04275044587008676,
+    "MS2_AU2.5_alt": 0.11900612180508643,
+    "MS2_AU2.5_ust": 0.25707659439932173,
+    "MS2_KG_var": 0.21483963347971785,
+    "skor_0_0": 0.04275044587008676,
+    "skor_1_0": 0.06795901457166305,
+    "skor_0_1": 0.06680652633600251,
+    "skor_1_1": 0.106200195210768,
+    "skor_2_0": 0.05401613442332662,
+    "skor_0_2": 0.052199595469083926,
+    "skor_2_1": 0.08441152445256818,
+    "skor_1_2": 0.08298002504812683
+   },
+   "hesaplanamaz_pazarlar": {
+    "MS_X": [
+     "kalibre"
+    ],
+    "CS_12": [
+     "kalibre"
+    ],
+    "KG_var": [
+     "bilgi_tasiyor",
+     "kalibre"
+    ],
+    "KG_yok": [
+     "bilgi_tasiyor",
+     "kalibre"
+    ],
+    "tek": [
+     "bilgi_tasiyor"
+    ],
+    "cift": [
+     "bilgi_tasiyor"
+    ],
+    "aralik_0_1": [
+     "kalibre"
+    ],
+    "aralik_2_3": [
+     "bilgi_tasiyor"
+    ],
+    "AU1.5_alt": [
+     "kalibre"
+    ],
+    "AU1.5_ust": [
+     "kalibre"
+    ],
+    "AU3.5_alt": [
+     "kalibre"
+    ],
+    "AU3.5_ust": [
+     "kalibre"
+    ],
+    "dep0.5_alt": [
+     "kalibre"
+    ],
+    "dep0.5_ust": [
+     "kalibre"
+    ],
+    "ev1.5_alt": [
+     "kalibre"
+    ],
+    "ev1.5_ust": [
+     "kalibre"
+    ],
+    "MS1_AU2.5_ust": [
+     "kalibre"
+    ],
+    "MS1_KG_yok": [
+     "kalibre"
+    ],
+    "MSX_AU2.5_ust": [
+     "bilgi_tasiyor"
+    ],
+    "MSX_KG_var": [
+     "bilgi_tasiyor",
+     "kalibre"
+    ],
+    "MS2_KG_yok": [
+     "kalibre"
+    ],
+    "skor_2_2": [
+     "bilgi_tasiyor"
+    ]
+   },
+   "kalibrasyon_notu": "E aşamasında çoğu markette ECE 0,01–0,03; kutularda ≤0,05 sapma koşulu birçok markette sağlanmadı. 'Yüksek güven' verilmez.",
+   "skor_matrisi": [
+    [
+     0.0427504459,
+     0.0668065263,
+     0.0521995955,
+     0.0271909339,
+     0.0106228825,
+     0.0033200958,
+     0.0008647242,
+     0.0001930447
+    ],
+    [
+     0.0679590146,
+     0.1062001952,
+     0.082980025,
+     0.0432245568,
+     0.016886856,
+     0.0052778499,
+     0.0013746243,
+     0.0003068769
+    ],
+    [
+     0.0540161344,
+     0.0844115245,
+     0.0659553441,
+     0.0343563468,
+     0.0134222471,
+     0.0041950145,
+     0.0010925981,
+     0.0002439162
+    ],
+    [
+     0.0286225729,
+     0.0447287656,
+     0.0349490327,
+     0.0182050614,
+     0.0071123054,
+     0.0022228934,
+     0.0005789561,
+     0.0001292486
+    ],
+    [
+     0.0113750969,
+     0.0177759715,
+     0.0138893395,
+     0.0072350007,
+     0.002826551,
+     0.0008834156,
+     0.000230087,
+     5.13656e-05
+    ],
+    [
+     0.0036165254,
+     0.0056515785,
+     0.0044158876,
+     0.0023002498,
+     0.0008986555,
+     0.0002808675,
+     7.31524e-05,
+     1.63308e-05
+    ],
+    [
+     0.0009581791,
+     0.0014973556,
+     0.0011699659,
+     0.0006094389,
+     0.000238094,
+     7.44143e-05,
+     1.93813e-05,
+     4.3268e-06
+    ],
+    [
+     0.0002175981,
+     0.0003400426,
+     0.0002656939,
+     0.0001384008,
+     5.40701e-05,
+     1.68992e-05,
+     4.4014e-06,
+     9.826e-07
+    ]
+   ],
+   "veri_kaynagi_raporu": {
+    "son_tarih": "2026-11-27",
+    "ayni": 36,
+    "eklenen": 55,
+    "fd_sha256": "6022d6054e24e43ab94f300b0fd2e957fa47a049004f46d633fcf4f15feeebf9",
+    "fd_erisim_utc": "2026-11-28T01:02:22+00:00",
+    "atif": "Football data provided by the Football-Data.org API"
+   },
+   "mac_kimligi_dogrulama": {
+    "nesine": "nesine:3331712",
+    "fd_mac_id": 565866,
+    "utc": "2026-11-28T14:30:00+00:00",
+    "durum": "TIMED",
+    "anlik_goruntu": "20261128T002559Z"
+   }
+  },
+  "sha256": "12b163e31f2489acff865b4b52e56ef152be74822d743a803b7e791022e6a187",
+  "yol": "/home/user/football-intelligence/output/tahminler/nesine_3331712_20261128T010223Z.json",
+  "surum_sayisi": 1
+ },
+ "6_hesaplanamayan_marketler": "bütün marketler (model yok)",
+ "7_model_analist_farki": [],
+ "8_en_onemli_surpriz_sinyali": {
+  "favori": null,
+  "favori_kaynagi": "bağımsız model 1X2 olasılığı yok → favori bağımsız olarak belirlenemedi (oranlarla belirlenmez)",
+  "sinyal": null,
+  "not": "favori bağımsız modelle belirlenemedi"
+ },
+ "9_fiyat_karsilastirmasi": {
+  "durum": "yapılmadı",
+  "neden": "donmuş bağımsız tahmin ya da sonradan alınmış bülten yok"
+ },
+ "11_sportif_cikarimlar_yorum": [],
+ "10_son_arastirma_ve_kaynaklar": {
+  "son_arastirma_utc": "2026-11-28T01:09:16+00:00",
+  "turlar": [
+   "T-24s"
+  ],
+  "arama_gunlugu": [
+   {
+    "sorgu": "yerel dil önizleme/kadro",
+    "sonuc": "3 iddia",
+    "utc": "2026-11-28T01:09:16+00:00",
+    "tur": "T-24s"
+   }
+  ],
+  "tur_degisimleri": [
+   {
+    "anahtar": [
+     "nesine:3331712",
+     "sakatlik",
+     "ev",
+     "ellyes skhiri"
+    ],
+    "degisim": "tek_turda_goruldu",
+    "tur": "T-24s",
+    "durum": [
+     "yok"
+    ]
+   },
+   {
+    "anahtar": [
+     "nesine:3331712",
+     "sakatlik",
+     "ev",
+     "marvin schwäbe"
+    ],
+    "degisim": "tek_turda_goruldu",
+    "tur": "T-24s",
+    "durum": [
+     "suphe"
+    ]
+   },
+   {
+    "anahtar": [
+     "nesine:3331712",
+     "sakatlik",
+     "dep",
+     "nicholas mickelson"
+    ],
+    "degisim": "tek_turda_goruldu",
+    "tur": "T-24s",
+    "durum": [
+     "yok"
+    ]
+   }
+  ],
+  "baglantilar": [
+   "https://fc.de/aktuelles/news/aufsteiger-zu-gast-in-muengersdorf",
+   "https://sv07elversberg.de/sve-erwartet-schwieriges-spiel-vor-grosser-kulisse-in-koeln/"
+  ]
+ }
+}

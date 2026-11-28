@@ -1,0 +1,318 @@
+{
+ "tur": "donmus_tahmin",
+ "mac_id": "nesine:3333015",
+ "karsilasma": "Millwall - Burnley",
+ "lig": "İngiltere Championship",
+ "baslama_tr": "2026-11-28T18:00:00+03:00",
+ "dondurma_utc": "2026-11-28T01:02:36+00:00",
+ "veri_kesimi": "2026-11-27",
+ "model_surumu": {
+  "is_akisi": "is-akisi-0.1",
+  "git_commit": "613ba07d3528d5ab34635924db9874cce6c61a40"
+ },
+ "tahmin": {
+  "durum": "hesaplandi",
+  "hazirlik": [
+   {
+    "kriter": "lig_eslemesi_onayli",
+    "gecti": true,
+    "kanit": "İngiltere Championship → en.2"
+   },
+   {
+    "kriter": "model_bu_ligde_degerlendirildi",
+    "gecti": true,
+    "kanit": "E2_aday değerlendirme ligleri: ['at.1', 'be.1', 'en.2', 'gr.1', 'sco.1', 'tr.1']"
+   },
+   {
+    "kriter": "lig_verisi_var",
+    "gecti": true,
+    "kanit": "7406 maç"
+   },
+   {
+    "kriter": "veri_guncel",
+    "gecti": true,
+    "kanit": "son skorlu maç 2026-11-27, boşluk 1 gün (sınır 14)"
+   },
+   {
+    "kriter": "takim_eslemesi_ev",
+    "gecti": true,
+    "kanit": "'Millwall' → kesin Millwall FC"
+   },
+   {
+    "kriter": "takim_eslemesi_dep",
+    "gecti": true,
+    "kanit": "'Burnley' → kesin Burnley FC"
+   },
+   {
+    "kriter": "test_edilmis_ve_kalibre_market_var",
+    "gecti": true,
+    "kanit": "26 market: ['MS_X', 'CS_12', 'KG_var', 'KG_yok', 'H-1_X', 'AU4.5_alt', 'AU4.5_ust', 'ev0.5_alt', 'ev0.5_ust', 'ev2.5_alt', 'ev2.5_ust', 'MS1_KG_var', 'MSX_AU2.5_alt', 'MSX_AU2.5_ust', 'MSX_KG_var', 'MS2_AU2.5_alt', 'MS2_KG_var', 'MS2_KG_yok', 'skor_1_0', 'skor_0_1', 'skor_1_1', 'skor_2_0', 'skor_0_2', 'skor_2_1', 'skor_1_2', 'skor_2_2']"
+   },
+   {
+    "kriter": "veri_kesimi_kaydedildi",
+    "gecti": true,
+    "kanit": "2026-11-27"
+   },
+   {
+    "kriter": "oranlardan_once_dondurulacak",
+    "gecti": true,
+    "kanit": "olasılık yalnızca dondur() ile kaydedilir; fiyat karşılaştırması fiyat_karsilastir()'ta dondurmadan sonra (oran bu fonksiyona girmez: oransiz_mi)"
+   }
+  ],
+  "kapsam_sha256": "a702432d8f3a5211746e3d2ea958100df14afa9b0483f8b95febf040123c8ed4",
+  "model_adi": "E2_aday",
+  "veri_kesimi": "2026-11-27",
+  "veri_boslugu_gun": 1,
+  "veri_kaynaklari": [
+   "football-data.org",
+   "openfootball"
+  ],
+  "ev_esleme": {
+   "durum": "kesin",
+   "kaynak_adi": "Millwall FC",
+   "alternatifler": []
+  },
+  "dep_esleme": {
+   "durum": "kesin",
+   "kaynak_adi": "Burnley FC",
+   "alternatifler": []
+  },
+  "lig_ortalamasi_365": 2.708407871198569,
+  "model": "E2 seçilen aday M3 {'ceza': 16.0, 'w': 0.65, 'b': 0.0} (ON_KAYIT_E2)",
+  "lambda_ev": 1.6076465428450408,
+  "lambda_dep": 1.1942056901857054,
+  "egitim_mac_sayisi": 7406,
+  "olasiliklar": {
+   "MS_X": 0.24663802325949488,
+   "CS_12": 0.7533619767405052,
+   "KG_var": 0.5573942828595881,
+   "KG_yok": 0.4426057171404118,
+   "H-1_X": 0.22650926194437523,
+   "AU4.5_alt": 0.8473884375221475,
+   "AU4.5_ust": 0.15261156247785257,
+   "ev0.5_alt": 0.20035880992210653,
+   "ev0.5_ust": 0.7996411900778935,
+   "ev2.5_alt": 0.7813813757328328,
+   "ev2.5_ust": 0.21861862426716722,
+   "MS1_KG_var": 0.22751388334414208,
+   "MSX_AU2.5_alt": 0.17722853717293222,
+   "MSX_AU2.5_ust": 0.06940948608656265,
+   "MSX_KG_var": 0.18594042208559505,
+   "MS2_AU2.5_alt": 0.11576667163170509,
+   "MS2_KG_var": 0.1439399774298511,
+   "MS2_KG_yok": 0.13966120874820667,
+   "skor_1_0": 0.09758028868620715,
+   "skor_0_1": 0.07248542070249372,
+   "skor_1_1": 0.11653093599903239,
+   "skor_2_0": 0.07843730687810098,
+   "skor_0_2": 0.04328125092921137,
+   "skor_2_1": 0.09367027819667055,
+   "skor_1_2": 0.06958095342635537,
+   "skor_2_2": 0.05593078961187099
+  },
+  "hesaplanamaz_pazarlar": {
+   "MS_1": [
+    "kalibre"
+   ],
+   "MS_2": [
+    "kalibre"
+   ],
+   "CS_1X": [
+    "kalibre"
+   ],
+   "CS_X2": [
+    "kalibre"
+   ],
+   "tek": [
+    "bilgi_tasiyor"
+   ],
+   "cift": [
+    "bilgi_tasiyor"
+   ],
+   "aralik_0_1": [
+    "kalibre"
+   ],
+   "aralik_2_3": [
+    "bilgi_tasiyor",
+    "kalibre"
+   ],
+   "aralik_4_5": [
+    "kalibre"
+   ],
+   "aralik_6p": [
+    "bilgi_tasiyor"
+   ],
+   "H-1_1": [
+    "kalibre"
+   ],
+   "H-1_2": [
+    "kalibre"
+   ],
+   "AU0.5_alt": [
+    "bilgi_tasiyor"
+   ],
+   "AU0.5_ust": [
+    "bilgi_tasiyor"
+   ],
+   "AU1.5_alt": [
+    "kalibre"
+   ],
+   "AU1.5_ust": [
+    "kalibre"
+   ],
+   "AU2.5_alt": [
+    "kalibre"
+   ],
+   "AU2.5_ust": [
+    "kalibre"
+   ],
+   "AU3.5_alt": [
+    "kalibre"
+   ],
+   "AU3.5_ust": [
+    "kalibre"
+   ],
+   "dep0.5_alt": [
+    "kalibre"
+   ],
+   "dep0.5_ust": [
+    "kalibre"
+   ],
+   "ev1.5_alt": [
+    "kalibre"
+   ],
+   "ev1.5_ust": [
+    "kalibre"
+   ],
+   "dep1.5_alt": [
+    "kalibre"
+   ],
+   "dep1.5_ust": [
+    "kalibre"
+   ],
+   "dep2.5_alt": [
+    "kalibre"
+   ],
+   "dep2.5_ust": [
+    "kalibre"
+   ],
+   "MS1_AU2.5_alt": [
+    "kalibre"
+   ],
+   "MS1_AU2.5_ust": [
+    "kalibre"
+   ],
+   "MS1_KG_yok": [
+    "kalibre"
+   ],
+   "MSX_KG_yok": [
+    "bilgi_tasiyor"
+   ],
+   "MS2_AU2.5_ust": [
+    "kalibre"
+   ],
+   "skor_0_0": [
+    "bilgi_tasiyor"
+   ]
+  },
+  "kalibrasyon_notu": "E aşamasında çoğu markette ECE 0,01–0,03; kutularda ≤0,05 sapma koşulu birçok markette sağlanmadı. 'Yüksek güven' verilmez.",
+  "skor_matrisi": [
+   [
+    0.0606976012,
+    0.0724854207,
+    0.0432812509,
+    0.0172289054,
+    0.0051437142,
+    0.0012285306,
+    0.0002445197,
+    4.17153e-05
+   ],
+   [
+    0.0975802887,
+    0.116530936,
+    0.0695809534,
+    0.0276979902,
+    0.0082692744,
+    0.0019750429,
+    0.0003931012,
+    6.70634e-05
+   ],
+   [
+    0.0784373069,
+    0.0936702782,
+    0.0559307896,
+    0.0222642891,
+    0.0066470352,
+    0.0015875854,
+    0.0003159839,
+    5.39071e-05
+   ],
+   [
+    0.0420331551,
+    0.050196233,
+    0.0299723135,
+    0.0119310358,
+    0.0035620277,
+    0.0008507588,
+    0.0001693302,
+    2.88879e-05
+   ],
+   [
+    0.0168936141,
+    0.0201744501,
+    0.0120462216,
+    0.0047952221,
+    0.0014316204,
+    0.0003419298,
+    6.80558e-05,
+    1.16104e-05
+   ],
+   [
+    0.0054317921,
+    0.006486677,
+    0.0038732133,
+    0.0015418044,
+    0.0004603079,
+    0.0001099405,
+    2.18819e-05,
+    3.7331e-06
+   ],
+   [
+    0.0014554003,
+    0.0017380473,
+    0.001037793,
+    0.0004131128,
+    0.0001233354,
+    2.94576e-05,
+    5.8631e-06,
+    1.0002e-06
+   ],
+   [
+    0.0003342527,
+    0.0003991665,
+    0.0002383435,
+    9.4877e-05,
+    2.83257e-05,
+    6.7653e-06,
+    1.3465e-06,
+    2.297e-07
+   ]
+  ],
+  "veri_kaynagi_raporu": {
+   "son_tarih": "2026-11-27",
+   "ayni": 95,
+   "eklenen": 110,
+   "fd_sha256": "2c0cf2d3b5938c496b1ad1ab133c70afe23830eaf6136f8ef0d0287eff8c84ca",
+   "fd_erisim_utc": "2026-11-28T01:02:13+00:00",
+   "atif": "Football data provided by the Football-Data.org API"
+  },
+  "mac_kimligi_dogrulama": {
+   "nesine": "nesine:3333015",
+   "fd_mac_id": 561967,
+   "utc": "2026-11-28T15:00:00+00:00",
+   "durum": "SCHEDULED",
+   "anlik_goruntu": "20261128T002559Z"
+  }
+ },
+ "sha256": "cefb50353baafaab998b6b8fc1be02436c96a5c86606a9039857846279f4fe6b"
+}
