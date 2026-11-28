@@ -57,6 +57,16 @@ Kullanıcı bir araştırma görevi verdiğinde süreç baştan sona Claude tara
 
 **Yeni oturum başında (bir kez, kısa):** hafızanın SessionStart ile geri yüklendiğini doğrula (`sohbet hafiza`); daha önce açılamayan 2–3 resmî kulüp/istatistik sayfasıyla `web-fetch` erişimini dene. Çalışıyorsa kaynakları tam sayfadan oku; çalışmıyorsa arama ve alternatif güvenilir kaynaklarla devam et. Yeni kaynak ekleme çalışması yapılmaz (47 host yeterli).
 
+**Araştırma disiplini (zorunlu, 28.11):**
+- Haberleri yalnızca `sohbet haber-kaydet DOSYA.json` ile kaydet ve değerlendir; zaman damgasını, turu ve doğrulama düzeyini komut verir. Doğrulama aşamasını atlayıp elle Python kaydı ya da elle rapor yapma; rapor komutun değerlendirmesine dayanır.
+- Her haberin yayın tarihini ve hangi karşılaşmaya ait olduğunu doğrula (`yayin_utc`, `ilgili_mac_dogrulandi`). Eski maçın önizlemesindeki durum (ör. sakatlık) güncel durum gibi sunulmaz.
+- Kesin ilk 11: önce resmî kulüp ya da lig kaynağı (tam sayfa), sonra bağımsız ikinci kaynak (ulusal yayıncı ya da yerel basın). Yalnızca arama özeti varsa "doğrulanmadı" yaz; tahminî kadroyu resmî kadro gibi sunma.
+- Her turda gerçek UTC zamanını ve maça kalan süreyi birlikte göster (ör. "19:20Z · T−40dk"; `T-90dk` etiketi yalnızca son 90 dk penceresidir).
+- Önceki turlarda doğrulanmış bilgiyi ve değişmeyen istatistiği yeniden araştırma; yalnızca değişen ya da belirsiz kalan konulara odaklan.
+- Her önemli istatistiği ilgili marketin gerçekleşme koşuluyla eşleştir; bağlantı yoksa "bağlam" olarak ayrı yaz. Yeterli veri yoksa olasılık üretme: "hesaplanamaz".
+- **Devre verisi:** football-data.org kapsamındaki liglerde maç bazında İY skoru oradan alınır. Kapsam dışı liglerde açık, okunabilir alternatifler aranır (ör. sport.tv2.dk maç sayfaları gol dakikalarını verir; İY skoru dakikalardan, 45+ dahil, türetilir ve kaynağıyla belirtilir). Ortalama, olay sayısının yerine kullanılmaz; maç bazında sayım yoksa "olay sayısı doğrulanamadı" yazılır.
+- Kaynakları çeşitlendir: resmî kulüp, lig, ulusal yayıncı, yerel basın (ülke dilinde), istatistik ve bağımsız analiz. Önemli iddiayı farklı türden ikinci kaynakla doğrula; izinli olmak okunabilir olmak demek değildir (içeriği sonradan yükleyen sayfalar, bot engeli).
+
 **Araştırma yöntemi (varsayılan, 27.11):**
 - Keşif yapan araştırmacı gibi çalış: hipotez kur, kanıt ara, karşıt kanıtı özellikle ara; daha güçlü market ya da maç çıkarsa yön değiştir. Yalnızca model kapsamındaki maçlarla sınırlanma.
 - Güncel içerik için WebSearch `mode: "extended"` + resmî/yerel `allowed_domains` + ülke dili. Engelli bir alan bütün sorguyu 400 ile düşürür; onu çıkarıp yeniden dene.

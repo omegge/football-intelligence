@@ -20,6 +20,15 @@ description: Bir futbol maçı için haber, sakatlık, ceza, ilk 11, teknik dire
   - Aynı ilk kaynağı kopyalayan sayfalar tek zincirdir.
 - **Tur:** T−24s / T−6s / T−90dk (`mac` çıktısında şu anki tur yazar). Eski tur "GÜNCEL DEĞİL" sayılır.
 
+## Araştırma disiplini (CLAUDE.md ile aynı, 28.11)
+- Kayıt ve değerlendirme yalnızca `sohbet haber-kaydet`; elle Python kaydı ya da elle rapor yok.
+- Yayın tarihi ve ilgili maç doğrulanır; başka maçın önizlemesindeki durum güncel sayılmaz.
+- Kesin ilk 11: resmî kulüp/lig (tam sayfa) → bağımsız ikinci kaynak; yalnızca arama özeti = "doğrulanmadı".
+- Raporda gerçek UTC zamanı + maça kalan süre ("19:20Z · T−40dk").
+- Önceki turda doğrulanan bilgi yeniden aranmaz; yalnızca değişen/belirsiz konular.
+- İstatistik ↔ market koşulu eşleştirilir; veri yetersizse "hesaplanamaz". Devre için maç bazında sayım; ortalama yerine geçmez.
+- Not: yukarıdaki "Sayfa okuma" (`sayfa_acilabilir_mi`) kuralı Python tarafındaki okuma içindir; Claude'un `web-fetch` okuması ortamın izin listesiyle sınırlıdır (CLAUDE.md).
+
 ## Güncellik ve dil
 - Her aramaya maçın tarihini ya da haftasını ekle. Sonuçların yayın tarihini kontrol et.
 - Eski sezon sayfaları ve önceki eşleşmeler "geçmiş bağlam" olarak etiketlenir; güncel kadro haberi sayılmaz.
